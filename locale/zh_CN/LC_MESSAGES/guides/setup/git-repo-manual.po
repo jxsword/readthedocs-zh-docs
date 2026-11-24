@@ -42,7 +42,7 @@ msgid ""
 "have to :doc:`configure the repository automatically </reference/git-"
 "integration>`."
 msgstr ""
-"手动导入的 Git 仓库**没有** 回传**提交状态** 所需的配置。若需要此集成，必须 :doc:`自动配置仓库 </reference/git-"
+"手动导入的 Git 仓库**没有** 回传** 提交状态** 所需的配置。若需要此集成，必须 :doc:`自动配置仓库 </reference/git-"
 "integration>` 。"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:30
