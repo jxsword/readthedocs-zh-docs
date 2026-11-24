@@ -126,7 +126,7 @@ msgstr "每个 Addon 的单独配置选项可在项目设置中找到。"
 
 #: ../../upstream/docs/user/addons.rst:43
 msgid "Go to your project's :menuselection:`Settings --> Addons`."
-msgstr "前往项目的 :menuselection:`Settings --> Addons`。"
+msgstr "前往项目的 :menuselection:`Settings --> Addons` 。"
 
 #: ../../upstream/docs/user/addons.rst:44
 msgid "Configure each Addon individually."
@@ -182,7 +182,7 @@ msgid ""
 "theme's CSS:"
 msgstr ""
 "Addon 使用 CSS 自定义属性（`CSS 变量 <https://developer.mozilla.org/en-"
-"US/docs/Web/CSS/--*>`_）以便轻松定制。要定制 Addon，请将 CSS 变量定义添加到你的主题 CSS 中："
+"US/docs/Web/CSS/--*>`_ ）以便轻松定制。要定制 Addon，请将 CSS 变量定义添加到你的主题 CSS 中："
 
 #: ../../upstream/docs/user/addons.rst:98
 msgid "CSS variables reference"
@@ -359,7 +359,7 @@ msgid ""
 "documentation. The event provides access to the version data, project "
 "information, and other Addons configuration."
 msgstr ""
-"Read the Docs 提供了一个自定义事件 ``readthedocs-addons-data-ready``，允许你访问 Addon "
+"Read the Docs 提供了一个自定义事件 ``readthedocs-addons-data-ready`` ，允许你访问 Addon "
 "数据并将其集成到你的主题或文档中。该事件提供版本数据、项目信息和其他 Addon 配置的访问权限。"
 
 #: ../../upstream/docs/user/addons.rst:157
@@ -444,5 +444,5 @@ msgid ""
 "and we would love to work with you."
 msgstr ""
 "你可以通过深入阅读上述每个 Addon 来了解所有 Addon 功能。如果你是开发者，想要与我们的 Addon 集成或使用现有数据，可以 "
-":doc:`联系我们 </support>`，我们非常乐意合作。"
+":doc:`联系我们 </support>` ，我们非常乐意合作。"
 

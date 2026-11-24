@@ -78,7 +78,7 @@ msgstr "``devthedocs.com``"
 msgid ""
 "The :term:`slug` of the project being built. For example, ``my-example-"
 "project``."
-msgstr "正在构建的项目的 :term:`slug`。例如 ``my-example-project``。"
+msgstr "正在构建的项目的 :term:`slug` 。例如 ``my-example-project`` 。"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:29
 msgid ""
@@ -113,14 +113,14 @@ msgid ""
 " or a branch name like ``feature-1234``. For :doc:`pull request builds "
 "</pull-requests>`, the value will be the pull request number."
 msgstr ""
-"正在构建的版本的 :term:`slug`，如 ``latest``、``stable`` 或分支名（如 ``feature-1234``）。对于 "
-":doc:`Pull Request 构建 </pull-requests>`，值为 Pull Request 编号。"
+"正在构建的版本的 :term:`slug` ，如 ``latest`` 、``stable`` 或分支名（如 ``feature-1234`` ）。对于"
+" :doc:`Pull Request 构建 </pull-requests>` ，值为 Pull Request 编号。"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:47
 msgid ""
 "The verbose name of the version being built, such as ``latest``, ``stable``,"
 " or a branch name like ``feature/1234``."
-msgstr "正在构建的版本的详细名称，如 ``latest``、``stable`` 或分支名（如 ``feature/1234``）。"
+msgstr "正在构建的版本的详细名称，如 ``latest`` 、``stable`` 或分支名（如 ``feature/1234`` ）。"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:52
 msgid "The type of the version being built."
@@ -136,7 +136,7 @@ msgstr "``tag``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:56
 msgid "``external`` (for :doc:`pull request builds </pull-requests>`)"
-msgstr "``external`` （用于 :doc:`Pull Request 构建 </pull-requests>`）"
+msgstr "``external`` （用于 :doc:`Pull Request 构建 </pull-requests>` ）"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:57
 msgid "``unknown``"
@@ -168,10 +168,10 @@ msgid ""
 "$READTHEDOCS_OUTPUT/html/``. Note that only ``html`` supports multiple "
 "files, the other formats should have one and only one file to be uploaded."
 msgstr ""
-"你需要将输出格式拼接到此变量。当前有效格式为 ``html``、``pdf``、``htmlzip`` 和 ``epub``。（例如 "
-"``$READTHEDOCS_OUTPUT/html/`` 或 "
-"``$READTHEDOCS_OUTPUT/pdf/``）移动输出到目标前需先创建目录，可用命令 ``mkdir -p "
-"$READTHEDOCS_OUTPUT/html/`` 创建。注意仅 ``html`` 支持多文件，其他格式应仅有一个文件上传。"
+"你需要将输出格式拼接到此变量。当前有效格式为 ``html`` 、``pdf`` 、``htmlzip`` 和 ``epub`` 。（例如 "
+"``$READTHEDOCS_OUTPUT/html/`` 或 ``$READTHEDOCS_OUTPUT/pdf/`` "
+"）移动输出到目标前需先创建目录，可用命令 ``mkdir -p $READTHEDOCS_OUTPUT/html/`` 创建。注意仅 ``html`` "
+"支持多文件，其他格式应仅有一个文件上传。"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:80
 msgid ":ref:`build-customization:where to put files`"
@@ -191,9 +191,8 @@ msgid ""
 "Otherwise, your project's :ref:`default subdomain <default-subdomain>` will "
 "be used."
 msgstr ""
-"构建版本的规范基础 URL。如果项目配置了 :doc:`自定义域名 </custom-domains>` （如 "
-"``docs.example.com``），将在生成的规范 URL 中使用。否则，将使用项目的 :ref:`默认子域名 <default-"
-"subdomain>`。"
+"构建版本的规范基础 URL。如果项目配置了 :doc:`自定义域名 </custom-domains>` （如 ``docs.example.com``"
+" ），将在生成的规范 URL 中使用。否则，将使用项目的 :ref:`默认子域名 <default-subdomain>` 。"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:89
 msgid ""

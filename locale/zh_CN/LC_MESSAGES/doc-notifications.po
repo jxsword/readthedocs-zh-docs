@@ -44,19 +44,19 @@ msgstr "当前的通知有："
 msgid ""
 "**Pull request warning**: Show a notification on builds from pull requests, "
 "with a link back to the pull request for giving feedback."
-msgstr "**Pull Request 警告**：在 Pull Request 构建上显示通知，并提供返回 Pull Request 的链接以便反馈。"
+msgstr "**Pull Request 警告** ：在 Pull Request 构建上显示通知，并提供返回 Pull Request 的链接以便反馈。"
 
 #: ../../upstream/docs/user/doc-notifications.rst:14
 msgid ""
 "**Latest version warning**: Show a notification on latest version, warning "
 "users that they are reading docs from a development version."
-msgstr "**最新版本警告**：在最新版本上显示通知，提醒用户正在阅读开发版本的文档。"
+msgstr "**最新版本警告** ：在最新版本上显示通知，提醒用户正在阅读开发版本的文档。"
 
 #: ../../upstream/docs/user/doc-notifications.rst:15
 msgid ""
 "**Non-stable version warning**: Show a notification on non-stable versions, "
 "warning users that they are reading docs from a non-stable release."
-msgstr "**非稳定版本警告**：在非稳定版本上显示通知，提醒用户正在阅读非稳定发布的文档。"
+msgstr "**非稳定版本警告** ：在非稳定版本上显示通知，提醒用户正在阅读非稳定发布的文档。"
 
 #: ../../upstream/docs/user/doc-notifications.rst:18
 msgid "Manage notifications"
@@ -68,7 +68,7 @@ msgstr "管理项目通知："
 
 #: ../../upstream/docs/user/doc-notifications.rst:22
 msgid "Go to your project's :menuselection:`Settings --> Addons --> Notifications`."
-msgstr "前往项目的 :menuselection:`Settings --> Addons --> Notifications`。"
+msgstr "前往项目的 :menuselection:`Settings --> Addons --> Notifications` 。"
 
 #: ../../upstream/docs/user/doc-notifications.rst:23
 msgid "Configure each notification."

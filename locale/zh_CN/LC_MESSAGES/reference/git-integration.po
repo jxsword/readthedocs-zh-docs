@@ -46,7 +46,7 @@ msgstr "🔁️ 列出你的项目"
 msgid ""
 "Select a project to automatically import from all your Git repositories and "
 "organizations. See: :doc:`/intro/add-project`."
-msgstr "从所有 Git 仓库和组织中选择项目自动导入。见：:doc:`/intro/add-project`。"
+msgstr "从所有 Git 仓库和组织中选择项目自动导入。见：:doc:`/intro/add-project` 。"
 
 #: ../../upstream/docs/user/reference/git-integration.rst:14
 msgid "⚙️ Automatic configuration"
@@ -57,7 +57,7 @@ msgid ""
 "Have your Git repository automatically configured with your Read the Docs "
 ":term:`webhook`, which allows Read the Docs to build your docs on every "
 "change to your repository."
-msgstr "你的 Git 仓库将自动配置 Read the Docs :term:`webhook`，使 Read the Docs 能在仓库每次变更时构建文档。"
+msgstr "你的 Git 仓库将自动配置 Read the Docs :term:`webhook` ，使 Read the Docs 能在仓库每次变更时构建文档。"
 
 #: ../../upstream/docs/user/reference/git-integration.rst:18
 msgid "🚥️ Commit status"
@@ -110,7 +110,7 @@ msgstr "如果你用邮箱注册了 Read the Docs，之后可添加 Git 服务�
 
 #: ../../upstream/docs/user/reference/git-integration.rst:41
 msgid "Please follow :doc:`/guides/connecting-git-account` in this case."
-msgstr "这种情况下请参考 :doc:`/guides/connecting-git-account`。"
+msgstr "这种情况下请参考 :doc:`/guides/connecting-git-account` 。"
 
 #: ../../upstream/docs/user/reference/git-integration.rst:43
 msgid ""
@@ -177,7 +177,7 @@ msgid ""
 "configuration </guides/setup/git-repo-manual>`."
 msgstr ""
 "具有 |git_providers_and| 集成的账户，导入的所有 Git 仓库会自动配置 Read the Docs 的传入 "
-":term:`webhook`。其他设置可通过 :doc:`手动配置 </guides/setup/git-repo-manual>` 设置 "
+":term:`webhook` 。其他设置可通过 :doc:`手动配置 </guides/setup/git-repo-manual>` 设置 "
 "Webhook。"
 
 #: ../../upstream/docs/user/reference/git-integration.rst:75
@@ -201,11 +201,11 @@ msgstr "根据 Git 中最新的标签和分支数据同步版本。"
 
 #: ../../upstream/docs/user/reference/git-integration.rst:84
 msgid "Creates a :doc:`pull request build </pull-requests>`."
-msgstr "创建 :doc:`Pull Request 构建 </pull-requests>`。"
+msgstr "创建 :doc:`Pull Request 构建 </pull-requests>` 。"
 
 #: ../../upstream/docs/user/reference/git-integration.rst:85
 msgid "Runs your :doc:`automation rules</automation-rules>`."
-msgstr "运行你的 :doc:`自动化规则 </automation-rules>`。"
+msgstr "运行你的 :doc:`自动化规则 </automation-rules>` 。"
 
 #: ../../upstream/docs/user/reference/git-integration.rst:87
 msgid "Screenshot of the Dashboard view for the incoming webhook"
@@ -225,7 +225,7 @@ msgid ""
 " access in two places. See more in our :ref:`sso_git_provider`."
 msgstr ""
 "在 |com_brand| 上，Git 集成让我们能从 Git 服务商同步仓库访问权限。这样相同的访问权限在 Read the Docs "
-"上生效，无需在两处配置。详见 :ref:`sso_git_provider`。"
+"上生效，无需在两处配置。详见 :ref:`sso_git_provider` 。"
 
 #: ../../upstream/docs/user/reference/git-integration.rst:99
 msgid "How does the connection work?"
@@ -418,7 +418,7 @@ msgstr "GitHub"
 msgid ""
 "Read the Docs requests the following permissions (more precisely, `OAuth "
 "scopes`_) when connecting your Read the Docs account to GitHub."
-msgstr "连接 Read the Docs 账户到 GitHub 时，Read the Docs 请求以下权限（更准确说是 `OAuth scopes`_）："
+msgstr "连接 Read the Docs 账户到 GitHub 时，Read the Docs 请求以下权限（更准确说是 `OAuth scopes`_ ）："
 
 #: ../../upstream/docs/user/reference/git-integration.rst:183
 msgid "Read access to your email address (``user:email``)"
@@ -439,7 +439,7 @@ msgid ""
 "We ask for this so we can create :term:`webhooks <webhook>` on your "
 "repositories when you import them into Read the Docs. This allows us to "
 "build the docs when you push new commits."
-msgstr "请求此权限以便将仓库导入 Read the Docs 时创建 :term:`webhooks <webhook>`。这让我们能在你推送新提交时构建文档。"
+msgstr "请求此权限以便将仓库导入 Read the Docs 时创建 :term:`webhooks <webhook>` 。这让我们能在你推送新提交时构建文档。"
 
 #: ../../upstream/docs/user/reference/git-integration.rst:190
 msgid "Read access to your organizations (``read:org``)"
@@ -494,8 +494,8 @@ msgid ""
 "build the docs when you push new commits. NB! This permission scope does "
 "**not** include any write access to code."
 msgstr ""
-"请求此权限以便将仓库导入 Read the Docs 时创建 :term:`webhooks "
-"<webhook>`。这让我们能在你推送新提交时构建文档。注意！此权限范围**不** 包含任何代码写入权限。"
+"请求此权限以便将仓库导入 Read the Docs 时创建 :term:`webhooks <webhook>` "
+"。这让我们能在你推送新提交时构建文档。注意！此权限范围**不** 包含任何代码写入权限。"
 
 #: ../../upstream/docs/user/reference/git-integration.rst:216
 msgid "Reading your account information including your email address"
@@ -547,7 +547,7 @@ msgstr "GitHub 权限故障排查"
 
 #: ../../upstream/docs/user/reference/git-integration.rst:244
 msgid "**Repositories not in your list to import**."
-msgstr "**仓库不在导入列表中**。"
+msgstr "**仓库不在导入列表中** 。"
 
 #: ../../upstream/docs/user/reference/git-integration.rst:246
 msgid ""
@@ -565,9 +565,9 @@ msgid ""
 "to use for your project. See :ref:`GitHub App troubleshooting <reference"
 "/git-integration:Troubleshooting>` for more information."
 msgstr ""
-"如果你使用 :ref:`GitHub App <reference/git-integration:GitHub App>`，只需确保 GitHub "
+"如果你使用 :ref:`GitHub App <reference/git-integration:GitHub App>` ，只需确保 GitHub "
 "App 已安装在你的账户或组织中，且有权访问你想用于项目的仓库。详见 :ref:`GitHub App 故障排查 <reference/git-"
-"integration:Troubleshooting>`。"
+"integration:Troubleshooting>` 。"
 
 #: ../../upstream/docs/user/reference/git-integration.rst:260
 msgid "Personal Account"
@@ -729,7 +729,7 @@ msgid ""
 "files changed."
 msgstr ""
 ":ref:`Pull Request 上的构建概览评论 <visual-diff:Show build overview in pull "
-"requests>`，含预览链接和变更文件列表。"
+"requests>` ，含预览链接和变更文件列表。"
 
 #: ../../upstream/docs/user/reference/git-integration.rst:326
 msgid ""
@@ -737,8 +737,8 @@ msgid ""
 "rules, for example to :doc:`skip builds </guides/build/skip-or-cancel-"
 "builds>` when no documentation files changed."
 msgstr ""
-"自动化规则中的 :ref:`Webhook 过滤器 <automation-rules:Webhook filters>`，例如 "
-":doc:`无文档文件变更时跳过构建 </guides/build/skip-or-cancel-builds>`。"
+"自动化规则中的 :ref:`Webhook 过滤器 <automation-rules:Webhook filters>` ，例如 "
+":doc:`无文档文件变更时跳过构建 </guides/build/skip-or-cancel-builds>` 。"
 
 #: ../../upstream/docs/user/reference/git-integration.rst:330
 msgid "Adding a project from a repository"
@@ -784,7 +784,7 @@ msgid ""
 "instructions from there."
 msgstr ""
 "安装 GitHub App 后，在 Read the Docs 点击 :guilabel:`Projects` 标签，点击 :guilabel:`Add"
-" project`，搜索要创建项目的仓库，然后按说明操作。"
+" project` ，搜索要创建项目的仓库，然后按说明操作。"
 
 #: ../../upstream/docs/user/reference/git-integration.rst:344
 msgid "Connect a repository to an existing project"
@@ -808,7 +808,7 @@ msgid ""
 ":menuselection:`Settings` in Read the Docs, and select the repository you "
 "want to connect from the :guilabel:`Connected repository` dropdown."
 msgstr ""
-"安装 GitHub App 后，前往 Read the Docs 中项目的 :menuselection:`Settings`，从 "
+"安装 GitHub App 后，前往 Read the Docs 中项目的 :menuselection:`Settings` ，从 "
 ":guilabel:`Connected repository` 下拉框选择要连接的仓库。"
 
 #: ../../upstream/docs/user/reference/git-integration.rst:359
@@ -847,7 +847,7 @@ msgstr "但如需手动迁移项目，可按以下步骤操作："
 msgid ""
 "Go to your Read the Docs project's :menuselection:`Settings --> "
 "Integrations`, and delete all the integrations that are listed there."
-msgstr "前往 Read the Docs 项目的 :menuselection:`Settings --> Integrations`，删除列出的所有集成。"
+msgstr "前往 Read the Docs 项目的 :menuselection:`Settings --> Integrations` ，删除列出的所有集成。"
 
 #: ../../upstream/docs/user/reference/git-integration.rst:371
 msgid ""
@@ -892,7 +892,7 @@ msgid ""
 "integration:Connect a repository to an existing project>`."
 msgstr ""
 ":ref:`将项目连接到仓库 <reference/git-integration:Connect a repository to an "
-"existing project>`。"
+"existing project>` 。"
 
 #: ../../upstream/docs/user/reference/git-integration.rst:383
 msgid "Revoking access"
@@ -909,7 +909,7 @@ msgid ""
 msgstr ""
 "若用下述任一方法撤销 GitHub App 访问权，关联该仓库的所有项目将停止工作，但项目及其文档仍可用。若再次授予仓库访问权，需 "
 ":ref:`手动将项目连接到仓库 <reference/git-integration:Connect a repository to an "
-"existing project>`。"
+"existing project>` 。"
 
 #: ../../upstream/docs/user/reference/git-integration.rst:393
 msgid ""
@@ -974,7 +974,7 @@ msgid ""
 msgstr ""
 "克隆私有仓库时（仅 |com_brand|），Read the Docs 会创建一个 `installation access token "
 "<https://docs.github.com/en/rest/apps/apps?apiVersion=2022-11-28#create-an-"
-"installation-access-token-for-an-app>`__，具有 `contents permission "
+"installation-access-token-for-an-app>`__ ，具有 `contents permission "
 "<https://docs.github.com/en/rest/authentication/permissions-required-for-"
 "github-apps?apiVersion=2022-11-28#repository-permissions-for-contents>`__ "
 "读取权限，且仅针对待克隆仓库。"
@@ -1005,7 +1005,7 @@ msgstr "如果仓库是公开的，Read the Docs 不会创建 installation acces
 msgid ""
 "The build log page is publicly accessible only if your project and version "
 "to build are marked as public. See more in :doc:`/commercial/privacy-level`."
-msgstr "仅当项目和待构建版本标记为公开时，构建日志页面才公开可访问。详见 :doc:`/commercial/privacy-level`。"
+msgstr "仅当项目和待构建版本标记为公开时，构建日志页面才公开可访问。详见 :doc:`/commercial/privacy-level` 。"
 
 #: ../../upstream/docs/user/reference/git-integration.rst:437
 msgid "Troubleshooting"
@@ -1045,7 +1045,7 @@ msgstr ""
 "如果你不是 GitHub 组织的所有者，GitHub 会向组织所有者发送安装请求而非直接安装 App。Read the Docs "
 "无法访问组织仓库，直到所有者批准请求。请参阅 GitHub 文档中的 `请求组织的 GitHub App "
 "<https://docs.github.com/en/apps/using-github-apps/requesting-a-github-app-"
-"from-your-organization-owner>`__。"
+"from-your-organization-owner>`__ 。"
 
 #: ../../upstream/docs/user/reference/git-integration.rst:456
 msgid "Repository is in the list, but isn't usable"

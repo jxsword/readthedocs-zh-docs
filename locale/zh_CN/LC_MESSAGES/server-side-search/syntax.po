@@ -22,51 +22,52 @@ msgstr ""
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:2
 msgid "Search query syntax"
-msgstr ""
+msgstr "搜索查询语法"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:4
 msgid ""
-"When searching on Read the Docs with :doc:`server side search </server-"
-"side-search/index>`, you can use some parameters in your query in order "
-"to search on given projects, versions, or to get more accurate results."
+"When searching on Read the Docs with :doc:`server side search </server-side-"
+"search/index>`, you can use some parameters in your query in order to search"
+" on given projects, versions, or to get more accurate results."
 msgstr ""
+"在 Read the Docs 上使用 :doc:`服务器端搜索 </server-side-search/index>` "
+"时，你可以在查询中使用一些参数，以搜索指定项目、版本或获得更精确的结果。"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:9
 msgid "Parameters"
-msgstr ""
+msgstr "参数"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:11
 msgid ""
-"Parameters are in the form of ``name:value``, they can appear anywhere in"
-" the query, and depending on the parameter, you can use one or more of "
-"them."
-msgstr ""
+"Parameters are in the form of ``name:value``, they can appear anywhere in "
+"the query, and depending on the parameter, you can use one or more of them."
+msgstr "参数形式为 ``name:value`` ，可出现在查询的任何位置，视参数而定可使用一个或多个。"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:15
 msgid ""
-"Any other text that isn't a parameter will be part of the search query. "
-"If you don't want your search term to be interpreted as a parameter, you "
-"can escape it like ``project\\:docs``."
-msgstr ""
+"Any other text that isn't a parameter will be part of the search query. If "
+"you don't want your search term to be interpreted as a parameter, you can "
+"escape it like ``project\\:docs``."
+msgstr "任何非参数的其他文本都会成为搜索查询的一部分。若不希望搜索词被解释为参数，可像 ``project\\:docs`` 这样转义。"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:21
 msgid "Unknown parameters like ``foo:bar`` don't require escaping."
-msgstr ""
+msgstr "像 ``foo:bar`` 这样的未知参数无需转义。"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:23
 msgid "The available parameters are:"
-msgstr ""
+msgstr "可用参数如下："
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:25
 msgid "project"
-msgstr ""
+msgstr "project"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:26
 msgid ""
 "Indicates the project and version to include results from (this doesn’t "
 "include subprojects or translations). If the version isn’t provided, the "
 "default version will be used. More than one parameter can be included."
-msgstr ""
+msgstr "指明要包含结果的项目和版本（不包含子项目或翻译）。若未提供版本，则使用默认版本。可包含多个该参数。"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:31
 #: ../../upstream/docs/user/server-side-search/syntax.rst:45
@@ -76,195 +77,196 @@ msgstr ""
 #: ../../upstream/docs/user/server-side-search/syntax.rst:125
 #: ../../upstream/docs/user/server-side-search/syntax.rst:136
 msgid "Examples:"
-msgstr ""
+msgstr "示例："
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:33
 msgid "``project:docs test``"
-msgstr ""
+msgstr "``project:docs test``"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:34
 msgid "``project:docs/latest test``"
-msgstr ""
+msgstr "``project:docs/latest test``"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:35
 msgid "``project:docs/stable project:dev test``"
-msgstr ""
+msgstr "``project:docs/stable project:dev test``"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:37
 msgid "subprojects"
-msgstr ""
+msgstr "subprojects"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:38
 msgid ""
-"Include results from the given project and its subprojects. If the "
-"version isn't provided, the default version of all projects will be used."
-" If a version is provided, all subprojects matching that version will be "
-"included, and if they don't have a version with that name, we use their "
-"default version. More than one parameter can be included."
-msgstr ""
+"Include results from the given project and its subprojects. If the version "
+"isn't provided, the default version of all projects will be used. If a "
+"version is provided, all subprojects matching that version will be included,"
+" and if they don't have a version with that name, we use their default "
+"version. More than one parameter can be included."
+msgstr "包含给定项目及其子项目的结果。若未提供版本，则使用所有项目的默认版本。若提供了版本，则包含所有匹配该版本的子项目；若子项目没有同名版本，则使用其默认版本。可包含多个该参数。"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:47
 msgid "``subprojects:docs test``"
-msgstr ""
+msgstr "``subprojects:docs test``"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:48
 msgid "``subprojects:docs/latest test``"
-msgstr ""
+msgstr "``subprojects:docs/latest test``"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:49
 msgid "``subprojects:docs/stable subprojects:dev test``"
-msgstr ""
+msgstr "``subprojects:docs/stable subprojects:dev test``"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:51
 msgid "user"
-msgstr ""
+msgstr "user"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:52
 msgid ""
 "Include results from projects the given user has access to. The only "
-"supported value is ``@me``, which is an alias for the current user. Only "
-"one parameter can be included. If duplicated, the last one will override "
-"the previous one."
-msgstr ""
+"supported value is ``@me``, which is an alias for the current user. Only one"
+" parameter can be included. If duplicated, the last one will override the "
+"previous one."
+msgstr "包含给定用户有权访问的项目的结果。唯一支持的值为 ``@me`` ，即当前用户的别名。只能包含一个该参数；若重复出现，后者覆盖前者。"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:60
 msgid "``user:@me test``"
-msgstr ""
+msgstr "``user:@me test``"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:63
 msgid "Permissions"
-msgstr ""
+msgstr "权限"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:65
 msgid ""
 "If the user doesn’t have permission over one version, or if the version "
 "doesn’t exist, we don’t include results from that version."
-msgstr ""
+msgstr "若用户对某版本没有权限，或该版本不存在，我们不包含该版本的结果。"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:68
 msgid ""
 "The API will return all the projects that were used in the final search, "
-"with that information you can check which projects were used in the "
-"search."
-msgstr ""
+"with that information you can check which projects were used in the search."
+msgstr "API 会返回最终搜索中用到的所有项目，据此你可以核对搜索使用了哪些项目。"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:72
 msgid "Limitations"
-msgstr ""
+msgstr "限制"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:74
 msgid ""
-"In order to keep our search usable for everyone, you can search up to 100"
-" projects at a time. If the resulting query includes more than 100 "
-"projects, they will be omitted from the final search."
-msgstr ""
+"In order to keep our search usable for everyone, you can search up to 100 "
+"projects at a time. If the resulting query includes more than 100 projects, "
+"they will be omitted from the final search."
+msgstr "为保证搜索对所有人可用，你一次最多可搜索 100 个项目。若最终查询包含超过 100 个项目，超出部分会从最终搜索中省略。"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:79
 msgid ""
-"This syntax is only available when using our search API V3 or when using "
-"the global search (https://app.readthedocs.org/search/)."
-msgstr ""
+"This syntax is only available when using our search API V3 or when using the"
+" global search (https://app.readthedocs.org/search/)."
+msgstr "此语法仅在使用我们的搜索 API V3 或全局搜索（https://app.readthedocs.org/search/）时可用。"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:82
 msgid ""
-"Searching multiple versions of the same project isn't supported, the last"
-" version will override the previous one."
-msgstr ""
+"Searching multiple versions of the same project isn't supported, the last "
+"version will override the previous one."
+msgstr "不支持搜索同一项目的多个版本，后者会覆盖前者。"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:86
 msgid "Special queries"
-msgstr ""
+msgstr "特殊查询"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:88
 msgid ""
-"Read the Docs uses the `Simple Query String`_ feature from "
-"`Elasticsearch`_. This means that as the search query becomes more "
-"complex, the results yielded become more specific."
+"Read the Docs uses the `Simple Query String`_ feature from `Elasticsearch`_."
+" This means that as the search query becomes more complex, the results "
+"yielded become more specific."
 msgstr ""
+"Read the Docs 使用 `Elasticsearch`_ 的 `Simple Query String`_ "
+"功能。这意味着搜索查询越复杂，得到的结果越精确。"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:96
 msgid "Exact phrase search"
-msgstr ""
+msgstr "精确短语搜索"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:98
 msgid ""
 "If a query is wrapped in ``\"`` (double quotes), then only those results "
 "where the phrase is exactly matched will be returned."
-msgstr ""
+msgstr "若查询用 ``\"`` （双引号）包裹，则只返回短语完全匹配的结果。"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:103
 msgid "``\"custom css\"``"
-msgstr ""
+msgstr "``\"custom css\"``"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:104
 msgid "``\"adding a subproject\"``"
-msgstr ""
+msgstr "``\"adding a subproject\"``"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:105
 msgid "``\"when a 404 is returned\"``"
-msgstr ""
+msgstr "``\"when a 404 is returned\"``"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:108
 msgid "Prefix query"
-msgstr ""
+msgstr "前缀查询"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:110
 msgid ""
-"``*`` (asterisk) at the end of any term signifies a prefix query. It "
-"returns the results containing the words with the specific prefix."
-msgstr ""
+"``*`` (asterisk) at the end of any term signifies a prefix query. It returns"
+" the results containing the words with the specific prefix."
+msgstr "任意词末尾的 ``*`` （星号）表示前缀查询，返回包含该前缀词语的结果。"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:115
 msgid "``test*``"
-msgstr ""
+msgstr "``test*``"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:116
 msgid "``build*``"
-msgstr ""
+msgstr "``build*``"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:119
 msgid "Fuzziness"
-msgstr ""
+msgstr "模糊匹配"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:121
 msgid ""
 "``~N`` (tilde followed by a number) after a word indicates edit distance "
-"(fuzziness). This type of query is helpful when the exact spelling of the"
-" keyword is unknown. It returns results that contain terms similar to the"
-" search term."
-msgstr ""
+"(fuzziness). This type of query is helpful when the exact spelling of the "
+"keyword is unknown. It returns results that contain terms similar to the "
+"search term."
+msgstr "词后跟 ``~N`` （波浪号加数字）表示编辑距离（模糊度）。当关键词确切拼写未知时此类查询很有用，返回包含与搜索词相近词语的结果。"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:127
 msgid "``doks~1``"
-msgstr ""
+msgstr "``doks~1``"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:128
 msgid "``test~2``"
-msgstr ""
+msgstr "``test~2``"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:129
 msgid "``getter~2``"
-msgstr ""
+msgstr "``getter~2``"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:132
 msgid "Words close to each other"
-msgstr ""
+msgstr "相近词语"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:134
 msgid ""
 "``~N`` (tilde followed by a number) after a phrase can be used to match "
 "words that are near to each other."
-msgstr ""
+msgstr "短语后跟 ``~N`` （波浪号加数字）可匹配彼此接近的词语。"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:138
 msgid "``\"dashboard admin\"~2``"
-msgstr ""
+msgstr "``\"dashboard admin\"~2``"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:139
 msgid "``\"single documentation\"~1``"
-msgstr ""
+msgstr "``\"single documentation\"~1``"
 
 #: ../../upstream/docs/user/server-side-search/syntax.rst:140
 msgid "``\"read the docs policy\"~5``"
-msgstr ""
+msgstr "``\"read the docs policy\"~5``"
 

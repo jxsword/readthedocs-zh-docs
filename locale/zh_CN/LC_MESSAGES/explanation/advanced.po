@@ -22,61 +22,59 @@ msgstr ""
 
 #: ../../upstream/docs/user/explanation/advanced.rst:4
 msgid "Deep dive into Read the Docs"
-msgstr ""
+msgstr "深入理解 Read the Docs"
 
 #: ../../upstream/docs/user/explanation/advanced.rst:6
 msgid ""
-"In this section, we explain some of the more specific or advanced "
-"concepts of writing documentation on Read the Docs."
-msgstr ""
+"In this section, we explain some of the more specific or advanced concepts "
+"of writing documentation on Read the Docs."
+msgstr "本节讲解在 Read the Docs 上编写文档时一些更具体或更高级的概念。"
 
 #: ../../upstream/docs/user/explanation/advanced.rst:9
 msgid "⏩️ :doc:`/subprojects`"
-msgstr ""
+msgstr "⏩️ :doc:`/subprojects`"
 
 #: ../../upstream/docs/user/explanation/advanced.rst:10
 msgid ""
-"*Subprojects* are a flexible for gathering multiple projects under the "
-"same domain."
-msgstr ""
+"*Subprojects* are a flexible for gathering multiple projects under the same "
+"domain."
+msgstr "*子项目* 是在同一域名下汇聚多个项目的灵活方式。"
 
 #: ../../upstream/docs/user/explanation/advanced.rst:12
 msgid "⏩️ :doc:`/localization`"
-msgstr ""
+msgstr "⏩️ :doc:`/localization`"
 
 #: ../../upstream/docs/user/explanation/advanced.rst:13
 msgid ""
 "Learn more about multilingual documentation projects and how translation "
 "workflows are supported."
-msgstr ""
+msgstr "进一步了解多语言文档项目以及翻译工作流的支持方式。"
 
 #: ../../upstream/docs/user/explanation/advanced.rst:15
 msgid "⏩️ :doc:`/offline-formats`"
-msgstr ""
+msgstr "⏩️ :doc:`/offline-formats`"
 
 #: ../../upstream/docs/user/explanation/advanced.rst:16
 msgid ""
-"An introduction to adding downloadable files, like PDFs, that can be read"
-" offline."
-msgstr ""
+"An introduction to adding downloadable files, like PDFs, that can be read "
+"offline."
+msgstr "介绍如何添加可离线阅读的可下载文件（如 PDF）。"
 
 #: ../../upstream/docs/user/explanation/advanced.rst:18
 msgid "⏩️ :doc:`/environment-variables`"
-msgstr ""
+msgstr "⏩️ :doc:`/environment-variables`"
 
 #: ../../upstream/docs/user/explanation/advanced.rst:19
 msgid ""
-"Environment variables can be used to make your documentation builds "
-"flexible and easy to customize."
-msgstr ""
+"Environment variables can be used to make your documentation builds flexible"
+" and easy to customize."
+msgstr "环境变量可让你的文档构建更灵活、更易定制。"
 
 #: ../../upstream/docs/user/explanation/advanced.rst:21
 msgid "⏩️ :doc:`/explanation/configuration-file`"
-msgstr ""
+msgstr "⏩️ :doc:`/explanation/configuration-file`"
 
 #: ../../upstream/docs/user/explanation/advanced.rst:22
-msgid ""
-"Some background on our configuration file and versioning configuration "
-"files."
-msgstr ""
+msgid "Some background on our configuration file and versioning configuration files."
+msgstr "介绍我们的配置文件以及配置文件版本化的背景。"
 

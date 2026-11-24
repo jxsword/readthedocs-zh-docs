@@ -130,7 +130,7 @@ msgid ""
 ":doc:`Read the Docs environment variable </reference/environment-"
 "variables>`:"
 msgstr ""
-"使用 :doc:`Read the Docs 环境变量 </reference/environment-variables>`，将你的 MkDocs "
+"使用 :doc:`Read the Docs 环境变量 </reference/environment-variables>` ，将你的 MkDocs "
 "`site URL`_ 设置为 Read the Docs 的规范 URL："
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:83
@@ -167,7 +167,7 @@ msgstr "javascript/readthedocs.js"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:110
 msgid "Include ``javascript/readthedocs.js`` in your MkDocs configuration:"
-msgstr "在你的 MkDocs 配置中包含 ``javascript/readthedocs.js``："
+msgstr "在你的 MkDocs 配置中包含 ``javascript/readthedocs.js`` ："
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:119
 msgid "Integrate the Read the Docs version menu into your site navigation"

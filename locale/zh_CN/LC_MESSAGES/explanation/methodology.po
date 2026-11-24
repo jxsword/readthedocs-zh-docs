@@ -22,63 +22,62 @@ msgstr ""
 
 #: ../../upstream/docs/user/explanation/methodology.rst:4
 msgid "Methodology and best practice"
-msgstr ""
+msgstr "方法论与最佳实践"
 
 #: ../../upstream/docs/user/explanation/methodology.rst:6
 msgid ""
-"In this section, we are covering important methods and best practices "
-"that will make your documentation better."
-msgstr ""
+"In this section, we are covering important methods and best practices that "
+"will make your documentation better."
+msgstr "本节介绍能让你的文档变得更好的重要方法和最佳实践。"
 
 #: ../../upstream/docs/user/explanation/methodology.rst:11
 msgid "`Write the Docs: Topic Archive <https://www.writethedocs.org/topics/>`__"
-msgstr ""
+msgstr "`Write the Docs: Topic Archive <https://www.writethedocs.org/topics/>`__"
 
 #: ../../upstream/docs/user/explanation/methodology.rst:12
 msgid ""
 "A collection of conference talks and articles, indexed by topic (eg. "
 "``Metrics and analytics`` or ``Information architecture``)"
-msgstr ""
+msgstr "按主题索引的会议演讲和文章合集（例如 ``Metrics and analytics`` 或 ``Information architecture`` ）"
 
 #: ../../upstream/docs/user/explanation/methodology.rst:15
 msgid ""
 "You can familiarize yourself with these topics before or after writing "
-"documentation. We encourage that you read this at any time, as this "
-"content is applicable to many stages of the documentation process."
-msgstr ""
+"documentation. We encourage that you read this at any time, as this content "
+"is applicable to many stages of the documentation process."
+msgstr "你可以在编写文档之前或之后熟悉这些主题。我们鼓励你在任何时候阅读，因为这些内容适用于文档流程的许多阶段。"
 
 #: ../../upstream/docs/user/explanation/methodology.rst:19
 msgid "⏩️ :doc:`The Diátaxis Methodology <documentation-structure>`"
-msgstr ""
+msgstr "⏩️ :doc:`Diátaxis 方法论 <documentation-structure>`"
 
 #: ../../upstream/docs/user/explanation/methodology.rst:20
 msgid ""
 "We introduce the Diátaxis methodology which is also used for the "
 "documentation you are now reading."
-msgstr ""
+msgstr "我们介绍 Diátaxis 方法论，你现在阅读的文档也采用了该方法。"
 
 #: ../../upstream/docs/user/explanation/methodology.rst:22
 msgid "⏩️ :doc:`Creating reproducible builds </guides/reproducible-builds>`"
-msgstr ""
+msgstr "⏩️ :doc:`创建可复现构建 </guides/reproducible-builds>`"
 
 #: ../../upstream/docs/user/explanation/methodology.rst:23
 msgid ""
-"Every documentation project has dependencies that are required to build "
-"it. Using an unspecified versions of these dependencies means that your "
-"project can start breaking. In this guide, learn how to protect your "
-"project against breaking randomly. **This is one of our most popular "
-"guides!**"
-msgstr ""
+"Every documentation project has dependencies that are required to build it. "
+"Using an unspecified versions of these dependencies means that your project "
+"can start breaking. In this guide, learn how to protect your project against"
+" breaking randomly. **This is one of our most popular guides!**"
+msgstr "每个文档项目都有构建所需的依赖。依赖版本不固定意味着项目可能随时出问题。本指南讲解如何防止项目意外失效。**这是我们最受欢迎的指南之一！**"
 
 #: ../../upstream/docs/user/explanation/methodology.rst:29
 msgid ""
 "⏩️ :doc:`Search engine optimization (SEO) for documentation projects "
 "</guides/technical-docs-seo-guide>`"
-msgstr ""
+msgstr "⏩️ :doc:`文档项目的搜索引擎优化（SEO） </guides/technical-docs-seo-guide>`"
 
 #: ../../upstream/docs/user/explanation/methodology.rst:30
 msgid ""
-"This article explains how documentation can be optimized to appear in "
-"search results, increasing traffic to your docs."
-msgstr ""
+"This article explains how documentation can be optimized to appear in search"
+" results, increasing traffic to your docs."
+msgstr "本文讲解如何优化文档以出现在搜索结果中，为你的文档带来更多流量。"
 

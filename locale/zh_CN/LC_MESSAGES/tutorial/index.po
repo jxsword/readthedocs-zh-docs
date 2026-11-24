@@ -36,7 +36,7 @@ msgid ""
 "Business <https://about.readthedocs.com/pricing/#/community>`_."
 msgstr ""
 "了解 `Read the Docs Community 与 Read the Docs Business 的区别 "
-"<https://about.readthedocs.com/pricing/#/community>`_。"
+"<https://about.readthedocs.com/pricing/#/community>`_ 。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:10
 msgid "In the tutorial we will:"
@@ -60,7 +60,7 @@ msgstr "探索 Read the Docs 的其他实用功能。"
 msgid ""
 "If you don't have a GitHub account, you'll need to `register for a free "
 "account <https://github.com/signup>`_ before you start."
-msgstr "如果你还没有 GitHub 账户，需要在开始之前 `注册一个免费账户 <https://github.com/signup>`_。"
+msgstr "如果你还没有 GitHub 账户，需要在开始之前 `注册一个免费账户 <https://github.com/signup>`_ 。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:19
 msgid "Preparing your repository on GitHub"
@@ -72,8 +72,8 @@ msgid ""
 "`tutorial GitHub template <https://github.com/readthedocs/tutorial-"
 "template/>`_."
 msgstr ""
-"`登录 GitHub <https://github.com/login>`_，然后前往 `教程 GitHub 模板 "
-"<https://github.com/readthedocs/tutorial-template/>`_。"
+"`登录 GitHub <https://github.com/login>`_ ，然后前往 `教程 GitHub 模板 "
+"<https://github.com/readthedocs/tutorial-template/>`_ 。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:23
 msgid ""
@@ -81,7 +81,7 @@ msgid ""
 ":guilabel:`Create a new Repository`. On the new page:"
 msgstr ""
 "点击绿色的 :guilabel:`Use this template` 按钮，然后点击 :guilabel:`Create a new "
-"Repository`。在新页面上："
+"Repository` 。在新页面上："
 
 #: ../../upstream/docs/user/tutorial/index.rst:25
 msgid "Owner"
@@ -97,7 +97,7 @@ msgstr "仓库名称"
 
 #: ../../upstream/docs/user/tutorial/index.rst:28
 msgid "Something memorable and appropriate, for example ``rtd-tutorial``."
-msgstr "一个易于记忆且合适的名称，例如 ``rtd-tutorial``。"
+msgstr "一个易于记忆且合适的名称，例如 ``rtd-tutorial`` 。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:29
 msgid "Visibility"
@@ -159,7 +159,7 @@ msgid ""
 "root document ``docs/source/index.rst``."
 msgstr ""
 "该目录包含这个虚构 Python 库的全部 reStructuredText 文档、Sphinx 配置 ``docs/source/conf.py`` "
-"以及根文档 ``docs/source/index.rst``。"
+"以及根文档 ``docs/source/index.rst`` 。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:51
 #: ../../upstream/docs/user/tutorial/index.rst:56
@@ -193,9 +193,9 @@ msgid ""
 ":term:`webhooks <webhook>`. If you want to learn more, check out "
 ":ref:`reference/git-integration:permissions for connected accounts`."
 msgstr ""
-"Read the Docs 需要更高的权限来执行某些操作，以确保工作流程尽可能顺畅，例如安装 :term:`Webhook "
-"<webhook>`。如需了解更多信息，请参阅 :ref:`reference/git-integration:permissions for "
-"connected accounts`。"
+"Read the Docs 需要更高的权限来执行某些操作，以确保工作流程尽可能顺畅，例如安装 :term:`Webhook <webhook>` "
+"。如需了解更多信息，请参阅 :ref:`reference/git-integration:permissions for connected "
+"accounts` 。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:81
 msgid ""
@@ -204,7 +204,7 @@ msgid ""
 "and open your :term:`dashboard`."
 msgstr ""
 "之后，你将被重定向到 Read the Docs 以确认邮箱和用户名。点击 :guilabel:`Sign Up »` 按钮创建账户并打开你的 "
-":term:`dashboard`。"
+":term:`dashboard` 。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:84
 msgid ""
@@ -267,7 +267,7 @@ msgid ""
 "The name of the project, used to create a unique subdomain for each project."
 " so it is better if you prepend your username, for example ``{username}-rtd-"
 "tutorial``."
-msgstr "项目名称，用于为每个项目创建唯一的子域名。因此最好在前面加上你的用户名，例如 ``{username}-rtd-tutorial``。"
+msgstr "项目名称，用于为每个项目创建唯一的子域名。因此最好在前面加上你的用户名，例如 ``{username}-rtd-tutorial`` 。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:116
 msgid "Repository URL"
@@ -285,13 +285,13 @@ msgstr "默认分支"
 
 #: ../../upstream/docs/user/tutorial/index.rst:120
 msgid "Name of the default branch of the project, leave it as ``main``."
-msgstr "项目的默认分支名称，保留为 ``main``。"
+msgstr "项目的默认分支名称，保留为 ``main`` 。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:122
 msgid ""
 "Then click the :guilabel:`Next` button to create the project and open the "
 ":term:`project home`."
-msgstr "然后点击 :guilabel:`Next` 按钮创建项目并打开 :term:`project home`。"
+msgstr "然后点击 :guilabel:`Next` 按钮创建项目并打开 :term:`project home` 。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:124
 msgid "You just created your first project on Read the Docs! |:tada:|"
@@ -358,7 +358,7 @@ msgid ""
 "<https://app.readthedocs.org/sustainability/>`_."
 msgstr ""
 "广告是我们的主要收入来源之一。如果你想了解更多关于我们如何维持运营的信息，并探索去除广告的选项，请查看我们的 `Sustainability page "
-"<https://app.readthedocs.org/sustainability/>`_。"
+"<https://app.readthedocs.org/sustainability/>`_ 。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:168
 msgid ""
@@ -382,7 +382,7 @@ msgstr "要更新项目描述并配置通知设置："
 msgid ""
 "Navigate back to the :term:`project page` and click the :guilabel:`⚙ Admin` "
 "button,to open the Settings page."
-msgstr "返回 :term:`project page`，点击 :guilabel:`⚙ Admin` 按钮，打开设置页面。"
+msgstr "返回 :term:`project page` ，点击 :guilabel:`⚙ Admin` 按钮，打开设置页面。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:180
 msgid "Update the project description by adding the following text:"
@@ -398,7 +398,9 @@ msgstr "Lumache（读作 /lu'make/）是一个面向厨师和美食爱好者的 
 msgid ""
 "Set the project homepage to ``https://world.openfoodfacts.org/``, and add "
 "``food, python`` to the list of public project tags."
-msgstr "将项目主页设置为 ``https://world.openfoodfacts.org/``，并在公开项目标签列表中添加 ``food, python``。"
+msgstr ""
+"将项目主页设置为 ``https://world.openfoodfacts.org/`` ，并在公开项目标签列表中添加 ``food, "
+"python`` 。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:187
 msgid ""
@@ -418,8 +420,8 @@ msgid ""
 "Read the Docs can :doc:`trigger builds from GitHub pull requests </pull-"
 "requests>` and show you a preview of the documentation with those changes."
 msgstr ""
-"Read the Docs 可以 :doc:`从 GitHub Pull Request 触发构建 </pull-"
-"requests>`，并向你展示包含这些变更的文档预览。"
+"Read the Docs 可以 :doc:`从 GitHub Pull Request 触发构建 </pull-requests>` "
+"，并向你展示包含这些变更的文档预览。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:195
 msgid ""
@@ -445,7 +447,7 @@ msgid ""
 "information `on their documentation`__)."
 msgstr ""
 "前往你的 GitHub 仓库，找到 ``docs/source/index.rst`` 文件，点击右上角提示为\"Edit this file\"的 "
-"|:pencil2:| 图标，打开网页编辑器（更多信息见 `on their documentation`__）。"
+"|:pencil2:| 图标，打开网页编辑器（更多信息见 `on their documentation`__ ）。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:206
 #: ../../upstream/docs/user/tutorial/index.rst:211
@@ -510,7 +512,7 @@ msgid ""
 "on `versioning <#versioning-documentation>`_)."
 msgstr ""
 "构建过程的配置设置位于你 Git 仓库中的 ``.readthedocs.yaml`` :doc:`配置文件 </config-file/v2>` "
-"中，这意味着项目的每个版本或分支都可以有不同的配置（详见 `版本管理 <#versioning-documentation>`_）。"
+"中，这意味着项目的每个版本或分支都可以有不同的配置（详见 `版本管理 <#versioning-documentation>`_ ）。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:249
 msgid "Using different Python versions"
@@ -546,7 +548,7 @@ msgstr "``version``"
 msgid ""
 "Required, specifies :doc:`version 2 of the configuration file </config-"
 "file/v2>`."
-msgstr "必需，指定:doc:`配置文件的第 2 版 </config-file/v2>`。"
+msgstr "必需，指定:doc:`配置文件的第 2 版 </config-file/v2>` 。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:276
 msgid "``build.os``"
@@ -556,7 +558,7 @@ msgstr "``build.os``"
 msgid ""
 "Required, specifies the Docker image used to build the documentation. "
 ":ref:`states the name of the base image <config-file/v2:build.os>`."
-msgstr "必需，指定用于构建文档的 Docker 镜像。:ref:`声明基础镜像的名称 <config-file/v2:build.os>`。"
+msgstr "必需，指定用于构建文档的 Docker 镜像。:ref:`声明基础镜像的名称 <config-file/v2:build.os>` 。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:280
 msgid "``build.tools.python``"
@@ -564,7 +566,7 @@ msgstr "``build.tools.python``"
 
 #: ../../upstream/docs/user/tutorial/index.rst:281
 msgid "Specifies the :ref:`Python version <config-file/v2:build.tools.python>`."
-msgstr "指定 :ref:`Python 版本 <config-file/v2:build.tools.python>`。"
+msgstr "指定 :ref:`Python 版本 <config-file/v2:build.tools.python>` 。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:283
 msgid "``python.install.requirements``"
@@ -574,7 +576,7 @@ msgstr "``python.install.requirements``"
 msgid ""
 "Specifies what :ref:`Python dependencies <config-file/v2:python.install>` to"
 " install."
-msgstr "指定要安装的 :ref:`Python 依赖 <config-file/v2:python.install>`。"
+msgstr "指定要安装的 :ref:`Python 依赖 <config-file/v2:python.install>` 。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:286
 msgid ""
@@ -585,8 +587,8 @@ msgid ""
 "that it used Python 3.8.6, the latest version of Python 3.8, to create the "
 "virtual environment."
 msgstr ""
-"提交这些更改后，返回项目主页，前往\"Builds\"页面，打开刚刚启动的新构建。你会注意到其中一行包含 ``python "
-"-mvirtualenv``：点击它可查看该命令的完整输出，其中显示它使用 Python 3.8.6（Python 3.8 的最新版本）创建了虚拟环境。"
+"提交这些更改后，返回项目主页，前往\"Builds\"页面，打开刚刚启动的新构建。你会注意到其中一行包含 ``python -mvirtualenv``"
+" ：点击它可查看该命令的完整输出，其中显示它使用 Python 3.8.6（Python 3.8 的最新版本）创建了虚拟环境。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:292
 #: ../../upstream/docs/user/tutorial/index.rst:297
@@ -664,7 +666,7 @@ msgid ""
 " edit ``.readthedocs.yaml``, add the ``python.install``  section and commit "
 "it:"
 msgstr ""
-"要安装项目依赖并让 Sphinx 能够访问你的代码，请编辑 ``.readthedocs.yaml``，添加 ``python.install`` "
+"要安装项目依赖并让 Sphinx 能够访问你的代码，请编辑 ``.readthedocs.yaml`` ，添加 ``python.install`` "
 "部分并提交："
 
 #: ../../upstream/docs/user/tutorial/index.rst:370
@@ -689,7 +691,7 @@ msgstr "Sphinx 除 HTML 之外还能构建多种其他格式，例如 PDF 和 EP
 
 #: ../../upstream/docs/user/tutorial/index.rst:382
 msgid "To do so, add the following ``formats`` to your ``.readthedocs.yaml``:"
-msgstr "为此，请在你的 ``.readthedocs.yaml`` 中添加以下 ``formats``："
+msgstr "为此，请在你的 ``.readthedocs.yaml`` 中添加以下 ``formats`` ："
 
 #: ../../upstream/docs/user/tutorial/index.rst:396
 msgid ""
@@ -718,9 +720,9 @@ msgid ""
 "tutorial), and that's why the URLs of your HTML documentation contain the "
 "string ``/latest/``."
 msgstr ""
-"Read the Docs 支持:doc:`为文档创建多个版本 </versions>`，就像你的代码有多个版本一样。默认情况下，它会创建一个 "
-"``latest`` 版本，指向版本控制系统的默认分支（本教程中为 ``main``），这就是为什么你的 HTML 文档 URL 中包含字符串 "
-"``/latest/``。"
+"Read the Docs 支持:doc:`为文档创建多个版本 </versions>` ，就像你的代码有多个版本一样。默认情况下，它会创建一个 "
+"``latest`` 版本，指向版本控制系统的默认分支（本教程中为 ``main`` ），这就是为什么你的 HTML 文档 URL 中包含字符串 "
+"``/latest/`` 。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:417
 msgid "Creating a new version of your documentation"
@@ -734,7 +736,7 @@ msgid ""
 "or ``4.x``."
 msgstr ""
 "Read the Docs 会根据 GitHub 的分支和标签自动创建文档版本，这些分支和标签需:ref:`遵循一些规则 "
-"<versions:Versioning workflows>`，即看起来像版本号，例如 ``1.0``、``2.0.3`` 或 ``4.x``。"
+"<versions:Versioning workflows>` ，即看起来像版本号，例如 ``1.0`` 、``2.0.3`` 或 ``4.x`` 。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:421
 msgid ""
@@ -748,8 +750,8 @@ msgid ""
 "``1.0.x``, and click \"Create branch: 1.0.x from 'main'\" (more information "
 "`in the GitHub documentation`__)."
 msgstr ""
-"前往你的 GitHub 仓库，点击分支选择器，输入 ``1.0.x``，然后点击\"Create branch: 1.0.x from "
-"'main'\"（更多信息见 `in the GitHub documentation`__）。"
+"前往你的 GitHub 仓库，点击分支选择器，输入 ``1.0.x`` ，然后点击\"Create branch: 1.0.x from "
+"'main'\"（更多信息见 `in the GitHub documentation`__ ）。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:425
 msgid ""
@@ -792,7 +794,7 @@ msgid ""
 "users see the ``stable`` documentation when they visit the :term:`root URL` "
 "of your documentation:"
 msgstr ""
-"要将 ``stable`` 设为*默认版本* 而非 ``latest``，以便用户访问文档的 :term:`root URL` 时看到 "
+"要将 ``stable`` 设为*默认版本* 而非 ``latest`` ，以便用户访问文档的 :term:`root URL` 时看到 "
 "``stable`` 文档："
 
 #: ../../upstream/docs/user/tutorial/index.rst:451
@@ -802,7 +804,7 @@ msgid ""
 "dropdown, and hit :guilabel:`Save` at the bottom."
 msgstr ""
 "在项目主页的 :guilabel:`⚙ Admin` 菜单中，前往 :guilabel:`Settings` 链接，在\"Default "
-"version*\"下拉框中选择 ``stable``，然后点击底部的 :guilabel:`Save`。"
+"version*\"下拉框中选择 ``stable`` ，然后点击底部的 :guilabel:`Save` 。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:454
 msgid "Modifying versions"
@@ -815,7 +817,7 @@ msgid ""
 "these, Read the Docs also created an *inactive* ``1.0.x`` version, which "
 "will always point to the ``1.0.x`` branch of your repository."
 msgstr ""
-"``latest`` 和 ``stable`` 现在都是*活跃的*，这意味着用户可以看到它们，并且可以为它们触发新的构建。除此之外，Read the "
+"``latest`` 和 ``stable`` 现在都是*活跃的* ，这意味着用户可以看到它们，并且可以为它们触发新的构建。除此之外，Read the "
 "Docs 还创建了一个* 非活跃的* ``1.0.x`` 版本，它始终指向你仓库的 ``1.0.x`` 分支。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:461
@@ -833,7 +835,7 @@ msgid ""
 " \"Activate a version\", and click the :guilabel:`Activate` button."
 msgstr ""
 "在你的 :term:`project home` 上，前往\"Versions\"，在\"Activate a version\"下找到 "
-"``1.0.x``，然后点击 :guilabel:`Activate` 按钮。"
+"``1.0.x`` ，然后点击 :guilabel:`Activate` 按钮。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:472
 msgid ""
@@ -841,7 +843,7 @@ msgid ""
 "only \"Active\" and click :guilabel:`Save`."
 msgstr ""
 "在带有\"Active\"和\"Hidden\"复选框的\"Activate\"页面上，仅勾选\"Active\"，然后点击 "
-":guilabel:`Save`。"
+":guilabel:`Save` 。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:476
 msgid ""
@@ -902,7 +904,7 @@ msgid ""
 "Analytics` section. You will see the list of pages in descending order of "
 "visits, and a similar visualization to this one:"
 msgstr ""
-"要查看流量分析视图，请再次返回 :term:`project page`，点击 :guilabel:`⚙ Admin` 按钮，然后点击 "
+"要查看流量分析视图，请再次返回 :term:`project page` ，点击 :guilabel:`⚙ Admin` 按钮，然后点击 "
 ":guilabel:`Traffic Analytics` 区域。你将看到按访问量降序排列的页面列表，以及类似下图的图表："
 
 #: ../../upstream/docs/user/tutorial/index.rst:540
@@ -930,8 +932,8 @@ msgid ""
 " what areas to focus on, or what parts of your project are less understood "
 "or more difficult to find."
 msgstr ""
-"除了流量分析，Read the Docs 还会显示:doc:`读者正在搜索哪些词 </search-"
-"analytics>`。这可以帮助你决定应重点关注哪些领域，或项目中哪些部分较难理解或难以找到。"
+"除了流量分析，Read the Docs 还会显示:doc:`读者正在搜索哪些词 </search-analytics>` "
+"。这可以帮助你决定应重点关注哪些领域，或项目中哪些部分较难理解或难以找到。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:558
 msgid ""
@@ -940,7 +942,7 @@ msgid ""
 "``ingredients``, and press the :kbd:`Enter` key. You will be redirected to "
 "the search results page, which will show two entries."
 msgstr ""
-"要在项目中生成一些模拟搜索统计数据，请前往 HTML 文档，找到左侧的 Sphinx 搜索框，输入 ``ingredients``，然后按 "
+"要在项目中生成一些模拟搜索统计数据，请前往 HTML 文档，找到左侧的 Sphinx 搜索框，输入 ``ingredients`` ，然后按 "
 ":kbd:`Enter` 键。你将被重定向到搜索结果页面，其中显示两个条目。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:563
@@ -953,8 +955,8 @@ msgid ""
 "daily number of search queries during the past 30 days."
 msgstr ""
 "接下来，返回项目页面的 :guilabel:`⚙ Admin` 区域，然后点击 :guilabel:`Search Analytics` "
-"区域。你将看到一个表格，其中列出搜索次数最多的查询（包括你刚输入的 "
-"``ingredients``）、每个查询返回的结果数以及被搜索的次数。在查询表格下方，你还将看到过去 30 天每日搜索查询次数的可视化图表。"
+"区域。你将看到一个表格，其中列出搜索次数最多的查询（包括你刚输入的 ``ingredients`` "
+"）、每个查询返回的结果数以及被搜索的次数。在查询表格下方，你还将看到过去 30 天每日搜索查询次数的可视化图表。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:571
 #: ../../upstream/docs/user/tutorial/index.rst:576
@@ -1011,7 +1013,7 @@ msgstr "以下是一些资源，帮助你继续学习文档编写和 Read the Do
 
 #: ../../upstream/docs/user/tutorial/index.rst:598
 msgid "Learn more about the platform :doc:`features </reference/features>`."
-msgstr "进一步了解平台的:doc:`功能 </reference/features>`。"
+msgstr "进一步了解平台的:doc:`功能 </reference/features>` 。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:599
 msgid ""
@@ -1045,7 +1047,7 @@ msgid ""
 msgstr ""
 "加入 `Write the Docs <https://www.writethedocs.org/>`_ 中由全球 `文档工作者 "
 "<writethedocs:documentarians>` 组成的社区，以及 :doc:`其 Slack 工作区 "
-"<writethedocs:slack>`。"
+"<writethedocs:slack>` 。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:606
 msgid "Contribute to Read the Docs in :doc:`rtd-dev:contribute`, we appreciate it!"

@@ -22,291 +22,313 @@ msgstr ""
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:2
 msgid "Redirects"
-msgstr ""
+msgstr "重定向"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:4
 msgid ""
 "Over time, a documentation project may want to rename and move contents "
-"around. Redirects allow changes in a documentation project to happen "
-"without bad user experiences."
-msgstr ""
+"around. Redirects allow changes in a documentation project to happen without"
+" bad user experiences."
+msgstr "随着时间推移，文档项目可能需要重命名和移动内容。重定向让文档项目的变更不会造成糟糕的用户体验。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:7
 msgid ""
 "If you do not manage URL structures, users will eventually encounter 404 "
-"File Not Found errors. While this may be acceptable in some cases, the "
-"bad user experience of a 404 page is usually best to avoid."
-msgstr ""
+"File Not Found errors. While this may be acceptable in some cases, the bad "
+"user experience of a 404 page is usually best to avoid."
+msgstr "若不管理 URL 结构，用户最终会遇到 404 File Not Found 错误。某些情况下这或许可以接受，但 404 页面带来的糟糕体验通常最好避免。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:12
 msgid "`Built-in redirects`_ ⬇️"
-msgstr ""
+msgstr "`Built-in redirects`_ ⬇️"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:13
 msgid ""
 "Allows for simple and long-term sharing of external references to your "
 "documentation."
-msgstr ""
+msgstr "支持简单且长期有效的外部引用分享。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:15
 msgid "`User-defined redirects`_ ⬇️"
-msgstr ""
+msgstr "`User-defined redirects`_ ⬇️"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:16
 msgid "Makes it easier to move contents around"
-msgstr ""
+msgstr "让内容迁移更轻松"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:20
 msgid ":doc:`/guides/redirects`"
-msgstr ""
+msgstr ":doc:`/guides/redirects`"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:21
 msgid "This guide shows you how to add redirects with practical examples."
-msgstr ""
+msgstr "本指南通过实际示例讲解如何添加重定向。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:22
 msgid ":doc:`/guides/best-practice/links`"
-msgstr ""
+msgstr ":doc:`/guides/best-practice/links`"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:23
 msgid "Information and tips about creating and handling external references."
-msgstr ""
+msgstr "关于创建和处理外部引用的信息与建议。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:24
 msgid ":doc:`/guides/deprecating-content`"
-msgstr ""
+msgstr ":doc:`/guides/deprecating-content`"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:25
 msgid "A guide to deprecating features and other topics in a documentation."
-msgstr ""
+msgstr "废弃文档中功能和其他主题的指南。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:28
 msgid "Built-in redirects"
-msgstr ""
+msgstr "内置重定向"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:30
 msgid ""
-"This section explains the redirects that are automatically active for all"
-" projects and how they are useful. Built-in redirects are especially "
-"useful for creating and sharing incoming links, which is discussed in "
-"depth in :doc:`/guides/best-practice/links`."
+"This section explains the redirects that are automatically active for all "
+"projects and how they are useful. Built-in redirects are especially useful "
+"for creating and sharing incoming links, which is discussed in depth in "
+":doc:`/guides/best-practice/links`."
 msgstr ""
+"本节讲解对所有项目自动生效的重定向及其用途。内置重定向对创建和分享入站链接尤为有用，详见 :doc:`/guides/best-"
+"practice/links` 。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:37
 msgid "Page redirects at ``/page/``"
-msgstr ""
+msgstr "``/page/`` 处的页面重定向"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:39
 msgid ""
 "You can link to a specific page and have it redirect to your default "
-"version, allowing you to create links on external sources that are always"
-" up to date. This is done with the ``/page/`` URL prefix."
-msgstr ""
+"version, allowing you to create links on external sources that are always up"
+" to date. This is done with the ``/page/`` URL prefix."
+msgstr "你可以链接到特定页面并让其重定向到默认版本，从而在外部来源创建始终最新的链接。这通过 ``/page/`` URL 前缀实现。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:43
 msgid ""
 "For instance, you can reach the page you are reading now by going to "
 "https://docs.readthedocs.io/page/guides/best-practice/links.html."
 msgstr ""
+"例如，你可以通过 https://docs.readthedocs.io/page/guides/best-practice/links.html "
+"访问当前阅读的页面。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:45
 msgid ""
 "Another way to handle this is the ``latest`` version. You can set your "
-"``latest`` version to a specific version and just always link to "
-"``latest``. You can reach this page by going to "
+"``latest`` version to a specific version and just always link to ``latest``."
+" You can reach this page by going to "
 "https://docs.readthedocs.io/en/latest/guides/best-practice/links.html."
 msgstr ""
+"另一种处理方式是使用 ``latest`` 版本。你可以把 ``latest`` 版本设为某个特定版本，然后始终链接到 ``latest`` "
+"。你可以通过 https://docs.readthedocs.io/en/latest/guides/best-practice/links.html"
+" 访问该页面。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:52
 msgid "Root URL redirect at ``/``"
-msgstr ""
+msgstr "``/`` 处的根 URL 重定向"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:54
 msgid ""
 "A link to the root of your documentation (`<slug>.readthedocs.io/`) will "
-"redirect to the  :term:`default version`, as set in your project "
-"settings."
-msgstr ""
+"redirect to the  :term:`default version`, as set in your project settings."
+msgstr "指向文档根目录（`<slug>.readthedocs.io/`）的链接会重定向到项目设置中指定的 :term:`default version` 。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:57
 msgid ""
 "This works for both readthedocs.io (|org_brand|), readthedocs-hosted.com "
 "(|com_brand|), and :doc:`custom domains </custom-domains>`."
 msgstr ""
+"该功能对 readthedocs.io（|org_brand|）、readthedocs-hosted.com（|com_brand|）和 "
+":doc:`自定义域名 </custom-domains>` 均有效。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:59
 msgid "For example::"
-msgstr ""
+msgstr "例如::"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:65
 msgid ""
-"You cannot use the root redirect to reference specific pages. ``/`` "
-"*only* redirects to the default version, whereas ``/some/page.html`` will"
-" *not* redirect to ``/en/latest/some/page.html``. Instead, use "
+"You cannot use the root redirect to reference specific pages. ``/`` *only* "
+"redirects to the default version, whereas ``/some/page.html`` will *not* "
+"redirect to ``/en/latest/some/page.html``. Instead, use "
 ":ref:`page_redirects`."
 msgstr ""
+"你不能用根重定向引用特定页面。``/`` *仅* 重定向到默认版本，而 ``/some/page.html`` * 不会* 重定向到 "
+"``/en/latest/some/page.html`` 。请改用 :ref:`page_redirects` 。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:70
 msgid ""
 "You can choose which is the :term:`default version` for Read the Docs to "
-"display. This usually corresponds to the most recent official release "
-"from your project."
-msgstr ""
+"display. This usually corresponds to the most recent official release from "
+"your project."
+msgstr "你可以选择 Read the Docs 展示哪个 :term:`default version` 。它通常对应你项目最近的正式发布版本。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:74
 msgid "Root language redirect at ``/<lang>/``"
-msgstr ""
+msgstr "``/<lang>/`` 处的根语言重定向"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:76
 msgid ""
 "A link to the root language of your documentation "
 "(``<slug>.readthedocs.io/en/``) will redirect to the  :term:`default "
 "version` of that language."
-msgstr ""
+msgstr "指向文档根语言（``<slug>.readthedocs.io/en/`` ）的链接会重定向到该语言的 :term:`default version` 。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:79
 msgid ""
-"For example, accessing the English language of the project will redirect "
-"you to the its default version (``stable``)::"
-msgstr ""
+"For example, accessing the English language of the project will redirect you"
+" to the its default version (``stable``)::"
+msgstr "例如，访问项目的英语语言会重定向到其默认版本（``stable`` ）::"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:84
 msgid "Shortlink with ``https://<slug>.rtfd.io``"
-msgstr ""
+msgstr "使用 ``https://<slug>.rtfd.io`` 的短链接"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:86
 msgid ""
-"Links to ``rtfd.io`` are treated the same way as ``readthedocs.io``. They"
-" are intended to be easy and short for people to type."
-msgstr ""
+"Links to ``rtfd.io`` are treated the same way as ``readthedocs.io``. They "
+"are intended to be easy and short for people to type."
+msgstr "指向 ``rtfd.io`` 的链接与 ``readthedocs.io`` 同样处理，设计目标是便于人们输入的短链接。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:89
 msgid "You can reach these docs at https://docs.rtfd.io."
-msgstr ""
+msgstr "你可以通过 https://docs.rtfd.io 访问这些文档。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:95
 msgid "User-defined redirects"
-msgstr ""
+msgstr "用户自定义重定向"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:98
 msgid "Page redirects"
-msgstr ""
+msgstr "页面重定向"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:100
 msgid ""
 "*Page Redirects* let you redirect a page across all versions of your "
 "documentation."
-msgstr ""
+msgstr "*页面重定向* 让你能在文档的所有版本间重定向某个页面。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:104
 msgid ""
 "Since page redirects apply to all versions of a project, ``From URL`` "
-"doesn't need to include the ``/<language>/<version>`` prefix (for "
-"example, ``/en/latest``), only the path to the page. Page redirects don't"
-" apply to translations or subprojects, which need their own redirect "
-"rules. If you need a redirect for a specific language or version URL, use"
-" :ref:`user-defined-redirects:exact redirects` with the fully-specified "
-"path."
+"doesn't need to include the ``/<language>/<version>`` prefix (for example, "
+"``/en/latest``), only the path to the page. Page redirects don't apply to "
+"translations or subprojects, which need their own redirect rules. If you "
+"need a redirect for a specific language or version URL, use :ref:`user-"
+"defined-redirects:exact redirects` with the fully-specified path."
 msgstr ""
+"由于页面重定向适用于项目的所有版本，``From URL`` 无需包含 ``/<language>/<version>`` 前缀（例如 "
+"``/en/latest`` ），只需提供页面路径。页面重定向不适用于翻译或子项目，它们需要各自的重定向规则。若需要针对特定语言或版本的 URL "
+"重定向，请使用 :ref:`user-defined-redirects:exact redirects` 并给出完整路径。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:113
 msgid "Exact redirects"
-msgstr ""
+msgstr "精确重定向"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:115
 msgid ""
 "*Exact Redirects* take into account the full URL (including language and "
 "version), allowing you to create a redirect for a specific version or "
 "language of your documentation."
-msgstr ""
+msgstr "*精确重定向* 考虑完整 URL（含语言和版本），让你能为文档的特定版本或语言创建重定向。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:119
 msgid "Clean/HTML URLs redirects"
-msgstr ""
+msgstr "简洁/HTML URL 重定向"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:121
 msgid ""
-"If you decide to change the style of the URLs of your documentation, you "
-"can use *Clean URL to HTML* or *HTML to clean URL* redirects to redirect "
-"users to the new URL style."
+"If you decide to change the style of the URLs of your documentation, you can"
+" use *Clean URL to HTML* or *HTML to clean URL* redirects to redirect users "
+"to the new URL style."
 msgstr ""
+"若决定更改文档的 URL 风格，可使用 *Clean URL to HTML* 或 *HTML to clean URL* 重定向将用户导向新的 URL"
+" 风格。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:124
 msgid ""
-"For example, if a previous page was at ``/en/latest/install.html``, and "
-"now is served at ``/en/latest/install/``, or vice versa, users will be "
+"For example, if a previous page was at ``/en/latest/install.html``, and now "
+"is served at ``/en/latest/install/``, or vice versa, users will be "
 "redirected to the new URL."
 msgstr ""
+"例如，若之前页面位于 ``/en/latest/install.html`` ，现在改为在 ``/en/latest/install/`` "
+"提供（或反之），用户将被重定向到新 URL。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:129
 msgid "Limitations and observations"
-msgstr ""
+msgstr "限制与说明"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:131
 msgid ""
-"|org_brand| users are limited to 100 redirects per project, and "
-"|com_brand| users have a number of redirects limited by their plan."
-msgstr ""
+"|org_brand| users are limited to 100 redirects per project, and |com_brand| "
+"users have a number of redirects limited by their plan."
+msgstr "|org_brand| 用户每个项目限 100 条重定向，|com_brand| 用户的重定向数量受套餐限制。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:133
 msgid ""
 "By default, redirects only apply on pages that don't exist. **Forced "
 "redirects** allow you to apply redirects on existing pages."
-msgstr ""
+msgstr "默认情况下，重定向仅对不存在的页面生效。**强制重定向** 让你能在已存在的页面上应用重定向。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:135
 msgid ""
 "Redirects aren't applied on :doc:`previews of pull requests </pull-"
-"requests>`. You should treat these domains as ephemeral and not rely on "
-"them for user-facing content."
+"requests>`. You should treat these domains as ephemeral and not rely on them"
+" for user-facing content."
 msgstr ""
+"重定向不会在 :doc:`Pull Request 预览 </pull-requests>` "
+"上生效。应将这些域名视为临时性的，不要依赖它们承载面向用户的内容。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:137
 msgid ""
-"You can redirect to URLs outside Read the Docs, just include the protocol"
-" in ``To URL``, e.g ``https://example.com``."
+"You can redirect to URLs outside Read the Docs, just include the protocol in"
+" ``To URL``, e.g ``https://example.com``."
 msgstr ""
+"你可以重定向到 Read the Docs 之外的 URL，只需在 ``To URL`` 中包含协议，例如 "
+"``https://example.com`` 。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:139
 msgid ""
 "A wildcard can be used at the end of ``From URL`` (suffix wildcard) to "
 "redirect all pages matching a prefix. Prefix and infix wildcards are not "
 "supported."
-msgstr ""
+msgstr "可在 ``From URL`` 末尾使用通配符（后缀通配符）重定向所有匹配某前缀的页面。不支持前缀和中间通配符。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:141
 msgid ""
-"If a wildcard is used in ``From URL``, the part of the URL that matches "
-"the wildcard can be used in ``To URL`` with the ``:splat`` placeholder."
-msgstr ""
+"If a wildcard is used in ``From URL``, the part of the URL that matches the "
+"wildcard can be used in ``To URL`` with the ``:splat`` placeholder."
+msgstr "若 ``From URL`` 中使用了通配符，URL 中匹配通配符的部分可在 ``To URL`` 中用 ``:splat`` 占位符引用。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:143
 msgid ""
-"Redirects without a wildcard match paths with or without a trailing "
-"slash, e.g. ``/install`` matches ``/install`` and ``/install/``."
-msgstr ""
+"Redirects without a wildcard match paths with or without a trailing slash, "
+"e.g. ``/install`` matches ``/install`` and ``/install/``."
+msgstr "不含通配符的重定向会匹配带或不带尾部斜杠的路径，例如 ``/install`` 同时匹配 ``/install`` 和 ``/install/`` 。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:145
 msgid ""
-"The order of redirects matters. If multiple redirects match the same URL,"
-" the first one will be applied. The order of redirects :ref:`can be "
-"changed from your project's dashboard <guides/redirects:Changing the "
-"order of redirects>`."
+"The order of redirects matters. If multiple redirects match the same URL, "
+"the first one will be applied. The order of redirects :ref:`can be changed "
+"from your project's dashboard <guides/redirects:Changing the order of "
+"redirects>`."
 msgstr ""
+"重定向顺序很重要。若多条重定向匹配同一 URL，将应用第一条。重定向顺序 :ref:`可在项目仪表盘中调整 "
+"<guides/redirects:Changing the order of redirects>` 。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:149
 msgid ""
-"If an infinite redirect is detected, a 404 error will be returned, and no"
-" other redirects will be applied."
-msgstr ""
+"If an infinite redirect is detected, a 404 error will be returned, and no "
+"other redirects will be applied."
+msgstr "若检测到无限重定向，将返回 404 错误，且不再应用其他重定向。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:153
 msgid "Examples"
-msgstr ""
+msgstr "示例"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:156
 msgid "Redirecting a page"
-msgstr ""
+msgstr "重定向页面"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:158
 msgid ""
@@ -314,6 +336,8 @@ msgid ""
 "``examples/intro.html``. You can create a redirect with the following "
 "configuration::"
 msgstr ""
+"假设你把 ``example.html`` 页面移入 examples 的子目录：``examples/intro.html`` "
+"。可用以下配置创建重定向::"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:165
 #: ../../upstream/docs/user/user-defined-redirects.rst:194
@@ -324,104 +348,121 @@ msgstr ""
 #: ../../upstream/docs/user/user-defined-redirects.rst:318
 #: ../../upstream/docs/user/user-defined-redirects.rst:334
 msgid "Users will now be redirected:"
-msgstr ""
+msgstr "现在用户将被重定向："
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:167
 msgid ""
 "From ``https://docs.example.com/en/latest/example.html`` to "
 "``https://docs.example.com/en/latest/examples/intro.html``."
 msgstr ""
+"从 ``https://docs.example.com/en/latest/example.html`` 到 "
+"``https://docs.example.com/en/latest/examples/intro.html`` 。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:169
 msgid ""
 "From ``https://docs.example.com/en/stable/example.html`` to "
 "``https://docs.example.com/en/stable/examples/intro.html``."
 msgstr ""
+"从 ``https://docs.example.com/en/stable/example.html`` 到 "
+"``https://docs.example.com/en/stable/examples/intro.html`` 。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:172
 #: ../../upstream/docs/user/user-defined-redirects.rst:201
 #: ../../upstream/docs/user/user-defined-redirects.rst:229
 msgid ""
 "If you want this redirect to apply to a specific version of your "
-"documentation, you can create a redirect with the following "
-"configuration::"
-msgstr ""
+"documentation, you can create a redirect with the following configuration::"
+msgstr "若希望该重定向仅作用于文档的特定版本，可用以下配置创建重定向::"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:181
 #: ../../upstream/docs/user/user-defined-redirects.rst:210
 #: ../../upstream/docs/user/user-defined-redirects.rst:238
 msgid "Use the desired version and language instead of ``latest`` and ``en``."
-msgstr ""
+msgstr "将 ``latest`` 和 ``en`` 替换为所需版本和语言。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:184
 msgid "Redirecting a directory"
-msgstr ""
+msgstr "重定向目录"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:186
 msgid ""
-"Say you rename the ``/api/`` directory to ``/api/v1/``. Instead of "
-"creating a redirect for each page in the directory, you can use a "
-"wildcard to redirect all pages in that directory::"
-msgstr ""
+"Say you rename the ``/api/`` directory to ``/api/v1/``. Instead of creating "
+"a redirect for each page in the directory, you can use a wildcard to "
+"redirect all pages in that directory::"
+msgstr "假设你将 ``/api/`` 目录重命名为 ``/api/v1/`` 。无需为目录中每个页面单独创建重定向，可用通配符重定向该目录下所有页面::"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:196
 msgid ""
 "From ``https://docs.example.com/en/latest/api/`` to "
 "``https://docs.example.com/en/latest/api/v1/``."
 msgstr ""
+"从 ``https://docs.example.com/en/latest/api/`` 到 "
+"``https://docs.example.com/en/latest/api/v1/`` 。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:198
 msgid ""
 "From ``https://docs.example.com/en/latest/api/projects.html`` to "
 "``https://docs.example.com/en/latest/api/v1/projects.html``."
 msgstr ""
+"从 ``https://docs.example.com/en/latest/api/projects.html`` 到 "
+"``https://docs.example.com/en/latest/api/v1/projects.html`` 。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:213
 msgid "Redirecting a directory to a single page"
-msgstr ""
+msgstr "将目录重定向到单个页面"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:215
 msgid ""
-"Say you put the contents of the ``/examples/`` directory into a single "
-"page at ``/examples.html``. You can use a wildcard to redirect all pages "
-"in that directory to the new page::"
-msgstr ""
+"Say you put the contents of the ``/examples/`` directory into a single page "
+"at ``/examples.html``. You can use a wildcard to redirect all pages in that "
+"directory to the new page::"
+msgstr "假设你把 ``/examples/`` 目录的内容整合到 ``/examples.html`` 单个页面。可用通配符将该目录下所有页面重定向到新页面::"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:224
 msgid ""
 "From ``https://docs.example.com/en/latest/examples/`` to "
 "``https://docs.example.com/en/latest/examples.html``."
 msgstr ""
+"从 ``https://docs.example.com/en/latest/examples/`` 到 "
+"``https://docs.example.com/en/latest/examples.html`` 。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:226
 msgid ""
 "From ``https://docs.example.com/en/latest/examples/intro.html`` to "
 "``https://docs.example.com/en/latest/examples.html``."
 msgstr ""
+"从 ``https://docs.example.com/en/latest/examples/intro.html`` 到 "
+"``https://docs.example.com/en/latest/examples.html`` 。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:241
 msgid "Redirecting a page to the latest version"
-msgstr ""
+msgstr "将页面重定向到最新版本"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:243
 msgid ""
-"Say you want your users to always be redirected to the latest version of "
-"a page, your security policy (``/security.html``) for example. You can "
-"use a wildcard with a forced redirect to redirect all versions of that "
-"page to the latest version::"
+"Say you want your users to always be redirected to the latest version of a "
+"page, your security policy (``/security.html``) for example. You can use a "
+"wildcard with a forced redirect to redirect all versions of that page to the"
+" latest version::"
 msgstr ""
+"假设你希望用户总是被重定向到某页面的最新版本，例如你的安全策略（``/security.html`` "
+"）。可用带强制重定向的通配符将该页面的所有版本重定向到最新版本::"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:254
 msgid ""
 "From ``https://docs.example.com/en/v1.0/security.html`` to "
 "``https://docs.example.com/en/latest/security.html``."
 msgstr ""
+"从 ``https://docs.example.com/en/v1.0/security.html`` 到 "
+"``https://docs.example.com/en/latest/security.html`` 。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:256
 msgid ""
 "From ``https://docs.example.com/en/v2.5/security.html`` to "
 "``https://docs.example.com/en/latest/security.html``."
 msgstr ""
+"从 ``https://docs.example.com/en/v2.5/security.html`` 到 "
+"``https://docs.example.com/en/latest/security.html`` 。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:261
 msgid ""
@@ -429,34 +470,40 @@ msgid ""
 "will be relative to the current version, resulting in a redirect to "
 "``https://docs.example.com/en/v1.0/en/latest/security.html``."
 msgstr ""
+"``To URL`` 必须包含域名，否则重定向会相对于当前版本，导致跳转到 "
+"``https://docs.example.com/en/v1.0/en/latest/security.html`` 。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:266
 msgid "Redirecting an old version to a new one"
-msgstr ""
+msgstr "将旧版本重定向到新版本"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:268
 msgid ""
-"Let's say that you want to redirect your readers of your version ``2.0`` "
-"of your documentation under ``/en/2.0/`` because it's deprecated, to the "
-"newest ``3.0`` version of it at ``/en/3.0/``. You can use an exact "
-"redirect to do so::"
+"Let's say that you want to redirect your readers of your version ``2.0`` of "
+"your documentation under ``/en/2.0/`` because it's deprecated, to the newest"
+" ``3.0`` version of it at ``/en/3.0/``. You can use an exact redirect to do "
+"so::"
 msgstr ""
+"假设你想把阅读 ``/en/2.0/`` 下文档 ``2.0`` 版本的读者（该版本已废弃）重定向到最新的 ``3.0`` 版本 "
+"``/en/3.0/`` 。可用精确重定向实现::"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:278
 msgid ""
 "From ``https://docs.example.com/en/2.0/dev/install.html`` to "
 "``https://docs.example.com/en/3.0/dev/install.html``."
 msgstr ""
+"从 ``https://docs.example.com/en/2.0/dev/install.html`` 到 "
+"``https://docs.example.com/en/3.0/dev/install.html`` 。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:283
 msgid ""
-"For this redirect to work, your old version must be disabled, if the "
-"version is still active, you can use the ``Force Redirect`` option."
-msgstr ""
+"For this redirect to work, your old version must be disabled, if the version"
+" is still active, you can use the ``Force Redirect`` option."
+msgstr "要让该重定向生效，旧版本必须已停用；若版本仍处于活跃状态，可使用 ``Force Redirect`` 选项。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:287
 msgid "Creating a shortlink"
-msgstr ""
+msgstr "创建短链接"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:289
 msgid ""
@@ -465,70 +512,86 @@ msgid ""
 "share the link to the page. You can create a redirect with the following "
 "configuration::"
 msgstr ""
+"假设你想把 ``https://docs.example.com/security`` 重定向到 "
+"``https://docs.example.com/en/latest/security.html`` "
+"，以便更容易分享页面链接。可用以下配置创建重定向::"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:299
 msgid ""
 "From ``https://docs.example.com/security`` (no trailing slash) to "
 "``https://docs.example.com/en/latest/security.html``."
 msgstr ""
+"从 ``https://docs.example.com/security`` （无尾部斜杠）到 "
+"``https://docs.example.com/en/latest/security.html`` 。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:301
 msgid ""
 "From ``https://docs.example.com/security/`` (trailing slash) to "
 "``https://docs.example.com/en/latest/security.html``."
 msgstr ""
+"从 ``https://docs.example.com/security/`` （有尾部斜杠）到 "
+"``https://docs.example.com/en/latest/security.html`` 。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:305
 msgid "Migrating your docs to Read the Docs"
-msgstr ""
+msgstr "将文档迁移到 Read the Docs"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:307
 msgid ""
 "Say that you previously had your docs hosted at "
-"``https://docs.example.com/dev/``, and choose to migrate to Read the Docs"
-" with support for multiple versions and translations. Your documentation "
-"will now be served at ``https://docs.example.com/en/latest/``, but your "
-"users may have bookmarks saved with the old URL structure, for example "
+"``https://docs.example.com/dev/``, and choose to migrate to Read the Docs "
+"with support for multiple versions and translations. Your documentation will"
+" now be served at ``https://docs.example.com/en/latest/``, but your users "
+"may have bookmarks saved with the old URL structure, for example "
 "``https://docs.example.com/dev/install.html``."
 msgstr ""
+"假设你此前将文档托管在 ``https://docs.example.com/dev/`` ，现决定迁移到支持多版本和翻译的 Read the "
+"Docs。文档现在将在 ``https://docs.example.com/en/latest/`` 提供，但用户可能保存了旧 URL "
+"结构的书签，例如 ``https://docs.example.com/dev/install.html`` 。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:312
 msgid ""
-"You can use an exact redirect with a wildcard to redirect all pages from "
-"the old URL structure to the new one::"
-msgstr ""
+"You can use an exact redirect with a wildcard to redirect all pages from the"
+" old URL structure to the new one::"
+msgstr "可用带通配符的精确重定向，将旧 URL 结构下的所有页面重定向到新结构::"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:320
 msgid ""
 "From ``https://docs.example.com/dev/install.html`` to "
 "``https://docs.example.com/en/latest/install.html``."
 msgstr ""
+"从 ``https://docs.example.com/dev/install.html`` 到 "
+"``https://docs.example.com/en/latest/install.html`` 。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:324
 msgid "Migrating your documentation to another domain"
-msgstr ""
+msgstr "将文档迁移到其他域名"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:326
 msgid ""
 "You can use an exact redirect with the force option to migrate your "
 "documentation to another domain, for example::"
-msgstr ""
+msgstr "可用带强制选项的精确重定向将文档迁移到其他域名，例如::"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:336
 msgid ""
 "From ``https://docs.example.com/en/latest/install.html`` to "
 "``https://newdocs.example.com/en/latest/install.html``."
 msgstr ""
+"从 ``https://docs.example.com/en/latest/install.html`` 到 "
+"``https://newdocs.example.com/en/latest/install.html`` 。"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:340
 msgid "Changing your Sphinx builder from ``html`` to ``dirhtml``"
-msgstr ""
+msgstr "将 Sphinx 构建器从 ``html`` 改为 ``dirhtml``"
 
 #: ../../upstream/docs/user/user-defined-redirects.rst:342
 msgid ""
-"When you change your Sphinx builder from ``html`` to ``dirhtml``, all "
-"your URLs will change from ``/page.html`` to ``/page/``. You can create a"
-" redirect of type ``HTML to clean URL`` to redirect all your old URLs to "
-"the new style."
+"When you change your Sphinx builder from ``html`` to ``dirhtml``, all your "
+"URLs will change from ``/page.html`` to ``/page/``. You can create a "
+"redirect of type ``HTML to clean URL`` to redirect all your old URLs to the "
+"new style."
 msgstr ""
+"当把 Sphinx 构建器从 ``html`` 改为 ``dirhtml`` 时，所有 URL 会从 ``/page.html`` 变为 "
+"``/page/`` 。可创建类型为 ``HTML to clean URL`` 的重定向，将所有旧 URL 导向新风格。"
 

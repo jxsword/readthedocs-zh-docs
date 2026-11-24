@@ -122,14 +122,14 @@ msgid ""
 "``/docs/intro`` are handled as ``/docs/intro/`` and the corresponding "
 "``index.html`` file is served correctly."
 msgstr ""
-"为在 Read the Docs 上正常运行，你需要在 Docusaurus 配置中设置 ``trailingSlash: true``。这可确保像 "
+"为在 Read the Docs 上正常运行，你需要在 Docusaurus 配置中设置 ``trailingSlash: true`` 。这可确保像 "
 "``/docs/intro`` 这样的 URL 被当作 ``/docs/intro/`` 处理，并正确提供相应的 ``index.html`` 文件。"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:72
 msgid ""
 "Without this setting (or if set to ``false``), you will need to configure "
 "redirects to ensure proper URL resolution."
-msgstr "如果不设置此项（或设置为 ``false``），你需要配置重定向以确保 URL 正确解析。"
+msgstr "如果不设置此项（或设置为 ``false`` ），你需要配置重定向以确保 URL 正确解析。"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:74
 #: ../../upstream/docs/user/intro/docusaurus.rst:91
@@ -153,8 +153,8 @@ msgid ""
 "environment variable </reference/environment-variables>`:"
 msgstr ""
 "使用 `dotenv <https://www.npmjs.com/package/dotenv>`__ 和一个 :doc:`Read the Docs"
-" 环境变量 </reference/environment-variables>`，将你的 Docusaurus `url`_ 设置为 Read the"
-" Docs 的规范 URL："
+" 环境变量 </reference/environment-variables>` ，将你的 Docusaurus `url`_ 设置为 Read "
+"the Docs 的规范 URL："
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:103
 msgid "Example repository and demo"

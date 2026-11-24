@@ -29,7 +29,7 @@ msgid ""
 "Read the Docs supports configuring your documentation builds with a "
 "configuration file. This file is named ``.readthedocs.yaml`` and should be "
 "placed in the top level of your Git repository."
-msgstr "Read the Docs 支持使用配置文件来配置文档构建。该文件名为 ``.readthedocs.yaml``，应放在 Git 仓库的顶层目录。"
+msgstr "Read the Docs 支持使用配置文件来配置文档构建。该文件名为 ``.readthedocs.yaml`` ，应放在 Git 仓库的顶层目录。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:7
 msgid ""
@@ -46,7 +46,7 @@ msgid ""
 ":doc:`/guides/setup/monorepo` documentation for more details."
 msgstr ""
 "使用 monorepo 时，可以将 ``.readthedocs.yaml`` "
-"文件放在子目录中，并从项目设置仪表盘配置自定义路径。配置文件中的所有路径始终相对于**仓库根目录**，而非配置文件的位置。详情请参阅 "
+"文件放在子目录中，并从项目设置仪表盘配置自定义路径。配置文件中的所有路径始终相对于**仓库根目录** ，而非配置文件的位置。详情请参阅 "
 ":doc:`/guides/setup/monorepo` 文档。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:18
@@ -181,7 +181,7 @@ msgid ""
 "can use :ref:`build-customization:where to put files` with custom build "
 "commands to generate offline formats for any documentation framework."
 msgstr ""
-"目前仅 Sphinx 支持额外格式。使用 MkDocs 时，``pdf``、``epub`` 和 ``htmlzip`` "
+"目前仅 Sphinx 支持额外格式。使用 MkDocs 时，``pdf`` 、``epub`` 和 ``htmlzip`` "
 "输出尚不受支持。不过，你可以使用 :ref:`build-customization:where to put files` "
 "配合自定义构建命令，为任何文档框架生成离线格式。"
 
@@ -190,7 +190,7 @@ msgid ""
 "With :doc:`builds from pull requests </pull-requests>`, only HTML formats "
 "are generated. Other formats are resource intensive and will be built after "
 "merging."
-msgstr "对于 :doc:`Pull Request 构建 </pull-requests>`，仅生成 HTML 格式。其他格式资源消耗大，将在合并后构建。"
+msgstr "对于 :doc:`Pull Request 构建 </pull-requests>` ，仅生成 HTML 格式。其他格式资源消耗大，将在合并后构建。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:122
 msgid "python"
@@ -214,9 +214,9 @@ msgid ""
 "install :doc:`private dependencies </guides/private-python-packages>`."
 msgstr ""
 "Read the Docs 默认使用 :doc:`pip <pip:index>` 安装 Python 包。也支持通过 "
-"``python.install`` 使用 `uv <https://docs.astral.sh/uv/>`__。如果你使用 :ref:`Conda "
-"<config-file/v2:conda>` 环境管理构建，则需改用 Conda ``environment`` 文件。如果你有商业计划，也可以安装 "
-":doc:`私有依赖 </guides/private-python-packages>`。"
+"``python.install`` 使用 `uv <https://docs.astral.sh/uv/>`__ 。如果你使用 :ref:`Conda"
+" <config-file/v2:conda>` 环境管理构建，则需改用 Conda ``environment`` 文件。如果你有商业计划，也可以安装"
+" :doc:`私有依赖 </guides/private-python-packages>` 。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:149
 msgid ""
@@ -287,7 +287,7 @@ msgstr "包"
 msgid ""
 "Install the project using ``pip install``. The use of ``python setup.py "
 "install`` is deprecated."
-msgstr "使用 ``pip install`` 安装项目。不推荐使用 ``python setup.py install``。"
+msgstr "使用 ``pip install`` 安装项目。不推荐使用 ``python setup.py install`` 。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:187
 msgid "The path to the package, relative to the root of the project."
@@ -321,7 +321,7 @@ msgstr "``extra_requirements``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:208
 msgid "For example, to run ``pip install .[docs]``:"
-msgstr "例如，运行 ``pip install .[docs]``："
+msgstr "例如，运行 ``pip install .[docs]`` ："
 
 #: ../../upstream/docs/user/config-file/v2.rst:222
 msgid "uv"
@@ -339,7 +339,7 @@ msgstr "设置 ``method: uv`` 并选择以下命令之一："
 msgid ""
 "``command: sync`` to run ``uv sync`` using your ``pyproject.toml`` and, if "
 "present, ``uv.lock``"
-msgstr "``command: sync`` 运行 ``uv sync``，使用你的 ``pyproject.toml`` 和（若存在）``uv.lock``"
+msgstr "``command: sync`` 运行 ``uv sync`` ，使用你的 ``pyproject.toml`` 和（若存在）``uv.lock``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:229
 msgid ""
@@ -365,7 +365,7 @@ msgstr "使用 ``path`` 指向不在仓库根目录的项目。"
 msgid ""
 "With ``command: sync``, you can select dependency groups from "
 "``pyproject.toml``. Use either a list of group names or ``all``."
-msgstr "使用 ``command: sync`` 时，可从 ``pyproject.toml`` 选择依赖组。使用组名列表或 ``all``。"
+msgstr "使用 ``command: sync`` 时，可从 ``pyproject.toml`` 选择依赖组。使用组名列表或 ``all`` 。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:244
 msgid "``groups``"
@@ -380,7 +380,7 @@ msgstr "``list`` 或 ``all``"
 msgid ""
 "With either uv command, you can install optional dependencies. Use either a "
 "list of extras or ``all``."
-msgstr "使用任一 uv 命令均可安装可选依赖。使用 extras 列表或 ``all``。"
+msgstr "使用任一 uv 命令均可安装可选依赖。使用 extras 列表或 ``all`` 。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:251
 msgid "``extras``"
@@ -396,20 +396,20 @@ msgid ""
 "either ``requirements`` or ``path``. ``groups`` is only supported with "
 "``command: sync``."
 msgstr ""
-"``command: sync`` 不允许 ``requirements``。``command: pip`` 要求 ``requirements`` "
-"或 ``path``。``groups`` 仅支持 ``command: sync``。"
+"``command: sync`` 不允许 ``requirements`` 。``command: pip`` 要求 ``requirements``"
+" 或 ``path`` 。``groups`` 仅支持 ``command: sync`` 。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:267
 msgid "For example, to run ``uv sync --group docs``:"
-msgstr "例如，运行 ``uv sync --group docs``："
+msgstr "例如，运行 ``uv sync --group docs`` ："
 
 #: ../../upstream/docs/user/config-file/v2.rst:280
 msgid "For example, to run ``uv pip install -r docs/requirements.txt``:"
-msgstr "例如，运行 ``uv pip install -r docs/requirements.txt``："
+msgstr "例如，运行 ``uv pip install -r docs/requirements.txt`` ："
 
 #: ../../upstream/docs/user/config-file/v2.rst:292
 msgid "For example, to run ``uv pip install .[docs]``:"
-msgstr "例如，运行 ``uv pip install .[docs]``："
+msgstr "例如，运行 ``uv pip install .[docs]`` ："
 
 #: ../../upstream/docs/user/config-file/v2.rst:307
 msgid "conda"
@@ -837,8 +837,8 @@ msgid ""
 "When possible avoid installing Python packages using apt (``python3-numpy`` "
 "for example), :doc:`use pip or conda instead </guides/reproducible-builds>`."
 msgstr ""
-"尽可能避免使用 apt 安装 Python 包（例如 ``python3-numpy``），请 :doc:`改用 pip 或 conda "
-"</guides/reproducible-builds>`。"
+"尽可能避免使用 apt 安装 Python 包（例如 ``python3-numpy`` ），请 :doc:`改用 pip 或 conda "
+"</guides/reproducible-builds>` 。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:533
 msgid ""
@@ -858,13 +858,13 @@ msgid ""
 "customization` for more details."
 msgstr ""
 "在 Read the Docs :term:`pre-defined build jobs` "
-"之前或之后运行命令，或覆盖特定任务。这允许你在构建过程的特定时刻运行自定义命令。详情请参阅 :doc:`/build-customization`。"
+"之前或之后运行命令，或覆盖特定任务。这允许你在构建过程的特定时刻运行自定义命令。详情请参阅 :doc:`/build-customization` 。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:561
 msgid ""
 "Each build step consists of a list of commands to be executed. ``build.os`` "
 "and ``build.tools`` are also required to use ``build.jobs``."
-msgstr "每个构建步骤包含一组要执行的命令。使用 ``build.jobs`` 也需要 ``build.os`` 和 ``build.tools``。"
+msgstr "每个构建步骤包含一组要执行的命令。使用 ``build.jobs`` 也需要 ``build.os`` 和 ``build.tools`` 。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:566
 msgid ""
@@ -877,7 +877,7 @@ msgid ""
 "environment in a specific directory."
 msgstr ""
 "如果配置文件中包含 :ref:`config-file/v2:sphinx` 或 :ref:`config-file/v2:mkdocs` 键，则会为 "
-"``create_environment``、``install`` 和 ``build`` "
+"``create_environment`` 、``install`` 和 ``build`` "
 "步骤执行各工具的默认步骤。你可以覆盖这些步骤中的任意一个，但请注意某些步骤可能依赖其他步骤，例如默认的 ``install`` 和 ``build`` "
 "步骤依赖 ``create_environment`` 步骤在特定目录创建 Python 虚拟环境。"
 
@@ -890,7 +890,7 @@ msgid ""
 "customization:where to put files>` directory."
 msgstr ""
 "如果配置文件中既没有 ``sphinx`` 也没有 ``mkdocs`` 键，则仅安装指定的 ``build.tools`` 和 "
-"``build.apt_packages``，你需要负责在 :ref:`$READTHEDOCS_OUTPUT <build-"
+"``build.apt_packages`` ，你需要负责在 :ref:`$READTHEDOCS_OUTPUT <build-"
 "customization:where to put files>` 目录中生成文档。"
 
 #: ../../upstream/docs/user/config-file/v2.rst
@@ -935,7 +935,7 @@ msgid ""
 "If any of the ``pdf``, ``epub``, or ``htmlzip`` steps are overridden, they "
 "should be included in the :ref:`config-file/v2:formats` list."
 msgstr ""
-"如果覆盖了 ``pdf``、``epub`` 或 ``htmlzip`` 步骤，应将它们包含在 :ref:`config-"
+"如果覆盖了 ``pdf`` 、``epub`` 或 ``htmlzip`` 步骤，应将它们包含在 :ref:`config-"
 "file/v2:formats` 列表中。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:628
@@ -958,11 +958,11 @@ msgid ""
 " will be executed."
 msgstr ""
 "指定 Read the Docs 在构建过程中运行的命令列表。使用 ``build.commands`` 时，不会执行任何 :term:`pre-"
-"defined build jobs`。"
+"defined build jobs` 。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:648
 msgid "But we recommend using :ref:`config-file/v2:build.jobs` instead:"
-msgstr "但我们建议改用 :ref:`config-file/v2:build.jobs`："
+msgstr "但我们建议改用 :ref:`config-file/v2:build.jobs` ："
 
 #: ../../upstream/docs/user/config-file/v2.rst:665
 msgid ""
@@ -972,13 +972,13 @@ msgid ""
 "``build.apt_packages``. See :doc:`/build-customization` for more details."
 msgstr ""
 "``build.jobs`` 提供与 ``build.commands`` 相同的功能，但以更结构化的方式，允许为每种格式定义不同的命令，同时支持通过 "
-"``build.apt_packages`` 安装系统依赖。详情请参阅 :doc:`/build-customization`。"
+"``build.apt_packages`` 安装系统依赖。详情请参阅 :doc:`/build-customization` 。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:672
 msgid ""
 "``build.os`` and ``build.tools`` are also required when using "
 "``build.commands``."
-msgstr "使用 ``build.commands`` 时也需要 ``build.os`` 和 ``build.tools``。"
+msgstr "使用 ``build.commands`` 时也需要 ``build.os`` 和 ``build.tools`` 。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:676
 msgid ""
@@ -1008,10 +1008,10 @@ msgid ""
 msgstr ""
 "如果要将 Sphinx 固定到特定版本，请使用 ``requirements.txt`` 或 ``environment.yml`` 文件（参见 "
 ":ref:`config-file/v2:requirements file` 和 :ref:`config-"
-"file/v2:conda.environment`）。如果你使用 ``setup.py``、``pyproject.toml`` "
+"file/v2:conda.environment` ）。如果你使用 ``setup.py`` 、``pyproject.toml`` "
 "等元数据文件描述代码依赖，可以使用 ``extra_requirements`` 选项（参见 :ref:`config-"
-"file/v2:packages`）。这也允许你覆盖 :ref:`Read the Docs 为 2020 年 10 月前创建的项目所做的默认固定 "
-"<build-default-versions:external dependencies>`。"
+"file/v2:packages` ）。这也允许你覆盖 :ref:`Read the Docs 为 2020 年 10 月前创建的项目所做的默认固定 "
+"<build-default-versions:external dependencies>` 。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:710
 msgid "sphinx.builder"
@@ -1033,7 +1033,7 @@ msgstr "``html``"
 msgid ""
 "The ``htmldir`` builder option was renamed to ``dirhtml`` to use the same "
 "name as sphinx. Configurations using the old name will continue working."
-msgstr "``htmldir`` 构建器选项已重命名为 ``dirhtml``，以与 sphinx 使用相同名称。使用旧名称的配置将继续工作。"
+msgstr "``htmldir`` 构建器选项已重命名为 ``dirhtml`` ，以与 sphinx 使用相同名称。使用旧名称的配置将继续工作。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:723
 msgid "sphinx.configuration"
@@ -1083,10 +1083,10 @@ msgid ""
 msgstr ""
 "如果要将 MkDocs 固定到特定版本，请使用 ``requirements.txt`` 或 ``environment.yml`` 文件（参见 "
 ":ref:`config-file/v2:requirements file` 和 :ref:`config-"
-"file/v2:conda.environment`）。如果你使用 ``setup.py``、``pyproject.toml`` "
-"等元数据文件描述代码依赖，可使用 ``extra_requirements`` 选项（参见 :ref:`config-"
-"file/v2:packages`）。这也允许你覆盖 :ref:`Read the Docs 为 2021 年 3 月前创建的项目所做的默认固定 "
-"<build-default-versions:external dependencies>`。"
+"file/v2:conda.environment` ）。如果你使用 ``setup.py`` 、``pyproject.toml`` "
+"等元数据文件描述代码依赖，可使用 ``extra_requirements`` 选项（参见 :ref:`config-file/v2:packages`"
+" ）。这也允许你覆盖 :ref:`Read the Docs 为 2021 年 3 月前创建的项目所做的默认固定 <build-default-"
+"versions:external dependencies>` 。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:765
 msgid "mkdocs.configuration"
@@ -1106,8 +1106,8 @@ msgid ""
 "guide/configuration/#strict>`__. This means that the build stops at the "
 "first warning and exits with exit status 1."
 msgstr ""
-"`将警告转为错误 <https://www.mkdocs.org/user-"
-"guide/configuration/#strict>`__。这意味着构建在第一个警告时停止，退出状态为 1。"
+"`将警告转为错误 <https://www.mkdocs.org/user-guide/configuration/#strict>`__ "
+"。这意味着构建在第一个警告时停止，退出状态为 1。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:782
 msgid "submodules"
@@ -1151,7 +1151,7 @@ msgstr "要排除的子模块列表。"
 msgid ""
 "You can use the ``all`` keyword to exclude all submodules. This is the same "
 "as ``include: []``."
-msgstr "可使用 ``all`` 关键字排除所有子模块。这等同于 ``include: []``。"
+msgstr "可使用 ``all`` 关键字排除所有子模块。这等同于 ``include: []`` 。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:844
 msgid "submodules.recursive"
@@ -1193,8 +1193,8 @@ msgid ""
 "``docs/index.rst``, nor ``/en/latest/index.html``. Patterns can include one "
 "or more of the following special characters:"
 msgstr ""
-"模式与构建生成的 HTML 文件的相对路径匹配，应尝试匹配 ``index.html``，而非 ``docs/index.rst`` 或 "
-"``/en/latest/index.html``。模式可包含以下一个或多个特殊字符："
+"模式与构建生成的 HTML 文件的相对路径匹配，应尝试匹配 ``index.html`` ，而非 ``docs/index.rst`` 或 "
+"``/en/latest/index.html`` 。模式可包含以下一个或多个特殊字符："
 
 #: ../../upstream/docs/user/config-file/v2.rst:883
 msgid "``*`` matches everything, including slashes."
@@ -1217,14 +1217,14 @@ msgid ""
 "pages with a rank closer to 10 will appear higher in the list of results. "
 "Note that 0 means *normal rank*, not *no rank*."
 msgstr ""
-"排名可以是 -10 到 10 之间的整数（含边界）。排名越接近 -10 的页面在结果中越靠后，越接近 10 的越靠前。注意 0 表示*正常排名*，而非*"
-" 无排名*。"
+"排名可以是 -10 到 10 之间的整数（含边界）。排名越接近 -10 的页面在结果中越靠后，越接近 10 的越靠前。注意 0 表示*正常排名* "
+"，而非* 无排名* 。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:892
 msgid ""
 "If you are looking to completely ignore a page, check :ref:`config-"
 "file/v2:search.ignore`."
-msgstr "如果想完全忽略某页面，请参阅 :ref:`config-file/v2:search.ignore`。"
+msgstr "如果想完全忽略某页面，请参阅 :ref:`config-file/v2:search.ignore` 。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:914
 msgid "The final rank will be the last pattern to match the page."

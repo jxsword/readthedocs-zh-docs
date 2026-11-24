@@ -22,167 +22,173 @@ msgstr ""
 
 #: ../../upstream/docs/user/offline-formats.rst:2
 msgid "Offline formats (PDF, ePub, HTML)"
-msgstr ""
+msgstr "离线格式（PDF、ePub、HTML）"
 
 #: ../../upstream/docs/user/offline-formats.rst:4
 msgid ""
-"This page will provide an overview of a core Read the Docs feature: "
-"building docs in multiple formats."
-msgstr ""
+"This page will provide an overview of a core Read the Docs feature: building"
+" docs in multiple formats."
+msgstr "本页概述 Read the Docs 的一项核心功能：以多种格式构建文档。"
 
 #: ../../upstream/docs/user/offline-formats.rst:6
 msgid "Read the Docs supports the following formats by default:"
-msgstr ""
+msgstr "Read the Docs 默认支持以下格式："
 
 #: ../../upstream/docs/user/offline-formats.rst:8
 msgid "PDF"
-msgstr ""
+msgstr "PDF"
 
 #: ../../upstream/docs/user/offline-formats.rst:9
 msgid "ePub"
-msgstr ""
+msgstr "ePub"
 
 #: ../../upstream/docs/user/offline-formats.rst:10
 msgid "Zipped HTML"
-msgstr ""
+msgstr "压缩 HTML"
 
 #: ../../upstream/docs/user/offline-formats.rst:12
 msgid ""
-"This means that every commit that you push will automatically update your"
-" offline formats as well as your documentation website."
-msgstr ""
+"This means that every commit that you push will automatically update your "
+"offline formats as well as your documentation website."
+msgstr "这意味着你推送的每次提交都会自动更新离线格式和文档网站。"
 
 #: ../../upstream/docs/user/offline-formats.rst:15
 msgid "Use cases"
-msgstr ""
+msgstr "使用场景"
 
 #: ../../upstream/docs/user/offline-formats.rst:17
 msgid ""
 "This functionality is great for anyone who needs documentation when they "
-"aren't connected to the internet. Users who are about to get on a plane "
-"can grab a single file and have the entire documentation during their "
-"trip. Many academic and scientific projects benefit from these additional"
-" formats."
-msgstr ""
+"aren't connected to the internet. Users who are about to get on a plane can "
+"grab a single file and have the entire documentation during their trip. Many"
+" academic and scientific projects benefit from these additional formats."
+msgstr "此功能非常适合需要在无网络环境下查阅文档的人。即将登机的用户只需获取单个文件，整个旅途中都能阅读完整文档。许多学术和科研项目都能从这些额外格式中获益。"
 
 #: ../../upstream/docs/user/offline-formats.rst:21
 msgid ""
-"PDF versions are also helpful to automatically **create printable "
-"versions of your documentation**. The source of your documentation will "
-"be structured to support both online and offline formats. This means that"
-" a documentation project displayed as a website can be downloaded as a "
-"PDF, ready to be printed as a report or a book."
+"PDF versions are also helpful to automatically **create printable versions "
+"of your documentation**. The source of your documentation will be structured"
+" to support both online and offline formats. This means that a documentation"
+" project displayed as a website can be downloaded as a PDF, ready to be "
+"printed as a report or a book."
 msgstr ""
+"PDF 版本也有助于自动**生成文档的可打印版本** 。文档源结构同时支持在线和离线格式，这意味着以网站形式呈现的文档项目可下载为 "
+"PDF，随时打印成报告或书籍。"
 
 #: ../../upstream/docs/user/offline-formats.rst:26
 msgid ""
 "Offline formats also support having the entire documentation in a single "
-"file. Your entire documentation can now be delivered as an email "
-"attachment, uploaded to an eReader, or accessed and searched locally "
-"without online latency. This makes your documentation project **easy to "
-"redistribute or archive**."
+"file. Your entire documentation can now be delivered as an email attachment,"
+" uploaded to an eReader, or accessed and searched locally without online "
+"latency. This makes your documentation project **easy to redistribute or "
+"archive**."
 msgstr ""
+"离线格式还支持将全部文档放入单个文件。你的完整文档现在可以作为邮件附件发送、上传到电子阅读器，或在本地访问和检索而无网络延迟。这让你的文档项目**易于重新分发或归档**"
+" 。"
 
 #: ../../upstream/docs/user/offline-formats.rst:33
 msgid "Accessing offline formats"
-msgstr ""
+msgstr "获取离线格式"
 
 #: ../../upstream/docs/user/offline-formats.rst:35
 msgid ""
 "You can download offline formats in the :guilabel:`Project dashboard` > "
 ":guilabel:`Downloads`:"
-msgstr ""
+msgstr "你可以在 :guilabel:`Project dashboard` > :guilabel:`Downloads` 中下载离线格式："
 
 #: ../../upstream/docs/user/offline-formats.rst:40
 msgid ""
 "When you are browsing a documentation project, they can also be accessed "
 "directly from the :doc:`/flyout-menu`."
-msgstr ""
+msgstr "浏览文档项目时，也可直接从 :doc:`/flyout-menu` 获取。"
 
 #: ../../upstream/docs/user/offline-formats.rst:44
 msgid "Examples"
-msgstr ""
+msgstr "示例"
 
 #: ../../upstream/docs/user/offline-formats.rst:46
 msgid ""
 "If you want to see an example, you can download the Read the Docs "
 "documentation in the following formats:"
-msgstr ""
+msgstr "若想查看示例，可按以下格式下载 Read the Docs 文档："
 
 #: ../../upstream/docs/user/offline-formats.rst:49
 msgid "`ePub`_"
-msgstr ""
+msgstr "`ePub`_"
 
 #: ../../upstream/docs/user/offline-formats.rst:50
 msgid "`Zipped HTML`_"
-msgstr ""
+msgstr "`Zipped HTML`_"
 
 #: ../../upstream/docs/user/offline-formats.rst:56
 msgid "Continue learning"
-msgstr ""
+msgstr "继续学习"
 
 #: ../../upstream/docs/user/offline-formats.rst:58
 msgid ""
 "Downloadable documentation formats are built by your documentation "
 "framework. They are then published by Read the Docs and included in your "
-":term:`Flyout menu`. Therefore, it's your framework that decides exactly "
-"how each output is built and which formats are supported:"
+":term:`Flyout menu`. Therefore, it's your framework that decides exactly how"
+" each output is built and which formats are supported:"
 msgstr ""
+"可下载的文档格式由你的文档框架构建，随后由 Read the Docs 发布并纳入你的 :term:`Flyout menu` "
+"。因此，每种输出具体如何构建、支持哪些格式，完全由你的框架决定："
 
 #: ../../upstream/docs/user/offline-formats.rst:62
 msgid "Sphinx"
-msgstr ""
+msgstr "Sphinx"
 
 #: ../../upstream/docs/user/offline-formats.rst:63
 msgid ""
-"All output formats are built mostly lossless from the documentation "
-"source, meaning that your documentation source (reStructuredText or "
-"Markdown/MyST) is built from scratch for each output format."
-msgstr ""
+"All output formats are built mostly lossless from the documentation source, "
+"meaning that your documentation source (reStructuredText or Markdown/MyST) "
+"is built from scratch for each output format."
+msgstr "所有输出格式基本无损地从文档源构建，也就是说你的文档源（reStructuredText 或 Markdown/MyST）会为每种输出格式重新构建一次。"
 
 #: ../../upstream/docs/user/offline-formats.rst:66
 msgid "MkDocs and Docsify + more"
-msgstr ""
+msgstr "MkDocs、Docsify 等"
 
 #: ../../upstream/docs/user/offline-formats.rst:67
 msgid ""
 "The common case for most documentation frameworks is that several "
-"alternative extensions exist supporting various output formats. Most of "
-"the extensions export the HTML outputs as another format (for instance "
-"PDF) through a conversion process."
-msgstr ""
+"alternative extensions exist supporting various output formats. Most of the "
+"extensions export the HTML outputs as another format (for instance PDF) "
+"through a conversion process."
+msgstr "多数文档框架的常见情况是存在若干支持不同输出格式的替代扩展。大部分扩展通过转换过程将 HTML 输出导出为其他格式（例如 PDF）。"
 
 #: ../../upstream/docs/user/offline-formats.rst:70
 msgid ""
 "Because Sphinx supports the generation of offline formats through an "
 "official process, we are also able to support it officially. Other "
-"alternatives can also work, provided that you identify which extension "
-"you want to use and configure the environment for it to run. **Other "
-"formats aren't natively supported by Read the Docs, but support is coming"
-" soon.**"
+"alternatives can also work, provided that you identify which extension you "
+"want to use and configure the environment for it to run. **Other formats "
+"aren't natively supported by Read the Docs, but support is coming soon.**"
 msgstr ""
+"由于 Sphinx 通过官方流程支持生成离线格式，我们也能官方支持它。其他替代方案同样可行，前提是你明确要使用的扩展并配置好运行环境。**Read "
+"the Docs 原生尚不支持其他格式，但支持即将到来。**"
 
 #: ../../upstream/docs/user/offline-formats.rst:79
 msgid ""
-"Other pages in our documentation are relevant to this feature, and might "
-"be a useful next step."
-msgstr ""
+"Other pages in our documentation are relevant to this feature, and might be "
+"a useful next step."
+msgstr "我们文档中的其他页面与此功能相关，可作为下一步参考。"
 
 #: ../../upstream/docs/user/offline-formats.rst:82
 msgid ""
-":doc:`/guides/enable-offline-formats` - Guide to enabling and disabling "
-"this feature."
-msgstr ""
+":doc:`/guides/enable-offline-formats` - Guide to enabling and disabling this"
+" feature."
+msgstr ":doc:`/guides/enable-offline-formats` - 启用和禁用此功能的指南。"
 
 #: ../../upstream/docs/user/offline-formats.rst:83
 msgid ""
 ":ref:`config-file/v2:formats` - Configuration file options for offline "
 "formats."
-msgstr ""
+msgstr ":ref:`config-file/v2:formats` - 离线格式的配置文件选项。"
 
 #: ../../upstream/docs/user/offline-formats.rst:84
 msgid ""
-":ref:`build-customization:where to put files` - Where to put offline "
-"format output when using custom build commands."
-msgstr ""
+":ref:`build-customization:where to put files` - Where to put offline format "
+"output when using custom build commands."
+msgstr ":ref:`build-customization:where to put files` - 使用自定义构建命令时离线格式输出的放置位置。"
 

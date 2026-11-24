@@ -32,9 +32,8 @@ msgid ""
 "is to be able to control versioning and builds through your Git repository "
 "and avoid duplicating these efforts on Read the Docs."
 msgstr ""
-"自动化规则允许项目维护者自动化处理 Git 仓库中的新分支、标签和 Pull Request。如果你熟悉 "
-":term:`GitOps`，这可能看起来很眼熟。自动化规则的目标是让你能通过 Git 仓库控制版本管理和构建，避免在 Read the Docs "
-"上重复这些工作。"
+"自动化规则允许项目维护者自动化处理 Git 仓库中的新分支、标签和 Pull Request。如果你熟悉 :term:`GitOps` "
+"，这可能看起来很眼熟。自动化规则的目标是让你能通过 Git 仓库控制版本管理和构建，避免在 Read the Docs 上重复这些工作。"
 
 #: ../../upstream/docs/user/automation-rules.rst:13
 msgid ":doc:`/guides/automation-rules`"
@@ -64,7 +63,7 @@ msgid ""
 "*tag, branch, or pull request*."
 msgstr ""
 "当新标签或分支推送到你的仓库、或有 Pull Request 被打开或更新时，Read the Docs 会从 Git 服务商接收 Webhook。随后"
-" Read the Docs 会创建（或更新）一个与你的 Git *标签、分支或 Pull Request* 匹配的* 版本*。"
+" Read the Docs 会创建（或更新）一个与你的 Git *标签、分支或 Pull Request* 匹配的* 版本* 。"
 
 #: ../../upstream/docs/user/automation-rules.rst:27
 msgid ""
@@ -87,7 +86,7 @@ msgstr "版本**名称** 必须匹配规则中的版本模式。"
 msgid ""
 "If any **webhook filter** is configured, the data from the webhook event "
 "(changed files, commit message, or pull request labels) must also match."
-msgstr "如果配置了任何 **Webhook 过滤器**，Webhook 事件中的数据（变更的文件、提交信息或 Pull Request 标签）也必须匹配。"
+msgstr "如果配置了任何 **Webhook 过滤器** ，Webhook 事件中的数据（变更的文件、提交信息或 Pull Request 标签）也必须匹配。"
 
 #: ../../upstream/docs/user/automation-rules.rst:36
 msgid ""
@@ -147,7 +146,7 @@ msgstr "自动化规则支持两种预定义的版本名称匹配："
 
 #: ../../upstream/docs/user/automation-rules.rst:67
 msgid "**Any version**: All new versions will match the rule."
-msgstr "**任意版本**：所有新版本都匹配该规则。"
+msgstr "**任意版本** ：所有新版本都匹配该规则。"
 
 #: ../../upstream/docs/user/automation-rules.rst:68
 msgid ""
@@ -155,8 +154,8 @@ msgid ""
 "<https://semver.org/>`__ (with or without a ``v`` prefix) will match the "
 "rule."
 msgstr ""
-"**SemVer 版本**：所有遵循 `semantic versioning <https://semver.org/>`__ （带或不带 ``v``"
-" 前缀）的新版本都匹配该规则。"
+"**SemVer 版本** ：所有遵循 `semantic versioning <https://semver.org/>`__ （带或不带 "
+"``v`` 前缀）的新版本都匹配该规则。"
 
 #: ../../upstream/docs/user/automation-rules.rst:72
 msgid "Custom matches"
@@ -166,7 +165,7 @@ msgstr "自定义匹配"
 msgid ""
 "If none of the above predefined matches meet your use case, you can use a "
 "**Custom match**."
-msgstr "如果上述预定义匹配都不满足你的需求，可以使用**自定义匹配**。"
+msgstr "如果上述预定义匹配都不满足你的需求，可以使用**自定义匹配** 。"
 
 #: ../../upstream/docs/user/automation-rules.rst:77
 msgid ""
@@ -174,8 +173,8 @@ msgid ""
 "<https://docs.python.org/3/library/re.html>`__. Each new version's name will"
 " be tested against this regular expression."
 msgstr ""
-"自定义匹配应为有效的 `Python 正则表达式 "
-"<https://docs.python.org/3/library/re.html>`__。每个新版本的名称都会针对此正则表达式进行测试。"
+"自定义匹配应为有效的 `Python 正则表达式 <https://docs.python.org/3/library/re.html>`__ "
+"。每个新版本的名称都会针对此正则表达式进行测试。"
 
 #: ../../upstream/docs/user/automation-rules.rst:81
 msgid "Webhook filters"
@@ -189,8 +188,8 @@ msgid ""
 "builds when only non-documentation files were modified, or when the commit "
 "message indicates the change should be ignored."
 msgstr ""
-"除了匹配版本，规则还可以根据触发它的 Webhook 事件内容进行过滤。Webhook "
-"过滤器有助于**避免在无相关变更时运行动作**，例如当仅修改了非文档文件、或提交信息表明应忽略该变更时跳过构建。"
+"除了匹配版本，规则还可以根据触发它的 Webhook 事件内容进行过滤。Webhook 过滤器有助于**避免在无相关变更时运行动作** "
+"，例如当仅修改了非文档文件、或提交信息表明应忽略该变更时跳过构建。"
 
 #: ../../upstream/docs/user/automation-rules.rst:89
 msgid "The following filters are available:"
@@ -306,7 +305,7 @@ msgstr "隐藏版本"
 msgid ""
 "Hides the version. If the version is not active, activates it and builds the"
 " version. See :ref:`versions:Version states`."
-msgstr "隐藏该版本。如果版本未激活，则激活并构建它。请参阅 :ref:`versions:Version states`。"
+msgstr "隐藏该版本。如果版本未激活，则激活并构建它。请参阅 :ref:`versions:Version states` 。"
 
 #: ../../upstream/docs/user/automation-rules.rst:148
 msgid "Make version public"
@@ -316,7 +315,7 @@ msgstr "设为公开版本"
 msgid ""
 "Sets the version's privacy level to public. See :ref:`versions:Version "
 "states`."
-msgstr "将版本的隐私级别设为公开。请参阅 :ref:`versions:Version states`。"
+msgstr "将版本的隐私级别设为公开。请参阅 :ref:`versions:Version states` 。"
 
 #: ../../upstream/docs/user/automation-rules.rst:152
 msgid "Make version private"
@@ -326,7 +325,7 @@ msgstr "设为私有版本"
 msgid ""
 "Sets the version's privacy level to private. See :ref:`versions:Version "
 "states`."
-msgstr "将版本的隐私级别设为私有。请参阅 :ref:`versions:Version states`。"
+msgstr "将版本的隐私级别设为私有。请参阅 :ref:`versions:Version states` 。"
 
 #: ../../upstream/docs/user/automation-rules.rst:156
 msgid "Set version as default"
@@ -336,7 +335,7 @@ msgstr "设为默认版本"
 msgid ""
 "Sets the version as the :term:`default version`. It also activates and "
 "builds the version. See :ref:`root_url_redirect`."
-msgstr "将版本设为 :term:`default version`。同时也会激活并构建该版本。请参阅 :ref:`root_url_redirect`。"
+msgstr "将版本设为 :term:`default version` 。同时也会激活并构建该版本。请参阅 :ref:`root_url_redirect` 。"
 
 #: ../../upstream/docs/user/automation-rules.rst:161
 msgid "Delete version"
@@ -368,8 +367,8 @@ msgid ""
 "version if it's greater than the current stable version. The stable version "
 "is also automatically updated at the same time. See more in :doc:`versions`."
 msgstr ""
-"如果你的版本遵循 :pep:`440`，当版本大于当前稳定版本时，Read the Docs 会激活并构建它。稳定版本也会同时自动更新。更多详情见 "
-":doc:`versions`。"
+"如果你的版本遵循 :pep:`440` ，当版本大于当前稳定版本时，Read the Docs 会激活并构建它。稳定版本也会同时自动更新。更多详情见 "
+":doc:`versions` 。"
 
 #: ../../upstream/docs/user/automation-rules.rst:177
 msgid "Build actions"
@@ -400,7 +399,7 @@ msgid ""
 " any build rule configured, builds keep being triggered for every push and "
 "pull request as usual."
 msgstr ""
-"当项目至少有一条启用了**触发版本构建** 动作的规则时，构建会被这些规则** 控制**：如果没有构建规则匹配传入的 Webhook "
+"当项目至少有一条启用了**触发版本构建** 动作的规则时，构建会被这些规则** 控制** ：如果没有构建规则匹配传入的 Webhook "
 "事件，则不会触发构建。如果未配置任何构建规则，构建将像往常一样为每次推送和 Pull Request 触发。"
 
 #: ../../upstream/docs/user/automation-rules.rst:193
@@ -492,7 +491,7 @@ msgstr "动作：``Set version as default``"
 msgid ""
 "You can also create two rules: one to match ``-stable`` and other to match "
 "``-release``."
-msgstr "你也可以创建两条规则：一条匹配 ``-stable``，另一条匹配 ``-release``。"
+msgstr "你也可以创建两条规则：一条匹配 ``-stable`` ，另一条匹配 ``-release`` 。"
 
 #: ../../upstream/docs/user/automation-rules.rst:243
 msgid "Activate all new tags and branches that start with ``v`` or ``V``"

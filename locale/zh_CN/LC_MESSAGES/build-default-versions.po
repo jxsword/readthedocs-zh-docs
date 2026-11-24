@@ -45,14 +45,14 @@ msgid ""
 "this change."
 msgstr ""
 "过去我们会将若干依赖固定到特定版本，并在一段时间后更新它们，但这样做会导致某些构建失败，并让新项目更难使用新版本。因此，我们现在默认仅安装最新版本的最小必要依赖。完整的历史依赖列表与迁移建议，请参阅我们宣布此变更的"
-" `博客文章 <https://blog.readthedocs.com/defaulting-latest-build-tools/>`__。"
+" `博客文章 <https://blog.readthedocs.com/defaulting-latest-build-tools/>`__ 。"
 
 #: ../../upstream/docs/user/build-default-versions.rst:24
 msgid ""
 "In order to keep your builds reproducible, it's highly recommended declaring"
 " its dependencies and versions explicitly. See :doc:`/guides/reproducible-"
 "builds`."
-msgstr "为保持构建可复现，强烈建议显式声明依赖及其版本。请参阅 :doc:`/guides/reproducible-builds`。"
+msgstr "为保持构建可复现，强烈建议显式声明依赖及其版本。请参阅 :doc:`/guides/reproducible-builds` 。"
 
 #: ../../upstream/docs/user/build-default-versions.rst:29
 msgid "External dependencies"

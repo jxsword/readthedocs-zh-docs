@@ -22,123 +22,139 @@ msgstr ""
 
 #: ../../upstream/docs/user/security-implications.rst:2
 msgid "Security considerations for documentation pages"
-msgstr ""
+msgstr "文档页面的安全考量"
 
 #: ../../upstream/docs/user/security-implications.rst:4
 msgid ""
-"This article explains the security implications of documentation pages, "
-"this doesn't apply to the main dashboard "
-"(readthedocs.org/readthedocs.com), only to documentation pages "
-"(readthedocs.io, readthedocs-hosted.com, and custom domains)."
+"This article explains the security implications of documentation pages, this"
+" doesn't apply to the main dashboard (readthedocs.org/readthedocs.com), only"
+" to documentation pages (readthedocs.io, readthedocs-hosted.com, and custom "
+"domains)."
 msgstr ""
+"本文讲解文档页面的安全影响。这不适用于主仪表盘（readthedocs.org/readthedocs.com），仅适用于文档页面（readthedocs.io"
+"、readthedocs-hosted.com 及自定义域名）。"
 
 #: ../../upstream/docs/user/security-implications.rst:10
 msgid ":doc:`/api/cross-site-requests`"
-msgstr ""
+msgstr ":doc:`/api/cross-site-requests`"
 
 #: ../../upstream/docs/user/security-implications.rst:11
 msgid "Learn about cross-origin requests in our public APIs."
-msgstr ""
+msgstr "了解我们公共 API 中的跨源请求。"
 
 #: ../../upstream/docs/user/security-implications.rst:14
 msgid "Cross-origin requests"
-msgstr ""
+msgstr "跨源请求"
 
 #: ../../upstream/docs/user/security-implications.rst:16
 msgid ""
-"Read the Docs allows `cross-origin requests`_ for documentation resources"
-" it serves. However, internal and proxied APIs, typically found under the"
-" ``/_/`` path don't allow cross-origin requests."
+"Read the Docs allows `cross-origin requests`_ for documentation resources it"
+" serves. However, internal and proxied APIs, typically found under the "
+"``/_/`` path don't allow cross-origin requests."
 msgstr ""
+"Read the Docs 允许对其提供的文档资源发起 `cross-origin requests`_ 。但内部和代理 API（通常在 ``/_/``"
+" 路径下）不允许跨源请求。"
 
 #: ../../upstream/docs/user/security-implications.rst:19
 msgid ""
-"To facilitate this, the following headers are added to all responses from"
-" documentation pages:"
-msgstr ""
+"To facilitate this, the following headers are added to all responses from "
+"documentation pages:"
+msgstr "为实现这一点，文档页面的所有响应都会添加以下标头："
 
 #: ../../upstream/docs/user/security-implications.rst:21
 msgid "``Access-Control-Allow-Origin: *``"
-msgstr ""
+msgstr "``Access-Control-Allow-Origin: *``"
 
 #: ../../upstream/docs/user/security-implications.rst:22
 msgid "``Access-Control-Allow-Methods: GET, HEAD, OPTIONS``"
-msgstr ""
+msgstr "``Access-Control-Allow-Methods: GET, HEAD, OPTIONS``"
 
 #: ../../upstream/docs/user/security-implications.rst:24
 msgid ""
-"These headers allow cross-origin requests from any origin and only allow "
-"the GET, HEAD and OPTIONS methods. It's important to note that passing "
+"These headers allow cross-origin requests from any origin and only allow the"
+" GET, HEAD and OPTIONS methods. It's important to note that passing "
 "credentials (such as cookies or HTTP authentication) in cross-origin "
 "requests is not allowed, ensuring access to public resources only."
 msgstr ""
+"这些标头允许来自任意源的跨源请求，但仅允许 GET、HEAD 和 OPTIONS 方法。需注意跨源请求中不允许传递凭据（如 cookie 或 HTTP "
+"认证），确保只能访问公开资源。"
 
 #: ../../upstream/docs/user/security-implications.rst:30
 msgid ""
-"Having cross-origin requests enabled allows third-party websites to make "
-"use of files from your documentation (as long as they are public), which "
-"allows various third-party integrations to work."
-msgstr ""
+"Having cross-origin requests enabled allows third-party websites to make use"
+" of files from your documentation (as long as they are public), which allows"
+" various third-party integrations to work."
+msgstr "启用跨源请求后，第三方网站可使用你文档中的文件（只要是公开的），从而让各种第三方集成得以工作。"
 
 #: ../../upstream/docs/user/security-implications.rst:33
 msgid ""
 "If needed, the ``Access-Control`` headers can be changed for your "
 "documentation pages by :doc:`contacting support </support>`. **You are "
-"responsible for providing the correct values for these headers, and "
-"making sure they don't break your documentation pages.**"
+"responsible for providing the correct values for these headers, and making "
+"sure they don't break your documentation pages.**"
 msgstr ""
+"如需要，可通过 :doc:`联系支持 </support>` 更改文档页面的 ``Access-Control`` "
+"标头。**你需负责提供这些标头的正确值，并确保它们不会破坏你的文档页面。**"
 
 #: ../../upstream/docs/user/security-implications.rst:39
 msgid "Cookies"
-msgstr ""
+msgstr "Cookie"
 
 #: ../../upstream/docs/user/security-implications.rst:41
 msgid "On |org_brand|, we don't use cookies, as all resources are public."
-msgstr ""
+msgstr "|org_brand| 不使用 cookie，因为所有资源都是公开的。"
 
 #: ../../upstream/docs/user/security-implications.rst:43
 msgid ""
-"On |com_brand|, we use cookies to store user sessions. These cookies are "
-"set when a user authenticates to access private documentation. Session "
-"cookies have the ``SameSite`` attribute set to ``None``, which allows "
-"them to be sent in cross-origin requests where allowed (see :ref"
-":`security-implications:Cross-origin requests`), for example, when "
-"embedding private documentation pages in an iframe (see :ref:`security-"
-"implications:Embedding documentation pages`)."
+"On |com_brand|, we use cookies to store user sessions. These cookies are set"
+" when a user authenticates to access private documentation. Session cookies "
+"have the ``SameSite`` attribute set to ``None``, which allows them to be "
+"sent in cross-origin requests where allowed (see :ref:`security-implications"
+":Cross-origin requests`), for example, when embedding private documentation "
+"pages in an iframe (see :ref:`security-implications:Embedding documentation "
+"pages`)."
 msgstr ""
+"|com_brand| 使用 cookie 存储用户会话。这些 cookie 在用户认证以访问私有文档时设置。会话 cookie 的 "
+"``SameSite`` 属性设为 ``None`` ，允许在允许的情况下随跨源请求发送（见 :ref:`security-implications"
+":Cross-origin requests` ），例如将私有文档页面嵌入 iframe 时（见 :ref:`security-"
+"implications:Embedding documentation pages` ）。"
 
 #: ../../upstream/docs/user/security-implications.rst:52
 msgid "Embedding documentation pages"
-msgstr ""
+msgstr "嵌入文档页面"
 
 #: ../../upstream/docs/user/security-implications.rst:54
 msgid ""
-"Embedding documentation pages in an iframe is allowed. Read the Docs "
-"doesn't set the ``X-Frame-Options`` or ``Content-Security-Policy`` "
-"headers, which means that the browser's default behavior is used."
+"Embedding documentation pages in an iframe is allowed. Read the Docs doesn't"
+" set the ``X-Frame-Options`` or ``Content-Security-Policy`` headers, which "
+"means that the browser's default behavior is used."
 msgstr ""
+"允许将文档页面嵌入 iframe。Read the Docs 不设置 ``X-Frame-Options`` 或 ``Content-Security-"
+"Policy`` 标头，因此采用浏览器的默认行为。"
 
 #: ../../upstream/docs/user/security-implications.rst:58
 msgid ""
 "Embedding private documentation pages in an iframe is possible, but it "
 "requires users to be previously authenticated in the embedded domain."
-msgstr ""
+msgstr "可以将私有文档页面嵌入 iframe，但要求用户此前已在被嵌入域中完成认证。"
 
 #: ../../upstream/docs/user/security-implications.rst:61
 msgid ""
-"It's important to note that embedding documentation pages in an iframe "
-"does not grant the parent page access the iframe's content. Documentation"
-" pages serve static content only, and the exposed APIs are read-only, "
-"making the exploitation of a clickjacking vulnerability extremely "
-"unlikely."
+"It's important to note that embedding documentation pages in an iframe does "
+"not grant the parent page access the iframe's content. Documentation pages "
+"serve static content only, and the exposed APIs are read-only, making the "
+"exploitation of a clickjacking vulnerability extremely unlikely."
 msgstr ""
+"需注意，将文档页面嵌入 iframe 并不会赋予父页面访问 iframe 内容的能力。文档页面只提供静态内容，暴露的 API "
+"为只读，因此点击劫持漏洞被利用的可能性极低。"
 
 #: ../../upstream/docs/user/security-implications.rst:65
 msgid ""
-"If needed, the ``X-Frame-Options`` and ``Content-Security-Policy`` "
-"headers can be set on your documentation pages by :doc:`contacting "
-"support </support>`. **You are responsible for providing the correct "
-"values for these headers, and making sure they don't break your "
-"documentation pages.**"
+"If needed, the ``X-Frame-Options`` and ``Content-Security-Policy`` headers "
+"can be set on your documentation pages by :doc:`contacting support "
+"</support>`. **You are responsible for providing the correct values for "
+"these headers, and making sure they don't break your documentation pages.**"
 msgstr ""
+"如需要，可通过 :doc:`联系支持 </support>` 在文档页面上设置 ``X-Frame-Options`` 和 ``Content-"
+"Security-Policy`` 标头。**你需负责提供这些标头的正确值，并确保它们不会破坏你的文档页面。**"
 

@@ -22,93 +22,91 @@ msgstr ""
 
 #: ../../upstream/docs/user/explanation/documentation-structure.rst:2
 msgid "How to structure your documentation"
-msgstr ""
+msgstr "如何组织文档结构"
 
 #: ../../upstream/docs/user/explanation/documentation-structure.rst:4
 msgid ""
-"A documentation project's ultimate goal is to be read and understood by a"
-" reader. Readers need to be able to :term:`discover <discoverability>` "
-"the information that they need. Without an defined structure, readers "
-"either won't find information that they need or get frustrated on the "
-"way."
+"A documentation project's ultimate goal is to be read and understood by a "
+"reader. Readers need to be able to :term:`discover <discoverability>` the "
+"information that they need. Without an defined structure, readers either "
+"won't find information that they need or get frustrated on the way."
 msgstr ""
+"文档项目的最终目标是让读者阅读并理解。读者需要能够 :term:`发现 <discoverability>` "
+"所需信息。若没有明确定义的结构，读者要么找不到所需信息，要么在过程中感到挫败。"
 
 #: ../../upstream/docs/user/explanation/documentation-structure.rst:9
 msgid ""
-"One of the largest benefits of a good structure is that it removes "
-"questions that keep authors from writing documentation. Starting with a "
-"blank page is often the hardest part of documentation, so anything we can"
-" do to remove this problem is a win."
-msgstr ""
+"One of the largest benefits of a good structure is that it removes questions"
+" that keep authors from writing documentation. Starting with a blank page is"
+" often the hardest part of documentation, so anything we can do to remove "
+"this problem is a win."
+msgstr "良好结构的最大益处之一是消除阻碍作者动笔的疑虑。从空白页开始往往是写文档最难的部分，因此我们能为此做的任何努力都是值得的。"
 
 #: ../../upstream/docs/user/explanation/documentation-structure.rst:14
 msgid "Choosing a structure"
-msgstr ""
+msgstr "选择结构"
 
 #: ../../upstream/docs/user/explanation/documentation-structure.rst:16
 msgid ""
-"Good news! You don't have to invent all of the structure yourself, since "
-"a lot of experience-based work has been done to come up with a universal "
+"Good news! You don't have to invent all of the structure yourself, since a "
+"lot of experience-based work has been done to come up with a universal "
 "documentation structure."
-msgstr ""
+msgstr "好消息！你不必自己发明全部结构，因为已有大量基于经验的成果总结出了一套通用的文档结构。"
 
 #: ../../upstream/docs/user/explanation/documentation-structure.rst:20
-msgid ""
-"In order to avoid starting with a blank page, we recommend a simple "
-"process:"
-msgstr ""
+msgid "In order to avoid starting with a blank page, we recommend a simple process:"
+msgstr "为避免从空白页开始，我们推荐一个简单的流程："
 
 #: ../../upstream/docs/user/explanation/documentation-structure.rst:23
 msgid ""
 "Choose a structure for your documentation. We recommend `Diátaxis "
 "<https://diataxis.fr/>`_ for this."
-msgstr ""
+msgstr "为你的文档选择结构。我们推荐使用 `Diátaxis <https://diataxis.fr/>`_ 。"
 
 #: ../../upstream/docs/user/explanation/documentation-structure.rst:24
 msgid "Find a :doc:`example project </examples>` or template to start from."
-msgstr ""
+msgstr "找一个 :doc:`示例项目 </examples>` 或模板作为起点。"
 
 #: ../../upstream/docs/user/explanation/documentation-structure.rst:25
 msgid "Start writing by filling in the structure."
-msgstr ""
+msgstr "按结构填充内容开始写作。"
 
 #: ../../upstream/docs/user/explanation/documentation-structure.rst:27
 msgid ""
-"This process helps you get started quickly, and helps keep things "
-"consistent for the reader of your documentation."
-msgstr ""
+"This process helps you get started quickly, and helps keep things consistent"
+" for the reader of your documentation."
+msgstr "该流程帮助你快速起步，并让你的文档读者获得一致体验。"
 
 #: ../../upstream/docs/user/explanation/documentation-structure.rst:33
 msgid "Diátaxis Methodology"
-msgstr ""
+msgstr "Diátaxis 方法论"
 
 #: ../../upstream/docs/user/explanation/documentation-structure.rst:35
 msgid ""
-"The documentation you're reading is written using the Diátaxis framework."
-" It has four major parts as summarized by this image:"
-msgstr ""
+"The documentation you're reading is written using the Diátaxis framework. It"
+" has four major parts as summarized by this image:"
+msgstr "你正在阅读的文档采用 Diátaxis 框架编写，包含如下图中概括的四个主要部分："
 
 #: ../../upstream/docs/user/explanation/documentation-structure.rst:40
 msgid ""
 "We recommend that you read more about it in the `official Diátaxis "
 "documentation <https://diataxis.fr/>`_."
-msgstr ""
+msgstr "我们建议在 `official Diátaxis documentation <https://diataxis.fr/>`_ 中了解更多。"
 
 #: ../../upstream/docs/user/explanation/documentation-structure.rst:43
 msgid "Explaining the structure to your users"
-msgstr ""
+msgstr "向用户讲解结构"
 
 #: ../../upstream/docs/user/explanation/documentation-structure.rst:45
 msgid ""
 "One of the benefits of Diátaxis is that it's a well-known structure, and "
 "users might already be familiar with it. As long as you stick to the "
-"structure, your users should be able to use existing experience to "
-"navigate."
-msgstr ""
+"structure, your users should be able to use existing experience to navigate."
+msgstr "Diátaxis 的优势之一是它是广为人知的结构，用户可能已经熟悉。只要坚持使用该结构，用户就能借助既有经验进行导航。"
 
 #: ../../upstream/docs/user/explanation/documentation-structure.rst:50
 msgid ""
 "Using the names that are defined (eg. Tutorials, Explanation) in a user-"
 "facing way also helps here."
-msgstr ""
+msgstr "以面向用户的方式使用已定义的名称（如 Tutorials、Explanation）同样有帮助。"
 

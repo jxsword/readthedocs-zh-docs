@@ -47,7 +47,7 @@ msgid ""
 "Read the Docs automatically generates one for you with a configuration that "
 "works for most projects. By default, the automatically created "
 "``robots.txt``:"
-msgstr "Read the Docs 会自动为你生成一份对大多数项目都适用的配置。默认情况下，自动生成的 ``robots.txt``："
+msgstr "Read the Docs 会自动为你生成一份对大多数项目都适用的配置。默认情况下，自动生成的 ``robots.txt`` ："
 
 #: ../../upstream/docs/user/reference/robots.rst:14
 msgid ""
@@ -72,7 +72,7 @@ msgstr ""
 msgid ""
 "If you require *private* documentation, please see "
 ":doc:`/commercial/sharing`."
-msgstr "如需*私有* 文档，请参阅 :doc:`/commercial/sharing`。"
+msgstr "如需*私有* 文档，请参阅 :doc:`/commercial/sharing` 。"
 
 #: ../../upstream/docs/user/reference/robots.rst:27
 msgid "How it works"

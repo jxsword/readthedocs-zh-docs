@@ -48,12 +48,12 @@ msgstr "自动添加项目"
 #: ../../upstream/docs/user/intro/add-project.rst:16
 #: ../../upstream/docs/user/intro/add-project.rst:36
 msgid "Go to your :term:`dashboard`."
-msgstr "前往你的 :term:`dashboard`。"
+msgstr "前往你的 :term:`dashboard` 。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:17
 #: ../../upstream/docs/user/intro/add-project.rst:37
 msgid "Click on :guilabel:`Add project`."
-msgstr "点击 :guilabel:`Add project`。"
+msgstr "点击 :guilabel:`Add project` 。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:18
 msgid ""
@@ -62,14 +62,14 @@ msgid ""
 "installed the :ref:`Read the Docs GitHub App <reference/git-"
 "integration:Troubleshooting>` in your repository."
 msgstr ""
-"输入你要添加的仓库名称并点击它。如果你正在使用我们的 :ref:`reference/git-integration:GitHub "
-"App`，请确保已在你的仓库中安装 :ref:`Read the Docs GitHub App <reference/git-"
-"integration:Troubleshooting>`。"
+"输入你要添加的仓库名称并点击它。如果你正在使用我们的 :ref:`reference/git-integration:GitHub App` "
+"，请确保已在你的仓库中安装 :ref:`Read the Docs GitHub App <reference/git-"
+"integration:Troubleshooting>` 。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:21
 #: ../../upstream/docs/user/intro/add-project.rst:39
 msgid "Click on :guilabel:`Continue`."
-msgstr "点击 :guilabel:`Continue`。"
+msgstr "点击 :guilabel:`Continue` 。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:22
 msgid "Edit any of the pre-filled fields with information of the repository."
@@ -78,17 +78,17 @@ msgstr "根据仓库信息修改任何预填充的字段。"
 #: ../../upstream/docs/user/intro/add-project.rst:23
 #: ../../upstream/docs/user/intro/add-project.rst:41
 msgid "Click on :guilabel:`Next`."
-msgstr "点击 :guilabel:`Next`。"
+msgstr "点击 :guilabel:`Next` 。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:24
 #: ../../upstream/docs/user/intro/add-project.rst:42
 msgid "Add a :term:`configuration file` to your repository if it doesn't exist yet."
-msgstr "如果你的仓库中还没有 :term:`configuration file`，请添加一个。"
+msgstr "如果你的仓库中还没有 :term:`configuration file` ，请添加一个。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:25
 #: ../../upstream/docs/user/intro/add-project.rst:43
 msgid "Click on :guilabel:`This file exists`."
-msgstr "点击 :guilabel:`This file exists`。"
+msgstr "点击 :guilabel:`This file exists` 。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:29
 msgid ":doc:`/reference/git-integration`"
@@ -106,7 +106,7 @@ msgstr "手动添加项目"
 
 #: ../../upstream/docs/user/intro/add-project.rst:38
 msgid "Click on :guilabel:`Configure manually`."
-msgstr "点击 :guilabel:`Configure manually`。"
+msgstr "点击 :guilabel:`Configure manually` 。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:40
 msgid "Fill all the fields of the form."
@@ -143,8 +143,8 @@ msgid ""
 "complete setup."
 msgstr ""
 "如果你在自己的流水线中构建文档（例如在 GitHub Actions 中），请选择 :guilabel:`Build externally and "
-"upload` 而不是添加配置文件，然后点击 :guilabel:`I will upload my documentation`。Read the "
-"Docs 不会构建你的项目，而是由你的流水线上传文档。完整设置请参阅 :doc:`/guides/build/direct-upload`。"
+"upload` 而不是添加配置文件，然后点击 :guilabel:`I will upload my documentation` 。Read the "
+"Docs 不会构建你的项目，而是由你的流水线上传文档。完整设置请参阅 :doc:`/guides/build/direct-upload` 。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:62
 msgid "What's next"

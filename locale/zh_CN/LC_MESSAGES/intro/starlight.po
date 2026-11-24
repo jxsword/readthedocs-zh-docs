@@ -81,7 +81,7 @@ msgid ""
 "Links starting with ``/`` in your content are not prefixed with the base "
 "path. Use relative links (e.g. ``./guides/example/``) so they work under the"
 " version path."
-msgstr "内容中以 ``/`` 开头的链接不会添加基础路径前缀。请使用相对链接（例如 ``./guides/example/``），以便它们在版本路径下正常工作。"
+msgstr "内容中以 ``/`` 开头的链接不会添加基础路径前缀。请使用相对链接（例如 ``./guides/example/`` ），以便它们在版本路径下正常工作。"
 
 #: ../../upstream/docs/user/intro/starlight.rst:82
 msgid "Example repository and demo"

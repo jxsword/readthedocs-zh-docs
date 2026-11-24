@@ -62,7 +62,7 @@ msgstr "如果你已有想在 Read the Docs 上托管的 MyST Markdown 项目，
 msgid ""
 "If you're new to MyST Markdown, check out the official `MyST quickstart "
 "guide`_."
-msgstr "如果你还不熟悉 MyST Markdown，请参阅官方的 `MyST quickstart guide`_。"
+msgstr "如果你还不熟悉 MyST Markdown，请参阅官方的 `MyST quickstart guide`_ 。"
 
 #: ../../upstream/docs/user/intro/mystmd.rst:45
 msgid "Example repository and demo"

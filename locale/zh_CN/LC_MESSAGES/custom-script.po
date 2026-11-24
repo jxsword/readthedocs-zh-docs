@@ -22,76 +22,79 @@ msgstr ""
 
 #: ../../upstream/docs/user/custom-script.rst:2
 msgid "Custom script"
-msgstr ""
+msgstr "自定义脚本"
 
 #: ../../upstream/docs/user/custom-script.rst:4
 msgid ""
-"The Custom Script addon allows you to inject a custom JavaScript file "
-"into your documentation at serve time. This enables you to modify or "
-"enhance frozen documentation without rebuilding it."
-msgstr ""
+"The Custom Script addon allows you to inject a custom JavaScript file into "
+"your documentation at serve time. This enables you to modify or enhance "
+"frozen documentation without rebuilding it."
+msgstr "自定义脚本 addon 允许你在提供服务时向文档注入自定义 JavaScript 文件，从而无需重新构建即可修改或增强已冻结的文档。"
 
 #: ../../upstream/docs/user/custom-script.rst:8
 msgid "Configure custom scripts"
-msgstr ""
+msgstr "配置自定义脚本"
 
 #: ../../upstream/docs/user/custom-script.rst:10
 msgid "To add or update a custom script for your project:"
-msgstr ""
+msgstr "为项目添加或更新自定义脚本："
 
 #: ../../upstream/docs/user/custom-script.rst:12
-msgid ""
-"Go to your project's :menuselection:`Settings --> Addons --> Custom "
-"script`."
-msgstr ""
+msgid "Go to your project's :menuselection:`Settings --> Addons --> Custom script`."
+msgstr "前往项目的 :menuselection:`Settings --> Addons --> Custom script` 。"
 
 #: ../../upstream/docs/user/custom-script.rst:13
 msgid "Enter the URL of your JavaScript file in the :guilabel:`Source URL` field."
-msgstr ""
+msgstr "在 :guilabel:`Source URL` 字段中填入 JavaScript 文件的 URL。"
 
 #: ../../upstream/docs/user/custom-script.rst:14
 msgid "Click :guilabel:`Save`."
-msgstr ""
+msgstr "点击 :guilabel:`Save` 。"
 
 #: ../../upstream/docs/user/custom-script.rst:17
 msgid "Using custom scripts"
-msgstr ""
+msgstr "使用自定义脚本"
 
 #: ../../upstream/docs/user/custom-script.rst:19
 msgid ""
 "This addon allows specifying a URL to a JavaScript file that will be "
-"injected into all pages of your documentation. The script can be hosted "
-"on Read the Docs itself (as a relative URL) or on an external server (as "
-"an absolute URL)."
+"injected into all pages of your documentation. The script can be hosted on "
+"Read the Docs itself (as a relative URL) or on an external server (as an "
+"absolute URL)."
 msgstr ""
+"此 addon 允许指定一个 JavaScript 文件 URL，该文件会被注入你文档的所有页面。脚本可托管在 Read the Docs 自身（相对 "
+"URL）或外部服务器（绝对 URL）。"
 
 #: ../../upstream/docs/user/custom-script.rst:22
 msgid "Common use cases for custom scripts include:"
-msgstr ""
+msgstr "自定义脚本的常见用例包括："
 
 #: ../../upstream/docs/user/custom-script.rst:24
 msgid "Fixing bugs or adding features to frozen documentation"
-msgstr ""
+msgstr "修复已冻结文档的缺陷或为其添加功能"
 
 #: ../../upstream/docs/user/custom-script.rst:25
 msgid "Injecting analytics or tracking code"
-msgstr ""
+msgstr "注入分析或追踪代码"
 
 #: ../../upstream/docs/user/custom-script.rst:26
 msgid "Customizing the appearance or behavior of specific documentation versions"
-msgstr ""
+msgstr "定制特定文档版本的外观或行为"
 
 #: ../../upstream/docs/user/custom-script.rst:29
 msgid "Accessing Addons data from your script"
-msgstr ""
+msgstr "从脚本访问 Addon 数据"
 
 #: ../../upstream/docs/user/custom-script.rst:31
 msgid ""
-"Custom scripts are loaded asynchronously after the initial page load, "
-"which means the ``readthedocs-addons-data-ready`` event has already been "
-"fired by the time your script executes. To access the Addons data from "
-"your custom script, check the ``window.ReadTheDocsEventData`` object "
-"first, then subscribe to the event for future updates (for example, when "
-"the URL changes in a single-page application):"
+"Custom scripts are loaded asynchronously after the initial page load, which "
+"means the ``readthedocs-addons-data-ready`` event has already been fired by "
+"the time your script executes. To access the Addons data from your custom "
+"script, check the ``window.ReadTheDocsEventData`` object first, then "
+"subscribe to the event for future updates (for example, when the URL changes"
+" in a single-page application):"
 msgstr ""
+"自定义脚本在页面初次加载后异步加载，因此脚本执行时 ``readthedocs-addons-data-ready`` 事件已经触发。要从自定义脚本访问"
+" Addon 数据，请先检查 ``window.ReadTheDocsEventData`` 对象，再订阅该事件以获取后续更新（例如单页应用中 URL "
+"变化时）："
 

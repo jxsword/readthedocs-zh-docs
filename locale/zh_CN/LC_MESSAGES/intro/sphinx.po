@@ -71,7 +71,7 @@ msgstr "如果你还不熟悉 Sphinx，请参阅官方的 `Getting started with 
 msgid ""
 "For a step-by-step tutorial on Read the Docs using an example Sphinx "
 "project, take a look at the :doc:`/tutorial/index`."
-msgstr "有关使用示例 Sphinx 项目在 Read the Docs 上操作的分步教程，请参阅 :doc:`/tutorial/index`。"
+msgstr "有关使用示例 Sphinx 项目在 Read the Docs 上操作的分步教程，请参阅 :doc:`/tutorial/index` 。"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:45
 msgid "Configuring Sphinx and Read the Docs Addons"
@@ -99,7 +99,7 @@ msgid ""
 ":doc:`Read the Docs environment variable </reference/environment-"
 "variables>`:"
 msgstr ""
-"使用 :doc:`Read the Docs 环境变量 </reference/environment-variables>`，将你的 "
+"使用 :doc:`Read the Docs 环境变量 </reference/environment-variables>` ，将你的 "
 "`html_baseurl`_ 设置为 Read the Docs 的规范 URL："
 
 #: ../../upstream/docs/user/intro/sphinx.rst:63
@@ -118,14 +118,14 @@ msgid ""
 "search/index>` already works out of the box."
 msgstr ""
 "如果你使用的是 `Read the Docs Sphinx Theme <https://sphinx-rtd-"
-"theme.readthedocs.io/en/stable/>`__，:doc:`服务器端搜索 </server-side-"
+"theme.readthedocs.io/en/stable/>`__ ，:doc:`服务器端搜索 </server-side-"
 "search/index>` 已经开箱即用。"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:76
 msgid ""
 "If you're using a different theme, enable :doc:`Server side search </server-"
 "side-search/index>`:"
-msgstr "如果你使用的是其他主题，请启用 :doc:`服务器端搜索 </server-side-search/index>`："
+msgstr "如果你使用的是其他主题，请启用 :doc:`服务器端搜索 </server-side-search/index>` ："
 
 #: ../../upstream/docs/user/intro/sphinx.rst:78
 msgid "Add a snippet of JavaScript:"
@@ -163,12 +163,12 @@ msgid ""
 "language_selector>`__ to configure it."
 msgstr ""
 "如果你使用的是 `Read the Docs Sphinx Theme <https://sphinx-rtd-"
-"theme.readthedocs.io/en/stable/>`__，:ref:`flyout-menu:Addons flyout menu` "
+"theme.readthedocs.io/en/stable/>`__ ，:ref:`flyout-menu:Addons flyout menu` "
 "已经完整集成到该主题中。可使用主题选项 `flyout_display <https://sphinx-rtd-"
-"theme.readthedocs.io/en/stable/configuring.html#confval-"
-"flyout_display>`__、`version_selector <https://sphinx-rtd-"
-"theme.readthedocs.io/en/stable/configuring.html#confval-"
-"version_selector>`__、`language_selector <https://sphinx-rtd-"
+"theme.readthedocs.io/en/stable/configuring.html#confval-flyout_display>`__ "
+"、`version_selector <https://sphinx-rtd-"
+"theme.readthedocs.io/en/stable/configuring.html#confval-version_selector>`__"
+" 、`language_selector <https://sphinx-rtd-"
 "theme.readthedocs.io/en/stable/configuring.html#confval-"
 "language_selector>`__ 进行配置。"
 

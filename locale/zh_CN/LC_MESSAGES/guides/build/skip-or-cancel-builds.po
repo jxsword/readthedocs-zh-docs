@@ -41,8 +41,8 @@ msgid ""
 " or pull request should build at all. This is the recommended approach "
 "whenever it's available for your project."
 msgstr ""
-"构建**永不触发**。结合 Webhook 过滤器使用 :doc:`自动化规则 </automation-rules>`，在任何任务运行前决定某次推送或"
-" Pull Request 是否应构建。这是推荐方法，只要你的项目支持即可使用。"
+"构建**永不触发** 。结合 Webhook 过滤器使用 :doc:`自动化规则 </automation-rules>` "
+"，在任何任务运行前决定某次推送或 Pull Request 是否应构建。这是推荐方法，只要你的项目支持即可使用。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:13
 msgid "Cancel a build"
@@ -55,7 +55,7 @@ msgid ""
 "doesn't support webhook filters, or when your condition requires shell logic"
 " at build time."
 msgstr ""
-"构建**按常规触发**，你的某条命令以特殊退出码 ``183`` 退出以取消它。当你的 Git 服务商不支持 Webhook "
+"构建**按常规触发** ，你的某条命令以特殊退出码 ``183`` 退出以取消它。当你的 Git 服务商不支持 Webhook "
 "过滤器，或条件需要在构建时用 Shell 逻辑判断时使用此法。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:22
@@ -90,7 +90,7 @@ msgstr "**避免冗余构建**"
 msgid ""
 "Avoid builds for draft pull requests, work-in-progress branches, or commits "
 "with specific markers like ``[skip ci]`` in the commit message."
-msgstr "为草稿 Pull Request、进行中的分支、或提交信息含特定标记（如 ``[skip ci]``）的提交避免构建。"
+msgstr "为草稿 Pull Request、进行中的分支、或提交信息含特定标记（如 ``[skip ci]`` ）的提交避免构建。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:37
 msgid "**Conditional documentation updates**"
@@ -186,8 +186,8 @@ msgid ""
 "marked as *cancelled* and will not consume build time or resources beyond "
 "that point."
 msgstr ""
-"构建过程中任意命令以特殊退出码 ``183`` 退出时，Read the Docs "
-"会立即取消构建。构建将标记为*已取消*，不再消耗该点之后的构建时间和资源。"
+"构建过程中任意命令以特殊退出码 ``183`` 退出时，Read the Docs 会立即取消构建。构建将标记为*已取消* "
+"，不再消耗该点之后的构建时间和资源。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:89
 msgid "Why exit code 183?"
@@ -206,7 +206,7 @@ msgid ""
 "larger than 255 is automatically reduced by taking the modulo 256."
 msgstr ""
 "需取 256 模，因为 `Unix 退出码限于 0-255 "
-"<https://tldp.org/LDP/abs/html/exitcodes.html>`_，超出 255 的值自动取模 256。"
+"<https://tldp.org/LDP/abs/html/exitcodes.html>`_ ，超出 255 的值自动取模 256。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:104
 msgid "Examples"

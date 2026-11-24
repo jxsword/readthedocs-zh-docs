@@ -52,7 +52,7 @@ msgstr ".readthedocs.yaml"
 
 #: ../../upstream/docs/user/intro/zensical.rst:38
 msgid "For a complete example, see our `Zensical example repository`_."
-msgstr "有关完整示例，请参阅我们的 `Zensical example repository`_。"
+msgstr "有关完整示例，请参阅我们的 `Zensical example repository`_ 。"
 
 #: ../../upstream/docs/user/intro/zensical.rst:44
 msgid "Getting started"

@@ -32,8 +32,8 @@ msgid ""
 "an external service to use this information for alerting, monitoring, and "
 "many other custom configurations."
 msgstr ""
-"项目构建*触发*、* 成功* 或* 失败* 时，Read the Docs 可使用外出 :term:`webhooks <webhook>` 通知外部 "
-"API。这些 Webhook 包含构建和构建状态信息，允许外部服务将其用于告警、监控等各种自定义配置。"
+"项目构建*触发* 、* 成功* 或* 失败* 时，Read the Docs 可使用外出 :term:`webhooks <webhook>` 通知外部"
+" API。这些 Webhook 包含构建和构建状态信息，允许外部服务将其用于告警、监控等各种自定义配置。"
 
 #: ../../upstream/docs/user/guides/build/webhooks.rst:12
 msgid ":doc:`/guides/build/email-notifications`"
@@ -57,7 +57,7 @@ msgstr "为你的 Pull Request 配置自动反馈和文档站点预览。"
 msgid ""
 ":doc:`Builds for pull requests </pull-requests>` do not trigger outgoing "
 ":term:`webhooks <webhook>`."
-msgstr ":doc:`Pull Request 构建 </pull-requests>` 不会触发外出 :term:`webhooks <webhook>`。"
+msgstr ":doc:`Pull Request 构建 </pull-requests>` 不会触发外出 :term:`webhooks <webhook>` 。"
 
 #: ../../upstream/docs/user/guides/build/webhooks.rst:23
 msgid "Creating a new webhook"
@@ -69,11 +69,11 @@ msgstr "为项目创建新的外出 Webhook："
 
 #: ../../upstream/docs/user/guides/build/webhooks.rst:27
 msgid "Go to your project's :menuselection:`Settings --> Outgoing webhooks`."
-msgstr "前往项目的 :menuselection:`Settings --> Outgoing webhooks`。"
+msgstr "前往项目的 :menuselection:`Settings --> Outgoing webhooks` 。"
 
 #: ../../upstream/docs/user/guides/build/webhooks.rst:28
 msgid "Click :guilabel:`Add webhook`."
-msgstr "点击 :guilabel:`Add webhook`。"
+msgstr "点击 :guilabel:`Add webhook` 。"
 
 #: ../../upstream/docs/user/guides/build/webhooks.rst:29
 msgid "Fill in the :guilabel:`URL` field with the target URL for your endpoint."
@@ -131,7 +131,7 @@ msgid ""
 "reference>`_."
 msgstr ""
 "你可以自定义 Webhook 的载荷以适配目标端点的预期结构。载荷结构必须为有效 JSON，但可包含我们的任意 `载荷变量替换 <Payload "
-"variable reference>`_。"
+"variable reference>`_ 。"
 
 #: ../../upstream/docs/user/guides/build/webhooks.rst:75
 msgid "Variable substitutions"
@@ -151,7 +151,7 @@ msgstr "``{{ event }}``"
 msgid ""
 "Event that triggered the webhook, one of ``build:triggered``, "
 "``build:failed``, or ``build:passed``."
-msgstr "触发 Webhook 的事件，为 ``build:triggered``、``build:failed`` 或 ``build:passed`` 之一。"
+msgstr "触发 Webhook 的事件，为 ``build:triggered`` 、``build:failed`` 或 ``build:passed`` 之一。"
 
 #: ../../upstream/docs/user/guides/build/webhooks.rst:83
 msgid "``{{ build.id }}``"
@@ -167,7 +167,7 @@ msgstr "``{{ build.commit }}``"
 
 #: ../../upstream/docs/user/guides/build/webhooks.rst:87
 msgid "Commit corresponding to the build, if present (otherwise ``\"\"``)."
-msgstr "对应构建的提交（若无则为 ``\"\"``）。"
+msgstr "对应构建的提交（若无则为 ``\"\"`` ）。"
 
 #: ../../upstream/docs/user/guides/build/webhooks.rst:89
 msgid "``{{ build.url }}``"
@@ -177,7 +177,7 @@ msgstr "``{{ build.url }}``"
 msgid ""
 "URL of the build, for example "
 "``https://app.readthedocs.org/projects/docs/builds/15173336/``."
-msgstr "构建的 URL，例如 ``https://app.readthedocs.org/projects/docs/builds/15173336/``。"
+msgstr "构建的 URL，例如 ``https://app.readthedocs.org/projects/docs/builds/15173336/`` 。"
 
 #: ../../upstream/docs/user/guides/build/webhooks.rst:92
 msgid "``{{ build.docs_url }}``"
@@ -187,7 +187,7 @@ msgstr "``{{ build.docs_url }}``"
 msgid ""
 "URL of the documentation corresponding to the build, for example "
 "``https://docs.readthedocs.io/en/latest/``."
-msgstr "对应构建的文档 URL，例如 ``https://docs.readthedocs.io/en/latest/``。"
+msgstr "对应构建的文档 URL，例如 ``https://docs.readthedocs.io/en/latest/`` 。"
 
 #: ../../upstream/docs/user/guides/build/webhooks.rst:96
 msgid "``{{ build.start_date }}``"
@@ -197,7 +197,7 @@ msgstr "``{{ build.start_date }}``"
 msgid ""
 "Start date of the build (UTC, ISO format), for example "
 "``2021-11-03T16:23:14``."
-msgstr "构建开始日期（UTC，ISO 格式），例如 ``2021-11-03T16:23:14``。"
+msgstr "构建开始日期（UTC，ISO 格式），例如 ``2021-11-03T16:23:14`` 。"
 
 #: ../../upstream/docs/user/guides/build/webhooks.rst:99
 msgid "``{{ organization.name }}``"

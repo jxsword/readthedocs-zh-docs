@@ -72,7 +72,7 @@ msgid ""
 "otherwise the default :ref:`subdomain <default-subdomain>` will be used."
 msgstr ""
 "若设置了规范 :doc:`自定义域名 </custom-domains>` 则使用它，否则使用默认 :ref:`子域名 <default-"
-"subdomain>`。"
+"subdomain>` 。"
 
 #: ../../upstream/docs/user/canonical-urls.rst:29
 msgid ""
@@ -82,7 +82,7 @@ msgid ""
 " Without specifying a canonical URL, a search engine like Google will index "
 "both domains."
 msgstr ""
-"例如，若你有名为 ``example-docs`` 的项目并使用自定义域名 ``https://docs.example.com``，文档将同时在 "
+"例如，若你有名为 ``example-docs`` 的项目并使用自定义域名 ``https://docs.example.com`` ，文档将同时在 "
 "``https://example-docs.readthedocs.io`` 和 ``https://docs.example.com`` "
 "提供服务。未指定规范 URL 时，Google 等搜索引擎会同时索引两个域名。"
 
@@ -96,7 +96,7 @@ msgid ""
 msgstr ""
 "你应将 ``https://docs.example.com`` 用作规范域名。这样当 Google 索引到 ``https://example-"
 "docs.readthedocs.io/en/latest/`` 这样的页面时，就知道它实际应指向 "
-"``https://docs.example.com/en/latest/``，从而避免内容重复。"
+"``https://docs.example.com/en/latest/`` ，从而避免内容重复。"
 
 #: ../../upstream/docs/user/canonical-urls.rst:41
 msgid ""
@@ -105,7 +105,7 @@ msgid ""
 "served from`` in your project's :menuselection:`Settings --> Domains`."
 msgstr ""
 "若要将自定义域名设为规范域名，需在项目的 :menuselection:`Settings --> Domains` 中设置 ``Canonical:"
-"  This domain is the primary one where the documentation is served from``。"
+"  This domain is the primary one where the documentation is served from`` 。"
 
 #: ../../upstream/docs/user/canonical-urls.rst:47
 msgid "How to specify the canonical URL"
@@ -121,5 +121,5 @@ msgid ""
 msgstr ""
 "规范 URL 会自动作为 ``READTHEDOCS_CANONICAL_URL`` :doc:`环境变量 </reference"
 "/environment-variables>` 传入构建过程。你可以用该变量配置文档工具使用它（例如 Sphinx 通过 "
-"``html_baseurl`` 配置，MkDocs 通过 ``site_url``，Pelican 通过 ``SITEURL``）"
+"``html_baseurl`` 配置，MkDocs 通过 ``site_url`` ，Pelican 通过 ``SITEURL`` ）"
 

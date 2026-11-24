@@ -22,157 +22,163 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:6
 msgid "Best practices for linking to your documentation"
-msgstr ""
+msgstr "链接到文档的最佳实践"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:8
 msgid ""
-"Once you start to publish documentation, external sources will inevitably"
-" link to specific pages in your documentation."
-msgstr ""
+"Once you start to publish documentation, external sources will inevitably "
+"link to specific pages in your documentation."
+msgstr "一旦开始发布文档，外部来源必然会链接到你文档中的特定页面。"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:11
 msgid ""
 "Sources of incoming links vary greatly depending on the type of "
-"documentation project that is published. They can include everything from"
-" old emails to GitHub issues, wiki articles, software comments, PDF "
-"publications, or StackOverflow answers. Most of these incoming sources "
-"are not in your control."
+"documentation project that is published. They can include everything from "
+"old emails to GitHub issues, wiki articles, software comments, PDF "
+"publications, or StackOverflow answers. Most of these incoming sources are "
+"not in your control."
 msgstr ""
+"入站链接的来源因文档项目类型而差异巨大，可能包括旧邮件、GitHub Issue、wiki 文章、软件注释、PDF出版物或 StackOverflow "
+"答案。这些入站来源大多不在你的控制范围内。"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:15
 msgid ""
 "Read the Docs makes it easier to create and manage incoming links by "
-"redirecting certain URLs automatically and giving you access to define "
-"your own redirects."
-msgstr ""
+"redirecting certain URLs automatically and giving you access to define your "
+"own redirects."
+msgstr "Read the Docs 通过自动重定向特定 URL 并允许你定义自己的重定向，让创建和管理入站链接更轻松。"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:18
 msgid ""
 "In this article, we explain how our built-in redirects work and what we "
 "consider \"best practice\" for managing incoming links."
-msgstr ""
+msgstr "本文讲解内置重定向的工作原理，以及我们认为管理入站链接的\"最佳实践\"。"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:23
 msgid ":doc:`/versions`"
-msgstr ""
+msgstr ":doc:`/versions`"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:24
 msgid "Read more about how to handle versioned documentation and URL structures."
-msgstr ""
+msgstr "进一步了解如何处理版本化文档和 URL 结构。"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:26
 msgid ":doc:`/user-defined-redirects`"
-msgstr ""
+msgstr ":doc:`/user-defined-redirects`"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:27
 msgid ""
-"Overview of all the redirect features available on Read the Docs. Many of"
-" the redirect features are useful either for building external links or "
+"Overview of all the redirect features available on Read the Docs. Many of "
+"the redirect features are useful either for building external links or "
 "handling requests to old URLs."
-msgstr ""
+msgstr "概述 Read the Docs 上所有可用的重定向功能。许多重定向功能既可用于构建外部链接，也可用于处理指向旧 URL 的请求。"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:30
 msgid ":doc:`/guides/redirects`"
-msgstr ""
+msgstr ":doc:`/guides/redirects`"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:31
 msgid ""
 "How to add a user-defined redirect, step-by-step. Useful if your content "
 "changes location!"
-msgstr ""
+msgstr "如何分步添加用户自定义重定向。当你的内容位置变更时很有用！"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:36
 msgid "Best practice: \"permalink\" your pages"
-msgstr ""
+msgstr "最佳实践：为页面设置\"永久链接\""
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:38
 msgid ""
-"You might be familiar with the concept of `permalinks`_ from blogging. "
-"The idea is that a blog post receives a unique link as soon as it's "
-"published and that the link does not change afterward. Incoming sources "
-"can reference the blog post even though the blog changes structure or the"
-" post title changes."
+"You might be familiar with the concept of `permalinks`_ from blogging. The "
+"idea is that a blog post receives a unique link as soon as it's published "
+"and that the link does not change afterward. Incoming sources can reference "
+"the blog post even though the blog changes structure or the post title "
+"changes."
 msgstr ""
+"你可能熟悉博客中的 `permalinks`_ "
+"概念。其思路是博文一经发布即获得唯一链接，此后不再改变。即使博客结构变化或文章标题改动，外部来源仍可引用该博文。"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:42
 msgid ""
-"When creating an external link to a specific documentation page, chances "
-"are that the page is moved as the documentation changes over time."
-msgstr ""
+"When creating an external link to a specific documentation page, chances are"
+" that the page is moved as the documentation changes over time."
+msgstr "创建指向特定文档页面的外部链接时，随着文档演进，该页面很可能被移动。"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:45
 msgid ""
-"How should a permalink look for a documentation project? Firstly, you "
-"should know that a *permalink* does not really exist in documentation but"
-" it is the result of careful actions to avoid breaking incoming links."
-msgstr ""
+"How should a permalink look for a documentation project? Firstly, you should"
+" know that a *permalink* does not really exist in documentation but it is "
+"the result of careful actions to avoid breaking incoming links."
+msgstr "文档项目的永久链接应是什么样：首先要知道，文档中并不真正存在*永久链接* ，它是通过谨慎操作避免破坏入站链接的结果。"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:48
 msgid ""
-"As a documentation owner, you most likely want users clicking on incoming"
-" links to see the latest version of the page."
-msgstr ""
+"As a documentation owner, you most likely want users clicking on incoming "
+"links to see the latest version of the page."
+msgstr "作为文档所有者，你多半希望点击入站链接的用户看到页面的最新版本。"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:54
 msgid "Good practice ✅"
-msgstr ""
+msgstr "良好实践 ✅"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:56
 msgid ""
-"Use :ref:`page redirects <user-defined-redirects:Page redirects>` if you "
-"are linking to the page in the :term:`default version` of the default "
-"language. This allows links to continue working even if those defaults "
-"change."
+"Use :ref:`page redirects <user-defined-redirects:Page redirects>` if you are"
+" linking to the page in the :term:`default version` of the default language."
+" This allows links to continue working even if those defaults change."
 msgstr ""
+"若链接指向默认语言的 :term:`default version` 中的页面，请使用 :ref:`页面重定向 <user-defined-"
+"redirects:Page redirects>` 。这样即使这些默认值变化，链接仍能继续工作。"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:57
 msgid ""
 "If you move a page that likely has incoming references, :doc:`create a "
 "custom redirect rule </guides/redirects>`."
-msgstr ""
+msgstr "若移动了可能存在入站引用的页面，请 :doc:`创建自定义重定向规则 </guides/redirects>` 。"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:58
 msgid ""
 "Links to other Sphinx projects should use :doc:`intersphinx "
 "</guides/intersphinx>`."
-msgstr ""
+msgstr "指向其他 Sphinx 项目的链接应使用 :doc:`intersphinx </guides/intersphinx>` 。"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:59
 msgid "Use minimal filenames that don't require renaming often."
-msgstr ""
+msgstr "使用简短的文件名，减少重命名需求。"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:60
 msgid ""
-"When possible, keep original file names rather than going for low-impact "
-"URL renaming. Renaming an article's title is great for the reader and "
-"great for SEO, but this does not have to involve the URL."
-msgstr ""
+"When possible, keep original file names rather than going for low-impact URL"
+" renaming. Renaming an article's title is great for the reader and great for"
+" SEO, but this does not have to involve the URL."
+msgstr "在可能的情况下保留原文件名，而非做影响较小的 URL 重命名。修改文章标题对读者和 SEO 都有益，但这不必涉及 URL。"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:64
 msgid ""
-"Establish your understanding of the *latest* and :term:`default version` "
-"of your documentation at the beginning. Changing their meaning is "
-"disruptive to incoming links."
-msgstr ""
+"Establish your understanding of the *latest* and :term:`default version` of "
+"your documentation at the beginning. Changing their meaning is disruptive to"
+" incoming links."
+msgstr "在开始时就明确你文档中 *latest* 和 :term:`default version` 的含义。改变其含义会对入站链接造成破坏。"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:65
 msgid ""
-"Keep development versions :ref:`hidden <versions:Version states>` so "
-"people do not find them on search engines by mistake. This is the best "
-"way to ensure that nobody links to URLs that are intended for development"
-" purposes."
+"Keep development versions :ref:`hidden <versions:Version states>` so people "
+"do not find them on search engines by mistake. This is the best way to "
+"ensure that nobody links to URLs that are intended for development purposes."
 msgstr ""
+"保持开发版本 :ref:`隐藏 <versions:Version states>` ，避免人们误在搜索引擎中找到它们。这是确保没人链接到开发用途 "
+"URL 的最佳方式。"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:67
 msgid ""
 "Use a :ref:`version warning notifications <versions:Version warning "
-"notifications>` to ensure the reader is aware in case they are reading an"
-" old (archived) version."
-msgstr ""
+"notifications>` to ensure the reader is aware in case they are reading an "
+"old (archived) version."
+msgstr "使用 :ref:`版本警告通知 <versions:Version warning notifications>` ，确保读者在阅读旧（归档）版本时知情。"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:71
 msgid "Using Sphinx?"
-msgstr ""
+msgstr "使用 Sphinx？"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:72
 msgid ""
@@ -183,40 +189,45 @@ msgid ""
 "referencing your documentation through :doc:`intersphinx "
 "</guides/intersphinx>` break."
 msgstr ""
+"若你使用 ``:ref:`` 做 :doc:`交叉引用 </guides/cross-referencing-with-sphinx>` "
+"，可在标题上按需添加多个引用标签，同时保留旧引用标签。这样重构文档更容易，也能避免通过 :doc:`intersphinx "
+"</guides/intersphinx>` 引用你文档的外部项目失效。"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:77
 msgid "Questionable practice 🟡"
-msgstr ""
+msgstr "存疑实践 🟡"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:79
 msgid ""
-"Avoid using specific versions in links unless users need that exact "
-"version. Versions get outdated."
-msgstr ""
+"Avoid using specific versions in links unless users need that exact version."
+" Versions get outdated."
+msgstr "除非用户确实需要特定版本，否则避免在链接中使用具体版本。版本会过时。"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:81
 msgid ""
 "Avoid using a public ``latest`` for development versions and do not make "
-"your *default version* a development branch. Publishing development "
-"branches can mean that users are reading instructions for unreleased "
-"software or draft documentation."
-msgstr ""
+"your *default version* a development branch. Publishing development branches"
+" can mean that users are reading instructions for unreleased software or "
+"draft documentation."
+msgstr "避免为开发版本使用公开的 ``latest`` ，也不要把*默认版本* 设为开发分支。发布开发分支可能导致用户阅读到未发布软件或草稿文档的说明。"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:86
 msgid "404 pages are also okay!"
-msgstr ""
+msgstr "404 页面也可以接受！"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:87
 msgid ""
 "If documentation pages have been removed or moved, it can make the "
 "maintainer of the referring website aware that they need to update their "
-"link. Users will be aware that the documentation **project** still exists"
-" but has changed."
-msgstr ""
+"link. Users will be aware that the documentation **project** still exists "
+"but has changed."
+msgstr "若文档页面被删除或移动，这可以让引用方网站的维护者意识到需要更新链接。用户也会知道文档**项目** 仍然存在，只是发生了变化。"
 
 #: ../../upstream/docs/user/guides/best-practice/links.rst:91
 msgid ""
-"The default Read the Docs 404 page is designed to be helpful, but you can"
-" also design your own, see :doc:`/reference/404-not-found`."
+"The default Read the Docs 404 page is designed to be helpful, but you can "
+"also design your own, see :doc:`/reference/404-not-found`."
 msgstr ""
+"Read the Docs 默认的 404 页面设计得较为有帮助，你也可以设计自己的页面，参见 :doc:`/reference/404-not-"
+"found` 。"
 

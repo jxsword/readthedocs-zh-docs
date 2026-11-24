@@ -22,126 +22,140 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/embedding-content.rst:2
 msgid "How to embed content from your documentation"
-msgstr ""
+msgstr "如何嵌入文档内容"
 
 #: ../../upstream/docs/user/guides/embedding-content.rst:4
 msgid ""
-"Read the Docs allows you to embed content from any of the projects we "
-"host and specific allowed external domains (currently, "
-"``docs.python.org``, ``docs.scipy.org``, ``docs.sympy.org``, "
-"``numpy.org``) This allows reuse of content across sites, making sure the"
-" content is always up to date."
+"Read the Docs allows you to embed content from any of the projects we host "
+"and specific allowed external domains (currently, ``docs.python.org``, "
+"``docs.scipy.org``, ``docs.sympy.org``, ``numpy.org``) This allows reuse of "
+"content across sites, making sure the content is always up to date."
 msgstr ""
+"Read the Docs 允许你嵌入我们托管的任何项目以及特定允许的外部域（目前为 ``docs.python.org`` "
+"、``docs.scipy.org`` 、``docs.sympy.org`` 、``numpy.org`` "
+"）的内容。这支持跨站点复用内容，确保内容始终是最新的。"
 
 #: ../../upstream/docs/user/guides/embedding-content.rst:8
 msgid ""
-"There are a number of use cases for embedding content, so we've built our"
-" integration in a way that enables users to build on top of it. This "
-"guide will show you some of our favorite integrations:"
-msgstr ""
+"There are a number of use cases for embedding content, so we've built our "
+"integration in a way that enables users to build on top of it. This guide "
+"will show you some of our favorite integrations:"
+msgstr "嵌入内容有多种使用场景，因此我们以便于用户在其基础上构建的方式设计了集成。本指南将介绍我们精选的一些集成："
 
 #: ../../upstream/docs/user/guides/embedding-content.rst:16
 msgid "Contextualized tooltips on documentation pages"
-msgstr ""
+msgstr "文档页面上的上下文提示"
 
 #: ../../upstream/docs/user/guides/embedding-content.rst:18
 msgid ""
-"Tooltips on your own documentation are really useful to add more context "
-"to the current page the user is reading. You can embed any content that "
-"is available via an HTML id."
-msgstr ""
+"Tooltips on your own documentation are really useful to add more context to "
+"the current page the user is reading. You can embed any content that is "
+"available via an HTML id."
+msgstr "在自有文档上加提示浮层，能为用户正在阅读的当前页补充更多上下文。你可以嵌入任何可通过 HTML id 获取的内容。"
 
 #: ../../upstream/docs/user/guides/embedding-content.rst:21
 msgid ""
-"We built an addon called :doc:`Link previews </link-previews>` on top of "
-"our Embed API that you can enable from the addons settings of your "
-"project using the :term:`dashboard`."
+"We built an addon called :doc:`Link previews </link-previews>` on top of our"
+" Embed API that you can enable from the addons settings of your project "
+"using the :term:`dashboard`."
 msgstr ""
+"我们在 Embed API 之上构建了名为 :doc:`Link previews </link-previews>` 的 addon，可通过 "
+":term:`dashboard` 在项目 addon 设置中启用。"
 
 #: ../../upstream/docs/user/guides/embedding-content.rst:25
 msgid "Inline help on application website"
-msgstr ""
+msgstr "应用网站上的内联帮助"
 
 #: ../../upstream/docs/user/guides/embedding-content.rst:27
 msgid ""
-"This allows us to keep the official documentation as the single source of"
-" truth, while having great inline help in our application website as "
-"well. On the \"Automation Rules\" admin page we could embed the content "
-"of our :doc:`/automation-rules` documentation page and be sure it will be"
-" always up to date."
+"This allows us to keep the official documentation as the single source of "
+"truth, while having great inline help in our application website as well. On"
+" the \"Automation Rules\" admin page we could embed the content of our :doc"
+":`/automation-rules` documentation page and be sure it will be always up to "
+"date."
 msgstr ""
+"这让我们既能把官方文档作为唯一事实来源，又能在应用网站上提供出色的内联帮助。在\"自动化规则\"管理页面上，我们可以嵌入 :doc"
+":`/automation-rules` 文档页的内容，并确保其始终最新。"
 
 #: ../../upstream/docs/user/guides/embedding-content.rst:34
 msgid ""
 "We recommend you point at tagged releases instead of latest. Tags don't "
 "change over time, so you don't have to worry about the content you are "
 "embedding disappearing."
-msgstr ""
+msgstr "我们建议指向带标签的发布版本而非 latest。标签不会随时间变化，因此无需担心嵌入的内容消失。"
 
 #: ../../upstream/docs/user/guides/embedding-content.rst:37
 msgid ""
-"The following example will fetch the section \"Creating an automation "
-"rule\" in page ``automation-rules.html`` from our own docs and will "
-"populate the content of it into the ``#help-container`` div element."
+"The following example will fetch the section \"Creating an automation rule\""
+" in page ``automation-rules.html`` from our own docs and will populate the "
+"content of it into the ``#help-container`` div element."
 msgstr ""
+"以下示例将从我们的文档获取 ``automation-rules.html`` 页面中的\"Creating an automation "
+"rule\"章节，并把内容填充到 ``#help-container`` div 元素中。"
 
 #: ../../upstream/docs/user/guides/embedding-content.rst:57
 msgid ""
-"You can modify this example to subscribe to ``.onclick`` Javascript "
-"event, and show a modal when the user clicks in a \"Help\" link."
-msgstr ""
+"You can modify this example to subscribe to ``.onclick`` Javascript event, "
+"and show a modal when the user clicks in a \"Help\" link."
+msgstr "你可修改此示例以订阅 ``.onclick`` Javascript 事件，在用户点击\"Help\"链接时显示模态框。"
 
 #: ../../upstream/docs/user/guides/embedding-content.rst:62
 msgid ""
-"Take into account that if the title changes, your ``section`` argument "
-"will break. To avoid that, you can manually define Sphinx references "
-"above the sections you don't want to break. For example,"
-msgstr ""
+"Take into account that if the title changes, your ``section`` argument will "
+"break. To avoid that, you can manually define Sphinx references above the "
+"sections you don't want to break. For example,"
+msgstr "请注意，若标题变更，你的 ``section`` 参数会失效。为避免这种情况，可在不希望失效的章节上方手动定义 Sphinx 引用。例如，"
 
 #: ../../upstream/docs/user/guides/embedding-content.rst:68
 msgid "reStructuredText"
-msgstr ""
+msgstr "reStructuredText"
 
 #: ../../upstream/docs/user/guides/embedding-content.rst:82
 msgid "MyST (Markdown)"
-msgstr ""
+msgstr "MyST（Markdown）"
 
 #: ../../upstream/docs/user/guides/embedding-content.rst:94
 msgid ""
 "To link to the section \"Creating an automation rule\" you can send "
-"``section=unbreakable-section-reference``. If you change the title it "
-"won't break the embedded content because the label for that title will "
-"still be ``unbreakable-section-reference``."
+"``section=unbreakable-section-reference``. If you change the title it won't "
+"break the embedded content because the label for that title will still be "
+"``unbreakable-section-reference``."
 msgstr ""
+"要链接到\"Creating an automation rule\"章节，可发送 ``section=unbreakable-section-"
+"reference`` 。即使修改标题，嵌入内容也不会失效，因为该标题的标签仍是 ``unbreakable-section-reference`` 。"
 
 #: ../../upstream/docs/user/guides/embedding-content.rst:97
 msgid ""
 "Please, take a look at the Sphinx `:ref:` `role documentation`_ for more "
 "information about how to create references."
-msgstr ""
+msgstr "有关如何创建引用，请查阅 Sphinx `:ref:` `role documentation`_ 。"
 
 #: ../../upstream/docs/user/guides/embedding-content.rst:103
 msgid "Calling the Embed API directly"
-msgstr ""
+msgstr "直接调用 Embed API"
 
 #: ../../upstream/docs/user/guides/embedding-content.rst:105
 msgid ""
-"Embed API lives under ``https://app.readthedocs.org/api/v3/embed/`` URL "
-"and accept the URL of the content you want to embed. Take a look at "
-":ref:`its own documentation <api/v3:embed>` to find out more details."
+"Embed API lives under ``https://app.readthedocs.org/api/v3/embed/`` URL and "
+"accept the URL of the content you want to embed. Take a look at :ref:`its "
+"own documentation <api/v3:embed>` to find out more details."
 msgstr ""
+"Embed API 位于 ``https://app.readthedocs.org/api/v3/embed/`` URL，接受你想嵌入内容的 "
+"URL。更多细节请参阅 :ref:`其文档 <api/v3:embed>` 。"
 
 #: ../../upstream/docs/user/guides/embedding-content.rst:108
 msgid ""
-"You can click on the following links and check a live response directly "
-"in the browser as examples:"
-msgstr ""
+"You can click on the following links and check a live response directly in "
+"the browser as examples:"
+msgstr "你可以点击以下链接，直接在浏览器中查看实时响应作为示例："
 
 #: ../../upstream/docs/user/guides/embedding-content.rst:110
 msgid ""
 "https://app.readthedocs.org/api/v3/embed/?url=https://docs.readthedocs.io/en/stable/features.html"
 "%23automatic-documentation-deployment"
 msgstr ""
+"https://app.readthedocs.org/api/v3/embed/?url=https://docs.readthedocs.io/en/stable/features.html"
+"%23automatic-documentation-deployment"
 
 #: ../../upstream/docs/user/guides/embedding-content.rst:111
 #, python-format
@@ -150,6 +164,9 @@ msgid ""
 "hoverxref.readthedocs.io/en/latest/configuration.html%23confval-"
 "hoverxref_role_types&doctool=sphinx&doctoolversion=4.2.0"
 msgstr ""
+"https://app.readthedocs.org/api/v3/embed/?url=https://sphinx-"
+"hoverxref.readthedocs.io/en/latest/configuration.html%23confval-"
+"hoverxref_role_types&doctool=sphinx&doctoolversion=4.2.0"
 
 #: ../../upstream/docs/user/guides/embedding-content.rst:112
 #, python-format
@@ -157,10 +174,12 @@ msgid ""
 "https://app.readthedocs.org/api/v3/embed/?url=https://docs.sympy.org/latest/tutorial/gotchas.html"
 "%23equals-signs"
 msgstr ""
+"https://app.readthedocs.org/api/v3/embed/?url=https://docs.sympy.org/latest/tutorial/gotchas.html"
+"%23equals-signs"
 
 #: ../../upstream/docs/user/guides/embedding-content.rst:116
 msgid ""
-"All relative links to pages contained in the remote content will continue"
-" to point at the remote page."
-msgstr ""
+"All relative links to pages contained in the remote content will continue to"
+" point at the remote page."
+msgstr "远程内容中指向页面的所有相对链接仍会指向远程页面。"
 

@@ -22,125 +22,128 @@ msgstr ""
 
 #: ../../upstream/docs/user/search-analytics.rst:2
 msgid "Search analytics"
-msgstr ""
+msgstr "搜索分析"
 
 #: ../../upstream/docs/user/search-analytics.rst:4
 msgid ""
-"When someone visits your documentation and uses the built-in :doc:`server"
-" side search </server-side-search/index>` feature, Read the Docs will "
-"collect analytics on their search queries."
+"When someone visits your documentation and uses the built-in :doc:`server "
+"side search </server-side-search/index>` feature, Read the Docs will collect"
+" analytics on their search queries."
 msgstr ""
+"当有人访问你的文档并使用内置的 :doc:`服务器端搜索 </server-side-search/index>` 功能时，Read the Docs "
+"会收集其搜索查询的分析数据。"
 
 #: ../../upstream/docs/user/search-analytics.rst:7
 msgid ""
-"These are aggregated into a simple view of the \"Top queries in the past "
-"30 days\". You can also download this data."
-msgstr ""
+"These are aggregated into a simple view of the \"Top queries in the past 30 "
+"days\". You can also download this data."
+msgstr "这些数据被汇总为\"过去 30 天热门查询\"的简单视图。你也可以下载这些数据。"
 
 #: ../../upstream/docs/user/search-analytics.rst:11
 msgid ""
 "This is helpful to optimize your documentation in alignment with your "
 "readers' interests. You can discover new trends and expand your "
 "documentation to new needs."
-msgstr ""
+msgstr "这有助于根据读者兴趣优化文档。你可以发现新趋势，并将文档扩展到新的需求。"
 
 #: ../../upstream/docs/user/search-analytics.rst:15
 msgid "Using search analytics"
-msgstr ""
+msgstr "使用搜索分析"
 
 #: ../../upstream/docs/user/search-analytics.rst:17
 msgid ""
-"To see a list of the top queries and an overview from the last month, go "
-"to your project's :menuselection:`Settings --> Search analytics`."
-msgstr ""
+"To see a list of the top queries and an overview from the last month, go to "
+"your project's :menuselection:`Settings --> Search analytics`."
+msgstr "要查看过去一个月的热门查询列表和概览，前往项目的 :menuselection:`Settings --> Search analytics` 。"
 
 #: ../../upstream/docs/user/search-analytics.rst:20
 msgid "Search analytics demo"
-msgstr ""
+msgstr "搜索分析演示"
 
 #: ../../upstream/docs/user/search-analytics.rst:25
 msgid "How the search analytics page looks."
-msgstr ""
+msgstr "搜索分析页面的样子。"
 
 #: ../../upstream/docs/user/search-analytics.rst:27
 msgid ""
 "The list of top queries shows the latest searches ordered by their "
-"popularity. Use the :guilabel:`Results` filter to show only queries with "
-"or without results."
-msgstr ""
+"popularity. Use the :guilabel:`Results` filter to show only queries with or "
+"without results."
+msgstr "热门查询列表按流行度展示最新搜索。使用 :guilabel:`Results` 过滤器可只显示有结果或无结果的查询。"
 
 #: ../../upstream/docs/user/search-analytics.rst:31
 msgid "Understanding your analytics"
-msgstr ""
+msgstr "理解你的分析数据"
 
 #: ../../upstream/docs/user/search-analytics.rst:33
 msgid ""
-"In the list of top queries, you can see the most popular terms that users"
-" have searched for. Next to the search query, the number of actual "
-"**results** for that query is shown. The number of times the query has "
-"been used in a search is displayed as the **queries** number."
-msgstr ""
+"In the list of top queries, you can see the most popular terms that users "
+"have searched for. Next to the search query, the number of actual "
+"**results** for that query is shown. The number of times the query has been "
+"used in a search is displayed as the **queries** number."
+msgstr "在热门查询列表中，你可以看到用户搜索最多的词。搜索查询旁边显示该查询的实际**结果** 数量。查询被搜索的次数显示为 **queries** 数量。"
 
 #: ../../upstream/docs/user/search-analytics.rst:37
 msgid ""
-"If you see a search term that doesn't have any results, you could apply "
-"that term in documentation articles or create new ones. This is a great "
-"way to understand missing gaps in your documentation."
-msgstr ""
+"If you see a search term that doesn't have any results, you could apply that"
+" term in documentation articles or create new ones. This is a great way to "
+"understand missing gaps in your documentation."
+msgstr "若发现某个搜索词没有任何结果，可以在文档文章中应用该词或新建相关文章。这是了解文档内容缺口的好方法。"
 
 #: ../../upstream/docs/user/search-analytics.rst:41
 msgid ""
-"If a search term is often used but the documentation article exists, it "
-"can also indicate that it's hard to navigate to the article."
-msgstr ""
+"If a search term is often used but the documentation article exists, it can "
+"also indicate that it's hard to navigate to the article."
+msgstr "若某个搜索词被频繁使用但相关文档文章确实存在，这也可能说明难以导航到该文章。"
 
 #: ../../upstream/docs/user/search-analytics.rst:44
 msgid ""
 "Repeat the search yourself and inspect the results to see if they are "
-"relevant. You can add keywords to various pages that you want to show up "
-"for searches on that page."
-msgstr ""
+"relevant. You can add keywords to various pages that you want to show up for"
+" searches on that page."
+msgstr "自己重复该搜索并检查结果是否相关。你可以给希望在该页搜索中出现的各个页面添加关键词。"
 
 #: ../../upstream/docs/user/search-analytics.rst:47
 msgid ""
-"In **Overview**, you can see the daily search totals for the last month, "
-"and trends that might match special events in your project's publicity. "
-"If you wish to analyze these numbers in details, click "
-":guilabel:`Download search data` to get a CSV formatted file with all "
-"available search analytics."
+"In **Overview**, you can see the daily search totals for the last month, and"
+" trends that might match special events in your project's publicity. If you "
+"wish to analyze these numbers in details, click :guilabel:`Download search "
+"data` to get a CSV formatted file with all available search analytics."
 msgstr ""
+"在**概览** 中，你可以看到过去一个月的每日搜索总量，以及可能与项目推广特殊事件吻合的趋势。若想详细分析这些数字，点击 "
+":guilabel:`Download search data` 获取包含全部可用搜索分析数据的 CSV 文件。"
 
 #: ../../upstream/docs/user/search-analytics.rst:53
 msgid "Data storage"
-msgstr ""
+msgstr "数据存储"
 
 #: ../../upstream/docs/user/search-analytics.rst:55
 msgid "The duration of analytics data stored depends on which site you're using:"
-msgstr ""
+msgstr "分析数据的存储时长取决于你使用的站点："
 
 #: ../../upstream/docs/user/search-analytics.rst:57
 msgid "On |org_brand|, the last 90 days are stored."
-msgstr ""
+msgstr "|org_brand| 存储最近 90 天。"
 
 #: ../../upstream/docs/user/search-analytics.rst:58
 msgid ""
-"On |com_brand|, storage duration starts at 30 days and increases with "
-"plan level."
-msgstr ""
+"On |com_brand|, storage duration starts at 30 days and increases with plan "
+"level."
+msgstr "|com_brand| 存储时长从 30 天起，随套餐等级提升。"
 
 #: ../../upstream/docs/user/search-analytics.rst:62
 msgid "`Our plan pricing <https://about.readthedocs.com/pricing/>`_"
-msgstr ""
+msgstr "`Our plan pricing <https://about.readthedocs.com/pricing/>`_"
 
 #: ../../upstream/docs/user/search-analytics.rst:63
 msgid "Compare our plan pricing and analytics storage duration."
-msgstr ""
+msgstr "比较我们的套餐定价与分析数据存储时长。"
 
 #: ../../upstream/docs/user/search-analytics.rst:65
 msgid ":doc:`/traffic-analytics`"
-msgstr ""
+msgstr ":doc:`/traffic-analytics`"
 
 #: ../../upstream/docs/user/search-analytics.rst:66
 msgid "See how users are using your documentation."
-msgstr ""
+msgstr "了解用户如何使用你的文档。"
 

@@ -48,7 +48,7 @@ msgid ""
 msgstr ""
 "我们维护了一份 Awesome 列表，你可以在其中贡献使用 Read the Docs 的新颖示例。关于如何提交新条目的说明，请参阅 `Awesome "
 "Read the Docs Projects <https://github.com/readthedocs-examples/awesome-"
-"read-the-docs>`__。"
+"read-the-docs>`__ 。"
 
 #: ../../upstream/docs/user/examples.rst:15
 msgid "Minimal basic examples"
@@ -175,7 +175,7 @@ msgstr "我们**要求** 示例项目："
 msgid ""
 "is **hosted and maintained by you** in its own Git repository, "
 "``example-<topic>``."
-msgstr "由**你本人托管和维护** 在独立的 Git 仓库中，命名为 ``example-<topic>``。"
+msgstr "由**你本人托管和维护** 在独立的 Git 仓库中，命名为 ``example-<topic>`` 。"
 
 #: ../../upstream/docs/user/examples.rst:73
 msgid "contains a README."
@@ -201,11 +201,11 @@ msgstr "我们**建议** 你的项目："
 
 #: ../../upstream/docs/user/examples.rst:80
 msgid "has **continuous integration and PR builds**."
-msgstr "具备**持续集成和 PR 构建**。"
+msgstr "具备**持续集成和 PR 构建** 。"
 
 #: ../../upstream/docs/user/examples.rst:81
 msgid "is **versioned** as a real software project, i.e. using git tags."
-msgstr "像真实软件项目一样**进行版本管理**，例如使用 git 标签。"
+msgstr "像真实软件项目一样**进行版本管理** ，例如使用 git 标签。"
 
 #: ../../upstream/docs/user/examples.rst:82
 msgid ""

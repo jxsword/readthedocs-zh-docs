@@ -20,7 +20,9 @@ ROOT = Path(__file__).resolve().parent.parent
 LOCALE = ROOT / "locale" / "zh_CN" / "LC_MESSAGES"
 
 CJK_CLASS = "\u4e00-\u9fff"
-BOUNDARY = "（【「" + CJK_CLASS
+# Full-width punctuation that docutils does not treat as a valid boundary.
+FW_PUNCT = "\uff08\uff09\uff1a\uff1b\uff0c\uff1a\uff1b\uff0c\u3001\u3002\uff01\uff1f\u300c\u300d\u300e\u300f\uff08\uff09"
+BOUNDARY = FW_PUNCT + CJK_CLASS
 
 # Full complete pairs with a problematic char right after the closing marker.
 LITERAL_RE = re.compile(r"(``[^`\n]+``)(?=[" + BOUNDARY + r"])")
@@ -28,6 +30,8 @@ STRONG_RE = re.compile(r"(\*\*[^*\n]+\*\*)(?=[" + BOUNDARY + r"])")
 EMPH_RE = re.compile(r"(?<!\*)(\*[^*\n]+\*)(?!\*)(?=[" + BOUNDARY + r"])")
 # Named / anonymous references: `text`_ or `text`__
 NAMED_REF_RE = re.compile(r"(`[^`\n]+`_{1,2})(?=[" + BOUNDARY + r"])")
+# Explicit roles: :guilabel:`text`, :doc:`text <target>`, :term:`text`
+ROLE_REF_RE = re.compile(r"(:[a-z]+:`[^`\n]+`)(?=[" + BOUNDARY + r"])")
 
 
 def fix_text(text: str) -> str:
@@ -35,6 +39,7 @@ def fix_text(text: str) -> str:
     text = STRONG_RE.sub(r"\1 ", text)
     text = EMPH_RE.sub(r"\1 ", text)
     text = NAMED_REF_RE.sub(r"\1 ", text)
+    text = ROLE_REF_RE.sub(r"\1 ", text)
     return text
 
 

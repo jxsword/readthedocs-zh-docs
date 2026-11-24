@@ -22,181 +22,194 @@ msgstr ""
 
 #: ../../upstream/docs/user/flyout-menu.rst:4
 msgid "Flyout menu"
-msgstr ""
+msgstr "浮出菜单"
 
 #: ../../upstream/docs/user/flyout-menu.rst:6
 msgid ""
-"When you use a Read the Docs site, there is a flyout menu embedded on all"
-" the documentation pages. The flyout menu is a way to expose the "
+"When you use a Read the Docs site, there is a flyout menu embedded on all "
+"the documentation pages. The flyout menu is a way to expose the "
 "functionality of Read the Docs on the page, without having to have the "
 "documentation theme integrate it directly."
 msgstr ""
+"使用 Read the Docs 站点时，所有文档页面都嵌入了浮出菜单。浮出菜单让你无需让文档主题直接集成，即可在页面上呈现 Read the Docs"
+" 的功能。"
 
 #: ../../upstream/docs/user/flyout-menu.rst:12
 msgid ""
-"The flyout menu is a default implementation that works for every site. "
-"You can access the full data used to construct the flyout, and use that "
-"to integrate the data directly into your documentation theme for a nicer "
-"user experience. See the :ref:`flyout-menu:Custom event integration` for "
-"more information."
+"The flyout menu is a default implementation that works for every site. You "
+"can access the full data used to construct the flyout, and use that to "
+"integrate the data directly into your documentation theme for a nicer user "
+"experience. See the :ref:`flyout-menu:Custom event integration` for more "
+"information."
 msgstr ""
+"浮出菜单是适用于所有站点的默认实现。你可以获取构建浮出所用的完整数据，将其直接集成到你的文档主题中以获得更好的用户体验。更多信息见 :ref"
+":`flyout-menu:Custom event integration` 。"
 
 #: ../../upstream/docs/user/flyout-menu.rst:18
 msgid "Addons flyout menu"
-msgstr ""
+msgstr "Addon 浮出菜单"
 
 #: ../../upstream/docs/user/flyout-menu.rst:20
 msgid ""
 "The :doc:`addons` flyout provides a place for a number of Read the Docs "
 "features:"
-msgstr ""
+msgstr ":doc:`addons` 浮出菜单为多项 Read the Docs 功能提供了展示位置："
 
 #: ../../upstream/docs/user/flyout-menu.rst:22
 msgid ""
 "A :doc:`version switcher </versions>` that shows users all of the active "
 "versions they have access to."
-msgstr ""
+msgstr "提供 :doc:`版本切换器 </versions>` ，向用户展示其有权访问的所有活跃版本。"
 
 #: ../../upstream/docs/user/flyout-menu.rst:23
 msgid ""
 "A :doc:`translation switcher </localization>` that shows all the "
 "documentation languages provided."
-msgstr ""
+msgstr "提供 :doc:`翻译切换器 </localization>` ，展示所有提供的文档语言。"
 
 #: ../../upstream/docs/user/flyout-menu.rst:24
 msgid ""
-"A list of :doc:`offline formats </offline-formats>` for the current "
-"version, including HTML & PDF downloads."
-msgstr ""
+"A list of :doc:`offline formats </offline-formats>` for the current version,"
+" including HTML & PDF downloads."
+msgstr "列出当前版本的 :doc:`离线格式 </offline-formats>` ，包括 HTML 和 PDF 下载。"
 
 #: ../../upstream/docs/user/flyout-menu.rst:25
 msgid "Links to the Read the Docs dashboard for the project."
-msgstr ""
+msgstr "指向项目 Read the Docs 仪表盘的链接。"
 
 #: ../../upstream/docs/user/flyout-menu.rst:26
 msgid ""
-"A search bar that gives users access to the :doc:`/server-side-"
-"search/index` of the current version."
-msgstr ""
+"A search bar that gives users access to the :doc:`/server-side-search/index`"
+" of the current version."
+msgstr "提供搜索栏，让用户访问当前版本的 :doc:`/server-side-search/index` 。"
 
 #: ../../upstream/docs/user/flyout-menu.rst:31
 msgid "The opened flyout menu"
-msgstr ""
+msgstr "展开的浮出菜单"
 
 #: ../../upstream/docs/user/flyout-menu.rst:34
 msgid "Customizing the flyout menu"
-msgstr ""
+msgstr "定制浮出菜单"
 
 #: ../../upstream/docs/user/flyout-menu.rst:36
 msgid ""
 "You can configure flyout menu options in your project's "
 ":menuselection:`Settings --> Addons --> Flyout menu`."
-msgstr ""
+msgstr "可在项目的 :menuselection:`Settings --> Addons --> Flyout menu` 中配置浮出菜单选项。"
 
 #: ../../upstream/docs/user/flyout-menu.rst:39
 msgid "Version sorting"
-msgstr ""
+msgstr "版本排序"
 
 #: ../../upstream/docs/user/flyout-menu.rst:41
 msgid ""
-"The primary customization currently is the ability to sort versions. You "
-"can sort by:"
-msgstr ""
+"The primary customization currently is the ability to sort versions. You can"
+" sort by:"
+msgstr "目前主要的定制能力是版本排序。可按以下方式排序："
 
 #: ../../upstream/docs/user/flyout-menu.rst:46
 msgid ""
 ":guilabel:`SemVer (Read the Docs)` - **Default**. Read the Docs custom "
 "implementation of semver.org."
 msgstr ""
+":guilabel:`SemVer (Read the Docs)` - **默认** 。Read the Docs 对 semver.org "
+"的自定义实现。"
 
 #: ../../upstream/docs/user/flyout-menu.rst:47
 msgid ":guilabel:`Python Packaging` - Sort by Python packaging sorting."
-msgstr ""
+msgstr ":guilabel:`Python Packaging` - 按 Python 打包排序规则排序。"
 
 #: ../../upstream/docs/user/flyout-menu.rst:48
 msgid ":guilabel:`CalVer` - Sort by calendar date."
-msgstr ""
+msgstr ":guilabel:`CalVer` - 按日历日期排序。"
 
 #: ../../upstream/docs/user/flyout-menu.rst:49
 msgid ""
 ":guilabel:`Alphabetically` - Only useful if you aren't using numeric "
 "versions."
-msgstr ""
+msgstr ":guilabel:`Alphabetically` - 仅在不使用数字版本号时有用。"
 
 #: ../../upstream/docs/user/flyout-menu.rst:50
 msgid "Or you can define a custom pattern"
-msgstr ""
+msgstr "或你可以定义自定义模式"
 
 #: ../../upstream/docs/user/flyout-menu.rst:52
 msgid ""
 "You can also choose whether ``latest`` and ``stable`` should be sorted "
 "first, as those are special versions that Read the Docs uses."
-msgstr ""
+msgstr "你还可以选择 ``latest`` 和 ``stable`` 是否排在最前，因为它们是 Read the Docs 使用的特殊版本。"
 
 #: ../../upstream/docs/user/flyout-menu.rst:56
 msgid "Position"
-msgstr ""
+msgstr "位置"
 
 #: ../../upstream/docs/user/flyout-menu.rst:58
 msgid ""
 "The flyout can be configured in the :term:`dashboard` with the following "
 "positions:"
-msgstr ""
+msgstr "可在 :term:`dashboard` 中将浮出菜单配置为以下位置："
 
 #: ../../upstream/docs/user/flyout-menu.rst:60
 msgid ""
 ":guilabel:`Default (from theme or Read the Docs)` - **Default**. If the "
-"theme author defines a specific position for the flyout, that position "
-"will be used. Otherwise, the default position from Read the Docs will be "
-"used: ``Bottom right``."
+"theme author defines a specific position for the flyout, that position will "
+"be used. Otherwise, the default position from Read the Docs will be used: "
+"``Bottom right``."
 msgstr ""
+":guilabel:`Default (from theme or Read the Docs)` - **默认** "
+"。若主题作者为浮出菜单定义了特定位置，则使用该位置；否则使用 Read the Docs 的默认位置：``Bottom right`` 。"
 
 #: ../../upstream/docs/user/flyout-menu.rst:62
 msgid ":guilabel:`Bottom left` - Show the flyout at the bottom left."
-msgstr ""
+msgstr ":guilabel:`Bottom left` - 在左下角显示浮出菜单。"
 
 #: ../../upstream/docs/user/flyout-menu.rst:63
 msgid ":guilabel:`Bottom right` - Show the flyout at the bottom right."
-msgstr ""
+msgstr ":guilabel:`Bottom right` - 在右下角显示浮出菜单。"
 
 #: ../../upstream/docs/user/flyout-menu.rst:64
 msgid ":guilabel:`Top left` - Show the flyout at the top left."
-msgstr ""
+msgstr ":guilabel:`Top left` - 在左上角显示浮出菜单。"
 
 #: ../../upstream/docs/user/flyout-menu.rst:65
 msgid ":guilabel:`Top right` - Show the flyout at the top right."
-msgstr ""
+msgstr ":guilabel:`Top right` - 在右上角显示浮出菜单。"
 
 #: ../../upstream/docs/user/flyout-menu.rst:69
 msgid ""
-"If you are a theme author and want to define a default flyout position "
-"for your theme, you can explicitly define the flyout web component with "
-"the ``position`` attribute in your HTML:"
-msgstr ""
+"If you are a theme author and want to define a default flyout position for "
+"your theme, you can explicitly define the flyout web component with the "
+"``position`` attribute in your HTML:"
+msgstr "如果你是主题作者并想为你的主题定义默认浮出菜单位置，可在 HTML 中用 ``position`` 属性显式定义浮出菜单 Web 组件："
 
 #: ../../upstream/docs/user/flyout-menu.rst:77
 msgid ""
 "Available positions: ``bottom-left``, ``bottom-right``, ``top-left`` and "
 "``top-right``."
-msgstr ""
+msgstr "可用位置：``bottom-left`` 、``bottom-right`` 、``top-left`` 和 ``top-right`` 。"
 
 #: ../../upstream/docs/user/flyout-menu.rst:80
 msgid "Custom event integration"
-msgstr ""
+msgstr "自定义事件集成"
 
 #: ../../upstream/docs/user/flyout-menu.rst:82
 msgid ""
-"Read the Docs Addons exposes all the data used to construct the flyout "
-"menu via a JavaScript ``CustomEvent``. If you'd like to integrate the "
-"data, you can use the :ref:`intro/mkdocs:Integrate the Read the Docs "
-"version menu into your site navigation` example as a starting point."
+"Read the Docs Addons exposes all the data used to construct the flyout menu "
+"via a JavaScript ``CustomEvent``. If you'd like to integrate the data, you "
+"can use the :ref:`intro/mkdocs:Integrate the Read the Docs version menu into"
+" your site navigation` example as a starting point."
 msgstr ""
+"Read the Docs Addons 通过 JavaScript ``CustomEvent`` "
+"暴露构建浮出菜单所用的全部数据。若想集成这些数据，可参考 :ref:`intro/mkdocs:Integrate the Read the Docs "
+"version menu into your site navigation` 示例作为起点。"
 
 #: ../../upstream/docs/user/flyout-menu.rst:87
 msgid ""
-"We have not formally documented the API response returned from the Addons"
-" API, but you can view the JSON data returned there as a starting point. "
-"Once we document it, we will commit to supporting that version of the API"
-" response going forward."
+"We have not formally documented the API response returned from the Addons "
+"API, but you can view the JSON data returned there as a starting point. Once"
+" we document it, we will commit to supporting that version of the API "
+"response going forward."
 msgstr ""
+"我们尚未正式文档化 Addons API 返回的 API 响应，但你可以查看那里返回的 JSON "
+"数据作为参考。一旦正式文档化，我们将承诺持续支持该版本的 API 响应。"
 

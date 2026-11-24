@@ -22,76 +22,76 @@ msgstr ""
 
 #: ../../upstream/docs/user/traffic-analytics.rst:2
 msgid "Traffic analytics"
-msgstr ""
+msgstr "流量分析"
 
 #: ../../upstream/docs/user/traffic-analytics.rst:4
 msgid ""
-"Read the Docs aggregates statistics about visits to your documentation. "
-"This is mainly information about how often pages are viewed, and which "
-"return a `404 Not Found` error code."
-msgstr ""
+"Read the Docs aggregates statistics about visits to your documentation. This"
+" is mainly information about how often pages are viewed, and which return a "
+"`404 Not Found` error code."
+msgstr "Read the Docs 汇总关于文档访问的统计数据。主要是页面被查看的频率，以及哪些页面返回 `404 Not Found` 错误码。"
 
 #: ../../upstream/docs/user/traffic-analytics.rst:8
 msgid ""
-"Traffic analytics let you see *which* documents your users are reading. "
-"This allows you to understand how your documentation is being used, so "
-"you can focus on expanding and updating parts people are reading most."
-msgstr ""
+"Traffic analytics let you see *which* documents your users are reading. This"
+" allows you to understand how your documentation is being used, so you can "
+"focus on expanding and updating parts people are reading most."
+msgstr "流量分析让你看清用户正在阅读*哪些* 文档。这能帮你了解文档的使用方式，从而专注于扩展和更新用户阅读最多的部分。"
 
 #: ../../upstream/docs/user/traffic-analytics.rst:12
 msgid ""
 "To see a list of the top pages from the last month, go to your project's "
 ":menuselection:`Settings --> Traffic analytics`."
-msgstr ""
+msgstr "要查看过去一个月访问最多的页面列表，前往项目的 :menuselection:`Settings --> Traffic analytics` 。"
 
 #: ../../upstream/docs/user/traffic-analytics.rst:15
 #: ../../upstream/docs/user/traffic-analytics.rst:20
 msgid "Traffic analytics demo"
-msgstr ""
+msgstr "流量分析演示"
 
 #: ../../upstream/docs/user/traffic-analytics.rst:23
 msgid "Enabling traffic analytics"
-msgstr ""
+msgstr "启用流量分析"
 
 #: ../../upstream/docs/user/traffic-analytics.rst:25
 msgid "Go to your project's :menuselection:`Settings --> Addons --> Analytics`."
-msgstr ""
+msgstr "前往项目的 :menuselection:`Settings --> Addons --> Analytics` 。"
 
 #: ../../upstream/docs/user/traffic-analytics.rst:26
 msgid "Check :guilabel:`Analytics enabled`."
-msgstr ""
+msgstr "勾选 :guilabel:`Analytics enabled` 。"
 
 #: ../../upstream/docs/user/traffic-analytics.rst:29
 msgid "Data storage"
-msgstr ""
+msgstr "数据存储"
 
 #: ../../upstream/docs/user/traffic-analytics.rst:31
 msgid "The duration of analytics data stored depends on which site you're using:"
-msgstr ""
+msgstr "分析数据的存储时长取决于你使用的站点："
 
 #: ../../upstream/docs/user/traffic-analytics.rst:33
 msgid "On |org_brand|, the last 90 days are stored."
-msgstr ""
+msgstr "|org_brand| 存储最近 90 天。"
 
 #: ../../upstream/docs/user/traffic-analytics.rst:34
 msgid ""
-"On |com_brand|, storage duration starts at 30 days and increases with "
-"plan level."
-msgstr ""
+"On |com_brand|, storage duration starts at 30 days and increases with plan "
+"level."
+msgstr "|com_brand| 存储时长从 30 天起，随套餐等级提升。"
 
 #: ../../upstream/docs/user/traffic-analytics.rst:38
 msgid "`Our plan pricing <https://about.readthedocs.com/pricing/>`_"
-msgstr ""
+msgstr "`Our plan pricing <https://about.readthedocs.com/pricing/>`_"
 
 #: ../../upstream/docs/user/traffic-analytics.rst:39
 msgid "Compare our plan pricing and analytics storage duration."
-msgstr ""
+msgstr "比较我们的套餐定价与分析数据存储时长。"
 
 #: ../../upstream/docs/user/traffic-analytics.rst:41
 msgid ":doc:`/search-analytics`"
-msgstr ""
+msgstr ":doc:`/search-analytics`"
 
 #: ../../upstream/docs/user/traffic-analytics.rst:42
 msgid "See what users are searching for in your documentation."
-msgstr ""
+msgstr "了解用户在文档中搜索什么。"
 

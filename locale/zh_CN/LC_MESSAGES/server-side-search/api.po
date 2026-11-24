@@ -22,252 +22,260 @@ msgstr ""
 
 #: ../../upstream/docs/user/server-side-search/api.rst:2
 msgid "Server side search API"
-msgstr ""
+msgstr "服务器端搜索 API"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:4
 msgid ""
-"You can integrate our :doc:`server side search </server-side-"
-"search/index>` in your documentation by using our API."
-msgstr ""
+"You can integrate our :doc:`server side search </server-side-search/index>` "
+"in your documentation by using our API."
+msgstr "你可以通过我们的 API 将 :doc:`服务器端搜索 </server-side-search/index>` 集成到文档中。"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:6
 msgid ""
 "If you are using :doc:`/commercial/index` you will need to replace "
-"https://app.readthedocs.org/ with https://app.readthedocs.com/ in all the"
-" URLs used in the following examples. Check :ref:`server-side-"
+"https://app.readthedocs.org/ with https://app.readthedocs.com/ in all the "
+"URLs used in the following examples. Check :ref:`server-side-"
 "search/api:authentication and authorization` if you are using private "
 "versions."
 msgstr ""
+"如果你使用 :doc:`/commercial/index` ，需将以下示例中所有 URL 的 https://app.readthedocs.org/"
+" 替换为 https://app.readthedocs.com/。若使用私有版本，请查阅 :ref:`server-side-"
+"search/api:authentication and authorization` 。"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:11
 msgid "API v3"
-msgstr ""
+msgstr "API v3"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:15
 msgid ""
-"Return a list of search results for a project or subset of projects. "
-"Results are divided into sections with highlights of the matching term."
-msgstr ""
+"Return a list of search results for a project or subset of projects. Results"
+" are divided into sections with highlights of the matching term."
+msgstr "返回某个项目或部分项目的搜索结果列表。结果按章节划分，并高亮匹配的词。"
 
 #: ../../upstream/docs/user/server-side-search/api.rst
 msgid "Query Parameters"
-msgstr ""
+msgstr "查询参数"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:20
 msgid "Search query (see :doc:`/server-side-search/syntax`)"
-msgstr ""
+msgstr "搜索查询（参见 :doc:`/server-side-search/syntax` ）"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:21
 #: ../../upstream/docs/user/server-side-search/api.rst:195
 msgid "Jump to a specific page"
-msgstr ""
+msgstr "跳转到指定页面"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:22
 #: ../../upstream/docs/user/server-side-search/api.rst:196
 msgid "Limits the results per page, default is 50"
-msgstr ""
+msgstr "限制每页结果数，默认为 50"
 
 #: ../../upstream/docs/user/server-side-search/api.rst
 msgid "Request JSON Object"
-msgstr ""
+msgstr "请求 JSON 对象"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:26
 #: ../../upstream/docs/user/server-side-search/api.rst:200
 msgid "The type of the result, currently page is the only type."
-msgstr ""
+msgstr "结果类型，目前 page 是唯一类型。"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:27
 msgid "The project object"
-msgstr ""
+msgstr "项目对象"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:28
 msgid "The version object"
-msgstr ""
+msgstr "版本对象"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:29
 #: ../../upstream/docs/user/server-side-search/api.rst:204
 msgid "The title of the page"
-msgstr ""
+msgstr "页面标题"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:30
 #: ../../upstream/docs/user/server-side-search/api.rst:205
 msgid "Canonical domain of the resulting page"
-msgstr ""
+msgstr "结果页面的规范域名"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:31
 #: ../../upstream/docs/user/server-side-search/api.rst:206
 msgid "Path to the resulting page"
-msgstr ""
+msgstr "结果页面的路径"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:32
 #: ../../upstream/docs/user/server-side-search/api.rst:207
 msgid ""
-"An object containing a list of substrings with matching terms. Note that "
-"the text is HTML escaped with the matching terms inside a ``<span>`` tag."
-msgstr ""
+"An object containing a list of substrings with matching terms. Note that the"
+" text is HTML escaped with the matching terms inside a ``<span>`` tag."
+msgstr "包含匹配词子串列表的对象。注意文本已做 HTML 转义，匹配词位于 ``<span>`` 标签内。"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:34
 #: ../../upstream/docs/user/server-side-search/api.rst:209
 msgid ""
-"A list of block objects containing search results from the page. "
-"Currently, there is one type of block:  - section: A page section with a "
-"linkable anchor (``id`` attribute)."
-msgstr ""
+"A list of block objects containing search results from the page. Currently, "
+"there is one type of block:  - section: A page section with a linkable "
+"anchor (``id`` attribute)."
+msgstr "包含页面搜索结果的块对象列表。目前只有一种块类型： - section: 带可链接锚点（``id`` 属性）的页面章节。"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:36
 #: ../../upstream/docs/user/server-side-search/api.rst:211
 msgid ""
-"A list of block objects containing search results from the page. "
-"Currently, there is one type of block:"
-msgstr ""
+"A list of block objects containing search results from the page. Currently, "
+"there is one type of block:"
+msgstr "包含页面搜索结果的块对象列表。目前只有一种块类型："
 
 #: ../../upstream/docs/user/server-side-search/api.rst:39
 #: ../../upstream/docs/user/server-side-search/api.rst:214
 msgid "section: A page section with a linkable anchor (``id`` attribute)."
-msgstr ""
+msgstr "section: 带可链接锚点（``id`` 属性）的页面章节。"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:43
 #: ../../upstream/docs/user/server-side-search/api.rst:218
 msgid ""
-"Except for highlights, any other content is not HTML escaped, you "
-"shouldn't include it in your page without escaping it first."
-msgstr ""
+"Except for highlights, any other content is not HTML escaped, you shouldn't "
+"include it in your page without escaping it first."
+msgstr "除高亮部分外，其他内容均未做 HTML 转义，不应未经转义直接放入页面。"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:46
 #: ../../upstream/docs/user/server-side-search/api.rst:221
 msgid "**Example request**:"
-msgstr ""
+msgstr "**请求示例** ："
 
 #: ../../upstream/docs/user/server-side-search/api.rst:64
 #: ../../upstream/docs/user/server-side-search/api.rst:241
 msgid "**Example response**:"
-msgstr ""
+msgstr "**响应示例** ："
 
 #: ../../upstream/docs/user/server-side-search/api.rst:132
 msgid "Migrating from API v2"
-msgstr ""
+msgstr "从 API v2 迁移"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:134
 msgid ""
 "Instead of using query arguments to specify the project and version to "
 "search, you need to do it from the query itself, this is if you had the "
 "following parameters:"
-msgstr ""
+msgstr "你不再用查询参数指定要搜索的项目和版本，而需直接在查询中指定。即若原本使用以下参数："
 
 #: ../../upstream/docs/user/server-side-search/api.rst:138
 msgid "project: docs"
-msgstr ""
+msgstr "project: docs"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:139
 msgid "version: latest"
-msgstr ""
+msgstr "version: latest"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:140
 msgid "q: test"
-msgstr ""
+msgstr "q: test"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:142
 msgid "Now you need to use:"
-msgstr ""
+msgstr "现在需改用："
 
 #: ../../upstream/docs/user/server-side-search/api.rst:144
 msgid "q: project:docs/latest test"
-msgstr ""
+msgstr "q: project:docs/latest test"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:146
 msgid "The response of the API is very similar to V2, with the following changes:"
-msgstr ""
+msgstr "API 响应与 V2 非常相似，但有以下变化："
 
 #: ../../upstream/docs/user/server-side-search/api.rst:149
 msgid "``project`` is an object, not a string."
-msgstr ""
+msgstr "``project`` 是对象而非字符串。"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:150
 msgid "``version`` is an object, not a string."
-msgstr ""
+msgstr "``version`` 是对象而非字符串。"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:151
-msgid ""
-"``project_alias`` isn't present, it is contained in the ``project`` "
-"object."
-msgstr ""
+msgid "``project_alias`` isn't present, it is contained in the ``project`` object."
+msgstr "``project_alias`` 不再单独出现，包含在 ``project`` 对象中。"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:154
 msgid ""
-"When searching on a parent project, results from their subprojects won't "
-"be included automatically, to include results from subprojects use the "
+"When searching on a parent project, results from their subprojects won't be "
+"included automatically, to include results from subprojects use the "
 "``subprojects`` parameter."
-msgstr ""
+msgstr "在父项目上搜索时，其子项目的结果不会自动包含。要包含子项目结果，请使用 ``subprojects`` 参数。"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:159
 msgid "Authentication and authorization"
-msgstr ""
+msgstr "认证与授权"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:161
 msgid ""
-"If you are using :ref:`private versions <versions:Version states>`, users"
-" will only be allowed to search projects they have permissions over. "
-"Authentication and authorization is done using the current session, or "
-"any of the valid :doc:`sharing methods </commercial/sharing>`."
+"If you are using :ref:`private versions <versions:Version states>`, users "
+"will only be allowed to search projects they have permissions over. "
+"Authentication and authorization is done using the current session, or any "
+"of the valid :doc:`sharing methods </commercial/sharing>`."
 msgstr ""
+"若使用 :ref:`私有版本 <versions:Version states>` ，用户只能搜索其有权限的项目。认证与授权通过当前会话或任一有效的 "
+":doc:`共享方式 </commercial/sharing>` 完成。"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:168
 msgid ":doc:`/api/v3`"
-msgstr ""
+msgstr ":doc:`/api/v3`"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:169
 msgid ""
 "You can create and revoke sharing methods programmatically from "
 "``/api/v3/projects/<project_slug>/sharing/``."
-msgstr ""
+msgstr "你可以通过 ``/api/v3/projects/<project_slug>/sharing/`` 以编程方式创建和撤销共享方式。"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:171
 msgid ""
-"To be able to use the user's current session you need to use the API from"
-" the domain where your docs are being served (``<you-docs-"
+"To be able to use the user's current session you need to use the API from "
+"the domain where your docs are being served (``<you-docs-"
 "domain>/_/api/v3/search/``). This is ``https://docs.readthedocs-"
 "hosted.com/_/api/v3/search/`` for the ``https://docs.readthedocs-"
 "hosted.com/`` project, for example."
 msgstr ""
+"要使用用户当前会话，需从文档实际提供服务的域名调用 API（``<you-docs-domain>/_/api/v3/search/`` ）。例如 "
+"``https://docs.readthedocs-hosted.com/`` 项目对应的是 ``https://docs.readthedocs-"
+"hosted.com/_/api/v3/search/`` 。"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:177
 msgid "API v2 (deprecated)"
-msgstr ""
+msgstr "API v2（已弃用）"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:181
 msgid ""
 "Please use our :ref:`server-side-search/api:api v3` instead, see :ref"
 ":`server-side-search/api:migrating from api v2`."
 msgstr ""
+"请改用我们的 :ref:`server-side-search/api:api v3` ，参见 :ref:`server-side-"
+"search/api:migrating from api v2` 。"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:186
 msgid ""
-"Return a list of search results for a project, including results from its"
-" :doc:`/subprojects`. Results are divided into sections with highlights "
-"of the matching term."
-msgstr ""
+"Return a list of search results for a project, including results from its "
+":doc:`/subprojects`. Results are divided into sections with highlights of "
+"the matching term."
+msgstr "返回某个项目的搜索结果列表，包含其 :doc:`/subprojects` 的结果。结果按章节划分，并高亮匹配的词。"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:192
 msgid "Search query"
-msgstr ""
+msgstr "搜索查询"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:193
 msgid "Project slug"
-msgstr ""
+msgstr "项目 slug"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:194
 msgid "Version slug"
-msgstr ""
+msgstr "版本 slug"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:201
 msgid "The project slug"
-msgstr ""
+msgstr "项目 slug"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:202
 msgid "Alias of the project if it's a subproject."
-msgstr ""
+msgstr "若该项目是子项目，则为其别名。"
 
 #: ../../upstream/docs/user/server-side-search/api.rst:203
 msgid "The version slug"
-msgstr ""
+msgstr "版本 slug"
 

@@ -22,81 +22,83 @@ msgstr ""
 
 #: ../../upstream/docs/user/server-side-search/index.rst:2
 msgid "Server side search"
-msgstr ""
+msgstr "服务器端搜索"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:4
 msgid ""
 "Read the Docs provides full-text search across all of the pages of all "
 "projects, this is powered by Elasticsearch_."
-msgstr ""
+msgstr "Read the Docs 提供跨所有项目所有页面的全文搜索，由 Elasticsearch_ 驱动。"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:9
 msgid ":doc:`/server-side-search/syntax`"
-msgstr ""
+msgstr ":doc:`/server-side-search/syntax`"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:10
 msgid "Syntax options for searching Read the Docs projects"
-msgstr ""
+msgstr "搜索 Read the Docs 项目的语法选项"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:11
 msgid ":doc:`/server-side-search/api`"
-msgstr ""
+msgstr ":doc:`/server-side-search/api`"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:12
 msgid "Reference to the Server Side Search API"
-msgstr ""
+msgstr "服务器端搜索 API 参考"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:15
 msgid "Search features"
-msgstr ""
+msgstr "搜索功能"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:17
 msgid "Read the Docs has the following search features:"
-msgstr ""
+msgstr "Read the Docs 提供以下搜索功能："
 
 #: ../../upstream/docs/user/server-side-search/index.rst:19
 msgid "Search across :doc:`subprojects </subprojects>`"
-msgstr ""
+msgstr "跨 :doc:`子项目 </subprojects>` 搜索"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:20
 msgid ""
-"Subprojects allow you to host multiple discrete projects on a single "
-"domain. Every subproject hosted on that same domain is included in the "
-"search results of the main project."
-msgstr ""
+"Subprojects allow you to host multiple discrete projects on a single domain."
+" Every subproject hosted on that same domain is included in the search "
+"results of the main project."
+msgstr "子项目让你能在单个域名下托管多个独立项目。托管在同一域名下的每个子项目都会包含在主项目的搜索结果中。"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:23
 msgid "Search results land on the exact content you were looking for"
-msgstr ""
+msgstr "搜索结果直达你要找的确切内容"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:24
 msgid ""
-"We index every heading in the document, allowing you to get search "
-"results exactly to the content that you are searching for. Try this out "
-"by searching for `\"full-text search\"`_."
-msgstr ""
+"We index every heading in the document, allowing you to get search results "
+"exactly to the content that you are searching for. Try this out by searching"
+" for `\"full-text search\"`_."
+msgstr "我们索引文档中的每个标题，让搜索结果精确指向你要找的内容。可搜索 `\"full-text search\"`_ 体验。"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:28
 msgid "Full control over which results should be listed first"
-msgstr ""
+msgstr "完全控制哪些结果排在前面"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:29
 msgid ""
-"Set a custom rank per page, allowing you to deprecate content, and always"
-" show relevant content to your users first. See :ref:`config-"
+"Set a custom rank per page, allowing you to deprecate content, and always "
+"show relevant content to your users first. See :ref:`config-"
 "file/v2:search.ranking`."
 msgstr ""
+"为每个页面设置自定义排名，让你能够废弃内容，并始终优先向用户展示相关内容。参见 :ref:`config-file/v2:search.ranking`"
+" 。"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:33
 msgid "Search across projects you have access to"
-msgstr ""
+msgstr "跨你有权访问的项目搜索"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:34
 msgid ""
-"Search across all the projects you have access to in your Dashboard. "
-"**Don't remember where you found that document the other day? No problem,"
-" you can search across them all.**"
-msgstr ""
+"Search across all the projects you have access to in your Dashboard. **Don't"
+" remember where you found that document the other day? No problem, you can "
+"search across them all.**"
+msgstr "在你的仪表盘中跨所有有权访问的项目搜索。**还记得那天在哪里找到那份文档吗？没问题，你可以全部搜一遍。**"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:38
 #, python-brace-format
@@ -105,20 +107,22 @@ msgid ""
 "``project:{name}`` syntax, for example: `\"project:docs project:dev "
 "search\"`_. See :doc:`/server-side-search/syntax`."
 msgstr ""
+"你也可以用 ``project:{name}`` 语法指定要搜索的项目，例如：`\"project:docs project:dev "
+"search\"`_ 。参见 :doc:`/server-side-search/syntax` 。"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:43
 msgid "Special query syntax for more specific results"
-msgstr ""
+msgstr "用于更精确结果的特殊查询语法"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:44
 msgid ""
-"We support a full range of search queries. You can see some examples at "
-":ref:`server-side-search/syntax:special queries`."
-msgstr ""
+"We support a full range of search queries. You can see some examples at :ref"
+":`server-side-search/syntax:special queries`."
+msgstr "我们支持多种搜索查询语法。部分示例见 :ref:`server-side-search/syntax:special queries` 。"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:47
 msgid "Configurable"
-msgstr ""
+msgstr "可配置"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:48
 msgid ""
@@ -127,93 +131,97 @@ msgid ""
 "modal, and toggle the subprojects filter shown inside it, from your "
 "project's :menuselection:`Settings --> Search`."
 msgstr ""
+"通过 :ref:`配置文件 <config-file/v2:search>` 按需调整搜索结果。你还可以在项目的 "
+":menuselection:`Settings --> Search` 中启用或禁用搜索弹窗，并切换其中显示的子项目过滤器。"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:54
 msgid "Ready to use"
-msgstr ""
+msgstr "开箱即用"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:55
 msgid ""
-"We override the default search engine of your Sphinx project with ours to"
-" provide you with all these benefits within your project. We fallback to "
-"the built-in search engine from your project if ours doesn't return any "
-"results, just in case we missed something |:smile:|."
+"We override the default search engine of your Sphinx project with ours to "
+"provide you with all these benefits within your project. We fallback to the "
+"built-in search engine from your project if ours doesn't return any results,"
+" just in case we missed something |:smile:|."
 msgstr ""
+"我们用自己的搜索引擎覆盖 Sphinx "
+"项目的默认搜索引擎，让你在项目内获得所有这些好处。若我们的搜索引擎未返回任何结果，则回退到你项目内置的搜索引擎，以防有所遗漏 |:smile:|。"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:60
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:61
 msgid "Integrate our search as you like. See :doc:`/server-side-search/api`."
-msgstr ""
+msgstr "按你的方式集成我们的搜索。参见 :doc:`/server-side-search/api` 。"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:64
 msgid "Analytics"
-msgstr ""
+msgstr "分析"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:65
 msgid "Know what your users are searching for. See :doc:`/search-analytics`"
-msgstr ""
+msgstr "了解用户在搜索什么。参见 :doc:`/search-analytics`"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:71
 msgid "Search analytics demo"
-msgstr ""
+msgstr "搜索分析演示"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:76
 msgid "Search analytics demo. Read more in :doc:`/search-analytics`."
-msgstr ""
+msgstr "搜索分析演示。更多内容见 :doc:`/search-analytics` 。"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:81
 msgid "Search as you type"
-msgstr ""
+msgstr "边输入边搜索"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:83
 msgid ""
 "Search as-you-type allows users to quickly find exactly what they are "
 "looking for while typing. It also saves recent searches, for future "
 "reference."
-msgstr ""
+msgstr "边输入边搜索让用户在输入过程中快速找到确切所需内容。它还会保存最近的搜索供日后参考。"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:86
 msgid "Try it by pressing :guilabel:`/` (forward slash) and typing."
-msgstr ""
+msgstr "按 :guilabel:`/` （正斜杠）后输入即可体验。"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:89
 msgid "Configuring search"
-msgstr ""
+msgstr "配置搜索"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:91
-msgid ""
-"You can configure search options for your project from the "
-":term:`dashboard`:"
-msgstr ""
+msgid "You can configure search options for your project from the :term:`dashboard`:"
+msgstr "你可以在 :term:`dashboard` 中配置项目搜索选项："
 
 #: ../../upstream/docs/user/server-side-search/index.rst:93
 msgid ""
-"Go to your project's :menuselection:`Settings --> Search`. From there you"
-" can toggle :guilabel:`Enable search modal`, which controls whether the "
-"Read the Docs search modal is shown in your documentation, and "
-":guilabel:`Show subprojects filter in search modal`, which controls "
-"whether readers can filter search results by :doc:`subproject "
-"</subprojects>`."
+"Go to your project's :menuselection:`Settings --> Search`. From there you "
+"can toggle :guilabel:`Enable search modal`, which controls whether the Read "
+"the Docs search modal is shown in your documentation, and :guilabel:`Show "
+"subprojects filter in search modal`, which controls whether readers can "
+"filter search results by :doc:`subproject </subprojects>`."
 msgstr ""
+"前往项目的 :menuselection:`Settings --> Search` 。你可在此切换 :guilabel:`Enable search "
+"modal` （控制文档中是否显示 Read the Docs 搜索弹窗）和 :guilabel:`Show subprojects filter in"
+" search modal` （控制读者能否按 :doc:`子项目 </subprojects>` 筛选搜索结果）。"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:100
 msgid "How main content is detected"
-msgstr ""
+msgstr "主要内容如何检测"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:102
 msgid ""
 "Server Side Search indexes the \"main content\" of HTML pages, ignoring "
-"headers, footers, navigation, and other page elements that aren't part of"
-" the documentation content itself. This keeps results focused and avoids "
+"headers, footers, navigation, and other page elements that aren't part of "
+"the documentation content itself. This keeps results focused and avoids "
 "repeated elements like nav menus from polluting relevance."
-msgstr ""
+msgstr "服务器端搜索索引 HTML 页面的\"主要内容\"，忽略不属于文档内容的页眉、页脚、导航等页面元素。这能让结果保持聚焦，避免导航菜单等重复元素干扰相关性。"
 
 #: ../../upstream/docs/user/server-side-search/index.rst:106
 msgid ""
 "For details on how the main content area is detected, see :ref:`reference"
 "/main-content-detection:detection logic`."
-msgstr ""
+msgstr "主要内容区域的检测方式详见 :ref:`reference/main-content-detection:detection logic` 。"
 

@@ -31,7 +31,7 @@ msgid ""
 "project's HTML output."
 msgstr ""
 "若希望项目使用自定义或品牌化的 ``404 Not Found`` 页面，可在项目 HTML 输出的顶层放置 ``404.html`` 或 "
-"``404/index.html``。"
+"``404/index.html`` 。"
 
 #: ../../upstream/docs/user/reference/404-not-found.rst:8
 msgid "How it works"
@@ -43,7 +43,7 @@ msgid ""
 "``404.html`` or ``404/index.html`` in the root of your project's output."
 msgstr ""
 "当我们的服务器返回 ``404 Not Found`` 错误时，会检查项目输出根目录是否存在 ``404.html`` 或 "
-"``404/index.html``。"
+"``404/index.html`` 。"
 
 #: ../../upstream/docs/user/reference/404-not-found.rst:13
 msgid "The following locations are checked, in order:"
@@ -51,11 +51,11 @@ msgstr "按以下顺序检查位置："
 
 #: ../../upstream/docs/user/reference/404-not-found.rst:15
 msgid "``/404.html`` or ``404/index.html`` in the *current* documentation version."
-msgstr "*当前* 文档版本中的 ``/404.html`` 或 ``404/index.html``。"
+msgstr "*当前* 文档版本中的 ``/404.html`` 或 ``404/index.html`` 。"
 
 #: ../../upstream/docs/user/reference/404-not-found.rst:16
 msgid "``/404.html`` or ``404/index.html`` in the *default* documentation version."
-msgstr "*默认* 文档版本中的 ``/404.html`` 或 ``404/index.html``。"
+msgstr "*默认* 文档版本中的 ``/404.html`` 或 ``404/index.html`` 。"
 
 #: ../../upstream/docs/user/reference/404-not-found.rst:19
 msgid "Tool integration"
@@ -89,7 +89,7 @@ msgid ""
 "create a ``404.html`` file and put it under the path defined in "
 "``html_extra_path``."
 msgstr ""
-"若要创建自定义 ``404.html``，Sphinx 使用 `html_extra_path`_ 选项将静态文件加入输出。你需要创建 "
+"若要创建自定义 ``404.html`` ，Sphinx 使用 `html_extra_path`_ 选项将静态文件加入输出。你需要创建 "
 "``404.html`` 文件并放到 ``html_extra_path`` 定义的路径下。"
 
 #: ../../upstream/docs/user/reference/404-not-found.rst:38
@@ -100,7 +100,7 @@ msgid ""
 "404 pages named this way."
 msgstr ""
 "若使用 ``DirHTML`` 构建器，无需额外步骤。Sphinx 会自动对 404 页面应用 ``<page-name>/index.html`` "
-"目录结构，即 ``404/index.html``。Read the Docs 也能识别这种命名的 404 页面。"
+"目录结构，即 ``404/index.html`` 。Read the Docs 也能识别这种命名的 404 页面。"
 
 #: ../../upstream/docs/user/reference/404-not-found.rst:44
 msgid "MkDocs"
@@ -113,6 +113,6 @@ msgid ""
 "`site_url`_ configuration value as your site's :doc:`canonical base URL "
 "</canonical-urls>`."
 msgstr ""
-"MkDocs 会自动生成 ``404.html``，Read the Docs 将使用它。但除非将 `site_url`_ 配置值设为你站点的 "
-":doc:`规范基础 URL </canonical-urls>`，否则静态资源无法正确加载。"
+"MkDocs 会自动生成 ``404.html`` ，Read the Docs 将使用它。但除非将 `site_url`_ 配置值设为你站点的 "
+":doc:`规范基础 URL </canonical-urls>` ，否则静态资源无法正确加载。"
 

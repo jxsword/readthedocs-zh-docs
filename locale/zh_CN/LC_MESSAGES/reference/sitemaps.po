@@ -32,8 +32,8 @@ msgid ""
 "Engine Optimization (SEO) </guides/technical-docs-seo-guide>`."
 msgstr ""
 "`站点地图 <https://www.sitemaps.org/>`__ 让你向搜索引擎告知可供抓取的 URL。这让你的内容更易被 :term:`发现 "
-"<discoverability>`，并改善 :doc:`搜索引擎优化（SEO） </guides/technical-docs-seo-"
-"guide>`。"
+"<discoverability>` ，并改善 :doc:`搜索引擎优化（SEO） </guides/technical-docs-seo-"
+"guide>` 。"
 
 #: ../../upstream/docs/user/reference/sitemaps.rst:9
 msgid "How it works"
@@ -68,7 +68,7 @@ msgid ""
 "states>` of your documentation and when they were last updated, sorted by "
 "version number."
 msgstr ""
-"Read the Docs 会自动为项目生成 ``sitemap.xml``。站点地图包含你文档中 :ref:`公开且未隐藏的版本 "
+"Read the Docs 会自动为项目生成 ``sitemap.xml`` 。站点地图包含你文档中 :ref:`公开且未隐藏的版本 "
 "<versions:Version states>` 及其最后更新时间，按版本号排序。"
 
 #: ../../upstream/docs/user/reference/sitemaps.rst:23
@@ -101,7 +101,7 @@ msgstr "若该自定义文件存在，将原样提供；不存在则由 Read the
 msgid ""
 "You can also point crawlers to a different sitemap URL via ``robots.txt``. "
 "See :doc:`/reference/robots` for details."
-msgstr "你也可以通过 ``robots.txt`` 将爬虫指向其他站点地图 URL。详见 :doc:`/reference/robots`。"
+msgstr "你也可以通过 ``robots.txt`` 将爬虫指向其他站点地图 URL。详见 :doc:`/reference/robots` 。"
 
 #: ../../upstream/docs/user/reference/sitemaps.rst:39
 msgid "For example, in ``robots.txt``::"

@@ -22,87 +22,86 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/best-practice/index.rst:29
 msgid "Deprecating content"
-msgstr ""
+msgstr "废弃内容"
 
 #: ../../upstream/docs/user/guides/best-practice/index.rst:29
 msgid "Best practices for linking to your documentation"
-msgstr ""
+msgstr "链接到文档的最佳实践"
 
 #: ../../upstream/docs/user/guides/best-practice/index.rst:29
 msgid "Creating reproducible builds"
-msgstr ""
+msgstr "创建可复现构建"
 
 #: ../../upstream/docs/user/guides/best-practice/index.rst:29
 msgid "Search engine optimization (SEO) for documentation projects"
-msgstr ""
+msgstr "文档项目的搜索引擎优化（SEO）"
 
 #: ../../upstream/docs/user/guides/best-practice/index.rst:29
 msgid "Hiding a version"
-msgstr ""
+msgstr "隐藏版本"
 
 #: ../../upstream/docs/user/guides/best-practice/index.rst:2
 msgid "How-to guides: best practices"
-msgstr ""
+msgstr "操作指南：最佳实践"
 
 #: ../../upstream/docs/user/guides/best-practice/index.rst:4
 msgid ""
-"Over the years, we have become familiar with a number of methods that "
-"work well and which we consider **best practice**."
-msgstr ""
+"Over the years, we have become familiar with a number of methods that work "
+"well and which we consider **best practice**."
+msgstr "多年来，我们熟悉了许多行之有效的方法，并将其视为**最佳实践** 。"
 
 #: ../../upstream/docs/user/guides/best-practice/index.rst:7
 msgid ""
 "⏩️ :doc:`Best practices for linking to your documentation </guides/best-"
 "practice/links>`"
-msgstr ""
+msgstr "⏩️ :doc:`链接到文档的最佳实践 </guides/best-practice/links>`"
 
 #: ../../upstream/docs/user/guides/best-practice/index.rst:8
 msgid ""
-"Documentation changes over time, and links and cross-references can "
-"become challenging manage for various reasons. Here is a set of best "
-"practices explaining and addressing these challenges."
-msgstr ""
+"Documentation changes over time, and links and cross-references can become "
+"challenging manage for various reasons. Here is a set of best practices "
+"explaining and addressing these challenges."
+msgstr "文档会随时间变化，链接和交叉引用可能因各种原因变得难以管理。这里有一组最佳实践用于解释和应对这些挑战。"
 
 #: ../../upstream/docs/user/guides/best-practice/index.rst:12
 msgid "⏩️ :doc:`Deprecating content </guides/deprecating-content>`"
-msgstr ""
+msgstr "⏩️ :doc:`废弃内容 </guides/deprecating-content>`"
 
 #: ../../upstream/docs/user/guides/best-practice/index.rst:13
 msgid "Best practice for removing or deprecating documentation content."
-msgstr ""
+msgstr "移除或废弃文档内容的最佳实践。"
 
 #: ../../upstream/docs/user/guides/best-practice/index.rst:15
 msgid "⏩️ :doc:`Creating reproducible builds </guides/reproducible-builds>`"
-msgstr ""
+msgstr "⏩️ :doc:`创建可复现构建 </guides/reproducible-builds>`"
 
 #: ../../upstream/docs/user/guides/best-practice/index.rst:16
 msgid ""
-"Every documentation project has dependencies that are required to build "
-"it. Using an unspecified versions of these dependencies means that your "
-"project can start breaking. In this guide, learn how to protect your "
-"project against breaking randomly. **This is one of our most popular "
-"guides!**"
-msgstr ""
+"Every documentation project has dependencies that are required to build it. "
+"Using an unspecified versions of these dependencies means that your project "
+"can start breaking. In this guide, learn how to protect your project against"
+" breaking randomly. **This is one of our most popular guides!**"
+msgstr "每个文档项目都有构建所需的依赖。依赖版本不固定意味着项目可能随时出问题。本指南讲解如何防止项目意外失效。**这是我们最受欢迎的指南之一！**"
 
 #: ../../upstream/docs/user/guides/best-practice/index.rst:22
 msgid ""
 "⏩️ :doc:`Search engine optimization (SEO) for documentation projects "
 "</guides/technical-docs-seo-guide>`"
-msgstr ""
+msgstr "⏩️ :doc:`文档项目的搜索引擎优化（SEO） </guides/technical-docs-seo-guide>`"
 
 #: ../../upstream/docs/user/guides/best-practice/index.rst:23
 msgid ""
-"This article explains how documentation can be optimized to appear in "
-"search results, increasing traffic to your docs."
-msgstr ""
+"This article explains how documentation can be optimized to appear in search"
+" results, increasing traffic to your docs."
+msgstr "本文讲解如何优化文档以出现在搜索结果中，为你的文档带来更多流量。"
 
 #: ../../upstream/docs/user/guides/best-practice/index.rst:26
 msgid "⏩️ :doc:`Hiding a version </guides/hiding-a-version>`"
-msgstr ""
+msgstr "⏩️ :doc:`隐藏版本 </guides/hiding-a-version>`"
 
 #: ../../upstream/docs/user/guides/best-practice/index.rst:27
 msgid ""
 "Learn how you can keep your entire version history online without "
 "overwhelming the reader with version choices."
-msgstr ""
+msgstr "了解如何保持完整版本历史在线，同时不让读者被版本选项淹没。"
 

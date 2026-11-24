@@ -42,10 +42,10 @@ msgid ""
 ":doc:`Addons </addons>`, :doc:`custom domains </custom-domains>` and "
 ":doc:`downloadable formats </offline-formats>`, among others."
 msgstr ""
-"这样上传的文档保留了你已知的所有托管功能：:doc:`版本 </versions>`、:doc:`Pull Request 预览 </pull-"
-"requests>`、:doc:`服务器端搜索 </server-side-search/index>`、:doc:`Addon "
-"</addons>`、:doc:`自定义域名 </custom-domains>` 和 :doc:`可下载格式 </offline-formats>` "
-"等。"
+"这样上传的文档保留了你已知的所有托管功能：:doc:`版本 </versions>` 、:doc:`Pull Request 预览 </pull-"
+"requests>` 、:doc:`服务器端搜索 </server-side-search/index>` 、:doc:`Addon "
+"</addons>` 、:doc:`自定义域名 </custom-domains>` 和 :doc:`可下载格式 </offline-formats>`"
+" 等。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:15
 msgid "Direct upload is useful when:"
@@ -85,8 +85,8 @@ msgid ""
 "project, :doc:`contact support </support>`."
 msgstr ""
 "一个使用直接上传的 Read the Docs 项目。:doc:`添加项目 </intro/add-project>` 时，在配置步骤选择 "
-":guilabel:`Build externally and upload`。要在现有项目上启用直接上传，请 :doc:`联系支持 "
-"</support>`。"
+":guilabel:`Build externally and upload` 。要在现有项目上启用直接上传，请 :doc:`联系支持 "
+"</support>` 。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:32
 msgid ""
@@ -100,11 +100,11 @@ msgstr "为项目创建 API 令牌："
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:37
 msgid "Go to your project's :menuselection:`Settings --> API tokens`."
-msgstr "前往项目的 :menuselection:`Settings --> API tokens`。"
+msgstr "前往项目的 :menuselection:`Settings --> API tokens` 。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:38
 msgid "Click on :guilabel:`Add API token`."
-msgstr "点击 :guilabel:`Add API token`。"
+msgstr "点击 :guilabel:`Add API token` 。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:39
 msgid ""
@@ -126,8 +126,8 @@ msgid ""
 "/direct-upload:Read the Docs Business>`."
 msgstr ""
 "项目 API 令牌仅授予对你项目的访问权限，上传时可省略项目 slug，因为令牌已标识项目。你也可以使用个人 :ref:`API 令牌 "
-"<api/v3:Token>`，但它能访问你用户有权访问的所有内容。在 |com_brand| 上，个人 API 令牌还需要 :ref:`设置 API "
-"URL <guides/build/direct-upload:Read the Docs Business>`。"
+"<api/v3:Token>` ，但它能访问你用户有权访问的所有内容。在 |com_brand| 上，个人 API 令牌还需要 :ref:`设置 API"
+" URL <guides/build/direct-upload:Read the Docs Business>` 。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:50
 msgid "Uploading from GitHub Actions"
@@ -137,7 +137,9 @@ msgstr "从 GitHub Actions 上传"
 msgid ""
 "Use the `upload action <https://github.com/readthedocs/upload-action>`__ "
 "after the step that builds your documentation:"
-msgstr "在构建文档的步骤后使用 `upload action <https://github.com/readthedocs/upload-action>`__："
+msgstr ""
+"在构建文档的步骤后使用 `upload action <https://github.com/readthedocs/upload-action>`__"
+" ："
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:55
 msgid ".github/workflows/docs.yaml"
@@ -154,7 +156,7 @@ msgstr ""
 "工作流从名为 ``READTHEDOCS_TOKEN`` 的 secret 读取 API 令牌。将其添加到仓库的 "
 ":menuselection:`Settings --> Secrets and variables --> Actions` 下，或遵循 "
 "`GitHub 关于使用 secrets 的指南 <https://docs.github.com/en/actions/security-for-"
-"github-actions/security-guides/using-secrets-in-github-actions>`__。"
+"github-actions/security-guides/using-secrets-in-github-actions>`__ 。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:101
 msgid ""
@@ -165,8 +167,8 @@ msgid ""
 "uploaded versions behave."
 msgstr ""
 "上传 action 从工作流事件中检测分支、标签或 Pull Request，因此推送到 ``main`` 会更新 ``main`` "
-"版本，新标签会创建新版本，Pull Request 会创建 :doc:`Pull Request 预览 </pull-"
-"requests>`。上传版本的行为请参阅 :ref:`guides/build/direct-upload:Versions`。"
+"版本，新标签会创建新版本，Pull Request 会创建 :doc:`Pull Request 预览 </pull-requests>` "
+"。上传版本的行为请参阅 :ref:`guides/build/direct-upload:Versions` 。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:107
 msgid ""
@@ -184,7 +186,7 @@ msgid ""
 msgstr ""
 "示例将第三方 action 固定到提交哈希，这是 GitHub 推荐的做法。请对上传 action 做同样的处理，将 ``@v1`` "
 "替换为某个发布的完整提交哈希，详见 `action 的 README <https://github.com/readthedocs/upload-"
-"action#versioning>`__。"
+"action#versioning>`__ 。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:117
 msgid "Uploading from any other environment"
@@ -249,7 +251,7 @@ msgstr ""
 msgid ""
 "If you use your personal API token instead, set the API URL to "
 "``https://app.readthedocs.com``:"
-msgstr "如果你改用个人 API 令牌，请将 API URL 设为 ``https://app.readthedocs.com``："
+msgstr "如果你改用个人 API 令牌，请将 API URL 设为 ``https://app.readthedocs.com`` ："
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:200
 msgid ""
@@ -296,8 +298,8 @@ msgid ""
 "does not create versions from your repository, and it does not create the "
 "``latest`` and ``stable`` aliases."
 msgstr ""
-"在仅使用直接上传的项目上，每个版本来自上传，你上传的名称即为所得版本：上传 ``main`` 发布 ``main``，上传 ``v1.0`` 发布 "
-"``v1.0``。Read the Docs 不会从你的仓库创建版本，也不会创建 ``latest`` 和 ``stable`` 别名。"
+"在仅使用直接上传的项目上，每个版本来自上传，你上传的名称即为所得版本：上传 ``main`` 发布 ``main`` ，上传 ``v1.0`` 发布 "
+"``v1.0`` 。Read the Docs 不会从你的仓库创建版本，也不会创建 ``latest`` 和 ``stable`` 别名。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:244
 msgid "Default version"
@@ -308,7 +310,9 @@ msgid ""
 "The first branch or tag you upload becomes the :term:`default version`, so "
 "the root of your documentation works right away. Pull request previews never"
 " become the default."
-msgstr "你上传的第一个分支或标签成为 :term:`default version`，因此文档根路径立即可用。Pull Request 预览永远不会成为默认版本。"
+msgstr ""
+"你上传的第一个分支或标签成为 :term:`default version` ，因此文档根路径立即可用。Pull Request "
+"预览永远不会成为默认版本。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:249
 msgid "``latest`` and ``stable``"
@@ -319,7 +323,7 @@ msgid ""
 "If you want these names, upload them from your pipeline. For example, to "
 "publish ``stable`` from every tag in addition to the tag itself, add a "
 "second upload step that only runs on tags:"
-msgstr "如果你需要这些名称，请从流水线上传。例如，要在每个标签之外也发布 ``stable``，请添加一个仅在标签上运行的第二个上传步骤："
+msgstr "如果你需要这些名称，请从流水线上传。例如，要在每个标签之外也发布 ``stable`` ，请添加一个仅在标签上运行的第二个上传步骤："
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:264
 msgid "Deactivating a version"
@@ -383,8 +387,8 @@ msgid ""
 "removed, a build is triggered, and the version is available again when that "
 "build succeeds."
 msgstr ""
-"要让 Read the Docs 重新构建已上传的版本，请在版本设置中取消勾选 "
-":guilabel:`Uploaded`。上传的文件会被移除，触发一次构建，构建成功后该版本重新可用。"
+"要让 Read the Docs 重新构建已上传的版本，请在版本设置中取消勾选 :guilabel:`Uploaded` "
+"。上传的文件会被移除，触发一次构建，构建成功后该版本重新可用。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:294
 msgid "Limits"

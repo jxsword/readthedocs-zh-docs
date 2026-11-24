@@ -22,260 +22,262 @@ msgstr ""
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:6
 msgid "Why keep configuration files in Git"
-msgstr ""
+msgstr "为何将配置文件保存在 Git 中"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:8
 msgid ""
-"Content and structure of documentation undergo big and small changes. And"
-" eventually, the configuration of a documentation project also changes. "
-"This means you need to be able to track these changes over time, and keep"
-" them up to date."
-msgstr ""
+"Content and structure of documentation undergo big and small changes. And "
+"eventually, the configuration of a documentation project also changes. This "
+"means you need to be able to track these changes over time, and keep them up"
+" to date."
+msgstr "文档的内容和结构会经历大大小小的变化，文档项目的配置最终也会改变。这意味着你需要能跟踪这些变化并保持其最新。"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:13
-msgid ""
-"In this article, we cover the major concepts of using a configuration "
-"file:"
-msgstr ""
+msgid "In this article, we cover the major concepts of using a configuration file:"
+msgstr "本文讲解使用配置文件的主要概念："
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:16
 msgid "Versioning the configuration"
-msgstr ""
+msgstr "配置版本化"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:17
 msgid ""
-"A documentation project and its configuration file live together in a Git"
-" repository and are versioned together."
-msgstr ""
+"A documentation project and its configuration file live together in a Git "
+"repository and are versioned together."
+msgstr "文档项目与其配置文件共同存放在 Git 仓库中，一同进行版本管理。"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:20
 msgid "Configuration as code"
-msgstr ""
+msgstr "配置即代码"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:21
 msgid ""
-"Configuration uses the same workflow as your source code, including being"
-" reviewed and tested in a pull request."
-msgstr ""
+"Configuration uses the same workflow as your source code, including being "
+"reviewed and tested in a pull request."
+msgstr "配置采用与源代码相同的工作流，包括在 Pull Request 中接受审查和测试。"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:24
 msgid "Options that are not found in the configuration file"
-msgstr ""
+msgstr "配置文件中不包含的选项"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:25
 msgid ""
-"Not everything is suitable for version-specific configuration, like the "
-"Git repository where the configuration file is read after cloning."
-msgstr ""
+"Not everything is suitable for version-specific configuration, like the Git "
+"repository where the configuration file is read after cloning."
+msgstr "并非所有内容都适合按版本配置，例如配置文件在克隆之后才被读取的 Git 仓库本身。"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:30
 msgid ":doc:`/config-file/index`"
-msgstr ""
+msgstr ":doc:`/config-file/index`"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:31
 msgid "Practical steps to add a configuration file to your documentation project."
-msgstr ""
+msgstr "向文档项目添加配置文件的实际步骤。"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:33
 msgid ":doc:`/config-file/v2`"
-msgstr ""
+msgstr ":doc:`/config-file/v2`"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:34
 msgid "Reference for configuration file settings."
-msgstr ""
+msgstr "配置文件设置参考。"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:38
 msgid "Why version your project's configuration?"
-msgstr ""
+msgstr "为何要对项目配置进行版本管理？"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:40
 msgid "Consider the following aspects of a documentation project:"
-msgstr ""
+msgstr "请考虑文档项目的以下方面："
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:42
 msgid "Build environments change 📦️"
-msgstr ""
+msgstr "构建环境会变化 📦️"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:43
 msgid ""
-"You may depend on a number of packages but your method for installing "
-"them changes. What is installed, how it's installed and what installs can"
-" change, especially across multiple versions."
-msgstr ""
+"You may depend on a number of packages but your method for installing them "
+"changes. What is installed, how it's installed and what installs can change,"
+" especially across multiple versions."
+msgstr "你可能依赖若干包，但安装方式会变化。安装了什么、如何安装、由谁安装都可能改变，尤其在多个版本之间。"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:47
 msgid ""
-"You might change between Pip and Poetry. You might also jump between "
-"Python 2 and 3 or Python 3.8 and Python 3.10."
-msgstr ""
+"You might change between Pip and Poetry. You might also jump between Python "
+"2 and 3 or Python 3.8 and Python 3.10."
+msgstr "你可能在 Pip 与 Poetry 之间切换，也可能在 Python 2 与 3、或 Python 3.8 与 3.10 之间跳转。"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:50
 msgid "Documentation tools change ⚙️"
-msgstr ""
+msgstr "文档工具会变化 ⚙️"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:51
 msgid ""
-"Using Sphinx? Using MkDocs? Or some other tool? All these tools have "
-"their own configuration files and special ways to invoke them. In order "
-"to switch between how you are invoking the tool and setting up its "
-"environment, you will need external build configuration."
+"Using Sphinx? Using MkDocs? Or some other tool? All these tools have their "
+"own configuration files and special ways to invoke them. In order to switch "
+"between how you are invoking the tool and setting up its environment, you "
+"will need external build configuration."
 msgstr ""
+"用 Sphinx？用 "
+"MkDocs？还是其他工具？这些工具各有自己的配置文件和特定的调用方式。要在不同的工具调用方式和环境设置之间切换，就需要外部构建配置。"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:56
 msgid "Comparing changes over time ⚖️"
-msgstr ""
+msgstr "比较随时间的变更 ⚖️"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:57
 msgid ""
 "As your project changes, you will need to change your configuration. You "
 "might wonder how something was done in the past, and having it versioned "
 "means you can see each commit as it has changed."
-msgstr ""
+msgstr "随着项目演进，你需要修改配置。你可能想知道过去是如何做的，而版本化意味着你可以看到每次提交的变更。"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:61
 msgid ""
 "You can configure your Read the Docs project by adding a "
-"``.readthedocs.yaml`` file [1]_ to your Git repository. The configuration"
-" will apply to the exact version that is being built. This allows you to "
-"store different configurations for different versions of your "
-"documentation."
+"``.readthedocs.yaml`` file [1]_ to your Git repository. The configuration "
+"will apply to the exact version that is being built. This allows you to "
+"store different configurations for different versions of your documentation."
 msgstr ""
+"你可以通过在 Git 仓库中添加 ``.readthedocs.yaml`` 文件 [1]_ 来配置 Read the Docs "
+"项目。该配置将应用于正在构建的特定版本，从而可以为文档的不同版本存储不同配置。"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:65
-msgid ""
-"The main advantages of using a configuration file over the web interface "
-"are:"
-msgstr ""
+msgid "The main advantages of using a configuration file over the web interface are:"
+msgstr "相比 Web 界面，使用配置文件的主要优势是："
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:67
 msgid "Settings are per version rather than per project."
-msgstr ""
+msgstr "设置按版本而非按项目生效。"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:68
 msgid "Settings live in your Git repository."
-msgstr ""
+msgstr "设置保存在你的 Git 仓库中。"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:69
 msgid "They enable reproducible build environments over time."
-msgstr ""
+msgstr "它们使构建环境长期可复现。"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:70
 msgid "Some settings are only available using a configuration file"
-msgstr ""
+msgstr "部分设置仅能通过配置文件使用"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:72
 msgid ""
 "Other variants of the configuration file name like ``readthedocs.yaml``, "
-"``.readthedocs.yml``, etc. are deprecated. You may however, "
-":doc:`configure a custom sub-folder </guides/setup/monorepo>`."
+"``.readthedocs.yml``, etc. are deprecated. You may however, :doc:`configure "
+"a custom sub-folder </guides/setup/monorepo>`."
 msgstr ""
+"配置文件名的其他变体（如 ``readthedocs.yaml`` 、``.readthedocs.yml`` 等）已弃用。但你可以 "
+":doc:`配置自定义子目录 </guides/setup/monorepo>` 。"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:76
 msgid "Configuration as Code"
-msgstr ""
+msgstr "配置即代码"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:78
 msgid ""
-"\"Configuration as Code\" is a concept where the configuration or "
-"settings of software is maintained in a Git repository as *code*. "
-"Contrast this with the approach where configuration is managed inside the"
-" software's own UI, making it hard to track changes, and copy settings to"
-" other projects."
+"\"Configuration as Code\" is a concept where the configuration or settings "
+"of software is maintained in a Git repository as *code*. Contrast this with "
+"the approach where configuration is managed inside the software's own UI, "
+"making it hard to track changes, and copy settings to other projects."
 msgstr ""
+"\"配置即代码\"是一个概念，指软件的配置或设置以*代码* 形式维护在 Git 仓库中。与之相对的是在软件自身 UI "
+"内管理配置的方式，这使得变更难以跟踪、设置难以复制到其他项目。"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:82
 msgid ""
-"Most users of Read the Docs will already be familiar with the concept "
-"since many popular tools already require you to store their configuration"
-" in your Git repository:"
-msgstr ""
+"Most users of Read the Docs will already be familiar with the concept since "
+"many popular tools already require you to store their configuration in your "
+"Git repository:"
+msgstr "多数 Read the Docs 用户已熟悉这一概念，因为许多流行工具本就要求你把配置存储在 Git 仓库中："
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:84
 msgid "Sphinx uses a ``conf.py`` file."
-msgstr ""
+msgstr "Sphinx 使用 ``conf.py`` 文件。"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:85
 msgid "MkDocs uses a ``mkdocs.yaml`` file."
-msgstr ""
+msgstr "MkDocs 使用 ``mkdocs.yaml`` 文件。"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:86
 msgid "Python projects often have a ``requirements.txt`` or ``environment.yaml``."
-msgstr ""
+msgstr "Python 项目通常有 ``requirements.txt`` 或 ``environment.yaml`` 。"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:88
 msgid ""
-"Because of its fragility and uniqueness, the alternative to "
-"\"Configuration as Code\" is also often referred to as snowflake ❄️ "
-"configuration. Such configurations are hard to copy between projects and "
-"also hard to introspect for people without authorization to access the "
-"configuration UI."
-msgstr ""
+"Because of its fragility and uniqueness, the alternative to \"Configuration "
+"as Code\" is also often referred to as snowflake ❄️ configuration. Such "
+"configurations are hard to copy between projects and also hard to introspect"
+" for people without authorization to access the configuration UI."
+msgstr "由于其脆弱性和独特性，\"配置即代码\"的替代方案常被称为雪花 ❄️ 配置。这类配置难以在项目间复制，对无权访问配置 UI 的人来说也难以查看。"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:92
 msgid ""
-"*Configuration as code* is considered by many to be the easier option. It"
-" might seem harder to have to write the configuration code from scratch, "
-"but in order to use Read the Docs, you can usually start with a template "
-"and adapt it."
-msgstr ""
+"*Configuration as code* is considered by many to be the easier option. It "
+"might seem harder to have to write the configuration code from scratch, but "
+"in order to use Read the Docs, you can usually start with a template and "
+"adapt it."
+msgstr "许多人认为*配置即代码* 是更容易的选择。从零编写配置代码看似更难，但为了使用 Read the Docs，你通常可以从模板开始再作调整。"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:97
 msgid ""
-"Read the Docs has chosen to offer as much configuration as possible "
-"through the usage of ``.readthedocs.yaml``. Our experience is that "
-"projects benefit from such a setup, and even when the benefits aren't "
-"obvious in the beginning of a project's lifecycle, they will emerge over "
-"time."
+"Read the Docs has chosen to offer as much configuration as possible through "
+"the usage of ``.readthedocs.yaml``. Our experience is that projects benefit "
+"from such a setup, and even when the benefits aren't obvious in the "
+"beginning of a project's lifecycle, they will emerge over time."
 msgstr ""
+"Read the Docs 选择通过 ``.readthedocs.yaml`` "
+"提供尽可能多的配置。我们的经验是项目会从这种设置中受益，即便在项目生命周期初期收益不明显，随时间推移也会显现出来。"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:103
 msgid "What's not covered by ``.readthedocs.yaml``?"
-msgstr ""
+msgstr "``.readthedocs.yaml`` 未涵盖什么？"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:105
 msgid ""
 "There are a number of things that aren't possible to cover in the "
 "configuration file, which still belong in your project's Dashboard."
-msgstr ""
+msgstr "有若干内容无法在配置文件中涵盖，仍属于项目的 Dashboard。"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:108
 msgid "These configuration items are for instance:"
-msgstr ""
+msgstr "例如以下配置项："
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:110
 msgid "Git settings"
-msgstr ""
+msgstr "Git 设置"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:111
 msgid ""
-"Since the configuration file is stored in Git, it doesn't make sense that"
-" it would configure the Git setup."
-msgstr ""
+"Since the configuration file is stored in Git, it doesn't make sense that it"
+" would configure the Git setup."
+msgstr "由于配置文件存储在 Git 中，让它来配置 Git 本身并无意义。"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:114
 msgid "Domain-level settings"
-msgstr ""
+msgstr "域名级设置"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:115
 msgid ""
 "Since many settings apply to the domain a project is hosted on, they are "
 "configured for the project itself, and not a specific version."
-msgstr ""
+msgstr "由于许多设置适用于项目托管所在的域名，它们为项目本身配置，而非针对特定版本。"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:118
 msgid ""
-"The goal over time is to have everything that can be managed in a "
-"version-specific YAML file configured that way."
-msgstr ""
+"The goal over time is to have everything that can be managed in a version-"
+"specific YAML file configured that way."
+msgstr "长期目标是让所有可通过版本专属 YAML 文件管理的内容都以这种方式配置。"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:122
 msgid ":doc:`/guides/reproducible-builds`"
-msgstr ""
+msgstr ":doc:`/guides/reproducible-builds`"
 
 #: ../../upstream/docs/user/explanation/configuration-file.rst:123
 msgid ""
-"In addition to storing your configuration in Git, we also recommend "
-"special practices for making your builds resilient to changes in your "
-"software dependencies."
-msgstr ""
+"In addition to storing your configuration in Git, we also recommend special "
+"practices for making your builds resilient to changes in your software "
+"dependencies."
+msgstr "除将配置存储在 Git 中外，我们还推荐一些做法，让构建能抵御软件依赖的变化。"
 

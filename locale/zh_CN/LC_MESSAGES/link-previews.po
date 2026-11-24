@@ -22,72 +22,75 @@ msgstr ""
 
 #: ../../upstream/docs/user/link-previews.rst:2
 msgid "Link previews"
-msgstr ""
+msgstr "链接预览"
 
 #: ../../upstream/docs/user/link-previews.rst:4
 msgid ""
 "Link previews allows you to see the content of the link you are about to "
-"click when you hover over it. This gives you the ability to quickly "
-"preview where a link points, so you can keep your context while reading "
-"but learn more from other resources."
-msgstr ""
+"click when you hover over it. This gives you the ability to quickly preview "
+"where a link points, so you can keep your context while reading but learn "
+"more from other resources."
+msgstr "链接预览让你在鼠标悬停于链接时，即可看到即将点击链接的内容。这让你能快速预览链接指向何处，在阅读时保持上下文，同时从其他资源获取更多信息。"
 
 #: ../../upstream/docs/user/link-previews.rst:11
 msgid "Example of link previews addon"
-msgstr ""
+msgstr "链接预览 addon 示例"
 
 #: ../../upstream/docs/user/link-previews.rst:13
 msgid ""
-"Link previews will only be generated for internal links--links that point"
-" to pages within your documentation site. No link previews will be "
-"generated for links to external sites or links that appear outside of the"
-" primary content of the documentation page (eg. nav bars)."
-msgstr ""
+"Link previews will only be generated for internal links--links that point to"
+" pages within your documentation site. No link previews will be generated "
+"for links to external sites or links that appear outside of the primary "
+"content of the documentation page (eg. nav bars)."
+msgstr "链接预览仅为内部链接生成——即指向文档站内部页面的链接。指向外部站点的链接，或出现在文档页面主要内容之外（如导航栏）的链接，不会生成预览。"
 
 #: ../../upstream/docs/user/link-previews.rst:16
 msgid ""
 "You can see an example of a link preview by hovering over the following "
 "link: :doc:`Addons </addons>`."
-msgstr ""
+msgstr "将鼠标悬停在以下链接上即可查看链接预览示例：:doc:`Addons </addons>` 。"
 
 #: ../../upstream/docs/user/link-previews.rst:19
 msgid "Enabling link previews"
-msgstr ""
+msgstr "启用链接预览"
 
 #: ../../upstream/docs/user/link-previews.rst:21
-msgid ""
-"Go to your project's :menuselection:`Settings --> Addons --> Link "
-"previews`."
-msgstr ""
+msgid "Go to your project's :menuselection:`Settings --> Addons --> Link previews`."
+msgstr "前往项目的 :menuselection:`Settings --> Addons --> Link previews` 。"
 
 #: ../../upstream/docs/user/link-previews.rst:22
 msgid "Check :guilabel:`Enabled`."
-msgstr ""
+msgstr "勾选 :guilabel:`Enabled` 。"
 
 #: ../../upstream/docs/user/link-previews.rst:23
 msgid "Save your settings -- a rebuild of your project isn't required!"
-msgstr ""
+msgstr "保存设置——无需重新构建项目！"
 
 #: ../../upstream/docs/user/link-previews.rst:26
 msgid "Troubleshooting link previews"
-msgstr ""
+msgstr "链接预览故障排查"
 
 #: ../../upstream/docs/user/link-previews.rst:28
 msgid ""
-"We perform some heuristic to detect the documentation tool used to "
-"generate the page based on its HTML structure. This auto-detection may "
-"fail, resulting in the content rendered inside the popup being incorrect."
-" If you are experiencing this, you can specify the :guilabel:`CSS main "
-"content selector` in your project's :menuselection:`Settings --> Addons "
-"--> Advanced`. See :ref:`reference/main-content-detection:detection "
-"logic` for how this content is detected and guidance on choosing a good "
-"selector. You can also `open an issue in the addons repository "
+"We perform some heuristic to detect the documentation tool used to generate "
+"the page based on its HTML structure. This auto-detection may fail, "
+"resulting in the content rendered inside the popup being incorrect. If you "
+"are experiencing this, you can specify the :guilabel:`CSS main content "
+"selector` in your project's :menuselection:`Settings --> Addons --> "
+"Advanced`. See :ref:`reference/main-content-detection:detection logic` for "
+"how this content is detected and guidance on choosing a good selector. You "
+"can also `open an issue in the addons repository "
 "<https://github.com/readthedocs/addons>`_ so we improve our heuristic."
 msgstr ""
+"我们基于 HTML 结构用启发式方法检测生成页面的文档工具。该自动检测可能失败，导致弹窗内渲染的内容不正确。如果遇到此问题，可在项目的 "
+":menuselection:`Settings --> Addons --> Advanced` 中指定 :guilabel:`CSS main "
+"content selector` 。内容检测原理及选择器建议见 :ref:`reference/main-content-"
+"detection:detection logic` 。你也可以 `在 addons 仓库中提交 issue "
+"<https://github.com/readthedocs/addons>`_ 以帮助我们改进启发式方法。"
 
 #: ../../upstream/docs/user/link-previews.rst:34
 msgid ""
-"Link previews won't be generated if JavaScript is not enabled in your web"
-" browser or if all cookies are blocked."
-msgstr ""
+"Link previews won't be generated if JavaScript is not enabled in your web "
+"browser or if all cookies are blocked."
+msgstr "若浏览器未启用 JavaScript 或所有 cookie 被拦截，链接预览不会生成。"
 

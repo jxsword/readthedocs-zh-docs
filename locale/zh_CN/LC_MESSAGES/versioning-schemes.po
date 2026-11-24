@@ -37,15 +37,15 @@ msgstr "Read the Docs 支持三种不同的版本控制方案："
 
 #: ../../upstream/docs/user/versioning-schemes.rst:9
 msgid "`Multiple versions with translations`_."
-msgstr "`Multiple versions with translations`_。"
+msgstr "`Multiple versions with translations`_ 。"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:10
 msgid "`Multiple versions without translations`_."
-msgstr "`Multiple versions without translations`_。"
+msgstr "`Multiple versions without translations`_ 。"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:11
 msgid "`Single version without translations`_."
-msgstr "`Single version without translations`_。"
+msgstr "`Single version without translations`_ 。"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:15
 msgid ":doc:`/versions`"
@@ -166,11 +166,11 @@ msgid ""
 "defined-redirects>`."
 msgstr ""
 "更改项目的版本控制方案会影响文档 URL，现有的文档链接都会失效。若想保持旧 URL 可用，可创建 :doc:`重定向 </user-defined-"
-"redirects>`。"
+"redirects>` 。"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:75
 msgid "Go to your project's :menuselection:`Settings`."
-msgstr "前往项目的 :menuselection:`Settings`。"
+msgstr "前往项目的 :menuselection:`Settings` 。"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:76
 msgid ""
@@ -180,5 +180,5 @@ msgstr "在 :guilabel:`URL versioning scheme` 下拉框中选择新的版本控�
 
 #: ../../upstream/docs/user/versioning-schemes.rst:77
 msgid "Click on :guilabel:`Save`."
-msgstr "点击 :guilabel:`Save`。"
+msgstr "点击 :guilabel:`Save` 。"
 

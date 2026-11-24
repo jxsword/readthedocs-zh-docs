@@ -45,7 +45,7 @@ msgstr ""
 msgid ""
 "When we receive a *webhook*, we match it to a project's *Integration*, and "
 "the following steps happen:"
-msgstr "收到 *webhook* 后，我们将其匹配到项目的 *Integration*，随后发生以下步骤："
+msgstr "收到 *webhook* 后，我们将其匹配到项目的 *Integration* ，随后发生以下步骤："
 
 #: ../../upstream/docs/user/continuous-deployment.rst:18
 msgid ":doc:`Build </builds>` the latest commit."
@@ -55,11 +55,11 @@ msgstr ":doc:`构建 </builds>` 最新提交。"
 msgid ""
 "Synchronize your :doc:`versions </versions>` based on the latest tag and "
 "branch data in Git."
-msgstr "根据 Git 中最新的标签和分支数据同步你的 :doc:`版本 </versions>`。"
+msgstr "根据 Git 中最新的标签和分支数据同步你的 :doc:`版本 </versions>` 。"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:20
 msgid "Run your :doc:`automation rules</automation-rules>`."
-msgstr "运行你的 :doc:`自动化规则 </automation-rules>`。"
+msgstr "运行你的 :doc:`自动化规则 </automation-rules>` 。"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:21
 msgid "Auto-cancel any currently running builds of the same version."
@@ -109,7 +109,7 @@ msgid ""
 "</versions>`."
 msgstr ""
 "使用 Read the Docs，你可以将项目的**发布周期** 与文档完全对齐。例如，软件项目的新版本可以构建并发布 :doc:`新文档版本 "
-"</versions>`。"
+"</versions>` 。"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:46
 msgid ""

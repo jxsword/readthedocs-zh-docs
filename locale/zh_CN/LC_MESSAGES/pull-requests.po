@@ -85,7 +85,7 @@ msgid ""
 "project's documentation."
 msgstr ""
 "我们会在 Pull Request 上创建一条评论，包含文档预览的链接，以及当前 Pull Request 与项目文档最新版本之间 "
-":doc:`变更的文件列表 </visual-diff>`。"
+":doc:`变更的文件列表 </visual-diff>` 。"
 
 #: ../../upstream/docs/user/pull-requests.rst:35
 msgid ""
@@ -143,7 +143,7 @@ msgid ""
 " ``com.readthedocs.build``)."
 msgstr ""
 "如果项目启用了 Pull Request 预览，任何能在你的仓库打开 Pull Request 的人都能触发文档构建。因此，Pull Request "
-"预览使用与主文档不同的域名（``org.readthedocs.build`` 和 ``com.readthedocs.build``）。"
+"预览使用与主文档不同的域名（``org.readthedocs.build`` 和 ``com.readthedocs.build`` ）。"
 
 #: ../../upstream/docs/user/pull-requests.rst:61
 msgid ""
@@ -153,8 +153,8 @@ msgid ""
 ":`environment-variables:Environment variables and build process` for more "
 "information."
 msgstr ""
-"Pull Request 构建仅能访问标记为*公开* 的环境变量。如果你有包含私密信息的环境变量，请确保它们未标记为* 公开*。详情请参阅 :ref"
-":`environment-variables:Environment variables and build process`。"
+"Pull Request 构建仅能访问标记为*公开* 的环境变量。如果你有包含私密信息的环境变量，请确保它们未标记为* 公开* 。详情请参阅 :ref"
+":`environment-variables:Environment variables and build process` 。"
 
 #: ../../upstream/docs/user/pull-requests.rst:65
 msgid ""
@@ -166,13 +166,13 @@ msgid ""
 "Docs project."
 msgstr ""
 "在 |com_brand| 上，你可以将 Pull Request 预览设为私有或公开。如果你不是手动导入项目且仓库是公开的，Pull Request "
-"预览的隐私级别将设为*公开*。公开预览对任何有链接的人可见，私有预览仅对有 Read the Docs 项目访问权限的用户可见。"
+"预览的隐私级别将设为*公开* 。公开预览对任何有链接的人可见，私有预览仅对有 Read the Docs 项目访问权限的用户可见。"
 
 #: ../../upstream/docs/user/pull-requests.rst:73
 msgid ""
 "If you set the privacy level of pull request previews to *Private*, make "
 "sure that only trusted users can open pull requests in your repository."
-msgstr "如果将 Pull Request 预览的隐私级别设为*私有*，请确保只有受信任的用户能在你的仓库打开 Pull Request。"
+msgstr "如果将 Pull Request 预览的隐私级别设为*私有* ，请确保只有受信任的用户能在你的仓库打开 Pull Request。"
 
 #: ../../upstream/docs/user/pull-requests.rst:76
 msgid ""
@@ -185,5 +185,5 @@ msgstr ""
 "在公开仓库上将 Pull Request 预览设为私有，可能允许恶意用户利用正在阅读 Pull Request 预览的用户会话访问只读 API。类似 "
 "`GHSA-pw32-ffxw-68rh "
 "<https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-"
-"pw32-ffxw-68rh>`__。"
+"pw32-ffxw-68rh>`__ 。"
 

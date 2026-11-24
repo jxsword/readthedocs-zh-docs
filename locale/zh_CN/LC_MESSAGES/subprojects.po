@@ -37,8 +37,8 @@ msgid ""
 "documentation projects to share a search index and a namespace or custom "
 "domain, but still be maintained independently."
 msgstr ""
-"Read the Docs 可配置为在*主项目* 网站上以**子项目** "
-"形式提供其他*项目*。这让文档项目可共享搜索索引和命名空间或自定义域名，同时仍独立维护。"
+"Read the Docs 可配置为在*主项目* 网站上以**子项目** 形式提供其他*项目* "
+"。这让文档项目可共享搜索索引和命名空间或自定义域名，同时仍独立维护。"
 
 #: ../../upstream/docs/user/subprojects.rst:10
 msgid "This is useful for:"
@@ -64,7 +64,7 @@ msgstr "希望多套文档共享统一搜索功能的组织或项目"
 msgid ""
 "For a main project ``example-project``, a subproject ``example-project-"
 "plugin`` can be made available as follows:"
-msgstr "对于主项目 ``example-project``，子项目 ``example-project-plugin`` 可按如下方式提供："
+msgstr "对于主项目 ``example-project`` ，子项目 ``example-project-plugin`` 可按如下方式提供："
 
 #: ../../upstream/docs/user/subprojects.rst:18
 msgid "Main project: ``https://example-project.readthedocs.io/en/latest/``"
@@ -117,15 +117,15 @@ msgstr ""
 
 #: ../../upstream/docs/user/subprojects.rst:41
 msgid "``example-project``: ``https://docs.example.com/en/latest/``"
-msgstr "``example-project``：``https://docs.example.com/en/latest/``"
+msgstr "``example-project`` ：``https://docs.example.com/en/latest/``"
 
 #: ../../upstream/docs/user/subprojects.rst:42
 msgid ""
 "``example-project-plugin``: "
 "``https://docs.example.com/projects/plugin/en/latest/``"
 msgstr ""
-"``example-project-"
-"plugin``：``https://docs.example.com/projects/plugin/en/latest/``"
+"``example-project-plugin`` "
+"：``https://docs.example.com/projects/plugin/en/latest/``"
 
 #: ../../upstream/docs/user/subprojects.rst:45
 msgid "Using aliases"
@@ -142,7 +142,7 @@ msgstr "为子项目添加别名可覆盖访问它的 URL，让你更能掌控�
 msgid ""
 "You can set your subproject's project name and :term:`slug` however you "
 "want, but we suggest prefixing it with the name of the main project."
-msgstr "你可以任意设置子项目的项目名称和 :term:`slug`，但我们建议加上主项目名称作为前缀。"
+msgstr "你可以任意设置子项目的项目名称和 :term:`slug` ，但我们建议加上主项目名称作为前缀。"
 
 #: ../../upstream/docs/user/subprojects.rst:54
 msgid ""
@@ -153,10 +153,10 @@ msgid ""
 "subproject, the alias is set to ``plugin`` and the project's URL becomes "
 "``example-project.readthedocs.io/projects/plugin``."
 msgstr ""
-"通常子项目创建时带 ``<mainproject>-`` 前缀。例如主项目名为 ``example-project``、子项目名为 ``plugin``"
-" 时，子项目的 Read the Docs 项目 :term:`slug` 为 ``example-project-"
-"plugin``。添加子项目时别名设为 ``plugin``，项目 URL 变为 ``example-"
-"project.readthedocs.io/projects/plugin``。"
+"通常子项目创建时带 ``<mainproject>-`` 前缀。例如主项目名为 ``example-project`` 、子项目名为 "
+"``plugin`` 时，子项目的 Read the Docs 项目 :term:`slug` 为 ``example-project-plugin``"
+" 。添加子项目时别名设为 ``plugin`` ，项目 URL 变为 ``example-"
+"project.readthedocs.io/projects/plugin`` 。"
 
 #: ../../upstream/docs/user/subprojects.rst:61
 msgid ""
@@ -166,7 +166,7 @@ msgid ""
 "project.readthedocs.io/projects/plugin``."
 msgstr ""
 "添加子项目后，子项目不再能通过自身域名直接访问。例如 ``example-project-plugin.readthedocs.io/`` 会重定向到 "
-"``example-project.readthedocs.io/projects/plugin``。"
+"``example-project.readthedocs.io/projects/plugin`` 。"
 
 #: ../../upstream/docs/user/subprojects.rst:67
 msgid ":doc:`/url-path-prefixes`"
@@ -246,5 +246,5 @@ msgid ""
 ":guilabel:`Show subprojects filter in search modal`."
 msgstr ""
 "可在父项目的 :menuselection:`Settings --> Search` 中禁用 :guilabel:`Show subprojects "
-"filter in search modal`，关闭搜索弹窗中的子项目过滤器。"
+"filter in search modal` ，关闭搜索弹窗中的子项目过滤器。"
 

@@ -22,125 +22,141 @@ msgstr ""
 
 #: ../../upstream/docs/user/reference/agent-skills.rst:2
 msgid "AI agent skills"
-msgstr ""
+msgstr "AI 智能体技能"
 
 #: ../../upstream/docs/user/reference/agent-skills.rst:4
 msgid ""
-"Trying to figure out how to pass up-to-date information to AI agents is a"
-" hard problem. We have experimented with MCP servers and ``llms.txt``, "
-"but we have found that `Agent Skills <https://agentskills.io/home>`_ are "
-"the current best way to handle this problem explicitly."
+"Trying to figure out how to pass up-to-date information to AI agents is a "
+"hard problem. We have experimented with MCP servers and ``llms.txt``, but we"
+" have found that `Agent Skills <https://agentskills.io/home>`_ are the "
+"current best way to handle this problem explicitly."
 msgstr ""
+"如何把最新信息传递给 AI 智能体是个难题。我们尝试过 MCP 服务器和 ``llms.txt`` ，但发现 `Agent Skills "
+"<https://agentskills.io/home>`_ 是目前明确解决该问题的最佳方式。"
 
 #: ../../upstream/docs/user/reference/agent-skills.rst:8
 msgid ""
 "`Read the Docs Skills <https://github.com/readthedocs/skills>`_ are a "
-"collection of Agent Skills that help AI agents work with Read the Docs "
-"APIs and configuration. They are designed to keep agent output aligned "
-"with our documented behavior and reduce manual verification. This page "
-"highlights two foundational skills that cover the most common workflows: "
-"the Read the Docs API skill and the Read the Docs Config Writer skill."
+"collection of Agent Skills that help AI agents work with Read the Docs APIs "
+"and configuration. They are designed to keep agent output aligned with our "
+"documented behavior and reduce manual verification. This page highlights two"
+" foundational skills that cover the most common workflows: the Read the Docs"
+" API skill and the Read the Docs Config Writer skill."
 msgstr ""
+"`Read the Docs Skills <https://github.com/readthedocs/skills>`_ 是一组 Agent "
+"Skills，帮助 AI 智能体使用 Read the Docs API "
+"和配置。其设计目标是让智能体输出与我们的文档行为保持一致，减少人工核验。本页重点介绍覆盖最常见工作流的两个基础技能：Read the Docs API "
+"技能和 Read the Docs Config Writer 技能。"
 
 #: ../../upstream/docs/user/reference/agent-skills.rst:13
 msgid "What is a skill?"
-msgstr ""
+msgstr "什么是技能？"
 
 #: ../../upstream/docs/user/reference/agent-skills.rst:15
 msgid ""
-"A skill is a small, self-contained package with a ``SKILL.md`` that "
-"teaches an agent how to perform a specific task. Skills are automatically"
-" discovered by compatible agents. When a request matches a skill "
-"description, the agent loads the relevant ``SKILL.md`` and follows its "
-"steps. To learn more about Agent Skills, see the `Agent Skills home page "
+"A skill is a small, self-contained package with a ``SKILL.md`` that teaches "
+"an agent how to perform a specific task. Skills are automatically discovered"
+" by compatible agents. When a request matches a skill description, the agent"
+" loads the relevant ``SKILL.md`` and follows its steps. To learn more about "
+"Agent Skills, see the `Agent Skills home page "
 "<https://agentskills.io/home>`_."
 msgstr ""
+"技能是一个小型自包含包，包含一个 ``SKILL.md`` "
+"，教智能体如何完成特定任务。兼容的智能体会自动发现技能。当请求与技能描述匹配时，智能体加载相应的 ``SKILL.md`` 并遵循其步骤。有关 "
+"Agent Skills 的更多信息，请参阅 `Agent Skills home page "
+"<https://agentskills.io/home>`_ 。"
 
 #: ../../upstream/docs/user/reference/agent-skills.rst:21
 msgid "Featured skills"
-msgstr ""
+msgstr "精选技能"
 
 #: ../../upstream/docs/user/reference/agent-skills.rst:23
 msgid ""
-"`Read the Docs API "
-"<https://github.com/readthedocs/skills/blob/main/skills/readthedocs-"
-"api/SKILL.md>`_"
+"`Read the Docs API <https://github.com/readthedocs/skills/blob/main/skills"
+"/readthedocs-api/SKILL.md>`_"
 msgstr ""
+"`Read the Docs API <https://github.com/readthedocs/skills/blob/main/skills"
+"/readthedocs-api/SKILL.md>`_"
 
 #: ../../upstream/docs/user/reference/agent-skills.rst:24
 msgid ""
-"Interact with the Read the Docs REST API. If you want to manage updates "
-"to your project (eg. adding a redirect for the current PR), this skill "
-"will help you do that."
-msgstr ""
+"Interact with the Read the Docs REST API. If you want to manage updates to "
+"your project (eg. adding a redirect for the current PR), this skill will "
+"help you do that."
+msgstr "与 Read the Docs REST API 交互。如果你希望管理项目的更新（例如为当前 PR 添加重定向），此技能可提供帮助。"
 
 #: ../../upstream/docs/user/reference/agent-skills.rst:27
 msgid ""
 "`Read the Docs Config Writer "
-"<https://github.com/readthedocs/skills/blob/main/skills/readthedocs-"
-"write-config/SKILL.md>`_"
+"<https://github.com/readthedocs/skills/blob/main/skills/readthedocs-write-"
+"config/SKILL.md>`_"
 msgstr ""
+"`Read the Docs Config Writer "
+"<https://github.com/readthedocs/skills/blob/main/skills/readthedocs-write-"
+"config/SKILL.md>`_"
 
 #: ../../upstream/docs/user/reference/agent-skills.rst:28
 msgid ""
-"Create or update ``.readthedocs.yaml`` configuration files. Use it to "
-"adjust build images, tools, dependency installs, or build jobs."
-msgstr ""
+"Create or update ``.readthedocs.yaml`` configuration files. Use it to adjust"
+" build images, tools, dependency installs, or build jobs."
+msgstr "创建或更新 ``.readthedocs.yaml`` 配置文件。可用于调整构建镜像、工具、依赖安装或构建任务。"
 
 #: ../../upstream/docs/user/reference/agent-skills.rst:32
 msgid "Install and use"
-msgstr ""
+msgstr "安装与使用"
 
 #: ../../upstream/docs/user/reference/agent-skills.rst:34
 msgid "Clone the repository and use the skill directories directly:"
-msgstr ""
+msgstr "克隆仓库并直接使用其中的技能目录："
 
 #: ../../upstream/docs/user/reference/agent-skills.rst:40
 msgid ""
-"If your agent supports the `Agent Skills CLI "
-"<https://skills.sh/docs/cli>`_, you can install the repository with:"
-msgstr ""
+"If your agent supports the `Agent Skills CLI <https://skills.sh/docs/cli>`_,"
+" you can install the repository with:"
+msgstr "如果你的智能体支持 `Agent Skills CLI <https://skills.sh/docs/cli>`_ ，可用以下命令安装该仓库："
 
 #: ../../upstream/docs/user/reference/agent-skills.rst:46
 msgid ""
 "Point your agent at the ``skills/`` directory and ask a question that "
 "matches a skill description."
-msgstr ""
+msgstr "将智能体指向 ``skills/`` 目录，并提出与某个技能描述匹配的问题。"
 
 #: ../../upstream/docs/user/reference/agent-skills.rst:49
 msgid "Available skills"
-msgstr ""
+msgstr "可用技能"
 
 #: ../../upstream/docs/user/reference/agent-skills.rst:51
 msgid ""
 "See the `Read the Docs Skills repository "
-"<https://github.com/readthedocs/skills>`_ for the latest list of skills "
-"and details."
+"<https://github.com/readthedocs/skills>`_ for the latest list of skills and "
+"details."
 msgstr ""
+"最新的技能列表和详情请见 `Read the Docs Skills repository "
+"<https://github.com/readthedocs/skills>`_ 。"
 
 #: ../../upstream/docs/user/reference/agent-skills.rst:55
 msgid ":doc:`/config-file/index`"
-msgstr ""
+msgstr ":doc:`/config-file/index`"
 
 #: ../../upstream/docs/user/reference/agent-skills.rst:56
 msgid "Learn about the ``.readthedocs.yaml`` configuration file."
-msgstr ""
+msgstr "了解 ``.readthedocs.yaml`` 配置文件。"
 
 #: ../../upstream/docs/user/reference/agent-skills.rst:58
 msgid ":doc:`/api/index`"
-msgstr ""
+msgstr ":doc:`/api/index`"
 
 #: ../../upstream/docs/user/reference/agent-skills.rst:59
 msgid "Read the Read the Docs API documentation."
-msgstr ""
+msgstr "阅读 Read the Docs API 文档。"
 
 #: ../../upstream/docs/user/reference/agent-skills.rst:61
 msgid ":doc:`/reference/markdown-for-agents`"
-msgstr ""
+msgstr ":doc:`/reference/markdown-for-agents`"
 
 #: ../../upstream/docs/user/reference/agent-skills.rst:62
 msgid ""
-"Read the Docs serves a Markdown version of documentation pages to AI "
-"agents via content negotiation."
-msgstr ""
+"Read the Docs serves a Markdown version of documentation pages to AI agents "
+"via content negotiation."
+msgstr "Read the Docs 通过内容协商向 AI 智能体提供文档页面的 Markdown 版本。"
 

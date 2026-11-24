@@ -22,131 +22,138 @@ msgstr ""
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:2
 msgid "``llms.txt`` support"
-msgstr ""
+msgstr "``llms.txt`` 支持"
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:4
 msgid ""
-"The `llms.txt`_ file is a standard for providing LLM-friendly content to "
-"AI assistants and other language models. It allows you to provide a "
-"custom file that:"
-msgstr ""
+"The `llms.txt`_ file is a standard for providing LLM-friendly content to AI "
+"assistants and other language models. It allows you to provide a custom file"
+" that:"
+msgstr "`llms.txt`_ 文件是为 AI 助手和其他语言模型提供 LLM 友好内容的标准。它让你提供一个自定义文件，具备以下作用："
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:7
 msgid "Gives AI models structured information about your documentation"
-msgstr ""
+msgstr "向 AI 模型提供关于你文档的结构化信息"
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:8
 msgid "Helps AI understand your project's structure and content"
-msgstr ""
+msgstr "帮助 AI 理解你的项目结构和内容"
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:9
 msgid "Provides a more focused view of your documentation for AI consumption"
-msgstr ""
+msgstr "为 AI 消费提供更聚焦的文档视图"
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:11
 msgid ""
 "Read the Docs supports serving custom ``llms.txt`` files from your "
 "documentation."
-msgstr ""
+msgstr "Read the Docs 支持从你的文档中提供自定义 ``llms.txt`` 文件。"
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:14
 msgid "How it works"
-msgstr ""
+msgstr "工作原理"
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:16
 msgid ""
-"The ``llms.txt`` file will be served from the **default version** of your"
-" project at ``https://your-project.readthedocs.io/llms.txt``. This is "
-"because the ``llms.txt`` file is served at the top-level of your domain, "
-"so we must choose a version to find the file in. The **default version** "
-"is the best place to look for it."
+"The ``llms.txt`` file will be served from the **default version** of your "
+"project at ``https://your-project.readthedocs.io/llms.txt``. This is because"
+" the ``llms.txt`` file is served at the top-level of your domain, so we must"
+" choose a version to find the file in. The **default version** is the best "
+"place to look for it."
 msgstr ""
+"``llms.txt`` 文件将从项目的**默认版本** 在 ``https://your-"
+"project.readthedocs.io/llms.txt`` 提供。因为 ``llms.txt`` "
+"在域名顶层提供服务，我们必须选择某个版本来查找该文件，** 默认版本** 是最合适的位置。"
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:21
 msgid ""
-"If you also provide a ``llms-full.txt`` file, Read the Docs will serve it"
-" from ``https://your-project.readthedocs.io/llms-full.txt`` using the "
-"same rules."
+"If you also provide a ``llms-full.txt`` file, Read the Docs will serve it "
+"from ``https://your-project.readthedocs.io/llms-full.txt`` using the same "
+"rules."
 msgstr ""
+"若你还提供 ``llms-full.txt`` 文件，Read the Docs 将按相同规则从 ``https://your-"
+"project.readthedocs.io/llms-full.txt`` 提供它。"
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:24
 msgid "To use this feature:"
-msgstr ""
+msgstr "使用此功能："
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:26
 msgid "Create a ``llms.txt`` file in your documentation source"
-msgstr ""
+msgstr "在文档源中创建 ``llms.txt`` 文件"
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:27
 msgid "Configure your documentation tool to include it in the build output"
-msgstr ""
+msgstr "配置文档工具将其包含进构建输出"
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:28
 msgid "Read the Docs will automatically serve it at the root of your domain"
-msgstr ""
+msgstr "Read the Docs 会自动在域名根目录提供它"
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:32
 msgid "The ``llms.txt`` file will only be served if:"
-msgstr ""
+msgstr "只有满足以下条件时才会提供 ``llms.txt`` 文件："
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:34
 msgid "Your default version is **active**"
-msgstr ""
+msgstr "默认版本处于**活跃** 状态"
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:35
 msgid "Your default version has been **built**"
-msgstr ""
+msgstr "默认版本已被**构建**"
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:36
 msgid "The ``llms.txt`` file exists in your build output"
-msgstr ""
+msgstr "``llms.txt`` 文件存在于构建输出中"
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:39
 msgid "Tool integration"
-msgstr ""
+msgstr "工具集成"
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:41
 msgid ""
-"Documentation tools will have different ways of generating a ``llms.txt``"
-" file. We have examples for some of the most popular tools below."
-msgstr ""
+"Documentation tools will have different ways of generating a ``llms.txt`` "
+"file. We have examples for some of the most popular tools below."
+msgstr "不同文档工具生成 ``llms.txt`` 的方式各不相同。下面给出一些最常用工具的示例。"
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:46
 msgid "Sphinx"
-msgstr ""
+msgstr "Sphinx"
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:48
 msgid ""
-"Sphinx uses the `html_extra_path`_ configuration value to add static "
-"files to its final HTML output. You need to create a ``llms.txt`` file "
-"and put it under the path defined in ``html_extra_path``."
+"Sphinx uses the `html_extra_path`_ configuration value to add static files "
+"to its final HTML output. You need to create a ``llms.txt`` file and put it "
+"under the path defined in ``html_extra_path``."
 msgstr ""
+"Sphinx 使用 `html_extra_path`_ 配置值将静态文件加入最终 HTML 输出。你需要创建 ``llms.txt`` 文件并放到 "
+"``html_extra_path`` 定义的路径下。"
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:51
 msgid ""
-"You can also use the `sphinx-llm`_ extension to automatically generate an"
-" ``llms.txt`` file from your documentation."
-msgstr ""
+"You can also use the `sphinx-llm`_ extension to automatically generate an "
+"``llms.txt`` file from your documentation."
+msgstr "你也可以使用 `sphinx-llm`_ 扩展从文档自动生成 ``llms.txt`` 文件。"
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:53
 msgid "MkDocs"
-msgstr ""
+msgstr "MkDocs"
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:55
 msgid ""
 "MkDocs needs the ``llms.txt`` to be at the directory defined by the "
 "`docs_dir`_ configuration value."
-msgstr ""
+msgstr "MkDocs 要求 ``llms.txt`` 位于 `docs_dir`_ 配置值定义的目录中。"
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:57
 msgid ""
-"You can also use the `mkdocs-llmstxt`_ plugin to automatically generate "
-"an ``llms.txt`` file from your documentation."
-msgstr ""
+"You can also use the `mkdocs-llmstxt`_ plugin to automatically generate an "
+"``llms.txt`` file from your documentation."
+msgstr "你也可以使用 `mkdocs-llmstxt`_ 插件从文档自动生成 ``llms.txt`` 文件。"
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:60
 msgid "Alternative: Using redirects"
-msgstr ""
+msgstr "替代方案：使用重定向"
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:62
 msgid ""
@@ -155,18 +162,21 @@ msgid ""
 "</guides/redirects>` from ``/llms.txt`` to ``/en/latest/llms.txt``. This "
 "gives you more control over which version serves the file."
 msgstr ""
+"若希望从带版本的路径（如 ``/en/latest/llms.txt`` ）提供 ``llms.txt`` 文件，可创建从 ``/llms.txt`` "
+"到 ``/en/latest/llms.txt`` 的 :doc:`精确重定向 </guides/redirects>` "
+"。这让你更能控制由哪个版本提供该文件。"
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:74
 msgid ":doc:`/guides/redirects`"
-msgstr ""
+msgstr ":doc:`/guides/redirects`"
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:76
 msgid ":doc:`/reference/markdown-for-agents`"
-msgstr ""
+msgstr ":doc:`/reference/markdown-for-agents`"
 
 #: ../../upstream/docs/user/reference/llms-txt.rst:77
 msgid ""
-"Read the Docs also serves a Markdown version of your documentation pages "
-"to AI agents that request it, via content negotiation."
-msgstr ""
+"Read the Docs also serves a Markdown version of your documentation pages to "
+"AI agents that request it, via content negotiation."
+msgstr "Read the Docs 还通过内容协商向请求的 AI 智能体提供文档页面的 Markdown 版本。"
 

@@ -30,7 +30,7 @@ msgid ""
 "increase speed by caching documentation content in multiple data centers "
 "around the world, and then serving docs from the data center closest to the "
 "user."
-msgstr "CDN 用于让文档页面对你的用户而言更*快速*。CDN 通过在全球多个数据中心缓存文档内容来提速，然后从离用户最近的数据中心提供文档。"
+msgstr "CDN 用于让文档页面对你的用户而言更*快速* 。CDN 通过在全球多个数据中心缓存文档内容来提速，然后从离用户最近的数据中心提供文档。"
 
 #: ../../upstream/docs/user/reference/cdn.rst:8
 msgid "We support CDNs on both of our sites:"
@@ -54,7 +54,7 @@ msgstr "在 |com_brand| 上，"
 msgid ""
 "the CDN is included as part of all of our plans. We use `Cloudflare`_ for "
 "this as well."
-msgstr "CDN 包含在我们所有套餐中，同样使用 `Cloudflare`_。"
+msgstr "CDN 包含在我们所有套餐中，同样使用 `Cloudflare`_ 。"
 
 #: ../../upstream/docs/user/reference/cdn.rst:18
 msgid "CDN benefits"
@@ -68,13 +68,13 @@ msgstr "在文档前部署 CDN 有诸多优势："
 msgid ""
 "**Improved reliability**: Since docs are served from multiple places, one "
 "can go down and the docs are still accessible."
-msgstr "**更高可靠性**：由于文档从多个位置提供服务，单点故障时文档仍可访问。"
+msgstr "**更高可靠性** ：由于文档从多个位置提供服务，单点故障时文档仍可访问。"
 
 #: ../../upstream/docs/user/reference/cdn.rst:23
 msgid ""
 "**Improved performance**: Data takes time to travel across space, so "
 "connecting to a server closer to the user makes documentation load faster."
-msgstr "**更高性能**：数据传输需要时间，连接到离用户更近的服务器可加快文档加载。"
+msgstr "**更高性能** ：数据传输需要时间，连接到离用户更近的服务器可加快文档加载。"
 
 #: ../../upstream/docs/user/reference/cdn.rst:26
 msgid "Automatic cache refresh"
@@ -102,5 +102,5 @@ msgstr "文档的新版本构建完成。"
 msgid ""
 "By refreshing the cache according to these rules, readers should **never see"
 " outdated content**. This makes the end-user experience seamless and fast."
-msgstr "按这些规则刷新缓存，读者**绝不会看到过时内容**。这让最终用户体验连贯且快速。"
+msgstr "按这些规则刷新缓存，读者**绝不会看到过时内容** 。这让最终用户体验连贯且快速。"
 

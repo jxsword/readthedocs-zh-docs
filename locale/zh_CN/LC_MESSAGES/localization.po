@@ -40,7 +40,8 @@ msgid ""
 "eventuality that you would want a second language."
 msgstr ""
 "默认情况下，Read the Docs 假设你的文档是或*将来可能成为* 多语言的。初始默认语言为英语，因此你常会看到文档的首次构建发布在 "
-"``/en/latest/``，其中 ``/en`` 表示英语。从一开始就包含 ``en`` 这一 URL 片段，可让你在未来需要第二种语言时从容应对。"
+"``/en/latest/`` ，其中 ``/en`` 表示英语。从一开始就包含 ``en`` 这一 URL "
+"片段，可让你在未来需要第二种语言时从容应对。"
 
 #: ../../upstream/docs/user/localization.rst:13
 msgid ""
@@ -66,14 +67,14 @@ msgid ""
 " that your project is in the language. The language will be represented in "
 "the URL for your project."
 msgstr ""
-"设置项目语言很简单。在项目的 :menuselection:`Settings`（或添加项目时），只需从下拉框中选择所需的 "
-":guilabel:`Language`。这会告知 Read the Docs 项目所用语言。语言会体现在项目 URL 中。"
+"设置项目语言很简单。在项目的 :menuselection:`Settings` （或添加项目时），只需从下拉框中选择所需的 "
+":guilabel:`Language` 。这会告知 Read the Docs 项目所用语言。语言会体现在项目 URL 中。"
 
 #: ../../upstream/docs/user/localization.rst:31
 msgid ""
 "For example, a project that is in Spanish will have a default URL of "
 "``/es/latest/`` instead of ``/en/latest/``."
-msgstr "例如，西班牙语项目的默认 URL 为 ``/es/latest/`` 而非 ``/en/latest/``。"
+msgstr "例如，西班牙语项目的默认 URL 为 ``/es/latest/`` 而非 ``/en/latest/`` 。"
 
 #: ../../upstream/docs/user/localization.rst:35
 msgid "Projects with multiple translations"
@@ -108,8 +109,8 @@ msgid ""
 " ``Spanish``. Then, on the  *Translations* page of the ``godot`` project, "
 "``godot-es`` is set as translation."
 msgstr ""
-"``godot`` 项目为父项目。每个翻译随后有独立项目，例如 ``godot-es``。``godot-es`` 的*语言* 设为 "
-"``Spanish``。然后在 ``godot`` 项目的* 翻译* 页面中，将 ``godot-es`` 设为翻译。"
+"``godot`` 项目为父项目。每个翻译随后有独立项目，例如 ``godot-es`` 。``godot-es`` 的*语言* 设为 "
+"``Spanish`` 。然后在 ``godot`` 项目的* 翻译* 页面中，将 ``godot-es`` 设为翻译。"
 
 #: ../../upstream/docs/user/localization.rst:54
 msgid "This has the results of serving:"
@@ -132,7 +133,7 @@ msgid ""
 "The default language of a custom domain is determined by the language of the"
 " parent project that the domain was configured on. See :doc:`/custom-"
 "domains` for more information."
-msgstr "自定义域名的默认语言由配置该域名的父项目语言决定。更多信息见 :doc:`/custom-domains`。"
+msgstr "自定义域名的默认语言由配置该域名的父项目语言决定。更多信息见 :doc:`/custom-domains` 。"
 
 #: ../../upstream/docs/user/localization.rst:70
 msgid "Translation workflows"

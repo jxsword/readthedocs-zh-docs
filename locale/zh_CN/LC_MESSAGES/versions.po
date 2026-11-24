@@ -66,7 +66,7 @@ msgid ""
 "project."
 msgstr ""
 "将项目添加到 Read the Docs 时，所有 Git 标签和分支默认创建为**非活跃** 且** 未隐藏** 的版本。在初始设置阶段，Read "
-"the Docs 还会创建一个指向 Git 仓库中默认分支（通常为 ``main``）的 ``latest`` "
+"the Docs 还会创建一个指向 Git 仓库中默认分支（通常为 ``main`` ）的 ``latest`` "
 "版本。该版本应始终存在，且是项目的默认版本。"
 
 #: ../../upstream/docs/user/versions.rst:22
@@ -120,7 +120,7 @@ msgstr "**活跃** 文档可见，且可触发构建。"
 msgid ""
 "**Inactive** versions *have their documentation content deleted* and builds "
 "cannot be triggered."
-msgstr "**非活跃** 版本*其文档内容会被删除*，且无法触发构建。"
+msgstr "**非活跃** 版本*其文档内容会被删除* ，且无法触发构建。"
 
 #: ../../upstream/docs/user/versions.rst:47
 msgid "**Hidden** or **Not hidden**"
@@ -160,7 +160,7 @@ msgid ""
 " :doc:`/reference/robots` created by Read the Docs."
 msgstr ""
 "在 Read the Docs 创建的默认 :doc:`/reference/robots` 中，隐藏版本列为 ``Disallow: "
-"/path/to/version/``。"
+"/path/to/version/`` 。"
 
 #: ../../upstream/docs/user/versions.rst:63
 msgid "**Public** or **Private** (only available on :doc:`/commercial/index`)"
@@ -180,7 +180,7 @@ msgid ""
 ":doc:`/commercial/sharing`."
 msgstr ""
 "**私有** 版本仅对有查看权限的用户可用。无查看权限的用户访问时会返回 `404 Not Found`。若想临时共享文档，请参阅 "
-":doc:`/commercial/sharing`。"
+":doc:`/commercial/sharing` 。"
 
 #: ../../upstream/docs/user/versions.rst:69
 msgid ""
@@ -201,7 +201,7 @@ msgstr "发生以下事件时版本自动同步："
 msgid ""
 "A commit is pushed to your Git repository and you have a :doc:`Git "
 "integration </reference/git-integration>` configured."
-msgstr "向 Git 仓库推送提交，且已配置 :doc:`Git 集成 </reference/git-integration>`。"
+msgstr "向 Git 仓库推送提交，且已配置 :doc:`Git 集成 </reference/git-integration>` 。"
 
 #: ../../upstream/docs/user/versions.rst:78
 msgid "A build for any of your version is triggered."
@@ -221,7 +221,7 @@ msgstr "管理版本"
 msgid ""
 "When you activate a version, a :doc:`build </builds>` will be triggered to "
 "automatically deploy your documentation."
-msgstr "激活版本时会触发一次 :doc:`构建 </builds>`，自动部署你的文档。"
+msgstr "激活版本时会触发一次 :doc:`构建 </builds>` ，自动部署你的文档。"
 
 #: ../../upstream/docs/user/versions.rst:89
 msgid ""
@@ -255,8 +255,8 @@ msgid ""
 "replaced with a dash (``-``), and the name is lowercased. If the resulting "
 "slug collides with another one, a suffix is added (``_a``, ``_b``, etc.)."
 msgstr ""
-"版本 slug 由仓库中分支或标签名自动生成，空格和 ``/`` 等特殊字符会替换为连字符（``-``），名称转为小写。若生成的 slug "
-"与其他冲突，会追加后缀（``_a``、``_b`` 等）。"
+"版本 slug 由仓库中分支或标签名自动生成，空格和 ``/`` 等特殊字符会替换为连字符（``-`` ），名称转为小写。若生成的 slug "
+"与其他冲突，会追加后缀（``_a`` 、``_b`` 等）。"
 
 #: ../../upstream/docs/user/versions.rst:104
 msgid ""
@@ -298,7 +298,7 @@ msgid ""
 "<https://github.com/readthedocs/readthedocs.org/issues/11979>`__."
 msgstr ""
 "某些地方你可能仍会看到版本原名，因为更改 slug 只影响文档中使用的 URL 以及 API 标识该版本的方式。`我们正在考虑未来增加一个用于展示的字段"
-" <https://github.com/readthedocs/readthedocs.org/issues/11979>`__。"
+" <https://github.com/readthedocs/readthedocs.org/issues/11979>`__ 。"
 
 #: ../../upstream/docs/user/versions.rst:116
 msgid ""
@@ -309,13 +309,13 @@ msgid ""
 "<https://github.com/readthedocs/readthedocs.org/issues/11979>`__."
 msgstr ""
 "版本选择器中的版本排序基于 slug，更改版本 slug 可能改变向用户展示的顺序。`我们正在考虑未来增加一个用于排序的字段 "
-"<https://github.com/readthedocs/readthedocs.org/issues/11979>`__。"
+"<https://github.com/readthedocs/readthedocs.org/issues/11979>`__ 。"
 
 #: ../../upstream/docs/user/versions.rst:119
 msgid ""
 "You can't change the slug of versions that are managed by Read the Docs, "
 "like ``latest`` and ``stable``."
-msgstr "无法更改由 Read the Docs 管理的版本（如 ``latest`` 和 ``stable``）的 slug。"
+msgstr "无法更改由 Read the Docs 管理的版本（如 ``latest`` 和 ``stable`` ）的 slug。"
 
 #: ../../upstream/docs/user/versions.rst:120
 msgid "Slugs must be unique for each version of your project."
@@ -327,8 +327,8 @@ msgid ""
 " (``_``) and dots (``.``). If you try to use a slug that contains any other "
 "character, you'll get an error message with a suggestion of a valid slug."
 msgstr ""
-"slug 可包含小写字母、数字、连字符（``-``）、下划线（``_``）和点（``.``）。若使用含其他字符的 slug，会收到错误提示并给出有效 "
-"slug 建议。"
+"slug 可包含小写字母、数字、连字符（``-`` ）、下划线（``_`` ）和点（``.`` ）。若使用含其他字符的 "
+"slug，会收到错误提示并给出有效 slug 建议。"
 
 #: ../../upstream/docs/user/versions.rst:130
 msgid "Disabling versioning completely"
@@ -338,7 +338,7 @@ msgstr "完全禁用版本控制"
 msgid ""
 "You can :doc:`configure a single version project </versioning-schemes>`, and"
 " the version will be hidden from the URL."
-msgstr "你可以 :doc:`将项目配置为单版本 </versioning-schemes>`，版本号将从 URL 中隐藏。"
+msgstr "你可以 :doc:`将项目配置为单版本 </versioning-schemes>` ，版本号将从 URL 中隐藏。"
 
 #: ../../upstream/docs/user/versions.rst:136
 msgid "Version warning notifications"
@@ -400,8 +400,8 @@ msgid ""
 "version**. This defaults to **latest**, but another common configuration is "
 "setting it to your **stable** version."
 msgstr ""
-"当用户访问文档根 URL（如 ``https://pip.readthedocs.io/``）时，会被重定向到**默认版本**。默认是 "
-"**latest**，另一常见配置是设为 **stable** 版本。"
+"当用户访问文档根 URL（如 ``https://pip.readthedocs.io/`` ）时，会被重定向到**默认版本** 。默认是 "
+"**latest** ，另一常见配置是设为 **stable** 版本。"
 
 #: ../../upstream/docs/user/versions.rst:163
 msgid "Versioning workflows"
@@ -425,7 +425,7 @@ msgid ""
 "**Tags** are semantic versioning compatible (according to  `PEP 440`_) "
 "snapshots of your documentation. The most recent semantic tag maps to the "
 "``stable`` version."
-msgstr "**标签** 是兼容语义化版本（依 `PEP 440`_）的文档快照。最近的语义化标签对应 ``stable`` 版本。"
+msgstr "**标签** 是兼容语义化版本（依 `PEP 440`_ ）的文档快照。最近的语义化标签对应 ``stable`` 版本。"
 
 #: ../../upstream/docs/user/versions.rst:175
 msgid ""
@@ -444,6 +444,6 @@ msgid ""
 " An example would be a ``2.1`` branch that is kept up to date with the "
 "latest ``2.1.x`` release."
 msgstr ""
-"分支被假定为**长期分支**。这对** 发布分支** 最有用，即为特定发布长期维护的分支。例如 ``2.1`` 分支持续与最新的 ``2.1.x`` "
+"分支被假定为**长期分支** 。这对** 发布分支** 最有用，即为特定发布长期维护的分支。例如 ``2.1`` 分支持续与最新的 ``2.1.x`` "
 "发布保持同步。"
 

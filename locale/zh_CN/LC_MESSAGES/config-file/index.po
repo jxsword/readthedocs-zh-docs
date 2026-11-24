@@ -30,8 +30,8 @@ msgid ""
 " a **configuration file** called ``.readthedocs.yaml``. The configuration "
 "file tells Read the Docs what specific settings to use for your project."
 msgstr ""
-"作为 Read the Docs 项目初始设置的一部分，你需要创建一个名为 ``.readthedocs.yaml`` 的**配置文件**。配置文件告诉"
-" Read the Docs 为你的项目使用哪些特定设置。"
+"作为 Read the Docs 项目初始设置的一部分，你需要创建一个名为 ``.readthedocs.yaml`` 的**配置文件** "
+"。配置文件告诉 Read the Docs 为你的项目使用哪些特定设置。"
 
 #: ../../upstream/docs/user/config-file/index.rst:8
 msgid "This tutorial covers:"
@@ -59,7 +59,7 @@ msgid ""
 " more about the structure of these files, see the `YAML language overview`_."
 msgstr ""
 "Read the Docs 配置文件是 `YAML`_ 文件。YAML 是一种对人类友好的数据序列化语言，适用于所有编程语言。了解更多文件结构，请参阅 "
-"`YAML language overview`_。"
+"`YAML language overview`_ 。"
 
 #: ../../upstream/docs/user/config-file/index.rst:34
 msgid "Getting started with a template"
@@ -71,8 +71,8 @@ msgid ""
 "example based on the tool that your project is using, copy its contents to "
 "``.readthedocs.yaml``, and add the file to your Git repository."
 msgstr ""
-"以下是一些配置文件示例，帮助你快速开始。根据你的项目使用的工具选择一个示例，将其内容复制到 "
-"``.readthedocs.yaml``，并将文件添加到你的 Git 仓库。"
+"以下是一些配置文件示例，帮助你快速开始。根据你的项目使用的工具选择一个示例，将其内容复制到 ``.readthedocs.yaml`` "
+"，并将文件添加到你的 Git 仓库。"
 
 #: ../../upstream/docs/user/config-file/index.rst:43
 msgid "Sphinx"
@@ -123,7 +123,7 @@ msgstr ""
 msgid ""
 "If you added the configuration file in a separate branch, you may have to "
 "activate a :doc:`version </versions>` for that branch."
-msgstr "如果你在单独的分支中添加了配置文件，可能需要为该分支激活一个 :doc:`版本 </versions>`。"
+msgstr "如果你在单独的分支中添加了配置文件，可能需要为该分支激活一个 :doc:`版本 </versions>` 。"
 
 #: ../../upstream/docs/user/config-file/index.rst:78
 msgid ""
@@ -131,7 +131,7 @@ msgid ""
 "builds </guides/pull-requests>` are enabled."
 msgstr ""
 "如果你在 Pull Request 中添加了该文件，请确保已启用 :doc:`Pull Request 构建 </guides/pull-"
-"requests>`。"
+"requests>` 。"
 
 #: ../../upstream/docs/user/config-file/index.rst:82
 msgid "Skip: file header and comments"
@@ -149,7 +149,7 @@ msgstr "``version`` 键"
 msgid ""
 "The version key tells the system how to read the rest of the configuration "
 "file. The current and only supported version is **version 2**."
-msgstr "version 键告诉系统如何读取配置文件的其余部分。当前唯一支持的版本是 **version 2**。"
+msgstr "version 键告诉系统如何读取配置文件的其余部分。当前唯一支持的版本是 **version 2** 。"
 
 #: ../../upstream/docs/user/config-file/index.rst:90
 msgid "Comments"
@@ -169,7 +169,7 @@ msgstr "被注释掉的功能"
 msgid ""
 "We use the ``#`` in front of some popular configuration options. They are "
 "there as examples, which you can choose to enable, delete or save for later."
-msgstr "我们在一些流行的配置选项前使用了 ``#``。它们作为示例存在，你可以选择启用、删除或保留以备后用。"
+msgstr "我们在一些流行的配置选项前使用了 ``#`` 。它们作为示例存在，你可以选择启用、删除或保留以备后用。"
 
 #: ../../upstream/docs/user/config-file/index.rst:100
 msgid "Adjust: ``build.os``"
@@ -272,7 +272,7 @@ msgid ""
 "(``.txt``) file that lists the Python packages you want Read the Docs to "
 "install."
 msgstr ""
-"但我们建议你指定文档项目所用的版本。``requirements`` 键是一个文件路径，指向一个文本（``.txt``）文件，列出你希望 Read "
+"但我们建议你指定文档项目所用的版本。``requirements`` 键是一个文件路径，指向一个文本（``.txt`` ）文件，列出你希望 Read "
 "the Docs 安装的 Python 包。"
 
 #: ../../upstream/docs/user/config-file/index.rst:149
@@ -323,7 +323,7 @@ msgstr "将配置文件添加到 Git 仓库并看到 Read the Docs 正在使用�
 
 #: ../../upstream/docs/user/config-file/index.rst:170
 msgid ":doc:`/config-file/v2`."
-msgstr ":doc:`/config-file/v2`。"
+msgstr ":doc:`/config-file/v2` 。"
 
 #: ../../upstream/docs/user/config-file/index.rst:171
 msgid ""
@@ -342,5 +342,5 @@ msgid ""
 " about how you add your own commands to ``.readthedocs.yaml``."
 msgstr ""
 "熟悉运行命令行？也许有些特殊命令是你明确希望 Read the Docs 运行的。阅读本指南，了解如何将你自己的命令添加到 "
-"``.readthedocs.yaml``。"
+"``.readthedocs.yaml`` 。"
 

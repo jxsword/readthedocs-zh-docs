@@ -146,7 +146,7 @@ msgstr "从零开始？逐步构建并托管一个 Sphinx 项目。"
 msgid ""
 "Or browse :doc:`example projects </examples>` to see how other projects are "
 "configured."
-msgstr "或浏览 :doc:`示例项目 </examples>`，了解其他项目是如何配置的。"
+msgstr "或浏览 :doc:`示例项目 </examples>` ，了解其他项目是如何配置的。"
 
 #: ../../upstream/docs/user/index.rst:176
 msgid "Start with the basics of setting up your project:"

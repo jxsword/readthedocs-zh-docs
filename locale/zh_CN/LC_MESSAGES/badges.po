@@ -22,198 +22,198 @@ msgstr ""
 
 #: ../../upstream/docs/user/badges.rst:2
 msgid "Status badges"
-msgstr ""
+msgstr "状态徽章"
 
 #: ../../upstream/docs/user/badges.rst:4
 msgid ""
-"Status badges let you show the state of your documentation to your users."
-" They will show if the latest build has passed, failed, or is in an "
-"unknown state. They are great for embedding in your README, or putting "
-"inside your actual doc pages."
-msgstr ""
+"Status badges let you show the state of your documentation to your users. "
+"They will show if the latest build has passed, failed, or is in an unknown "
+"state. They are great for embedding in your README, or putting inside your "
+"actual doc pages."
+msgstr "状态徽章让你向用户展示文档的状态，显示最近构建是成功、失败还是处于未知状态。非常适合嵌入 README 或放在实际文档页面中。"
 
 #: ../../upstream/docs/user/badges.rst:9
 msgid "You can see a badge in action in the `Read the Docs README`_."
-msgstr ""
+msgstr "可在 `Read the Docs README`_ 中看到徽章的实际效果。"
 
 #: ../../upstream/docs/user/badges.rst:12
 msgid "Display states"
-msgstr ""
+msgstr "显示状态"
 
 #: ../../upstream/docs/user/badges.rst:14
 msgid "Badges have the following states which can be shown to users:"
-msgstr ""
+msgstr "徽章有以下可向用户显示的状态："
 
 #: ../../upstream/docs/user/badges.rst:16
 msgid "**Green**: ``passing`` - the last build was successful."
-msgstr ""
+msgstr "**绿色** ：``passing`` - 最近一次构建成功。"
 
 #: ../../upstream/docs/user/badges.rst:17
 msgid "**Red**: ``failing`` - the last build failed."
-msgstr ""
+msgstr "**红色** ：``failing`` - 最近一次构建失败。"
 
 #: ../../upstream/docs/user/badges.rst:18
 msgid ""
 "**Yellow**: ``unknown`` - we couldn't figure out the status of your last "
 "build."
-msgstr ""
+msgstr "**黄色** ：``unknown`` - 无法确定最近一次构建的状态。"
 
 #: ../../upstream/docs/user/badges.rst:20
 msgid "An example of each is shown here:"
-msgstr ""
+msgstr "此处展示各状态的示例："
 
 #: ../../upstream/docs/user/badges.rst:22
 msgid "|green| |nbsp| |red| |nbsp| |yellow|"
-msgstr ""
+msgstr "|green| |nbsp| |red| |nbsp| |yellow|"
 
 #: ../../upstream/docs/user/badges.rst:107
 msgid "green"
-msgstr ""
+msgstr "green"
 
 #: ../../upstream/docs/user/badges.rst:108
 msgid "red"
-msgstr ""
+msgstr "red"
 
 #: ../../upstream/docs/user/badges.rst:109
 msgid "yellow"
-msgstr ""
+msgstr "yellow"
 
 #: ../../upstream/docs/user/badges.rst:25
 msgid "Automatically generated"
-msgstr ""
+msgstr "自动生成"
 
 #: ../../upstream/docs/user/badges.rst:27
 msgid ""
 "Badges are generated on-demand for all Read the Docs projects, using the "
 "following URL syntax:"
-msgstr ""
+msgstr "所有 Read the Docs 项目的徽章都按需生成，使用以下 URL 语法："
 
-#: ../../upstream/docs/user/badges.rst:34
-#: ../../upstream/docs/user/badges.rst:41
+#: ../../upstream/docs/user/badges.rst:34 ../../upstream/docs/user/badges.rst:41
 msgid "Style"
-msgstr ""
+msgstr "样式"
 
 #: ../../upstream/docs/user/badges.rst:36
 msgid ""
-"You can pass the ``style`` GET argument to get custom styled badges. This"
-" allows you to match the look and feel of your website. By default, the "
+"You can pass the ``style`` GET argument to get custom styled badges. This "
+"allows you to match the look and feel of your website. By default, the "
 "``flat`` style is used."
-msgstr ""
+msgstr "可传入 ``style`` GET 参数获取自定义样式的徽章，从而与你的网站视觉风格保持一致。默认使用 ``flat`` 样式。"
 
-#: ../../upstream/docs/user/badges.rst:41
-#: ../../upstream/docs/user/badges.rst:56
+#: ../../upstream/docs/user/badges.rst:41 ../../upstream/docs/user/badges.rst:56
 msgid "Badge"
-msgstr ""
+msgstr "徽章"
 
 #: ../../upstream/docs/user/badges.rst:43
 msgid "flat - default"
-msgstr ""
+msgstr "flat - 默认"
 
 #: ../../upstream/docs/user/badges.rst:43
 msgid "|Flat Badge|"
-msgstr ""
+msgstr "|Flat Badge|"
 
 #: ../../upstream/docs/user/badges.rst:54
 msgid "Flat Badge"
-msgstr ""
+msgstr "Flat Badge"
 
 #: ../../upstream/docs/user/badges.rst:45
 msgid "flat-square"
-msgstr ""
+msgstr "flat-square"
 
 #: ../../upstream/docs/user/badges.rst:45
 msgid "|Flat-Square Badge|"
-msgstr ""
+msgstr "|Flat-Square Badge|"
 
 #: ../../upstream/docs/user/badges.rst:55
 msgid "Flat-Square Badge"
-msgstr ""
+msgstr "Flat-Square Badge"
 
 #: ../../upstream/docs/user/badges.rst:47
 msgid "for-the-badge"
-msgstr ""
+msgstr "for-the-badge"
 
 #: ../../upstream/docs/user/badges.rst:47
 msgid "|Badge|"
-msgstr ""
+msgstr "|Badge|"
 
 #: ../../upstream/docs/user/badges.rst:49
 msgid "plastic"
-msgstr ""
+msgstr "plastic"
 
 #: ../../upstream/docs/user/badges.rst:49
 msgid "|Plastic Badge|"
-msgstr ""
+msgstr "|Plastic Badge|"
 
 #: ../../upstream/docs/user/badges.rst:57
 msgid "Plastic Badge"
-msgstr ""
+msgstr "Plastic Badge"
 
 #: ../../upstream/docs/user/badges.rst:51
 msgid "social"
-msgstr ""
+msgstr "social"
 
 #: ../../upstream/docs/user/badges.rst:51
 msgid "|Social Badge|"
-msgstr ""
+msgstr "|Social Badge|"
 
 #: ../../upstream/docs/user/badges.rst:58
 msgid "Social Badge"
-msgstr ""
+msgstr "Social Badge"
 
 #: ../../upstream/docs/user/badges.rst:62
 msgid "Version-specific badges"
-msgstr ""
+msgstr "版本专属徽章"
 
 #: ../../upstream/docs/user/badges.rst:64
 msgid ""
-"You can change the version of the documentation your badge points to. To "
-"do this, you can pass the ``version`` GET argument to the badge URL. By "
-"default, it will point at the *default version* you have specified for "
-"your project."
-msgstr ""
+"You can change the version of the documentation your badge points to. To do "
+"this, you can pass the ``version`` GET argument to the badge URL. By "
+"default, it will point at the *default version* you have specified for your "
+"project."
+msgstr "你可以改变徽章所指向的文档版本。为此可向徽章 URL 传入 ``version`` GET 参数。默认指向你为项目指定的*默认版本* 。"
 
 #: ../../upstream/docs/user/badges.rst:68
 msgid "The badge URL looks like this:"
-msgstr ""
+msgstr "徽章 URL 形式如下："
 
 #: ../../upstream/docs/user/badges.rst:76
 msgid "Embedding a badge"
-msgstr ""
+msgstr "嵌入徽章"
 
 #: ../../upstream/docs/user/badges.rst:78
 msgid ""
 "Use one of the following snippets to embed a badge in your README or "
-"documentation pages. Replace ``<project-slug>`` with your project's slug,"
-" and ``<project-url>`` with the URL of your documentation."
+"documentation pages. Replace ``<project-slug>`` with your project's slug, "
+"and ``<project-url>`` with the URL of your documentation."
 msgstr ""
+"使用以下任一代码片段在 README 或文档页面中嵌入徽章。将 ``<project-slug>`` 替换为你的项目 slug，将 "
+"``<project-url>`` 替换为你的文档 URL。"
 
 #: ../../upstream/docs/user/badges.rst:84
 msgid "reStructuredText"
-msgstr ""
+msgstr "reStructuredText"
 
 #: ../../upstream/docs/user/badges.rst:92
 msgid "Markdown"
-msgstr ""
+msgstr "Markdown"
 
 #: ../../upstream/docs/user/badges.rst:98
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #: ../../upstream/docs/user/badges.rst:115
 msgid "Badges for private projects"
-msgstr ""
+msgstr "私有项目的徽章"
 
 #: ../../upstream/docs/user/shared/admonition-rtd-business.rst:2
 msgid ""
 "This feature is only available on `Read the Docs Business "
 "<https://app.readthedocs.com/>`_."
-msgstr ""
+msgstr "此功能仅在 `Read the Docs Business <https://app.readthedocs.com/>`_ 上提供。"
 
 #: ../../upstream/docs/user/badges.rst:119
 msgid ""
-"For private projects, a badge URL cannot be guessed. A token is needed to"
-" display it. Please :doc:`contact support </support>` to get the badge "
-"URL for your private project."
-msgstr ""
+"For private projects, a badge URL cannot be guessed. A token is needed to "
+"display it. Please :doc:`contact support </support>` to get the badge URL "
+"for your private project."
+msgstr "对私有项目，徽章 URL 无法猜测，需要令牌才能显示。请 :doc:`联系支持 </support>` 获取你私有项目的徽章 URL。"
 

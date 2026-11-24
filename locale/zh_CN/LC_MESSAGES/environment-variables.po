@@ -32,7 +32,7 @@ msgid ""
 "build. These are useful for different purposes:"
 msgstr ""
 "Read the Docs 允许你定义自己的环境变量用于构建过程。它还定义了一组 :doc:`默认环境变量 </reference"
-"/environment-variables>`，包含关于你构建的信息。这些变量有不同的用途："
+"/environment-variables>` ，包含关于你构建的信息。这些变量有不同的用途："
 
 #: ../../upstream/docs/user/environment-variables.rst:10
 msgid ""
@@ -54,7 +54,7 @@ msgid ""
 "exceptions <custom_env_var_exceptions>`."
 msgstr ""
 "自定义环境变量在项目的 :menuselection:`Settings --> Environment variables` "
-"中定义。环境变量针对项目的整个构建过程定义，:ref:`有 2 个重要例外 <custom_env_var_exceptions>`。"
+"中定义。环境变量针对项目的整个构建过程定义，:ref:`有 2 个重要例外 <custom_env_var_exceptions>` 。"
 
 #: ../../upstream/docs/user/environment-variables.rst:23
 msgid ""
@@ -69,7 +69,7 @@ msgstr ""
 "除了存储机密，还有 :ref:`其他模式 <environment-variables:Patterns of using environment "
 "variables>` 利用环境变量，例如在多个文档项目中复用相同的 *monorepo* "
 "配置。在环境变量不是机密的情况下（如构建工具标志），你也应了解 :ref:`环境变量的替代方案 <environment-"
-"variables:Alternatives to environment variables>`。"
+"variables:Alternatives to environment variables>` 。"
 
 #: ../../upstream/docs/user/environment-variables.rst:32
 msgid ":doc:`/guides/environment-variables`"
@@ -196,8 +196,8 @@ msgid ""
 "*developer* documentation. This is defined by the ``PROJECT`` environment "
 "variable:"
 msgstr ""
-"这种情况的一个例子就存在于*你正在查看的这个文档项目* 中。使用 Sphinx 扩展 `sphinx-multiproject`_，以下配置代码决定构建"
-" *user* 还是 *developer* 文档。这由 ``PROJECT`` 环境变量定义："
+"这种情况的一个例子就存在于*你正在查看的这个文档项目* 中。使用 Sphinx 扩展 `sphinx-multiproject`_ "
+"，以下配置代码决定构建 *user* 还是 *developer* 文档。这由 ``PROJECT`` 环境变量定义："
 
 #: ../../upstream/docs/user/environment-variables.rst:87
 msgid "Read the Docs' conf.py [1]_ is used to build 2 documentation projects."
@@ -244,8 +244,8 @@ msgid ""
 ":`/build-customization`. The following example shows how a non-secret "
 "single-purpose environment variable can also be used."
 msgstr ""
-"在这种情况下，你可以使用 :doc:`/build-customization` "
-"将环境变量定义*为代码*。以下示例展示了非机密、单用途的环境变量如何使用。"
+"在这种情况下，你可以使用 :doc:`/build-customization` 将环境变量定义*为代码* "
+"。以下示例展示了非机密、单用途的环境变量如何使用。"
 
 #: ../../upstream/docs/user/environment-variables.rst:131
 msgid ".readthedocs.yaml"

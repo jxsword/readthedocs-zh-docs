@@ -54,7 +54,7 @@ msgid ""
 msgstr ""
 "所有步骤都在 Docker 容器中运行，使用 :ref:`config-file/v2:build.os` 中定义的镜像。构建可访问所有 "
 ":doc:`预定义环境变量 </reference/environment-variables>` 和 :doc:`自定义环境变量 "
-"</environment-variables>`。"
+"</environment-variables>` 。"
 
 #: ../../upstream/docs/user/builds.rst:20
 msgid "The build process includes the following jobs:"
@@ -101,7 +101,7 @@ msgid ""
 " be used."
 msgstr ""
 "创建一个 Python 环境，以隔离且可复现的方式安装所有依赖。根据项目定义，将使用 :term:`virtualenv` 或 :ref:`conda "
-"环境 <config-file/v2:conda>`。"
+"环境 <config-file/v2:conda>` 。"
 
 #: ../../upstream/docs/user/builds.rst:44 ../../upstream/docs/user/builds.rst:60
 msgid ""
@@ -119,7 +119,7 @@ msgid ""
 "This includes any requirements you have configured in :ref:`config-"
 "file/v2:requirements file`."
 msgstr ""
-"安装 :doc:`默认及项目依赖 </build-default-versions>`。包括你在 :ref:`config-"
+"安装 :doc:`默认及项目依赖 </build-default-versions>` 。包括你在 :ref:`config-"
 "file/v2:requirements file` 中配置的任何 requirements。"
 
 #: ../../upstream/docs/user/builds.rst:51
@@ -133,7 +133,7 @@ msgid ""
 "We strongly recommend :doc:`pinning all the versions </guides/reproducible-"
 "builds>` required to build the documentation to avoid unexpected build "
 "errors."
-msgstr "我们强烈建议 :doc:`固定构建文档所需的所有版本 </guides/reproducible-builds>`，以避免意外的构建错误。"
+msgstr "我们强烈建议 :doc:`固定构建文档所需的所有版本 </guides/reproducible-builds>` ，以避免意外的构建错误。"
 
 #: ../../upstream/docs/user/builds.rst
 msgid "build"
@@ -146,8 +146,8 @@ msgid ""
 "file/v2:sphinx`) or MkDocs (:ref:`config-file/v2:mkdocs`) depending on the "
 "project."
 msgstr ""
-"运行主命令为每种声明的格式（:ref:`config-file/v2:formats`）构建文档。根据项目使用 Sphinx（:ref:`config-"
-"file/v2:sphinx`）或 MkDocs（:ref:`config-file/v2:mkdocs`）。"
+"运行主命令为每种声明的格式（:ref:`config-file/v2:formats` ）构建文档。根据项目使用 Sphinx（:ref"
+":`config-file/v2:sphinx` ）或 MkDocs（:ref:`config-file/v2:mkdocs` ）。"
 
 #: ../../upstream/docs/user/builds.rst
 msgid "upload"
@@ -160,7 +160,7 @@ msgid ""
 "then purged so your docs are *always up to date*."
 msgstr ""
 "构建过程成功完成后，生成的产物（HTML、PDF 等）将上传到我们的服务器。我们的 :doc:`CDN </reference/cdn>` "
-"随后会被清除，确保你的文档*始终是最新的*。"
+"随后会被清除，确保你的文档*始终是最新的* 。"
 
 #: ../../upstream/docs/user/builds.rst:75
 msgid ":doc:`/build-customization`"
@@ -194,7 +194,7 @@ msgid ""
 "when files under ``docs/`` were modified, or when the commit message doesn't"
 " contain ``[skip ci]``."
 msgstr ""
-"*跳过的* 构建是从未被触发的构建。结合 Webhook 过滤器使用 :doc:`自动化规则 </automation-rules>`，你可以告诉 "
+"*跳过的* 构建是从未被触发的构建。结合 Webhook 过滤器使用 :doc:`自动化规则 </automation-rules>` ，你可以告诉 "
 "Read the Docs 仅在发生相关变更时触发构建，例如 ``docs/`` 下的文件被修改、或提交信息不包含 ``[skip ci]`` 时。"
 
 #: ../../upstream/docs/user/builds.rst:90
@@ -259,7 +259,7 @@ msgstr "手动"
 msgid ""
 "Project administrators can go to the build detail page and click "
 ":guilabel:`Cancel build`."
-msgstr "项目管理员可前往构建详情页面，点击 :guilabel:`Cancel build`。"
+msgstr "项目管理员可前往构建详情页面，点击 :guilabel:`Cancel build` 。"
 
 #: ../../upstream/docs/user/builds.rst
 msgid "Automatically"
@@ -283,7 +283,7 @@ msgid ""
 "with the code ``0`` to continue running the build."
 msgstr ""
 "你可以在 ``build.jobs`` 或 ``build.commands`` 上使用用户定义的命令（见 :doc:`build-"
-"customization`）检查自己的取消条件，并返回退出码 ``183`` 取消构建。退出码 ``0`` 则继续运行构建。"
+"customization` ）检查自己的取消条件，并返回退出码 ``183`` 取消构建。退出码 ``0`` 则继续运行构建。"
 
 #: ../../upstream/docs/user/builds.rst:133
 msgid ""
@@ -400,5 +400,5 @@ msgid ""
 "which has options for additional build resources."
 msgstr ""
 "如果你的业务在 Read the Docs 托管文档时触及构建限制，请考虑 :doc:`Read the Docs Business "
-"</commercial/index>`，它提供额外的构建资源选项。"
+"</commercial/index>` ，它提供额外的构建资源选项。"
 

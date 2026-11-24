@@ -22,50 +22,54 @@ msgstr ""
 
 #: ../../upstream/docs/user/reference/markdown-for-agents.rst:2
 msgid "Markdown for AI agents"
-msgstr ""
+msgstr "面向 AI 智能体的 Markdown"
 
 #: ../../upstream/docs/user/reference/markdown-for-agents.rst:4
 msgid ""
-"Read the Docs serves a Markdown version of documentation pages to clients"
-" that request it, using HTTP content negotiation. Markdown is smaller and"
-" easier to parse than rendered HTML, which makes it a better format for "
-"AI agents and language models to consume."
+"Read the Docs serves a Markdown version of documentation pages to clients "
+"that request it, using HTTP content negotiation. Markdown is smaller and "
+"easier to parse than rendered HTML, which makes it a better format for AI "
+"agents and language models to consume."
 msgstr ""
+"Read the Docs 通过 HTTP 内容协商，向请求 Markdown 的客户端提供文档页面的 Markdown 版本。Markdown "
+"比渲染后的 HTML 更小、更易解析，因此更适合 AI 智能体和语言模型消费。"
 
 #: ../../upstream/docs/user/reference/markdown-for-agents.rst:9
 msgid ""
 "This feature is **enabled automatically** on all documentation domains "
-"hosted on Read the Docs, with no configuration required. Browsers "
-"continue to receive the regular HTML version of your documentation."
-msgstr ""
+"hosted on Read the Docs, with no configuration required. Browsers continue "
+"to receive the regular HTML version of your documentation."
+msgstr "此功能在 Read the Docs 托管的所有文档域名上**自动启用** ，无需任何配置。浏览器仍会收到常规的 HTML 版本文档。"
 
 #: ../../upstream/docs/user/reference/markdown-for-agents.rst:13
 msgid "A request with ``Accept: text/markdown`` returns a Markdown response:"
-msgstr ""
+msgstr "带 ``Accept: text/markdown`` 的请求会返回 Markdown 响应："
 
 #: ../../upstream/docs/user/reference/markdown-for-agents.rst:31
 msgid ""
-"This feature is powered by `Cloudflare`_. See the `Cloudflare blog post "
-"on Markdown for agents`_ for more details about how the conversion works."
+"This feature is powered by `Cloudflare`_. See the `Cloudflare blog post on "
+"Markdown for agents`_ for more details about how the conversion works."
 msgstr ""
+"此功能由 `Cloudflare`_ 提供支持。有关转换原理的更多细节，请参阅 `Cloudflare blog post on Markdown "
+"for agents`_ 。"
 
 #: ../../upstream/docs/user/reference/markdown-for-agents.rst:36
 msgid ":doc:`/reference/llms-txt`"
-msgstr ""
+msgstr ":doc:`/reference/llms-txt`"
 
 #: ../../upstream/docs/user/reference/markdown-for-agents.rst:37
 msgid ""
 "Serve a custom ``llms.txt`` file to guide AI agents to the most relevant "
 "pages of your documentation."
-msgstr ""
+msgstr "提供自定义 ``llms.txt`` 文件，引导 AI 智能体访问你文档中最相关的页面。"
 
 #: ../../upstream/docs/user/reference/markdown-for-agents.rst:39
 msgid ":doc:`/reference/agent-skills`"
-msgstr ""
+msgstr ":doc:`/reference/agent-skills`"
 
 #: ../../upstream/docs/user/reference/markdown-for-agents.rst:40
 msgid ""
 "Use Read the Docs Agent Skills to help AI agents work with Read the Docs "
 "APIs and configuration."
-msgstr ""
+msgstr "使用 Read the Docs Agent Skills 帮助 AI 智能体使用 Read the Docs API 和配置。"
 

@@ -22,53 +22,53 @@ msgstr ""
 
 #: ../../upstream/docs/user/explanation/index.rst:6
 msgid "Explanation"
-msgstr ""
+msgstr "讲解"
 
 #: ../../upstream/docs/user/explanation/index.rst:8
 msgid "⏩️ :doc:`/continuous-deployment`"
-msgstr ""
+msgstr "⏩️ :doc:`/continuous-deployment`"
 
 #: ../../upstream/docs/user/explanation/index.rst:9
 msgid "A high-level introduction to *Continuous Documentation Deployment*."
-msgstr ""
+msgstr "*持续文档部署* 的高层介绍。"
 
 #: ../../upstream/docs/user/explanation/index.rst:11
 msgid "⏩️ :doc:`/subprojects`"
-msgstr ""
+msgstr "⏩️ :doc:`/subprojects`"
 
 #: ../../upstream/docs/user/explanation/index.rst:12
 msgid ""
 "Learn more about how several documentation projects can be combined and "
 "presented to the reader on the same website."
-msgstr ""
+msgstr "进一步了解如何将多个文档项目组合起来，在同一网站上呈现给读者。"
 
 #: ../../upstream/docs/user/explanation/index.rst:14
 msgid "⏩️ :doc:`/localization`"
-msgstr ""
+msgstr "⏩️ :doc:`/localization`"
 
 #: ../../upstream/docs/user/explanation/index.rst:15
 msgid ""
 "Some high-level approaches to internationalizing and localizing your "
 "documentation."
-msgstr ""
+msgstr "对文档进行国际化和本地化的高层方法。"
 
 #: ../../upstream/docs/user/explanation/index.rst:17
 msgid "⏩️ :doc:`/offline-formats`"
-msgstr ""
+msgstr "⏩️ :doc:`/offline-formats`"
 
 #: ../../upstream/docs/user/explanation/index.rst:18
 msgid ""
 "An explanation of how Read the Docs builds documentation in different "
 "formats."
-msgstr ""
+msgstr "讲解 Read the Docs 如何以不同格式构建文档。"
 
 #: ../../upstream/docs/user/explanation/index.rst:20
 msgid "⏩️ :doc:`/environment-variables`"
-msgstr ""
+msgstr "⏩️ :doc:`/environment-variables`"
 
 #: ../../upstream/docs/user/explanation/index.rst:21
 msgid ""
-"An introduction to how pre-defined and user-defined environment variables"
-" work and how to use them."
-msgstr ""
+"An introduction to how pre-defined and user-defined environment variables "
+"work and how to use them."
+msgstr "介绍预定义和用户自定义环境变量如何工作以及如何使用。"
 

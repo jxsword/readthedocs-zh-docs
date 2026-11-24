@@ -31,8 +31,8 @@ msgid ""
 "This is great for maintaining a consistent brand for your product and its "
 "documentation."
 msgstr ""
-"为项目配置*自定义域名* 后，项目可从你控制的域名提供文档服务，例如 "
-"``docs.example.com``。这有助于为你的产品及其文档保持一致的品牌形象。"
+"为项目配置*自定义域名* 后，项目可从你控制的域名提供文档服务，例如 ``docs.example.com`` "
+"。这有助于为你的产品及其文档保持一致的品牌形象。"
 
 #: ../../upstream/docs/user/custom-domains.rst:12
 msgid "Default subdomains"
@@ -46,7 +46,7 @@ msgstr "*未配置自定义域名* 时，项目文档从 Read the Docs 域名通
 
 #: ../../upstream/docs/user/custom-domains.rst:16
 msgid "``<project name>.readthedocs.io`` for |org_brand|."
-msgstr "|org_brand| 使用 ``<project name>.readthedocs.io``。"
+msgstr "|org_brand| 使用 ``<project name>.readthedocs.io`` 。"
 
 #: ../../upstream/docs/user/custom-domains.rst:17
 msgid ""
@@ -54,8 +54,8 @@ msgid ""
 "|com_brand|. The addition of the organization name allows multiple "
 "organizations to have projects with the same name."
 msgstr ""
-"|com_brand| 使用 ``<organization name>-<project name>.readthedocs-"
-"hosted.com``。加上组织名可让多个组织拥有同名项目。"
+"|com_brand| 使用 ``<organization name>-<project name>.readthedocs-hosted.com``"
+" 。加上组织名可让多个组织拥有同名项目。"
 
 #: ../../upstream/docs/user/custom-domains.rst:22
 msgid ":doc:`/guides/custom-domains`"
@@ -106,8 +106,8 @@ msgid ""
 "requests to non-canonical domains and subdomains will redirect to the "
 "canonical domain."
 msgstr ""
-"项目可配置为从多个域名提供服务，其中始终包含 :ref:`项目默认子域名 <default-"
-"subdomain>`。但只能配置一个规范域名，对非规范域名和子域名的请求都会重定向到规范域名。"
+"项目可配置为从多个域名提供服务，其中始终包含 :ref:`项目默认子域名 <default-subdomain>` "
+"。但只能配置一个规范域名，对非规范域名和子域名的请求都会重定向到规范域名。"
 
 #: ../../upstream/docs/user/custom-domains.rst:44
 msgid "Canonical domains"
@@ -122,7 +122,7 @@ msgid ""
 "if no other canonical domain is defined."
 msgstr ""
 "规范域名决定文档服务的主域名，并在多域名托管时设定搜索引擎用于搜索结果的域名。项目只能有一个规范域名，未定义其他规范域名时即为 "
-":ref:`项目默认子域名 <default-subdomain>`。"
+":ref:`项目默认子域名 <default-subdomain>` 。"
 
 #: ../../upstream/docs/user/custom-domains.rst:52
 msgid ":doc:`/canonical-urls`"
