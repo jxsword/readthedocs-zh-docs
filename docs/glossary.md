@@ -37,7 +37,21 @@
 | search index | 搜索索引 | |
 | linter | Linter | 工具类别名，保留英文 |
 
-## 3. 风格约定
+## 3. changelog 可译边界（M2 实施约定）
+
+`changelog.po` 的 5085 条多为 GitHub 自动生成的 PR 日志，形如 `<描述> by @<handle> in https://github.com/...`。按第 1 节规则处理：
+
+| 成分 | 示例 | 处理 |
+|---|---|---|
+| PR 标题中的普通英文描述 | `Trying out the GitHub auto-generated Changelog.` | 译为简体中文 |
+| 作者 handle | `@humitos`、`@stsewd` | 不译，原样保留 |
+| URL | `https://github.com/readthedocs/readthedocs.org/pull/12201` | 不译 |
+| 语义化前缀与 commit 类型 | `feat(viz-diff-doc):`、`Build:`、`Fix:` | 保留前缀原文，仅译冒号后的描述 |
+| 版本号与日期 | `Version 14.0.0`、`June 24, 2025` | 版本号原样；日期译为中文（如 `2025 年 6 月 24 日`） |
+
+示例：`New dashboard: delete legacy HTML templates (part 4) by @humitos in https://...` → `新仪表盘：删除旧版 HTML 模板（第 4 部分），作者 @humitos，见 https://...`。
+
+## 4. 风格约定
 
 - 使用简体中文，标点采用中文全角标点（代码块内除外）。
 - 句子中的英文专名与中文之间不加空格，例如“使用 Sphinx 构建”。

@@ -22,118 +22,120 @@ msgstr ""
 
 #: ../../upstream/docs/user/intro/zensical.rst:-1
 msgid "Learn how to host Zensical sites on Read the Docs."
-msgstr ""
+msgstr "了解如何在 Read the Docs 上托管 Zensical 站点。"
 
 #: ../../upstream/docs/user/intro/zensical.rst:2
 msgid "Deploying Zensical on Read the Docs"
-msgstr ""
+msgstr "在 Read the Docs 上部署 Zensical"
 
 #: ../../upstream/docs/user/intro/zensical.rst:7
 msgid ""
-"Zensical_ is a static site generator for project documentation, built by "
-"the creators of Material for MkDocs."
-msgstr ""
+"Zensical_ is a static site generator for project documentation, built by the"
+" creators of Material for MkDocs."
+msgstr "Zensical_ 是一个用于项目文档的静态站点生成器，由 Material for MkDocs 的创建者开发。"
 
 #: ../../upstream/docs/user/intro/zensical.rst:10
 msgid ""
-"Read the Docs builds your Zensical site on every push, previews your pull"
-" requests, and hosts every version of your documentation."
-msgstr ""
+"Read the Docs builds your Zensical site on every push, previews your pull "
+"requests, and hosts every version of your documentation."
+msgstr "Read the Docs 会在每次推送时构建你的 Zensical 站点、预览 Pull Request，并托管你文档的每个版本。"
 
 #: ../../upstream/docs/user/intro/zensical.rst:14
 msgid ""
-"Minimal configuration is required to build an existing Zensical project "
-"on Read the Docs:"
-msgstr ""
+"Minimal configuration is required to build an existing Zensical project on "
+"Read the Docs:"
+msgstr "在 Read the Docs 上构建现有 Zensical 项目所需的配置极少："
 
 #: ../../upstream/docs/user/intro/zensical.rst:16
 msgid ".readthedocs.yaml"
-msgstr ""
+msgstr ".readthedocs.yaml"
 
 #: ../../upstream/docs/user/intro/zensical.rst:38
 msgid "For a complete example, see our `Zensical example repository`_."
-msgstr ""
+msgstr "有关完整示例，请参阅我们的 `Zensical example repository`_。"
 
 #: ../../upstream/docs/user/intro/zensical.rst:44
 msgid "Getting started"
-msgstr ""
+msgstr "快速入门"
 
 #: ../../upstream/docs/user/intro/zensical.rst:46
 msgid ""
-"Add your project to publish your documentation. If you're new to "
-"Zensical, see the official `Get started with Zensical`_ guide."
-msgstr ""
+"Add your project to publish your documentation. If you're new to Zensical, "
+"see the official `Get started with Zensical`_ guide."
+msgstr "添加你的项目以发布文档。如果你还不熟悉 Zensical，请参阅官方的 `Get started with Zensical`_ 指南。"
 
 #: ../../upstream/docs/user/intro/zensical.rst:55
 msgid "Add a project on Community"
-msgstr ""
+msgstr "在 Community 上添加项目"
 
 #: ../../upstream/docs/user/intro/zensical.rst:63
 msgid "Add a project on Business"
-msgstr ""
+msgstr "在 Business 上添加项目"
 
 #: ../../upstream/docs/user/intro/zensical.rst:70
 msgid "Production examples"
-msgstr ""
+msgstr "生产环境示例"
 
 #: ../../upstream/docs/user/intro/zensical.rst:72
 msgid "Projects using Zensical on Read the Docs:"
-msgstr ""
+msgstr "在 Read the Docs 上使用 Zensical 的项目："
 
 #: ../../upstream/docs/user/intro/zensical.rst:74
 msgid "DDEV"
-msgstr ""
+msgstr "DDEV"
 
 #: ../../upstream/docs/user/intro/zensical.rst:75
 msgid "https://docs.ddev.com/en/stable/"
-msgstr ""
+msgstr "https://docs.ddev.com/en/stable/"
 
 #: ../../upstream/docs/user/intro/zensical.rst:77
 msgid "PDM"
-msgstr ""
+msgstr "PDM"
 
 #: ../../upstream/docs/user/intro/zensical.rst:78
 msgid "https://pdm-project.org/en/latest/"
-msgstr ""
+msgstr "https://pdm-project.org/en/latest/"
 
 #: ../../upstream/docs/user/intro/zensical.rst:80
 msgid "cmd2"
-msgstr ""
+msgstr "cmd2"
 
 #: ../../upstream/docs/user/intro/zensical.rst:81
 msgid "https://cmd2.readthedocs.io/en/stable/"
-msgstr ""
+msgstr "https://cmd2.readthedocs.io/en/stable/"
 
 #: ../../upstream/docs/user/intro/zensical.rst:84
 msgid "Set the canonical URL"
-msgstr ""
+msgstr "设置规范 URL"
 
 #: ../../upstream/docs/user/intro/zensical.rst:86
 msgid ""
-"A :doc:`canonical URL </canonical-urls>` allows you to specify the "
-"preferred version of a web page to prevent duplicated content."
-msgstr ""
+"A :doc:`canonical URL </canonical-urls>` allows you to specify the preferred"
+" version of a web page to prevent duplicated content."
+msgstr ":doc:`规范 URL </canonical-urls>` 允许你指定网页的首选版本，以防止内容重复。"
 
 #: ../../upstream/docs/user/intro/zensical.rst:89
 msgid "Set your Zensical `site URL`_ to your Read the Docs canonical URL:"
-msgstr ""
+msgstr "将你的 Zensical `site URL`_ 设置为 Read the Docs 的规范 URL："
 
 #: ../../upstream/docs/user/intro/zensical.rst:91
 msgid "zensical.toml"
-msgstr ""
+msgstr "zensical.toml"
 
 #: ../../upstream/docs/user/intro/zensical.rst:99
 msgid ""
-"Zensical doesn't support variable interpolation in its configuration "
-"file, so you need to set the value explicitly instead of using the "
+"Zensical doesn't support variable interpolation in its configuration file, "
+"so you need to set the value explicitly instead of using the "
 ":envvar:`READTHEDOCS_CANONICAL_URL` environment variable."
 msgstr ""
+"Zensical 不支持在其配置文件中进行变量插值，因此你需要显式设置该值，而不能使用 "
+":envvar:`READTHEDOCS_CANONICAL_URL` 环境变量。"
 
 #: ../../upstream/docs/user/intro/zensical.rst:107
 msgid ":doc:`/addons`"
-msgstr ""
+msgstr ":doc:`/addons`"
 
 #: ../../upstream/docs/user/intro/zensical.rst:108
 msgid "Configuring Addons, like the version flyout menu."
-msgstr ""
+msgstr "配置 Addon，例如版本浮出菜单。"
 

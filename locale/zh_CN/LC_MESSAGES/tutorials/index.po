@@ -22,67 +22,69 @@ msgstr ""
 
 #: ../../upstream/docs/user/tutorials/index.rst:7
 msgid "Tutorials"
-msgstr ""
+msgstr "教程"
 
 #: ../../upstream/docs/user/tutorials/index.rst:9
 msgid "⏩️ :doc:`/tutorial/index`"
-msgstr ""
+msgstr "⏩️ :doc:`/tutorial/index`"
 
 #: ../../upstream/docs/user/tutorials/index.rst:10
 msgid ""
-"This is where you should go if you are trying Read the Docs for the first"
-" time!"
-msgstr ""
+"This is where you should go if you are trying Read the Docs for the first "
+"time!"
+msgstr "如果你是第一次使用 Read the Docs，应该从这里开始！"
 
 #: ../../upstream/docs/user/tutorials/index.rst:12
 msgid "⏩️ :doc:`/intro/sphinx`"
-msgstr ""
+msgstr "⏩️ :doc:`/intro/sphinx`"
 
 #: ../../upstream/docs/user/tutorials/index.rst:13
 msgid ""
-"Sphinx is the most popular documentation tool on our platform. It "
-"supports both reStructuredText and Markdown formats, and can generate "
-"rich API documentation from your source code. We recommend Sphinx for "
-"documentation that includes API reference documentation."
+"Sphinx is the most popular documentation tool on our platform. It supports "
+"both reStructuredText and Markdown formats, and can generate rich API "
+"documentation from your source code. We recommend Sphinx for documentation "
+"that includes API reference documentation."
 msgstr ""
+"Sphinx 是我们平台上最流行的文档工具。它同时支持 reStructuredText 和 Markdown 格式，并能从源代码生成丰富的 API "
+"文档。对于包含 API 参考文档的文档项目，我们推荐使用 Sphinx。"
 
 #: ../../upstream/docs/user/tutorials/index.rst:17
 msgid "⏩️ :doc:`/intro/mkdocs`"
-msgstr ""
+msgstr "⏩️ :doc:`/intro/mkdocs`"
 
 #: ../../upstream/docs/user/tutorials/index.rst:18
 msgid ""
-"Another great and popular tool is MkDocs. This is especially popular "
-"because of its default of using Markdown. This tool is well-supported on "
-"our platform and that's why we have a tutorial."
-msgstr ""
+"Another great and popular tool is MkDocs. This is especially popular because"
+" of its default of using Markdown. This tool is well-supported on our "
+"platform and that's why we have a tutorial."
+msgstr "另一个优秀且流行的工具是 MkDocs。它因默认使用 Markdown 而特别受欢迎。该工具在我们的平台上得到了很好的支持，因此我们提供了相应教程。"
 
 #: ../../upstream/docs/user/tutorials/index.rst:22
 msgid "⏩️ :doc:`/intro/add-project`"
-msgstr ""
+msgstr "⏩️ :doc:`/intro/add-project`"
 
 #: ../../upstream/docs/user/tutorials/index.rst:23
 msgid ""
 "If you already wrote your documentation, this guide will help you get "
 "started at the most natural point: importing an existing documentation "
 "project."
-msgstr ""
+msgstr "如果你已经编写好了文档，本指南将帮助你在最自然的起点开始：导入现有的文档项目。"
 
 #: ../../upstream/docs/user/tutorials/index.rst:27
 msgid "⏩️ :doc:`/config-file/index`"
-msgstr ""
+msgstr "⏩️ :doc:`/config-file/index`"
 
 #: ../../upstream/docs/user/tutorials/index.rst:28
 msgid "Practical steps to add a configuration file to your documentation project."
-msgstr ""
+msgstr "向文档项目添加配置文件的实际步骤。"
 
 #: ../../upstream/docs/user/tutorials/index.rst:30
 msgid "⏩️ :doc:`/examples`"
-msgstr ""
+msgstr "⏩️ :doc:`/examples`"
 
 #: ../../upstream/docs/user/tutorials/index.rst:31
 msgid ""
 "If you are bootstrapping a new documentation project, here is a list of "
 "example projects that you can derive your setup from."
-msgstr ""
+msgstr "如果你正在新建一个文档项目，这里列出了一系列示例项目，你可以参考它们来搭建自己的配置。"
 

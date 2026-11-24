@@ -22,67 +22,67 @@ msgstr ""
 
 #: ../../upstream/docs/user/intro/mdbook.rst:-1
 msgid "Learn how to host mdBook documentation on Read the Docs."
-msgstr ""
+msgstr "了解如何在 Read the Docs 上托管 mdBook 文档。"
 
 #: ../../upstream/docs/user/intro/mdbook.rst:3
 msgid "Deploying mdBook on Read the Docs"
-msgstr ""
+msgstr "在 Read the Docs 上部署 mdBook"
 
 #: ../../upstream/docs/user/intro/mdbook.rst:8
 msgid "`mdBook`_ is a command line tool to create books with Markdown."
-msgstr ""
+msgstr "`mdBook`_ 是一个用 Markdown 创建书籍的命令行工具。"
 
 #: ../../upstream/docs/user/intro/mdbook.rst:10
 msgid ""
 "Minimal configuration is required to build an existing mdBook project on "
 "Read the Docs."
-msgstr ""
+msgstr "在 Read the Docs 上构建现有 mdBook 项目所需的配置极少。"
 
 #: ../../upstream/docs/user/intro/mdbook.rst:12
 msgid ".readthedocs.yaml"
-msgstr ""
+msgstr ".readthedocs.yaml"
 
 #: ../../upstream/docs/user/intro/mdbook.rst:33
 msgid "Getting started"
-msgstr ""
+msgstr "快速入门"
 
 #: ../../upstream/docs/user/intro/mdbook.rst:35
 msgid ""
-"If you have an existing mdBook project you want to host on Read the Docs,"
-" check out our :doc:`/intro/add-project` guide."
-msgstr ""
+"If you have an existing mdBook project you want to host on Read the Docs, "
+"check out our :doc:`/intro/add-project` guide."
+msgstr "如果你已有想在 Read the Docs 上托管的 mdBook 项目，请参阅 :doc:`/intro/add-project` 指南。"
 
 #: ../../upstream/docs/user/intro/mdbook.rst:36
 msgid ""
 "If you're new to mdBook, check out the official `Getting started with "
 "mdBook`_ guide."
-msgstr ""
+msgstr "如果你还不熟悉 mdBook，请参阅官方的 `Getting started with mdBook`_ 指南。"
 
 #: ../../upstream/docs/user/intro/mdbook.rst:41
 msgid "Example repository and demo"
-msgstr ""
+msgstr "示例仓库与演示"
 
 #: ../../upstream/docs/user/intro/mdbook.rst:43
 msgid "Example repository"
-msgstr ""
+msgstr "示例仓库"
 
 #: ../../upstream/docs/user/intro/mdbook.rst:44
 msgid "https://github.com/readthedocs/test-builds/tree/mdbook"
-msgstr ""
+msgstr "https://github.com/readthedocs/test-builds/tree/mdbook"
 
 #: ../../upstream/docs/user/intro/mdbook.rst:46
 msgid "Demo"
-msgstr ""
+msgstr "演示"
 
 #: ../../upstream/docs/user/intro/mdbook.rst:47
 msgid "https://test-builds.readthedocs.io/en/mdbook/"
-msgstr ""
+msgstr "https://test-builds.readthedocs.io/en/mdbook/"
 
 #: ../../upstream/docs/user/intro/mdbook.rst:50
 msgid "Further reading"
-msgstr ""
+msgstr "延伸阅读"
 
 #: ../../upstream/docs/user/intro/mdbook.rst:52
 msgid "`mdBook documentation`_"
-msgstr ""
+msgstr "`mdBook documentation`_"
 

@@ -22,71 +22,73 @@ msgstr ""
 
 #: ../../upstream/docs/user/intro/mystmd.rst:-1
 msgid "Learn how to host MyST Markdown documentation on Read the Docs."
-msgstr ""
+msgstr "了解如何在 Read the Docs 上托管 MyST Markdown 文档。"
 
 #: ../../upstream/docs/user/intro/mystmd.rst:2
 msgid "Deploying MyST Markdown on Read the Docs"
-msgstr ""
+msgstr "在 Read the Docs 上部署 MyST Markdown"
 
 #: ../../upstream/docs/user/intro/mystmd.rst:7
 msgid ""
-"`MyST Markdown`_ is a set of open-source, community-driven tools designed"
-" for scientific communication, including a powerful authoring framework "
-"that supports blogs, online books, scientific papers, reports and journal"
-" articles."
+"`MyST Markdown`_ is a set of open-source, community-driven tools designed "
+"for scientific communication, including a powerful authoring framework that "
+"supports blogs, online books, scientific papers, reports and journal "
+"articles."
 msgstr ""
+"`MyST Markdown`_ "
+"是一套开源、社区驱动的工具，专为科学交流而设计，其中包含一个强大的创作框架，支持博客、在线书籍、科学论文、报告和期刊文章。"
 
 #: ../../upstream/docs/user/intro/mystmd.rst:10
 msgid ""
-"Minimal configuration is required to build an existing MyST Markdown "
-"project on Read the Docs."
-msgstr ""
+"Minimal configuration is required to build an existing MyST Markdown project"
+" on Read the Docs."
+msgstr "在 Read the Docs 上构建现有 MyST Markdown 项目所需的配置极少。"
 
 #: ../../upstream/docs/user/intro/mystmd.rst:12
 msgid ".readthedocs.yaml"
-msgstr ""
+msgstr ".readthedocs.yaml"
 
 #: ../../upstream/docs/user/intro/mystmd.rst:37
 msgid "Getting started"
-msgstr ""
+msgstr "快速入门"
 
 #: ../../upstream/docs/user/intro/mystmd.rst:39
 msgid ""
-"If you have an existing MyST Markdown project you want to host on Read "
-"the Docs, check out our :doc:`/intro/add-project` guide."
-msgstr ""
+"If you have an existing MyST Markdown project you want to host on Read the "
+"Docs, check out our :doc:`/intro/add-project` guide."
+msgstr "如果你已有想在 Read the Docs 上托管的 MyST Markdown 项目，请参阅 :doc:`/intro/add-project` 指南。"
 
 #: ../../upstream/docs/user/intro/mystmd.rst:40
 msgid ""
 "If you're new to MyST Markdown, check out the official `MyST quickstart "
 "guide`_."
-msgstr ""
+msgstr "如果你还不熟悉 MyST Markdown，请参阅官方的 `MyST quickstart guide`_。"
 
 #: ../../upstream/docs/user/intro/mystmd.rst:45
 msgid "Example repository and demo"
-msgstr ""
+msgstr "示例仓库与演示"
 
 #: ../../upstream/docs/user/intro/mystmd.rst:47
 msgid "Example repository"
-msgstr ""
+msgstr "示例仓库"
 
 #: ../../upstream/docs/user/intro/mystmd.rst:48
 msgid "https://github.com/readthedocs/test-builds/tree/mystmd"
-msgstr ""
+msgstr "https://github.com/readthedocs/test-builds/tree/mystmd"
 
 #: ../../upstream/docs/user/intro/mystmd.rst:50
 msgid "Demo"
-msgstr ""
+msgstr "演示"
 
 #: ../../upstream/docs/user/intro/mystmd.rst:51
 msgid "https://test-builds.readthedocs.io/en/mystmd/"
-msgstr ""
+msgstr "https://test-builds.readthedocs.io/en/mystmd/"
 
 #: ../../upstream/docs/user/intro/mystmd.rst:54
 msgid "Further reading"
-msgstr ""
+msgstr "延伸阅读"
 
 #: ../../upstream/docs/user/intro/mystmd.rst:56
 msgid "`MyST Markdown documentation`_"
-msgstr ""
+msgstr "`MyST Markdown documentation`_"
 

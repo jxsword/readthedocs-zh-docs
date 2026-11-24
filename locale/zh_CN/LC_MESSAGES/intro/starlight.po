@@ -22,95 +22,96 @@ msgstr ""
 
 #: ../../upstream/docs/user/intro/starlight.rst:-1
 msgid "Learn how to host Starlight documentation on Read the Docs."
-msgstr ""
+msgstr "了解如何在 Read the Docs 上托管 Starlight 文档。"
 
 #: ../../upstream/docs/user/intro/starlight.rst:3
 msgid "Deploying Starlight on Read the Docs"
-msgstr ""
+msgstr "在 Read the Docs 上部署 Starlight"
 
 #: ../../upstream/docs/user/intro/starlight.rst:12
 msgid ""
-"`Starlight`_ is a documentation framework built on top of the `Astro`_ "
-"web framework."
-msgstr ""
+"`Starlight`_ is a documentation framework built on top of the `Astro`_ web "
+"framework."
+msgstr "`Starlight`_ 是一个构建在 `Astro`_ Web 框架之上的文档框架。"
 
 #: ../../upstream/docs/user/intro/starlight.rst:14
 msgid ""
-"Minimal configuration is required to build an existing Starlight project "
-"on Read the Docs."
-msgstr ""
+"Minimal configuration is required to build an existing Starlight project on "
+"Read the Docs."
+msgstr "在 Read the Docs 上构建现有 Starlight 项目所需的配置极少。"
 
 #: ../../upstream/docs/user/intro/starlight.rst:16
 msgid ".readthedocs.yaml"
-msgstr ""
+msgstr ".readthedocs.yaml"
 
 #: ../../upstream/docs/user/intro/starlight.rst:42
 msgid "Getting started"
-msgstr ""
+msgstr "快速入门"
 
 #: ../../upstream/docs/user/intro/starlight.rst:44
 msgid ""
-"If you have an existing Starlight project you want to host on Read the "
-"Docs, check out our :doc:`/intro/add-project` guide."
-msgstr ""
+"If you have an existing Starlight project you want to host on Read the Docs,"
+" check out our :doc:`/intro/add-project` guide."
+msgstr "如果你已有想在 Read the Docs 上托管的 Starlight 项目，请参阅 :doc:`/intro/add-project` 指南。"
 
 #: ../../upstream/docs/user/intro/starlight.rst:45
 msgid ""
 "If you're new to Starlight, check out the official `Getting started with "
 "Starlight`_ guide."
-msgstr ""
+msgstr "如果你还不熟悉 Starlight，请参阅官方的 `Getting started with Starlight`_ 指南。"
 
 #: ../../upstream/docs/user/intro/starlight.rst:50
 msgid "Using the proper base path"
-msgstr ""
+msgstr "使用正确的基础路径"
 
 #: ../../upstream/docs/user/intro/starlight.rst:52
 msgid ""
 "To ensure that your Starlight site works correctly on Read the Docs, you "
-"need to set the ``site`` and ``base`` options in your Astro "
-"configuration:"
+"need to set the ``site`` and ``base`` options in your Astro configuration:"
 msgstr ""
+"为确保你的 Starlight 站点在 Read the Docs 上正常运行，你需要在 Astro 配置中设置 ``site`` 和 ``base``"
+" 选项："
 
 #: ../../upstream/docs/user/intro/starlight.rst:55
 msgid "astro.config.mjs"
-msgstr ""
+msgstr "astro.config.mjs"
 
 #: ../../upstream/docs/user/intro/starlight.rst:78
 msgid ""
 "Links starting with ``/`` in your content are not prefixed with the base "
-"path. Use relative links (e.g. ``./guides/example/``) so they work under "
-"the version path."
-msgstr ""
+"path. Use relative links (e.g. ``./guides/example/``) so they work under the"
+" version path."
+msgstr "内容中以 ``/`` 开头的链接不会添加基础路径前缀。请使用相对链接（例如 ``./guides/example/``），以便它们在版本路径下正常工作。"
 
 #: ../../upstream/docs/user/intro/starlight.rst:82
 msgid "Example repository and demo"
-msgstr ""
+msgstr "示例仓库与演示"
 
 #: ../../upstream/docs/user/intro/starlight.rst:84
 msgid "Example repository"
-msgstr ""
+msgstr "示例仓库"
 
 #: ../../upstream/docs/user/intro/starlight.rst:85
 msgid "https://github.com/readthedocs/test-builds/tree/starlight"
-msgstr ""
+msgstr "https://github.com/readthedocs/test-builds/tree/starlight"
 
 #: ../../upstream/docs/user/intro/starlight.rst:87
 msgid "Demo"
-msgstr ""
+msgstr "演示"
 
 #: ../../upstream/docs/user/intro/starlight.rst:88
 msgid "https://test-builds.readthedocs.io/en/starlight/"
-msgstr ""
+msgstr "https://test-builds.readthedocs.io/en/starlight/"
 
 #: ../../upstream/docs/user/intro/starlight.rst:91
 msgid "Further reading"
-msgstr ""
+msgstr "延伸阅读"
 
 #: ../../upstream/docs/user/intro/starlight.rst:93
 msgid "`Starlight documentation`_"
-msgstr ""
+msgstr "`Starlight documentation`_"
 
 #: ../../upstream/docs/user/intro/starlight.rst:94
 msgid "`Astro documentation`_"
-msgstr ""
+msgstr "`Astro documentation`_"
 

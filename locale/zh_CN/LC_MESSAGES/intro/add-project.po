@@ -22,163 +22,169 @@ msgstr ""
 
 #: ../../upstream/docs/user/intro/add-project.rst:-1
 msgid "Add your existing documentation from a Git repository into Read the Docs."
-msgstr ""
+msgstr "将你现有的文档从 Git 仓库添加到 Read the Docs。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:2
 msgid "Adding a documentation project"
-msgstr ""
+msgstr "添加文档项目"
 
 #: ../../upstream/docs/user/intro/add-project.rst:7
 msgid ""
-"This page takes you through the process of adding a documentation project"
-" to Read the Docs. If you have :doc:`connected your Read the Docs account"
-" </guides/connecting-git-account>` to GitHub, Bitbucket, or GitLab, and "
-"you have admin access to the repository you want to add, you will be able"
-" to add your project automatically. Otherwise, you will need to add it "
-"manually and perform some extra steps."
+"This page takes you through the process of adding a documentation project to"
+" Read the Docs. If you have :doc:`connected your Read the Docs account "
+"</guides/connecting-git-account>` to GitHub, Bitbucket, or GitLab, and you "
+"have admin access to the repository you want to add, you will be able to add"
+" your project automatically. Otherwise, you will need to add it manually and"
+" perform some extra steps."
 msgstr ""
+"本页将引导你完成向 Read the Docs 添加文档项目的过程。如果你已经 :doc:`将 Read the Docs 账户关联 </guides"
+"/connecting-git-account>` 到 GitHub、Bitbucket 或 "
+"GitLab，并且对要添加的仓库拥有管理员权限，就可以自动添加项目。否则，你需要手动添加并执行一些额外步骤。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:14
 msgid "Automatically add your project"
-msgstr ""
+msgstr "自动添加项目"
 
 #: ../../upstream/docs/user/intro/add-project.rst:16
 #: ../../upstream/docs/user/intro/add-project.rst:36
 msgid "Go to your :term:`dashboard`."
-msgstr ""
+msgstr "前往你的 :term:`dashboard`。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:17
 #: ../../upstream/docs/user/intro/add-project.rst:37
 msgid "Click on :guilabel:`Add project`."
-msgstr ""
+msgstr "点击 :guilabel:`Add project`。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:18
 msgid ""
-"Type the name of the repository you want to add and click on it. If you "
-"are using our :ref:`reference/git-integration:GitHub App`, make sure you "
-"have installed the :ref:`Read the Docs GitHub App <reference/git-"
+"Type the name of the repository you want to add and click on it. If you are "
+"using our :ref:`reference/git-integration:GitHub App`, make sure you have "
+"installed the :ref:`Read the Docs GitHub App <reference/git-"
 "integration:Troubleshooting>` in your repository."
 msgstr ""
+"输入你要添加的仓库名称并点击它。如果你正在使用我们的 :ref:`reference/git-integration:GitHub "
+"App`，请确保已在你的仓库中安装 :ref:`Read the Docs GitHub App <reference/git-"
+"integration:Troubleshooting>`。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:21
 #: ../../upstream/docs/user/intro/add-project.rst:39
 msgid "Click on :guilabel:`Continue`."
-msgstr ""
+msgstr "点击 :guilabel:`Continue`。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:22
 msgid "Edit any of the pre-filled fields with information of the repository."
-msgstr ""
+msgstr "根据仓库信息修改任何预填充的字段。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:23
 #: ../../upstream/docs/user/intro/add-project.rst:41
 msgid "Click on :guilabel:`Next`."
-msgstr ""
+msgstr "点击 :guilabel:`Next`。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:24
 #: ../../upstream/docs/user/intro/add-project.rst:42
-msgid ""
-"Add a :term:`configuration file` to your repository if it doesn't exist "
-"yet."
-msgstr ""
+msgid "Add a :term:`configuration file` to your repository if it doesn't exist yet."
+msgstr "如果你的仓库中还没有 :term:`configuration file`，请添加一个。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:25
 #: ../../upstream/docs/user/intro/add-project.rst:43
 msgid "Click on :guilabel:`This file exists`."
-msgstr ""
+msgstr "点击 :guilabel:`This file exists`。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:29
 msgid ":doc:`/reference/git-integration`"
-msgstr ""
+msgstr ":doc:`/reference/git-integration`"
 
 #: ../../upstream/docs/user/intro/add-project.rst:30
 msgid ""
-"Your project will be automatically configured with a Git integration. "
-"Learn more about all the features enabled by that integration on this "
-"page."
-msgstr ""
+"Your project will be automatically configured with a Git integration. Learn "
+"more about all the features enabled by that integration on this page."
+msgstr "你的项目将自动配置 Git 集成。在此页面了解该集成启用的所有功能。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:34
 msgid "Manually add your project"
-msgstr ""
+msgstr "手动添加项目"
 
 #: ../../upstream/docs/user/intro/add-project.rst:38
 msgid "Click on :guilabel:`Configure manually`."
-msgstr ""
+msgstr "点击 :guilabel:`Configure manually`。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:40
 msgid "Fill all the fields of the form."
-msgstr ""
+msgstr "填写表单中的所有字段。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:45
 msgid ""
 "Once your project is created, you'll need to manually configure the "
-"repository webhook if you would like to have new changes trigger builds "
-"for your project on Read the Docs."
-msgstr ""
+"repository webhook if you would like to have new changes trigger builds for "
+"your project on Read the Docs."
+msgstr "项目创建后，如果你希望新的变更能在 Read the Docs 上触发项目构建，就需要手动配置仓库 Webhook。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:49
 msgid ":doc:`/guides/setup/git-repo-manual`"
-msgstr ""
+msgstr ":doc:`/guides/setup/git-repo-manual`"
 
 #: ../../upstream/docs/user/intro/add-project.rst:50
 msgid ""
-"Additional setup steps required for manually created projects. This guide"
-" covers setting up SSH keys and webhook integrations."
-msgstr ""
+"Additional setup steps required for manually created projects. This guide "
+"covers setting up SSH keys and webhook integrations."
+msgstr "手动创建的项目所需的额外设置步骤。本指南介绍如何设置 SSH 密钥和 Webhook 集成。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:53
 msgid "Build your documentation outside Read the Docs"
-msgstr ""
+msgstr "在 Read the Docs 之外构建文档"
 
 #: ../../upstream/docs/user/intro/add-project.rst:55
 msgid ""
-"If you build your documentation in your own pipeline, for example in "
-"GitHub Actions, choose :guilabel:`Build externally and upload` instead of"
-" adding a configuration file, and click on :guilabel:`I will upload my "
-"documentation`. Read the Docs won't build your project, and your pipeline"
-" uploads the documentation instead. See :doc:`/guides/build/direct-"
-"upload` for the complete setup."
+"If you build your documentation in your own pipeline, for example in GitHub "
+"Actions, choose :guilabel:`Build externally and upload` instead of adding a "
+"configuration file, and click on :guilabel:`I will upload my documentation`."
+" Read the Docs won't build your project, and your pipeline uploads the "
+"documentation instead. See :doc:`/guides/build/direct-upload` for the "
+"complete setup."
 msgstr ""
+"如果你在自己的流水线中构建文档（例如在 GitHub Actions 中），请选择 :guilabel:`Build externally and "
+"upload` 而不是添加配置文件，然后点击 :guilabel:`I will upload my documentation`。Read the "
+"Docs 不会构建你的项目，而是由你的流水线上传文档。完整设置请参阅 :doc:`/guides/build/direct-upload`。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:62
 msgid "What's next"
-msgstr ""
+msgstr "下一步"
 
 #: ../../upstream/docs/user/intro/add-project.rst:64
 msgid ""
-"Once your documentation project is created, a build will be triggered. It"
-" will automatically fetch the code from your repository and build the "
+"Once your documentation project is created, a build will be triggered. It "
+"will automatically fetch the code from your repository and build the "
 "documentation. You can see the logs for the build process from your "
 ":term:`dashboard`."
-msgstr ""
+msgstr "文档项目创建后，将触发一次构建。它会自动从你的仓库获取代码并构建文档。你可以从 :term:`dashboard` 查看构建过程的日志。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:70
 msgid ":doc:`/builds`"
-msgstr ""
+msgstr ":doc:`/builds`"
 
 #: ../../upstream/docs/user/intro/add-project.rst:71
 msgid "Explanation about the build process."
-msgstr ""
+msgstr "关于构建过程的说明。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:73
 msgid ":doc:`/config-file/index`"
-msgstr ""
+msgstr ":doc:`/config-file/index`"
 
 #: ../../upstream/docs/user/intro/add-project.rst:74
 msgid "Practical steps to add a configuration file to your documentation project."
-msgstr ""
+msgstr "向文档项目添加配置文件的实际步骤。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:76
 msgid ":doc:`/versions`"
-msgstr ""
+msgstr ":doc:`/versions`"
 
 #: ../../upstream/docs/user/intro/add-project.rst:77
 msgid "Manage multiple versions of your documentation project."
-msgstr ""
+msgstr "管理文档项目的多个版本。"
 
 #: ../../upstream/docs/user/intro/add-project.rst:79
 msgid ""
 "If you have any trouble, don't hesitate to reach out to us. The "
 ":doc:`support </support>` page has more information on getting in touch."
-msgstr ""
+msgstr "如果遇到任何问题，欢迎随时联系我们。:doc:`support </support>` 页面提供了更多联系方式。"
 

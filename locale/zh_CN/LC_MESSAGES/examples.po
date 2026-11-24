@@ -22,163 +22,168 @@ msgstr ""
 
 #: ../../upstream/docs/user/examples.rst:2
 msgid "Example projects"
-msgstr ""
+msgstr "示例项目"
 
 #: ../../upstream/docs/user/examples.rst:4
 msgid ""
-"The following example projects show a rich variety of uses of Read the "
-"Docs. You can use them for inspiration, for learning and for recipes to "
-"start your own documentation projects. View the *rendered* version of "
-"each project and then head over to the Git repository to see how it's "
-"done and reuse the code."
+"The following example projects show a rich variety of uses of Read the Docs."
+" You can use them for inspiration, for learning and for recipes to start "
+"your own documentation projects. View the *rendered* version of each project"
+" and then head over to the Git repository to see how it's done and reuse the"
+" code."
 msgstr ""
+"以下示例项目展示了 Read the Docs "
+"的丰富用法。你可以从中获取灵感、学习经验，并借鉴方法来启动自己的文档项目。查看每个项目的*渲染*版本，然后前往 Git 仓库了解其实现方式并复用代码。"
 
 #: ../../upstream/docs/user/examples.rst:9
 msgid "Real-life examples"
-msgstr ""
+msgstr "真实案例"
 
 #: ../../upstream/docs/user/examples.rst:11
 msgid ""
-"We maintain an Awesome List where you can contribute new shiny examples "
-"of using Read the Docs. Please refer to the instructions on how to submit"
-" new entries on `Awesome Read the Docs Projects <https://github.com"
-"/readthedocs-examples/awesome-read-the-docs>`__."
+"We maintain an Awesome List where you can contribute new shiny examples of "
+"using Read the Docs. Please refer to the instructions on how to submit new "
+"entries on `Awesome Read the Docs Projects <https://github.com/readthedocs-"
+"examples/awesome-read-the-docs>`__."
 msgstr ""
+"我们维护了一份 Awesome 列表，你可以在其中贡献使用 Read the Docs 的新颖示例。关于如何提交新条目的说明，请参阅 `Awesome "
+"Read the Docs Projects <https://github.com/readthedocs-examples/awesome-"
+"read-the-docs>`__。"
 
 #: ../../upstream/docs/user/examples.rst:15
 msgid "Minimal basic examples"
-msgstr ""
+msgstr "最小化基础示例"
 
 #: ../../upstream/docs/user/examples.rst:18
 msgid "Sphinx"
-msgstr ""
+msgstr "Sphinx"
 
 #: ../../upstream/docs/user/examples.rst:20
 msgid "Sphinx example with versioning and Python doc autogeneration."
-msgstr ""
+msgstr "包含版本管理和 Python 文档自动生成的 Sphinx 示例。"
 
 #: ../../upstream/docs/user/examples.rst:22
 #: ../../upstream/docs/user/examples.rst:34
 #: ../../upstream/docs/user/examples.rst:46
 #: ../../upstream/docs/user/examples.rst:58
 msgid "Markup language"
-msgstr ""
+msgstr "标记语言"
 
 #: ../../upstream/docs/user/examples.rst:23
 msgid "reStructuredText, Markdown or MyST"
-msgstr ""
+msgstr "reStructuredText、Markdown 或 MyST"
 
 #: ../../upstream/docs/user/examples.rst:24
 #: ../../upstream/docs/user/examples.rst:36
 #: ../../upstream/docs/user/examples.rst:48
 #: ../../upstream/docs/user/examples.rst:60
 msgid "Rendered version"
-msgstr ""
+msgstr "渲染版本"
 
 #: ../../upstream/docs/user/examples.rst:25
 msgid "https://example-sphinx-basic.readthedocs.io/en/latest/"
-msgstr ""
+msgstr "https://example-sphinx-basic.readthedocs.io/en/latest/"
 
 #: ../../upstream/docs/user/examples.rst:26
 #: ../../upstream/docs/user/examples.rst:38
 #: ../../upstream/docs/user/examples.rst:50
 #: ../../upstream/docs/user/examples.rst:62
 msgid "Repository"
-msgstr ""
+msgstr "仓库"
 
 #: ../../upstream/docs/user/examples.rst:27
 msgid "https://github.com/readthedocs-examples/example-sphinx-basic/"
-msgstr ""
+msgstr "https://github.com/readthedocs-examples/example-sphinx-basic/"
 
 #: ../../upstream/docs/user/examples.rst:30
 msgid "MkDocs"
-msgstr ""
+msgstr "MkDocs"
 
 #: ../../upstream/docs/user/examples.rst:32
 msgid "Basic example of using MkDocs."
-msgstr ""
+msgstr "使用 MkDocs 的基础示例。"
 
 #: ../../upstream/docs/user/examples.rst:35
 msgid "Markdown"
-msgstr ""
+msgstr "Markdown"
 
 #: ../../upstream/docs/user/examples.rst:37
 msgid "https://example-mkdocs-basic.readthedocs.io/en/latest/"
-msgstr ""
+msgstr "https://example-mkdocs-basic.readthedocs.io/en/latest/"
 
 #: ../../upstream/docs/user/examples.rst:39
 msgid "https://github.com/readthedocs-examples/example-mkdocs-basic/"
-msgstr ""
+msgstr "https://github.com/readthedocs-examples/example-mkdocs-basic/"
 
 #: ../../upstream/docs/user/examples.rst:42
 msgid "Jupyter Book"
-msgstr ""
+msgstr "Jupyter Book"
 
 #: ../../upstream/docs/user/examples.rst:44
 msgid "Jupyter Book with popular integrations configured."
-msgstr ""
+msgstr "配置了常用集成的 Jupyter Book。"
 
 #: ../../upstream/docs/user/examples.rst:47
 msgid "MyST"
-msgstr ""
+msgstr "MyST"
 
 #: ../../upstream/docs/user/examples.rst:49
 msgid "https://example-jupyter-book.readthedocs.io/"
-msgstr ""
+msgstr "https://example-jupyter-book.readthedocs.io/"
 
 #: ../../upstream/docs/user/examples.rst:51
 msgid "https://github.com/readthedocs-examples/example-jupyter-book/"
-msgstr ""
+msgstr "https://github.com/readthedocs-examples/example-jupyter-book/"
 
 #: ../../upstream/docs/user/examples.rst:54
 msgid "Antora"
-msgstr ""
+msgstr "Antora"
 
 #: ../../upstream/docs/user/examples.rst:56
 msgid ""
-"Antora with asciidoctor-kroki extension configured for AsciiDoc and "
-"Diagram as Code."
-msgstr ""
+"Antora with asciidoctor-kroki extension configured for AsciiDoc and Diagram "
+"as Code."
+msgstr "配置了 asciidoctor-kroki 扩展的 Antora，支持 AsciiDoc 和 Diagram as Code。"
 
 #: ../../upstream/docs/user/examples.rst:59
 msgid "AsciiDoc"
-msgstr ""
+msgstr "AsciiDoc"
 
 #: ../../upstream/docs/user/examples.rst:61
 msgid "https://example-antora-basic.readthedocs.io/"
-msgstr ""
+msgstr "https://example-antora-basic.readthedocs.io/"
 
 #: ../../upstream/docs/user/examples.rst:63
 msgid "https://github.com/man-chi/example-antora-basic/"
-msgstr ""
+msgstr "https://github.com/man-chi/example-antora-basic/"
 
 #: ../../upstream/docs/user/examples.rst:66
 msgid "Contributing an example project"
-msgstr ""
+msgstr "贡献示例项目"
 
 #: ../../upstream/docs/user/examples.rst:68
 msgid ""
-"We would love to add more examples that showcase features of Read the "
-"Docs or great tools or methods to build documentation projects."
-msgstr ""
+"We would love to add more examples that showcase features of Read the Docs "
+"or great tools or methods to build documentation projects."
+msgstr "我们非常希望收录更多示例，展示 Read the Docs 的功能，或构建文档项目的优秀工具与方法。"
 
 #: ../../upstream/docs/user/examples.rst:70
 msgid "We **require** that an example project:"
-msgstr ""
+msgstr "我们**要求**示例项目："
 
 #: ../../upstream/docs/user/examples.rst:72
 msgid ""
 "is **hosted and maintained by you** in its own Git repository, "
 "``example-<topic>``."
-msgstr ""
+msgstr "由**你本人托管和维护**在独立的 Git 仓库中，命名为 ``example-<topic>``。"
 
 #: ../../upstream/docs/user/examples.rst:73
 msgid "contains a README."
-msgstr ""
+msgstr "包含 README。"
 
 #: ../../upstream/docs/user/examples.rst:74
 msgid "uses a ``.readthedocs.yaml`` configuration."
-msgstr ""
+msgstr "使用 ``.readthedocs.yaml`` 配置。"
 
 #: ../../upstream/docs/user/examples.rst:75
 msgid ""
@@ -186,36 +191,39 @@ msgid ""
 "<https://github.com/readthedocs/readthedocs.org/blob/main/docs/user/examples.rst>`_"
 " file from our documentation."
 msgstr ""
+"通过**提交 PR** 添加到上述列表，目标为我们文档中的 `examples.rst "
+"<https://github.com/readthedocs/readthedocs.org/blob/main/docs/user/examples.rst>`_"
+" 文件。"
 
 #: ../../upstream/docs/user/examples.rst:78
 msgid "We **recommend** that your project:"
-msgstr ""
+msgstr "我们**建议**你的项目："
 
 #: ../../upstream/docs/user/examples.rst:80
 msgid "has **continuous integration and PR builds**."
-msgstr ""
+msgstr "具备**持续集成和 PR 构建**。"
 
 #: ../../upstream/docs/user/examples.rst:81
 msgid "is **versioned** as a real software project, i.e. using git tags."
-msgstr ""
+msgstr "像真实软件项目一样**进行版本管理**，例如使用 git 标签。"
 
 #: ../../upstream/docs/user/examples.rst:82
 msgid ""
 "covers your most important scenarios, but references external real-life "
 "projects whenever possible."
-msgstr ""
+msgstr "涵盖你最重要的场景，但尽可能引用外部真实项目。"
 
 #: ../../upstream/docs/user/examples.rst:83
 msgid ""
 "has a minimal tech stack -- or whatever you feel comfortable about "
 "maintaining."
-msgstr ""
+msgstr "使用最小化的技术栈——或任何你有信心维护的技术栈。"
 
 #: ../../upstream/docs/user/examples.rst:84
 msgid "copies from an existing example project as a template to get started."
-msgstr ""
+msgstr "从现有示例项目复制作为模板来快速开始。"
 
 #: ../../upstream/docs/user/examples.rst:86
 msgid "We're excited to see what you come up with!"
-msgstr ""
+msgstr "我们期待看到你的成果！"
 

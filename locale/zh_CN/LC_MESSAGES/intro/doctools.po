@@ -22,35 +22,34 @@ msgstr ""
 
 #: ../../upstream/docs/user/intro/doctools.rst:2
 msgid "Popular documentation tools"
-msgstr ""
+msgstr "常用文档工具"
 
 #: ../../upstream/docs/user/intro/doctools.rst:4
 msgid ""
-"Read the Docs provides documentation hosting for any tool that can output"
-" HTML. We provide a number of features that are well-suited to "
-"documentation specifically, but you can host any kind of HTML content on "
-"Read the Docs."
+"Read the Docs provides documentation hosting for any tool that can output "
+"HTML. We provide a number of features that are well-suited to documentation "
+"specifically, but you can host any kind of HTML content on Read the Docs."
 msgstr ""
+"Read the Docs 为任何能够输出 HTML 的工具提供文档托管。我们提供了许多特别适合文档的功能，但你也可以在 Read the Docs "
+"上托管任何类型的 HTML 内容。"
 
 #: ../../upstream/docs/user/intro/doctools.rst:8
 msgid ""
 "Below is a list of popular documentation tools that you can use to write "
 "your documentation."
-msgstr ""
+msgstr "下面列出了一些可用于编写文档的常用文档工具。"
 
 #: ../../upstream/docs/user/intro/doctools.rst:12
-msgid ""
-":doc:`/build-customization` Learn how to build documentation with any "
-"tool."
-msgstr ""
+msgid ":doc:`/build-customization` Learn how to build documentation with any tool."
+msgstr ":doc:`/build-customization` 了解如何使用任意工具构建文档。"
 
 #: ../../upstream/docs/user/intro/doctools.rst:17
 msgid "MkDocs"
-msgstr ""
+msgstr "MkDocs"
 
 #: ../../upstream/docs/user/intro/doctools.rst:20
 msgid "MkDocs is a powerful documentation tool for markdown."
-msgstr ""
+msgstr "MkDocs 是一个强大的 Markdown 文档工具。"
 
 #: ../../upstream/docs/user/intro/doctools.rst:22
 #: ../../upstream/docs/user/intro/doctools.rst:32
@@ -63,7 +62,7 @@ msgstr ""
 #: ../../upstream/docs/user/intro/doctools.rst:104
 #: ../../upstream/docs/user/intro/doctools.rst:115
 msgid "Supported formats"
-msgstr ""
+msgstr "支持的格式"
 
 #: ../../upstream/docs/user/intro/doctools.rst:23
 #: ../../upstream/docs/user/intro/doctools.rst:33
@@ -71,7 +70,7 @@ msgstr ""
 #: ../../upstream/docs/user/intro/doctools.rst:84
 #: ../../upstream/docs/user/intro/doctools.rst:94
 msgid ":bdg-success:`md`"
-msgstr ""
+msgstr ":bdg-success:`md`"
 
 #: ../../upstream/docs/user/intro/doctools.rst:24
 #: ../../upstream/docs/user/intro/doctools.rst:34
@@ -84,142 +83,141 @@ msgstr ""
 #: ../../upstream/docs/user/intro/doctools.rst:107
 #: ../../upstream/docs/user/intro/doctools.rst:118
 msgid "Written in"
-msgstr ""
+msgstr "编写语言"
 
 #: ../../upstream/docs/user/intro/doctools.rst:25
 #: ../../upstream/docs/user/intro/doctools.rst:56
 msgid ":bdg-info:`python`"
-msgstr ""
+msgstr ":bdg-info:`python`"
 
 #: ../../upstream/docs/user/intro/doctools.rst:27
 msgid "Zensical"
-msgstr ""
+msgstr "Zensical"
 
 #: ../../upstream/docs/user/intro/doctools.rst:30
 msgid ""
-"Zensical is a static-site generator built by the creators of Material for"
-" MkDocs."
-msgstr ""
+"Zensical is a static-site generator built by the creators of Material for "
+"MkDocs."
+msgstr "Zensical 是由 Material for MkDocs 的创建者开发的静态站点生成器。"
 
 #: ../../upstream/docs/user/intro/doctools.rst:35
 msgid ":bdg-info:`rust` :bdg-info:`python`"
-msgstr ""
+msgstr ":bdg-info:`rust` :bdg-info:`python`"
 
 #: ../../upstream/docs/user/intro/doctools.rst:37
 msgid "Starlight"
-msgstr ""
+msgstr "Starlight"
 
 #: ../../upstream/docs/user/intro/doctools.rst:40
 msgid ""
 "Starlight is a documentation framework built on top of the Astro web "
 "framework."
-msgstr ""
+msgstr "Starlight 是一个构建在 Astro Web 框架之上的文档框架。"
 
 #: ../../upstream/docs/user/intro/doctools.rst:43
 msgid ":bdg-success:`md` :bdg-success:`mdx`"
-msgstr ""
+msgstr ":bdg-success:`md` :bdg-success:`mdx`"
 
 #: ../../upstream/docs/user/intro/doctools.rst:46
 #: ../../upstream/docs/user/intro/doctools.rst:97
 msgid ":bdg-info:`typescript`"
-msgstr ""
+msgstr ":bdg-info:`typescript`"
 
 #: ../../upstream/docs/user/intro/doctools.rst:48
 msgid "Sphinx"
-msgstr ""
+msgstr "Sphinx"
 
 #: ../../upstream/docs/user/intro/doctools.rst:51
 msgid ""
 "Sphinx is a powerful documentation generator that has many features for "
 "writing technical documentation."
-msgstr ""
+msgstr "Sphinx 是一个强大的文档生成器，具有许多编写技术文档的功能。"
 
 #: ../../upstream/docs/user/intro/doctools.rst:54
 msgid ":bdg-success:`rst` :bdg-success:`md`"
-msgstr ""
+msgstr ":bdg-success:`rst` :bdg-success:`md`"
 
 #: ../../upstream/docs/user/intro/doctools.rst:58
 msgid "Docusaurus"
-msgstr ""
+msgstr "Docusaurus"
 
 #: ../../upstream/docs/user/intro/doctools.rst:61
 msgid ""
-"Docusaurus is a static-site generator that builds a single-page "
-"application with fast client-side navigation and out-of-the-box "
-"documentation features."
-msgstr ""
+"Docusaurus is a static-site generator that builds a single-page application "
+"with fast client-side navigation and out-of-the-box documentation features."
+msgstr "Docusaurus 是一个静态站点生成器，可构建具有快速客户端导航和开箱即用文档功能的单页应用。"
 
 #: ../../upstream/docs/user/intro/doctools.rst:64
 msgid ":bdg-success:`mdx` :bdg-success:`md`"
-msgstr ""
+msgstr ":bdg-success:`mdx` :bdg-success:`md`"
 
 #: ../../upstream/docs/user/intro/doctools.rst:66
 msgid ":bdg-info:`React`"
-msgstr ""
+msgstr ":bdg-info:`React`"
 
 #: ../../upstream/docs/user/intro/doctools.rst:68
 msgid "Markdoc"
-msgstr ""
+msgstr "Markdoc"
 
 #: ../../upstream/docs/user/intro/doctools.rst:71
 msgid ""
-"Markdoc is a documentation tool developed by Stripe that allows you to "
-"write documentation in a custom Markdown flavor."
-msgstr ""
+"Markdoc is a documentation tool developed by Stripe that allows you to write"
+" documentation in a custom Markdown flavor."
+msgstr "Markdoc 是 Stripe 开发的文档工具，允许你使用自定义的 Markdown 变体编写文档。"
 
 #: ../../upstream/docs/user/intro/doctools.rst:76
 #: ../../upstream/docs/user/intro/doctools.rst:108
 #: ../../upstream/docs/user/intro/doctools.rst:119
 msgid ":bdg-info:`javascript`"
-msgstr ""
+msgstr ":bdg-info:`javascript`"
 
 #: ../../upstream/docs/user/intro/doctools.rst:78
 msgid "mdBook"
-msgstr ""
+msgstr "mdBook"
 
 #: ../../upstream/docs/user/intro/doctools.rst:81
 msgid "mdBook is a command line tool to create books with Markdown built in Rust."
-msgstr ""
+msgstr "mdBook 是一个用 Rust 编写的命令行工具，用于通过 Markdown 创建书籍。"
 
 #: ../../upstream/docs/user/intro/doctools.rst:86
 msgid ":bdg-info:`rust`"
-msgstr ""
+msgstr ":bdg-info:`rust`"
 
 #: ../../upstream/docs/user/intro/doctools.rst:88
 msgid "VitePress"
-msgstr ""
+msgstr "VitePress"
 
 #: ../../upstream/docs/user/intro/doctools.rst:91
 msgid ""
 "VitePress is a static site generator with a focus on performance and "
 "simplicity."
-msgstr ""
+msgstr "VitePress 是一个注重性能与简洁性的静态站点生成器。"
 
 #: ../../upstream/docs/user/intro/doctools.rst:99
 msgid "Antora"
-msgstr ""
+msgstr "Antora"
 
 #: ../../upstream/docs/user/intro/doctools.rst:102
 msgid ""
 "Antora is a static site generator for creating documentation sites from "
 "AsciiDoc content."
-msgstr ""
+msgstr "Antora 是一个静态站点生成器，用于从 AsciiDoc 内容创建文档站点。"
 
 #: ../../upstream/docs/user/intro/doctools.rst:105
 msgid ":bdg-success:`adoc`"
-msgstr ""
+msgstr ":bdg-success:`adoc`"
 
 #: ../../upstream/docs/user/intro/doctools.rst:110
 msgid "MyST Markdown"
-msgstr ""
+msgstr "MyST Markdown"
 
 #: ../../upstream/docs/user/intro/doctools.rst:113
 msgid ""
-"MyST Markdown is a powerful authoring framework for scientific "
-"communication including blogs, books, papers, and articles."
-msgstr ""
+"MyST Markdown is a powerful authoring framework for scientific communication"
+" including blogs, books, papers, and articles."
+msgstr "MyST Markdown 是一个强大的创作框架，用于科学交流，包括博客、书籍、论文和文章。"
 
 #: ../../upstream/docs/user/intro/doctools.rst:116
 msgid ":bdg-success:`md` :bdg-success:`ipynb`"
-msgstr ""
+msgstr ":bdg-success:`md` :bdg-success:`ipynb`"
 

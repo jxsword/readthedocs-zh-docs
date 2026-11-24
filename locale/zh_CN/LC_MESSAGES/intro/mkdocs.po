@@ -22,98 +22,107 @@ msgstr ""
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:-1
 msgid "Hosting MkDocs sites on Read the Docs."
-msgstr ""
+msgstr "在 Read the Docs 上托管 MkDocs 站点。"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:3
 msgid "Deploying MkDocs on Read the Docs"
-msgstr ""
+msgstr "在 Read the Docs 上部署 MkDocs"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:8
 msgid ""
 "`MkDocs`_ is a fast, simple static site generator that's geared towards "
-"building project documentation. MkDocs is written in Python, and supports"
-" documentation written in Markdown. When using MkDocs, we recommend using"
-" the `Material for MkDocs`_ theme, and this guide is mostly focused on "
-"the integration required to make it work well on Read the Docs."
+"building project documentation. MkDocs is written in Python, and supports "
+"documentation written in Markdown. When using MkDocs, we recommend using the"
+" `Material for MkDocs`_ theme, and this guide is mostly focused on the "
+"integration required to make it work well on Read the Docs."
 msgstr ""
+"`MkDocs`_ 是一个快速、简单的静态站点生成器，专为构建项目文档而设计。MkDocs 使用 Python 编写，支持用 Markdown "
+"编写文档。使用 MkDocs 时，我们推荐使用 `Material for MkDocs`_ 主题，本指南主要关注使其在 Read the Docs "
+"上良好运行所需的集成配置。"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:13
 msgid ""
 "Minimal configuration is required to build an existing MkDocs project on "
 "Read the Docs:"
-msgstr ""
+msgstr "在 Read the Docs 上构建现有 MkDocs 项目所需的配置极少："
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:15
 msgid ".readthedocs.yaml"
-msgstr ""
+msgstr ".readthedocs.yaml"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:38
 msgid "Configuring Material for MkDocs on Read the Docs"
-msgstr ""
+msgstr "在 Read the Docs 上配置 Material for MkDocs"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:40
 msgid ""
-"In order to use the Material for MkDocs theme on Read the Docs, you need "
-"to install and configure it. In your `mkdocs.yml` file, set the theme to "
+"In order to use the Material for MkDocs theme on Read the Docs, you need to "
+"install and configure it. In your `mkdocs.yml` file, set the theme to "
 "`material`:"
 msgstr ""
+"要在 Read the Docs 上使用 Material for MkDocs 主题，你需要安装并配置它。在你的 `mkdocs.yml` "
+"文件中，将主题设置为 `material`："
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:44
 #: ../../upstream/docs/user/intro/mkdocs.rst:75
 #: ../../upstream/docs/user/intro/mkdocs.rst:112
 #: ../../upstream/docs/user/intro/mkdocs.rst:174
 msgid "mkdocs.yml"
-msgstr ""
+msgstr "mkdocs.yml"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:50
 msgid ""
 "With these changes, your MkDocs project will use the Material for MkDocs "
-"theme when built on Read the Docs, and should work with the configuration"
-" file shown above."
+"theme when built on Read the Docs, and should work with the configuration "
+"file shown above."
 msgstr ""
+"完成这些更改后，你的 MkDocs 项目在 Read the Docs 上构建时将使用 Material for MkDocs "
+"主题，并应能与上述配置文件正常配合。"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:54
 msgid "Quick start"
-msgstr ""
+msgstr "快速开始"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:56
 msgid ""
 "You can use our :ref:`MkDocs example project <examples:mkdocs>` as a "
 "reference to create a new MkDocs project."
-msgstr ""
+msgstr "你可以参考我们的 :ref:`MkDocs 示例项目 <examples:mkdocs>` 来创建新的 MkDocs 项目。"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:57
 msgid ""
-"If you have an existing MkDocs project you want to host on Read the Docs,"
-" check out our :doc:`/intro/add-project` guide."
-msgstr ""
+"If you have an existing MkDocs project you want to host on Read the Docs, "
+"check out our :doc:`/intro/add-project` guide."
+msgstr "如果你已有想在 Read the Docs 上托管的 MkDocs 项目，请参阅 :doc:`/intro/add-project` 指南。"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:58
 msgid ""
 "If you're new to MkDocs, check out the official `Getting Started "
 "<https://www.mkdocs.org/getting-started/>`_ guide."
 msgstr ""
+"如果你还不熟悉 MkDocs，请参阅官方的 `Getting Started <https://www.mkdocs.org/getting-"
+"started/>`_ 指南。"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:61
 msgid "Configuring MkDocs and Read the Docs Addons"
-msgstr ""
+msgstr "配置 MkDocs 与 Read the Docs Addon"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:63
 msgid ""
 "There are some additional steps you can take to configure your MkDocs "
 "project to work better with Read the Docs, and these apply to all MkDocs "
 "projects."
-msgstr ""
+msgstr "你还可以执行一些额外步骤来配置 MkDocs 项目，使其与 Read the Docs 更好地协作，这些步骤适用于所有 MkDocs 项目。"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:67
 msgid "Set the canonical URL"
-msgstr ""
+msgstr "设置规范 URL"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:69
 msgid ""
-"A :doc:`canonical URL </canonical-urls>` allows you to specify the "
-"preferred version of a web page to prevent duplicated content."
-msgstr ""
+"A :doc:`canonical URL </canonical-urls>` allows you to specify the preferred"
+" version of a web page to prevent duplicated content."
+msgstr ":doc:`规范 URL </canonical-urls>` 允许你指定网页的首选版本，以防止内容重复。"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:72
 msgid ""
@@ -121,106 +130,110 @@ msgid ""
 ":doc:`Read the Docs environment variable </reference/environment-"
 "variables>`:"
 msgstr ""
+"使用 :doc:`Read the Docs 环境变量 </reference/environment-variables>`，将你的 MkDocs "
+"`site URL`_ 设置为 Read the Docs 的规范 URL："
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:83
 msgid "Configuring Material for MkDocs and Read the Docs Addons"
-msgstr ""
+msgstr "配置 Material for MkDocs 与 Read the Docs Addon"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:85
 msgid ""
-"`Material for MkDocs`_ is a powerful documentation theme on top of "
-"MkDocs. The following steps are specific to integrating Material for "
-"MkDocs and Read the Docs."
+"`Material for MkDocs`_ is a powerful documentation theme on top of MkDocs. "
+"The following steps are specific to integrating Material for MkDocs and Read"
+" the Docs."
 msgstr ""
+"`Material for MkDocs`_ 是构建在 MkDocs 之上的强大文档主题。以下步骤专门针对 Material for MkDocs 与 "
+"Read the Docs 的集成。"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:93
 msgid "Configure Read the Docs search"
-msgstr ""
+msgstr "配置 Read the Docs 搜索"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:95
 msgid ""
 "To configure your site to use :doc:`Read the Docs search </server-side-"
 "search/index>` instead of the default search:"
-msgstr ""
+msgstr "要将站点配置为使用 :doc:`Read the Docs 搜索 </server-side-search/index>` 而非默认搜索："
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:97
 msgid "Add the following block of JavaScript:"
-msgstr ""
+msgstr "添加以下 JavaScript 代码块："
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:99
 #: ../../upstream/docs/user/intro/mkdocs.rst:137
 msgid "javascript/readthedocs.js"
-msgstr ""
+msgstr "javascript/readthedocs.js"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:110
 msgid "Include ``javascript/readthedocs.js`` in your MkDocs configuration:"
-msgstr ""
+msgstr "在你的 MkDocs 配置中包含 ``javascript/readthedocs.js``："
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:119
 msgid "Integrate the Read the Docs version menu into your site navigation"
-msgstr ""
+msgstr "将 Read the Docs 版本菜单集成到站点导航中"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:121
 msgid ""
 "To integrate the :ref:`flyout-menu:Addons flyout menu` version menu into "
 "your site navigation:"
-msgstr ""
+msgstr "要将 :ref:`flyout-menu:Addons flyout menu` 版本菜单集成到站点导航中："
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:123
 msgid ""
 "Override the ``main.html`` template to include the data in the ``meta`` "
 "attribute:"
-msgstr ""
+msgstr "覆盖 ``main.html`` 模板，将数据包含在 ``meta`` 属性中："
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:125
 msgid "overrides/main.html"
-msgstr ""
+msgstr "overrides/main.html"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:135
 msgid ""
 "Parse the version data into a dropdown menu using JS in "
 "``javascript/readthedocs.js``:"
-msgstr ""
+msgstr "在 ``javascript/readthedocs.js`` 中使用 JS 将版本数据解析为下拉菜单："
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:172
 msgid ""
 "Make sure that ``javascript/readthedocs.js`` is included in your MkDocs "
 "configuration:"
-msgstr ""
+msgstr "确保 ``javascript/readthedocs.js`` 已包含在你的 MkDocs 配置中："
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:181
 msgid "Example repository and demo"
-msgstr ""
+msgstr "示例仓库与演示"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:183
 msgid "Example repository"
-msgstr ""
+msgstr "示例仓库"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:184
 msgid "https://github.com/readthedocs/test-builds/tree/mkdocs-material"
-msgstr ""
+msgstr "https://github.com/readthedocs/test-builds/tree/mkdocs-material"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:186
 msgid "Demo"
-msgstr ""
+msgstr "演示"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:187
 msgid "https://test-builds.readthedocs.io/en/mkdocs-material/"
-msgstr ""
+msgstr "https://test-builds.readthedocs.io/en/mkdocs-material/"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:190
 msgid "Further reading"
-msgstr ""
+msgstr "延伸阅读"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:192
 msgid "`Material for MkDocs documentation`_"
-msgstr ""
+msgstr "`Material for MkDocs documentation`_"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:193
 msgid "`Markdown syntax guide`_"
-msgstr ""
+msgstr "`Markdown syntax guide`_"
 
 #: ../../upstream/docs/user/intro/mkdocs.rst:194
 msgid "`Writing your docs with MkDocs`_"
-msgstr ""
+msgstr "`Writing your docs with MkDocs`_"
 

@@ -22,77 +22,79 @@ msgstr ""
 
 #: ../../upstream/docs/user/intro/accounts.rst:2
 msgid "Account authentication methods"
-msgstr ""
+msgstr "账户认证方式"
 
 #: ../../upstream/docs/user/intro/accounts.rst:4
 msgid ""
 "Read the Docs supports several authentication methods for creating an "
-"account and logging in. The method you choose depends on your preferences"
-" and the security requirements of your organization."
-msgstr ""
+"account and logging in. The method you choose depends on your preferences "
+"and the security requirements of your organization."
+msgstr "Read the Docs 支持多种用于创建账户和登录的认证方式。选择哪种方式取决于你的偏好以及组织的安全要求。"
 
 #: ../../upstream/docs/user/intro/accounts.rst:7
 msgid ""
 "These authentication methods are not mutually exclusive; you can use "
 "multiple methods to access your account."
-msgstr ""
+msgstr "这些认证方式并不互斥；你可以同时使用多种方式访问你的账户。"
 
 #: ../../upstream/docs/user/intro/accounts.rst:11
 msgid "Email and password"
-msgstr ""
+msgstr "邮箱与密码"
 
 #: ../../upstream/docs/user/intro/accounts.rst:13
 msgid ""
-"You can create an account on Read the Docs using your email address and a"
-" password. This method works well for individual users and small teams, "
-"but it limits the functionality available to you."
-msgstr ""
+"You can create an account on Read the Docs using your email address and a "
+"password. This method works well for individual users and small teams, but "
+"it limits the functionality available to you."
+msgstr "你可以使用邮箱地址和密码在 Read the Docs 上创建账户。这种方式适合个人用户和小型团队，但会限制你可用的功能。"
 
 #: ../../upstream/docs/user/intro/accounts.rst:18
 msgid "VCS provider authentication"
-msgstr ""
+msgstr "VCS 服务商认证"
 
 #: ../../upstream/docs/user/intro/accounts.rst:20
 msgid ""
-"You can also create an account on Read the Docs using a VCS "
-"authentication provider: GitHub, GitLab, or Bitbucket. This method is "
-"more secure and convenient than using an email and password, and provides"
-" access to additional features like automatic repository syncing."
+"You can also create an account on Read the Docs using a VCS authentication "
+"provider: GitHub, GitLab, or Bitbucket. This method is more secure and "
+"convenient than using an email and password, and provides access to "
+"additional features like automatic repository syncing."
 msgstr ""
+"你也可以使用 VCS 认证服务商在 Read the Docs 上创建账户：GitHub、GitLab 或 "
+"Bitbucket。这种方式比邮箱和密码更安全、更便捷，并提供自动仓库同步等额外功能。"
 
 #: ../../upstream/docs/user/intro/accounts.rst:24
 msgid "VCS provider authentication is required for the following features:"
-msgstr ""
+msgstr "以下功能需要使用 VCS 服务商认证："
 
 #: ../../upstream/docs/user/intro/accounts.rst:26
 msgid ":doc:`/pull-requests`"
-msgstr ""
+msgstr ":doc:`/pull-requests`"
 
 #: ../../upstream/docs/user/intro/accounts.rst:27
 msgid "Automatic repository syncing for easy project creation"
-msgstr ""
+msgstr "自动同步仓库，简化项目创建"
 
 #: ../../upstream/docs/user/intro/accounts.rst:28
 msgid "Automatic webhook creation on project creation"
-msgstr ""
+msgstr "创建项目时自动创建 Webhook"
 
 #: ../../upstream/docs/user/intro/accounts.rst:32
 msgid ":doc:`/guides/connecting-git-account`"
-msgstr ""
+msgstr ":doc:`/guides/connecting-git-account`"
 
 #: ../../upstream/docs/user/intro/accounts.rst:33
 msgid "Learn how to connect your Read the Docs account with a Git provider."
-msgstr ""
+msgstr "了解如何将 Read the Docs 账户与 Git 服务商关联。"
 
 #: ../../upstream/docs/user/intro/accounts.rst:36
 msgid "Google authentication"
-msgstr ""
+msgstr "Google 认证"
 
 #: ../../upstream/docs/user/shared/admonition-rtd-business.rst:2
 msgid ""
 "This feature is only available on `Read the Docs Business "
 "<https://app.readthedocs.com/>`_."
-msgstr ""
+msgstr "此功能仅在 `Read the Docs Business <https://app.readthedocs.com/>`_ 上提供。"
 
 #: ../../upstream/docs/user/intro/accounts.rst:40
 msgid ""
@@ -100,65 +102,69 @@ msgid ""
 "authentication works well for users already using Google services, and "
 "easily integrates into your existing workflow."
 msgstr ""
+"Read the Docs 支持组织使用 Google 认证。对于已在使用 Google 服务的用户，Google "
+"认证体验良好，并能轻松融入你现有的工作流程。"
 
 #: ../../upstream/docs/user/intro/accounts.rst:44
 msgid ""
-"Google provides authentication, but not authorization. This means that "
-"you can log in to Read the Docs with this method, but we aren't able to "
+"Google provides authentication, but not authorization. This means that you "
+"can log in to Read the Docs with this method, but we aren't able to "
 "determine which projects you have access to automatically."
-msgstr ""
+msgstr "Google 只提供认证，不提供授权。这意味着你可以用这种方式登录 Read the Docs，但我们无法自动判断你有权访问哪些项目。"
 
 #: ../../upstream/docs/user/intro/accounts.rst:50
 msgid ":ref:`sso_google_workspace`"
-msgstr ""
+msgstr ":ref:`sso_google_workspace`"
 
 #: ../../upstream/docs/user/intro/accounts.rst:51
 msgid "Learn how to configure Google authentication for your organization."
-msgstr ""
+msgstr "了解如何为你的组织配置 Google 认证。"
 
 #: ../../upstream/docs/user/intro/accounts.rst:54
 msgid "SAML authentication"
-msgstr ""
+msgstr "SAML 认证"
 
 #: ../../upstream/docs/user/intro/accounts.rst:58
 msgid ""
 "Read the Docs supports SAML authentication for organizations. SAML "
-"authentication is a secure way to authenticate users and manage access to"
-" your organization's projects. This is only available on Enterprise "
-"plans, and requires custom integration to be enabled."
+"authentication is a secure way to authenticate users and manage access to "
+"your organization's projects. This is only available on Enterprise plans, "
+"and requires custom integration to be enabled."
 msgstr ""
+"Read the Docs 支持组织使用 SAML 认证。SAML "
+"认证是一种安全的用户认证和项目访问管理方式。此功能仅在企业版套餐中提供，且需要启用自定义集成。"
 
 #: ../../upstream/docs/user/intro/accounts.rst:63
 msgid ""
-"SAML provides authentication, but not authorization. This means that "
-"users can log in to Read the Docs with this method, but we aren't able to"
-" determine which projects each user has access to automatically."
-msgstr ""
+"SAML provides authentication, but not authorization. This means that users "
+"can log in to Read the Docs with this method, but we aren't able to "
+"determine which projects each user has access to automatically."
+msgstr "SAML 只提供认证，不提供授权。这意味着用户可以用这种方式登录 Read the Docs，但我们无法自动判断每个用户有权访问哪些项目。"
 
 #: ../../upstream/docs/user/intro/accounts.rst:69
 msgid ":ref:`sso_saml`"
-msgstr ""
+msgstr ":ref:`sso_saml`"
 
 #: ../../upstream/docs/user/intro/accounts.rst:70
 msgid "Learn how to configure SAML authentication for your organization."
-msgstr ""
+msgstr "了解如何为你的组织配置 SAML 认证。"
 
 #: ../../upstream/docs/user/intro/accounts.rst:73
 msgid "Two-factor authentication"
-msgstr ""
+msgstr "双因素认证"
 
 #: ../../upstream/docs/user/intro/accounts.rst:75
 msgid ""
-"Read the Docs supports two-factor authentication (2FA) for added security"
-" on all authentication methods. If you have 2FA enabled on your account, "
-"you will be prompted to enter a code when logging in."
-msgstr ""
+"Read the Docs supports two-factor authentication (2FA) for added security on"
+" all authentication methods. If you have 2FA enabled on your account, you "
+"will be prompted to enter a code when logging in."
+msgstr "Read the Docs 支持双因素认证（2FA），为所有认证方式增加安全性。如果你的账户启用了 2FA，登录时系统会提示你输入验证码。"
 
 #: ../../upstream/docs/user/intro/accounts.rst:81
 msgid ":doc:`/guides/management/2fa`"
-msgstr ""
+msgstr ":doc:`/guides/management/2fa`"
 
 #: ../../upstream/docs/user/intro/accounts.rst:82
 msgid "Learn how to enable and disable two-factor authentication on your account."
-msgstr ""
+msgstr "了解如何在你的账户上启用和禁用双因素认证。"
 

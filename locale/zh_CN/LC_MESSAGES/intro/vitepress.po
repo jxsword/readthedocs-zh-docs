@@ -22,47 +22,47 @@ msgstr ""
 
 #: ../../upstream/docs/user/intro/vitepress.rst:-1
 msgid "Learn how to host VitePress documentation on Read the Docs."
-msgstr ""
+msgstr "了解如何在 Read the Docs 上托管 VitePress 文档。"
 
 #: ../../upstream/docs/user/intro/vitepress.rst:3
 msgid "Deploying VitePress on Read the Docs"
-msgstr ""
+msgstr "在 Read the Docs 上部署 VitePress"
 
 #: ../../upstream/docs/user/intro/vitepress.rst:8
 msgid ""
 "`VitePress`_ is a static site generator with a focus on performance and "
 "simplicity."
-msgstr ""
+msgstr "`VitePress`_ 是一个注重性能与简洁性的静态站点生成器。"
 
 #: ../../upstream/docs/user/intro/vitepress.rst:10
 msgid ""
-"Minimal configuration is required to build an existing VitePress project "
-"on Read the Docs."
-msgstr ""
+"Minimal configuration is required to build an existing VitePress project on "
+"Read the Docs."
+msgstr "在 Read the Docs 上构建现有 VitePress 项目所需的配置极少。"
 
 #: ../../upstream/docs/user/intro/vitepress.rst:12
 msgid ".readthedocs.yaml"
-msgstr ""
+msgstr ".readthedocs.yaml"
 
 #: ../../upstream/docs/user/intro/vitepress.rst:36
 msgid "Getting started"
-msgstr ""
+msgstr "快速入门"
 
 #: ../../upstream/docs/user/intro/vitepress.rst:38
 msgid ""
-"If you have an existing VitePress project you want to host on Read the "
-"Docs, check out our :doc:`/intro/add-project` guide."
-msgstr ""
+"If you have an existing VitePress project you want to host on Read the Docs,"
+" check out our :doc:`/intro/add-project` guide."
+msgstr "如果你已有想在 Read the Docs 上托管的 VitePress 项目，请参阅 :doc:`/intro/add-project` 指南。"
 
 #: ../../upstream/docs/user/intro/vitepress.rst:39
 msgid ""
 "If you're new to VitePress, check out the official `Getting started with "
 "VitePress`_ guide."
-msgstr ""
+msgstr "如果你还不熟悉 VitePress，请参阅官方的 `Getting started with VitePress`_ 指南。"
 
 #: ../../upstream/docs/user/intro/vitepress.rst:44
 msgid "Using the proper base path"
-msgstr ""
+msgstr "使用正确的基础路径"
 
 #: ../../upstream/docs/user/intro/vitepress.rst:46
 msgid ""
@@ -70,44 +70,46 @@ msgid ""
 "need to set the ``base`` option in your VitePress configuration to the "
 "correct base path:"
 msgstr ""
+"为确保你的 VitePress 站点在 Read the Docs 上正常运行，你需要在 VitePress 配置中将 ``base`` "
+"选项设置为正确的基础路径："
 
 #: ../../upstream/docs/user/intro/vitepress.rst:49
 msgid ".vitepress/config.js"
-msgstr ""
+msgstr ".vitepress/config.js"
 
 #: ../../upstream/docs/user/intro/vitepress.rst:67
 msgid "Example repository and demo"
-msgstr ""
+msgstr "示例仓库与演示"
 
 #: ../../upstream/docs/user/intro/vitepress.rst:69
 msgid "Production example from DbToolsBundle"
-msgstr ""
+msgstr "来自 DbToolsBundle 的生产环境示例"
 
 #: ../../upstream/docs/user/intro/vitepress.rst:70
 msgid "https://dbtoolsbundle.readthedocs.io/en/stable/"
-msgstr ""
+msgstr "https://dbtoolsbundle.readthedocs.io/en/stable/"
 
 #: ../../upstream/docs/user/intro/vitepress.rst:72
 msgid "Example repository"
-msgstr ""
+msgstr "示例仓库"
 
 #: ../../upstream/docs/user/intro/vitepress.rst:73
 msgid "https://github.com/readthedocs/test-builds/tree/vitepress"
-msgstr ""
+msgstr "https://github.com/readthedocs/test-builds/tree/vitepress"
 
 #: ../../upstream/docs/user/intro/vitepress.rst:75
 msgid "Demo"
-msgstr ""
+msgstr "演示"
 
 #: ../../upstream/docs/user/intro/vitepress.rst:76
 msgid "https://test-builds.readthedocs.io/en/vitepress/"
-msgstr ""
+msgstr "https://test-builds.readthedocs.io/en/vitepress/"
 
 #: ../../upstream/docs/user/intro/vitepress.rst:79
 msgid "Further reading"
-msgstr ""
+msgstr "延伸阅读"
 
 #: ../../upstream/docs/user/intro/vitepress.rst:81
 msgid "`VitePress documentation`_"
-msgstr ""
+msgstr "`VitePress documentation`_"
 

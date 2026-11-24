@@ -22,47 +22,49 @@ msgstr ""
 
 #: ../../upstream/docs/user/tutorial/index.rst:2
 msgid "Read the Docs tutorial"
-msgstr ""
+msgstr "Read the Docs 教程"
 
 #: ../../upstream/docs/user/tutorial/index.rst:4
 msgid ""
-"In this tutorial you will learn how to host a public documentation "
-"project on Read the Docs Community."
-msgstr ""
+"In this tutorial you will learn how to host a public documentation project "
+"on Read the Docs Community."
+msgstr "在本教程中，你将学习如何在 Read the Docs Community 上托管一个公开文档项目。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:8
 msgid ""
-"Find out the `differences between Read the Docs Community and Read the "
-"Docs Business <https://about.readthedocs.com/pricing/#/community>`_."
+"Find out the `differences between Read the Docs Community and Read the Docs "
+"Business <https://about.readthedocs.com/pricing/#/community>`_."
 msgstr ""
+"了解 `Read the Docs Community 与 Read the Docs Business 的区别 "
+"<https://about.readthedocs.com/pricing/#/community>`_。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:10
 msgid "In the tutorial we will:"
-msgstr ""
+msgstr "在本教程中，我们将："
 
 #: ../../upstream/docs/user/tutorial/index.rst:12
 msgid ""
-"Import a Sphinx project from a GitHub repository (no prior experience "
-"with Sphinx is required)."
-msgstr ""
+"Import a Sphinx project from a GitHub repository (no prior experience with "
+"Sphinx is required)."
+msgstr "从 GitHub 仓库导入一个 Sphinx 项目（无需 Sphinx 使用经验）。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:13
 msgid "Tailor the project's configuration."
-msgstr ""
+msgstr "定制项目的配置。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:14
 msgid "Explore other useful Read the Docs features."
-msgstr ""
+msgstr "探索 Read the Docs 的其他实用功能。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:16
 msgid ""
 "If you don't have a GitHub account, you'll need to `register for a free "
 "account <https://github.com/signup>`_ before you start."
-msgstr ""
+msgstr "如果你还没有 GitHub 账户，需要在开始之前 `注册一个免费账户 <https://github.com/signup>`_。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:19
 msgid "Preparing your repository on GitHub"
-msgstr ""
+msgstr "在 GitHub 上准备你的仓库"
 
 #: ../../upstream/docs/user/tutorial/index.rst:21
 msgid ""
@@ -70,311 +72,333 @@ msgid ""
 "`tutorial GitHub template <https://github.com/readthedocs/tutorial-"
 "template/>`_."
 msgstr ""
+"`登录 GitHub <https://github.com/login>`_，然后前往 `教程 GitHub 模板 "
+"<https://github.com/readthedocs/tutorial-template/>`_。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:23
 msgid ""
 "Click the green :guilabel:`Use this template` button, then click "
 ":guilabel:`Create a new Repository`. On the new page:"
 msgstr ""
+"点击绿色的 :guilabel:`Use this template` 按钮，然后点击 :guilabel:`Create a new "
+"Repository`。在新页面上："
 
 #: ../../upstream/docs/user/tutorial/index.rst:25
 msgid "Owner"
-msgstr ""
+msgstr "所有者"
 
 #: ../../upstream/docs/user/tutorial/index.rst:26
-msgid ""
-"Leave the default, or change it to something suitable for a tutorial "
-"project."
-msgstr ""
+msgid "Leave the default, or change it to something suitable for a tutorial project."
+msgstr "保留默认值，或将其更改为适合教程项目的名称。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:27
 msgid "Repository name"
-msgstr ""
+msgstr "仓库名称"
 
 #: ../../upstream/docs/user/tutorial/index.rst:28
 msgid "Something memorable and appropriate, for example ``rtd-tutorial``."
-msgstr ""
+msgstr "一个易于记忆且合适的名称，例如 ``rtd-tutorial``。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:29
 msgid "Visibility"
-msgstr ""
+msgstr "可见性"
 
 #: ../../upstream/docs/user/tutorial/index.rst:30
 msgid "Make sure the project is \"Public\", rather than \"Private\"."
-msgstr ""
+msgstr "确保项目是\"Public\"（公开）而非\"Private\"（私有）。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:32
 msgid ""
 "Click the green :guilabel:`Create repository` button to create a public "
 "repository that you will use in this Read the Docs tutorial, containing  "
 "following files:"
-msgstr ""
+msgstr "点击绿色的 :guilabel:`Create repository` 按钮，创建一个公有仓库用于本 Read the Docs 教程，其中包含以下文件："
 
 #: ../../upstream/docs/user/tutorial/index.rst:34
 msgid "``.readthedocs.yaml``"
-msgstr ""
+msgstr "``.readthedocs.yaml``"
 
 #: ../../upstream/docs/user/tutorial/index.rst:35
 msgid "Read the Docs configuration file. Required."
-msgstr ""
+msgstr "Read the Docs 配置文件。必需。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:37
 msgid "``README.rst``"
-msgstr ""
+msgstr "``README.rst``"
 
 #: ../../upstream/docs/user/tutorial/index.rst:38
 msgid "Description of the repository."
-msgstr ""
+msgstr "仓库说明。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:40
 msgid "``pyproject.toml``"
-msgstr ""
+msgstr "``pyproject.toml``"
 
 #: ../../upstream/docs/user/tutorial/index.rst:41
 msgid ""
 "Python project metadata that makes it installable. Useful for automatic "
 "documentation generation from sources."
-msgstr ""
+msgstr "使项目可安装的 Python 项目元数据。有助于从源代码自动生成文档。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:44
 msgid "``lumache.py``"
-msgstr ""
+msgstr "``lumache.py``"
 
 #: ../../upstream/docs/user/tutorial/index.rst:45
 msgid "Source code of the fictional Python library."
-msgstr ""
+msgstr "这个虚构 Python 库的源代码。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:47
 msgid "``docs/``"
-msgstr ""
+msgstr "``docs/``"
 
 #: ../../upstream/docs/user/tutorial/index.rst:48
 msgid ""
 "Directory holding all the fictional Python library documentation in "
-"reStructuredText, the Sphinx configuration ``docs/source/conf.py`` and "
-"the root document ``docs/source/index.rst``."
+"reStructuredText, the Sphinx configuration ``docs/source/conf.py`` and the "
+"root document ``docs/source/index.rst``."
 msgstr ""
+"该目录包含这个虚构 Python 库的全部 reStructuredText 文档、Sphinx 配置 ``docs/source/conf.py`` "
+"以及根文档 ``docs/source/index.rst``。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:51
 #: ../../upstream/docs/user/tutorial/index.rst:56
 msgid "GitHub template for the tutorial"
-msgstr ""
+msgstr "教程的 GitHub 模板"
 
 #: ../../upstream/docs/user/tutorial/index.rst:59
 msgid "Creating a Read the Docs account"
-msgstr ""
+msgstr "创建 Read the Docs 账户"
 
 #: ../../upstream/docs/user/tutorial/index.rst:61
 msgid ""
 "To create a Read the Docs account: navigate to the `Sign Up page "
 "<https://app.readthedocs.org/accounts/signup/>`_ and choose the option "
-":guilabel:`Sign up with GitHub`. On the authorization page, click the "
-"green :guilabel:`Authorize readthedocs` button."
+":guilabel:`Sign up with GitHub`. On the authorization page, click the green "
+":guilabel:`Authorize readthedocs` button."
 msgstr ""
+"要创建 Read the Docs 账户，请前往 `注册页面 "
+"<https://app.readthedocs.org/accounts/signup/>`_ 并选择 :guilabel:`Sign up with"
+" GitHub` 选项。在授权页面上，点击绿色的 :guilabel:`Authorize readthedocs` 按钮。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:66
 #: ../../upstream/docs/user/tutorial/index.rst:71
 msgid "GitHub authorization page"
-msgstr ""
+msgstr "GitHub 授权页面"
 
 #: ../../upstream/docs/user/tutorial/index.rst:75
 msgid ""
-"Read the Docs needs elevated permissions to perform certain operations "
-"that ensure that the workflow is as smooth as possible, like installing "
+"Read the Docs needs elevated permissions to perform certain operations that "
+"ensure that the workflow is as smooth as possible, like installing "
 ":term:`webhooks <webhook>`. If you want to learn more, check out "
 ":ref:`reference/git-integration:permissions for connected accounts`."
 msgstr ""
+"Read the Docs 需要更高的权限来执行某些操作，以确保工作流程尽可能顺畅，例如安装 :term:`Webhook "
+"<webhook>`。如需了解更多信息，请参阅 :ref:`reference/git-integration:permissions for "
+"connected accounts`。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:81
 msgid ""
-"After that, you will be redirected to Read the Docs to confirm your "
-"e-mail and username. Click the :guilabel:`Sign Up »` button to create "
-"your account and open your :term:`dashboard`."
+"After that, you will be redirected to Read the Docs to confirm your e-mail "
+"and username. Click the :guilabel:`Sign Up »` button to create your account "
+"and open your :term:`dashboard`."
 msgstr ""
+"之后，你将被重定向到 Read the Docs 以确认邮箱和用户名。点击 :guilabel:`Sign Up »` 按钮创建账户并打开你的 "
+":term:`dashboard`。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:84
 msgid ""
-"When you have clicked the link in your email from Read the Docs to "
-"\"verify your email address\" and finalize the process, your Read the "
-"Docs account will be ready to create your first project."
+"When you have clicked the link in your email from Read the Docs to \"verify "
+"your email address\" and finalize the process, your Read the Docs account "
+"will be ready to create your first project."
 msgstr ""
+"当你点击 Read the Docs 发来的邮件中用于\"验证邮箱地址\"的链接并完成整个流程后，你的 Read the Docs "
+"账户就可以创建第一个项目了。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:86
 msgid "Read the Docs empty dashboard"
-msgstr ""
+msgstr "空的 Read the Docs 仪表盘"
 
 #: ../../upstream/docs/user/tutorial/index.rst:91
 msgid "Welcome to your Read the Docs dashboard!"
-msgstr ""
+msgstr "欢迎使用你的 Read the Docs 仪表盘！"
 
 #: ../../upstream/docs/user/tutorial/index.rst:94
 msgid "Importing the project to Read the Docs"
-msgstr ""
+msgstr "将项目导入 Read the Docs"
 
 #: ../../upstream/docs/user/tutorial/index.rst:96
 msgid "To import your GitHub project to Read the Docs:"
-msgstr ""
+msgstr "要将你的 GitHub 项目导入 Read the Docs："
 
 #: ../../upstream/docs/user/tutorial/index.rst:98
 msgid ""
 "Click the :guilabel:`Import a Project` button on your `dashboard "
 "<https://app.readthedocs.org/dashboard/>`_."
 msgstr ""
+"点击你的 `dashboard <https://app.readthedocs.org/dashboard/>`_ 上的 "
+":guilabel:`Import a Project` 按钮。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:100
 msgid ""
-"Click the |:heavy_plus_sign:| button to the right of your ``rtd-"
-"tutorial`` project. If the list of repositories is empty, click the "
+"Click the |:heavy_plus_sign:| button to the right of your ``rtd-tutorial`` "
+"project. If the list of repositories is empty, click the "
 "|:arrows_counterclockwise:| button."
 msgstr ""
+"点击 ``rtd-tutorial`` 项目右侧的 |:heavy_plus_sign:| 按钮。如果仓库列表为空，请点击 "
+"|:arrows_counterclockwise:| 按钮。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:102
 #: ../../upstream/docs/user/tutorial/index.rst:107
 msgid "Import projects workflow"
-msgstr ""
+msgstr "导入项目流程"
 
 #: ../../upstream/docs/user/tutorial/index.rst:109
 msgid "Enter some details about your Read the Docs project:"
-msgstr ""
+msgstr "输入你的 Read the Docs 项目的一些详细信息："
 
 #: ../../upstream/docs/user/tutorial/index.rst:111
 msgid "Name"
-msgstr ""
+msgstr "名称"
 
 #: ../../upstream/docs/user/tutorial/index.rst:112
 #, python-brace-format
 msgid ""
-"The name of the project, used to create a unique subdomain for each "
-"project. so it is better if you prepend your username, for example "
-"``{username}-rtd-tutorial``."
-msgstr ""
+"The name of the project, used to create a unique subdomain for each project."
+" so it is better if you prepend your username, for example ``{username}-rtd-"
+"tutorial``."
+msgstr "项目名称，用于为每个项目创建唯一的子域名。因此最好在前面加上你的用户名，例如 ``{username}-rtd-tutorial``。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:116
 msgid "Repository URL"
-msgstr ""
+msgstr "仓库 URL"
 
 #: ../../upstream/docs/user/tutorial/index.rst:117
 msgid ""
 "The URL that contains the documentation source. Leave the automatically "
 "filled value."
-msgstr ""
+msgstr "包含文档源代码的 URL。保留自动填充的值即可。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:119
 msgid "Default branch"
-msgstr ""
+msgstr "默认分支"
 
 #: ../../upstream/docs/user/tutorial/index.rst:120
 msgid "Name of the default branch of the project, leave it as ``main``."
-msgstr ""
+msgstr "项目的默认分支名称，保留为 ``main``。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:122
 msgid ""
-"Then click the :guilabel:`Next` button to create the project and open the"
-" :term:`project home`."
-msgstr ""
+"Then click the :guilabel:`Next` button to create the project and open the "
+":term:`project home`."
+msgstr "然后点击 :guilabel:`Next` 按钮创建项目并打开 :term:`project home`。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:124
 msgid "You just created your first project on Read the Docs! |:tada:|"
-msgstr ""
+msgstr "你刚刚在 Read the Docs 上创建了第一个项目！|:tada:|"
 
 #: ../../upstream/docs/user/tutorial/index.rst:126
 #: ../../upstream/docs/user/tutorial/index.rst:131
 msgid "Project home"
-msgstr ""
+msgstr "项目主页"
 
 #: ../../upstream/docs/user/tutorial/index.rst:134
 msgid "Checking the first build"
-msgstr ""
+msgstr "检查首次构建"
 
 #: ../../upstream/docs/user/tutorial/index.rst:136
 msgid ""
-"Read the Docs will build your project documentation right after you "
-"create it."
-msgstr ""
+"Read the Docs will build your project documentation right after you create "
+"it."
+msgstr "项目创建后，Read the Docs 会立即构建你的项目文档。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:138
 msgid "To see the build logs:"
-msgstr ""
+msgstr "查看构建日志："
 
 #: ../../upstream/docs/user/tutorial/index.rst:140
 msgid ""
 "Click the :guilabel:`Your documentation is building` link on the "
 ":term:`project home`."
-msgstr ""
+msgstr "点击 :term:`project home` 上的 :guilabel:`Your documentation is building` 链接。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:142
 msgid ""
 "If the build has not finished by the time you open it, you will see a "
-"spinner next to a \"Installing\" or \"Building\" indicator, meaning that "
-"it is still in progress."
-msgstr ""
+"spinner next to a \"Installing\" or \"Building\" indicator, meaning that it "
+"is still in progress."
+msgstr "如果你打开时构建尚未完成，你会在\"Installing\"或\"Building\"指示器旁边看到一个旋转图标，表示构建仍在进行中。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:143
 msgid ""
-"If the build has finished, you'll see a green \"Build completed\" "
-"indicator, the completion date, the elapsed time, and a link to the "
-"generated documentation."
-msgstr ""
+"If the build has finished, you'll see a green \"Build completed\" indicator,"
+" the completion date, the elapsed time, and a link to the generated "
+"documentation."
+msgstr "如果构建已完成，你会看到绿色的\"Build completed\"指示器、完成日期、耗时以及指向生成文档的链接。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:145
 #: ../../upstream/docs/user/tutorial/index.rst:150
 msgid "First successful documentation build"
-msgstr ""
+msgstr "首次成功构建文档"
 
 #: ../../upstream/docs/user/tutorial/index.rst:152
 msgid "Click on :guilabel:`View docs` to see your documentation live!"
-msgstr ""
+msgstr "点击 :guilabel:`View docs` 即可在线查看你的文档！"
 
 #: ../../upstream/docs/user/tutorial/index.rst:154
 #: ../../upstream/docs/user/tutorial/index.rst:159
 msgid "HTML documentation live on Read the Docs"
-msgstr ""
+msgstr "在 Read the Docs 上发布的 HTML 文档"
 
 #: ../../upstream/docs/user/tutorial/index.rst:163
 msgid ""
-"Advertisement is one of our main sources of revenue. If you want to learn"
-" more about how do we fund our operations and explore options to go ad-"
-"free, check out our `Sustainability page "
+"Advertisement is one of our main sources of revenue. If you want to learn "
+"more about how do we fund our operations and explore options to go ad-free, "
+"check out our `Sustainability page "
 "<https://app.readthedocs.org/sustainability/>`_."
 msgstr ""
+"广告是我们的主要收入来源之一。如果你想了解更多关于我们如何维持运营的信息，并探索去除广告的选项，请查看我们的 `Sustainability page "
+"<https://app.readthedocs.org/sustainability/>`_。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:168
 msgid ""
-"If you don't see the ad, you might be using an ad blocker. Our EthicalAds"
-" network respects your privacy, doesn't target you, and tries to be as "
+"If you don't see the ad, you might be using an ad blocker. Our EthicalAds "
+"network respects your privacy, doesn't target you, and tries to be as "
 "unobtrusive as possible, so we would like to kindly ask you to :doc:`not "
 "block us </advertising/ad-blocking>` |:heart:|"
 msgstr ""
+"如果你没有看到广告，可能是使用了广告拦截器。我们的 EthicalAds 网络尊重你的隐私、不进行定向投放，并尽可能减少干扰，因此我们恳请你 "
+":doc:`不要屏蔽我们 </advertising/ad-blocking>` |:heart:|"
 
 #: ../../upstream/docs/user/tutorial/index.rst:174
 msgid "Configuring the project"
-msgstr ""
+msgstr "配置项目"
 
 #: ../../upstream/docs/user/tutorial/index.rst:176
 msgid "To update the project description and configure the notification settings:"
-msgstr ""
+msgstr "要更新项目描述并配置通知设置："
 
 #: ../../upstream/docs/user/tutorial/index.rst:178
 msgid ""
-"Navigate back to the :term:`project page` and click the :guilabel:`⚙ "
-"Admin` button,to open the Settings page."
-msgstr ""
+"Navigate back to the :term:`project page` and click the :guilabel:`⚙ Admin` "
+"button,to open the Settings page."
+msgstr "返回 :term:`project page`，点击 :guilabel:`⚙ Admin` 按钮，打开设置页面。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:180
 msgid "Update the project description by adding the following text:"
-msgstr ""
+msgstr "通过添加以下文本来更新项目描述："
 
 #: ../../upstream/docs/user/tutorial/index.rst:182
 msgid ""
 "Lumache (/lu'make/) is a Python library for cooks and food lovers that "
 "creates recipes mixing random ingredients."
-msgstr ""
+msgstr "Lumache（读作 /lu'make/）是一个面向厨师和美食爱好者的 Python 库，可通过混合随机食材来生成食谱。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:185
 msgid ""
-"Set the project homepage to ``https://world.openfoodfacts.org/``, and add"
-" ``food, python`` to the list of public project tags."
-msgstr ""
+"Set the project homepage to ``https://world.openfoodfacts.org/``, and add "
+"``food, python`` to the list of public project tags."
+msgstr "将项目主页设置为 ``https://world.openfoodfacts.org/``，并在公开项目标签列表中添加 ``food, python``。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:187
 msgid ""
@@ -382,195 +406,214 @@ msgid ""
 "Notifications` link on the left, add your email address, and click the "
 ":guilabel:`Add` button."
 msgstr ""
+"要在构建失败时收到通知，请点击左侧的 :guilabel:`Email Notifications` 链接，添加你的邮箱地址，然后点击 "
+":guilabel:`Add` 按钮。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:190
 msgid "Triggering builds from pull requests"
-msgstr ""
+msgstr "从 Pull Request 触发构建"
 
 #: ../../upstream/docs/user/tutorial/index.rst:192
 msgid ""
 "Read the Docs can :doc:`trigger builds from GitHub pull requests </pull-"
-"requests>` and show you a preview of the documentation with those "
-"changes."
+"requests>` and show you a preview of the documentation with those changes."
 msgstr ""
+"Read the Docs 可以 :doc:`从 GitHub Pull Request 触发构建 </pull-"
+"requests>`，并向你展示包含这些变更的文档预览。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:195
 msgid ""
 "This is enabled by default on new projects. You can check it from your "
 "project under :guilabel:`Settings` → :guilabel:`Pull request builds`."
 msgstr ""
+"此功能在新项目中默认启用。你可以在项目的 :guilabel:`Settings` → :guilabel:`Pull request builds` "
+"中查看。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:198
 msgid "To see it in action:"
-msgstr ""
+msgstr "要查看实际效果："
 
 #: ../../upstream/docs/user/tutorial/index.rst:200
 msgid "Make some changes to your documentation:"
-msgstr ""
+msgstr "对你的文档做一些修改："
 
 #: ../../upstream/docs/user/tutorial/index.rst:202
 msgid ""
 "Navigate to your GitHub repository, locating the file "
-"``docs/source/index.rst``, and clicking on the |:pencil2:| icon on the "
-"top-right with the tooltip \"Edit this file\" to open a web editor (more "
+"``docs/source/index.rst``, and clicking on the |:pencil2:| icon on the top-"
+"right with the tooltip \"Edit this file\" to open a web editor (more "
 "information `on their documentation`__)."
 msgstr ""
+"前往你的 GitHub 仓库，找到 ``docs/source/index.rst`` 文件，点击右上角提示为\"Edit this file\"的 "
+"|:pencil2:| 图标，打开网页编辑器（更多信息见 `on their documentation`__）。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:206
 #: ../../upstream/docs/user/tutorial/index.rst:211
 msgid "File view on GitHub before launching the editor"
-msgstr ""
+msgstr "启动编辑器前的 GitHub 文件视图"
 
 #: ../../upstream/docs/user/tutorial/index.rst:213
 msgid "In the editor, add the following sentence to the file:"
-msgstr ""
+msgstr "在编辑器中，向文件添加以下句子："
 
 #: ../../upstream/docs/user/tutorial/index.rst:215
 msgid "docs/source/index.rst"
-msgstr ""
+msgstr "docs/source/index.rst"
 
 #: ../../upstream/docs/user/tutorial/index.rst:220
 msgid ""
-"Write an appropriate commit message, choose the \"Create a **new branch**"
-" for this commit and start a pull request\" option."
+"Write an appropriate commit message, choose the \"Create a **new branch** "
+"for this commit and start a pull request\" option."
 msgstr ""
+"填写合适的提交信息，选择\"Create a **new branch** for this commit and start a pull "
+"request\"选项。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:222
 msgid ""
 "Click the green :guilabel:`Propose changes` button to open the new pull "
-"request page, then click the :guilabel:`Create pull request` button below"
-" the description."
+"request page, then click the :guilabel:`Create pull request` button below "
+"the description."
 msgstr ""
+"点击绿色的 :guilabel:`Propose changes` 按钮打开新建 Pull Request 页面，然后点击描述下方的 "
+":guilabel:`Create pull request` 按钮。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:224
 #: ../../upstream/docs/user/tutorial/index.rst:229
 msgid "Read the Docs building the pull request from GitHub"
-msgstr ""
+msgstr "Read the Docs 正在构建来自 GitHub 的 Pull Request"
 
 #: ../../upstream/docs/user/tutorial/index.rst:231
 msgid ""
-"After opening the pull request, a Read the Docs check will appear "
-"indicating that it is building the documentation for that pull request. "
-"If you click the :guilabel:`Details` link while your project is building "
-"the build log will be opened. After building this link opens the "
-"documentation directly."
+"After opening the pull request, a Read the Docs check will appear indicating"
+" that it is building the documentation for that pull request. If you click "
+"the :guilabel:`Details` link while your project is building the build log "
+"will be opened. After building this link opens the documentation directly."
 msgstr ""
+"打开 Pull Request 后，会出现一个 Read the Docs 检查项，表明它正在为该 Pull Request "
+"构建文档。如果在项目构建时点击 :guilabel:`Details` 链接，将打开构建日志。构建完成后，该链接会直接打开文档。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:237
 msgid "Adding a configuration file"
-msgstr ""
+msgstr "添加配置文件"
 
 #: ../../upstream/docs/user/tutorial/index.rst:239
 msgid ""
-"The Admin tab of the :term:`project home` has some *global* configuration"
-" settings for your project."
-msgstr ""
+"The Admin tab of the :term:`project home` has some *global* configuration "
+"settings for your project."
+msgstr ":term:`project home` 的 Admin 选项卡中包含一些针对你项目的*全局*配置设置。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:241
 msgid ""
 "Build process configuration settings are in ``.readthedocs.yaml`` "
-":doc:`configuration file </config-file/v2>`, in your Git repository, "
-"which means it can be different for every version or branch of your "
-"project (more on `versioning <#versioning-documentation>`_)."
+":doc:`configuration file </config-file/v2>`, in your Git repository, which "
+"means it can be different for every version or branch of your project (more "
+"on `versioning <#versioning-documentation>`_)."
 msgstr ""
+"构建过程的配置设置位于你 Git 仓库中的 ``.readthedocs.yaml`` :doc:`配置文件 </config-file/v2>` "
+"中，这意味着项目的每个版本或分支都可以有不同的配置（详见 `版本管理 <#versioning-documentation>`_）。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:249
 msgid "Using different Python versions"
-msgstr ""
+msgstr "使用不同的 Python 版本"
 
 #: ../../upstream/docs/user/tutorial/index.rst:251
 msgid ""
-"To build your project with Python 3.8 instead of the latest Python "
-"version, edit the ``.readthedocs.yaml`` file and change the Python "
-"version to 3.8 like this:"
+"To build your project with Python 3.8 instead of the latest Python version, "
+"edit the ``.readthedocs.yaml`` file and change the Python version to 3.8 "
+"like this:"
 msgstr ""
+"要使用 Python 3.8 而非最新的 Python 版本构建项目，请编辑 ``.readthedocs.yaml`` 文件，将 Python "
+"版本改为 3.8，如下所示："
 
 #: ../../upstream/docs/user/tutorial/index.rst:253
 #: ../../upstream/docs/user/tutorial/index.rst:326
 #: ../../upstream/docs/user/tutorial/index.rst:359
 #: ../../upstream/docs/user/tutorial/index.rst:384
 msgid ".readthedocs.yaml"
-msgstr ""
+msgstr ".readthedocs.yaml"
 
 #: ../../upstream/docs/user/tutorial/index.rst:271
 msgid ""
 "The :doc:`purpose of each key </config-file/v2>` in the "
 "``.readthedocs.yaml`` configuration file is:"
-msgstr ""
+msgstr "``.readthedocs.yaml`` 配置文件中:doc:`每个键的用途 </config-file/v2>` 如下："
 
 #: ../../upstream/docs/user/tutorial/index.rst:273
 msgid "``version``"
-msgstr ""
+msgstr "``version``"
 
 #: ../../upstream/docs/user/tutorial/index.rst:274
 msgid ""
 "Required, specifies :doc:`version 2 of the configuration file </config-"
 "file/v2>`."
-msgstr ""
+msgstr "必需，指定:doc:`配置文件的第 2 版 </config-file/v2>`。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:276
 msgid "``build.os``"
-msgstr ""
+msgstr "``build.os``"
 
 #: ../../upstream/docs/user/tutorial/index.rst:277
 msgid ""
 "Required, specifies the Docker image used to build the documentation. "
 ":ref:`states the name of the base image <config-file/v2:build.os>`."
-msgstr ""
+msgstr "必需，指定用于构建文档的 Docker 镜像。:ref:`声明基础镜像的名称 <config-file/v2:build.os>`。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:280
 msgid "``build.tools.python``"
-msgstr ""
+msgstr "``build.tools.python``"
 
 #: ../../upstream/docs/user/tutorial/index.rst:281
 msgid "Specifies the :ref:`Python version <config-file/v2:build.tools.python>`."
-msgstr ""
+msgstr "指定 :ref:`Python 版本 <config-file/v2:build.tools.python>`。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:283
 msgid "``python.install.requirements``"
-msgstr ""
+msgstr "``python.install.requirements``"
 
 #: ../../upstream/docs/user/tutorial/index.rst:284
 msgid ""
-"Specifies what :ref:`Python dependencies <config-file/v2:python.install>`"
-" to install."
-msgstr ""
+"Specifies what :ref:`Python dependencies <config-file/v2:python.install>` to"
+" install."
+msgstr "指定要安装的 :ref:`Python 依赖 <config-file/v2:python.install>`。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:286
 msgid ""
-"After you commit these changes, go back to your project home, navigate to"
-" the \"Builds\" page, and open the new build that just started. You will "
-"notice that one of the lines contains ``python -mvirtualenv``: if you "
-"click on it, you will see the full output of the corresponding command, "
-"stating that it used Python 3.8.6, the latest version of Python 3.8, to "
-"create the virtual environment."
+"After you commit these changes, go back to your project home, navigate to "
+"the \"Builds\" page, and open the new build that just started. You will "
+"notice that one of the lines contains ``python -mvirtualenv``: if you click "
+"on it, you will see the full output of the corresponding command, stating "
+"that it used Python 3.8.6, the latest version of Python 3.8, to create the "
+"virtual environment."
 msgstr ""
+"提交这些更改后，返回项目主页，前往\"Builds\"页面，打开刚刚启动的新构建。你会注意到其中一行包含 ``python "
+"-mvirtualenv``：点击它可查看该命令的完整输出，其中显示它使用 Python 3.8.6（Python 3.8 的最新版本）创建了虚拟环境。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:292
 #: ../../upstream/docs/user/tutorial/index.rst:297
 msgid "Read the Docs build using Python 3.8"
-msgstr ""
+msgstr "使用 Python 3.8 的 Read the Docs 构建"
 
 #: ../../upstream/docs/user/tutorial/index.rst:300
 msgid "Making build warnings more visible"
-msgstr ""
+msgstr "让构建警告更醒目"
 
 #: ../../upstream/docs/user/tutorial/index.rst:302
 msgid ""
-"If you navigate to your HTML documentation, you will notice that the "
-"index page looks correct but the API section is empty. This is a common "
-"issue with Sphinx, and the reason is stated in the build logs. On the "
-"build page you opened before, click on the :guilabel:`View raw` link on "
-"the top right, which opens the build logs in plain text, and you will see"
-" several warnings:"
+"If you navigate to your HTML documentation, you will notice that the index "
+"page looks correct but the API section is empty. This is a common issue with"
+" Sphinx, and the reason is stated in the build logs. On the build page you "
+"opened before, click on the :guilabel:`View raw` link on the top right, "
+"which opens the build logs in plain text, and you will see several warnings:"
 msgstr ""
+"如果你查看 HTML 文档，会发现首页看起来正常，但 API 部分为空。这是 Sphinx "
+"的常见问题，原因已在构建日志中说明。在之前打开的构建页面上，点击右上角的 :guilabel:`View raw` "
+"链接，它会以纯文本形式打开构建日志，你将看到几条警告："
 
 #: ../../upstream/docs/user/tutorial/index.rst:321
 msgid ""
 "To spot these warnings more easily and help you to address them, add the "
-"``sphinx.fail_on_warning`` option to your Read the Docs configuration "
-"file."
-msgstr ""
+"``sphinx.fail_on_warning`` option to your Read the Docs configuration file."
+msgstr "为了更容易发现这些警告并帮助你解决它们，请在 Read the Docs 配置文件中添加 ``sphinx.fail_on_warning`` 选项。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:324
 msgid ""
@@ -578,21 +621,25 @@ msgid ""
 "``.readthedocs.yaml`` file in your project, add the three lines of "
 "``sphinx`` configuration below, and commit the file:"
 msgstr ""
+"要让 Read the Docs 项目在出现警告时构建失败，请编辑项目中的 ``.readthedocs.yaml`` 文件，添加下面三行 "
+"``sphinx`` 配置，然后提交该文件："
 
 #: ../../upstream/docs/user/tutorial/index.rst:345
 msgid ""
-"If you navigate to your \"Builds\" page, you will see a ``Failed`` build,"
-" which is expected because we've configured Sphinx to fail on warnings "
-"and several warnings were encountered during the build."
+"If you navigate to your \"Builds\" page, you will see a ``Failed`` build, "
+"which is expected because we've configured Sphinx to fail on warnings and "
+"several warnings were encountered during the build."
 msgstr ""
+"如果你前往\"Builds\"页面，会看到一个``Failed``构建，这是预期结果，因为我们已经将 Sphinx "
+"配置为遇警告即失败，而构建过程中遇到了几条警告。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:347
 msgid "To learn how to fix these warnings, see the next section."
-msgstr ""
+msgstr "要了解如何修复这些警告，请参阅下一节。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:350
 msgid "Installing Python dependencies"
-msgstr ""
+msgstr "安装 Python 依赖"
 
 #: ../../upstream/docs/user/tutorial/index.rst:352
 msgid ""
@@ -601,130 +648,152 @@ msgid ""
 ":ref:`tutorial/index:making build warnings more visible`, is because the "
 "``lumache`` module is not installed."
 msgstr ""
+":py:mod:`sphinx:sphinx.ext.autosummary` 和 "
+":py:mod:`sphinx:sphinx.ext.autodoc` 无法导入:ref:`tutorial/index:making build "
+"warnings more visible` 中内容的原因是 ``lumache`` 模块未安装。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:354
 msgid ""
 "You will need to specify those installation requirements in "
 "``.readthedocs.yaml``."
-msgstr ""
+msgstr "你需要在 ``.readthedocs.yaml`` 中指定这些安装依赖。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:356
 msgid ""
-"To install your project dependencies and make your code available to "
-"Sphinx, edit ``.readthedocs.yaml``, add the ``python.install``  section "
-"and commit it:"
+"To install your project dependencies and make your code available to Sphinx,"
+" edit ``.readthedocs.yaml``, add the ``python.install``  section and commit "
+"it:"
 msgstr ""
+"要安装项目依赖并让 Sphinx 能够访问你的代码，请编辑 ``.readthedocs.yaml``，添加 ``python.install`` "
+"部分并提交："
 
 #: ../../upstream/docs/user/tutorial/index.rst:370
 msgid ""
 "Now, Read the Docs installs the Python code before starting the Sphinx "
-"build, which will finish seamlessly. If you go now to the API page of "
-"your HTML documentation, you will see the ``lumache`` summary! :tada:"
+"build, which will finish seamlessly. If you go now to the API page of your "
+"HTML documentation, you will see the ``lumache`` summary! :tada:"
 msgstr ""
+"现在，Read the Docs 会在启动 Sphinx 构建之前安装 Python 代码，构建将顺利完成。如果你现在前往 HTML 文档的 API "
+"页面，就会看到 ``lumache`` 的摘要！:tada:"
 
 #: ../../upstream/docs/user/tutorial/index.rst:376
 msgid "Enabling PDF and EPUB builds"
-msgstr ""
+msgstr "启用 PDF 和 EPUB 构建"
 
 #: ../../upstream/docs/user/tutorial/index.rst:378
 msgid ""
-"Sphinx can build several other formats in addition to HTML, such as PDF "
-"and EPUB. You might want to enable these formats for your project so your"
-" users can read the documentation offline."
-msgstr ""
+"Sphinx can build several other formats in addition to HTML, such as PDF and "
+"EPUB. You might want to enable these formats for your project so your users "
+"can read the documentation offline."
+msgstr "Sphinx 除 HTML 之外还能构建多种其他格式，例如 PDF 和 EPUB。你可能希望为项目启用这些格式，以便用户离线阅读文档。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:382
 msgid "To do so, add the following ``formats`` to your ``.readthedocs.yaml``:"
-msgstr ""
+msgstr "为此，请在你的 ``.readthedocs.yaml`` 中添加以下 ``formats``："
 
 #: ../../upstream/docs/user/tutorial/index.rst:396
 msgid ""
-"After this change, PDF and EPUB downloads will be available both from the"
-" \"Downloads\" section of the :term:`project home`, as well as the "
+"After this change, PDF and EPUB downloads will be available both from the "
+"\"Downloads\" section of the :term:`project home`, as well as the "
 ":term:`flyout menu`."
 msgstr ""
+"完成此更改后，PDF 和 EPUB 下载将同时出现在 :term:`project home` 的\"Downloads\"区域和 "
+":term:`flyout menu` 中。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:400
 #: ../../upstream/docs/user/tutorial/index.rst:404
 msgid "Downloads available from the flyout menu"
-msgstr ""
+msgstr "可从浮出菜单下载"
 
 #: ../../upstream/docs/user/tutorial/index.rst:407
 msgid "Versioning documentation"
-msgstr ""
+msgstr "文档版本管理"
 
 #: ../../upstream/docs/user/tutorial/index.rst:409
 msgid ""
-"Read the Docs supports having :doc:`several versions of your "
-"documentation </versions>`, in the same way that you have several "
-"versions of your code. By default, it creates a ``latest`` version that "
-"points to the default branch of your version control system (``main`` in "
-"the case of this tutorial), and that's why the URLs of your HTML "
-"documentation contain the string ``/latest/``."
+"Read the Docs supports having :doc:`several versions of your documentation "
+"</versions>`, in the same way that you have several versions of your code. "
+"By default, it creates a ``latest`` version that points to the default "
+"branch of your version control system (``main`` in the case of this "
+"tutorial), and that's why the URLs of your HTML documentation contain the "
+"string ``/latest/``."
 msgstr ""
+"Read the Docs 支持:doc:`为文档创建多个版本 </versions>`，就像你的代码有多个版本一样。默认情况下，它会创建一个 "
+"``latest`` 版本，指向版本控制系统的默认分支（本教程中为 ``main``），这就是为什么你的 HTML 文档 URL 中包含字符串 "
+"``/latest/``。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:417
 msgid "Creating a new version of your documentation"
-msgstr ""
+msgstr "创建文档的新版本"
 
 #: ../../upstream/docs/user/tutorial/index.rst:419
 msgid ""
 "Read the Docs automatically creates documentation versions from GitHub "
 "branches and tags that :ref:`follows some rules <versions:Versioning "
-"workflows>` about looking like version numbers, such as ``1.0``, "
-"``2.0.3`` or ``4.x``."
+"workflows>` about looking like version numbers, such as ``1.0``, ``2.0.3`` "
+"or ``4.x``."
 msgstr ""
+"Read the Docs 会根据 GitHub 的分支和标签自动创建文档版本，这些分支和标签需:ref:`遵循一些规则 "
+"<versions:Versioning workflows>`，即看起来像版本号，例如 ``1.0``、``2.0.3`` 或 ``4.x``。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:421
 msgid ""
 "To create version ``1.0`` of your code, and consequently of your "
 "documentation:"
-msgstr ""
+msgstr "要创建代码的 ``1.0`` 版本（以及相应的文档版本）："
 
 #: ../../upstream/docs/user/tutorial/index.rst:423
 msgid ""
 "Navigate to your GitHub repository, click the branch selector, type "
-"``1.0.x``, and click \"Create branch: 1.0.x from 'main'\" (more "
-"information `in the GitHub documentation`__)."
+"``1.0.x``, and click \"Create branch: 1.0.x from 'main'\" (more information "
+"`in the GitHub documentation`__)."
 msgstr ""
+"前往你的 GitHub 仓库，点击分支选择器，输入 ``1.0.x``，然后点击\"Create branch: 1.0.x from "
+"'main'\"（更多信息见 `in the GitHub documentation`__）。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:425
 msgid ""
 "Check that you now have version ``1.0.x`` in your :term:`project home`, "
-"click on the :guilabel:`Versions` button, and under \"Active Versions\" "
-"you will see two entries:"
+"click on the :guilabel:`Versions` button, and under \"Active Versions\" you "
+"will see two entries:"
 msgstr ""
+"确认你的 :term:`project home` 中现在有 ``1.0.x`` 版本，点击 :guilabel:`Versions` "
+"按钮，在\"Active Versions\"下你将看到两个条目："
 
 #: ../../upstream/docs/user/tutorial/index.rst:427
 msgid "The ``latest`` version, pointing to the ``main`` branch."
-msgstr ""
+msgstr "``latest`` 版本，指向 ``main`` 分支。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:428
 msgid "A new ``stable`` version, pointing to the ``origin/1.0.x`` branch."
-msgstr ""
+msgstr "一个新的 ``stable`` 版本，指向 ``origin/1.0.x`` 分支。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:433
 #: ../../upstream/docs/user/tutorial/index.rst:438
 msgid "List of active versions of the project"
-msgstr ""
+msgstr "项目的活跃版本列表"
 
 #: ../../upstream/docs/user/tutorial/index.rst:440
 msgid ""
-"When you created your branch, Read the Docs created a new special version"
-" called ``stable`` pointing to it. When it's built it will be listed in "
-"the :term:`flyout menu`."
+"When you created your branch, Read the Docs created a new special version "
+"called ``stable`` pointing to it. When it's built it will be listed in the "
+":term:`flyout menu`."
 msgstr ""
+"当你创建分支时，Read the Docs 会创建一个名为 ``stable`` 的特殊版本指向它。构建完成后，它将列在 :term:`flyout "
+"menu` 中。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:444
 msgid "Setting stable as the default"
-msgstr ""
+msgstr "将 stable 设为默认版本"
 
 #: ../../upstream/docs/user/tutorial/index.rst:446
 msgid ""
-"To set ``stable`` as the *default version*, rather than ``latest``, so "
-"that users see the ``stable`` documentation when they visit the "
-":term:`root URL` of your documentation:"
+"To set ``stable`` as the *default version*, rather than ``latest``, so that "
+"users see the ``stable`` documentation when they visit the :term:`root URL` "
+"of your documentation:"
 msgstr ""
+"要将 ``stable`` 设为*默认版本*而非 ``latest``，以便用户访问文档的 :term:`root URL` 时看到 "
+"``stable`` 文档："
 
 #: ../../upstream/docs/user/tutorial/index.rst:451
 msgid ""
@@ -732,200 +801,217 @@ msgid ""
 ":guilabel:`Settings` link, choose ``stable`` in the \"Default version*\" "
 "dropdown, and hit :guilabel:`Save` at the bottom."
 msgstr ""
+"在项目主页的 :guilabel:`⚙ Admin` 菜单中，前往 :guilabel:`Settings` 链接，在\"Default "
+"version*\"下拉框中选择 ``stable``，然后点击底部的 :guilabel:`Save`。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:454
 msgid "Modifying versions"
-msgstr ""
+msgstr "修改版本"
 
 #: ../../upstream/docs/user/tutorial/index.rst:456
 msgid ""
-"Both ``latest`` and ``stable`` are now *active*, which means that they "
-"are visible for users, and new builds can be triggered for them. In "
-"addition to these, Read the Docs also created an *inactive* ``1.0.x`` "
-"version, which will always point to the ``1.0.x`` branch of your "
-"repository."
+"Both ``latest`` and ``stable`` are now *active*, which means that they are "
+"visible for users, and new builds can be triggered for them. In addition to "
+"these, Read the Docs also created an *inactive* ``1.0.x`` version, which "
+"will always point to the ``1.0.x`` branch of your repository."
 msgstr ""
+"``latest`` 和 ``stable`` 现在都是*活跃的*，这意味着用户可以看到它们，并且可以为它们触发新的构建。除此之外，Read the "
+"Docs 还创建了一个*非活跃的* ``1.0.x`` 版本，它始终指向你仓库的 ``1.0.x`` 分支。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:461
 #: ../../upstream/docs/user/tutorial/index.rst:466
 msgid "List of inactive versions of the project"
-msgstr ""
+msgstr "项目的非活跃版本列表"
 
 #: ../../upstream/docs/user/tutorial/index.rst:468
 msgid "To activate the ``1.0.x`` version:"
-msgstr ""
+msgstr "要激活 ``1.0.x`` 版本："
 
 #: ../../upstream/docs/user/tutorial/index.rst:470
 msgid ""
-"On your :term:`project home`, go to the \"Versions\", locate ``1.0.x`` "
-"under \"Activate a version\", and click the :guilabel:`Activate` button."
+"On your :term:`project home`, go to the \"Versions\", locate ``1.0.x`` under"
+" \"Activate a version\", and click the :guilabel:`Activate` button."
 msgstr ""
+"在你的 :term:`project home` 上，前往\"Versions\"，在\"Activate a version\"下找到 "
+"``1.0.x``，然后点击 :guilabel:`Activate` 按钮。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:472
 msgid ""
-"On the \"Activate\" page with \"Active\" and \"Hidden\" checkboxes, check"
-" only \"Active\" and click :guilabel:`Save`."
+"On the \"Activate\" page with \"Active\" and \"Hidden\" checkboxes, check "
+"only \"Active\" and click :guilabel:`Save`."
 msgstr ""
+"在带有\"Active\"和\"Hidden\"复选框的\"Activate\"页面上，仅勾选\"Active\"，然后点击 "
+":guilabel:`Save`。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:476
 msgid ""
 "Read more about :ref:`hidden versions <versions:Version states>` in our "
 "documentation."
-msgstr ""
+msgstr "在我们的文档中了解更多关于:ref:`隐藏版本 <versions:Version states>` 的信息。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:515
 msgid "Getting project insights"
-msgstr ""
+msgstr "了解项目数据"
 
 #: ../../upstream/docs/user/tutorial/index.rst:517
 msgid ""
-"Once your project is up and running, you will probably want to understand"
-" how readers are using your documentation, addressing some common "
-"questions like:"
-msgstr ""
+"Once your project is up and running, you will probably want to understand "
+"how readers are using your documentation, addressing some common questions "
+"like:"
+msgstr "项目上线运行后，你可能希望了解读者如何使用你的文档，回答一些常见问题，例如："
 
 #: ../../upstream/docs/user/tutorial/index.rst:520
 msgid "what are the most visited pages?"
-msgstr ""
+msgstr "哪些页面访问量最高？"
 
 #: ../../upstream/docs/user/tutorial/index.rst:521
 msgid "what are the most frequently used search terms?"
-msgstr ""
+msgstr "哪些搜索词最常使用？"
 
 #: ../../upstream/docs/user/tutorial/index.rst:522
 msgid "are readers finding what they are looking for?"
-msgstr ""
+msgstr "读者是否找到了他们想要的内容？"
 
 #: ../../upstream/docs/user/tutorial/index.rst:524
 msgid ""
 "Read the Docs has traffic and search analytics tools to help you find "
 "answers to these questions."
-msgstr ""
+msgstr "Read the Docs 提供流量和搜索分析工具，帮助你找到这些问题的答案。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:527
 msgid "Understanding traffic analytics"
-msgstr ""
+msgstr "了解流量分析"
 
 #: ../../upstream/docs/user/tutorial/index.rst:529
 msgid ""
-"The Traffic Analytics view gives you a simple overview of how your "
-"readers browse your documentation. It respects visitors' privacy by not "
-"storing identifying information about them."
-msgstr ""
+"The Traffic Analytics view gives you a simple overview of how your readers "
+"browse your documentation. It respects visitors' privacy by not storing "
+"identifying information about them."
+msgstr "流量分析视图为你简要展示读者如何浏览你的文档。它尊重访客隐私，不存储可识别其身份的信息。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:531
 msgid ""
 "This page shows the most viewed documentation pages of the past 30 days, "
 "plus a visualization of the daily views during that period."
-msgstr ""
+msgstr "此页面显示过去 30 天内浏览量最高的文档页面，以及该期间每日浏览量的可视化图表。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:534
 msgid ""
-"To see the Traffic Analytics view, go back the :term:`project page` "
-"again, click the :guilabel:`⚙ Admin` button, and then click the "
-":guilabel:`Traffic Analytics` section. You will see the list of pages in "
-"descending order of visits, and a similar visualization to this one:"
+"To see the Traffic Analytics view, go back the :term:`project page` again, "
+"click the :guilabel:`⚙ Admin` button, and then click the :guilabel:`Traffic "
+"Analytics` section. You will see the list of pages in descending order of "
+"visits, and a similar visualization to this one:"
 msgstr ""
+"要查看流量分析视图，请再次返回 :term:`project page`，点击 :guilabel:`⚙ Admin` 按钮，然后点击 "
+":guilabel:`Traffic Analytics` 区域。你将看到按访问量降序排列的页面列表，以及类似下图的图表："
 
 #: ../../upstream/docs/user/tutorial/index.rst:540
 #: ../../upstream/docs/user/tutorial/index.rst:545
 msgid "Traffic Analytics plot"
-msgstr ""
+msgstr "流量分析图表"
 
 #: ../../upstream/docs/user/tutorial/index.rst:547
 msgid ""
 "You can also download this data in :abbr:`CSV (Comma-Separated Values)`  "
-"format for closer inspection. To do that, scroll to the bottom of the "
-"page and click the :guilabel:`Download all data` button."
+"format for closer inspection. To do that, scroll to the bottom of the page "
+"and click the :guilabel:`Download all data` button."
 msgstr ""
+"你还可以下载 :abbr:`CSV（逗号分隔值）` 格式的数据以便详细查看。为此，请滚动到页面底部并点击 :guilabel:`Download all"
+" data` 按钮。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:552
 msgid "Understanding search analytics"
-msgstr ""
+msgstr "了解搜索分析"
 
 #: ../../upstream/docs/user/tutorial/index.rst:554
 msgid ""
 "As well as traffic analytics, Read the Docs shows :doc:`what terms your "
-"readers are searching for </search-analytics>`. This can inform decisions"
-" on what areas to focus on, or what parts of your project are less "
-"understood or more difficult to find."
+"readers are searching for </search-analytics>`. This can inform decisions on"
+" what areas to focus on, or what parts of your project are less understood "
+"or more difficult to find."
 msgstr ""
+"除了流量分析，Read the Docs 还会显示:doc:`读者正在搜索哪些词 </search-"
+"analytics>`。这可以帮助你决定应重点关注哪些领域，或项目中哪些部分较难理解或难以找到。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:558
 msgid ""
-"To generate some artificial search statistics on the project, go to the "
-"HTML documentation, locate the Sphinx search box on the left, type "
-"``ingredients``, and press the :kbd:`Enter` key. You will be redirected "
-"to the search results page, which will show two entries."
+"To generate some artificial search statistics on the project, go to the HTML"
+" documentation, locate the Sphinx search box on the left, type "
+"``ingredients``, and press the :kbd:`Enter` key. You will be redirected to "
+"the search results page, which will show two entries."
 msgstr ""
+"要在项目中生成一些模拟搜索统计数据，请前往 HTML 文档，找到左侧的 Sphinx 搜索框，输入 ``ingredients``，然后按 "
+":kbd:`Enter` 键。你将被重定向到搜索结果页面，其中显示两个条目。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:563
 msgid ""
-"Next, go back to the :guilabel:`⚙ Admin` section of your project page, "
-"and then click the :guilabel:`Search Analytics` section. You will see a "
-"table with the most searched queries (including the ``ingredients`` one "
-"you just typed), how many results did each query return, and how many "
-"times it was searched. Below the queries table, you will also see a "
-"visualization of the daily number of search queries during the past 30 "
-"days."
+"Next, go back to the :guilabel:`⚙ Admin` section of your project page, and "
+"then click the :guilabel:`Search Analytics` section. You will see a table "
+"with the most searched queries (including the ``ingredients`` one you just "
+"typed), how many results did each query return, and how many times it was "
+"searched. Below the queries table, you will also see a visualization of the "
+"daily number of search queries during the past 30 days."
 msgstr ""
+"接下来，返回项目页面的 :guilabel:`⚙ Admin` 区域，然后点击 :guilabel:`Search Analytics` "
+"区域。你将看到一个表格，其中列出搜索次数最多的查询（包括你刚输入的 "
+"``ingredients``）、每个查询返回的结果数以及被搜索的次数。在查询表格下方，你还将看到过去 30 天每日搜索查询次数的可视化图表。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:571
 #: ../../upstream/docs/user/tutorial/index.rst:576
 msgid "Most searched terms"
-msgstr ""
+msgstr "搜索次数最多的词"
 
 #: ../../upstream/docs/user/tutorial/index.rst:578
 msgid ""
-"Like the Traffic Analytics, you can also download the whole dataset in "
-"CSV format by clicking on the :guilabel:`Download all data` button."
-msgstr ""
+"Like the Traffic Analytics, you can also download the whole dataset in CSV "
+"format by clicking on the :guilabel:`Download all data` button."
+msgstr "与流量分析一样，你也可以通过点击 :guilabel:`Download all data` 按钮以 CSV 格式下载完整数据集。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:582
 msgid "Where to go from here"
-msgstr ""
+msgstr "下一步"
 
 #: ../../upstream/docs/user/tutorial/index.rst:584
 msgid "This is the end of the tutorial. You have accomplished a lot:"
-msgstr ""
+msgstr "本教程到此结束。你已经完成了很多工作："
 
 #: ../../upstream/docs/user/tutorial/index.rst:586
 msgid "Forked a GitHub repository."
-msgstr ""
+msgstr "Fork 了一个 GitHub 仓库。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:587
 msgid "Connected it to Read the Docs."
-msgstr ""
+msgstr "将其连接到 Read the Docs。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:588
 msgid "Built its HTML documentation."
-msgstr ""
+msgstr "构建了它的 HTML 文档。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:589
 msgid "Customized the build process."
-msgstr ""
+msgstr "定制了构建过程。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:590
 msgid "Added new documentation versions."
-msgstr ""
+msgstr "添加了新的文档版本。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:591
 msgid "Browsed the project analytics."
-msgstr ""
+msgstr "查看了项目数据分析。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:593
 msgid "Nice work!"
-msgstr ""
+msgstr "做得很好！"
 
 #: ../../upstream/docs/user/tutorial/index.rst:595
 msgid ""
-"Here are some resources to help you continue learning about documentation"
-" and Read the Docs:"
-msgstr ""
+"Here are some resources to help you continue learning about documentation "
+"and Read the Docs:"
+msgstr "以下是一些资源，帮助你继续学习文档编写和 Read the Docs："
 
 #: ../../upstream/docs/user/tutorial/index.rst:598
 msgid "Learn more about the platform :doc:`features </reference/features>`."
-msgstr ""
+msgstr "进一步了解平台的:doc:`功能 </reference/features>`。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:599
 msgid ""
@@ -933,20 +1019,22 @@ msgid ""
 "tutorial <sphinx:tutorial/index>` or the `MkDocs User Guide "
 "<https://www.mkdocs.org/user-guide/>`_."
 msgstr ""
+"在:doc:`Sphinx 教程 <sphinx:tutorial/index>` 或 `MkDocs User Guide "
+"<https://www.mkdocs.org/user-guide/>`_ 中了解其他受支持的文档生成器。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:600
 msgid "See a list of Read the Docs :doc:`/examples`."
-msgstr ""
+msgstr "查看 Read the Docs :doc:`示例 </examples>` 列表。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:601
 msgid "Learn how to do specific tasks in the :doc:`/guides/index`."
-msgstr ""
+msgstr "在 :doc:`/guides/index` 中了解如何完成特定任务。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:602
 msgid ""
 "Learn about private project support and other enterprise features in "
 ":doc:`our commercial service guide </commercial/index>`."
-msgstr ""
+msgstr "在:doc:`我们的商业服务指南 </commercial/index>` 中了解私有项目支持和其他企业级功能。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:604
 msgid ""
@@ -955,14 +1043,15 @@ msgid ""
 "<https://www.writethedocs.org/>`_ and :doc:`its Slack workspace "
 "<writethedocs:slack>`."
 msgstr ""
+"加入 `Write the Docs <https://www.writethedocs.org/>`_ 中由全球 `文档工作者 "
+"<writethedocs:documentarians>` 组成的社区，以及 :doc:`其 Slack 工作区 "
+"<writethedocs:slack>`。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:606
-msgid ""
-"Contribute to Read the Docs in :doc:`rtd-dev:contribute`, we appreciate "
-"it!"
-msgstr ""
+msgid "Contribute to Read the Docs in :doc:`rtd-dev:contribute`, we appreciate it!"
+msgstr "在 :doc:`rtd-dev:contribute` 中为 Read the Docs 做贡献，我们非常感激！"
 
 #: ../../upstream/docs/user/tutorial/index.rst:608
 msgid "Happy documenting!"
-msgstr ""
+msgstr "祝你写作愉快！"
 

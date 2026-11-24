@@ -22,18 +22,18 @@ msgstr ""
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:-1
 msgid "Hosting Docusaurus sites on Read the Docs."
-msgstr ""
+msgstr "在 Read the Docs 上托管 Docusaurus 站点。"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:3
 msgid "Deploying Docusaurus on Read the Docs"
-msgstr ""
+msgstr "在 Read the Docs 上部署 Docusaurus"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:8
 msgid ""
 "`Docusaurus`_ is a static-site generator that builds a single-page "
 "application with fast client-side navigation and out-of-the-box "
 "documentation features."
-msgstr ""
+msgstr "`Docusaurus`_ 是一个静态站点生成器，可构建具有快速客户端导航和开箱即用文档功能的单页应用。"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:10
 msgid ""
@@ -42,75 +42,78 @@ msgid ""
 "multiple :ref:`build <config-file/v2:build>` jobs to install the "
 "requirements, build the site, and copy the output to $READTHEDOCS_OUTPUT:"
 msgstr ""
+"在 Read the Docs 上构建 Docusaurus 项目所需的最小配置如下所示，它在 Ubuntu 上指定 Node.js 工具链，并使用多个"
+" :ref:`build <config-file/v2:build>` 作业来安装依赖、构建站点并将输出复制到 "
+"$READTHEDOCS_OUTPUT："
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:14
 msgid ".readthedocs.yaml"
-msgstr ""
+msgstr ".readthedocs.yaml"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:40
 #: ../../upstream/docs/user/intro/docusaurus.rst:42
 msgid "Limitations"
-msgstr ""
+msgstr "限制"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:1
 msgid "Feature"
-msgstr ""
+msgstr "功能"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:1
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:1
 msgid "Supported"
-msgstr ""
+msgstr "支持"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:1
 msgid "Search"
-msgstr ""
+msgstr "搜索"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:1
 msgid "Provides full-text search capabilities."
-msgstr ""
+msgstr "提供全文搜索功能。"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:1
 msgid "Not supported"
-msgstr ""
+msgstr "不支持"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:1
 msgid "Files changed"
-msgstr ""
+msgstr "文件变更"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:1
 msgid "Ability to see what HTML files change in pull request previews."
-msgstr ""
+msgstr "在 Pull Request 预览中查看哪些 HTML 文件发生变化。"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:49
 msgid "Quick start"
-msgstr ""
+msgstr "快速开始"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:51
 msgid ""
 "If you have an existing Docusaurus project you want to host on Read the "
 "Docs, check out our :doc:`/intro/add-project` guide."
-msgstr ""
+msgstr "如果你已有想在 Read the Docs 上托管的 Docusaurus 项目，请参阅 :doc:`/intro/add-project` 指南。"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:52
 msgid "If you're new to Docusaurus, check out the official `Fast Track`_ guide."
-msgstr ""
+msgstr "如果你还不熟悉 Docusaurus，请参阅官方的 `Fast Track`_ 指南。"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:57
 msgid "Configuring Docusaurus and Read the Docs Addons"
-msgstr ""
+msgstr "配置 Docusaurus 与 Read the Docs Addon"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:59
 msgid ""
 "For optimal integration with Read the Docs, make the following optional "
 "configuration changes to your Docusaurus config."
-msgstr ""
+msgstr "为获得与 Read the Docs 的最佳集成效果，请对你的 Docusaurus 配置进行以下可选更改。"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:67
 msgid "Configure trailing slashes"
-msgstr ""
+msgstr "配置尾部斜杠"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:69
 msgid ""
@@ -119,52 +122,57 @@ msgid ""
 "``/docs/intro`` are handled as ``/docs/intro/`` and the corresponding "
 "``index.html`` file is served correctly."
 msgstr ""
+"为在 Read the Docs 上正常运行，你需要在 Docusaurus 配置中设置 ``trailingSlash: true``。这可确保像 "
+"``/docs/intro`` 这样的 URL 被当作 ``/docs/intro/`` 处理，并正确提供相应的 ``index.html`` 文件。"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:72
 msgid ""
-"Without this setting (or if set to ``false``), you will need to configure"
-" redirects to ensure proper URL resolution."
-msgstr ""
+"Without this setting (or if set to ``false``), you will need to configure "
+"redirects to ensure proper URL resolution."
+msgstr "如果不设置此项（或设置为 ``false``），你需要配置重定向以确保 URL 正确解析。"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:74
 #: ../../upstream/docs/user/intro/docusaurus.rst:91
 msgid "docusaurus.config.js"
-msgstr ""
+msgstr "docusaurus.config.js"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:83
 msgid "Set the canonical URL"
-msgstr ""
+msgstr "设置规范 URL"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:85
 msgid ""
-"A :doc:`canonical URL </canonical-urls>` allows you to specify the "
-"preferred version of a web page to prevent duplicated content."
-msgstr ""
+"A :doc:`canonical URL </canonical-urls>` allows you to specify the preferred"
+" version of a web page to prevent duplicated content."
+msgstr ":doc:`规范 URL </canonical-urls>` 允许你指定网页的首选版本，以防止内容重复。"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:88
 msgid ""
-"Set your Docusaurus `url`_ to your Read the Docs canonical URL using "
-"`dotenv <https://www.npmjs.com/package/dotenv>`__ and a :doc:`Read the "
-"Docs environment variable </reference/environment-variables>`:"
+"Set your Docusaurus `url`_ to your Read the Docs canonical URL using `dotenv"
+" <https://www.npmjs.com/package/dotenv>`__ and a :doc:`Read the Docs "
+"environment variable </reference/environment-variables>`:"
 msgstr ""
+"使用 `dotenv <https://www.npmjs.com/package/dotenv>`__ 和一个 :doc:`Read the Docs"
+" 环境变量 </reference/environment-variables>`，将你的 Docusaurus `url`_ 设置为 Read the"
+" Docs 的规范 URL："
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:103
 msgid "Example repository and demo"
-msgstr ""
+msgstr "示例仓库与演示"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:105
 msgid "Example repository"
-msgstr ""
+msgstr "示例仓库"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:106
 msgid "https://github.com/readthedocs/test-builds/tree/docusaurus"
-msgstr ""
+msgstr "https://github.com/readthedocs/test-builds/tree/docusaurus"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:108
 msgid "Demo"
-msgstr ""
+msgstr "演示"
 
 #: ../../upstream/docs/user/intro/docusaurus.rst:109
 msgid "https://test-builds.readthedocs.io/en/docusaurus/"
-msgstr ""
+msgstr "https://test-builds.readthedocs.io/en/docusaurus/"
 

@@ -22,94 +22,94 @@ msgstr ""
 
 #: ../../upstream/docs/user/intro/markdoc.rst:-1
 msgid "Hosting Markdoc documentation on Read the Docs."
-msgstr ""
+msgstr "在 Read the Docs 上托管 Markdoc 文档。"
 
 #: ../../upstream/docs/user/intro/markdoc.rst:3
 msgid "Deploying Markdoc on Read the Docs"
-msgstr ""
+msgstr "在 Read the Docs 上部署 Markdoc"
 
 #: ../../upstream/docs/user/intro/markdoc.rst:8
 msgid ""
-"`Markdoc`_ is a powerful documentation framework that allows you to write"
-" documentation in a flavor of Markdown."
-msgstr ""
+"`Markdoc`_ is a powerful documentation framework that allows you to write "
+"documentation in a flavor of Markdown."
+msgstr "`Markdoc`_ 是一个强大的文档框架，让你可以使用一种 Markdown 变体来编写文档。"
 
 #: ../../upstream/docs/user/intro/markdoc.rst:10
 msgid ""
-"Minimal configuration is required to build an existing Markdoc project on"
-" Read the Docs."
-msgstr ""
+"Minimal configuration is required to build an existing Markdoc project on "
+"Read the Docs."
+msgstr "在 Read the Docs 上构建现有 Markdoc 项目所需的配置极少。"
 
 #: ../../upstream/docs/user/intro/markdoc.rst:12
 msgid ".readthedocs.yaml"
-msgstr ""
+msgstr ".readthedocs.yaml"
 
 #: ../../upstream/docs/user/intro/markdoc.rst:35
 msgid "Example configuration"
-msgstr ""
+msgstr "示例配置"
 
 #: ../../upstream/docs/user/intro/markdoc.rst:37
 msgid ""
-"In order to build a Markdoc project on Read the Docs, you need to "
-"generate static HTML from the Next.js build:"
-msgstr ""
+"In order to build a Markdoc project on Read the Docs, you need to generate "
+"static HTML from the Next.js build:"
+msgstr "要在 Read the Docs 上构建 Markdoc 项目，你需要从 Next.js 构建中生成静态 HTML："
 
 #: ../../upstream/docs/user/intro/markdoc.rst:40
 msgid "next.config.js"
-msgstr ""
+msgstr "next.config.js"
 
 #: ../../upstream/docs/user/intro/markdoc.rst:66
 msgid "Limitations"
-msgstr ""
+msgstr "限制"
 
 #: ../../upstream/docs/user/intro/markdoc.rst:68
 msgid ""
-"All Read the Docs features are supported for Markdoc projects. There may "
-"be some Markdoc features that depend on server-side rendering that are "
-"not supported."
-msgstr ""
+"All Read the Docs features are supported for Markdoc projects. There may be "
+"some Markdoc features that depend on server-side rendering that are not "
+"supported."
+msgstr "Read the Docs 的所有功能均支持 Markdoc 项目。某些依赖服务器端渲染的 Markdoc 功能可能不受支持。"
 
 #: ../../upstream/docs/user/intro/markdoc.rst:72
 msgid "Getting started"
-msgstr ""
+msgstr "快速入门"
 
 #: ../../upstream/docs/user/intro/markdoc.rst:74
 msgid ""
-"If you have an existing Markdoc project you want to host on Read the "
-"Docs, check out our :doc:`/intro/add-project` guide."
-msgstr ""
+"If you have an existing Markdoc project you want to host on Read the Docs, "
+"check out our :doc:`/intro/add-project` guide."
+msgstr "如果你已有想在 Read the Docs 上托管的 Markdoc 项目，请参阅 :doc:`/intro/add-project` 指南。"
 
 #: ../../upstream/docs/user/intro/markdoc.rst:75
 msgid ""
 "If you're new to Markdoc, check out the official `Getting started with "
 "Markdoc`_ guide."
-msgstr ""
+msgstr "如果你还不熟悉 Markdoc，请参阅官方的 `Getting started with Markdoc`_ 指南。"
 
 #: ../../upstream/docs/user/intro/markdoc.rst:80
 msgid "Example repository and demo"
-msgstr ""
+msgstr "示例仓库与演示"
 
 #: ../../upstream/docs/user/intro/markdoc.rst:82
 msgid "Example repository"
-msgstr ""
+msgstr "示例仓库"
 
 #: ../../upstream/docs/user/intro/markdoc.rst:83
 msgid "https://github.com/readthedocs/test-builds/tree/markdoc"
-msgstr ""
+msgstr "https://github.com/readthedocs/test-builds/tree/markdoc"
 
 #: ../../upstream/docs/user/intro/markdoc.rst:85
 msgid "Demo"
-msgstr ""
+msgstr "演示"
 
 #: ../../upstream/docs/user/intro/markdoc.rst:86
 msgid "https://test-builds.readthedocs.io/en/markdoc/"
-msgstr ""
+msgstr "https://test-builds.readthedocs.io/en/markdoc/"
 
 #: ../../upstream/docs/user/intro/markdoc.rst:89
 msgid "Further reading"
-msgstr ""
+msgstr "延伸阅读"
 
 #: ../../upstream/docs/user/intro/markdoc.rst:91
 msgid "`Markdoc documentation`_"
-msgstr ""
+msgstr "`Markdoc documentation`_"
 

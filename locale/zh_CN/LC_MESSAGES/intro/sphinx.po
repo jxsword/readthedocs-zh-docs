@@ -22,72 +22,76 @@ msgstr ""
 
 #: ../../upstream/docs/user/intro/sphinx.rst:-1
 msgid "Hosting Sphinx documentation on Read the Docs."
-msgstr ""
+msgstr "在 Read the Docs 上托管 Sphinx 文档。"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:3
 msgid "Deploying Sphinx on Read the Docs"
-msgstr ""
+msgstr "在 Read the Docs 上部署 Sphinx"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:8
 msgid ""
-"`Sphinx`_ is a powerful documentation generator that has many features "
-"for writing technical documentation. Sphinx is written in Python, and "
-"supports documentation written in reStructuredText and Markdown."
+"`Sphinx`_ is a powerful documentation generator that has many features for "
+"writing technical documentation. Sphinx is written in Python, and supports "
+"documentation written in reStructuredText and Markdown."
 msgstr ""
+"`Sphinx`_ 是一个强大的文档生成器，具有许多编写技术文档的功能。Sphinx 使用 Python 编写，支持用 reStructuredText"
+" 和 Markdown 编写文档。"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:12
 msgid ""
-"Minimal configuration required to build an existing Sphinx project on "
-"Read the Docs looks like this, specifying a Python 3.x toolchain on "
-"Ubuntu, using the built-in :ref:`sphinx <config-file/v2:sphinx>` command,"
-" and defining the location of the installation requirements:"
+"Minimal configuration required to build an existing Sphinx project on Read "
+"the Docs looks like this, specifying a Python 3.x toolchain on Ubuntu, using"
+" the built-in :ref:`sphinx <config-file/v2:sphinx>` command, and defining "
+"the location of the installation requirements:"
 msgstr ""
+"在 Read the Docs 上构建现有 Sphinx 项目所需的最小配置如下所示，它在 Ubuntu 上指定 Python 3.x "
+"工具链，使用内置的 :ref:`sphinx <config-file/v2:sphinx>` 命令，并定义安装依赖的位置："
 
 #: ../../upstream/docs/user/intro/sphinx.rst:16
 msgid ".readthedocs.yaml"
-msgstr ""
+msgstr ".readthedocs.yaml"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:36
 msgid "Quick start"
-msgstr ""
+msgstr "快速开始"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:38
 msgid ""
-"If you have an existing Sphinx project you want to host on Read the Docs,"
-" check out our :doc:`/intro/add-project` guide."
-msgstr ""
+"If you have an existing Sphinx project you want to host on Read the Docs, "
+"check out our :doc:`/intro/add-project` guide."
+msgstr "如果你已有想在 Read the Docs 上托管的 Sphinx 项目，请参阅 :doc:`/intro/add-project` 指南。"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:39
 msgid ""
 "If you're new to Sphinx, check out the official `Getting started with "
 "Sphinx`_ guide."
-msgstr ""
+msgstr "如果你还不熟悉 Sphinx，请参阅官方的 `Getting started with Sphinx`_ 指南。"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:40
 msgid ""
 "For a step-by-step tutorial on Read the Docs using an example Sphinx "
 "project, take a look at the :doc:`/tutorial/index`."
-msgstr ""
+msgstr "有关使用示例 Sphinx 项目在 Read the Docs 上操作的分步教程，请参阅 :doc:`/tutorial/index`。"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:45
 msgid "Configuring Sphinx and Read the Docs Addons"
-msgstr ""
+msgstr "配置 Sphinx 与 Read the Docs Addon"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:47
 msgid ""
 "For optimal integration with Read the Docs, make the following optional "
 "configuration changes to your Sphinx config."
-msgstr ""
+msgstr "为获得与 Read the Docs 的最佳集成效果，请对你的 Sphinx 配置进行以下可选更改。"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:55
 msgid "Set the canonical URL"
-msgstr ""
+msgstr "设置规范 URL"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:57
 msgid ""
-"A :doc:`canonical URL </canonical-urls>` allows you to specify the "
-"preferred version of a web page to prevent duplicated content."
-msgstr ""
+"A :doc:`canonical URL </canonical-urls>` allows you to specify the preferred"
+" version of a web page to prevent duplicated content."
+msgstr ":doc:`规范 URL </canonical-urls>` 允许你指定网页的首选版本，以防止内容重复。"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:60
 msgid ""
@@ -95,50 +99,55 @@ msgid ""
 ":doc:`Read the Docs environment variable </reference/environment-"
 "variables>`:"
 msgstr ""
+"使用 :doc:`Read the Docs 环境变量 </reference/environment-variables>`，将你的 "
+"`html_baseurl`_ 设置为 Read the Docs 的规范 URL："
 
 #: ../../upstream/docs/user/intro/sphinx.rst:63
 #: ../../upstream/docs/user/intro/sphinx.rst:92
 msgid "conf.py"
-msgstr ""
+msgstr "conf.py"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:71
 msgid "Configure Read the Docs search"
-msgstr ""
+msgstr "配置 Read the Docs 搜索"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:73
 msgid ""
 "If you're using the `Read the Docs Sphinx Theme <https://sphinx-rtd-"
-"theme.readthedocs.io/en/stable/>`__, :doc:`Server side search </server-"
-"side-search/index>` already works out of the box."
+"theme.readthedocs.io/en/stable/>`__, :doc:`Server side search </server-side-"
+"search/index>` already works out of the box."
 msgstr ""
+"如果你使用的是 `Read the Docs Sphinx Theme <https://sphinx-rtd-"
+"theme.readthedocs.io/en/stable/>`__，:doc:`服务器端搜索 </server-side-"
+"search/index>` 已经开箱即用。"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:76
 msgid ""
-"If you're using a different theme, enable :doc:`Server side search "
-"</server-side-search/index>`:"
-msgstr ""
+"If you're using a different theme, enable :doc:`Server side search </server-"
+"side-search/index>`:"
+msgstr "如果你使用的是其他主题，请启用 :doc:`服务器端搜索 </server-side-search/index>`："
 
 #: ../../upstream/docs/user/intro/sphinx.rst:78
 msgid "Add a snippet of JavaScript:"
-msgstr ""
+msgstr "添加一段 JavaScript 代码："
 
 #: ../../upstream/docs/user/intro/sphinx.rst:80
 msgid "readthedocs.js"
-msgstr ""
+msgstr "readthedocs.js"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:90
 msgid "Include it in your build:"
-msgstr ""
+msgstr "将其包含在你的构建中："
 
 #: ../../upstream/docs/user/intro/sphinx.rst:100
 msgid "Integrate the Read the Docs version menu into your site navigation"
-msgstr ""
+msgstr "将 Read the Docs 版本菜单集成到站点导航中"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:102
 msgid ""
-"The :ref:`flyout-menu:Addons flyout menu` displays differently depending "
-"on which Sphinx theme your documentation uses."
-msgstr ""
+"The :ref:`flyout-menu:Addons flyout menu` displays differently depending on "
+"which Sphinx theme your documentation uses."
+msgstr ":ref:`flyout-menu:Addons flyout menu` 的显示方式取决于你的文档所使用的 Sphinx 主题。"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:104
 msgid ""
@@ -146,19 +155,28 @@ msgid ""
 "theme.readthedocs.io/en/stable/>`__, the :ref:`flyout-menu:Addons flyout "
 "menu` is already fully integrated into the theme. Use the theme options "
 "`flyout_display <https://sphinx-rtd-"
-"theme.readthedocs.io/en/stable/configuring.html#confval-"
-"flyout_display>`__, `version_selector <https://sphinx-rtd-"
+"theme.readthedocs.io/en/stable/configuring.html#confval-flyout_display>`__, "
+"`version_selector <https://sphinx-rtd-"
 "theme.readthedocs.io/en/stable/configuring.html#confval-"
 "version_selector>`__, `language_selector <https://sphinx-rtd-"
 "theme.readthedocs.io/en/stable/configuring.html#confval-"
 "language_selector>`__ to configure it."
 msgstr ""
+"如果你使用的是 `Read the Docs Sphinx Theme <https://sphinx-rtd-"
+"theme.readthedocs.io/en/stable/>`__，:ref:`flyout-menu:Addons flyout menu` "
+"已经完整集成到该主题中。可使用主题选项 `flyout_display <https://sphinx-rtd-"
+"theme.readthedocs.io/en/stable/configuring.html#confval-"
+"flyout_display>`__、`version_selector <https://sphinx-rtd-"
+"theme.readthedocs.io/en/stable/configuring.html#confval-"
+"version_selector>`__、`language_selector <https://sphinx-rtd-"
+"theme.readthedocs.io/en/stable/configuring.html#confval-"
+"language_selector>`__ 进行配置。"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:106
 msgid ""
-"If you're using another theme, the flyout menu displays in the bottom "
-"right of the docs."
-msgstr ""
+"If you're using another theme, the flyout menu displays in the bottom right "
+"of the docs."
+msgstr "如果你使用其他主题，浮出菜单会显示在文档右下角。"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:108
 msgid ""
@@ -166,83 +184,87 @@ msgid ""
 "options in your project's :menuselection:`Settings --> Addons --> Flyout "
 "menu`."
 msgstr ""
+"无论哪种情况，你都可以在项目的 :menuselection:`Settings --> Addons --> Flyout menu` "
+"中配置浮出菜单的排序和显示选项。"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:111
 msgid "Using Markdown with Sphinx"
-msgstr ""
+msgstr "在 Sphinx 中使用 Markdown"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:113
 msgid ""
-"You can use `Markdown using MyST`_ and reStructuredText in the same "
-"Sphinx project. We support this natively on Read the Docs, and you can "
-"also use it locally by installing ``myst-parser``:"
+"You can use `Markdown using MyST`_ and reStructuredText in the same Sphinx "
+"project. We support this natively on Read the Docs, and you can also use it "
+"locally by installing ``myst-parser``:"
 msgstr ""
+"你可以在同一个 Sphinx 项目中同时使用 `Markdown using MyST`_ 和 reStructuredText。Read the "
+"Docs 原生支持这一点，你也可以通过安装 ``myst-parser`` 在本地使用："
 
 #: ../../upstream/docs/user/intro/sphinx.rst:120
 msgid "Then in your ``conf.py``:"
-msgstr ""
+msgstr "然后在你的 ``conf.py`` 中："
 
 #: ../../upstream/docs/user/intro/sphinx.rst:126
 msgid ""
 "You can now continue writing your docs in ``.md`` files and it will work "
 "with Sphinx."
-msgstr ""
+msgstr "现在你可以继续用 ``.md`` 文件编写文档，它将与 Sphinx 正常配合。"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:130
 msgid ""
 "`Getting started with MyST in Sphinx <https://myst-"
 "parser.readthedocs.io/en/latest/sphinx/intro.html>`_"
 msgstr ""
+"`Getting started with MyST in Sphinx <https://myst-"
+"parser.readthedocs.io/en/latest/sphinx/intro.html>`_"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:131
-msgid ""
-"Learn how to use MyST to write Markdown documentation in your Sphinx "
-"project."
-msgstr ""
+msgid "Learn how to use MyST to write Markdown documentation in your Sphinx project."
+msgstr "了解如何使用 MyST 在 Sphinx 项目中编写 Markdown 文档。"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:133
 msgid ":doc:`/guides/migrate-rest-myst`"
-msgstr ""
+msgstr ":doc:`/guides/migrate-rest-myst`"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:134
 msgid ""
-"Start writing Markdown in your existing reStructuredText project, or "
-"migrate it completely."
-msgstr ""
+"Start writing Markdown in your existing reStructuredText project, or migrate"
+" it completely."
+msgstr "在现有 reStructuredText 项目中开始编写 Markdown，或将其完全迁移。"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:139
 msgid "Example repository and demo"
-msgstr ""
+msgstr "示例仓库与演示"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:141
 msgid "Example repository"
-msgstr ""
+msgstr "示例仓库"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:142
 msgid "https://github.com/readthedocs/test-builds/tree/full-feature"
-msgstr ""
+msgstr "https://github.com/readthedocs/test-builds/tree/full-feature"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:144
 msgid "Demo"
-msgstr ""
+msgstr "演示"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:145
 msgid "https://test-builds.readthedocs.io/en/full-feature"
-msgstr ""
+msgstr "https://test-builds.readthedocs.io/en/full-feature"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:148
 msgid "Further reading"
-msgstr ""
+msgstr "延伸阅读"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:150
 msgid "`Sphinx documentation`_"
-msgstr ""
+msgstr "`Sphinx documentation`_"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:151
 msgid ":doc:`RestructuredText primer <sphinx:usage/restructuredtext/basics>`"
-msgstr ""
+msgstr ":doc:`reStructuredText 入门 <sphinx:usage/restructuredtext/basics>`"
 
 #: ../../upstream/docs/user/intro/sphinx.rst:152
 msgid "`An introduction to Sphinx and Read the Docs for technical writers`_"
-msgstr ""
+msgstr "`An introduction to Sphinx and Read the Docs for technical writers`_"
 

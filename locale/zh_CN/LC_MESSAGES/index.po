@@ -22,375 +22,371 @@ msgstr ""
 
 #: ../../upstream/docs/user/index.rst:4
 msgid "Tutorial"
-msgstr ""
+msgstr "教程"
 
 #: ../../upstream/docs/user/index.rst:4
 msgid "Getting started"
-msgstr ""
+msgstr "快速入门"
 
 #: ../../upstream/docs/user/index.rst:14 ../../upstream/docs/user/index.rst:108
 #: ../../upstream/docs/user/index.rst:174
 msgid "Project setup and configuration"
-msgstr ""
+msgstr "项目设置与配置"
 
 #: ../../upstream/docs/user/index.rst:26 ../../upstream/docs/user/index.rst:108
 #: ../../upstream/docs/user/index.rst:185
 msgid "Build process"
-msgstr ""
+msgstr "构建过程"
 
 #: ../../upstream/docs/user/index.rst:40 ../../upstream/docs/user/index.rst:196
 msgid "Hosting documentation"
-msgstr ""
+msgstr "文档托管"
 
 #: ../../upstream/docs/user/index.rst:58
 msgid "Reading documentation"
-msgstr ""
+msgstr "阅读文档"
 
 #: ../../upstream/docs/user/index.rst:71 ../../upstream/docs/user/index.rst:216
 msgid "AI and agents"
-msgstr ""
+msgstr "AI 与智能体"
 
 #: ../../upstream/docs/user/index.rst:81 ../../upstream/docs/user/index.rst:233
 msgid "Maintaining projects"
-msgstr ""
+msgstr "维护项目"
 
 #: ../../upstream/docs/user/index.rst:96 ../../upstream/docs/user/index.rst:247
 msgid "Business features"
-msgstr ""
+msgstr "Business 功能"
 
 #: ../../upstream/docs/user/index.rst:108
 msgid "Upgrading and maintaining projects"
-msgstr ""
+msgstr "升级与维护项目"
 
 #: ../../upstream/docs/user/index.rst:108
 msgid "Content, themes and SEO"
-msgstr ""
+msgstr "内容、主题与 SEO"
 
 #: ../../upstream/docs/user/index.rst:108
 msgid "Security and access"
-msgstr ""
+msgstr "安全与访问"
 
 #: ../../upstream/docs/user/index.rst:108
 msgid "Account management"
-msgstr ""
+msgstr "账户管理"
 
 #: ../../upstream/docs/user/index.rst:108
 msgid "Best practice"
-msgstr ""
+msgstr "最佳实践"
 
 #: ../../upstream/docs/user/index.rst:108
 msgid "Troubleshooting problems"
-msgstr ""
+msgstr "问题排查"
 
-#: ../../upstream/docs/user/index.rst:108
-#: ../../upstream/docs/user/index.rst:261
+#: ../../upstream/docs/user/index.rst:108 ../../upstream/docs/user/index.rst:261
 msgid "How-to guides"
-msgstr ""
+msgstr "操作指南"
 
 #: ../../upstream/docs/user/index.rst:122
 msgid "Developer Documentation"
-msgstr ""
+msgstr "开发者文档"
 
 #: ../../upstream/docs/user/index.rst:122
 msgid "Read the Docs website"
-msgstr ""
+msgstr "Read the Docs 网站"
 
-#: ../../upstream/docs/user/index.rst:122
-#: ../../upstream/docs/user/index.rst:275
+#: ../../upstream/docs/user/index.rst:122 ../../upstream/docs/user/index.rst:275
 msgid "Reference"
-msgstr ""
+msgstr "参考"
 
 #: ../../upstream/docs/user/index.rst:-1
 msgid ""
-"Automate building, versioning, and hosting of your technical "
-"documentation continuously on Read the Docs."
-msgstr ""
+"Automate building, versioning, and hosting of your technical documentation "
+"continuously on Read the Docs."
+msgstr "在 Read the Docs 上持续自动化构建、版本管理和托管你的技术文档。"
 
 #: ../../upstream/docs/user/index.rst:2
 msgid "Welcome to Read the Docs"
-msgstr ""
+msgstr "欢迎使用 Read the Docs"
 
 #: ../../upstream/docs/user/index.rst:142
 msgid ""
-"Connect your Git repository and treat docs like code. Read the Docs "
-"builds, versions, and hosts your documentation automatically."
-msgstr ""
+"Connect your Git repository and treat docs like code. Read the Docs builds, "
+"versions, and hosts your documentation automatically."
+msgstr "连接你的 Git 仓库，像对待代码一样对待文档。Read the Docs 会自动构建、版本化并托管你的文档。"
 
 #: ../../upstream/docs/user/index.rst:146
 msgid "Get started"
-msgstr ""
+msgstr "开始使用"
 
 #: ../../upstream/docs/user/index.rst:151
 msgid "Add your project"
-msgstr ""
+msgstr "添加你的项目"
 
 #: ../../upstream/docs/user/index.rst:155
-msgid ""
-"Already have documentation? Connect your repository and get your first "
-"build."
-msgstr ""
+msgid "Already have documentation? Connect your repository and get your first build."
+msgstr "已有文档？连接你的仓库并完成首次构建。"
 
 #: ../../upstream/docs/user/index.rst:158
 msgid "Choose your tool"
-msgstr ""
+msgstr "选择你的工具"
 
 #: ../../upstream/docs/user/index.rst:162
 msgid "Quick starts for Sphinx, MkDocs, Docusaurus, and more."
-msgstr ""
+msgstr "Sphinx、MkDocs、Docusaurus 等工具的快速入门。"
 
 #: ../../upstream/docs/user/index.rst:164
 msgid "Follow the tutorial"
-msgstr ""
+msgstr "跟随教程"
 
 #: ../../upstream/docs/user/index.rst:168
 msgid "Starting from nothing? Build and host a Sphinx project step by step."
-msgstr ""
+msgstr "从零开始？逐步构建并托管一个 Sphinx 项目。"
 
 #: ../../upstream/docs/user/index.rst:171
 msgid ""
-"Or browse :doc:`example projects </examples>` to see how other projects "
-"are configured."
-msgstr ""
+"Or browse :doc:`example projects </examples>` to see how other projects are "
+"configured."
+msgstr "或浏览 :doc:`示例项目 </examples>`，了解其他项目是如何配置的。"
 
 #: ../../upstream/docs/user/index.rst:176
 msgid "Start with the basics of setting up your project:"
-msgstr ""
+msgstr "从设置项目的基础知识开始："
 
 #: ../../upstream/docs/user/index.rst:178
 msgid ":doc:`/config-file/index`"
-msgstr ""
+msgstr ":doc:`/config-file/index`"
 
 #: ../../upstream/docs/user/index.rst:179
 msgid "Learn how to configure your project with a ``.readthedocs.yaml`` file."
-msgstr ""
+msgstr "了解如何使用 ``.readthedocs.yaml`` 文件配置你的项目。"
 
 #: ../../upstream/docs/user/index.rst:181
 msgid ":doc:`/guides/reproducible-builds`"
-msgstr ""
+msgstr ":doc:`/guides/reproducible-builds`"
 
 #: ../../upstream/docs/user/index.rst:182
 msgid "Keep your builds working by making them reproducible."
-msgstr ""
+msgstr "通过让构建可复现来保持其稳定运行。"
 
 #: ../../upstream/docs/user/index.rst:187
 msgid "Build your documentation with ease:"
-msgstr ""
+msgstr "轻松构建你的文档："
 
 #: ../../upstream/docs/user/index.rst:189
 msgid ":doc:`/builds`"
-msgstr ""
+msgstr ":doc:`/builds`"
 
 #: ../../upstream/docs/user/index.rst:190
 msgid "Understand how documentation builds happen."
-msgstr ""
+msgstr "了解文档构建是如何进行的。"
 
 #: ../../upstream/docs/user/index.rst:192
 msgid ":doc:`/pull-requests`"
-msgstr ""
+msgstr ":doc:`/pull-requests`"
 
 #: ../../upstream/docs/user/index.rst:193
 msgid "Preview your documentation on every pull request."
-msgstr ""
+msgstr "在每个 Pull Request 上预览你的文档。"
 
 #: ../../upstream/docs/user/index.rst:198
 msgid "Learn more about our hosting features:"
-msgstr ""
+msgstr "进一步了解我们的托管功能："
 
 #: ../../upstream/docs/user/index.rst:200
 msgid ":doc:`/versions`"
-msgstr ""
+msgstr ":doc:`/versions`"
 
 #: ../../upstream/docs/user/index.rst:201
 msgid "Give your readers multiple versions of your documentation."
-msgstr ""
+msgstr "为读者提供文档的多个版本。"
 
 #: ../../upstream/docs/user/index.rst:203
 msgid ":doc:`/subprojects`"
-msgstr ""
+msgstr ":doc:`/subprojects`"
 
 #: ../../upstream/docs/user/index.rst:204
 msgid "Host multiple projects under a single domain."
-msgstr ""
+msgstr "在单个域名下托管多个项目。"
 
 #: ../../upstream/docs/user/index.rst:206
 msgid ":doc:`/localization`"
-msgstr ""
+msgstr ":doc:`/localization`"
 
 #: ../../upstream/docs/user/index.rst:207
 msgid "Translate your documentation into multiple languages."
-msgstr ""
+msgstr "将你的文档翻译成多种语言。"
 
 #: ../../upstream/docs/user/index.rst:209
 msgid ":doc:`/versioning-schemes`"
-msgstr ""
+msgstr ":doc:`/versioning-schemes`"
 
 #: ../../upstream/docs/user/index.rst:210
 msgid "Learn about different URL versioning schemes."
-msgstr ""
+msgstr "了解不同的 URL 版本控制方案。"
 
 #: ../../upstream/docs/user/index.rst:212
 msgid ":doc:`/custom-domains`"
-msgstr ""
+msgstr ":doc:`/custom-domains`"
 
 #: ../../upstream/docs/user/index.rst:213
 msgid "Brand your documentation on your own domain."
-msgstr ""
+msgstr "在你自己的域名上打造文档品牌。"
 
 #: ../../upstream/docs/user/index.rst:218
 msgid "Make your documentation easy for AI assistants and coding agents to use:"
-msgstr ""
+msgstr "让你的文档更易于 AI 助手和编程智能体使用："
 
 #: ../../upstream/docs/user/index.rst:220
 msgid ":doc:`/reference/llms-txt`"
-msgstr ""
+msgstr ":doc:`/reference/llms-txt`"
 
 #: ../../upstream/docs/user/index.rst:221
 msgid ""
-"Serve an ``llms.txt`` file that gives AI models a structured view of your"
-" documentation."
-msgstr ""
+"Serve an ``llms.txt`` file that gives AI models a structured view of your "
+"documentation."
+msgstr "提供一个 ``llms.txt`` 文件，为 AI 模型提供文档的结构化视图。"
 
 #: ../../upstream/docs/user/index.rst:223
 msgid ":doc:`/reference/markdown-for-agents`"
-msgstr ""
+msgstr ":doc:`/reference/markdown-for-agents`"
 
 #: ../../upstream/docs/user/index.rst:224
 msgid ""
 "Serve Markdown instead of HTML to agents that ask for it, with no "
 "configuration."
-msgstr ""
+msgstr "无需配置，即可向请求 Markdown 的智能体提供 Markdown 而非 HTML。"
 
 #: ../../upstream/docs/user/index.rst:226
 msgid ":doc:`/reference/agent-skills`"
-msgstr ""
+msgstr ":doc:`/reference/agent-skills`"
 
 #: ../../upstream/docs/user/index.rst:227
 msgid ""
-"Give your coding agent skills for the Read the Docs API and configuration"
-" file."
-msgstr ""
+"Give your coding agent skills for the Read the Docs API and configuration "
+"file."
+msgstr "为你的编程智能体提供 Read the Docs API 和配置文件的技能。"
 
 #: ../../upstream/docs/user/index.rst:229
 msgid ":doc:`/reference/main-content-detection`"
-msgstr ""
+msgstr ":doc:`/reference/main-content-detection`"
 
 #: ../../upstream/docs/user/index.rst:230
 msgid ""
-"How Read the Docs finds the main content of a page for search, Markdown, "
-"and other features."
-msgstr ""
+"How Read the Docs finds the main content of a page for search, Markdown, and"
+" other features."
+msgstr "Read the Docs 如何为搜索、Markdown 等功能查找页面的主要内容。"
 
 #: ../../upstream/docs/user/index.rst:235
 msgid "All the tools you need as your project matures:"
-msgstr ""
+msgstr "项目成长过程中所需的全部工具："
 
 #: ../../upstream/docs/user/index.rst:237
 msgid ":doc:`/user-defined-redirects`"
-msgstr ""
+msgstr ":doc:`/user-defined-redirects`"
 
 #: ../../upstream/docs/user/index.rst:238
 msgid "Redirect your old URLs to new ones."
-msgstr ""
+msgstr "将旧 URL 重定向到新 URL。"
 
 #: ../../upstream/docs/user/index.rst:240
 msgid ":doc:`/traffic-analytics`"
-msgstr ""
+msgstr ":doc:`/traffic-analytics`"
 
 #: ../../upstream/docs/user/index.rst:241
 msgid "Learn more about how users are interacting with your documentation."
-msgstr ""
+msgstr "了解用户如何与你的文档交互。"
 
 #: ../../upstream/docs/user/index.rst:243
 msgid ":doc:`/security-log`"
-msgstr ""
+msgstr ":doc:`/security-log`"
 
 #: ../../upstream/docs/user/index.rst:244
 msgid "Keep track of security events in your project."
-msgstr ""
+msgstr "跟踪项目中的安全事件。"
 
 #: ../../upstream/docs/user/index.rst:249
 msgid "Our Business hosting has everything your business needs:"
-msgstr ""
+msgstr "我们的 Business 托管满足你业务的一切需求："
 
 #: ../../upstream/docs/user/index.rst:251
 msgid ":doc:`/commercial/organizations`"
-msgstr ""
+msgstr ":doc:`/commercial/organizations`"
 
 #: ../../upstream/docs/user/index.rst:252
 msgid "Manage permissions across multiple teams."
-msgstr ""
+msgstr "跨多个团队管理权限。"
 
 #: ../../upstream/docs/user/index.rst:254
 msgid ":doc:`/commercial/single-sign-on`"
-msgstr ""
+msgstr ":doc:`/commercial/single-sign-on`"
 
 #: ../../upstream/docs/user/index.rst:255
 msgid "Stay secure with single sign-on."
-msgstr ""
+msgstr "通过单点登录保障安全。"
 
 #: ../../upstream/docs/user/index.rst:257
 msgid ":doc:`/commercial/sharing`"
-msgstr ""
+msgstr ":doc:`/commercial/sharing`"
 
 #: ../../upstream/docs/user/index.rst:258
 msgid "Share your private docs easily with contractors or customers."
-msgstr ""
+msgstr "轻松与承包商或客户共享你的私有文档。"
 
 #: ../../upstream/docs/user/index.rst:263
 msgid "Step-by-step guides for common tasks:"
-msgstr ""
+msgstr "常见任务的分步指南："
 
 #: ../../upstream/docs/user/index.rst:265
 msgid ":doc:`/guides/pull-requests`"
-msgstr ""
+msgstr ":doc:`/guides/pull-requests`"
 
 #: ../../upstream/docs/user/index.rst:266
 msgid "Configure pull request builds for your project."
-msgstr ""
+msgstr "为你的项目配置 Pull Request 构建。"
 
 #: ../../upstream/docs/user/index.rst:268
 msgid ":doc:`/guides/build/direct-upload`"
-msgstr ""
+msgstr ":doc:`/guides/build/direct-upload`"
 
 #: ../../upstream/docs/user/index.rst:269
 msgid ""
-"Build your documentation in your own CI and upload it to Read the Docs "
-"with direct upload."
-msgstr ""
+"Build your documentation in your own CI and upload it to Read the Docs with "
+"direct upload."
+msgstr "在你自己的 CI 中构建文档，并通过直接上传将其上传到 Read the Docs。"
 
 #: ../../upstream/docs/user/index.rst:271
 msgid ":doc:`All how-to guides </guides/index>`"
-msgstr ""
+msgstr ":doc:`所有操作指南 </guides/index>`"
 
 #: ../../upstream/docs/user/index.rst:272
 msgid "Browse all our how-to guides."
-msgstr ""
+msgstr "浏览所有操作指南。"
 
 #: ../../upstream/docs/user/index.rst:277
 msgid "More detailed information about Read the Docs:"
-msgstr ""
+msgstr "关于 Read the Docs 的更多详细信息："
 
 #: ../../upstream/docs/user/index.rst:279
 msgid ":doc:`/api/index`"
-msgstr ""
+msgstr ":doc:`/api/index`"
 
 #: ../../upstream/docs/user/index.rst:280
 msgid "Integrate Read the Docs into your other workflows."
-msgstr ""
+msgstr "将 Read the Docs 集成到你的其他工作流程中。"
 
 #: ../../upstream/docs/user/index.rst:282
 msgid ":doc:`/changelog`"
-msgstr ""
+msgstr ":doc:`/changelog`"
 
 #: ../../upstream/docs/user/index.rst:283
 msgid "See what's new in Read the Docs."
-msgstr ""
+msgstr "查看 Read the Docs 的新变化。"
 
 #: ../../upstream/docs/user/index.rst:285
 msgid ":doc:`/about/index`"
-msgstr ""
+msgstr ":doc:`/about/index`"
 
 #: ../../upstream/docs/user/index.rst:286
 msgid "Learn more about Read the Docs and our company."
-msgstr ""
+msgstr "进一步了解 Read the Docs 和我们的公司。"
 
