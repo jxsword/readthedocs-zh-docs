@@ -29,7 +29,7 @@ msgid ""
 "Read the Docs is a *Continuous Documentation Deployment* platform for your "
 "software project. Every time you change something in your documentation, "
 "Read the Docs will detect your change and build your documentation."
-msgstr "Read the Docs 是你软件项目的*持续文档部署*平台。每当你修改文档，Read the Docs 都会检测到变更并构建文档。"
+msgstr "Read the Docs 是你软件项目的*持续文档部署* 平台。每当你修改文档，Read the Docs 都会检测到变更并构建文档。"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:11
 msgid ""
@@ -82,7 +82,7 @@ msgid ""
 " being part of the same code review process**."
 msgstr ""
 "文档通过称为 *Documentation as Code（文档即代码）* 的流程融入任何 CI/CD "
-"流水线。这意味着文档的生命周期与软件项目相同。通过在同一生命周期中管理这些变更，你可以从**文档和源代码属于同一代码审查流程**中受益。"
+"流水线。这意味着文档的生命周期与软件项目相同。通过在同一生命周期中管理这些变更，你可以从**文档和源代码属于同一代码审查流程** 中受益。"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:32
 msgid ""
@@ -108,7 +108,7 @@ msgid ""
 "project can build and publish a :doc:`new documentation version "
 "</versions>`."
 msgstr ""
-"使用 Read the Docs，你可以将项目的**发布周期**与文档完全对齐。例如，软件项目的新版本可以构建并发布 :doc:`新文档版本 "
+"使用 Read the Docs，你可以将项目的**发布周期** 与文档完全对齐。例如，软件项目的新版本可以构建并发布 :doc:`新文档版本 "
 "</versions>`。"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:46
@@ -171,5 +171,5 @@ msgstr ":doc:`/guides/build/direct-upload`"
 msgid ""
 "Build the documentation in your own continuous integration pipeline and "
 "upload the result to Read the Docs."
-msgstr ""
+msgstr "在你自己的持续集成流水线中构建文档，并将结果上传到 Read the Docs。"
 

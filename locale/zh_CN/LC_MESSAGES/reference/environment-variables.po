@@ -136,7 +136,7 @@ msgstr "``tag``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:56
 msgid "``external`` (for :doc:`pull request builds </pull-requests>`)"
-msgstr "``external``（用于 :doc:`Pull Request 构建 </pull-requests>`）"
+msgstr "``external`` （用于 :doc:`Pull Request 构建 </pull-requests>`）"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:57
 msgid "``unknown``"
@@ -191,7 +191,7 @@ msgid ""
 "Otherwise, your project's :ref:`default subdomain <default-subdomain>` will "
 "be used."
 msgstr ""
-"构建版本的规范基础 URL。如果项目配置了 :doc:`自定义域名 </custom-domains>`（如 "
+"构建版本的规范基础 URL。如果项目配置了 :doc:`自定义域名 </custom-domains>` （如 "
 "``docs.example.com``），将在生成的规范 URL 中使用。否则，将使用项目的 :ref:`默认子域名 <default-"
 "subdomain>`。"
 
@@ -247,7 +247,7 @@ msgstr "``git@github.com:readthedocs/readthedocs.org.git``"
 msgid ""
 "Contains the Git identifier that was *checked out* from the remote "
 "repository URL. Possible values are either a branch or tag name."
-msgstr "包含从远程仓库 URL *检出*的 Git 标识符。可能的值为分支名或标签名。"
+msgstr "包含从远程仓库 URL *检出* 的 Git 标识符。可能的值为分支名或标签名。"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:115
 msgid "``v1.x``"

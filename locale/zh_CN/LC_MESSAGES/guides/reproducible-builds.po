@@ -58,8 +58,8 @@ msgid ""
 "*provides you per version settings*, and *those settings live in your Git "
 "repository*."
 msgstr ""
-"我们建议使用 ``.readthedocs.yaml`` "
-"显式定义用于构建文档的操作系统版本与工具版本。该文件*为每个版本提供独立设置*，且*这些设置位于你的 Git 仓库中*。"
+"我们建议使用 ``.readthedocs.yaml`` 显式定义用于构建文档的操作系统版本与工具版本。该文件*为每个版本提供独立设置*，且* "
+"这些设置位于你的 Git 仓库中*。"
 
 #: ../../upstream/docs/user/guides/reproducible-builds.rst:29
 msgid ""

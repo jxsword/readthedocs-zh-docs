@@ -148,8 +148,8 @@ msgid ""
 "``pdf`` formats:"
 msgstr ""
 "这些任务使用 :doc:`配置文件 </config-file/v2>` 通过 :ref:`config-file/v2:build.jobs` "
-"键定义。以下示例配置定义了在安装*前*和构建完成*后*执行的命令，同时覆盖 ``htmlzip`` 格式的默认构建命令，同时保留 ``html`` 和 "
-"``pdf`` 格式的默认命令："
+"键定义。以下示例配置定义了在安装*前* 和构建完成*后* 执行的命令，同时覆盖 ``htmlzip`` 格式的默认构建命令，同时保留 ``html`` "
+"和 ``pdf`` 格式的默认命令："
 
 #: ../../upstream/docs/user/build-customization.rst:52
 #: ../../upstream/docs/user/build-customization.rst:138
@@ -183,19 +183,19 @@ msgstr "功能与限制"
 msgid ""
 "The current working directory is at the root of your project's cloned "
 "repository."
-msgstr ""
+msgstr "当前工作目录位于项目克隆仓库的根目录。"
 
 #: ../../upstream/docs/user/build-customization.rst:84
 msgid ""
 "Environment variables are expanded for each individual command (see "
 ":doc:`/reference/environment-variables`)."
-msgstr ""
+msgstr "环境变量会在每条命令中展开（见 :doc:`/reference/environment-variables`）。"
 
 #: ../../upstream/docs/user/build-customization.rst:85
 msgid ""
 "Each command is executed in a new shell process, so modifications done to "
 "the shell environment do not persist between commands."
-msgstr ""
+msgstr "每条命令在新的 shell 进程中执行，因此对 shell 环境的修改不会在命令间持久化。"
 
 #: ../../upstream/docs/user/build-customization.rst:86
 msgid ""
@@ -203,10 +203,12 @@ msgid ""
 "immediately (note there is a special exit code to :doc:`cancel the build "
 "</guides/build/skip-or-cancel-builds>`)."
 msgstr ""
+"任何返回非零退出码的命令将立即导致构建失败（注意有一个特殊退出码可用于 :doc:`取消构建 </guides/build/skip-or-"
+"cancel-builds>`）。"
 
 #: ../../upstream/docs/user/build-customization.rst:88
 msgid "``build.os`` and ``build.tools`` are required when using ``build.jobs``."
-msgstr ""
+msgstr "使用 ``build.jobs`` 时需要 ``build.os`` 和 ``build.tools``。"
 
 #: ../../upstream/docs/user/build-customization.rst:89
 msgid ""
@@ -214,6 +216,8 @@ msgid ""
 "configuration is defined, the ``create_environment``, ``install``, and "
 "``build`` jobs will use the default commands for the selected tool."
 msgstr ""
+"如果定义了 :ref:`config-file/v2:sphinx` 或 :ref:`config-file/v2:mkdocs` "
+"配置，``create_environment``、``install`` 和 ``build`` 任务将使用所选工具的默认命令。"
 
 #: ../../upstream/docs/user/build-customization.rst:91
 msgid ""
@@ -222,6 +226,8 @@ msgid ""
 "``install``, and ``build`` jobs will default to run nothing, giving you full"
 " control over the build process."
 msgstr ""
+"如果既未定义 :ref:`config-file/v2:sphinx` 也未定义 :ref:`config-file/v2:mkdocs` "
+"配置，``create_environment``、``install`` 和 ``build`` 任务默认不运行任何操作，让你完全控制构建过程。"
 
 #: ../../upstream/docs/user/build-customization.rst:96
 msgid "Where to put files"
@@ -235,76 +241,78 @@ msgid ""
 "``$READTHEDOCS_OUTPUT/<format>/`` directory will be hosted as part of your "
 "documentation."
 msgstr ""
+"覆盖 :ref:`config-file/v2:build.jobs.build` 步骤时，由你负责生成文档的 HTML "
+"和其他格式。``$READTHEDOCS_OUTPUT/<format>/`` 目录的内容将作为文档的一部分托管。"
 
 #: ../../upstream/docs/user/build-customization.rst:101
 msgid ""
 "We store the base folder name ``_readthedocs/`` in the environment variable "
 "``$READTHEDOCS_OUTPUT`` and encourage that you use this to generate paths."
-msgstr ""
+msgstr "我们将基础文件夹名 ``_readthedocs/`` 存储在环境变量 ``$READTHEDOCS_OUTPUT`` 中，建议你用它来生成路径。"
 
 #: ../../upstream/docs/user/build-customization.rst:103
 msgid ""
 "Supported :ref:`formats <offline-formats:accessing offline formats>` are "
 "published if they exist in the following directories:"
-msgstr ""
+msgstr "若以下目录存在，支持的 :ref:`格式 <offline-formats:accessing offline formats>` 将被发布："
 
 #: ../../upstream/docs/user/build-customization.rst:105
 msgid "``$READTHEDOCS_OUTPUT/html/`` (required)"
-msgstr ""
+msgstr "``$READTHEDOCS_OUTPUT/html/`` （必需）"
 
 #: ../../upstream/docs/user/build-customization.rst:106
 msgid "``$READTHEDOCS_OUTPUT/htmlzip/``"
-msgstr ""
+msgstr "``$READTHEDOCS_OUTPUT/htmlzip/``"
 
 #: ../../upstream/docs/user/build-customization.rst:107
 msgid "``$READTHEDOCS_OUTPUT/pdf/``"
-msgstr ""
+msgstr "``$READTHEDOCS_OUTPUT/pdf/``"
 
 #: ../../upstream/docs/user/build-customization.rst:108
 msgid "``$READTHEDOCS_OUTPUT/epub/``"
-msgstr ""
+msgstr "``$READTHEDOCS_OUTPUT/epub/``"
 
 #: ../../upstream/docs/user/build-customization.rst:112
 msgid ""
 "Remember to create the folders before adding content to them. You can ensure"
 " that the output folder exists by adding the following command:"
-msgstr ""
+msgstr "请在添加内容前先创建文件夹。可添加以下命令确保输出文件夹存在："
 
 #: ../../upstream/docs/user/build-customization.rst:120
 msgid "Search support"
-msgstr ""
+msgstr "搜索支持"
 
 #: ../../upstream/docs/user/build-customization.rst:122
 msgid ""
 "Read the Docs will automatically index the content of all your HTML files, "
 "respecting the :ref:`search <config-file/v2:search>` option."
-msgstr ""
+msgstr "Read the Docs 将自动索引所有 HTML 文件的内容，遵循 :ref:`search <config-file/v2:search>` 选项。"
 
 #: ../../upstream/docs/user/build-customization.rst:125
 msgid ""
 "You can access the search from the Read the Docs :term:`dashboard`, or by "
 "using the :doc:`/server-side-search/api`."
-msgstr ""
+msgstr "你可以从 Read the Docs :term:`dashboard` 访问搜索，或使用 :doc:`/server-side-search/api`。"
 
 #: ../../upstream/docs/user/build-customization.rst:130
 msgid ""
 "In order for Read the Docs to index your HTML files correctly, they should "
 "follow the conventions described at :doc:`rtd-dev:search-integration`."
-msgstr ""
+msgstr "为使 Read the Docs 正确索引 HTML 文件，文件应遵循 :doc:`rtd-dev:search-integration` 所述约定。"
 
 #: ../../upstream/docs/user/build-customization.rst:134
 msgid "Alternative syntax"
-msgstr ""
+msgstr "替代语法"
 
 #: ../../upstream/docs/user/build-customization.rst:136
 msgid ""
 "Alternatively, you can use the :ref:`config-file/v2:build.commands` key to "
 "completely override the build process."
-msgstr ""
+msgstr "或者，你可以使用 :ref:`config-file/v2:build.commands` 键完全覆盖构建过程。"
 
 #: ../../upstream/docs/user/build-customization.rst:150
 msgid "But we recommend using :ref:`config-file/v2:build.jobs` instead:"
-msgstr ""
+msgstr "但我们建议改用 :ref:`config-file/v2:build.jobs`："
 
 #: ../../upstream/docs/user/build-customization.rst:167
 msgid ""
@@ -313,10 +321,12 @@ msgid ""
 "format, while also supporting installing system dependencies via "
 "``build.apt_packages``."
 msgstr ""
+"``build.jobs`` 提供与 ``build.commands`` 相同的功能，但以更结构化的方式，允许为每种格式定义不同命令，同时支持通过 "
+"``build.apt_packages`` 安装系统依赖。"
 
 #: ../../upstream/docs/user/build-customization.rst:172
 msgid "Custom Git checkout commands (advanced)"
-msgstr ""
+msgstr "自定义 Git 检出命令（高级）"
 
 #: ../../upstream/docs/user/build-customization.rst:174
 msgid ""
@@ -325,6 +335,8 @@ msgid ""
 " is useful for advanced workflows like sparse checkouts or custom cloning "
 "strategies."
 msgstr ""
+"Read the Docs 支持用自定义 :program:`git` 命令序列覆盖默认的 :term:`checkout job <pre-"
+"defined build jobs>`。这对稀疏检出或自定义克隆策略等高级工作流很有用。"
 
 #: ../../upstream/docs/user/build-customization.rst:178
 msgid ""
@@ -332,26 +344,28 @@ msgid ""
 "update the :guilabel:`Git checkout command` field. Enter one command per "
 "line."
 msgstr ""
+"启用此功能，请前往项目的 :menuselection:`Settings` 并更新 :guilabel:`Git checkout command` "
+"字段。每行输入一条命令。"
 
 #: ../../upstream/docs/user/build-customization.rst:184
 msgid ""
 "When you define custom Git checkout commands, Read the Docs will not run the"
 " default Git clone or checkout. Your commands must perform the clone and "
 "checkout of the desired revision."
-msgstr ""
+msgstr "定义自定义 Git 检出命令后，Read the Docs 不会运行默认的 Git 克隆或检出。你的命令必须执行所需修订版的克隆和检出。"
 
 #: ../../upstream/docs/user/build-customization.rst:189
 msgid ""
 "If you just want to run some extra commands after the default Git checkout, "
 "like unshallowing the clone or fetching extra branches, you should use the "
 "``build.jobs.post_checkout`` user-defined job instead."
-msgstr ""
+msgstr "如果只想在默认 Git 检出后运行额外命令（如取消浅克隆或获取额外分支），应改用 ``build.jobs.post_checkout`` 用户定义任务。"
 
 #: ../../upstream/docs/user/build-customization.rst:193
 msgid ""
 "In case you want to clone submodules, you can use the :ref:`config-"
 "file/v2:submodules` config key for that."
-msgstr ""
+msgstr "如需克隆子模块，可使用 :ref:`config-file/v2:submodules` 配置键。"
 
 #: ../../upstream/docs/user/build-customization.rst:196
 msgid ""
@@ -361,10 +375,13 @@ msgid ""
 ":envvar:`READTHEDOCS_GIT_IDENTIFIER`, and "
 ":envvar:`READTHEDOCS_REPOSITORY_PATH`."
 msgstr ""
+"命令按顺序在仓库工作目录中执行。可使用 :doc:`预定义环境变量 </reference/environment-variables>`，如 "
+":envvar:`READTHEDOCS_GIT_CLONE_URL`、:envvar:`READTHEDOCS_GIT_IDENTIFIER` 和 "
+":envvar:`READTHEDOCS_REPOSITORY_PATH`。"
 
 #: ../../upstream/docs/user/build-customization.rst:201
 msgid "Example of custom Git checkout commands"
-msgstr ""
+msgstr "自定义 Git 检出命令示例"
 
 #: ../../upstream/docs/user/build-customization.rst:211
 msgid ""
@@ -373,10 +390,12 @@ msgid ""
 "are unsure, use :doc:`build customization with build.jobs </build-"
 "customization>` instead."
 msgstr ""
+"这是高级功能。错误的命令可能导致构建无法检出代码或泄露仓库中的敏感文件。如不确定，请改用 :doc:`build customization with "
+"build.jobs </build-customization>`。"
 
 #: ../../upstream/docs/user/build-customization.rst:216
 msgid "Examples"
-msgstr ""
+msgstr "示例"
 
 #: ../../upstream/docs/user/build-customization.rst:218
 msgid ""
@@ -385,10 +404,12 @@ msgid ""
 "adaptation for each projects' use case, we recommend you use them as a "
 "starting point."
 msgstr ""
+"我们提供了一些使用 :ref:`config-file/v2:build.jobs` "
+"有用的常见示例。这些示例可能需要针对各项目用例做些调整，建议作为起点参考。"
 
 #: ../../upstream/docs/user/build-customization.rst:223
 msgid "Unshallow git clone"
-msgstr ""
+msgstr "取消浅克隆"
 
 #: ../../upstream/docs/user/build-customization.rst:225
 msgid ""
@@ -399,26 +420,29 @@ msgid ""
 "extensions that depend on the full Git history will fail. To avoid this, "
 "it's possible to unshallow the :program:`git clone`:"
 msgstr ""
+"Read the Docs 在 ``checkout`` 任务中不执行完整克隆，以减少网络数据并加快构建。而是执行 `shallow clone "
+"<https://git-scm.com/docs/shallow>`_，仅获取正在构建文档的分支或标签。因此依赖完整 Git "
+"历史的扩展会失败。为避免此问题，可取消浅 :program:`git clone`："
 
 #: ../../upstream/docs/user/build-customization.rst:242
 msgid ""
 "If your build also relies on the contents of other branches, it may also be "
 "necessary to re-configure git to fetch these:"
-msgstr ""
+msgstr "如果构建还依赖其他分支的内容，可能还需重新配置 git 以获取这些分支："
 
 #: ../../upstream/docs/user/build-customization.rst:260
 msgid "Generate documentation from annotated sources with Doxygen"
-msgstr ""
+msgstr "从带注解的源代码用 Doxygen 生成文档"
 
 #: ../../upstream/docs/user/build-customization.rst:262
 msgid ""
 "It's possible to run Doxygen as part of the build process to generate "
 "documentation from annotated sources:"
-msgstr ""
+msgstr "可在构建过程中运行 Doxygen 以从带注解的源代码生成文档："
 
 #: ../../upstream/docs/user/build-customization.rst:280
 msgid "Use MkDocs extensions with extra required steps"
-msgstr ""
+msgstr "使用需要额外步骤的 MkDocs 扩展"
 
 #: ../../upstream/docs/user/build-customization.rst:282
 msgid ""
@@ -426,10 +450,12 @@ msgid ""
 " generate extra pages before performing the build. For example, `pydoc-"
 "markdown <http://niklasrosenstein.github.io/pydoc-markdown/>`_"
 msgstr ""
+"有些 MkDocs 扩展需要在构建前运行特定命令生成额外页面。例如 `pydoc-markdown "
+"<http://niklasrosenstein.github.io/pydoc-markdown/>`_"
 
 #: ../../upstream/docs/user/build-customization.rst:301
 msgid "Avoid having a dirty Git index"
-msgstr ""
+msgstr "避免 Git 索引变脏"
 
 #: ../../upstream/docs/user/build-customization.rst:303
 msgid ""
@@ -442,10 +468,14 @@ msgid ""
 "version number to be generated. In that case, the Git index can be updated "
 "to ignore the files that Read the Docs has modified."
 msgstr ""
+"Read the Docs 在构建前需修改某些文件以集成部分功能。因此 Git 索引可能变脏（检测到修改文件）。若项目使用基于 Git "
+"元数据生成版本号的扩展（如 `setuptools_scm "
+"<https://github.com/pypa/setuptools_scm/>`_），可能生成无效版本号。此时可更新 Git 索引忽略 Read "
+"the Docs 修改的文件。"
 
 #: ../../upstream/docs/user/build-customization.rst:323
 msgid "Perform a check for broken links"
-msgstr ""
+msgstr "检查断链"
 
 #: ../../upstream/docs/user/build-customization.rst:325
 msgid ""
@@ -455,21 +485,24 @@ msgid ""
 "documentation. This helps ensure that all external links are still valid and"
 " readers aren't linked to non-existent pages."
 msgstr ""
+"Sphinx 自带 `linkcheck <https://www.sphinx-"
+"doc.org/en/master/usage/builders/index.html#sphinx.builders.linkcheck.CheckExternalLinksBuilder>`_"
+" 构建器，用于检查项目文档中的断外链。这有助于确保所有外部链接仍有效，读者不会被链接到不存在的页面。"
 
 #: ../../upstream/docs/user/build-customization.rst:343
 msgid "Support Git LFS (Large File Storage)"
-msgstr ""
+msgstr "支持 Git LFS（大文件存储）"
 
 #: ../../upstream/docs/user/build-customization.rst:345
 msgid ""
 "In case the repository contains large files that are tracked with Git LFS, "
 "there are some extra steps required to be able to download their content. "
 "It's possible to use ``post_checkout`` user-defined job for this."
-msgstr ""
+msgstr "若仓库包含用 Git LFS 跟踪的大文件，需额外步骤下载其内容。可使用 ``post_checkout`` 用户定义任务实现。"
 
 #: ../../upstream/docs/user/build-customization.rst:376
 msgid "Install Node.js dependencies"
-msgstr ""
+msgstr "安装 Node.js 依赖"
 
 #: ../../upstream/docs/user/build-customization.rst:378
 msgid ""
@@ -478,10 +511,12 @@ msgid ""
 "version of Node.js to use and install the dependencies by using "
 "``build.jobs.post_install``:"
 msgstr ""
+"可使用 :term:`user-defined build jobs` 安装 Node.js 及所需依赖。设置时需定义 Node.js 版本并用 "
+"``build.jobs.post_install`` 安装依赖："
 
 #: ../../upstream/docs/user/build-customization.rst:399
 msgid "Install dependencies with Poetry"
-msgstr ""
+msgstr "使用 Poetry 安装依赖"
 
 #: ../../upstream/docs/user/build-customization.rst:401
 msgid ""
@@ -489,10 +524,12 @@ msgid ""
 "``post_create_environment`` user-defined job to use Poetry for installing "
 "Python dependencies. Take a look at the following example:"
 msgstr ""
+"使用 `Poetry <https://python-poetry.org/>`__ 管理的项目，可用 "
+"``post_create_environment`` 用户定义任务通过 Poetry 安装 Python 依赖。示例如下："
 
 #: ../../upstream/docs/user/build-customization.rst:430
 msgid "Install dependencies with ``uv``"
-msgstr ""
+msgstr "使用 ``uv`` 安装依赖"
 
 #: ../../upstream/docs/user/build-customization.rst:432
 msgid ""
@@ -501,23 +538,26 @@ msgid ""
 "referenced at :ref:`config-file/v2:python.install` instead of overriding "
 "``build.jobs``."
 msgstr ""
+"Read the Docs 在 ``python.install`` 中原生支持 `uv "
+"<https://docs.astral.sh/uv/>`__。使用 uv 的项目可使用 :ref:`config-"
+"file/v2:python.install` 的配置方法，而无需覆盖 ``build.jobs``。"
 
 #: ../../upstream/docs/user/build-customization.rst:437
 msgid ""
 "The following example uses ``uv sync`` with a dependency group named "
 "``docs``. If a ``uv.lock`` file exists, it is respected."
-msgstr ""
+msgstr "以下示例使用带 ``docs`` 依赖组的 ``uv sync``。若存在 ``uv.lock`` 文件将被遵守。"
 
 #: ../../upstream/docs/user/build-customization.rst:460
 msgid ""
 "Use ``build.jobs`` only when you need an advanced uv workflow that isn't "
 "covered by ``python.install``, such as adding specific arguments to the "
 "``uv`` command."
-msgstr ""
+msgstr "仅在需要 ``python.install`` 未覆盖的高级 uv 工作流（如给 ``uv`` 命令添加特定参数）时才使用 ``build.jobs``。"
 
 #: ../../upstream/docs/user/build-customization.rst:464
 msgid "Install dependencies from Dependency Groups"
-msgstr ""
+msgstr "从依赖组安装依赖"
 
 #: ../../upstream/docs/user/build-customization.rst:466
 msgid ""
@@ -525,12 +565,14 @@ msgid ""
 "<https://packaging.python.org/en/latest/specifications/dependency-groups/>`_"
 " are a way of storing lists of dependencies in your ``pyproject.toml``."
 msgstr ""
+"Python `依赖组 <https://packaging.python.org/en/latest/specifications"
+"/dependency-groups/>`_ 是在 ``pyproject.toml`` 中存储依赖列表的方式。"
 
 #: ../../upstream/docs/user/build-customization.rst:469
 msgid ""
 "``pip`` version 25.1+ as well as many other tools support Dependency Groups."
 " This example uses ``pip`` and installs from a group named ``docs``:"
-msgstr ""
+msgstr "``pip`` 25.1+ 及许多其他工具支持依赖组。此示例使用 ``pip`` 从名为 ``docs`` 的组安装："
 
 #: ../../upstream/docs/user/build-customization.rst:487
 msgid ""
@@ -538,10 +580,12 @@ msgid ""
 "Dependency Groups <https://pip.pypa.io/en/stable/user_guide/#dependency-"
 "groups>`_."
 msgstr ""
+"相关 ``pip`` 用法详见 `pip 依赖组用户指南 <https://pip.pypa.io/en/stable/user_guide"
+"/#dependency-groups>`_。"
 
 #: ../../upstream/docs/user/build-customization.rst:491
 msgid "Install dependencies with ``pixi``"
-msgstr ""
+msgstr "使用 ``pixi`` 安装依赖"
 
 #: ../../upstream/docs/user/build-customization.rst:493
 msgid ""
@@ -549,16 +593,20 @@ msgid ""
 "Python dependencies, usually reducing the time taken to install compared to "
 "conda or pip. Take a look at the following example:"
 msgstr ""
+"项目可使用 `pixi <https://github.com/prefix-dev/pixi/>`__ 安装 Python 依赖，通常比 conda "
+"或 pip 耗时更短。示例如下："
 
 #: ../../upstream/docs/user/build-customization.rst:519
 msgid ""
 "MkDocs projects could use ``NO_COLOR=1 pixi run -e docs mkdocs build "
 "--strict --site-dir $READTHEDOCS_OUTPUT/html`` instead."
 msgstr ""
+"MkDocs 项目可改用 ``NO_COLOR=1 pixi run -e docs mkdocs build --strict --site-dir "
+"$READTHEDOCS_OUTPUT/html``。"
 
 #: ../../upstream/docs/user/build-customization.rst:522
 msgid "Update Conda version"
-msgstr ""
+msgstr "更新 Conda 版本"
 
 #: ../../upstream/docs/user/build-customization.rst:524
 msgid ""
@@ -567,10 +615,12 @@ msgid ""
 " job to update Conda before creating the environment. Take a look at the "
 "following example:"
 msgstr ""
+"使用 Conda 的项目可能需要安装最新可用的 Conda 版本。可通过 ``pre_create_environment`` "
+"用户定义任务在创建环境前更新 Conda。示例如下："
 
 #: ../../upstream/docs/user/build-customization.rst:550
 msgid "Using Pelican"
-msgstr ""
+msgstr "使用 Pelican"
 
 #: ../../upstream/docs/user/build-customization.rst:552
 msgid ""
@@ -579,21 +629,23 @@ msgid ""
 "building your project with Pelican you could use a configuration file "
 "similar to the following:"
 msgstr ""
+"`Pelican <https://blog.getpelican.com/>`__ 是知名静态站点生成器，常用于博客和登录页。若用 Pelican "
+"构建项目，可用类似以下的配置文件："
 
 #: ../../upstream/docs/user/build-customization.rst:572
 msgid "Using Docsify"
-msgstr ""
+msgstr "使用 Docsify"
 
 #: ../../upstream/docs/user/build-customization.rst:574
 msgid ""
 "`Docsify <https://docsify.js.org/>`__ generates documentation websites on "
 "the fly, without the need to build static HTML. These projects can be built "
 "using a configuration file like this:"
-msgstr ""
+msgstr "`Docsify <https://docsify.js.org/>`__ 即时生成文档网站，无需构建静态 HTML。此类项目可用类似以下的配置文件构建："
 
 #: ../../upstream/docs/user/build-customization.rst:590
 msgid "Using Asciidoc"
-msgstr ""
+msgstr "使用 Asciidoc"
 
 #: ../../upstream/docs/user/build-customization.rst:592
 msgid ""
@@ -603,10 +655,13 @@ msgid ""
 "<https://docs.asciidoctor.org/asciidoctor.js/latest/>`__ which you can use "
 "with custom build commands. Here is an example configuration file:"
 msgstr ""
+"`Asciidoctor <https://asciidoctor.org/>`__ 是快速处理器，可将 AsciiDoc "
+"源码转换生成文档。Asciidoctor 工具链包含 `Asciidoctor.js "
+"<https://docs.asciidoctor.org/asciidoctor.js/latest/>`__，可配合自定义构建命令使用。示例配置文件如下："
 
 #: ../../upstream/docs/user/build-customization.rst:612
 msgid "Using pydoctor"
-msgstr ""
+msgstr "使用 pydoctor"
 
 #: ../../upstream/docs/user/build-customization.rst:614
 msgid ""
@@ -614,28 +669,30 @@ msgid ""
 "standalone API documentation tool for Python. Here is an example "
 "configuration file:"
 msgstr ""
+"`Pydoctor <https://github.com/twisted/pydoctor>`_ 是易用的独立 Python API "
+"文档工具。示例配置文件如下："
 
 #: ../../upstream/docs/user/build-customization.rst:638
 msgid "Generate text format with Sphinx"
-msgstr ""
+msgstr "用 Sphinx 生成文本格式"
 
 #: ../../upstream/docs/user/build-customization.rst:640
 msgid ""
 "There might be various reasons why would you want to generate your "
 "documentation in `text` format (secondary to `html`). One of such reasons "
 "would be generating LLM friendly documentation."
-msgstr ""
+msgstr "可能有多种原因想生成 `text` 格式文档（次于 `html`）。其中之一是生成对 LLM 友好的文档。"
 
 #: ../../upstream/docs/user/build-customization.rst:644
 msgid ""
 "See the following example for how to add generation of additional `text` "
 "format to your existing documentation. Deviations from standard build "
 "configuration are highlighted/emphasized:"
-msgstr ""
+msgstr "以下示例展示如何为现有文档添加额外的 `text` 格式生成。偏离标准构建配置的部分已高亮/强调："
 
 #: ../../upstream/docs/user/build-customization.rst:670
 msgid ""
 "The generated ``.txt`` files will be placed in the `html` directory, "
 "together with ``.html`` files."
-msgstr ""
+msgstr "生成的 ``.txt`` 文件将与 ``.html`` 文件一起放在 `html` 目录中。"
 

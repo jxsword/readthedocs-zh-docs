@@ -115,12 +115,12 @@ msgid ""
 "taking precedence over custom environment variables."
 msgstr ""
 "当 :doc:`构建过程 </builds>` 启动时，:doc:`预定义环境变量 </reference/environment-"
-"variables>` "
-"和自定义环境变量会在构建过程的*每个步骤*添加。这两组环境变量在构建过程中合并，并暴露给所有执行的命令，预定义变量优先于自定义变量。"
+"variables>` 和自定义环境变量会在构建过程的*每个步骤* "
+"添加。这两组环境变量在构建过程中合并，并暴露给所有执行的命令，预定义变量优先于自定义变量。"
 
 #: ../../upstream/docs/user/environment-variables.rst:51
 msgid "There are two noteworthy exceptions for *custom environment variables*:"
-msgstr "针对*自定义环境变量*有两个值得注意的例外："
+msgstr "针对*自定义环境变量* 有两个值得注意的例外："
 
 #: ../../upstream/docs/user/environment-variables.rst:53
 msgid "Build checkout step"
@@ -130,7 +130,7 @@ msgstr "构建检出步骤"
 msgid ""
 "Custom environment variables are **not** available during the checkout step "
 "of the :doc:`build process </builds>`"
-msgstr "在 :doc:`构建过程 </builds>` 的检出步骤中，**不可用**自定义环境变量"
+msgstr "在 :doc:`构建过程 </builds>` 的检出步骤中，**不可用** 自定义环境变量"
 
 #: ../../upstream/docs/user/environment-variables.rst:55
 msgid "Pull request builds"
@@ -196,8 +196,8 @@ msgid ""
 "*developer* documentation. This is defined by the ``PROJECT`` environment "
 "variable:"
 msgstr ""
-"这种情况的一个例子就存在于*你正在查看的这个文档项目*中。使用 Sphinx 扩展 `sphinx-multiproject`_，以下配置代码决定构建 "
-"*user* 还是 *developer* 文档。这由 ``PROJECT`` 环境变量定义："
+"这种情况的一个例子就存在于*你正在查看的这个文档项目* 中。使用 Sphinx 扩展 `sphinx-multiproject`_，以下配置代码决定构建"
+" *user* 还是 *developer* 文档。这由 ``PROJECT`` 环境变量定义："
 
 #: ../../upstream/docs/user/environment-variables.rst:87
 msgid "Read the Docs' conf.py [1]_ is used to build 2 documentation projects."
@@ -220,7 +220,7 @@ msgid ""
 "manage environment variables *as code*."
 msgstr ""
 "在某些场景下，使用 ``.readthedocs.yaml`` :doc:`配置文件 </config-file/index>` "
-"定义构建的环境变量更可行。如果你已经知道想要将环境变量*作为代码*管理，使用 :term:`dashboard` 管理环境变量可能不是最佳选择。"
+"定义构建的环境变量更可行。如果你已经知道想要将环境变量*作为代码* 管理，使用 :term:`dashboard` 管理环境变量可能不是最佳选择。"
 
 #: ../../upstream/docs/user/environment-variables.rst:121
 msgid "Consider the following scenario:"
@@ -228,7 +228,7 @@ msgstr "考虑以下场景："
 
 #: ../../upstream/docs/user/environment-variables.rst:123
 msgid "The environment variable **is not** a secret."
-msgstr "该环境变量**不是**机密。"
+msgstr "该环境变量**不是** 机密。"
 
 #: ../../upstream/docs/user/environment-variables.rst:125
 msgid "**and**"

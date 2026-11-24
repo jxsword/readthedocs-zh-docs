@@ -559,7 +559,7 @@ msgstr "``2.7``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:413
 msgid "``3`` (alias for the latest 3.x version available on Read the Docs)"
-msgstr "``3``（Read the Docs 上可用的最新 3.x 版本的别名）"
+msgstr "``3`` （Read the Docs 上可用的最新 3.x 版本的别名）"
 
 #: ../../upstream/docs/user/config-file/v2.rst:414
 msgid "``3.6``"
@@ -603,7 +603,7 @@ msgstr "``3.14``"
 #: ../../upstream/docs/user/config-file/v2.rst:484
 #: ../../upstream/docs/user/config-file/v2.rst:503
 msgid "``latest`` (alias for the latest version available on Read the Docs)"
-msgstr "``latest``（Read the Docs 上可用的最新版本的别名）"
+msgstr "``latest`` （Read the Docs 上可用的最新版本的别名）"
 
 #: ../../upstream/docs/user/config-file/v2.rst:424
 msgid "``miniconda3-4.7``"
@@ -621,7 +621,7 @@ msgstr "``miniconda3-3.12-24.9``"
 msgid ""
 "``miniconda-latest`` (alias for the latest version available on Read the "
 "Docs)"
-msgstr "``miniconda-latest``（Read the Docs 上可用的最新版本的别名）"
+msgstr "``miniconda-latest`` （Read the Docs 上可用的最新版本的别名）"
 
 #: ../../upstream/docs/user/config-file/v2.rst:428
 msgid "``mambaforge-4.10`` (deprecated)"
@@ -653,7 +653,7 @@ msgstr "``miniforge3-26.3``"
 msgid ""
 "``miniforge3-latest`` (alias for the latest version available on Read the "
 "Docs)"
-msgstr "``miniforge3-latest``（Read the Docs 上可用的最新版本的别名）"
+msgstr "``miniforge3-latest`` （Read the Docs 上可用的最新版本的别名）"
 
 #: ../../upstream/docs/user/config-file/v2.rst:437
 msgid "build.tools.nodejs"
@@ -1217,8 +1217,8 @@ msgid ""
 "pages with a rank closer to 10 will appear higher in the list of results. "
 "Note that 0 means *normal rank*, not *no rank*."
 msgstr ""
-"排名可以是 -10 到 10 之间的整数（含边界）。排名越接近 -10 的页面在结果中越靠后，越接近 10 的越靠前。注意 0 "
-"表示*正常排名*，而非*无排名*。"
+"排名可以是 -10 到 10 之间的整数（含边界）。排名越接近 -10 的页面在结果中越靠后，越接近 10 的越靠前。注意 0 表示*正常排名*，而非*"
+" 无排名*。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:892
 msgid ""

@@ -22,465 +22,480 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:2
 msgid "Skip or cancel builds based on conditions"
-msgstr ""
+msgstr "根据条件跳过或取消构建"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:4
 msgid ""
 "Read the Docs provides two mechanisms to avoid running unnecessary "
 "documentation builds, saving build time and resources:"
-msgstr ""
+msgstr "Read the Docs 提供两种机制避免运行不必要的文档构建，节省构建时间和资源："
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:7
 msgid "Skip a build"
-msgstr ""
+msgstr "跳过构建"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:8
 msgid ""
-"The build is **never triggered**. Use :doc:`automation rules "
-"</automation-rules>` with webhook filters to decide, before anything "
-"runs, whether a push or pull request should build at all. This is the "
-"recommended approach whenever it's available for your project."
+"The build is **never triggered**. Use :doc:`automation rules </automation-"
+"rules>` with webhook filters to decide, before anything runs, whether a push"
+" or pull request should build at all. This is the recommended approach "
+"whenever it's available for your project."
 msgstr ""
+"构建**永不触发**。结合 Webhook 过滤器使用 :doc:`自动化规则 </automation-rules>`，在任何任务运行前决定某次推送或"
+" Pull Request 是否应构建。这是推荐方法，只要你的项目支持即可使用。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:13
 msgid "Cancel a build"
-msgstr ""
+msgstr "取消构建"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:14
 msgid ""
-"The build is **triggered as usual**, and one of your commands exits with "
-"the special exit code ``183`` to cancel it. Use this when your Git "
-"provider doesn't support webhook filters, or when your condition requires"
-" shell logic at build time."
+"The build is **triggered as usual**, and one of your commands exits with the"
+" special exit code ``183`` to cancel it. Use this when your Git provider "
+"doesn't support webhook filters, or when your condition requires shell logic"
+" at build time."
 msgstr ""
+"构建**按常规触发**，你的某条命令以特殊退出码 ``183`` 退出以取消它。当你的 Git 服务商不支持 Webhook "
+"过滤器，或条件需要在构建时用 Shell 逻辑判断时使用此法。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:22
 msgid "Table of contents"
-msgstr ""
+msgstr "目录"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:25
 msgid "When to avoid building"
-msgstr ""
+msgstr "何时避免构建"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:27
 msgid ""
 "There are several scenarios where you might want to avoid documentation "
 "builds:"
-msgstr ""
+msgstr "有几种情况你可能想避免文档构建："
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:29
 msgid "**Save resources on irrelevant changes**"
-msgstr ""
+msgstr "**节省无关变更的资源**"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:30
 msgid ""
-"Avoid builds when changes don't affect documentation, such as changes "
-"only to source code, tests, or CI configuration files."
-msgstr ""
+"Avoid builds when changes don't affect documentation, such as changes only "
+"to source code, tests, or CI configuration files."
+msgstr "当变更不影响文档时避免构建，例如仅修改源代码、测试或 CI 配置文件。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:33
 msgid "**Avoid redundant builds**"
-msgstr ""
+msgstr "**避免冗余构建**"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:34
 msgid ""
-"Avoid builds for draft pull requests, work-in-progress branches, or "
-"commits with specific markers like ``[skip ci]`` in the commit message."
-msgstr ""
+"Avoid builds for draft pull requests, work-in-progress branches, or commits "
+"with specific markers like ``[skip ci]`` in the commit message."
+msgstr "为草稿 Pull Request、进行中的分支、或提交信息含特定标记（如 ``[skip ci]``）的提交避免构建。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:37
 msgid "**Conditional documentation updates**"
-msgstr ""
+msgstr "**有条件的文档更新**"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:38
 msgid ""
-"Only build documentation when specific files or directories are modified,"
-" such as the ``docs/`` folder or configuration files."
-msgstr ""
+"Only build documentation when specific files or directories are modified, "
+"such as the ``docs/`` folder or configuration files."
+msgstr "仅在特定文件或目录被修改时构建文档，例如 ``docs/`` 文件夹或配置文件。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:41
 msgid "**Branch-specific logic**"
-msgstr ""
+msgstr "**特定分支逻辑**"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:42
 msgid ""
-"Avoid builds on certain branches that don't require documentation "
-"updates, such as experimental or development branches."
-msgstr ""
+"Avoid builds on certain branches that don't require documentation updates, "
+"such as experimental or development branches."
+msgstr "在不需要文档更新的特定分支上避免构建，例如实验性或开发分支。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:46
 msgid "Skip builds with automation rules"
-msgstr ""
+msgstr "用自动化规则跳过构建"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:48
 msgid ""
-"Automation rules with a ``Trigger build for version`` action let you "
-"filter which webhook events trigger a build. You can match on the changed"
-" files, the commit message, or the pull request labels. When no build "
-"rule matches, the build is skipped: it doesn't appear in your build "
-"history and doesn't consume any build time."
+"Automation rules with a ``Trigger build for version`` action let you filter "
+"which webhook events trigger a build. You can match on the changed files, "
+"the commit message, or the pull request labels. When no build rule matches, "
+"the build is skipped: it doesn't appear in your build history and doesn't "
+"consume any build time."
 msgstr ""
+"带 ``Trigger build for version`` 动作的自动化规则可过滤触发构建的 Webhook 事件。可匹配变更文件、提交信息或 "
+"Pull Request 标签。无构建规则匹配时构建即被跳过：不出现在构建历史中，也不消耗构建时间。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:53
 msgid "For example, to only build when documentation files change:"
-msgstr ""
+msgstr "例如，仅在文档文件变更时构建："
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:55
 msgid "Match: ``Any version``"
-msgstr ""
+msgstr "匹配：``Any version``"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:56
 msgid "Version types: ``Tag``, ``Branch``, ``Pull request``"
-msgstr ""
+msgstr "版本类型：``Tag``, ``Branch``, ``Pull request``"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:57
 msgid "Changed files:"
-msgstr ""
+msgstr "变更的文件："
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:64
 msgid "Action: ``Trigger build for version``"
-msgstr ""
+msgstr "动作：``Trigger build for version``"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:68
 msgid ""
 "Webhook filters are only available for projects connected through the "
 ":doc:`GitHub App integration </reference/git-integration>`."
-msgstr ""
+msgstr "Webhook 过滤器仅对通过 :doc:`GitHub App 集成 </reference/git-integration>` 连接的项目可用。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:73
 msgid ":ref:`automation-rules:Webhook filters`"
-msgstr ""
+msgstr ":ref:`automation-rules:Webhook filters`"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:74
 msgid "All the available filters and how they are combined."
-msgstr ""
+msgstr "所有可用过滤器及其组合方式。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:76
 msgid ":ref:`automation-rules:Examples`"
-msgstr ""
+msgstr ":ref:`automation-rules:Examples`"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:77
 msgid ""
 "More rules, like skipping builds for commits with ``[skip ci]`` in the "
 "message."
-msgstr ""
+msgstr "更多规则，如跳过提交信息含 ``[skip ci]`` 的构建。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:80
 msgid "Cancel builds with exit code 183"
-msgstr ""
+msgstr "用退出码 183 取消构建"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:83
 msgid "How it works"
-msgstr ""
+msgstr "工作原理"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:85
 msgid ""
 "When any command in your build process exits with the special exit code "
-"``183``, Read the Docs will immediately cancel the build. The build will "
-"be marked as *cancelled* and will not consume build time or resources "
-"beyond that point."
+"``183``, Read the Docs will immediately cancel the build. The build will be "
+"marked as *cancelled* and will not consume build time or resources beyond "
+"that point."
 msgstr ""
+"构建过程中任意命令以特殊退出码 ``183`` 退出时，Read the Docs "
+"会立即取消构建。构建将标记为*已取消*，不再消耗该点之后的构建时间和资源。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:89
 msgid "Why exit code 183?"
-msgstr ""
+msgstr "为什么是退出码 183？"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:91
 msgid ""
-"The exit code 183 was chosen because it represents the word \"skip\" "
-"encoded in ASCII."
-msgstr ""
+"The exit code 183 was chosen because it represents the word \"skip\" encoded"
+" in ASCII."
+msgstr "退出码 183 对应 ASCII 编码的 \"skip\" 一词。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:100
 msgid ""
-"The 256 modulo operation is necessary because `Unix exit codes are "
-"limited to 0-255 <https://tldp.org/LDP/abs/html/exitcodes.html>`_, and "
-"any value larger than 255 is automatically reduced by taking the modulo "
-"256."
+"The 256 modulo operation is necessary because `Unix exit codes are limited "
+"to 0-255 <https://tldp.org/LDP/abs/html/exitcodes.html>`_, and any value "
+"larger than 255 is automatically reduced by taking the modulo 256."
 msgstr ""
+"需取 256 模，因为 `Unix 退出码限于 0-255 "
+"<https://tldp.org/LDP/abs/html/exitcodes.html>`_，超出 255 的值自动取模 256。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:104
 msgid "Examples"
-msgstr ""
+msgstr "示例"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:106
 msgid ""
-"The following examples demonstrate common use cases for cancelling "
-"builds. All examples use the :ref:`config-file/v2:build.jobs` "
-"configuration key in your ``.readthedocs.yaml`` file."
+"The following examples demonstrate common use cases for cancelling builds. "
+"All examples use the :ref:`config-file/v2:build.jobs` configuration key in "
+"your ``.readthedocs.yaml`` file."
 msgstr ""
+"以下示例演示取消构建的常见用例。所有示例使用 ``.readthedocs.yaml`` 中的 :ref:`config-"
+"file/v2:build.jobs` 配置键。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:111
 msgid "Cancel builds when documentation files haven't changed"
-msgstr ""
+msgstr "文档文件未变更时取消构建"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:115
 msgid ""
 "If your project is connected through the GitHub App, :ref:`skipping the "
 "build with an automation rule <guides/build/skip-or-cancel-builds:Skip "
-"builds with automation rules>` is the recommended approach. Automation "
-"rules avoid triggering the build at all, whereas the approach below "
-"cancels a build that is already running."
+"builds with automation rules>` is the recommended approach. Automation rules"
+" avoid triggering the build at all, whereas the approach below cancels a "
+"build that is already running."
 msgstr ""
+"如果项目通过 GitHub App 连接，:ref:`用自动化规则跳过构建 <guides/build/skip-or-cancel-"
+"builds:Skip builds with automation rules>` "
+"是推荐做法。自动化规则完全避免触发构建，而下述方法取消已在运行的构建。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:120
 msgid ""
 "This example cancels pull request builds when there are no changes to "
 "documentation-related files compared to the ``main`` branch:"
-msgstr ""
+msgstr "此示例在 Pull Request 与 ``main`` 分支相比无文档相关文件变更时取消构建："
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:123
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:153
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:176
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:198
 msgid ".readthedocs.yaml"
-msgstr ""
+msgstr ".readthedocs.yaml"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:142
 msgid "You can customize this example by:"
-msgstr ""
+msgstr "可通过以下方式自定义此示例："
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:144
-msgid ""
-"Adding more paths to check: ``docs/ .readthedocs.yaml "
-"requirements/docs.txt``"
-msgstr ""
+msgid "Adding more paths to check: ``docs/ .readthedocs.yaml requirements/docs.txt``"
+msgstr "添加更多检查路径：``docs/ .readthedocs.yaml requirements/docs.txt``"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:145
 msgid ""
 "Checking against a different branch: ``origin/develop`` instead of "
 "``origin/main``"
-msgstr ""
+msgstr "对比不同分支：用 ``origin/develop`` 代替 ``origin/main``"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:146
 msgid "Using different comparison operators to check for specific file patterns"
-msgstr ""
+msgstr "使用不同比较运算符检查特定文件模式"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:149
 msgid "Cancel builds based on commit message"
-msgstr ""
+msgstr "基于提交信息取消构建"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:151
 msgid ""
-"This example cancels builds when the commit message contains ``[skip "
-"ci]`` or ``[ci skip]``:"
-msgstr ""
+"This example cancels builds when the commit message contains ``[skip ci]`` "
+"or ``[ci skip]``:"
+msgstr "此示例在提交信息含 ``[skip ci]`` 或 ``[ci skip]`` 时取消构建："
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:167
 msgid ""
 "This pattern is commonly used in CI/CD systems to skip builds for "
 "administrative commits, such as version bumps or documentation typos."
-msgstr ""
+msgstr "此模式常用于 CI/CD 系统，为管理类提交（如版本号递增或文档错别字修正）跳过构建。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:171
 msgid "Cancel builds for specific branch patterns"
-msgstr ""
+msgstr "针对特定分支模式取消构建"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:173
 msgid ""
-"This example cancels builds for branches that match certain patterns, "
-"such as personal development branches:"
-msgstr ""
+"This example cancels builds for branches that match certain patterns, such "
+"as personal development branches:"
+msgstr "此示例取消匹配特定模式分支的构建，如个人开发分支："
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:193
 msgid "Cancel builds based on file types"
-msgstr ""
+msgstr "基于文件类型取消构建"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:195
 msgid ""
-"This example cancels builds when all changes are to non-documentation "
-"files, such as only images or data files:"
-msgstr ""
+"This example cancels builds when all changes are to non-documentation files,"
+" such as only images or data files:"
+msgstr "此示例在所有变更均为非文档文件（如仅图片或数据文件）时取消构建："
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:222
 msgid "Best practices"
-msgstr ""
+msgstr "最佳实践"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:224
 msgid "When implementing build cancellation logic, consider these best practices:"
-msgstr ""
+msgstr "实现构建取消逻辑时，请考虑以下最佳实践："
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:226
 msgid "**Test your conditions locally**"
-msgstr ""
+msgstr "**本地测试条件**"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:227
 msgid ""
-"Before deploying cancellation logic, test your bash conditions locally to"
-" ensure they work as expected. Remember that the condition failing will "
+"Before deploying cancellation logic, test your bash conditions locally to "
+"ensure they work as expected. Remember that the condition failing will "
 "cancel your build."
-msgstr ""
+msgstr "部署取消逻辑前，本地测试 bash 条件确保其按预期工作。记住条件失败会取消构建。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:230
 msgid "**Be specific with your conditions**"
-msgstr ""
+msgstr "**条件要具体**"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:231
 msgid ""
-"Write clear and specific conditions to avoid accidentally cancelling "
-"builds that should run. Overly broad conditions might prevent important "
+"Write clear and specific conditions to avoid accidentally cancelling builds "
+"that should run. Overly broad conditions might prevent important "
 "documentation updates."
-msgstr ""
+msgstr "编写清晰具体的条件，避免误取消本应运行的构建。过宽的条件可能阻止重要文档更新。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:234
 msgid "**Document your cancellation logic**"
-msgstr ""
+msgstr "**记录取消逻辑**"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:235
 msgid ""
-"Add comments in your ``.readthedocs.yaml`` file explaining why builds are"
-" cancelled and under what conditions. This helps future maintainers "
+"Add comments in your ``.readthedocs.yaml`` file explaining why builds are "
+"cancelled and under what conditions. This helps future maintainers "
 "understand the configuration."
-msgstr ""
+msgstr "在 ``.readthedocs.yaml`` 中添加注释，解释为何取消构建及条件。这有助于未来维护者理解配置。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:238
 msgid "**Consider the impact on pull requests**"
-msgstr ""
+msgstr "**考虑对 Pull Request 的影响**"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:239
 msgid ""
 "If you cancel builds on pull requests, reviewers won't have preview "
 "documentation. Make sure this aligns with your team's review process."
-msgstr ""
+msgstr "取消 Pull Request 构建会导致审查者无预览文档。确保这符合团队审查流程。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:242
 msgid "**Use environment variables**"
-msgstr ""
+msgstr "**使用环境变量**"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:243
 msgid ""
-"Leverage :doc:`Read the Docs environment variables </reference"
-"/environment-variables>` like ``READTHEDOCS_VERSION_TYPE`` to make your "
-"conditions more precise."
+"Leverage :doc:`Read the Docs environment variables </reference/environment-"
+"variables>` like ``READTHEDOCS_VERSION_TYPE`` to make your conditions more "
+"precise."
 msgstr ""
+"利用 :doc:`Read the Docs 环境变量 </reference/environment-variables>` 如 "
+"``READTHEDOCS_VERSION_TYPE`` 使条件更精确。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:247
 msgid "Limitations"
-msgstr ""
+msgstr "限制"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:249
-msgid ""
-"Be aware of these limitations when cancelling builds with exit code "
-"``183``:"
-msgstr ""
+msgid "Be aware of these limitations when cancelling builds with exit code ``183``:"
+msgstr "使用退出码 ``183`` 取消构建时，请注意以下限制："
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:251
 msgid "**No partial cancellation**"
-msgstr ""
+msgstr "**无部分取消**"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:252
 msgid ""
 "Once a build is cancelled with exit code 183, the entire build stops "
 "immediately. You cannot selectively skip only certain parts of the build "
 "process."
-msgstr ""
+msgstr "一旦用退出码 183 取消构建，整个构建立即停止。无法选择性跳过构建过程的特定部分。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:255
 msgid "**Not available in configuration file**"
-msgstr ""
+msgstr "**配置文件中不可用**"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:256
 msgid ""
 "You cannot cancel builds using conditions in the ``.readthedocs.yaml`` "
-"configuration syntax itself. All logic must be implemented in bash "
-"commands."
-msgstr ""
+"configuration syntax itself. All logic must be implemented in bash commands."
+msgstr "不能直接在 ``.readthedocs.yaml`` 配置语法中用条件取消构建。所有逻辑必须在 bash 命令中实现。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:259
 msgid "**Build is counted as cancelled**"
-msgstr ""
+msgstr "**计为已取消**"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:260
 msgid ""
 "Cancelled builds appear in your build history as *cancelled*, not as "
-"successful. This is different from builds skipped by automation rules, "
-"which never appear in the build history."
-msgstr ""
+"successful. This is different from builds skipped by automation rules, which"
+" never appear in the build history."
+msgstr "取消的构建在历史中显示为*已取消* 而非成功。这与自动化规则跳过的构建（从不出现在历史中）不同。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:263
 msgid "**No failure notifications are sent**"
-msgstr ""
+msgstr "**不发送失败通知**"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:264
 msgid ""
-"When a build is cancelled via exit code ``183``, Read the Docs does not "
-"send ``build:failed`` webhook notifications or failure emails for it. The"
-" build is treated as intentionally cancelled rather than failed. Note "
-"that a ``build:triggered`` webhook may still have been delivered earlier,"
-" before the build command had a chance to exit with ``183``."
+"When a build is cancelled via exit code ``183``, Read the Docs does not send"
+" ``build:failed`` webhook notifications or failure emails for it. The build "
+"is treated as intentionally cancelled rather than failed. Note that a "
+"``build:triggered`` webhook may still have been delivered earlier, before "
+"the build command had a chance to exit with ``183``."
 msgstr ""
+"用退出码 ``183`` 取消构建时，Read the Docs 不发送 ``build:failed`` Webhook "
+"通知或失败邮件。构建视为有意取消而非失败。注意 ``build:triggered`` Webhook 可能已在命令退出前送达。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:270
 msgid "**Pull request status is reported as successful**"
-msgstr ""
+msgstr "**Pull Request 状态报告为成功**"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:271
 msgid ""
-"When a commit status is sent to your Git provider (for pull request "
-"builds), it is reported as successful so that the pull request is not "
-"blocked from merging."
-msgstr ""
+"When a commit status is sent to your Git provider (for pull request builds),"
+" it is reported as successful so that the pull request is not blocked from "
+"merging."
+msgstr "向 Git 服务商发送提交状态（针对 Pull Request 构建）时，会报告为成功，以免阻塞 Pull Request 合并。"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:276
 msgid "Troubleshooting"
-msgstr ""
+msgstr "故障排查"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:278
 msgid "**Build is not being cancelled**"
-msgstr ""
+msgstr "**构建未被取消**"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:279
 msgid "Verify your condition logic is correct by testing it locally"
-msgstr ""
+msgstr "本地测试验证条件逻辑正确性"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:280
 msgid "Check that the command is returning exit code 183 specifically"
-msgstr ""
+msgstr "确认命令确实返回退出码 183"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:281
 msgid ""
 "Ensure you're using the correct :doc:`environment variables </reference"
 "/environment-variables>`"
-msgstr ""
+msgstr "确保使用正确的 :doc:`环境变量 </reference/environment-variables>`"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:282
 msgid "Review the build logs to see if your condition is being evaluated"
-msgstr ""
+msgstr "查看构建日志确认条件是否被评估"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:284
 msgid "**Builds are being cancelled unexpectedly**"
-msgstr ""
+msgstr "**构建意外被取消**"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:285
 msgid "Review your condition logic to ensure it's not too broad"
-msgstr ""
+msgstr "检查条件逻辑确保不够宽泛"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:286
 msgid "Check for syntax errors in your bash commands"
-msgstr ""
+msgstr "检查 bash 命令语法错误"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:287
 msgid "Verify that file paths and branch names are correct"
-msgstr ""
+msgstr "验证文件路径和分支名正确"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:288
 msgid "Test the condition in different scenarios (PRs, branches, tags)"
-msgstr ""
+msgstr "在不同场景（PR、分支、标签）测试条件"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:290
 msgid "**Cannot access Git information**"
-msgstr ""
+msgstr "**无法访问 Git 信息**"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:291
 msgid ""
-"Some Git operations require a full clone. If you need Git history, you "
-"might need to :ref:`unshallow the clone <build-customization:Unshallow "
-"git clone>`"
+"Some Git operations require a full clone. If you need Git history, you might"
+" need to :ref:`unshallow the clone <build-customization:Unshallow git "
+"clone>`"
 msgstr ""
+"某些 Git 操作需要完整克隆。若需 Git 历史，可能需 :ref:`取消浅克隆 <build-customization:Unshallow git"
+" clone>`"
 
 #: ../../upstream/docs/user/guides/build/skip-or-cancel-builds.rst:293
 msgid ""
-"Ensure you're running your cancellation logic in ``post_checkout`` to "
-"have access to the repository"
-msgstr ""
+"Ensure you're running your cancellation logic in ``post_checkout`` to have "
+"access to the repository"
+msgstr "确保取消逻辑在 ``post_checkout`` 运行以访问仓库"
 

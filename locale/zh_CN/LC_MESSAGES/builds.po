@@ -194,7 +194,7 @@ msgid ""
 "when files under ``docs/`` were modified, or when the commit message doesn't"
 " contain ``[skip ci]``."
 msgstr ""
-"*跳过的*构建是从未被触发的构建。结合 Webhook 过滤器使用 :doc:`自动化规则 </automation-rules>`，你可以告诉 "
+"*跳过的* 构建是从未被触发的构建。结合 Webhook 过滤器使用 :doc:`自动化规则 </automation-rules>`，你可以告诉 "
 "Read the Docs 仅在发生相关变更时触发构建，例如 ``docs/`` 下的文件被修改、或提交信息不包含 ``[skip ci]`` 时。"
 
 #: ../../upstream/docs/user/builds.rst:90
@@ -229,7 +229,9 @@ msgid ""
 "before it finished. Cancelled builds appear in your build history with the "
 "*Cancelled* state. Cancelling builds allows your team to speed up review "
 "times and also help us reduce server costs and our environmental footprint."
-msgstr "*取消的*构建是正常触发但未完成就停止的构建。取消的构建会以*已取消*状态出现在构建历史中。取消构建可让你的团队加快审查速度，也有助于我们降低服务器成本和环境足迹。"
+msgstr ""
+"*取消的* 构建是正常触发但未完成就停止的构建。取消的构建会以*已取消* "
+"状态出现在构建历史中。取消构建可让你的团队加快审查速度，也有助于我们降低服务器成本和环境足迹。"
 
 #: ../../upstream/docs/user/builds.rst:109
 msgid "A couple common reasons you might want to cancel builds are:"
@@ -313,7 +315,7 @@ msgstr "为减少资源消耗并改善所有用户的构建队列时间，Read t
 msgid ""
 "When a project has **25 consecutive failed builds** on its default version, "
 "we will disable builds for the project."
-msgstr "当项目在默认版本上有**连续 25 次失败构建**时，我们将为该项目禁用构建。"
+msgstr "当项目在默认版本上有**连续 25 次失败构建** 时，我们将为该项目禁用构建。"
 
 #: ../../upstream/docs/user/builds.rst:149
 msgid ""

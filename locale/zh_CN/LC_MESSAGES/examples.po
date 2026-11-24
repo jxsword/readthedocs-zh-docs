@@ -32,8 +32,8 @@ msgid ""
 " and then head over to the Git repository to see how it's done and reuse the"
 " code."
 msgstr ""
-"以下示例项目展示了 Read the Docs "
-"的丰富用法。你可以从中获取灵感、学习经验，并借鉴方法来启动自己的文档项目。查看每个项目的*渲染*版本，然后前往 Git 仓库了解其实现方式并复用代码。"
+"以下示例项目展示了 Read the Docs 的丰富用法。你可以从中获取灵感、学习经验，并借鉴方法来启动自己的文档项目。查看每个项目的*渲染* "
+"版本，然后前往 Git 仓库了解其实现方式并复用代码。"
 
 #: ../../upstream/docs/user/examples.rst:9
 msgid "Real-life examples"
@@ -169,13 +169,13 @@ msgstr "我们非常希望收录更多示例，展示 Read the Docs 的功能，
 
 #: ../../upstream/docs/user/examples.rst:70
 msgid "We **require** that an example project:"
-msgstr "我们**要求**示例项目："
+msgstr "我们**要求** 示例项目："
 
 #: ../../upstream/docs/user/examples.rst:72
 msgid ""
 "is **hosted and maintained by you** in its own Git repository, "
 "``example-<topic>``."
-msgstr "由**你本人托管和维护**在独立的 Git 仓库中，命名为 ``example-<topic>``。"
+msgstr "由**你本人托管和维护** 在独立的 Git 仓库中，命名为 ``example-<topic>``。"
 
 #: ../../upstream/docs/user/examples.rst:73
 msgid "contains a README."
@@ -197,7 +197,7 @@ msgstr ""
 
 #: ../../upstream/docs/user/examples.rst:78
 msgid "We **recommend** that your project:"
-msgstr "我们**建议**你的项目："
+msgstr "我们**建议** 你的项目："
 
 #: ../../upstream/docs/user/examples.rst:80
 msgid "has **continuous integration and PR builds**."

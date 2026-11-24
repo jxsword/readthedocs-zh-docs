@@ -111,7 +111,7 @@ msgstr "Conda："
 msgid ""
 "Miniconda2 ``4.6.14`` (could be updated in the future to use the latest "
 "version by default)."
-msgstr "Miniconda2 ``4.6.14``（未来可能更新为默认使用最新版本）。"
+msgstr "Miniconda2 ``4.6.14`` （未来可能更新为默认使用最新版本）。"
 
 #: ../../upstream/docs/user/build-default-versions.rst:58
 #: ../../upstream/docs/user/build-default-versions.rst:61

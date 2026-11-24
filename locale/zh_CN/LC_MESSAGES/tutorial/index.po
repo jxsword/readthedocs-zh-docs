@@ -500,7 +500,7 @@ msgstr "添加配置文件"
 msgid ""
 "The Admin tab of the :term:`project home` has some *global* configuration "
 "settings for your project."
-msgstr ":term:`project home` 的 Admin 选项卡中包含一些针对你项目的*全局*配置设置。"
+msgstr ":term:`project home` 的 Admin 选项卡中包含一些针对你项目的*全局* 配置设置。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:241
 msgid ""
@@ -630,7 +630,7 @@ msgid ""
 "which is expected because we've configured Sphinx to fail on warnings and "
 "several warnings were encountered during the build."
 msgstr ""
-"如果你前往\"Builds\"页面，会看到一个``Failed``构建，这是预期结果，因为我们已经将 Sphinx "
+"如果你前往\"Builds\"页面，会看到一个``Failed`` 构建，这是预期结果，因为我们已经将 Sphinx "
 "配置为遇警告即失败，而构建过程中遇到了几条警告。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:347
@@ -792,7 +792,7 @@ msgid ""
 "users see the ``stable`` documentation when they visit the :term:`root URL` "
 "of your documentation:"
 msgstr ""
-"要将 ``stable`` 设为*默认版本*而非 ``latest``，以便用户访问文档的 :term:`root URL` 时看到 "
+"要将 ``stable`` 设为*默认版本* 而非 ``latest``，以便用户访问文档的 :term:`root URL` 时看到 "
 "``stable`` 文档："
 
 #: ../../upstream/docs/user/tutorial/index.rst:451
@@ -816,7 +816,7 @@ msgid ""
 "will always point to the ``1.0.x`` branch of your repository."
 msgstr ""
 "``latest`` 和 ``stable`` 现在都是*活跃的*，这意味着用户可以看到它们，并且可以为它们触发新的构建。除此之外，Read the "
-"Docs 还创建了一个*非活跃的* ``1.0.x`` 版本，它始终指向你仓库的 ``1.0.x`` 分支。"
+"Docs 还创建了一个* 非活跃的* ``1.0.x`` 版本，它始终指向你仓库的 ``1.0.x`` 分支。"
 
 #: ../../upstream/docs/user/tutorial/index.rst:461
 #: ../../upstream/docs/user/tutorial/index.rst:466
