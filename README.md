@@ -181,7 +181,7 @@ make update
 # 编译 .mo 并构建中文 HTML 到 _build/html
 make build
 
-# 本地实时预览 http://127.0.0.1:8000
+# 本地实时预览（详见 3.3 节）
 make preview
 
 # 质量门禁（5 项检查，见第 5 节）
@@ -223,6 +223,47 @@ python scripts/fix_rst_boundaries.py
 - **键必须唯一**：重复 msgid 键在 JSON 对象中会互相覆盖，导致部分条目漏译。
 - import 校验失败（token mismatch / markup count mismatch）时，对应条目不会被写入；修正译文后重新执行 import 即可，已成功的条目会自动跳过。
 - 命名引用（`` `X`_ `` / `` `X`__ ``）与 `:role:`目标`` 的**目标部分不可变**；显示文本可译时必须用 `` `显示文本 <原目标>`_ `` 完整语法，且 target 逐字符一致。
+
+### 3.3 本地预览构建产物（三种方式，已实测可行）
+
+**方式一：`make preview`（推荐，实时预览）**
+
+```bash
+source .venv/Scripts/activate        # Git Bash
+make preview
+```
+
+浏览器打开 **http://127.0.0.1:8000**。该命令先执行一次完整构建（提交元数据 → 编译 `.mo` → HTML），再启动 `sphinx-autobuild` 监听——**修改 `.po` 译文后自动增量重建并刷新浏览器**，适合边译边看。
+
+Windows 无 `make` 时的等价命令：
+
+```bash
+python scripts/gen_upstream_meta.py
+sphinx-intl build -d locale -l zh_CN
+sphinx-autobuild -c . -D language=zh_CN upstream/docs _build/html --host 127.0.0.1 --port 8000
+```
+
+**方式二：仅构建，直接打开静态文件**
+
+```bash
+make build          # 产物在 _build/html/
+```
+
+构建完成后用浏览器直接打开本地 HTML 文件（如 `_build/html/index.html`）。站点是纯静态页，`file://` 协议可正常浏览，但**搜索功能**（依赖同源加载 `searchindex.js`）在 `file://` 下可能受限，需要完整功能时用方式一或方式三。
+
+**方式三：查看已有构建产物（无需重新构建）**
+
+历史构建产物保留在 `_build/` 下的各输出目录（如 B7 验收用的 `_build/b7html/index.html`、门禁检查的 `_build/check/html/`），直接用浏览器打开即可快速核对译文效果。
+
+**巡检要点**（对应质量门槛第 5 项）：
+
+- 中文标题与侧边栏渲染正常；
+- 交叉引用（`:doc:` / `:ref:`）跳转不 404；
+- 代码块、提示框（note/warning/tip）结构完整；
+- 页脚显示「中文翻译基于上游文档提交 `<short-sha>`（`<commit-time>`）」且链接正确；
+- 搜索页可搜索中文内容。
+
+> **提示**：构建时若 intersphinx 拉取超时报 warning，先设置代理再构建（见第 3 节开头的代理提示）。
 
 ---
 
