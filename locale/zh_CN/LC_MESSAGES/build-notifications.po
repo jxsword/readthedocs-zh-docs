@@ -22,69 +22,69 @@ msgstr ""
 
 #: ../../upstream/docs/user/build-notifications.rst:2
 msgid "Build failure notifications"
-msgstr ""
+msgstr "构建失败通知"
 
 #: ../../upstream/docs/user/build-notifications.rst:4
 msgid ""
-"Build notifications can alert you when your documentation builds fail so "
-"you can take immediate action. We offer the following methods for being "
+"Build notifications can alert you when your documentation builds fail so you"
+" can take immediate action. We offer the following methods for being "
 "notified:"
-msgstr ""
+msgstr "构建通知可在文档构建失败时提醒你，以便立即采取行动。我们提供以下通知方式："
 
 #: ../../upstream/docs/user/build-notifications.rst:7
 msgid "Email notifications:"
-msgstr ""
+msgstr "邮件通知："
 
 #: ../../upstream/docs/user/build-notifications.rst:8
 msgid ""
-"Read the Docs allows you to configure build notifications via email. When"
-" builds fail, configured email addresses are notified."
-msgstr ""
+"Read the Docs allows you to configure build notifications via email. When "
+"builds fail, configured email addresses are notified."
+msgstr "Read the Docs 允许你通过邮件配置构建通知。构建失败时，会通知配置的邮箱地址。"
 
 #: ../../upstream/docs/user/build-notifications.rst:12
 msgid "Build Status Webhooks:"
-msgstr ""
+msgstr "构建状态 Webhook："
 
 #: ../../upstream/docs/user/build-notifications.rst:13
 msgid ""
-"Build notifications can happen via :term:`webhooks <webhook>`. This means"
-" that we are able to support a wide variety of services that receive "
+"Build notifications can happen via :term:`webhooks <webhook>`. This means "
+"that we are able to support a wide variety of services that receive "
 "notifications."
-msgstr ""
+msgstr "构建通知可通过 :term:`webhooks <webhook>` 进行。这意味着我们能支持各种接收通知的服务。"
 
 #: ../../upstream/docs/user/build-notifications.rst:16
 msgid "Slack and Discord are supported through ready-made templates."
-msgstr ""
+msgstr "Slack 和 Discord 通过现成的模板提供支持。"
 
 #: ../../upstream/docs/user/build-notifications.rst:18
 msgid ""
 "Webhooks can be customized through your own template and a variety of "
 "variable substitutions."
-msgstr ""
+msgstr "Webhook 可通过你自己的模板和多种变量替换进行定制。"
 
 #: ../../upstream/docs/user/build-notifications.rst:22
 msgid ""
 "We don't trigger email notifications or build status webhooks on "
 ":doc:`builds from pull requests </pull-requests>`."
-msgstr ""
+msgstr "我们不会在 :doc:`Pull Request 构建 </pull-requests>` 上触发邮件通知或构建状态 Webhook。"
 
 #: ../../upstream/docs/user/build-notifications.rst:25
 msgid ":doc:`/guides/build/email-notifications`"
-msgstr ""
+msgstr ":doc:`/guides/build/email-notifications`"
 
 #: ../../upstream/docs/user/build-notifications.rst:26
 msgid ""
-"Enable email notifications on failed builds, so you always know that your"
-" docs are deploying successfully."
-msgstr ""
+"Enable email notifications on failed builds, so you always know that your "
+"docs are deploying successfully."
+msgstr "启用构建失败的邮件通知，这样你就能随时知道文档是否部署成功。"
 
 #: ../../upstream/docs/user/build-notifications.rst:29
 msgid ":doc:`/guides/build/webhooks`"
-msgstr ""
+msgstr ":doc:`/guides/build/webhooks`"
 
 #: ../../upstream/docs/user/build-notifications.rst:30
 msgid ""
-"Steps for setting up build notifications via webhooks, including examples"
-" for popular platforms like Slack and Discord."
-msgstr ""
+"Steps for setting up build notifications via webhooks, including examples "
+"for popular platforms like Slack and Discord."
+msgstr "通过 Webhook 设置构建通知的步骤，包括针对 Slack、Discord 等流行平台的示例。"
 

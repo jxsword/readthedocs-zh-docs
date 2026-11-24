@@ -22,126 +22,129 @@ msgstr ""
 
 #: ../../upstream/docs/user/build-default-versions.rst:11
 msgid "Default versions of dependencies"
-msgstr ""
+msgstr "依赖的默认版本"
 
 #: ../../upstream/docs/user/build-default-versions.rst:13
 msgid ""
-"Read the Docs supports any documentation tool to build your "
-"documentation. However, we provide pre-defined builders for `Sphinx "
-"<https://www.sphinx-doc.org/>`__ and `MkDocs "
-"<https://www.mkdocs.org/>`__."
+"Read the Docs supports any documentation tool to build your documentation. "
+"However, we provide pre-defined builders for `Sphinx <https://www.sphinx-"
+"doc.org/>`__ and `MkDocs <https://www.mkdocs.org/>`__."
 msgstr ""
+"Read the Docs 支持使用任何文档工具构建文档。不过，我们为 `Sphinx <https://www.sphinx-doc.org/>`__"
+" 和 `MkDocs <https://www.mkdocs.org/>`__ 提供了预定义的构建器。"
 
 #: ../../upstream/docs/user/build-default-versions.rst:17
 msgid ""
-"In the past we used to install several dependencies to a specific version"
-" and update them after some time, but doing so would break some builds "
-"and make it more difficult for new projects to use new versions. For this"
-" reason, we are now installing just the minimal required dependencies "
-"using their latest version by default. You can see the full list of "
-"historical dependencies and advice for migrating in our `blog post "
-"<https://blog.readthedocs.com/defaulting-latest-build-tools/>`__ "
-"announcing this change."
+"In the past we used to install several dependencies to a specific version "
+"and update them after some time, but doing so would break some builds and "
+"make it more difficult for new projects to use new versions. For this "
+"reason, we are now installing just the minimal required dependencies using "
+"their latest version by default. You can see the full list of historical "
+"dependencies and advice for migrating in our `blog post "
+"<https://blog.readthedocs.com/defaulting-latest-build-tools/>`__ announcing "
+"this change."
 msgstr ""
+"过去我们会将若干依赖固定到特定版本，并在一段时间后更新它们，但这样做会导致某些构建失败，并让新项目更难使用新版本。因此，我们现在默认仅安装最新版本的最小必要依赖。完整的历史依赖列表与迁移建议，请参阅我们宣布此变更的"
+" `博客文章 <https://blog.readthedocs.com/defaulting-latest-build-tools/>`__。"
 
 #: ../../upstream/docs/user/build-default-versions.rst:24
 msgid ""
-"In order to keep your builds reproducible, it's highly recommended "
-"declaring its dependencies and versions explicitly. See :doc:`/guides"
-"/reproducible-builds`."
-msgstr ""
+"In order to keep your builds reproducible, it's highly recommended declaring"
+" its dependencies and versions explicitly. See :doc:`/guides/reproducible-"
+"builds`."
+msgstr "为保持构建可复现，强烈建议显式声明依赖及其版本。请参阅 :doc:`/guides/reproducible-builds`。"
 
 #: ../../upstream/docs/user/build-default-versions.rst:29
 msgid "External dependencies"
-msgstr ""
+msgstr "外部依赖"
 
 #: ../../upstream/docs/user/build-default-versions.rst:32
 msgid "Python"
-msgstr ""
+msgstr "Python"
 
 #: ../../upstream/docs/user/build-default-versions.rst:34
 msgid ""
-"These are the dependencies that are installed by default when using a "
-"Python environment:"
-msgstr ""
+"These are the dependencies that are installed by default when using a Python"
+" environment:"
+msgstr "使用 Python 环境时默认安装的依赖如下："
 
 #: ../../upstream/docs/user/build-default-versions.rst:36
 #: ../../upstream/docs/user/build-default-versions.rst:60
 msgid "Sphinx:"
-msgstr ""
+msgstr "Sphinx："
 
 #: ../../upstream/docs/user/build-default-versions.rst:37
 #: ../../upstream/docs/user/build-default-versions.rst:40
 #: ../../upstream/docs/user/build-default-versions.rst:43
 #: ../../upstream/docs/user/build-default-versions.rst:46
 msgid "Latest version by default."
-msgstr ""
+msgstr "默认最新版本。"
 
 #: ../../upstream/docs/user/build-default-versions.rst:39
 #: ../../upstream/docs/user/build-default-versions.rst:57
 msgid "Mkdocs:"
-msgstr ""
+msgstr "MkDocs："
 
 #: ../../upstream/docs/user/build-default-versions.rst:42
 msgid "pip:"
-msgstr ""
+msgstr "pip："
 
 #: ../../upstream/docs/user/build-default-versions.rst:45
 msgid "setuptools:"
-msgstr ""
+msgstr "setuptools："
 
 #: ../../upstream/docs/user/build-default-versions.rst:49
 msgid "Conda"
-msgstr ""
+msgstr "Conda"
 
 #: ../../upstream/docs/user/build-default-versions.rst:51
 msgid ""
-"These are the dependencies that are installed by default when using a "
-"Conda environment:"
-msgstr ""
+"These are the dependencies that are installed by default when using a Conda "
+"environment:"
+msgstr "使用 Conda 环境时默认安装的依赖如下："
 
 #: ../../upstream/docs/user/build-default-versions.rst:53
 msgid "Conda:"
-msgstr ""
+msgstr "Conda："
 
 #: ../../upstream/docs/user/build-default-versions.rst:54
 msgid ""
 "Miniconda2 ``4.6.14`` (could be updated in the future to use the latest "
 "version by default)."
-msgstr ""
+msgstr "Miniconda2 ``4.6.14``（未来可能更新为默认使用最新版本）。"
 
 #: ../../upstream/docs/user/build-default-versions.rst:58
 #: ../../upstream/docs/user/build-default-versions.rst:61
 msgid "Latest version by default installed via ``conda``."
-msgstr ""
+msgstr "默认通过 ``conda`` 安装最新版本。"
 
 #: ../../upstream/docs/user/build-default-versions.rst:63
 msgid "sphinx-rtd-theme:"
-msgstr ""
+msgstr "sphinx-rtd-theme："
 
 #: ../../upstream/docs/user/build-default-versions.rst:64
 #: ../../upstream/docs/user/build-default-versions.rst:76
 msgid ""
-"Latest version by default installed via ``conda``. Projects created after"
-" August 7, 2023 won't install this dependency by default."
-msgstr ""
+"Latest version by default installed via ``conda``. Projects created after "
+"August 7, 2023 won't install this dependency by default."
+msgstr "默认通过 ``conda`` 安装最新版本。2023 年 8 月 7 日后创建的项目不会默认安装此依赖。"
 
 #: ../../upstream/docs/user/build-default-versions.rst:67
 msgid "mock:"
-msgstr ""
+msgstr "mock："
 
 #: ../../upstream/docs/user/build-default-versions.rst:68
 #: ../../upstream/docs/user/build-default-versions.rst:72
 msgid ""
 "Latest version by default installed via ``pip``. Projects created after "
 "August 7, 2023 won't install this dependency by default."
-msgstr ""
+msgstr "默认通过 ``pip`` 安装最新版本。2023 年 8 月 7 日后创建的项目不会默认安装此依赖。"
 
 #: ../../upstream/docs/user/build-default-versions.rst:71
 msgid "pillow:"
-msgstr ""
+msgstr "pillow："
 
 #: ../../upstream/docs/user/build-default-versions.rst:75
 msgid "recommonmark:"
-msgstr ""
+msgstr "recommonmark："
 

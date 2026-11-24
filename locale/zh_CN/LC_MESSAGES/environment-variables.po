@@ -22,207 +22,232 @@ msgstr ""
 
 #: ../../upstream/docs/user/environment-variables.rst:4
 msgid "Environment variable overview"
-msgstr ""
+msgstr "环境变量概览"
 
 #: ../../upstream/docs/user/environment-variables.rst:6
 msgid ""
-"Read the Docs allows you to define your own environment variables to be "
-"used in the build process. It also defines a set of :doc:`default "
-"environment variables </reference/environment-variables>` with "
-"information about your build. These are useful for different purposes:"
+"Read the Docs allows you to define your own environment variables to be used"
+" in the build process. It also defines a set of :doc:`default environment "
+"variables </reference/environment-variables>` with information about your "
+"build. These are useful for different purposes:"
 msgstr ""
+"Read the Docs 允许你定义自己的环境变量用于构建过程。它还定义了一组 :doc:`默认环境变量 </reference"
+"/environment-variables>`，包含关于你构建的信息。这些变量有不同的用途："
 
 #: ../../upstream/docs/user/environment-variables.rst:10
 msgid ""
-"Custom environment variables are useful for adding build secrets such as "
-"API tokens."
-msgstr ""
+"Custom environment variables are useful for adding build secrets such as API"
+" tokens."
+msgstr "自定义环境变量可用于添加构建机密，如 API 令牌。"
 
 #: ../../upstream/docs/user/environment-variables.rst:11
 msgid ""
-"Default environment variables are useful for varying your build "
-"specifically for Read the Docs or specific types of builds on Read the "
-"Docs."
-msgstr ""
+"Default environment variables are useful for varying your build specifically"
+" for Read the Docs or specific types of builds on Read the Docs."
+msgstr "默认环境变量可用于专门针对 Read the Docs 或 Read the Docs 上特定类型的构建进行变更。"
 
 #: ../../upstream/docs/user/environment-variables.rst:19
 msgid ""
 "Custom environment variables are defined in your project's "
-":menuselection:`Settings --> Environment variables`. Environment "
-"variables are defined for a project's entire build process, :ref:`with 2 "
-"important exceptions <custom_env_var_exceptions>`."
+":menuselection:`Settings --> Environment variables`. Environment variables "
+"are defined for a project's entire build process, :ref:`with 2 important "
+"exceptions <custom_env_var_exceptions>`."
 msgstr ""
+"自定义环境变量在项目的 :menuselection:`Settings --> Environment variables` "
+"中定义。环境变量针对项目的整个构建过程定义，:ref:`有 2 个重要例外 <custom_env_var_exceptions>`。"
 
 #: ../../upstream/docs/user/environment-variables.rst:23
 msgid ""
 "Aside from storing secrets, there are :ref:`other patterns <environment-"
-"variables:Patterns of using environment variables>` that take advantage "
-"of environment variables, like reusing the same *monorepo* configuration "
-"in multiple documentation projects. In cases where the environment "
-"variable isn't a secret, like a build tool flag, you should also be aware"
-" of the :ref:`alternatives to environment variables <environment-"
+"variables:Patterns of using environment variables>` that take advantage of "
+"environment variables, like reusing the same *monorepo* configuration in "
+"multiple documentation projects. In cases where the environment variable "
+"isn't a secret, like a build tool flag, you should also be aware of the "
+":ref:`alternatives to environment variables <environment-"
 "variables:Alternatives to environment variables>`."
 msgstr ""
+"除了存储机密，还有 :ref:`其他模式 <environment-variables:Patterns of using environment "
+"variables>` 利用环境变量，例如在多个文档项目中复用相同的 *monorepo* "
+"配置。在环境变量不是机密的情况下（如构建工具标志），你也应了解 :ref:`环境变量的替代方案 <environment-"
+"variables:Alternatives to environment variables>`。"
 
 #: ../../upstream/docs/user/environment-variables.rst:32
 msgid ":doc:`/guides/environment-variables`"
-msgstr ""
+msgstr ":doc:`/guides/environment-variables`"
 
 #: ../../upstream/docs/user/environment-variables.rst:33
 msgid "A practical example of adding and accessing custom environment variables."
-msgstr ""
+msgstr "添加和访问自定义环境变量的实用示例。"
 
 #: ../../upstream/docs/user/environment-variables.rst:35
 msgid ":doc:`/reference/environment-variables`"
-msgstr ""
+msgstr ":doc:`/reference/environment-variables`"
 
 #: ../../upstream/docs/user/environment-variables.rst:36
 msgid ""
 "Reference to all pre-defined environment variables for your build "
 "environments."
-msgstr ""
+msgstr "构建环境的所有预定义环境变量参考。"
 
 #: ../../upstream/docs/user/environment-variables.rst:38
 msgid ""
 ":ref:`Public API reference: Environment variables <api/v3:Environment "
 "Variables>`"
 msgstr ""
+":ref:`Public API reference: Environment variables <api/v3:Environment "
+"Variables>`"
 
 #: ../../upstream/docs/user/environment-variables.rst:39
 msgid "Reference for managing custom environments via Read the Docs' API."
-msgstr ""
+msgstr "通过 Read the Docs API 管理自定义环境的参考。"
 
 #: ../../upstream/docs/user/environment-variables.rst:42
 msgid "Environment variables and build process"
-msgstr ""
+msgstr "环境变量与构建过程"
 
 #: ../../upstream/docs/user/environment-variables.rst:44
 msgid ""
 "When a :doc:`build process </builds>` is started, :doc:`pre-defined "
 "environment variables </reference/environment-variables>` and custom "
-"environment variables are added *at each step* of the build process. The "
-"two sets of environment variables are merged together during the build "
-"process and are exposed to all of the executed commands, with pre-defined"
-" variables taking precedence over custom environment variables."
+"environment variables are added *at each step* of the build process. The two"
+" sets of environment variables are merged together during the build process "
+"and are exposed to all of the executed commands, with pre-defined variables "
+"taking precedence over custom environment variables."
 msgstr ""
+"当 :doc:`构建过程 </builds>` 启动时，:doc:`预定义环境变量 </reference/environment-"
+"variables>` "
+"和自定义环境变量会在构建过程的*每个步骤*添加。这两组环境变量在构建过程中合并，并暴露给所有执行的命令，预定义变量优先于自定义变量。"
 
 #: ../../upstream/docs/user/environment-variables.rst:51
 msgid "There are two noteworthy exceptions for *custom environment variables*:"
-msgstr ""
+msgstr "针对*自定义环境变量*有两个值得注意的例外："
 
 #: ../../upstream/docs/user/environment-variables.rst:53
 msgid "Build checkout step"
-msgstr ""
+msgstr "构建检出步骤"
 
 #: ../../upstream/docs/user/environment-variables.rst:54
 msgid ""
-"Custom environment variables are **not** available during the checkout "
-"step of the :doc:`build process </builds>`"
-msgstr ""
+"Custom environment variables are **not** available during the checkout step "
+"of the :doc:`build process </builds>`"
+msgstr "在 :doc:`构建过程 </builds>` 的检出步骤中，**不可用**自定义环境变量"
 
 #: ../../upstream/docs/user/environment-variables.rst:55
 msgid "Pull request builds"
-msgstr ""
+msgstr "Pull Request 构建"
 
 #: ../../upstream/docs/user/environment-variables.rst:56
 msgid ""
-"Custom environment variables that are not marked as :guilabel:`Public` "
-"will not be available in :doc:`pull request builds </pull-requests>`"
+"Custom environment variables that are not marked as :guilabel:`Public` will "
+"not be available in :doc:`pull request builds </pull-requests>`"
 msgstr ""
+"未标记为 :guilabel:`Public` 的自定义环境变量将在 :doc:`Pull Request 构建 </pull-requests>` "
+"中不可用"
 
 #: ../../upstream/docs/user/environment-variables.rst:63
 msgid "Limitations"
-msgstr ""
+msgstr "限制"
 
 #: ../../upstream/docs/user/environment-variables.rst:65
 msgid "Individual environment variables are limited to 48 KB in size."
-msgstr ""
+msgstr "单个环境变量大小限制为 48 KB。"
 
 #: ../../upstream/docs/user/environment-variables.rst:66
 msgid ""
-"The total size of all environment variables in a project is limited to "
-"256 KB."
-msgstr ""
+"The total size of all environment variables in a project is limited to 256 "
+"KB."
+msgstr "项目中所有环境变量的总大小限制为 256 KB。"
 
 #: ../../upstream/docs/user/environment-variables.rst:69
 msgid "Patterns of using environment variables"
-msgstr ""
+msgstr "环境变量的使用模式"
 
 #: ../../upstream/docs/user/environment-variables.rst:71
 msgid ""
 "Aside from storing secrets, environment variables are also useful if you "
-"need to make either your :doc:`.readthedocs.yaml </config-file/v2>` or "
-"the commands called in the :doc:`build process </builds>` behave "
-"depending on :doc:`pre-defined environment variables </reference"
-"/environment-variables>` or your own custom environment variables."
+"need to make either your :doc:`.readthedocs.yaml </config-file/v2>` or the "
+"commands called in the :doc:`build process </builds>` behave depending on "
+":doc:`pre-defined environment variables </reference/environment-variables>` "
+"or your own custom environment variables."
 msgstr ""
+"除了存储机密，如果你需要让 :doc:`.readthedocs.yaml </config-file/v2>` 或 :doc:`构建过程 "
+"</builds>` 中调用的命令根据 :doc:`预定义环境变量 </reference/environment-variables>` "
+"或你自己的自定义环境变量表现出不同行为，环境变量也很有用。"
 
 #: ../../upstream/docs/user/environment-variables.rst:76
 msgid "Example: Multiple projects from the same Git repo"
-msgstr ""
+msgstr "示例：同一 Git 仓库的多个项目"
 
 #: ../../upstream/docs/user/environment-variables.rst:78
 msgid ""
-"If you have the need to build multiple documentation websites from the "
-"same Git repository, you can use an environment variable to configure the"
-" behavior of your :doc:`build commands </build-customization>` or Sphinx "
+"If you have the need to build multiple documentation websites from the same "
+"Git repository, you can use an environment variable to configure the "
+"behavior of your :doc:`build commands </build-customization>` or Sphinx "
 "``conf.py`` file."
 msgstr ""
+"如果你需要从同一 Git 仓库构建多个文档网站，可以使用环境变量来配置 :doc:`构建命令 </build-customization>` 或 "
+"Sphinx ``conf.py`` 文件的行为。"
 
 #: ../../upstream/docs/user/environment-variables.rst:82
 msgid ""
 "An example of this is found in *the documentation project that you are "
 "looking at now*. Using the Sphinx extension `sphinx-multiproject`_, the "
 "following configuration code decides whether to build the *user* or "
-"*developer* documentation. This is defined by the ``PROJECT`` environment"
-" variable:"
+"*developer* documentation. This is defined by the ``PROJECT`` environment "
+"variable:"
 msgstr ""
+"这种情况的一个例子就存在于*你正在查看的这个文档项目*中。使用 Sphinx 扩展 `sphinx-multiproject`_，以下配置代码决定构建 "
+"*user* 还是 *developer* 文档。这由 ``PROJECT`` 环境变量定义："
 
 #: ../../upstream/docs/user/environment-variables.rst:87
 msgid "Read the Docs' conf.py [1]_ is used to build 2 documentation projects."
-msgstr ""
+msgstr "Read the Docs 的 conf.py [1]_ 用于构建 2 个文档项目。"
 
 #: ../../upstream/docs/user/environment-variables.rst:113
 msgid "https://github.com/readthedocs/readthedocs.org/blob/main/docs/conf.py"
-msgstr ""
+msgstr "https://github.com/readthedocs/readthedocs.org/blob/main/docs/conf.py"
 
 #: ../../upstream/docs/user/environment-variables.rst:116
 msgid "Alternatives to environment variables"
-msgstr ""
+msgstr "环境变量的替代方案"
 
 #: ../../upstream/docs/user/environment-variables.rst:118
 msgid ""
 "In some scenarios, it's more feasible to define your build's environment "
-"variables using the ``.readthedocs.yaml`` :doc:`configuration file "
-"</config-file/index>`. Using the :term:`dashboard` for administering "
-"environment variables may not be the right fit if you already know that "
-"you want to manage environment variables *as code*."
+"variables using the ``.readthedocs.yaml`` :doc:`configuration file </config-"
+"file/index>`. Using the :term:`dashboard` for administering environment "
+"variables may not be the right fit if you already know that you want to "
+"manage environment variables *as code*."
 msgstr ""
+"在某些场景下，使用 ``.readthedocs.yaml`` :doc:`配置文件 </config-file/index>` "
+"定义构建的环境变量更可行。如果你已经知道想要将环境变量*作为代码*管理，使用 :term:`dashboard` 管理环境变量可能不是最佳选择。"
 
 #: ../../upstream/docs/user/environment-variables.rst:121
 msgid "Consider the following scenario:"
-msgstr ""
+msgstr "考虑以下场景："
 
 #: ../../upstream/docs/user/environment-variables.rst:123
 msgid "The environment variable **is not** a secret."
-msgstr ""
+msgstr "该环境变量**不是**机密。"
 
 #: ../../upstream/docs/user/environment-variables.rst:125
 msgid "**and**"
-msgstr ""
+msgstr "**且**"
 
 #: ../../upstream/docs/user/environment-variables.rst:126
 msgid "The environment variable is used just once for a custom command."
-msgstr ""
+msgstr "该环境变量仅用于一次自定义命令。"
 
 #: ../../upstream/docs/user/environment-variables.rst:128
 msgid ""
-"In this case, you can define the environment variable *as code* using "
-":doc:`/build-customization`. The following example shows how a non-secret"
-" single-purpose environment variable can also be used."
+"In this case, you can define the environment variable *as code* using :doc"
+":`/build-customization`. The following example shows how a non-secret "
+"single-purpose environment variable can also be used."
 msgstr ""
+"在这种情况下，你可以使用 :doc:`/build-customization` "
+"将环境变量定义*为代码*。以下示例展示了非机密、单用途的环境变量如何使用。"
 
 #: ../../upstream/docs/user/environment-variables.rst:131
 msgid ".readthedocs.yaml"
-msgstr ""
+msgstr ".readthedocs.yaml"
 

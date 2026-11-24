@@ -22,126 +22,134 @@ msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:2
 msgid "Build process customization"
-msgstr ""
+msgstr "构建过程定制"
 
 #: ../../upstream/docs/user/build-customization.rst:4
 msgid ""
-"Read the Docs has a :doc:`well-defined build process </builds>` that "
-"works for many projects. We also allow customization of builds in two "
-"ways:"
-msgstr ""
+"Read the Docs has a :doc:`well-defined build process </builds>` that works "
+"for many projects. We also allow customization of builds in two ways:"
+msgstr "Read the Docs 拥有 :doc:`定义良好的构建过程 </builds>`，适用于许多项目。我们也允许以两种方式定制构建："
 
 #: ../../upstream/docs/user/build-customization.rst:7
 msgid "Customize our standard build process"
-msgstr ""
+msgstr "定制我们的标准构建过程"
 
 #: ../../upstream/docs/user/build-customization.rst:8
 msgid ""
-"Keep using the default commands for MkDocs or Sphinx, but extend or "
-"override the ones you need."
-msgstr ""
+"Keep using the default commands for MkDocs or Sphinx, but extend or override"
+" the ones you need."
+msgstr "继续使用 MkDocs 或 Sphinx 的默认命令，但扩展或覆盖你需要的部分。"
 
 #: ../../upstream/docs/user/build-customization.rst:11
 msgid "Define a build process from scratch"
-msgstr ""
+msgstr "从零定义构建过程"
 
 #: ../../upstream/docs/user/build-customization.rst:12
 msgid ""
-"This option gives you *full control* over your build. Read the Docs "
-"supports any tool that generates HTML."
-msgstr ""
+"This option gives you *full control* over your build. Read the Docs supports"
+" any tool that generates HTML."
+msgstr "此选项给你对构建的*完全控制*。Read the Docs 支持任何生成 HTML 的工具。"
 
 #: ../../upstream/docs/user/build-customization.rst:16
 msgid "Extend or override the build process"
-msgstr ""
+msgstr "扩展或覆盖构建过程"
 
 #: ../../upstream/docs/user/build-customization.rst:18
 msgid ""
 "In the normal build process, the pre-defined jobs ``checkout``, "
-"``system_dependencies``,  and ``upload`` are executed. If you define a "
-":ref:`config-file/v2:sphinx` or :ref:`config-file/v2:mkdocs` "
-"configuration, the ``create_environment``, ``install``, and ``build`` "
-"jobs will use the default commands for the selected tool. If no tool "
-"configuration is specified, these jobs won't execute anything by default."
+"``system_dependencies``,  and ``upload`` are executed. If you define a :ref"
+":`config-file/v2:sphinx` or :ref:`config-file/v2:mkdocs` configuration, the "
+"``create_environment``, ``install``, and ``build`` jobs will use the default"
+" commands for the selected tool. If no tool configuration is specified, "
+"these jobs won't execute anything by default."
 msgstr ""
+"在正常构建过程中，预定义任务 ``checkout``、``system_dependencies`` 和 ``upload`` 会被执行。如果你定义了"
+" :ref:`config-file/v2:sphinx` 或 :ref:`config-file/v2:mkdocs` "
+"配置，``create_environment``、``install`` 和 ``build`` "
+"任务将使用所选工具的默认命令。如果未指定工具配置，这些任务默认不执行任何操作。"
 
 #: ../../upstream/docs/user/build-customization.rst:23
 msgid "The jobs where users can customize our default build process are:"
-msgstr ""
+msgstr "用户可定制默认构建过程的任务有："
 
 #: ../../upstream/docs/user/build-customization.rst:29
 msgid "Step"
-msgstr ""
+msgstr "步骤"
 
 #: ../../upstream/docs/user/build-customization.rst:30
 msgid "Customizable jobs"
-msgstr ""
+msgstr "可定制的任务"
 
 #: ../../upstream/docs/user/build-customization.rst:31
 msgid "Checkout"
-msgstr ""
+msgstr "检出"
 
 #: ../../upstream/docs/user/build-customization.rst:32
 msgid "``post_checkout``"
-msgstr ""
+msgstr "``post_checkout``"
 
 #: ../../upstream/docs/user/build-customization.rst:33
 msgid "System dependencies"
-msgstr ""
+msgstr "系统依赖"
 
 #: ../../upstream/docs/user/build-customization.rst:34
 msgid "``pre_system_dependencies``, ``post_system_dependencies``"
-msgstr ""
+msgstr "``pre_system_dependencies``, ``post_system_dependencies``"
 
 #: ../../upstream/docs/user/build-customization.rst:35
 msgid "Create environment"
-msgstr ""
+msgstr "创建环境"
 
 #: ../../upstream/docs/user/build-customization.rst:36
 msgid ""
 "``pre_create_environment``, ``create_environment``, "
 "``post_create_environment``"
 msgstr ""
+"``pre_create_environment``, ``create_environment``, "
+"``post_create_environment``"
 
 #: ../../upstream/docs/user/build-customization.rst:37
 msgid "Install"
-msgstr ""
+msgstr "安装"
 
 #: ../../upstream/docs/user/build-customization.rst:38
 msgid "``pre_install``, ``install``, ``post_install``"
-msgstr ""
+msgstr "``pre_install``, ``install``, ``post_install``"
 
 #: ../../upstream/docs/user/build-customization.rst:39
 msgid "Build"
-msgstr ""
+msgstr "构建"
 
 #: ../../upstream/docs/user/build-customization.rst:40
 msgid "``pre_build``, ``build``, ``post_build``"
-msgstr ""
+msgstr "``pre_build``, ``build``, ``post_build``"
 
 #: ../../upstream/docs/user/build-customization.rst:41
 msgid "Upload"
-msgstr ""
+msgstr "上传"
 
 #: ../../upstream/docs/user/build-customization.rst:42
 msgid "No customizable jobs currently"
-msgstr ""
+msgstr "暂无可定制的任务"
 
 #: ../../upstream/docs/user/build-customization.rst:46
 msgid ""
 "Any other pre-defined jobs (``checkout``, ``system_dependencies``, "
 "``upload``) cannot be overridden or skipped."
-msgstr ""
+msgstr "其他任何预定义任务（``checkout``、``system_dependencies``、``upload``）均不可覆盖或跳过。"
 
 #: ../../upstream/docs/user/build-customization.rst:48
 msgid ""
-"These jobs are defined using the :doc:`configuration file </config-"
-"file/v2>` with the :ref:`config-file/v2:build.jobs` key. This example "
-"configuration defines commands to be executed *before* installing and "
-"*after* the build has finished, and also overrides the default build "
-"command for the ``htmlzip`` format, while keeping the default commands "
-"for the ``html`` and ``pdf`` formats:"
+"These jobs are defined using the :doc:`configuration file </config-file/v2>`"
+" with the :ref:`config-file/v2:build.jobs` key. This example configuration "
+"defines commands to be executed *before* installing and *after* the build "
+"has finished, and also overrides the default build command for the "
+"``htmlzip`` format, while keeping the default commands for the ``html`` and "
+"``pdf`` formats:"
 msgstr ""
+"这些任务使用 :doc:`配置文件 </config-file/v2>` 通过 :ref:`config-file/v2:build.jobs` "
+"键定义。以下示例配置定义了在安装*前*和构建完成*后*执行的命令，同时覆盖 ``htmlzip`` 格式的默认构建命令，同时保留 ``html`` 和 "
+"``pdf`` 格式的默认命令："
 
 #: ../../upstream/docs/user/build-customization.rst:52
 #: ../../upstream/docs/user/build-customization.rst:138
@@ -165,11 +173,11 @@ msgstr ""
 #: ../../upstream/docs/user/build-customization.rst:617
 #: ../../upstream/docs/user/build-customization.rst:648
 msgid ".readthedocs.yaml"
-msgstr ""
+msgstr ".readthedocs.yaml"
 
 #: ../../upstream/docs/user/build-customization.rst:81
 msgid "Features and limitations"
-msgstr ""
+msgstr "功能与限制"
 
 #: ../../upstream/docs/user/build-customization.rst:83
 msgid ""
@@ -185,8 +193,8 @@ msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:85
 msgid ""
-"Each command is executed in a new shell process, so modifications done to"
-" the shell environment do not persist between commands."
+"Each command is executed in a new shell process, so modifications done to "
+"the shell environment do not persist between commands."
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:86
@@ -211,28 +219,27 @@ msgstr ""
 msgid ""
 "If neither of the :ref:`config-file/v2:sphinx` or :ref:`config-"
 "file/v2:mkdocs` configurations are defined, the ``create_environment``, "
-"``install``, and ``build`` jobs will default to run nothing, giving you "
-"full control over the build process."
+"``install``, and ``build`` jobs will default to run nothing, giving you full"
+" control over the build process."
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:96
 msgid "Where to put files"
-msgstr ""
+msgstr "文件放置位置"
 
 #: ../../upstream/docs/user/build-customization.rst:98
 msgid ""
 "It is your responsibility to generate HTML and other formats of your "
 "documentation when overriding the steps from :ref:`config-"
 "file/v2:build.jobs.build`. The contents of the "
-"``$READTHEDOCS_OUTPUT/<format>/`` directory will be hosted as part of "
-"your documentation."
+"``$READTHEDOCS_OUTPUT/<format>/`` directory will be hosted as part of your "
+"documentation."
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:101
 msgid ""
-"We store the base folder name ``_readthedocs/`` in the environment "
-"variable ``$READTHEDOCS_OUTPUT`` and encourage that you use this to "
-"generate paths."
+"We store the base folder name ``_readthedocs/`` in the environment variable "
+"``$READTHEDOCS_OUTPUT`` and encourage that you use this to generate paths."
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:103
@@ -259,8 +266,8 @@ msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:112
 msgid ""
-"Remember to create the folders before adding content to them. You can "
-"ensure that the output folder exists by adding the following command:"
+"Remember to create the folders before adding content to them. You can ensure"
+" that the output folder exists by adding the following command:"
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:120
@@ -269,21 +276,20 @@ msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:122
 msgid ""
-"Read the Docs will automatically index the content of all your HTML "
-"files, respecting the :ref:`search <config-file/v2:search>` option."
+"Read the Docs will automatically index the content of all your HTML files, "
+"respecting the :ref:`search <config-file/v2:search>` option."
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:125
 msgid ""
-"You can access the search from the Read the Docs :term:`dashboard`, or by"
-" using the :doc:`/server-side-search/api`."
+"You can access the search from the Read the Docs :term:`dashboard`, or by "
+"using the :doc:`/server-side-search/api`."
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:130
 msgid ""
-"In order for Read the Docs to index your HTML files correctly, they "
-"should follow the conventions described at :doc:`rtd-dev:search-"
-"integration`."
+"In order for Read the Docs to index your HTML files correctly, they should "
+"follow the conventions described at :doc:`rtd-dev:search-integration`."
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:134
@@ -292,8 +298,8 @@ msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:136
 msgid ""
-"Alternatively, you can use the :ref:`config-file/v2:build.commands` key "
-"to completely override the build process."
+"Alternatively, you can use the :ref:`config-file/v2:build.commands` key to "
+"completely override the build process."
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:150
@@ -302,9 +308,9 @@ msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:167
 msgid ""
-"``build.jobs`` offers the same functionality as ``build.commands``, but "
-"in a more structured way that allows you to define different commands for"
-" each format, while also supporting installing system dependencies via "
+"``build.jobs`` offers the same functionality as ``build.commands``, but in a"
+" more structured way that allows you to define different commands for each "
+"format, while also supporting installing system dependencies via "
 "``build.apt_packages``."
 msgstr ""
 
@@ -315,30 +321,30 @@ msgstr ""
 #: ../../upstream/docs/user/build-customization.rst:174
 msgid ""
 "Read the Docs supports overriding the default :term:`checkout job <pre-"
-"defined build jobs>` with a custom sequence of :program:`git` commands. "
-"This is useful for advanced workflows like sparse checkouts or custom "
-"cloning strategies."
+"defined build jobs>` with a custom sequence of :program:`git` commands. This"
+" is useful for advanced workflows like sparse checkouts or custom cloning "
+"strategies."
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:178
 msgid ""
-"To enable this feature, go to your project's :menuselection:`Settings` "
-"and update the :guilabel:`Git checkout command` field. Enter one command "
-"per line."
+"To enable this feature, go to your project's :menuselection:`Settings` and "
+"update the :guilabel:`Git checkout command` field. Enter one command per "
+"line."
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:184
 msgid ""
-"When you define custom Git checkout commands, Read the Docs will not run "
-"the default Git clone or checkout. Your commands must perform the clone "
-"and checkout of the desired revision."
+"When you define custom Git checkout commands, Read the Docs will not run the"
+" default Git clone or checkout. Your commands must perform the clone and "
+"checkout of the desired revision."
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:189
 msgid ""
-"If you just want to run some extra commands after the default Git "
-"checkout, like unshallowing the clone or fetching extra branches, you "
-"should use the ``build.jobs.post_checkout`` user-defined job instead."
+"If you just want to run some extra commands after the default Git checkout, "
+"like unshallowing the clone or fetching extra branches, you should use the "
+"``build.jobs.post_checkout`` user-defined job instead."
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:193
@@ -349,8 +355,8 @@ msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:196
 msgid ""
-"Commands are executed in order, in the repository working directory. You "
-"can use :doc:`pre-defined environment variables </reference/environment-"
+"Commands are executed in order, in the repository working directory. You can"
+" use :doc:`pre-defined environment variables </reference/environment-"
 "variables>` such as :envvar:`READTHEDOCS_GIT_CLONE_URL`, "
 ":envvar:`READTHEDOCS_GIT_IDENTIFIER`, and "
 ":envvar:`READTHEDOCS_REPOSITORY_PATH`."
@@ -363,8 +369,8 @@ msgstr ""
 #: ../../upstream/docs/user/build-customization.rst:211
 msgid ""
 "This is an advanced feature. Incorrect commands can prevent builds from "
-"checking out code or can expose sensitive files in your repository. If "
-"you are unsure, use :doc:`build customization with build.jobs </build-"
+"checking out code or can expose sensitive files in your repository. If you "
+"are unsure, use :doc:`build customization with build.jobs </build-"
 "customization>` instead."
 msgstr ""
 
@@ -386,18 +392,18 @@ msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:225
 msgid ""
-"Read the Docs does not perform a full clone in the ``checkout`` job in "
-"order to reduce network data and speed up the build process. Instead, it "
-"performs a `shallow clone <https://git-scm.com/docs/shallow>`_ and only "
-"fetches the branch or tag that you are building documentation for. "
-"Because of this, extensions that depend on the full Git history will "
-"fail. To avoid this, it's possible to unshallow the :program:`git clone`:"
+"Read the Docs does not perform a full clone in the ``checkout`` job in order"
+" to reduce network data and speed up the build process. Instead, it performs"
+" a `shallow clone <https://git-scm.com/docs/shallow>`_ and only fetches the "
+"branch or tag that you are building documentation for. Because of this, "
+"extensions that depend on the full Git history will fail. To avoid this, "
+"it's possible to unshallow the :program:`git clone`:"
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:242
 msgid ""
-"If your build also relies on the contents of other branches, it may also "
-"be necessary to re-configure git to fetch these:"
+"If your build also relies on the contents of other branches, it may also be "
+"necessary to re-configure git to fetch these:"
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:260
@@ -416,9 +422,9 @@ msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:282
 msgid ""
-"There are some MkDocs extensions that require specific commands to be run"
-" to generate extra pages before performing the build. For example, "
-"`pydoc-markdown <http://niklasrosenstein.github.io/pydoc-markdown/>`_"
+"There are some MkDocs extensions that require specific commands to be run to"
+" generate extra pages before performing the build. For example, `pydoc-"
+"markdown <http://niklasrosenstein.github.io/pydoc-markdown/>`_"
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:301
@@ -427,14 +433,14 @@ msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:303
 msgid ""
-"Read the Docs needs to modify some files before performing the build to "
-"be able to integrate with some of its features. Because of this reason, "
-"it could happen the Git index gets dirty (it will detect modified files)."
-" In case this happens and the project is using any kind of extension that"
-" generates a version based on Git metadata (like `setuptools_scm "
-"<https://github.com/pypa/setuptools_scm/>`_), this could cause an invalid"
-" version number to be generated. In that case, the Git index can be "
-"updated to ignore the files that Read the Docs has modified."
+"Read the Docs needs to modify some files before performing the build to be "
+"able to integrate with some of its features. Because of this reason, it "
+"could happen the Git index gets dirty (it will detect modified files). In "
+"case this happens and the project is using any kind of extension that "
+"generates a version based on Git metadata (like `setuptools_scm "
+"<https://github.com/pypa/setuptools_scm/>`_), this could cause an invalid "
+"version number to be generated. In that case, the Git index can be updated "
+"to ignore the files that Read the Docs has modified."
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:323
@@ -446,8 +452,8 @@ msgid ""
 "Sphinx comes with a `linkcheck <https://www.sphinx-"
 "doc.org/en/master/usage/builders/index.html#sphinx.builders.linkcheck.CheckExternalLinksBuilder>`_"
 " builder that checks for broken external links included in the project's "
-"documentation. This helps ensure that all external links are still valid "
-"and readers aren't linked to non-existent pages."
+"documentation. This helps ensure that all external links are still valid and"
+" readers aren't linked to non-existent pages."
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:343
@@ -456,10 +462,9 @@ msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:345
 msgid ""
-"In case the repository contains large files that are tracked with Git "
-"LFS, there are some extra steps required to be able to download their "
-"content. It's possible to use ``post_checkout`` user-defined job for "
-"this."
+"In case the repository contains large files that are tracked with Git LFS, "
+"there are some extra steps required to be able to download their content. "
+"It's possible to use ``post_checkout`` user-defined job for this."
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:376
@@ -468,10 +473,10 @@ msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:378
 msgid ""
-"It's possible to install Node.js together with the required dependencies "
-"by using :term:`user-defined build jobs`. To set it up, you need to "
-"define the version of Node.js to use and install the dependencies by "
-"using ``build.jobs.post_install``:"
+"It's possible to install Node.js together with the required dependencies by "
+"using :term:`user-defined build jobs`. To set it up, you need to define the "
+"version of Node.js to use and install the dependencies by using "
+"``build.jobs.post_install``:"
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:399
@@ -480,9 +485,9 @@ msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:401
 msgid ""
-"Projects managed with `Poetry <https://python-poetry.org/>`__, can use "
-"the ``post_create_environment`` user-defined job to use Poetry for "
-"installing Python dependencies. Take a look at the following example:"
+"Projects managed with `Poetry <https://python-poetry.org/>`__, can use the "
+"``post_create_environment`` user-defined job to use Poetry for installing "
+"Python dependencies. Take a look at the following example:"
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:430
@@ -517,23 +522,21 @@ msgstr ""
 #: ../../upstream/docs/user/build-customization.rst:466
 msgid ""
 "Python `Dependency Groups "
-"<https://packaging.python.org/en/latest/specifications/dependency-"
-"groups/>`_ are a way of storing lists of dependencies in your "
-"``pyproject.toml``."
+"<https://packaging.python.org/en/latest/specifications/dependency-groups/>`_"
+" are a way of storing lists of dependencies in your ``pyproject.toml``."
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:469
 msgid ""
-"``pip`` version 25.1+ as well as many other tools support Dependency "
-"Groups. This example uses ``pip`` and installs from a group named "
-"``docs``:"
+"``pip`` version 25.1+ as well as many other tools support Dependency Groups."
+" This example uses ``pip`` and installs from a group named ``docs``:"
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:487
 msgid ""
-"For more information on relevant ``pip`` usage, see the `pip user guide "
-"on Dependency Groups <https://pip.pypa.io/en/stable/user_guide"
-"/#dependency-groups>`_."
+"For more information on relevant ``pip`` usage, see the `pip user guide on "
+"Dependency Groups <https://pip.pypa.io/en/stable/user_guide/#dependency-"
+"groups>`_."
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:491
@@ -542,9 +545,9 @@ msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:493
 msgid ""
-"Projects can use `pixi <https://github.com/prefix-dev/pixi/>`__, to "
-"install Python dependencies, usually reducing the time taken to install "
-"compared to conda or pip. Take a look at the following example:"
+"Projects can use `pixi <https://github.com/prefix-dev/pixi/>`__, to install "
+"Python dependencies, usually reducing the time taken to install compared to "
+"conda or pip. Take a look at the following example:"
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:519
@@ -560,9 +563,9 @@ msgstr ""
 #: ../../upstream/docs/user/build-customization.rst:524
 msgid ""
 "Projects using Conda may need to install the latest available version of "
-"Conda. This can be done by using the ``pre_create_environment`` user-"
-"defined job to update Conda before creating the environment. Take a look "
-"at the following example:"
+"Conda. This can be done by using the ``pre_create_environment`` user-defined"
+" job to update Conda before creating the environment. Take a look at the "
+"following example:"
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:550
@@ -583,9 +586,9 @@ msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:574
 msgid ""
-"`Docsify <https://docsify.js.org/>`__ generates documentation websites on"
-" the fly, without the need to build static HTML. These projects can be "
-"built using a configuration file like this:"
+"`Docsify <https://docsify.js.org/>`__ generates documentation websites on "
+"the fly, without the need to build static HTML. These projects can be built "
+"using a configuration file like this:"
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:590
@@ -597,8 +600,8 @@ msgid ""
 "`Asciidoctor <https://asciidoctor.org/>`__ is a fast processor for "
 "converting and generating documentation from AsciiDoc source. The "
 "Asciidoctor toolchain includes `Asciidoctor.js "
-"<https://docs.asciidoctor.org/asciidoctor.js/latest/>`__ which you can "
-"use with custom build commands. Here is an example configuration file:"
+"<https://docs.asciidoctor.org/asciidoctor.js/latest/>`__ which you can use "
+"with custom build commands. Here is an example configuration file:"
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:612
@@ -619,8 +622,8 @@ msgstr ""
 #: ../../upstream/docs/user/build-customization.rst:640
 msgid ""
 "There might be various reasons why would you want to generate your "
-"documentation in `text` format (secondary to `html`). One of such reasons"
-" would be generating LLM friendly documentation."
+"documentation in `text` format (secondary to `html`). One of such reasons "
+"would be generating LLM friendly documentation."
 msgstr ""
 
 #: ../../upstream/docs/user/build-customization.rst:644

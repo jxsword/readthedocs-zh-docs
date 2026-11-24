@@ -22,107 +22,107 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/build/index.rst:38
 msgid "Setup email notifications"
-msgstr ""
+msgstr "设置邮件通知"
 
 #: ../../upstream/docs/user/guides/build/index.rst:38
 msgid "Configuring pull request builds"
-msgstr ""
+msgstr "配置 Pull Request 构建"
 
 #: ../../upstream/docs/user/guides/build/index.rst:38
 msgid "Using custom environment variables"
-msgstr ""
+msgstr "使用自定义环境变量"
 
 #: ../../upstream/docs/user/guides/build/index.rst:38
 msgid "Managing versions automatically"
-msgstr ""
+msgstr "自动管理版本"
 
 #: ../../upstream/docs/user/guides/build/index.rst:38
 msgid "Skip or cancel builds based on conditions"
-msgstr ""
+msgstr "根据条件跳过或取消构建"
 
 #: ../../upstream/docs/user/guides/build/index.rst:38
 msgid "Direct upload"
-msgstr ""
+msgstr "直接上传"
 
 #: ../../upstream/docs/user/guides/build/index.rst:2
 msgid "How-to guides: build process"
-msgstr ""
+msgstr "操作指南：构建过程"
 
 #: ../../upstream/docs/user/guides/build/index.rst:4
 msgid "⏩️ :doc:`Set up email notifications </guides/build/email-notifications>`"
-msgstr ""
+msgstr "⏩️ :doc:`设置邮件通知 </guides/build/email-notifications>`"
 
 #: ../../upstream/docs/user/guides/build/index.rst:5
 msgid ""
-"Email notifications can alert you when your builds fail. This is the most"
-" simple way to monitor your documentation builds."
-msgstr ""
+"Email notifications can alert you when your builds fail. This is the most "
+"simple way to monitor your documentation builds."
+msgstr "邮件通知可在构建失败时提醒你。这是监控文档构建最简单的方式。"
 
 #: ../../upstream/docs/user/guides/build/index.rst:8
 msgid "⏩️ :doc:`/guides/build/webhooks`"
-msgstr ""
+msgstr "⏩️ :doc:`/guides/build/webhooks`"
 
 #: ../../upstream/docs/user/guides/build/index.rst:9
 msgid ""
-"Outgoing webhooks can used to send updates on builds to other services. "
-"We show examples using webhooks to connect to popular platforms like "
-"Slack and Discord."
-msgstr ""
+"Outgoing webhooks can used to send updates on builds to other services. We "
+"show examples using webhooks to connect to popular platforms like Slack and "
+"Discord."
+msgstr "外出 Webhook 可用于向其他服务发送构建更新。我们展示了使用 Webhook 连接 Slack、Discord 等流行平台的示例。"
 
 #: ../../upstream/docs/user/guides/build/index.rst:12
 msgid "⏩️ :doc:`Configuring pull request builds </guides/pull-requests>`"
-msgstr ""
+msgstr "⏩️ :doc:`配置 Pull Request 构建 </guides/pull-requests>`"
 
 #: ../../upstream/docs/user/guides/build/index.rst:13
 msgid ""
 "Have your documentation built and access a preview for every :doc:`pull "
 "request builds </pull-requests>`."
-msgstr ""
+msgstr "为每个 :doc:`Pull Request 构建 </pull-requests>` 构建文档并访问预览。"
 
 #: ../../upstream/docs/user/guides/build/index.rst:15
-msgid ""
-"⏩️ :doc:`Using custom environment variables </guides/environment-"
-"variables>`"
-msgstr ""
+msgid "⏩️ :doc:`Using custom environment variables </guides/environment-variables>`"
+msgstr "⏩️ :doc:`使用自定义环境变量 </guides/environment-variables>`"
 
 #: ../../upstream/docs/user/guides/build/index.rst:16
 msgid ""
 "Extra environment variables, for instance secrets, may be needed in the "
 "build process and can be defined from the project's :term:`dashboard`."
-msgstr ""
+msgstr "构建过程中可能需要额外的环境变量（例如机密信息），可从项目的 :term:`dashboard` 定义。"
 
 #: ../../upstream/docs/user/guides/build/index.rst:18
 msgid "⏩️ :doc:`Managing versions automatically </guides/automation-rules>`"
-msgstr ""
+msgstr "⏩️ :doc:`自动管理版本 </guides/automation-rules>`"
 
 #: ../../upstream/docs/user/guides/build/index.rst:19
 msgid ""
-"Automating your versioning on Read the Docs means you only have to handle"
-" your versioning logic in Git. Learn how to define rules to automate "
-"creation of new versions on Read the Docs, entirely using your Git "
-"repository's version logic."
+"Automating your versioning on Read the Docs means you only have to handle "
+"your versioning logic in Git. Learn how to define rules to automate creation"
+" of new versions on Read the Docs, entirely using your Git repository's "
+"version logic."
 msgstr ""
+"在 Read the Docs 上自动化版本控制意味着你只需在 Git 中处理版本控制逻辑。了解如何定义规则，完全使用 Git 仓库的版本逻辑，在 "
+"Read the Docs 上自动创建新版本。"
 
 #: ../../upstream/docs/user/guides/build/index.rst:23
 msgid ""
-"⏩️ :doc:`Skip or cancel builds based on conditions </guides/build/skip-"
-"or-cancel-builds>`"
-msgstr ""
+"⏩️ :doc:`Skip or cancel builds based on conditions </guides/build/skip-or-"
+"cancel-builds>`"
+msgstr "⏩️ :doc:`根据条件跳过或取消构建 </guides/build/skip-or-cancel-builds>`"
 
 #: ../../upstream/docs/user/guides/build/index.rst:24
 msgid ""
-"Skip builds before they are triggered using automation rules, or cancel a"
-" running build from your own commands using the special exit code 183. "
-"This helps save resources by avoiding unnecessary documentation builds."
-msgstr ""
+"Skip builds before they are triggered using automation rules, or cancel a "
+"running build from your own commands using the special exit code 183. This "
+"helps save resources by avoiding unnecessary documentation builds."
+msgstr "使用自动化规则在构建触发前跳过，或使用特殊退出码 183 从你自己的命令中取消正在运行的构建。这通过避免不必要的文档构建来节省资源。"
 
 #: ../../upstream/docs/user/guides/build/index.rst:28
 msgid "⏩️ :doc:`Direct upload </guides/build/direct-upload>`"
-msgstr ""
+msgstr "⏩️ :doc:`直接上传 </guides/build/direct-upload>`"
 
 #: ../../upstream/docs/user/guides/build/index.rst:29
 msgid ""
 "Build your documentation in GitHub Actions or any other continuous "
 "integration service, and upload the result to Read the Docs for hosting."
-msgstr ""
+msgstr "在 GitHub Actions 或任何其他持续集成服务中构建文档，并将结果上传到 Read the Docs 进行托管。"
 

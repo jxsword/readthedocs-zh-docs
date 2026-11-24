@@ -22,143 +22,150 @@ msgstr ""
 
 #: ../../upstream/docs/user/continuous-deployment.rst:6
 msgid "Continuous Documentation Deployment"
-msgstr ""
+msgstr "持续文档部署"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:8
 msgid ""
-"Read the Docs is a *Continuous Documentation Deployment* platform for "
-"your software project. Every time you change something in your "
-"documentation, Read the Docs will detect your change and build your "
-"documentation."
-msgstr ""
+"Read the Docs is a *Continuous Documentation Deployment* platform for your "
+"software project. Every time you change something in your documentation, "
+"Read the Docs will detect your change and build your documentation."
+msgstr "Read the Docs 是你软件项目的*持续文档部署*平台。每当你修改文档，Read the Docs 都会检测到变更并构建文档。"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:11
 msgid ""
-"The Continuous Integration and Continuous Deployment (CI/CD) features are"
-" configured with your repository provider, such as GitHub, Bitbucket or "
-"GitLab. With each change committed to your repository, we are notified by"
-" the configured *webhook*."
+"The Continuous Integration and Continuous Deployment (CI/CD) features are "
+"configured with your repository provider, such as GitHub, Bitbucket or "
+"GitLab. With each change committed to your repository, we are notified by "
+"the configured *webhook*."
 msgstr ""
+"持续集成和持续部署（CI/CD）功能与你的仓库服务商配置，如 GitHub、Bitbucket 或 GitLab。每次向仓库提交变更，我们都会通过配置的"
+" *webhook* 收到通知。"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:15
 msgid ""
-"When we receive a *webhook*, we match it to a project's *Integration*, "
-"and the following steps happen:"
-msgstr ""
+"When we receive a *webhook*, we match it to a project's *Integration*, and "
+"the following steps happen:"
+msgstr "收到 *webhook* 后，我们将其匹配到项目的 *Integration*，随后发生以下步骤："
 
 #: ../../upstream/docs/user/continuous-deployment.rst:18
 msgid ":doc:`Build </builds>` the latest commit."
-msgstr ""
+msgstr ":doc:`构建 </builds>` 最新提交。"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:19
 msgid ""
 "Synchronize your :doc:`versions </versions>` based on the latest tag and "
 "branch data in Git."
-msgstr ""
+msgstr "根据 Git 中最新的标签和分支数据同步你的 :doc:`版本 </versions>`。"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:20
 msgid "Run your :doc:`automation rules</automation-rules>`."
-msgstr ""
+msgstr "运行你的 :doc:`自动化规则 </automation-rules>`。"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:21
 msgid "Auto-cancel any currently running builds of the same version."
-msgstr ""
+msgstr "自动取消同一版本当前正在运行的构建。"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:22
 msgid "Add a log entry to the integration's :guilabel:`Recent Activity`."
-msgstr ""
+msgstr "在集成的 :guilabel:`Recent Activity` 中添加日志条目。"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:25
 msgid "Documentation as code"
-msgstr ""
+msgstr "文档即代码"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:27
 msgid ""
-"Documentation fits into any CI/CD pipeline by following a process known "
-"as *Documentation as Code (Docs as code)*. This means that the "
-"documentation's life cycle is the same as your software project. By "
-"managing these changes in the same life cycle, you can benefit from "
-"**documentation and source code being part of the same code review "
-"process**."
+"Documentation fits into any CI/CD pipeline by following a process known as "
+"*Documentation as Code (Docs as code)*. This means that the documentation's "
+"life cycle is the same as your software project. By managing these changes "
+"in the same life cycle, you can benefit from **documentation and source code"
+" being part of the same code review process**."
 msgstr ""
+"文档通过称为 *Documentation as Code（文档即代码）* 的流程融入任何 CI/CD "
+"流水线。这意味着文档的生命周期与软件项目相同。通过在同一生命周期中管理这些变更，你可以从**文档和源代码属于同一代码审查流程**中受益。"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:32
 msgid ""
-"Having an automated and short feedback loop for your documentation allows"
-" you to keep it updated with minimal effort. This allows more iteration "
-"on documentation, and increases overall value from the documentation you "
-"write."
-msgstr ""
+"Having an automated and short feedback loop for your documentation allows "
+"you to keep it updated with minimal effort. This allows more iteration on "
+"documentation, and increases overall value from the documentation you write."
+msgstr "为文档建立自动化且短小的反馈循环，让你能以最小的代价保持文档更新。这使文档能更频繁地迭代，提升你编写文档的整体价值。"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:37
 msgid ""
-"As part of this quick feedback loop, you can preview documentation "
-"changes immediately using :doc:`pull request previews </pull-requests>`."
-msgstr ""
+"As part of this quick feedback loop, you can preview documentation changes "
+"immediately using :doc:`pull request previews </pull-requests>`."
+msgstr "作为这种快速反馈循环的一部分，你可以使用 :doc:`Pull Request 预览 </pull-requests>` 立即预览文档变更。"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:41
 msgid "Automated versioning"
-msgstr ""
+msgstr "自动化版本控制"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:43
 msgid ""
-"With Read the Docs you will be able to fully align your project's "
-"**release cycle** with your documentation. For instance, a new version of"
-" a software project can build and publish a :doc:`new documentation "
-"version </versions>`."
+"With Read the Docs you will be able to fully align your project's **release "
+"cycle** with your documentation. For instance, a new version of a software "
+"project can build and publish a :doc:`new documentation version "
+"</versions>`."
 msgstr ""
+"使用 Read the Docs，你可以将项目的**发布周期**与文档完全对齐。例如，软件项目的新版本可以构建并发布 :doc:`新文档版本 "
+"</versions>`。"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:46
 msgid ""
-"When you release a new version for your project, you are likely also "
-"adding a version tag to your Git repository. These Git events can be "
-"configured to build and publish your documentation automatically with "
-":doc:`/automation-rules`. If you use a versioning scheme, you can "
-"configure it as part of the automation process."
+"When you release a new version for your project, you are likely also adding "
+"a version tag to your Git repository. These Git events can be configured to "
+"build and publish your documentation automatically with :doc:`/automation-"
+"rules`. If you use a versioning scheme, you can configure it as part of the "
+"automation process."
 msgstr ""
+"发布项目新版本时，你通常也会给 Git 仓库打上版本标签。这些 Git 事件可配置为通过 :doc:`/automation-rules` "
+"自动构建并发布文档。如果你使用版本控制方案，可将其作为自动化流程的一部分进行配置。"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:51
 msgid ""
-"Whether you choose to handle versioning automatically or with manual "
-"control is up to you."
-msgstr ""
+"Whether you choose to handle versioning automatically or with manual control"
+" is up to you."
+msgstr "选择自动处理版本控制还是手动控制，由你决定。"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:53
 msgid ""
-"Read the Docs will store your version history and make it possible for "
-"users to visit archived versions of your documentation. Your version "
-"setup is ultimately captured by the :term:`flyout menu`, and can be "
-"integrated in your documentation with :doc:`/addons`."
+"Read the Docs will store your version history and make it possible for users"
+" to visit archived versions of your documentation. Your version setup is "
+"ultimately captured by the :term:`flyout menu`, and can be integrated in "
+"your documentation with :doc:`/addons`."
 msgstr ""
+"Read the Docs 会存储你的版本历史，让用户能访问文档的归档版本。你的版本设置最终由 :term:`flyout menu` 记录，并可通过 "
+":doc:`/addons` 集成到文档中。"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:59
 msgid ":doc:`/guides/setup/git-repo-manual`"
-msgstr ""
+msgstr ":doc:`/guides/setup/git-repo-manual`"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:60
 #: ../../upstream/docs/user/continuous-deployment.rst:62
 msgid ""
 "Information on setting up your Git repository to make Read the Docs "
 "automatically build your documentation project."
-msgstr ""
+msgstr "关于设置 Git 仓库以使 Read the Docs 自动构建文档项目的信息。"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:61
 msgid ":doc:`/automation-rules`"
-msgstr ""
+msgstr ":doc:`/automation-rules`"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:63
 msgid ":doc:`/flyout-menu`"
-msgstr ""
+msgstr ":doc:`/flyout-menu`"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:64
 msgid ""
-"Discover the functionality of the Flyout menu and the ways that it can be"
-" customized."
-msgstr ""
+"Discover the functionality of the Flyout menu and the ways that it can be "
+"customized."
+msgstr "探索 Flyout menu 的功能及其定制方式。"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:65
 msgid ":doc:`/guides/build/direct-upload`"
-msgstr ""
+msgstr ":doc:`/guides/build/direct-upload`"
 
 #: ../../upstream/docs/user/continuous-deployment.rst:66
 msgid ""

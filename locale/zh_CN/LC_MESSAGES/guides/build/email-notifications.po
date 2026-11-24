@@ -22,76 +22,76 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/build/email-notifications.rst:2
 msgid "How to setup email notifications"
-msgstr ""
+msgstr "如何设置邮件通知"
 
 #: ../../upstream/docs/user/guides/build/email-notifications.rst:4
 msgid ""
-"In this brief guide, you can learn how to set up a simple build "
-"notification via email."
-msgstr ""
+"In this brief guide, you can learn how to set up a simple build notification"
+" via email."
+msgstr "在本简短指南中，你将学习如何通过邮件设置简单的构建通知。"
 
 #: ../../upstream/docs/user/guides/build/email-notifications.rst:7
 msgid ""
 "Read the Docs allows you to configure emails that will be notified on "
-"failing builds. This makes sure that you are aware of failures happening "
-"in an otherwise automated process."
-msgstr ""
+"failing builds. This makes sure that you are aware of failures happening in "
+"an otherwise automated process."
+msgstr "Read the Docs 允许你配置在构建失败时接收通知的邮箱。这确保你能知晓原本自动化流程中发生的失败。"
 
 #: ../../upstream/docs/user/guides/build/email-notifications.rst:12
 msgid ":doc:`/guides/build/webhooks`"
-msgstr ""
+msgstr ":doc:`/guides/build/webhooks`"
 
 #: ../../upstream/docs/user/guides/build/email-notifications.rst:13
 msgid ""
-"How to use webhooks to be notified about builds on popular platforms like"
-" Slack and Discord."
-msgstr ""
+"How to use webhooks to be notified about builds on popular platforms like "
+"Slack and Discord."
+msgstr "如何使用 Webhook 在 Slack、Discord 等流行平台上接收构建通知。"
 
 #: ../../upstream/docs/user/guides/build/email-notifications.rst:15
 msgid ":doc:`/pull-requests`"
-msgstr ""
+msgstr ":doc:`/pull-requests`"
 
 #: ../../upstream/docs/user/guides/build/email-notifications.rst:16
 msgid ""
-"Configure automated feedback and documentation site previews for your "
-"pull requests."
-msgstr ""
+"Configure automated feedback and documentation site previews for your pull "
+"requests."
+msgstr "为你的 Pull Request 配置自动反馈和文档站点预览。"
 
 #: ../../upstream/docs/user/guides/build/email-notifications.rst:20
 msgid "Email notifications"
-msgstr ""
+msgstr "邮件通知"
 
 #: ../../upstream/docs/user/guides/build/email-notifications.rst:22
 msgid ""
 "Follow these steps to add an email address to be notified about build "
 "failures:"
-msgstr ""
+msgstr "按以下步骤添加接收构建失败通知的邮箱地址："
 
 #: ../../upstream/docs/user/guides/build/email-notifications.rst:24
 msgid "Go to your project's :menuselection:`Settings --> Email notifications`."
-msgstr ""
+msgstr "前往项目的 :menuselection:`Settings --> Email notifications`。"
 
 #: ../../upstream/docs/user/guides/build/email-notifications.rst:25
 msgid "Click on :guilabel:`Add notification`."
-msgstr ""
+msgstr "点击 :guilabel:`Add notification`。"
 
 #: ../../upstream/docs/user/guides/build/email-notifications.rst:26
 msgid "Fill in the :guilabel:`Email` field."
-msgstr ""
+msgstr "填写 :guilabel:`Email` 字段。"
 
 #: ../../upstream/docs/user/guides/build/email-notifications.rst:27
 msgid ""
 "Click on :guilabel:`Save` and the email will be displayed in the list of "
 "notifications."
-msgstr ""
+msgstr "点击 :guilabel:`Save`，该邮箱将显示在通知列表中。"
 
 #: ../../upstream/docs/user/guides/build/email-notifications.rst:29
 msgid "The newly added email address will be notified once a build fails."
-msgstr ""
+msgstr "新添加的邮箱地址将在构建失败时收到通知。"
 
 #: ../../upstream/docs/user/guides/build/email-notifications.rst:34
 msgid ""
-"We don't send email notifications on :doc:`builds from pull requests "
-"</pull-requests>`."
-msgstr ""
+"We don't send email notifications on :doc:`builds from pull requests </pull-"
+"requests>`."
+msgstr "我们不会在 :doc:`Pull Request 构建 </pull-requests>` 上发送邮件通知。"
 

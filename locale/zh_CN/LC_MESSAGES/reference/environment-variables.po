@@ -22,269 +22,280 @@ msgstr ""
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:2
 msgid "Environment variable reference"
-msgstr ""
+msgstr "环境变量参考"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:4
 msgid ""
 "All :doc:`build processes </builds>` have the following environment "
 "variables automatically defined and available for each build step:"
-msgstr ""
+msgstr "所有 :doc:`构建过程 </builds>` 都会自动定义以下环境变量，并在每个构建步骤中可用："
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:8
 msgid "Whether the build is running inside Read the Docs."
-msgstr ""
+msgstr "构建是否在 Read the Docs 内运行。"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst
 msgid "Default"
-msgstr ""
+msgstr "默认值"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:10
 msgid "``True``"
-msgstr ""
+msgstr "``True``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:14
 msgid "Domain where Read the Docs application/dashboard and API are running."
-msgstr ""
+msgstr "Read the Docs 应用/仪表盘和 API 运行的域名。"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst
 msgid "Example"
-msgstr ""
+msgstr "示例"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:16
 msgid "``readthedocs.org``"
-msgstr ""
+msgstr "``readthedocs.org``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:17
 msgid "``readthedocs.com``"
-msgstr ""
+msgstr "``readthedocs.com``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:18
 msgid "``app.readthedocs.org``"
-msgstr ""
+msgstr "``app.readthedocs.org``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:19
 msgid "``app.readthedocs.com``"
-msgstr ""
+msgstr "``app.readthedocs.com``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:20
 msgid "``devthedocs.org``"
-msgstr ""
+msgstr "``devthedocs.org``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:21
 msgid "``devthedocs.com``"
-msgstr ""
+msgstr "``devthedocs.com``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:25
 msgid ""
 "The :term:`slug` of the project being built. For example, ``my-example-"
 "project``."
-msgstr ""
+msgstr "正在构建的项目的 :term:`slug`。例如 ``my-example-project``。"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:29
 msgid ""
 "The locale name, or the identifier for the locale, for the project being "
-"built. This value comes from the project's configured language code, "
-"which is in lowercase and uses a dash as a separator."
-msgstr ""
+"built. This value comes from the project's configured language code, which "
+"is in lowercase and uses a dash as a separator."
+msgstr "正在构建的项目的区域设置名称或区域标识符。该值来自项目配置的语言代码，为小写并以连字符分隔。"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:33
 msgid "``en``"
-msgstr ""
+msgstr "``en``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:34
 msgid "``it``"
-msgstr ""
+msgstr "``it``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:35
 msgid "``de-at``"
-msgstr ""
+msgstr "``de-at``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:36
 msgid "``es``"
-msgstr ""
+msgstr "``es``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:37
 msgid "``pt-br``"
-msgstr ""
+msgstr "``pt-br``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:41
 msgid ""
-"The :term:`slug` of the version being built, such as ``latest``, "
-"``stable``, or a branch name like ``feature-1234``. For :doc:`pull "
-"request builds </pull-requests>`, the value will be the pull request "
-"number."
+"The :term:`slug` of the version being built, such as ``latest``, ``stable``,"
+" or a branch name like ``feature-1234``. For :doc:`pull request builds "
+"</pull-requests>`, the value will be the pull request number."
 msgstr ""
+"正在构建的版本的 :term:`slug`，如 ``latest``、``stable`` 或分支名（如 ``feature-1234``）。对于 "
+":doc:`Pull Request 构建 </pull-requests>`，值为 Pull Request 编号。"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:47
 msgid ""
-"The verbose name of the version being built, such as ``latest``, "
-"``stable``, or a branch name like ``feature/1234``."
-msgstr ""
+"The verbose name of the version being built, such as ``latest``, ``stable``,"
+" or a branch name like ``feature/1234``."
+msgstr "正在构建的版本的详细名称，如 ``latest``、``stable`` 或分支名（如 ``feature/1234``）。"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:52
 msgid "The type of the version being built."
-msgstr ""
+msgstr "正在构建的版本类型。"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:54
 msgid "``branch``"
-msgstr ""
+msgstr "``branch``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:55
 msgid "``tag``"
-msgstr ""
+msgstr "``tag``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:56
 msgid "``external`` (for :doc:`pull request builds </pull-requests>`)"
-msgstr ""
+msgstr "``external``（用于 :doc:`Pull Request 构建 </pull-requests>`）"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:57
 msgid "``unknown``"
-msgstr ""
+msgstr "``unknown``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:61
 msgid ""
-"Path for the :doc:`virtualenv that was created for this build </builds>`."
-" Only exists for builds using Virtualenv and not Conda."
-msgstr ""
+"Path for the :doc:`virtualenv that was created for this build </builds>`. "
+"Only exists for builds using Virtualenv and not Conda."
+msgstr "为该构建创建的 :doc:`virtualenv </builds>` 的路径。仅存在于使用 Virtualenv 而非 Conda 的构建中。"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:64
 msgid "``/home/docs/checkouts/readthedocs.org/user_builds/project/envs/version``"
-msgstr ""
+msgstr "``/home/docs/checkouts/readthedocs.org/user_builds/project/envs/version``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:68
 msgid ""
-"Base path for well-known output directories. Files in these directories "
-"will automatically be found, uploaded, and published."
-msgstr ""
+"Base path for well-known output directories. Files in these directories will"
+" automatically be found, uploaded, and published."
+msgstr "已知输出目录的基础路径。这些目录中的文件将自动被发现、上传并发布。"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:70
 msgid ""
-"You need to concatenate an output format to this variable. Currently "
-"valid formats are ``html``, ``pdf``, ``htmlzip``, and ``epub``. (e.g. "
-"``$READTHEDOCS_OUTPUT/html/`` or ``$READTHEDOCS_OUTPUT/pdf/``) You also "
-"need to create the directory before moving outputs into the destination. "
-"You can create it with the following command ``mkdir -p "
+"You need to concatenate an output format to this variable. Currently valid "
+"formats are ``html``, ``pdf``, ``htmlzip``, and ``epub``. (e.g. "
+"``$READTHEDOCS_OUTPUT/html/`` or ``$READTHEDOCS_OUTPUT/pdf/``) You also need"
+" to create the directory before moving outputs into the destination. You can"
+" create it with the following command ``mkdir -p "
 "$READTHEDOCS_OUTPUT/html/``. Note that only ``html`` supports multiple "
-"files, the other formats should have one and only one file to be "
-"uploaded."
+"files, the other formats should have one and only one file to be uploaded."
 msgstr ""
+"你需要将输出格式拼接到此变量。当前有效格式为 ``html``、``pdf``、``htmlzip`` 和 ``epub``。（例如 "
+"``$READTHEDOCS_OUTPUT/html/`` 或 "
+"``$READTHEDOCS_OUTPUT/pdf/``）移动输出到目标前需先创建目录，可用命令 ``mkdir -p "
+"$READTHEDOCS_OUTPUT/html/`` 创建。注意仅 ``html`` 支持多文件，其他格式应仅有一个文件上传。"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:80
 msgid ":ref:`build-customization:where to put files`"
-msgstr ""
+msgstr ":ref:`build-customization:where to put files`"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:81
 msgid ""
 "Information about using custom commands to generate output that will "
 "automatically be published once your build succeeds."
-msgstr ""
+msgstr "关于使用自定义命令生成构建成功后自动发布输出的信息。"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:85
 msgid ""
 "Canonical base URL for the version that is built. If the project has "
 "configured a :doc:`custom domain </custom-domains>` (e.g. "
 "``docs.example.com``) it will be used in the resulting canonical URL. "
-"Otherwise, your project's :ref:`default subdomain <default-subdomain>` "
-"will be used."
+"Otherwise, your project's :ref:`default subdomain <default-subdomain>` will "
+"be used."
 msgstr ""
+"构建版本的规范基础 URL。如果项目配置了 :doc:`自定义域名 </custom-domains>`（如 "
+"``docs.example.com``），将在生成的规范 URL 中使用。否则，将使用项目的 :ref:`默认子域名 <default-"
+"subdomain>`。"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:89
 msgid ""
 "The path for the language and version is appended to the domain, so the "
 "final canonical base URLs can look like the following examples:"
-msgstr ""
+msgstr "语言和版本的路径会追加到域名后，因此最终的规范基础 URL 可能如下所示："
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:91
 msgid "``https://docs.example.com/en/latest/``"
-msgstr ""
+msgstr "``https://docs.example.com/en/latest/``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:92
 msgid "``https://docs.readthedocs.io/ja/stable/``"
-msgstr ""
+msgstr "``https://docs.readthedocs.io/ja/stable/``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:93
 msgid "``https://example--17.org.readthedocs.build/fr/17/``"
-msgstr ""
+msgstr "``https://example--17.org.readthedocs.build/fr/17/``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:97
 msgid "Path where the repository was cloned."
-msgstr ""
+msgstr "仓库克隆的路径。"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:99
 msgid ""
 "``/home/docs/checkouts/readthedocs.org/user_builds/test-"
 "builds/checkouts/latest``"
 msgstr ""
+"``/home/docs/checkouts/readthedocs.org/user_builds/test-"
+"builds/checkouts/latest``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:103
 msgid ""
 "URL for the remote source repository, from which the documentation is "
 "cloned. It could be HTTPS, SSH or any other URL scheme supported by Git. "
-"This is the same URL defined in the :guilabel:`Repository URL` field of "
-"your project's :menuselection:`Settings`."
+"This is the same URL defined in the :guilabel:`Repository URL` field of your"
+" project's :menuselection:`Settings`."
 msgstr ""
+"远程源仓库的 URL，文档从此克隆。支持 Git 支持的 HTTPS、SSH 或其他 URL 方案。这与项目 "
+":menuselection:`Settings` 中 :guilabel:`Repository URL` 字段定义的 URL 相同。"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:107
 msgid "``https://github.com/readthedocs/readthedocs.org``"
-msgstr ""
+msgstr "``https://github.com/readthedocs/readthedocs.org``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:108
 msgid "``git@github.com:readthedocs/readthedocs.org.git``"
-msgstr ""
+msgstr "``git@github.com:readthedocs/readthedocs.org.git``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:112
 msgid ""
 "Contains the Git identifier that was *checked out* from the remote "
 "repository URL. Possible values are either a branch or tag name."
-msgstr ""
+msgstr "包含从远程仓库 URL *检出*的 Git 标识符。可能的值为分支名或标签名。"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:115
 msgid "``v1.x``"
-msgstr ""
+msgstr "``v1.x``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:116
 msgid "``bugfix/docs-typo``"
-msgstr ""
+msgstr "``bugfix/docs-typo``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:117
 msgid "``feature/signup``"
-msgstr ""
+msgstr "``feature/signup``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:118
 msgid "``update-readme``"
-msgstr ""
+msgstr "``update-readme``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:122
 msgid ""
-"When building pull requests, this variable contains the numeric ID of the"
-" pull request, as we don't have access to the branch name."
-msgstr ""
+"When building pull requests, this variable contains the numeric ID of the "
+"pull request, as we don't have access to the branch name."
+msgstr "构建 Pull Request 时，此变量包含 Pull Request 的数字 ID，因为我们无法访问分支名。"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:127
 msgid "Git commit hash identifier checked out from the repository URL."
-msgstr ""
+msgstr "从仓库 URL 检出的 Git 提交哈希标识符。"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:129
 msgid "``1f94e04b7f596c309b7efab4e7630ed78e85a1f1``"
-msgstr ""
+msgstr "``1f94e04b7f596c309b7efab4e7630ed78e85a1f1``"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:133
 msgid ":doc:`/environment-variables`"
-msgstr ""
+msgstr ":doc:`/environment-variables`"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:134
 msgid ""
-"General information about how environment variables are used in the build"
-" process."
-msgstr ""
+"General information about how environment variables are used in the build "
+"process."
+msgstr "关于环境变量在构建过程中如何使用的通用信息。"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:136
 msgid ":doc:`/guides/environment-variables`"
-msgstr ""
+msgstr ":doc:`/guides/environment-variables`"
 
 #: ../../upstream/docs/user/reference/environment-variables.rst:137
 msgid ""
-"Learn how to define your own custom environment variables, in addition to"
-" the pre-defined ones."
-msgstr ""
+"Learn how to define your own custom environment variables, in addition to "
+"the pre-defined ones."
+msgstr "了解如何定义自己的自定义环境变量，除预定义变量外。"
 

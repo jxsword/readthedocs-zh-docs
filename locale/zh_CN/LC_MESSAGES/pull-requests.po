@@ -22,153 +22,168 @@ msgstr ""
 
 #: ../../upstream/docs/user/pull-requests.rst:2
 msgid "Pull request previews"
-msgstr ""
+msgstr "Pull Request 预览"
 
 #: ../../upstream/docs/user/pull-requests.rst:4
 msgid ""
 "Read the Docs builds your documentation for every new pull request. "
 "Previewing changes during review makes it easier to catch formatting and "
 "display issues before they go live."
-msgstr ""
+msgstr "Read the Docs 会为每个新的 Pull Request 构建文档。在审查期间预览变更，能更容易地在上线前发现格式和显示问题。"
 
 #: ../../upstream/docs/user/pull-requests.rst:7
 msgid ""
 "Pull request previews are enabled by default on new projects. You can "
-"configure them from your project's :menuselection:`Settings --> Pull "
-"request builds`."
+"configure them from your project's :menuselection:`Settings --> Pull request"
+" builds`."
 msgstr ""
+"新项目默认启用 Pull Request 预览。你可以在项目的 :menuselection:`Settings --> Pull request "
+"builds` 中配置。"
 
 #: ../../upstream/docs/user/pull-requests.rst:11
 msgid "Features"
-msgstr ""
+msgstr "功能"
 
 #: ../../upstream/docs/user/pull-requests.rst:13
 msgid "Build on pull request events"
-msgstr ""
+msgstr "在 Pull Request 事件上构建"
 
 #: ../../upstream/docs/user/pull-requests.rst:14
 msgid ""
-"We create and build a new version when a pull request is opened, and "
-"rebuild it whenever a new commit is pushed."
-msgstr ""
+"We create and build a new version when a pull request is opened, and rebuild"
+" it whenever a new commit is pushed."
+msgstr "Pull Request 打开时我们会创建并构建一个新版本，每当有新提交推送时就会重新构建。"
 
 #: ../../upstream/docs/user/pull-requests.rst:17
 msgid "Build status report"
-msgstr ""
+msgstr "构建状态报告"
 
 #: ../../upstream/docs/user/pull-requests.rst:18
 msgid ""
 "Your project's pull request build status will show as one of your pull "
-"request's checks. This status will update as the build is running, and "
-"will show a success or failure status when the build completes."
-msgstr ""
+"request's checks. This status will update as the build is running, and will "
+"show a success or failure status when the build completes."
+msgstr "项目的 Pull Request 构建状态将显示为 Pull Request 的检查项之一。该状态会在构建运行时更新，构建完成时显示成功或失败状态。"
 
 #: ../../upstream/docs/user/pull-requests.rst:22
 msgid "GitHub build status reporting for pull requests."
-msgstr ""
+msgstr "GitHub Pull Request 的构建状态报告。"
 
 #: ../../upstream/docs/user/pull-requests.rst:27
 msgid "GitHub build status reporting"
-msgstr ""
+msgstr "GitHub 构建状态报告"
 
 #: ../../upstream/docs/user/pull-requests.rst:29
 msgid "Build overview with changed files"
-msgstr ""
+msgstr "包含变更文件的构建概览"
 
 #: ../../upstream/docs/user/pull-requests.rst:30
 msgid ""
-"We create a comment on the pull request including a link to the preview "
-"of the documentation, and a list of the :doc:`files that changed "
-"</visual-diff>` between the current pull request and the latest version "
-"of the project's documentation."
+"We create a comment on the pull request including a link to the preview of "
+"the documentation, and a list of the :doc:`files that changed </visual-"
+"diff>` between the current pull request and the latest version of the "
+"project's documentation."
 msgstr ""
+"我们会在 Pull Request 上创建一条评论，包含文档预览的链接，以及当前 Pull Request 与项目文档最新版本之间 "
+":doc:`变更的文件列表 </visual-diff>`。"
 
 #: ../../upstream/docs/user/pull-requests.rst:35
 msgid ""
-"This feature is only available for projects connected to a "
-":ref:`reference/git-integration:GitHub App`."
-msgstr ""
+"This feature is only available for projects connected to a :ref:`reference"
+"/git-integration:GitHub App`."
+msgstr "此功能仅对连接了 :ref:`reference/git-integration:GitHub App` 的项目可用。"
 
 #: ../../upstream/docs/user/pull-requests.rst:37
 msgid "Pull request notifications"
-msgstr ""
+msgstr "Pull Request 通知"
 
 #: ../../upstream/docs/user/pull-requests.rst:38
 msgid ""
-"A pull request notification can be shown at the top of preview pages, "
-"which lets readers know they aren't viewing an active version of the "
-"project. New projects have this notification disabled by default; enable "
-"it from your project's :menuselection:`Settings --> Addons --> "
-"Notifications`."
+"A pull request notification can be shown at the top of preview pages, which "
+"lets readers know they aren't viewing an active version of the project. New "
+"projects have this notification disabled by default; enable it from your "
+"project's :menuselection:`Settings --> Addons --> Notifications`."
 msgstr ""
+"Pull Request 通知可显示在预览页面顶部，提醒读者他们查看的不是项目的活跃版本。新项目默认禁用此通知；可在项目的 "
+":menuselection:`Settings --> Addons --> Notifications` 中启用。"
 
 #: ../../upstream/docs/user/pull-requests.rst:43
 msgid ":doc:`Visual diff </visual-diff>`"
-msgstr ""
+msgstr ":doc:`Visual diff </visual-diff>`"
 
 #: ../../upstream/docs/user/pull-requests.rst:44
 msgid ""
-"Visual diff shows proposed changes by visually highlighting the "
-"differences between the current pull request and the latest version of "
-"the project's documentation."
-msgstr ""
+"Visual diff shows proposed changes by visually highlighting the differences "
+"between the current pull request and the latest version of the project's "
+"documentation."
+msgstr "Visual diff 通过可视化高亮显示当前 Pull Request 与项目文档最新版本之间的差异，展示拟议的变更。"
 
 #: ../../upstream/docs/user/pull-requests.rst:46
 msgid "Press ``d`` to toggle between Visual diff and normal pull request preview."
-msgstr ""
+msgstr "按 ``d`` 在 Visual diff 和普通 Pull Request 预览之间切换。"
 
 #: ../../upstream/docs/user/pull-requests.rst:50
 msgid ":doc:`/guides/pull-requests`"
-msgstr ""
+msgstr ":doc:`/guides/pull-requests`"
 
 #: ../../upstream/docs/user/pull-requests.rst:51
 msgid "A guide to configuring pull request builds on Read the Docs."
-msgstr ""
+msgstr "在 Read the Docs 上配置 Pull Request 构建的指南。"
 
 #: ../../upstream/docs/user/pull-requests.rst:54
 msgid "Security"
-msgstr ""
+msgstr "安全"
 
 #: ../../upstream/docs/user/pull-requests.rst:56
 msgid ""
-"If pull request previews are enabled for your project, anyone who can "
-"open a pull request on your repository will be able to trigger a build of"
-" your documentation. For this reason, pull request previews are served "
-"from a different domain than your main documentation "
-"(``org.readthedocs.build`` and ``com.readthedocs.build``)."
+"If pull request previews are enabled for your project, anyone who can open a"
+" pull request on your repository will be able to trigger a build of your "
+"documentation. For this reason, pull request previews are served from a "
+"different domain than your main documentation (``org.readthedocs.build`` and"
+" ``com.readthedocs.build``)."
 msgstr ""
+"如果项目启用了 Pull Request 预览，任何能在你的仓库打开 Pull Request 的人都能触发文档构建。因此，Pull Request "
+"预览使用与主文档不同的域名（``org.readthedocs.build`` 和 ``com.readthedocs.build``）。"
 
 #: ../../upstream/docs/user/pull-requests.rst:61
 msgid ""
 "Builds from pull requests have access to environment variables that are "
 "marked as *Public* only. If you have environment variables with private "
 "information, make sure they aren't marked as *Public*. See :ref"
-":`environment-variables:Environment variables and build process` for more"
-" information."
+":`environment-variables:Environment variables and build process` for more "
+"information."
 msgstr ""
+"Pull Request 构建仅能访问标记为*公开*的环境变量。如果你有包含私密信息的环境变量，请确保它们未标记为*公开*。详情请参阅 :ref"
+":`environment-variables:Environment variables and build process`。"
 
 #: ../../upstream/docs/user/pull-requests.rst:65
 msgid ""
-"On |com_brand| you can set pull request previews to be private or public."
-" If you didn't import your project manually and your repository is "
-"public, the privacy level of pull request previews will be set to "
-"*Public*. Public pull request previews are available to anyone with the "
-"link to the preview, while private previews are only available to users "
-"with access to the Read the Docs project."
+"On |com_brand| you can set pull request previews to be private or public. If"
+" you didn't import your project manually and your repository is public, the "
+"privacy level of pull request previews will be set to *Public*. Public pull "
+"request previews are available to anyone with the link to the preview, while"
+" private previews are only available to users with access to the Read the "
+"Docs project."
 msgstr ""
+"在 |com_brand| 上，你可以将 Pull Request 预览设为私有或公开。如果你不是手动导入项目且仓库是公开的，Pull Request "
+"预览的隐私级别将设为*公开*。公开预览对任何有链接的人可见，私有预览仅对有 Read the Docs 项目访问权限的用户可见。"
 
 #: ../../upstream/docs/user/pull-requests.rst:73
 msgid ""
 "If you set the privacy level of pull request previews to *Private*, make "
 "sure that only trusted users can open pull requests in your repository."
-msgstr ""
+msgstr "如果将 Pull Request 预览的隐私级别设为*私有*，请确保只有受信任的用户能在你的仓库打开 Pull Request。"
 
 #: ../../upstream/docs/user/pull-requests.rst:76
 msgid ""
-"Setting pull request previews to private on a public repository can allow"
-" a malicious user to access read-only APIs using the user's session that "
-"is reading the pull request preview. Similar to `GHSA-pw32-ffxw-68rh "
+"Setting pull request previews to private on a public repository can allow a "
+"malicious user to access read-only APIs using the user's session that is "
+"reading the pull request preview. Similar to `GHSA-pw32-ffxw-68rh "
 "<https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-"
 "pw32-ffxw-68rh>`__."
 msgstr ""
+"在公开仓库上将 Pull Request 预览设为私有，可能允许恶意用户利用正在阅读 Pull Request 预览的用户会话访问只读 API。类似 "
+"`GHSA-pw32-ffxw-68rh "
+"<https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-"
+"pw32-ffxw-68rh>`__。"
 

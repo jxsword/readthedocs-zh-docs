@@ -22,184 +22,206 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:2
 msgid "Direct upload"
-msgstr ""
+msgstr "直接上传"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:4
 msgid ""
 "Direct upload lets you build your documentation anywhere, for example in "
-"GitHub Actions or in any other continuous integration service, and upload"
-" the resulting files to Read the Docs for hosting. This guide shows how "
-"to build your documentation in your own pipeline and upload it."
+"GitHub Actions or in any other continuous integration service, and upload "
+"the resulting files to Read the Docs for hosting. This guide shows how to "
+"build your documentation in your own pipeline and upload it."
 msgstr ""
+"直接上传让你可以在任何地方构建文档（例如在 GitHub Actions 或任何其他持续集成服务中），并将生成的文件上传到 Read the Docs "
+"进行托管。本指南展示如何在自己的流水线中构建文档并上传。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:9
 msgid ""
-"Documentation uploaded this way keeps all the hosting features you "
-"already know: :doc:`versions </versions>`, :doc:`pull request previews "
-"</pull-requests>`, :doc:`server side search </server-side-search/index>`,"
-" :doc:`Addons </addons>`, :doc:`custom domains </custom-domains>` and "
+"Documentation uploaded this way keeps all the hosting features you already "
+"know: :doc:`versions </versions>`, :doc:`pull request previews </pull-"
+"requests>`, :doc:`server side search </server-side-search/index>`, "
+":doc:`Addons </addons>`, :doc:`custom domains </custom-domains>` and "
 ":doc:`downloadable formats </offline-formats>`, among others."
 msgstr ""
+"这样上传的文档保留了你已知的所有托管功能：:doc:`版本 </versions>`、:doc:`Pull Request 预览 </pull-"
+"requests>`、:doc:`服务器端搜索 </server-side-search/index>`、:doc:`Addon "
+"</addons>`、:doc:`自定义域名 </custom-domains>` 和 :doc:`可下载格式 </offline-formats>` "
+"等。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:15
 msgid "Direct upload is useful when:"
-msgstr ""
+msgstr "直接上传在以下情况下很有用："
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:17
-msgid ""
-"Your documentation tool is not supported by the Read the Docs build "
-"process."
-msgstr ""
+msgid "Your documentation tool is not supported by the Read the Docs build process."
+msgstr "你的文档工具不受 Read the Docs 构建过程支持。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:18
 msgid ""
-"Your build needs tools, secrets or resources that are only available in "
-"your own environment."
-msgstr ""
+"Your build needs tools, secrets or resources that are only available in your"
+" own environment."
+msgstr "你的构建需要仅在你自己环境中可用的工具、机密或资源。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:19
 msgid ""
-"You already build the documentation in your continuous integration "
-"pipeline and want to reuse the result."
-msgstr ""
+"You already build the documentation in your continuous integration pipeline "
+"and want to reuse the result."
+msgstr "你已在持续集成流水线中构建文档，想复用结果。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:23
 msgid ""
 "**Direct upload is currently a beta feature.** We'd love to hear your "
 "feedback on it."
-msgstr ""
+msgstr "**直接上传目前是 Beta 功能。** 我们非常期待你的反馈。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:26
 msgid "Prerequisites"
-msgstr ""
+msgstr "前提条件"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:28
 msgid ""
-"A project on Read the Docs that uses direct upload. When :doc:`adding "
-"your project </intro/add-project>`, choose :guilabel:`Build externally "
-"and upload` in the configuration step. To enable direct upload on an "
-"existing project, :doc:`contact support </support>`."
+"A project on Read the Docs that uses direct upload. When :doc:`adding your "
+"project </intro/add-project>`, choose :guilabel:`Build externally and "
+"upload` in the configuration step. To enable direct upload on an existing "
+"project, :doc:`contact support </support>`."
 msgstr ""
+"一个使用直接上传的 Read the Docs 项目。:doc:`添加项目 </intro/add-project>` 时，在配置步骤选择 "
+":guilabel:`Build externally and upload`。要在现有项目上启用直接上传，请 :doc:`联系支持 "
+"</support>`。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:32
 msgid ""
 "An API token for your project. Store it as a secret in your continuous "
 "integration service."
-msgstr ""
+msgstr "项目的 API 令牌。将其作为机密存储在你的持续集成服务中。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:35
 msgid "To create an API token for your project:"
-msgstr ""
+msgstr "为项目创建 API 令牌："
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:37
 msgid "Go to your project's :menuselection:`Settings --> API tokens`."
-msgstr ""
+msgstr "前往项目的 :menuselection:`Settings --> API tokens`。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:38
 msgid "Click on :guilabel:`Add API token`."
-msgstr ""
+msgstr "点击 :guilabel:`Add API token`。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:39
 msgid ""
-"Choose a name, the :guilabel:`Upload documentation` permission, and when "
-"the token expires."
-msgstr ""
+"Choose a name, the :guilabel:`Upload documentation` permission, and when the"
+" token expires."
+msgstr "选择名称、:guilabel:`Upload documentation` 权限和令牌过期时间。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:40
 msgid "Copy the token. It's only shown once."
-msgstr ""
+msgstr "复制令牌。它只显示一次。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:42
 msgid ""
-"A project API token only gives access to your project, and lets you leave"
-" out the project slug when uploading, since the token already identifies "
-"the project. You can also use your personal :ref:`API token "
-"<api/v3:Token>`, but it gives access to everything your user has access "
-"to. On |com_brand|, a personal API token also requires :ref:`setting the "
-"API URL <guides/build/direct-upload:Read the Docs Business>`."
+"A project API token only gives access to your project, and lets you leave "
+"out the project slug when uploading, since the token already identifies the "
+"project. You can also use your personal :ref:`API token <api/v3:Token>`, but"
+" it gives access to everything your user has access to. On |com_brand|, a "
+"personal API token also requires :ref:`setting the API URL <guides/build"
+"/direct-upload:Read the Docs Business>`."
 msgstr ""
+"项目 API 令牌仅授予对你项目的访问权限，上传时可省略项目 slug，因为令牌已标识项目。你也可以使用个人 :ref:`API 令牌 "
+"<api/v3:Token>`，但它能访问你用户有权访问的所有内容。在 |com_brand| 上，个人 API 令牌还需要 :ref:`设置 API "
+"URL <guides/build/direct-upload:Read the Docs Business>`。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:50
 msgid "Uploading from GitHub Actions"
-msgstr ""
+msgstr "从 GitHub Actions 上传"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:52
 msgid ""
 "Use the `upload action <https://github.com/readthedocs/upload-action>`__ "
 "after the step that builds your documentation:"
-msgstr ""
+msgstr "在构建文档的步骤后使用 `upload action <https://github.com/readthedocs/upload-action>`__："
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:55
 msgid ".github/workflows/docs.yaml"
-msgstr ""
+msgstr ".github/workflows/docs.yaml"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:97
 msgid ""
-"The workflow reads the API token from a secret named "
-"``READTHEDOCS_TOKEN``. Add it to your repository under "
-":menuselection:`Settings --> Secrets and variables --> Actions`, or "
-"follow `GitHub's guide on using secrets "
+"The workflow reads the API token from a secret named ``READTHEDOCS_TOKEN``. "
+"Add it to your repository under :menuselection:`Settings --> Secrets and "
+"variables --> Actions`, or follow `GitHub's guide on using secrets "
 "<https://docs.github.com/en/actions/security-for-github-actions/security-"
 "guides/using-secrets-in-github-actions>`__."
 msgstr ""
+"工作流从名为 ``READTHEDOCS_TOKEN`` 的 secret 读取 API 令牌。将其添加到仓库的 "
+":menuselection:`Settings --> Secrets and variables --> Actions` 下，或遵循 "
+"`GitHub 关于使用 secrets 的指南 <https://docs.github.com/en/actions/security-for-"
+"github-actions/security-guides/using-secrets-in-github-actions>`__。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:101
 msgid ""
-"The upload action detects the branch, tag or pull request from the "
-"workflow event, so a push to ``main`` updates the ``main`` version, a new"
-" tag creates a new version, and a pull request creates a :doc:`pull "
-"request preview </pull-requests>`. See :ref:`guides/build/direct-"
-"upload:Versions` for how uploaded versions behave."
+"The upload action detects the branch, tag or pull request from the workflow "
+"event, so a push to ``main`` updates the ``main`` version, a new tag creates"
+" a new version, and a pull request creates a :doc:`pull request preview "
+"</pull-requests>`. See :ref:`guides/build/direct-upload:Versions` for how "
+"uploaded versions behave."
 msgstr ""
+"上传 action 从工作流事件中检测分支、标签或 Pull Request，因此推送到 ``main`` 会更新 ``main`` "
+"版本，新标签会创建新版本，Pull Request 会创建 :doc:`Pull Request 预览 </pull-"
+"requests>`。上传版本的行为请参阅 :ref:`guides/build/direct-upload:Versions`。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:107
 msgid ""
-"The ``paths`` filters make the workflow run only when the documentation "
-"or its dependencies change. Adjust them to match your repository layout, "
-"or remove them to upload on every push and pull request."
-msgstr ""
+"The ``paths`` filters make the workflow run only when the documentation or "
+"its dependencies change. Adjust them to match your repository layout, or "
+"remove them to upload on every push and pull request."
+msgstr "``paths`` 过滤器使工作流仅在文档或其依赖变更时运行。根据你的仓库布局调整，或移除它们以在每次推送和 Pull Request 时上传。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:111
 msgid ""
 "The example pins the third-party actions to a commit hash, as GitHub "
-"recommends. Do the same for the upload action by replacing ``@v1`` with "
-"the full commit hash of a release, as described in the `action's README "
+"recommends. Do the same for the upload action by replacing ``@v1`` with the "
+"full commit hash of a release, as described in the `action's README "
 "<https://github.com/readthedocs/upload-action#versioning>`__."
 msgstr ""
+"示例将第三方 action 固定到提交哈希，这是 GitHub 推荐的做法。请对上传 action 做同样的处理，将 ``@v1`` "
+"替换为某个发布的完整提交哈希，详见 `action 的 README <https://github.com/readthedocs/upload-"
+"action#versioning>`__。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:117
 msgid "Uploading from any other environment"
-msgstr ""
+msgstr "从任何其他环境上传"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:119
 msgid ""
 "The upload action is a thin wrapper around the `readthedocs-upload "
-"<https://pypi.org/project/readthedocs-upload/>`__ package, a command line"
-" client that you can run from any continuous integration service or from "
-"your own computer. It requires Python 3.10 or newer and reads the token "
-"from the ``READTHEDOCS_TOKEN`` environment variable:"
+"<https://pypi.org/project/readthedocs-upload/>`__ package, a command line "
+"client that you can run from any continuous integration service or from your"
+" own computer. It requires Python 3.10 or newer and reads the token from the"
+" ``READTHEDOCS_TOKEN`` environment variable:"
 msgstr ""
+"上传 action 是 `readthedocs-upload <https://pypi.org/project/readthedocs-"
+"upload/>`__ 包的薄封装，这是一个命令行客户端，可在任何持续集成服务或你自己的电脑上运行。它需要 Python 3.10 或更新版本，并从 "
+"``READTHEDOCS_TOKEN`` 环境变量读取令牌："
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:130
 msgid ""
-"You can also install it with ``pip install readthedocs-upload``, which "
-"makes the ``readthedocs`` command available."
-msgstr ""
+"You can also install it with ``pip install readthedocs-upload``, which makes"
+" the ``readthedocs`` command available."
+msgstr "也可用 ``pip install readthedocs-upload`` 安装，这会提供 ``readthedocs`` 命令。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:133
 msgid ""
 "Outside GitHub Actions, the client infers the version from the local Git "
 "checkout. On other continuous integration services, pass the version "
 "explicitly:"
-msgstr ""
+msgstr "在 GitHub Actions 之外，客户端从本地 Git 检出推断版本。在其他持续集成服务上，显式传递版本："
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:145
 msgid "Run ``readthedocs upload --help`` to see all the options."
-msgstr ""
+msgstr "运行 ``readthedocs upload --help`` 查看所有选项。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:148
 msgid "Uploading offline formats"
-msgstr ""
+msgstr "上传离线格式"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:150
 msgid ""
@@ -207,173 +229,184 @@ msgid ""
 "single file. They are shown in the :term:`flyout menu` like any other "
 ":doc:`downloadable format </offline-formats>`:"
 msgstr ""
+"PDF、ePub 和压缩 HTML 文件是可选的，每个指向单个文件。它们像其他 :doc:`可下载格式 </offline-formats>` "
+"一样显示在 :term:`flyout menu` 中："
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:174
 msgid "Read the Docs Business"
-msgstr ""
+msgstr "Read the Docs Business"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:176
 msgid ""
-"Direct upload works the same way on |com_brand|. Project API tokens "
-"identify the platform they belong to, so the upload action and the "
-"command line client send your upload to |com_brand| without any extra "
-"configuration."
+"Direct upload works the same way on |com_brand|. Project API tokens identify"
+" the platform they belong to, so the upload action and the command line "
+"client send your upload to |com_brand| without any extra configuration."
 msgstr ""
+"直接上传在 |com_brand| 上工作方式相同。项目 API 令牌标识其所属平台，因此上传 action 和命令行客户端无需额外配置即可将上传发送到"
+" |com_brand|。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:180
 msgid ""
 "If you use your personal API token instead, set the API URL to "
 "``https://app.readthedocs.com``:"
-msgstr ""
+msgstr "如果你改用个人 API 令牌，请将 API URL 设为 ``https://app.readthedocs.com``："
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:200
 msgid ""
 "The command line client also reads the API URL from the "
 "``READTHEDOCS_API_URL`` environment variable."
-msgstr ""
+msgstr "命令行客户端也从 ``READTHEDOCS_API_URL`` 环境变量读取 API URL。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:203
 msgid "Privacy levels"
-msgstr ""
+msgstr "隐私级别"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:205
 msgid ""
-"Uploaded versions are private by default. To publish a public version, "
-"set the :doc:`privacy level </commercial/privacy-level>` when uploading:"
-msgstr ""
+"Uploaded versions are private by default. To publish a public version, set "
+"the :doc:`privacy level </commercial/privacy-level>` when uploading:"
+msgstr "上传的版本默认为私有。上传时设置 :doc:`隐私级别 </commercial/privacy-level>` 以发布公开版本："
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:226
 msgid ""
-"Every upload sets the privacy level of the version, so an upload without "
-"it makes the version private again, even if you made it public from the "
-"version settings. Set the privacy level on every upload of a public "
-"version."
-msgstr ""
+"Every upload sets the privacy level of the version, so an upload without it "
+"makes the version private again, even if you made it public from the version"
+" settings. Set the privacy level on every upload of a public version."
+msgstr "每次上传都设置版本的隐私级别，因此没有隐私级别的上传会让版本再次变为私有，即使你在版本设置中将其设为公开。每次上传公开版本时都要设置隐私级别。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:232
 msgid "Versions"
-msgstr ""
+msgstr "版本"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:234
 msgid ""
 "Uploaded versions behave differently depending on whether the project is "
 "built by Read the Docs or not."
-msgstr ""
+msgstr "上传版本的行为取决于项目是否由 Read the Docs 构建。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:237
 msgid "Projects that only use direct upload"
-msgstr ""
+msgstr "仅使用直接上传的项目"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:239
 msgid ""
 "On a project that only uses direct upload, every version comes from an "
-"upload, and the name you upload is the version you get: uploading "
-"``main`` publishes ``main``, uploading ``v1.0`` publishes ``v1.0``. Read "
-"the Docs does not create versions from your repository, and it does not "
-"create the ``latest`` and ``stable`` aliases."
+"upload, and the name you upload is the version you get: uploading ``main`` "
+"publishes ``main``, uploading ``v1.0`` publishes ``v1.0``. Read the Docs "
+"does not create versions from your repository, and it does not create the "
+"``latest`` and ``stable`` aliases."
 msgstr ""
+"在仅使用直接上传的项目上，每个版本来自上传，你上传的名称即为所得版本：上传 ``main`` 发布 ``main``，上传 ``v1.0`` 发布 "
+"``v1.0``。Read the Docs 不会从你的仓库创建版本，也不会创建 ``latest`` 和 ``stable`` 别名。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:244
 msgid "Default version"
-msgstr ""
+msgstr "默认版本"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:245
 msgid ""
-"The first branch or tag you upload becomes the :term:`default version`, "
-"so the root of your documentation works right away. Pull request previews"
-" never become the default."
-msgstr ""
+"The first branch or tag you upload becomes the :term:`default version`, so "
+"the root of your documentation works right away. Pull request previews never"
+" become the default."
+msgstr "你上传的第一个分支或标签成为 :term:`default version`，因此文档根路径立即可用。Pull Request 预览永远不会成为默认版本。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:249
 msgid "``latest`` and ``stable``"
-msgstr ""
+msgstr "``latest`` 和 ``stable``"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:250
 msgid ""
 "If you want these names, upload them from your pipeline. For example, to "
 "publish ``stable`` from every tag in addition to the tag itself, add a "
 "second upload step that only runs on tags:"
-msgstr ""
+msgstr "如果你需要这些名称，请从流水线上传。例如，要在每个标签之外也发布 ``stable``，请添加一个仅在标签上运行的第二个上传步骤："
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:264
 msgid "Deactivating a version"
-msgstr ""
+msgstr "停用版本"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:265
 msgid ""
 "Deactivating an uploaded version deletes it, together with its "
 "documentation. Upload it again to publish it again."
-msgstr ""
+msgstr "停用上传的版本会连同其文档一起删除。再次上传即可重新发布。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:268
 msgid "Automation rules"
-msgstr ""
+msgstr "自动化规则"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:269
 msgid ""
-":doc:`Automation rules </automation-rules>` do not run on projects that "
-"only use direct upload. Hide, activate or set the default version from "
-"the project settings, or from your pipeline through the :doc:`API "
-"</api/v3>`. On a project built by Read the Docs, uploading a version runs"
-" the automation rules as usual."
+":doc:`Automation rules </automation-rules>` do not run on projects that only"
+" use direct upload. Hide, activate or set the default version from the "
+"project settings, or from your pipeline through the :doc:`API </api/v3>`. On"
+" a project built by Read the Docs, uploading a version runs the automation "
+"rules as usual."
 msgstr ""
+":doc:`自动化规则 </automation-rules>` 不在仅使用直接上传的项目上运行。从项目设置或通过 :doc:`API "
+"</api/v3>` 从流水线隐藏、激活或设置默认版本。在 Read the Docs 构建的项目上，上传版本会按常规运行自动化规则。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:275
 msgid "Projects built by Read the Docs"
-msgstr ""
+msgstr "由 Read the Docs 构建的项目"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:277
 msgid ""
-"On a project that Read the Docs builds from your repository, you can "
-"upload any single version while the rest of the project keeps being built"
-" as before."
-msgstr ""
+"On a project that Read the Docs builds from your repository, you can upload "
+"any single version while the rest of the project keeps being built as "
+"before."
+msgstr "在 Read the Docs 从你的仓库构建的项目上，你可以上传任意单个版本，其余项目保持原有构建方式。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:280
 msgid ""
-"The version doesn't need to exist before the first upload. A branch, tag "
-"or pull request that Read the Docs doesn't know yet is created by the "
-"upload. Uploading the branch that ``latest`` tracks updates ``latest`` "
-"version."
+"The version doesn't need to exist before the first upload. A branch, tag or "
+"pull request that Read the Docs doesn't know yet is created by the upload. "
+"Uploading the branch that ``latest`` tracks updates ``latest`` version."
 msgstr ""
+"版本在首次上传前无需存在。Read the Docs 尚不知的分支、标签或 Pull Request 会由上传创建。上传 ``latest`` "
+"跟踪的分支会更新 ``latest`` 版本。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:284
 msgid ""
-"Once a version has been uploaded, Read the Docs stops building it. Pushes"
-" to the branch, new commits on the pull request and manual builds don't "
-"trigger anything for that version, so every later update has to come "
-"through an upload as well."
+"Once a version has been uploaded, Read the Docs stops building it. Pushes to"
+" the branch, new commits on the pull request and manual builds don't trigger"
+" anything for that version, so every later update has to come through an "
+"upload as well."
 msgstr ""
+"一旦版本被上传，Read the Docs 就停止构建它。推送到分支、Pull Request "
+"上的新提交和手动构建都不会为该版本触发任何操作，因此后续每次更新都必须通过上传。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:288
 msgid ""
 "To have Read the Docs build an uploaded version again, uncheck "
 ":guilabel:`Uploaded` in the version settings. The uploaded files are "
-"removed, a build is triggered, and the version is available again when "
-"that build succeeds."
+"removed, a build is triggered, and the version is available again when that "
+"build succeeds."
 msgstr ""
+"要让 Read the Docs 重新构建已上传的版本，请在版本设置中取消勾选 "
+":guilabel:`Uploaded`。上传的文件会被移除，触发一次构建，构建成功后该版本重新可用。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:294
 msgid "Limits"
-msgstr ""
+msgstr "限制"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:296
 msgid "The uploaded archive can be up to 1 GB."
-msgstr ""
+msgstr "上传的压缩包最大 1 GB。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:297
 msgid "The upload has to complete within 30 minutes of starting it."
-msgstr ""
+msgstr "上传必须在开始后 30 分钟内完成。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:298
 msgid "A project can have at most 50 uploads in progress at the same time."
-msgstr ""
+msgstr "一个项目最多同时有 50 个进行中的上传。"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:302
 msgid ":doc:`/builds`"
-msgstr ""
+msgstr ":doc:`/builds`"
 
 #: ../../upstream/docs/user/guides/build/direct-upload.rst:303
 msgid "How Read the Docs builds documentation when you don't use direct upload."
-msgstr ""
+msgstr "不使用直接上传时，Read the Docs 如何构建文档。"
 
