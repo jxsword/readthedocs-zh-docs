@@ -1,0 +1,18 @@
+# 本地构建产物 / 虚拟环境
+.venv/
+_build/
+_generated/
+
+# sphinx-intl 编译产物（PO 为唯一译文源）
+locale/**/*.mo
+
+# 工作区工具元数据（非站点源，不入库）
+.workbuddy/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 操作系统临时文件
+Thumbs.db
+.DS_Store
