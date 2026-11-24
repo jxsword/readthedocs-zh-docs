@@ -31,4 +31,4 @@ echo "[sync] 4/4 refresh upstream commit metadata"
 "$PY" scripts/gen_upstream_meta.py
 
 echo "[sync] 完成。请检查 git diff 后提交："
-echo "  git add upstream locale _generated && git commit -m 'chore: sync upstream <sha>'"
+echo "  git add upstream locale && git commit -m 'chore: sync upstream <sha>'"
