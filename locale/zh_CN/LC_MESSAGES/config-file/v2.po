@@ -22,90 +22,92 @@ msgstr ""
 
 #: ../../upstream/docs/user/config-file/v2.rst:2
 msgid "Configuration file reference"
-msgstr ""
+msgstr "配置文件参考"
 
 #: ../../upstream/docs/user/config-file/v2.rst:4
 msgid ""
 "Read the Docs supports configuring your documentation builds with a "
-"configuration file. This file is named ``.readthedocs.yaml`` and should "
-"be placed in the top level of your Git repository."
-msgstr ""
+"configuration file. This file is named ``.readthedocs.yaml`` and should be "
+"placed in the top level of your Git repository."
+msgstr "Read the Docs 支持使用配置文件来配置文档构建。该文件名为 ``.readthedocs.yaml``，应放在 Git 仓库的顶层目录。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:7
 msgid ""
-"The ``.readthedocs.yaml``  file can contain a number of settings that are"
-" not accessible through the Read the Docs website."
-msgstr ""
+"The ``.readthedocs.yaml``  file can contain a number of settings that are "
+"not accessible through the Read the Docs website."
+msgstr "``.readthedocs.yaml`` 文件可以包含许多通过 Read the Docs 网站界面无法访问的设置。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:11
 msgid ""
 "When using a monorepo, it is possible to place the ``.readthedocs.yaml`` "
-"file in a subdirectory and configure a custom path from the project "
-"settings dashboard. All paths in the configuration file are always "
-"relative to the **repository root**, not the location of the "
-"configuration file. See the :doc:`/guides/setup/monorepo` documentation "
-"for more details."
+"file in a subdirectory and configure a custom path from the project settings"
+" dashboard. All paths in the configuration file are always relative to the "
+"**repository root**, not the location of the configuration file. See the "
+":doc:`/guides/setup/monorepo` documentation for more details."
 msgstr ""
+"使用 monorepo 时，可以将 ``.readthedocs.yaml`` "
+"文件放在子目录中，并从项目设置仪表盘配置自定义路径。配置文件中的所有路径始终相对于**仓库根目录**，而非配置文件的位置。详情请参阅 "
+":doc:`/guides/setup/monorepo` 文档。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:18
 msgid ""
-"Because the file is stored in Git, the configuration will apply to the "
-"exact version that is being built. **This allows you to store different "
+"Because the file is stored in Git, the configuration will apply to the exact"
+" version that is being built. **This allows you to store different "
 "configurations for different versions of your documentation.**"
-msgstr ""
+msgstr "因为文件存储在 Git 中，配置将应用于正在构建的特定版本。**这允许你为文档的不同版本存储不同的配置。**"
 
 #: ../../upstream/docs/user/config-file/v2.rst:22
 msgid ""
 "Below is an example YAML file which shows the most common configuration "
 "options:"
-msgstr ""
+msgstr "下面是一个示例 YAML 文件，展示了最常用的配置选项："
 
 #: ../../upstream/docs/user/config-file/v2.rst:26
 msgid "Sphinx"
-msgstr ""
+msgstr "Sphinx"
 
 #: ../../upstream/docs/user/config-file/v2.rst:28
 #: ../../upstream/docs/user/config-file/v2.rst:35
 #: ../../upstream/docs/user/config-file/v2.rst:650
 msgid ".readthedocs.yaml"
-msgstr ""
+msgstr ".readthedocs.yaml"
 
 #: ../../upstream/docs/user/config-file/v2.rst:33
 msgid "MkDocs"
-msgstr ""
+msgstr "MkDocs"
 
 #: ../../upstream/docs/user/config-file/v2.rst:43
 msgid ":doc:`/config-file/index`"
-msgstr ""
+msgstr ":doc:`/config-file/index`"
 
 #: ../../upstream/docs/user/config-file/v2.rst:44
 msgid "Practical steps to add a configuration file to your documentation project."
-msgstr ""
+msgstr "向文档项目添加配置文件的实际步骤。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:48
 msgid "Supported settings"
-msgstr ""
+msgstr "支持的设置"
 
 #: ../../upstream/docs/user/config-file/v2.rst:50
 msgid ""
-"Read the Docs validates every configuration file. Any configuration "
-"option that isn't supported will make the build fail. This is to avoid "
-"typos and provide feedback on invalid configurations."
-msgstr ""
+"Read the Docs validates every configuration file. Any configuration option "
+"that isn't supported will make the build fail. This is to avoid typos and "
+"provide feedback on invalid configurations."
+msgstr "Read the Docs 会验证每个配置文件。任何不支持的配置选项都会导致构建失败。这是为了避免拼写错误并对无效配置提供反馈。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:56
 msgid ""
 "When using a v2 configuration file, the local settings from the web "
 "interface are ignored."
-msgstr ""
+msgstr "使用 v2 配置文件时，网站界面上的本地设置将被忽略。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:64
 msgid "version"
-msgstr ""
+msgstr "version"
 
 #: ../../upstream/docs/user/config-file/v2.rst
 msgid "Required"
-msgstr ""
+msgstr "必需"
 
 #: ../../upstream/docs/user/config-file/v2.rst:66
 #: ../../upstream/docs/user/config-file/v2.rst:233
@@ -114,27 +116,27 @@ msgstr ""
 #: ../../upstream/docs/user/config-file/v2.rst:728
 #: ../../upstream/docs/user/config-file/v2.rst:770
 msgid "``true``"
-msgstr ""
+msgstr "``true``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:68
 #: ../../upstream/docs/user/config-file/v2.rst:84
 #: ../../upstream/docs/user/config-file/v2.rst:170
 msgid "Example:"
-msgstr ""
+msgstr "示例："
 
 #: ../../upstream/docs/user/config-file/v2.rst:75
 msgid "formats"
-msgstr ""
+msgstr "formats"
 
 #: ../../upstream/docs/user/config-file/v2.rst:77
 msgid ""
-"Additional formats of the documentation to be built, apart from the "
-"default HTML."
-msgstr ""
+"Additional formats of the documentation to be built, apart from the default "
+"HTML."
+msgstr "除默认 HTML 外，要构建的文档的额外格式。"
 
 #: ../../upstream/docs/user/config-file/v2.rst
 msgid "Type"
-msgstr ""
+msgstr "类型"
 
 #: ../../upstream/docs/user/config-file/v2.rst:80
 #: ../../upstream/docs/user/config-file/v2.rst:156
@@ -144,19 +146,19 @@ msgstr ""
 #: ../../upstream/docs/user/config-file/v2.rst:809
 #: ../../upstream/docs/user/config-file/v2.rst:828
 msgid "``list``"
-msgstr ""
+msgstr "``list``"
 
 #: ../../upstream/docs/user/config-file/v2.rst
 msgid "Options"
-msgstr ""
+msgstr "选项"
 
 #: ../../upstream/docs/user/config-file/v2.rst:81
 msgid "``htmlzip``, ``pdf``, ``epub``, ``all``"
-msgstr ""
+msgstr "``htmlzip``, ``pdf``, ``epub``, ``all``"
 
 #: ../../upstream/docs/user/config-file/v2.rst
 msgid "Default"
-msgstr ""
+msgstr "默认值"
 
 #: ../../upstream/docs/user/config-file/v2.rst:82
 #: ../../upstream/docs/user/config-file/v2.rst:157
@@ -166,83 +168,88 @@ msgstr ""
 #: ../../upstream/docs/user/config-file/v2.rst:810
 #: ../../upstream/docs/user/config-file/v2.rst:829
 msgid "``[]``"
-msgstr ""
+msgstr "``[]``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:104
 msgid "You can use the ``all`` keyword to indicate all formats."
-msgstr ""
+msgstr "可以使用 ``all`` 关键字表示所有格式。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:115
 msgid ""
-"At the moment, only Sphinx supports additional formats. ``pdf``, "
-"``epub``, and ``htmlzip`` output is not yet supported when using MkDocs. "
-"However, you can use :ref:`build-customization:where to put files` with "
-"custom build commands to generate offline formats for any documentation "
-"framework."
+"At the moment, only Sphinx supports additional formats. ``pdf``, ``epub``, "
+"and ``htmlzip`` output is not yet supported when using MkDocs. However, you "
+"can use :ref:`build-customization:where to put files` with custom build "
+"commands to generate offline formats for any documentation framework."
 msgstr ""
+"目前仅 Sphinx 支持额外格式。使用 MkDocs 时，``pdf``、``epub`` 和 ``htmlzip`` "
+"输出尚不受支持。不过，你可以使用 :ref:`build-customization:where to put files` "
+"配合自定义构建命令，为任何文档框架生成离线格式。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:119
 msgid ""
-"With :doc:`builds from pull requests </pull-requests>`, only HTML formats"
-" are generated. Other formats are resource intensive and will be built "
-"after merging."
-msgstr ""
+"With :doc:`builds from pull requests </pull-requests>`, only HTML formats "
+"are generated. Other formats are resource intensive and will be built after "
+"merging."
+msgstr "对于 :doc:`Pull Request 构建 </pull-requests>`，仅生成 HTML 格式。其他格式资源消耗大，将在合并后构建。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:122
 msgid "python"
-msgstr ""
+msgstr "python"
 
 #: ../../upstream/docs/user/config-file/v2.rst:124
 msgid "Configuration of the Python environment to be used."
-msgstr ""
+msgstr "要使用的 Python 环境配置。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:141
 msgid "python.install"
-msgstr ""
+msgstr "python.install"
 
 #: ../../upstream/docs/user/config-file/v2.rst:143
 msgid ""
-"Read the Docs uses :doc:`pip <pip:index>` by default to install your "
-"Python packages. It also supports `uv <https://docs.astral.sh/uv/>`__ "
-"through ``python.install``. If you are using a :ref:`Conda <config-"
-"file/v2:conda>` environment to manage your build, you'll need to use the "
-"Conda ``environment`` file instead. If you have a commercial plan you can"
-" also install :doc:`private dependencies </guides/private-python-"
-"packages>`."
+"Read the Docs uses :doc:`pip <pip:index>` by default to install your Python "
+"packages. It also supports `uv <https://docs.astral.sh/uv/>`__ through "
+"``python.install``. If you are using a :ref:`Conda <config-file/v2:conda>` "
+"environment to manage your build, you'll need to use the Conda "
+"``environment`` file instead. If you have a commercial plan you can also "
+"install :doc:`private dependencies </guides/private-python-packages>`."
 msgstr ""
+"Read the Docs 默认使用 :doc:`pip <pip:index>` 安装 Python 包。也支持通过 "
+"``python.install`` 使用 `uv <https://docs.astral.sh/uv/>`__。如果你使用 :ref:`Conda "
+"<config-file/v2:conda>` 环境管理构建，则需改用 Conda ``environment`` 文件。如果你有商业计划，也可以安装 "
+":doc:`私有依赖 </guides/private-python-packages>`。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:149
 msgid ""
 "List of installation methods of packages and requirements. You can have "
 "several of the following methods."
-msgstr ""
+msgstr "包和依赖的安装方法列表。你可以使用以下多种方法中的几种。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:154
 msgid ""
 "When using ``method: uv``, currently only one entry is allowed under "
 "``python.install``."
-msgstr ""
+msgstr "使用 ``method: uv`` 时，目前 ``python.install`` 下只允许有一个条目。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:160
 msgid "Requirements file"
-msgstr ""
+msgstr "Requirements 文件"
 
 #: ../../upstream/docs/user/config-file/v2.rst:162
 msgid "Install packages from a requirements file."
-msgstr ""
+msgstr "从 requirements 文件安装包。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:164
 msgid "The path to the requirements file, relative to the root of the project."
-msgstr ""
+msgstr "requirements 文件的路径，相对于项目根目录。"
 
 #: ../../upstream/docs/user/config-file/v2.rst
 msgid "Key"
-msgstr ""
+msgstr "键"
 
 #: ../../upstream/docs/user/config-file/v2.rst:166
 #: ../../upstream/docs/user/config-file/v2.rst:257
 msgid "``requirements``"
-msgstr ""
+msgstr "``requirements``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:167
 #: ../../upstream/docs/user/config-file/v2.rst:189
@@ -254,7 +261,7 @@ msgstr ""
 #: ../../upstream/docs/user/config-file/v2.rst:727
 #: ../../upstream/docs/user/config-file/v2.rst:769
 msgid "``path``"
-msgstr ""
+msgstr "``path``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:168
 #: ../../upstream/docs/user/config-file/v2.rst:191
@@ -270,149 +277,151 @@ msgstr ""
 #: ../../upstream/docs/user/config-file/v2.rst:779
 #: ../../upstream/docs/user/config-file/v2.rst:849
 msgid "``false``"
-msgstr ""
+msgstr "``false``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:182
 msgid "Packages"
-msgstr ""
+msgstr "包"
 
 #: ../../upstream/docs/user/config-file/v2.rst:184
 msgid ""
 "Install the project using ``pip install``. The use of ``python setup.py "
 "install`` is deprecated."
-msgstr ""
+msgstr "使用 ``pip install`` 安装项目。不推荐使用 ``python setup.py install``。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:187
 msgid "The path to the package, relative to the root of the project."
-msgstr ""
+msgstr "包的路径，相对于项目根目录。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:193
 msgid "The installation method."
-msgstr ""
+msgstr "安装方法。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:195
 msgid "``method``"
-msgstr ""
+msgstr "``method``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:196
 msgid "``pip``, ``setuptools`` (deprecated), ``uv``"
-msgstr ""
+msgstr "``pip``, ``setuptools`` (已弃用), ``uv``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:197
 msgid "``pip``"
-msgstr ""
+msgstr "``pip``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:199
 msgid ""
 "`Extra requirements`_ section to install in addition to the `package "
 "dependencies`_."
-msgstr ""
+msgstr "`Extra requirements`_ 部分，除 `package dependencies`_ 外额外安装。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:204
 msgid "``extra_requirements``"
-msgstr ""
+msgstr "``extra_requirements``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:208
 msgid "For example, to run ``pip install .[docs]``:"
-msgstr ""
+msgstr "例如，运行 ``pip install .[docs]``："
 
 #: ../../upstream/docs/user/config-file/v2.rst:222
 msgid "uv"
-msgstr ""
+msgstr "uv"
 
 #: ../../upstream/docs/user/config-file/v2.rst:224
 msgid "Install dependencies using `uv <https://docs.astral.sh/uv/>`__."
-msgstr ""
+msgstr "使用 `uv <https://docs.astral.sh/uv/>`__ 安装依赖。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:226
 msgid "Set ``method: uv`` and choose one of the following commands:"
-msgstr ""
+msgstr "设置 ``method: uv`` 并选择以下命令之一："
 
 #: ../../upstream/docs/user/config-file/v2.rst:228
 msgid ""
-"``command: sync`` to run ``uv sync`` using your ``pyproject.toml`` and, "
-"if present, ``uv.lock``"
-msgstr ""
+"``command: sync`` to run ``uv sync`` using your ``pyproject.toml`` and, if "
+"present, ``uv.lock``"
+msgstr "``command: sync`` 运行 ``uv sync``，使用你的 ``pyproject.toml`` 和（若存在）``uv.lock``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:229
 msgid ""
 "``command: pip`` to run ``uv pip install`` from a requirements file or a "
 "local path"
-msgstr ""
+msgstr "``command: pip`` 从 requirements 文件或本地路径运行 ``uv pip install``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:231
 msgid "``command``"
-msgstr ""
+msgstr "``command``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:232
 msgid "``sync``, ``pip``"
-msgstr ""
+msgstr "``sync``, ``pip``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:235
 msgid ""
-"Use ``path`` to point uv at a project that is not located at the "
-"repository root."
-msgstr ""
+"Use ``path`` to point uv at a project that is not located at the repository "
+"root."
+msgstr "使用 ``path`` 指向不在仓库根目录的项目。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:241
 msgid ""
 "With ``command: sync``, you can select dependency groups from "
 "``pyproject.toml``. Use either a list of group names or ``all``."
-msgstr ""
+msgstr "使用 ``command: sync`` 时，可从 ``pyproject.toml`` 选择依赖组。使用组名列表或 ``all``。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:244
 msgid "``groups``"
-msgstr ""
+msgstr "``groups``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:245
 #: ../../upstream/docs/user/config-file/v2.rst:252
 msgid "``list`` or ``all``"
-msgstr ""
+msgstr "``list`` 或 ``all``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:248
 msgid ""
-"With either uv command, you can install optional dependencies. Use either"
-" a list of extras or ``all``."
-msgstr ""
+"With either uv command, you can install optional dependencies. Use either a "
+"list of extras or ``all``."
+msgstr "使用任一 uv 命令均可安装可选依赖。使用 extras 列表或 ``all``。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:251
 msgid "``extras``"
-msgstr ""
+msgstr "``extras``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:255
 msgid "With ``command: pip``, you can install from a requirements file."
-msgstr ""
+msgstr "使用 ``command: pip`` 时，可从 requirements 文件安装。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:263
 msgid ""
-"``command: sync`` doesn't allow ``requirements``. ``command: pip`` "
-"requires either ``requirements`` or ``path``. ``groups`` is only "
-"supported with ``command: sync``."
+"``command: sync`` doesn't allow ``requirements``. ``command: pip`` requires "
+"either ``requirements`` or ``path``. ``groups`` is only supported with "
+"``command: sync``."
 msgstr ""
+"``command: sync`` 不允许 ``requirements``。``command: pip`` 要求 ``requirements`` "
+"或 ``path``。``groups`` 仅支持 ``command: sync``。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:267
 msgid "For example, to run ``uv sync --group docs``:"
-msgstr ""
+msgstr "例如，运行 ``uv sync --group docs``："
 
 #: ../../upstream/docs/user/config-file/v2.rst:280
 msgid "For example, to run ``uv pip install -r docs/requirements.txt``:"
-msgstr ""
+msgstr "例如，运行 ``uv pip install -r docs/requirements.txt``："
 
 #: ../../upstream/docs/user/config-file/v2.rst:292
 msgid "For example, to run ``uv pip install .[docs]``:"
-msgstr ""
+msgstr "例如，运行 ``uv pip install .[docs]``："
 
 #: ../../upstream/docs/user/config-file/v2.rst:307
 msgid "conda"
-msgstr ""
+msgstr "conda"
 
 #: ../../upstream/docs/user/config-file/v2.rst:309
 msgid "Configuration for Conda support."
-msgstr ""
+msgstr "Conda 支持的配置。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:324
 msgid "conda.environment"
-msgstr ""
+msgstr "conda.environment"
 
 #: ../../upstream/docs/user/config-file/v2.rst:326
 msgid ""
@@ -420,37 +429,43 @@ msgid ""
 "<https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-"
 "environments.html>`_, relative to the root of the project."
 msgstr ""
+"Conda `环境文件 <https://conda.io/projects/conda/en/latest/user-guide/tasks"
+"/manage-environments.html>`_ 的路径，相对于项目根目录。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:333
 msgid ""
-"When using Conda, it's required to specify ``build.tools.python`` to tell"
-" Read the Docs to use whether Conda or Mamba to create the environment."
+"When using Conda, it's required to specify ``build.tools.python`` to tell "
+"Read the Docs to use whether Conda or Mamba to create the environment."
 msgstr ""
+"使用 Conda 时，必须指定 ``build.tools.python`` 以告诉 Read the Docs 使用 Conda 还是 Mamba "
+"创建环境。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:336
 msgid "build"
-msgstr ""
+msgstr "build"
 
 #: ../../upstream/docs/user/config-file/v2.rst:338
 msgid ""
 "Configuration for the documentation build process. This allows you to "
-"specify the base Read the Docs image used to build the documentation, and"
-" control the versions of several tools: Python, Node.js, Rust, and Go."
+"specify the base Read the Docs image used to build the documentation, and "
+"control the versions of several tools: Python, Node.js, Rust, and Go."
 msgstr ""
+"文档构建过程的配置。允许你指定用于构建文档的基础 Read the Docs 镜像，并控制多个工具的版本：Python、Node.js、Rust 和 "
+"Go。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:357
 msgid "build.os"
-msgstr ""
+msgstr "build.os"
 
 #: ../../upstream/docs/user/config-file/v2.rst:359
 msgid ""
 "The Docker image used for building the docs. Image names refer to the "
 "operating system Read the Docs uses to build them."
-msgstr ""
+msgstr "用于构建文档的 Docker 镜像。镜像名称指代 Read the Docs 用于构建的操作系统。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:364
 msgid "Arbitrary Docker images are not supported."
-msgstr ""
+msgstr "不支持任意 Docker 镜像。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:366
 #: ../../upstream/docs/user/config-file/v2.rst:410
@@ -460,20 +475,20 @@ msgstr ""
 #: ../../upstream/docs/user/config-file/v2.rst:491
 #: ../../upstream/docs/user/config-file/v2.rst:714
 msgid "``string``"
-msgstr ""
+msgstr "``string``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:367
-msgid ""
-"``ubuntu-22.04``, ``ubuntu-24.04``, ``ubuntu-26.04``, ``ubuntu-lts-"
-"latest``"
-msgstr ""
+msgid "``ubuntu-22.04``, ``ubuntu-24.04``, ``ubuntu-26.04``, ``ubuntu-lts-latest``"
+msgstr "``ubuntu-22.04``, ``ubuntu-24.04``, ``ubuntu-26.04``, ``ubuntu-lts-latest``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:372
 msgid ""
-"The ``ubuntu-lts-latest`` option refers to the latest Ubuntu LTS version "
-"of Ubuntu available on Read the Docs, which may not match the latest "
-"Ubuntu LTS officially released."
+"The ``ubuntu-lts-latest`` option refers to the latest Ubuntu LTS version of "
+"Ubuntu available on Read the Docs, which may not match the latest Ubuntu LTS"
+" officially released."
 msgstr ""
+"``ubuntu-lts-latest`` 选项指代 Read the Docs 上可用的最新 Ubuntu LTS 版本，可能与官方发布的最新 "
+"Ubuntu LTS 不一致。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:377
 msgid ""
@@ -481,101 +496,106 @@ msgid ""
 "project isn't compatible with the newest Ubuntu LTS version when it's "
 "updated by Read the Docs."
 msgstr ""
+"如果项目与 Read the Docs 更新时的最新 Ubuntu LTS 版本不兼容，使用 ``ubuntu-lts-latest`` "
+"可能导致构建意外失败。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:380
 msgid "build.tools"
-msgstr ""
+msgstr "build.tools"
 
 #: ../../upstream/docs/user/config-file/v2.rst:382
 msgid "Version specifiers for each tool. It must contain at least one tool."
-msgstr ""
+msgstr "每个工具的版本说明符。必须至少包含一种工具。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:384
 #: ../../upstream/docs/user/config-file/v2.rst:575
 #: ../../upstream/docs/user/config-file/v2.rst:616
 msgid "``dict``"
-msgstr ""
+msgstr "``dict``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:385
 msgid "``python``, ``nodejs``, ``ruby``, ``rust``, ``golang``"
-msgstr ""
+msgstr "``python``, ``nodejs``, ``ruby``, ``rust``, ``golang``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:390
 msgid ""
 "Each tool has a ``latest`` option available, which refers to the latest "
-"version available on Read the Docs, which may not match the latest "
-"version officially released. Versions and the ``latest`` option are "
-"updated at least once every six months to keep up with the latest "
-"releases."
+"version available on Read the Docs, which may not match the latest version "
+"officially released. Versions and the ``latest`` option are updated at least"
+" once every six months to keep up with the latest releases."
 msgstr ""
+"每种工具都有 ``latest`` 选项，指代 Read the Docs 上可用的最新版本，可能与官方最新发布版本不一致。版本和 ``latest``"
+" 选项至少每六个月更新一次，以跟进最新发布。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:396
 msgid ""
-"Using ``latest`` may break your builds unexpectedly if your project isn't"
-" compatible with the newest version of the tool when it's updated by Read"
-" the Docs."
-msgstr ""
+"Using ``latest`` may break your builds unexpectedly if your project isn't "
+"compatible with the newest version of the tool when it's updated by Read the"
+" Docs."
+msgstr "如果项目与 Read the Docs 更新时的工具最新版本不兼容，使用 ``latest`` 可能导致构建意外失败。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:399
 msgid "build.tools.python"
-msgstr ""
+msgstr "build.tools.python"
 
 #: ../../upstream/docs/user/config-file/v2.rst:401
 msgid ""
-"Python version to use. You can use several interpreters and versions, "
-"from CPython, Miniconda, and Mamba."
-msgstr ""
+"Python version to use. You can use several interpreters and versions, from "
+"CPython, Miniconda, and Mamba."
+msgstr "要使用的 Python 版本。可使用多种解释器和版本，包括 CPython、Miniconda 和 Mamba。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:406
 msgid ""
-"If you use Miniconda3 or Mambaforge, you can select the Python version "
-"using the ``environment.yml`` file. See our :doc:`/guides/conda` guide "
-"for more information."
+"If you use Miniconda3 or Mambaforge, you can select the Python version using"
+" the ``environment.yml`` file. See our :doc:`/guides/conda` guide for more "
+"information."
 msgstr ""
+"如果你使用 Miniconda3 或 Mambaforge，可通过 ``environment.yml`` 文件选择 Python "
+"版本。更多信息请参阅我们的 :doc:`/guides/conda` 指南。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:412
 msgid "``2.7``"
-msgstr ""
+msgstr "``2.7``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:413
 msgid "``3`` (alias for the latest 3.x version available on Read the Docs)"
-msgstr ""
+msgstr "``3``（Read the Docs 上可用的最新 3.x 版本的别名）"
 
 #: ../../upstream/docs/user/config-file/v2.rst:414
 msgid "``3.6``"
-msgstr ""
+msgstr "``3.6``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:415
 msgid "``3.7``"
-msgstr ""
+msgstr "``3.7``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:416
 msgid "``3.8``"
-msgstr ""
+msgstr "``3.8``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:417
 msgid "``3.9``"
-msgstr ""
+msgstr "``3.9``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:418
 msgid "``3.10``"
-msgstr ""
+msgstr "``3.10``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:419
 msgid "``3.11``"
-msgstr ""
+msgstr "``3.11``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:420
 msgid "``3.12``"
-msgstr ""
+msgstr "``3.12``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:421
 msgid "``3.13``"
-msgstr ""
+msgstr "``3.13``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:422
 msgid "``3.14``"
-msgstr ""
+msgstr "``3.14``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:423
 #: ../../upstream/docs/user/config-file/v2.rst:453
@@ -583,287 +603,299 @@ msgstr ""
 #: ../../upstream/docs/user/config-file/v2.rst:484
 #: ../../upstream/docs/user/config-file/v2.rst:503
 msgid "``latest`` (alias for the latest version available on Read the Docs)"
-msgstr ""
+msgstr "``latest``（Read the Docs 上可用的最新版本的别名）"
 
 #: ../../upstream/docs/user/config-file/v2.rst:424
 msgid "``miniconda3-4.7``"
-msgstr ""
+msgstr "``miniconda3-4.7``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:425
 msgid "``miniconda3-3.12-24.1``"
-msgstr ""
+msgstr "``miniconda3-3.12-24.1``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:426
 msgid "``miniconda3-3.12-24.9``"
-msgstr ""
+msgstr "``miniconda3-3.12-24.9``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:427
 msgid ""
 "``miniconda-latest`` (alias for the latest version available on Read the "
 "Docs)"
-msgstr ""
+msgstr "``miniconda-latest``（Read the Docs 上可用的最新版本的别名）"
 
 #: ../../upstream/docs/user/config-file/v2.rst:428
 msgid "``mambaforge-4.10`` (deprecated)"
-msgstr ""
+msgstr "``mambaforge-4.10`` (已弃用)"
 
 #: ../../upstream/docs/user/config-file/v2.rst:429
 msgid "``mambaforge-22.9`` (deprecated)"
-msgstr ""
+msgstr "``mambaforge-22.9`` (已弃用)"
 
 #: ../../upstream/docs/user/config-file/v2.rst:430
 msgid "``mambaforge-23.11`` (deprecated)"
-msgstr ""
+msgstr "``mambaforge-23.11`` (已弃用)"
 
 #: ../../upstream/docs/user/config-file/v2.rst:431
 msgid ""
-"``mambaforge-latest`` (deprecated - alias for the latest version "
-"available on Read the Docs)"
-msgstr ""
+"``mambaforge-latest`` (deprecated - alias for the latest version available "
+"on Read the Docs)"
+msgstr "``mambaforge-latest`` (已弃用 - Read the Docs 上可用最新版本的别名)"
 
 #: ../../upstream/docs/user/config-file/v2.rst:432
 msgid "``miniforge3-25.11``"
-msgstr ""
+msgstr "``miniforge3-25.11``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:433
 msgid "``miniforge3-26.3``"
-msgstr ""
+msgstr "``miniforge3-26.3``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:434
 msgid ""
-"``miniforge3-latest`` (alias for the latest version available on Read the"
-" Docs)"
-msgstr ""
+"``miniforge3-latest`` (alias for the latest version available on Read the "
+"Docs)"
+msgstr "``miniforge3-latest``（Read the Docs 上可用的最新版本的别名）"
 
 #: ../../upstream/docs/user/config-file/v2.rst:437
 msgid "build.tools.nodejs"
-msgstr ""
+msgstr "build.tools.nodejs"
 
 #: ../../upstream/docs/user/config-file/v2.rst:439
 msgid "Node.js version to use."
-msgstr ""
+msgstr "要使用的 Node.js 版本。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:443
 msgid "``14``"
-msgstr ""
+msgstr "``14``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:444
 msgid "``16``"
-msgstr ""
+msgstr "``16``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:445
 msgid "``18``"
-msgstr ""
+msgstr "``18``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:446
 msgid "``19``"
-msgstr ""
+msgstr "``19``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:447
 msgid "``20``"
-msgstr ""
+msgstr "``20``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:448
 msgid "``22``"
-msgstr ""
+msgstr "``22``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:449
 msgid "``23``"
-msgstr ""
+msgstr "``23``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:450
 msgid "``24``"
-msgstr ""
+msgstr "``24``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:451
 msgid "``25``"
-msgstr ""
+msgstr "``25``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:452
 msgid "``26``"
-msgstr ""
+msgstr "``26``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:456
 msgid "build.tools.ruby"
-msgstr ""
+msgstr "build.tools.ruby"
 
 #: ../../upstream/docs/user/config-file/v2.rst:458
 msgid "Ruby version to use."
-msgstr ""
+msgstr "要使用的 Ruby 版本。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:462
 msgid "``3.3``"
-msgstr ""
+msgstr "``3.3``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:463
 msgid "``3.4``"
-msgstr ""
+msgstr "``3.4``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:464
 msgid "``4.0``"
-msgstr ""
+msgstr "``4.0``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:468
 msgid "build.tools.rust"
-msgstr ""
+msgstr "build.tools.rust"
 
 #: ../../upstream/docs/user/config-file/v2.rst:470
 msgid "Rust version to use."
-msgstr ""
+msgstr "要使用的 Rust 版本。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:474
 msgid "``1.55``"
-msgstr ""
+msgstr "``1.55``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:475
 msgid "``1.61``"
-msgstr ""
+msgstr "``1.61``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:476
 msgid "``1.64``"
-msgstr ""
+msgstr "``1.64``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:477
 msgid "``1.70``"
-msgstr ""
+msgstr "``1.70``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:478
 msgid "``1.75``"
-msgstr ""
+msgstr "``1.75``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:479
 msgid "``1.78``"
-msgstr ""
+msgstr "``1.78``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:480
 msgid "``1.82``"
-msgstr ""
+msgstr "``1.82``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:481
 msgid "``1.86``"
-msgstr ""
+msgstr "``1.86``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:482
 msgid "``1.91``"
-msgstr ""
+msgstr "``1.91``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:483
 msgid "``1.96``"
-msgstr ""
+msgstr "``1.96``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:487
 msgid "build.tools.golang"
-msgstr ""
+msgstr "build.tools.golang"
 
 #: ../../upstream/docs/user/config-file/v2.rst:489
 msgid "Go version to use."
-msgstr ""
+msgstr "要使用的 Go 版本。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:493
 msgid "``1.17``"
-msgstr ""
+msgstr "``1.17``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:494
 msgid "``1.18``"
-msgstr ""
+msgstr "``1.18``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:495
 msgid "``1.19``"
-msgstr ""
+msgstr "``1.19``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:496
 msgid "``1.20``"
-msgstr ""
+msgstr "``1.20``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:497
 msgid "``1.21``"
-msgstr ""
+msgstr "``1.21``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:498
 msgid "``1.22``"
-msgstr ""
+msgstr "``1.22``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:499
 msgid "``1.23``"
-msgstr ""
+msgstr "``1.23``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:500
 msgid "``1.24``"
-msgstr ""
+msgstr "``1.24``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:501
 msgid "``1.25``"
-msgstr ""
+msgstr "``1.25``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:502
 msgid "``1.26``"
-msgstr ""
+msgstr "``1.26``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:506
 msgid "build.apt_packages"
-msgstr ""
+msgstr "build.apt_packages"
 
 #: ../../upstream/docs/user/config-file/v2.rst:508
 msgid ""
-"List of `APT packages`_ to install. Our build servers run various Ubuntu "
-"LTS versions with the default set of package repositories installed. We "
-"don't currently support PPA's or other custom repositories."
+"List of `APT packages`_ to install. Our build servers run various Ubuntu LTS"
+" versions with the default set of package repositories installed. We don't "
+"currently support PPA's or other custom repositories."
 msgstr ""
+"要安装的 `APT packages`_ 列表。我们的构建服务器运行各种 Ubuntu LTS 版本，安装了默认的包仓库。目前不支持 PPA "
+"或其他自定义仓库。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:528
 msgid ""
-"When possible avoid installing Python packages using apt "
-"(``python3-numpy`` for example), :doc:`use pip or conda instead </guides"
-"/reproducible-builds>`."
+"When possible avoid installing Python packages using apt (``python3-numpy`` "
+"for example), :doc:`use pip or conda instead </guides/reproducible-builds>`."
 msgstr ""
+"尽可能避免使用 apt 安装 Python 包（例如 ``python3-numpy``），请 :doc:`改用 pip 或 conda "
+"</guides/reproducible-builds>`。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:533
 msgid ""
 "Currently, it's not possible to use this option when using :ref:`config-"
 "file/v2:build.commands`."
-msgstr ""
+msgstr "使用 :ref:`config-file/v2:build.commands` 时，目前无法使用此选项。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:537
 msgid "build.jobs"
-msgstr ""
+msgstr "build.jobs"
 
 #: ../../upstream/docs/user/config-file/v2.rst:539
 msgid ""
-"Commands to be run before or after a Read the Docs :term:`pre-defined "
-"build jobs`, or to override a specific job. This allows you to run custom"
-" commands at a particular moment in the build process. See :doc:`/build-"
+"Commands to be run before or after a Read the Docs :term:`pre-defined build "
+"jobs`, or to override a specific job. This allows you to run custom commands"
+" at a particular moment in the build process. See :doc:`/build-"
 "customization` for more details."
 msgstr ""
+"在 Read the Docs :term:`pre-defined build jobs` "
+"之前或之后运行命令，或覆盖特定任务。这允许你在构建过程的特定时刻运行自定义命令。详情请参阅 :doc:`/build-customization`。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:561
 msgid ""
-"Each build step consists of a list of commands to be executed. "
-"``build.os`` and ``build.tools`` are also required to use ``build.jobs``."
-msgstr ""
+"Each build step consists of a list of commands to be executed. ``build.os`` "
+"and ``build.tools`` are also required to use ``build.jobs``."
+msgstr "每个构建步骤包含一组要执行的命令。使用 ``build.jobs`` 也需要 ``build.os`` 和 ``build.tools``。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:566
 msgid ""
-"If the :ref:`config-file/v2:sphinx` or  :ref:`config-file/v2:mkdocs` keys"
-" are present in the configuration file, the default steps for each tool "
-"will be executed for the ``create_environment``, ``install``, and "
-"``build`` steps. You can override any of these steps, but be aware that "
-"some steps may depend on others, for example, the default ``install`` and"
-" ``build`` steps depend on the ``create_environment`` step creating the "
-"Python virtual environment in a specific directory."
+"If the :ref:`config-file/v2:sphinx` or  :ref:`config-file/v2:mkdocs` keys "
+"are present in the configuration file, the default steps for each tool will "
+"be executed for the ``create_environment``, ``install``, and ``build`` "
+"steps. You can override any of these steps, but be aware that some steps may"
+" depend on others, for example, the default ``install`` and ``build`` steps "
+"depend on the ``create_environment`` step creating the Python virtual "
+"environment in a specific directory."
 msgstr ""
+"如果配置文件中包含 :ref:`config-file/v2:sphinx` 或 :ref:`config-file/v2:mkdocs` 键，则会为 "
+"``create_environment``、``install`` 和 ``build`` "
+"步骤执行各工具的默认步骤。你可以覆盖这些步骤中的任意一个，但请注意某些步骤可能依赖其他步骤，例如默认的 ``install`` 和 ``build`` "
+"步骤依赖 ``create_environment`` 步骤在特定目录创建 Python 虚拟环境。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:571
 msgid ""
 "If neither of the ``sphinx`` or ``mkdocs`` keys are present in the "
 "configuration file, only the specified ``build.tools`` and "
-"``build.apt_packages`` will be installed, you will in charge of "
-"generating the documentation in the :ref:`$READTHEDOCS_OUTPUT <build-"
+"``build.apt_packages`` will be installed, you will in charge of generating "
+"the documentation in the :ref:`$READTHEDOCS_OUTPUT <build-"
 "customization:where to put files>` directory."
 msgstr ""
+"如果配置文件中既没有 ``sphinx`` 也没有 ``mkdocs`` 键，则仅安装指定的 ``build.tools`` 和 "
+"``build.apt_packages``，你需要负责在 :ref:`$READTHEDOCS_OUTPUT <build-"
+"customization:where to put files>` 目录中生成文档。"
 
 #: ../../upstream/docs/user/config-file/v2.rst
 msgid "Allowed keys"
-msgstr ""
+msgstr "允许的键"
 
 #: ../../upstream/docs/user/config-file/v2.rst:576
 msgid ""
@@ -872,33 +904,39 @@ msgid ""
 "``create_environment``, ``post_create_environment``, ``pre_install``, "
 "``post_install``, ``pre_build``, ``build``, ``post_build``"
 msgstr ""
+"``post_checkout``, ``pre_system_dependencies``, "
+"``post_system_dependencies``, ``pre_create_environment``, "
+"``create_environment``, ``post_create_environment``, ``pre_install``, "
+"``post_install``, ``pre_build``, ``build``, ``post_build``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:580
 #: ../../upstream/docs/user/config-file/v2.rst:619
 #: ../../upstream/docs/user/config-file/v2.rst:877
 #, python-brace-format
 msgid "``{}``"
-msgstr ""
+msgstr "``{}``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:583
 msgid "build.jobs.build"
-msgstr ""
+msgstr "build.jobs.build"
 
 #: ../../upstream/docs/user/config-file/v2.rst:585
 msgid ""
 "Commands to override the default build process. When running builds from "
 "pull requests, only the ``html`` step will be executed."
-msgstr ""
+msgstr "覆盖默认构建过程的命令。运行 Pull Request 构建时，仅执行 ``html`` 步骤。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:617
 msgid "``html``, ``pdf``, ``epub``, ``htmlzip``"
-msgstr ""
+msgstr "``html``, ``pdf``, ``epub``, ``htmlzip``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:623
 msgid ""
-"If any of the ``pdf``, ``epub``, or ``htmlzip`` steps are overridden, "
-"they should be included in the :ref:`config-file/v2:formats` list."
+"If any of the ``pdf``, ``epub``, or ``htmlzip`` steps are overridden, they "
+"should be included in the :ref:`config-file/v2:formats` list."
 msgstr ""
+"如果覆盖了 ``pdf``、``epub`` 或 ``htmlzip`` 步骤，应将它们包含在 :ref:`config-"
+"file/v2:formats` 列表中。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:628
 msgid ""
@@ -906,143 +944,161 @@ msgid ""
 ":ref:`$READTHEDOCS_OUTPUT <build-customization:where to put files>` "
 "directory."
 msgstr ""
+"每种格式都需要在 :ref:`$READTHEDOCS_OUTPUT <build-customization:where to put files>`"
+" 目录中生成输出。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:631
 msgid "build.commands"
-msgstr ""
+msgstr "build.commands"
 
 #: ../../upstream/docs/user/config-file/v2.rst:633
 msgid ""
-"Specify a list of commands that Read the Docs will run on the build "
-"process. When ``build.commands`` is used, none of the :term:`pre-defined "
-"build jobs` will be executed."
+"Specify a list of commands that Read the Docs will run on the build process."
+" When ``build.commands`` is used, none of the :term:`pre-defined build jobs`"
+" will be executed."
 msgstr ""
+"指定 Read the Docs 在构建过程中运行的命令列表。使用 ``build.commands`` 时，不会执行任何 :term:`pre-"
+"defined build jobs`。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:648
 msgid "But we recommend using :ref:`config-file/v2:build.jobs` instead:"
-msgstr ""
+msgstr "但我们建议改用 :ref:`config-file/v2:build.jobs`："
 
 #: ../../upstream/docs/user/config-file/v2.rst:665
 msgid ""
-"``build.jobs`` offers the same functionality as ``build.commands``, but "
-"in a more structured way that allows you to define different commands for"
-" each format, while also supporting installing system dependencies via "
+"``build.jobs`` offers the same functionality as ``build.commands``, but in a"
+" more structured way that allows you to define different commands for each "
+"format, while also supporting installing system dependencies via "
 "``build.apt_packages``. See :doc:`/build-customization` for more details."
 msgstr ""
+"``build.jobs`` 提供与 ``build.commands`` 相同的功能，但以更结构化的方式，允许为每种格式定义不同的命令，同时支持通过 "
+"``build.apt_packages`` 安装系统依赖。详情请参阅 :doc:`/build-customization`。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:672
 msgid ""
 "``build.os`` and ``build.tools`` are also required when using "
 "``build.commands``."
-msgstr ""
+msgstr "使用 ``build.commands`` 时也需要 ``build.os`` 和 ``build.tools``。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:676
 msgid ""
 "All items in the ``build.commands`` array are executed in a clean shell "
 "environment, i.e. environment changes do not persist and the working "
 "directory always start from the git repo."
-msgstr ""
+msgstr "``build.commands`` 数组中的所有项目都在干净的 shell 环境中执行，即环境变化不持久化，工作目录始终从 git 仓库开始。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:685
 msgid "sphinx"
-msgstr ""
+msgstr "sphinx"
 
 #: ../../upstream/docs/user/config-file/v2.rst:687
 msgid "Configuration for Sphinx documentation."
-msgstr ""
+msgstr "Sphinx 文档的配置。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:699
 msgid ""
-"If you want to pin Sphinx to a specific version, use a "
-"``requirements.txt`` or ``environment.yml`` file (see :ref:`config-"
-"file/v2:requirements file` and  :ref:`config-file/v2:conda.environment`)."
-" If you are using a metadata file to describe code dependencies like "
-"``setup.py``, ``pyproject.toml``, or similar, you can use the "
-"``extra_requirements`` option (see :ref:`config-file/v2:packages`). This "
-"also allows you to override :ref:`the default pinning done by Read the "
-"Docs if your project was created before October 2020 <build-default-"
-"versions:external dependencies>`."
+"If you want to pin Sphinx to a specific version, use a ``requirements.txt`` "
+"or ``environment.yml`` file (see :ref:`config-file/v2:requirements file` and"
+"  :ref:`config-file/v2:conda.environment`). If you are using a metadata file"
+" to describe code dependencies like ``setup.py``, ``pyproject.toml``, or "
+"similar, you can use the ``extra_requirements`` option (see :ref:`config-"
+"file/v2:packages`). This also allows you to override :ref:`the default "
+"pinning done by Read the Docs if your project was created before October "
+"2020 <build-default-versions:external dependencies>`."
 msgstr ""
+"如果要将 Sphinx 固定到特定版本，请使用 ``requirements.txt`` 或 ``environment.yml`` 文件（参见 "
+":ref:`config-file/v2:requirements file` 和 :ref:`config-"
+"file/v2:conda.environment`）。如果你使用 ``setup.py``、``pyproject.toml`` "
+"等元数据文件描述代码依赖，可以使用 ``extra_requirements`` 选项（参见 :ref:`config-"
+"file/v2:packages`）。这也允许你覆盖 :ref:`Read the Docs 为 2020 年 10 月前创建的项目所做的默认固定 "
+"<build-default-versions:external dependencies>`。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:710
 msgid "sphinx.builder"
-msgstr ""
+msgstr "sphinx.builder"
 
 #: ../../upstream/docs/user/config-file/v2.rst:712
 msgid "The builder type for the Sphinx documentation."
-msgstr ""
+msgstr "Sphinx 文档的构建器类型。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:715
 msgid "``html``, ``dirhtml``, ``singlehtml``"
-msgstr ""
+msgstr "``html``, ``dirhtml``, ``singlehtml``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:716
 msgid "``html``"
-msgstr ""
+msgstr "``html``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:719
 msgid ""
-"The ``htmldir`` builder option was renamed to ``dirhtml`` to use the same"
-" name as sphinx. Configurations using the old name will continue working."
-msgstr ""
+"The ``htmldir`` builder option was renamed to ``dirhtml`` to use the same "
+"name as sphinx. Configurations using the old name will continue working."
+msgstr "``htmldir`` 构建器选项已重命名为 ``dirhtml``，以与 sphinx 使用相同名称。使用旧名称的配置将继续工作。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:723
 msgid "sphinx.configuration"
-msgstr ""
+msgstr "sphinx.configuration"
 
 #: ../../upstream/docs/user/config-file/v2.rst:725
 msgid "The path to the ``conf.py`` file, relative to the root of the project."
-msgstr ""
+msgstr "``conf.py`` 文件的路径，相对于项目根目录。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:731
 msgid "sphinx.fail_on_warning"
-msgstr ""
+msgstr "sphinx.fail_on_warning"
 
 #: ../../upstream/docs/user/config-file/v2.rst:733
 msgid ""
-"Turn warnings into errors (:option:`-W <sphinx:sphinx-build.-W>` and "
-":option:`--keep-going <sphinx:sphinx-build.--keep-going>` options). This "
-"means the build fails if there is a warning and exits with exit status 1."
+"Turn warnings into errors (:option:`-W <sphinx:sphinx-build.-W>` and :option"
+":`--keep-going <sphinx:sphinx-build.--keep-going>` options). This means the "
+"build fails if there is a warning and exits with exit status 1."
 msgstr ""
+"将警告转为错误（:option:`-W <sphinx:sphinx-build.-W>` 和 :option:`--keep-going "
+"<sphinx:sphinx-build.--keep-going>` 选项）。这意味着构建若有警告即失败，退出状态为 1。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:737
 #: ../../upstream/docs/user/config-file/v2.rst:778
 #: ../../upstream/docs/user/config-file/v2.rst:848
 msgid "``bool``"
-msgstr ""
+msgstr "``bool``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:741
 msgid "mkdocs"
-msgstr ""
+msgstr "mkdocs"
 
 #: ../../upstream/docs/user/config-file/v2.rst:743
 msgid "Configuration for MkDocs documentation."
-msgstr ""
+msgstr "MkDocs 文档的配置。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:754
 msgid ""
-"If you want to pin MkDocs to a specific version, use a "
-"``requirements.txt`` or ``environment.yml`` file (see :ref:`config-"
-"file/v2:requirements file` and  :ref:`config-file/v2:conda.environment`)."
-" If you are using a metadata file to describe code dependencies like "
-"``setup.py``, ``pyproject.toml``, or similar, you can use the "
-"``extra_requirements`` option (see :ref:`config-file/v2:packages`). This "
-"also allows you to override :ref:`the default pinning done by Read the "
-"Docs if your project was created before March 2021 <build-default-"
-"versions:external dependencies>`."
+"If you want to pin MkDocs to a specific version, use a ``requirements.txt`` "
+"or ``environment.yml`` file (see :ref:`config-file/v2:requirements file` and"
+"  :ref:`config-file/v2:conda.environment`). If you are using a metadata file"
+" to describe code dependencies like ``setup.py``, ``pyproject.toml``, or "
+"similar, you can use the ``extra_requirements`` option (see :ref:`config-"
+"file/v2:packages`). This also allows you to override :ref:`the default "
+"pinning done by Read the Docs if your project was created before March 2021 "
+"<build-default-versions:external dependencies>`."
 msgstr ""
+"如果要将 MkDocs 固定到特定版本，请使用 ``requirements.txt`` 或 ``environment.yml`` 文件（参见 "
+":ref:`config-file/v2:requirements file` 和 :ref:`config-"
+"file/v2:conda.environment`）。如果你使用 ``setup.py``、``pyproject.toml`` "
+"等元数据文件描述代码依赖，可使用 ``extra_requirements`` 选项（参见 :ref:`config-"
+"file/v2:packages`）。这也允许你覆盖 :ref:`Read the Docs 为 2021 年 3 月前创建的项目所做的默认固定 "
+"<build-default-versions:external dependencies>`。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:765
 msgid "mkdocs.configuration"
-msgstr ""
+msgstr "mkdocs.configuration"
 
 #: ../../upstream/docs/user/config-file/v2.rst:767
 msgid "The path to the ``mkdocs.yml`` file, relative to the root of the project."
-msgstr ""
+msgstr "``mkdocs.yml`` 文件的路径，相对于项目根目录。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:773
 msgid "mkdocs.fail_on_warning"
-msgstr ""
+msgstr "mkdocs.fail_on_warning"
 
 #: ../../upstream/docs/user/config-file/v2.rst:775
 msgid ""
@@ -1050,161 +1106,167 @@ msgid ""
 "guide/configuration/#strict>`__. This means that the build stops at the "
 "first warning and exits with exit status 1."
 msgstr ""
+"`将警告转为错误 <https://www.mkdocs.org/user-"
+"guide/configuration/#strict>`__。这意味着构建在第一个警告时停止，退出状态为 1。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:782
 msgid "submodules"
-msgstr ""
+msgstr "submodules"
 
 #: ../../upstream/docs/user/config-file/v2.rst:784
 msgid "VCS submodules configuration."
-msgstr ""
+msgstr "VCS 子模块配置。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:788
 msgid "Only Git is supported at the moment."
-msgstr ""
+msgstr "目前仅支持 Git。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:792
 msgid ""
 "You can't use ``include`` and ``exclude`` settings for submodules at the "
 "same time."
-msgstr ""
+msgstr "不能同时对子模块使用 ``include`` 和 ``exclude`` 设置。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:805
 msgid "submodules.include"
-msgstr ""
+msgstr "submodules.include"
 
 #: ../../upstream/docs/user/config-file/v2.rst:807
 msgid "List of submodules to be included."
-msgstr ""
+msgstr "要包含的子模块列表。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:814
 msgid "You can use the ``all`` keyword to include all submodules."
-msgstr ""
+msgstr "可使用 ``all`` 关键字包含所有子模块。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:824
 msgid "submodules.exclude"
-msgstr ""
+msgstr "submodules.exclude"
 
 #: ../../upstream/docs/user/config-file/v2.rst:826
 msgid "List of submodules to be excluded."
-msgstr ""
+msgstr "要排除的子模块列表。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:833
 msgid ""
-"You can use the ``all`` keyword to exclude all submodules. This is the "
-"same as ``include: []``."
-msgstr ""
+"You can use the ``all`` keyword to exclude all submodules. This is the same "
+"as ``include: []``."
+msgstr "可使用 ``all`` 关键字排除所有子模块。这等同于 ``include: []``。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:844
 msgid "submodules.recursive"
-msgstr ""
+msgstr "submodules.recursive"
 
 #: ../../upstream/docs/user/config-file/v2.rst:846
 msgid "Do a recursive clone of the submodules."
-msgstr ""
+msgstr "递归克隆子模块。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:853
 msgid "This is ignored if there aren't submodules to clone."
-msgstr ""
+msgstr "如果没有要克隆的子模块，此项将被忽略。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:856
 msgid "search"
-msgstr ""
+msgstr "search"
 
 #: ../../upstream/docs/user/config-file/v2.rst:858
 msgid "Settings for more control over :doc:`/server-side-search/index`."
-msgstr ""
+msgstr "用于更精细控制 :doc:`/server-side-search/index` 的设置。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:872
 msgid "search.ranking"
-msgstr ""
+msgstr "search.ranking"
 
 #: ../../upstream/docs/user/config-file/v2.rst:874
 msgid "Set a custom search rank over pages matching a pattern."
-msgstr ""
+msgstr "为匹配模式的页面设置自定义搜索排名。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:876
 msgid "``map`` of patterns to ranks"
-msgstr ""
+msgstr "模式到排名的 ``map``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:879
 #: ../../upstream/docs/user/config-file/v2.rst:930
 msgid ""
-"Patterns are matched against the relative paths of the HTML files "
-"produced by the build, you should try to match ``index.html``, not "
-"``docs/index.rst``, nor ``/en/latest/index.html``. Patterns can include "
-"one or more of the following special characters:"
+"Patterns are matched against the relative paths of the HTML files produced "
+"by the build, you should try to match ``index.html``, not "
+"``docs/index.rst``, nor ``/en/latest/index.html``. Patterns can include one "
+"or more of the following special characters:"
 msgstr ""
+"模式与构建生成的 HTML 文件的相对路径匹配，应尝试匹配 ``index.html``，而非 ``docs/index.rst`` 或 "
+"``/en/latest/index.html``。模式可包含以下一个或多个特殊字符："
 
 #: ../../upstream/docs/user/config-file/v2.rst:883
 msgid "``*`` matches everything, including slashes."
-msgstr ""
+msgstr "``*`` 匹配所有内容，包括斜杠。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:884
 #: ../../upstream/docs/user/config-file/v2.rst:935
 msgid "``?`` matches any single character."
-msgstr ""
+msgstr "``?`` 匹配任意单个字符。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:885
 #: ../../upstream/docs/user/config-file/v2.rst:936
 msgid "``[seq]`` matches any character in ``seq``."
-msgstr ""
+msgstr "``[seq]`` 匹配 ``seq`` 中的任意字符。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:887
 msgid ""
-"The rank can be an integer number between -10 and 10 (inclusive). Pages "
-"with a rank closer to -10 will appear further down the list of results, "
-"and pages with a rank closer to 10 will appear higher in the list of "
-"results. Note that 0 means *normal rank*, not *no rank*."
+"The rank can be an integer number between -10 and 10 (inclusive). Pages with"
+" a rank closer to -10 will appear further down the list of results, and "
+"pages with a rank closer to 10 will appear higher in the list of results. "
+"Note that 0 means *normal rank*, not *no rank*."
 msgstr ""
+"排名可以是 -10 到 10 之间的整数（含边界）。排名越接近 -10 的页面在结果中越靠后，越接近 10 的越靠前。注意 0 "
+"表示*正常排名*，而非*无排名*。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:892
 msgid ""
 "If you are looking to completely ignore a page, check :ref:`config-"
 "file/v2:search.ignore`."
-msgstr ""
+msgstr "如果想完全忽略某页面，请参阅 :ref:`config-file/v2:search.ignore`。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:914
 msgid "The final rank will be the last pattern to match the page."
-msgstr ""
+msgstr "最终排名将取匹配该页面的最后一个模式。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:918
 msgid ""
-"Is better to decrease the rank of pages you want to deprecate, rather "
-"than increasing the rank of the other pages."
-msgstr ""
+"Is better to decrease the rank of pages you want to deprecate, rather than "
+"increasing the rank of the other pages."
+msgstr "最好降低想废弃页面的排名，而不是提高其他页面的排名。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:922
 msgid "search.ignore"
-msgstr ""
+msgstr "search.ignore"
 
 #: ../../upstream/docs/user/config-file/v2.rst:924
 msgid ""
 "List of paths to ignore and exclude from the search index. Paths matched "
 "will not be included in search results."
-msgstr ""
+msgstr "要忽略并从搜索索引中排除的路径列表。匹配的路径不会包含在搜索结果中。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:927
 msgid "``list`` of patterns"
-msgstr ""
+msgstr "模式的 ``list``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:928
 msgid "``['search.html', 'search/index.html', '404.html', '404/index.html']``"
-msgstr ""
+msgstr "``['search.html', 'search/index.html', '404.html', '404/index.html']``"
 
 #: ../../upstream/docs/user/config-file/v2.rst:934
 msgid "``*`` matches everything (including slashes)."
-msgstr ""
+msgstr "``*`` 匹配所有内容（包括斜杠）。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:973
 msgid ""
-"Since Read the Docs fallbacks to the original search engine when no "
-"results are found, you may still see search results from ignored pages."
-msgstr ""
+"Since Read the Docs fallbacks to the original search engine when no results "
+"are found, you may still see search results from ignored pages."
+msgstr "由于 Read the Docs 在未找到结果时会回退到原始搜索引擎，你可能仍会看到来自被忽略页面的搜索结果。"
 
 #: ../../upstream/docs/user/config-file/v2.rst:977
 msgid "Schema"
-msgstr ""
+msgstr "Schema"
 
 #: ../../upstream/docs/user/config-file/v2.rst:979
 msgid ""
@@ -1213,4 +1275,7 @@ msgid ""
 " This schema is available at `Schema Store`_, use it with your favorite "
 "editor for validation and autocompletion."
 msgstr ""
+"你可以 `在此 "
+"<https://github.com/readthedocs/readthedocs.org/blob/main/readthedocs/rtd_tests/fixtures/spec/v2/schema.json>`_"
+" 查看完整 schema。该 schema 可在 `Schema Store`_ 获取，可配合你常用的编辑器用于验证和自动补全。"
 

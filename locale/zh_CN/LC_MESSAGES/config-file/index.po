@@ -22,314 +22,325 @@ msgstr ""
 
 #: ../../upstream/docs/user/config-file/index.rst:2
 msgid "Configuration file overview"
-msgstr ""
+msgstr "配置文件概览"
 
 #: ../../upstream/docs/user/config-file/index.rst:4
 msgid ""
-"As part of the initial set up of a Read the Docs project, you need to "
-"create a **configuration file** called ``.readthedocs.yaml``. The "
-"configuration file tells Read the Docs what specific settings to use for "
-"your project."
+"As part of the initial set up of a Read the Docs project, you need to create"
+" a **configuration file** called ``.readthedocs.yaml``. The configuration "
+"file tells Read the Docs what specific settings to use for your project."
 msgstr ""
+"作为 Read the Docs 项目初始设置的一部分，你需要创建一个名为 ``.readthedocs.yaml`` 的**配置文件**。配置文件告诉"
+" Read the Docs 为你的项目使用哪些特定设置。"
 
 #: ../../upstream/docs/user/config-file/index.rst:8
 msgid "This tutorial covers:"
-msgstr ""
+msgstr "本教程涵盖："
 
 #: ../../upstream/docs/user/config-file/index.rst:15
 msgid "Where to put your configuration file"
-msgstr ""
+msgstr "配置文件放置位置"
 
 #: ../../upstream/docs/user/config-file/index.rst:17
 msgid ""
-"The ``.readthedocs.yaml`` file should be placed in the top-most directory"
-" of your project's repository. When you have changed the configuration "
-"file, you need to commit and push the changes to your Git repository. "
-"Read the Docs will then automatically find and use the configuration to "
-"build your project."
+"The ``.readthedocs.yaml`` file should be placed in the top-most directory of"
+" your project's repository. When you have changed the configuration file, "
+"you need to commit and push the changes to your Git repository. Read the "
+"Docs will then automatically find and use the configuration to build your "
+"project."
 msgstr ""
+"``.readthedocs.yaml`` 文件应放在项目仓库的最顶层目录。修改配置文件后，你需要提交并推送变更到 Git 仓库。Read the "
+"Docs 随后会自动找到并使用该配置来构建你的项目。"
 
 #: ../../upstream/docs/user/config-file/index.rst:24
 msgid ""
 "The Read the Docs configuration file is a `YAML`_ file. YAML is a human-"
-"friendly data serialization language for all programming languages. To "
-"learn more about the structure of these files, see the `YAML language "
-"overview`_."
+"friendly data serialization language for all programming languages. To learn"
+" more about the structure of these files, see the `YAML language overview`_."
 msgstr ""
+"Read the Docs 配置文件是 `YAML`_ 文件。YAML 是一种对人类友好的数据序列化语言，适用于所有编程语言。了解更多文件结构，请参阅 "
+"`YAML language overview`_。"
 
 #: ../../upstream/docs/user/config-file/index.rst:34
 msgid "Getting started with a template"
-msgstr ""
+msgstr "使用模板快速开始"
 
 #: ../../upstream/docs/user/config-file/index.rst:36
 msgid ""
-"Here are some configuration file examples to help you get started. Pick "
-"an example based on the tool that your project is using, copy its "
-"contents to ``.readthedocs.yaml``, and add the file to your Git "
-"repository."
+"Here are some configuration file examples to help you get started. Pick an "
+"example based on the tool that your project is using, copy its contents to "
+"``.readthedocs.yaml``, and add the file to your Git repository."
 msgstr ""
+"以下是一些配置文件示例，帮助你快速开始。根据你的项目使用的工具选择一个示例，将其内容复制到 "
+"``.readthedocs.yaml``，并将文件添加到你的 Git 仓库。"
 
 #: ../../upstream/docs/user/config-file/index.rst:43
 msgid "Sphinx"
-msgstr ""
+msgstr "Sphinx"
 
 #: ../../upstream/docs/user/config-file/index.rst:45
 msgid ""
-"If your project uses Sphinx, we offer a special builder optimized for "
-"Sphinx projects."
-msgstr ""
+"If your project uses Sphinx, we offer a special builder optimized for Sphinx"
+" projects."
+msgstr "如果你的项目使用 Sphinx，我们提供一个针对 Sphinx 项目优化的特殊构建器。"
 
 #: ../../upstream/docs/user/config-file/index.rst:48
 #: ../../upstream/docs/user/config-file/index.rst:59
 msgid ".readthedocs.yaml"
-msgstr ""
+msgstr ".readthedocs.yaml"
 
 #: ../../upstream/docs/user/config-file/index.rst:54
 msgid "MkDocs"
-msgstr ""
+msgstr "MkDocs"
 
 #: ../../upstream/docs/user/config-file/index.rst:56
 msgid ""
-"If your project uses MkDocs, we offer a special builder optimized for "
-"MkDocs projects."
-msgstr ""
+"If your project uses MkDocs, we offer a special builder optimized for MkDocs"
+" projects."
+msgstr "如果你的项目使用 MkDocs，我们提供一个针对 MkDocs 项目优化的特殊构建器。"
 
 #: ../../upstream/docs/user/config-file/index.rst:64
 msgid ""
 "You can find more information about these tools in our "
 ":doc:`/intro/doctools`."
-msgstr ""
+msgstr "你可以在 :doc:`/intro/doctools` 中找到关于这些工具的更多信息。"
 
 #: ../../upstream/docs/user/config-file/index.rst:67
 msgid "Editing the template"
-msgstr ""
+msgstr "编辑模板"
 
 #: ../../upstream/docs/user/config-file/index.rst:69
 msgid ""
-"Now that you have a ``.readthedocs.yaml`` file added to your Git "
-"repository, you should see Read the Docs trying to build your project "
-"with the configuration file. The configuration file probably needs some "
-"adjustments to accommodate exactly your project setup."
+"Now that you have a ``.readthedocs.yaml`` file added to your Git repository,"
+" you should see Read the Docs trying to build your project with the "
+"configuration file. The configuration file probably needs some adjustments "
+"to accommodate exactly your project setup."
 msgstr ""
+"现在你已经将 ``.readthedocs.yaml`` 文件添加到 Git 仓库，应该能看到 Read the Docs "
+"尝试使用该配置文件构建你的项目。配置文件可能需要一些调整，以完全适配你的项目设置。"
 
 #: ../../upstream/docs/user/config-file/index.rst:75
 msgid ""
-"If you added the configuration file in a separate branch, you may have to"
-" activate a :doc:`version </versions>` for that branch."
-msgstr ""
+"If you added the configuration file in a separate branch, you may have to "
+"activate a :doc:`version </versions>` for that branch."
+msgstr "如果你在单独的分支中添加了配置文件，可能需要为该分支激活一个 :doc:`版本 </versions>`。"
 
 #: ../../upstream/docs/user/config-file/index.rst:78
 msgid ""
-"If you have added the file in a pull request, make sure :doc:`pull "
-"request builds </guides/pull-requests>` are enabled."
+"If you have added the file in a pull request, make sure :doc:`pull request "
+"builds </guides/pull-requests>` are enabled."
 msgstr ""
+"如果你在 Pull Request 中添加了该文件，请确保已启用 :doc:`Pull Request 构建 </guides/pull-"
+"requests>`。"
 
 #: ../../upstream/docs/user/config-file/index.rst:82
 msgid "Skip: file header and comments"
-msgstr ""
+msgstr "跳过：文件头与注释"
 
 #: ../../upstream/docs/user/config-file/index.rst:84
 msgid "There are some parts of the templates that you can leave in place:"
-msgstr ""
+msgstr "模板中有些部分你可以保留原样："
 
 #: ../../upstream/docs/user/config-file/index.rst:86
 msgid "``version`` key"
-msgstr ""
+msgstr "``version`` 键"
 
 #: ../../upstream/docs/user/config-file/index.rst:87
 msgid ""
-"The version key tells the system how to read the rest of the "
-"configuration file. The current and only supported version is **version "
-"2**."
-msgstr ""
+"The version key tells the system how to read the rest of the configuration "
+"file. The current and only supported version is **version 2**."
+msgstr "version 键告诉系统如何读取配置文件的其余部分。当前唯一支持的版本是 **version 2**。"
 
 #: ../../upstream/docs/user/config-file/index.rst:90
 msgid "Comments"
-msgstr ""
+msgstr "注释"
 
 #: ../../upstream/docs/user/config-file/index.rst:91
 msgid ""
 "We added comments that explain the configuration options and optional "
 "features. These lines begin with a ``#``."
-msgstr ""
+msgstr "我们添加了注释来解释配置选项和可选功能。这些行以 ``#`` 开头。"
 
 #: ../../upstream/docs/user/config-file/index.rst:94
 msgid "Commented out features"
-msgstr ""
+msgstr "被注释掉的功能"
 
 #: ../../upstream/docs/user/config-file/index.rst:95
 msgid ""
-"We use the ``#`` in front of some popular configuration options. They are"
-" there as examples, which you can choose to enable, delete or save for "
-"later."
-msgstr ""
+"We use the ``#`` in front of some popular configuration options. They are "
+"there as examples, which you can choose to enable, delete or save for later."
+msgstr "我们在一些流行的配置选项前使用了 ``#``。它们作为示例存在，你可以选择启用、删除或保留以备后用。"
 
 #: ../../upstream/docs/user/config-file/index.rst:100
 msgid "Adjust: ``build.os``"
-msgstr ""
+msgstr "调整：``build.os``"
 
 #: ../../upstream/docs/user/config-file/index.rst:102
 msgid ""
 "In our examples, we are using Read the Docs' custom image based on the "
 "latest Ubuntu release. Package versions in these images will not change "
 "drastically, though will receive periodic security updates."
-msgstr ""
+msgstr "在示例中，我们使用基于最新 Ubuntu 版本的 Read the Docs 自定义镜像。这些镜像中的包版本不会剧烈变化，但会定期接收安全更新。"
 
 #: ../../upstream/docs/user/config-file/index.rst:107
 msgid ""
-"You should pay attention to this field if your project needs to build on "
-"an older version of Ubuntu, or in the future when you need features from "
-"a newer Ubuntu."
-msgstr ""
+"You should pay attention to this field if your project needs to build on an "
+"older version of Ubuntu, or in the future when you need features from a "
+"newer Ubuntu."
+msgstr "如果你的项目需要在旧版 Ubuntu 上构建，或未来需要新版 Ubuntu 的功能，请留意此字段。"
 
 #: ../../upstream/docs/user/config-file/index.rst:112
 msgid ":ref:`config-file/v2:build.os`"
-msgstr ""
+msgstr ":ref:`config-file/v2:build.os`"
 
 #: ../../upstream/docs/user/config-file/index.rst:113
 msgid "Configuration file reference with all values possible for ``build.os``."
-msgstr ""
+msgstr "包含 ``build.os`` 所有可能值的配置文件参考。"
 
 #: ../../upstream/docs/user/config-file/index.rst:116
 msgid "Adjust: Python configuration"
-msgstr ""
+msgstr "调整：Python 配置"
 
 #: ../../upstream/docs/user/config-file/index.rst:118
 msgid ""
-"If you are using Python in your builds, you should define the Python "
-"version in ``build.tools.python``."
-msgstr ""
+"If you are using Python in your builds, you should define the Python version"
+" in ``build.tools.python``."
+msgstr "如果你在构建中使用 Python，应在 ``build.tools.python`` 中定义 Python 版本。"
 
 #: ../../upstream/docs/user/config-file/index.rst:121
 msgid ""
-"The ``python`` key contains a list of sub-keys, specifying the "
-"requirements to install."
-msgstr ""
+"The ``python`` key contains a list of sub-keys, specifying the requirements "
+"to install."
+msgstr "``python`` 键包含一组子键，指定要安装的依赖。"
 
 #: ../../upstream/docs/user/config-file/index.rst:124
 msgid ""
 "Use ``python.install.path`` to install the project itself as a Python "
 "package using pip"
-msgstr ""
+msgstr "使用 ``python.install.path`` 通过 pip 将项目本身作为 Python 包安装"
 
 #: ../../upstream/docs/user/config-file/index.rst:125
 msgid ""
-"Use ``python.install.requirements`` to install packages from a "
-"requirements file"
-msgstr ""
+"Use ``python.install.requirements`` to install packages from a requirements "
+"file"
+msgstr "使用 ``python.install.requirements`` 从 requirements 文件安装包"
 
 #: ../../upstream/docs/user/config-file/index.rst:126
 msgid ""
-"Use ``python.install.method: uv`` to install packages with ``uv sync`` or"
-" ``uv pip``"
-msgstr ""
+"Use ``python.install.method: uv`` to install packages with ``uv sync`` or "
+"``uv pip``"
+msgstr "使用 ``python.install.method: uv`` 通过 ``uv sync`` 或 ``uv pip`` 安装包"
 
 #: ../../upstream/docs/user/config-file/index.rst:127
 msgid "Use ``build.jobs`` for Poetry, PDM, or advanced custom install workflows"
-msgstr ""
+msgstr "使用 ``build.jobs`` 实现 Poetry、PDM 或高级自定义安装工作流"
 
 #: ../../upstream/docs/user/config-file/index.rst:131
 msgid ":ref:`config-file/v2:build.tools.python`"
-msgstr ""
+msgstr ":ref:`config-file/v2:build.tools.python`"
 
 #: ../../upstream/docs/user/config-file/index.rst:132
 msgid ""
 "Configuration file reference with all Python versions available for "
 "``build.tools.python``."
-msgstr ""
+msgstr "包含 ``build.tools.python`` 所有可用 Python 版本的配置文件参考。"
 
 #: ../../upstream/docs/user/config-file/index.rst:134
 msgid ":ref:`config-file/v2:python`"
-msgstr ""
+msgstr ":ref:`config-file/v2:python`"
 
 #: ../../upstream/docs/user/config-file/index.rst:135
 msgid ""
 "Configuration file reference for configuring the Python environment "
 "activated by ``build.tools.python``."
-msgstr ""
+msgstr "配置由 ``build.tools.python`` 激活的 Python 环境的配置文件参考。"
 
 #: ../../upstream/docs/user/config-file/index.rst:138
 msgid "Adjust: Sphinx and MkDocs version"
-msgstr ""
+msgstr "调整：Sphinx 和 MkDocs 版本"
 
 #: ../../upstream/docs/user/config-file/index.rst:140
 msgid ""
-"If you are using either the ``sphinx`` or ``mkdocs`` builder, then Sphinx"
-" or MkDocs will be installed automatically in its latest version."
-msgstr ""
+"If you are using either the ``sphinx`` or ``mkdocs`` builder, then Sphinx or"
+" MkDocs will be installed automatically in its latest version."
+msgstr "如果你使用 ``sphinx`` 或 ``mkdocs`` 构建器，Sphinx 或 MkDocs 将自动以最新版本安装。"
 
 #: ../../upstream/docs/user/config-file/index.rst:143
 msgid ""
 "But we recommend that you specify the version that your documentation "
-"project uses. The ``requirements`` key is a file path that points to a "
-"text (``.txt``) file that lists the Python packages you want Read the "
-"Docs to install."
+"project uses. The ``requirements`` key is a file path that points to a text "
+"(``.txt``) file that lists the Python packages you want Read the Docs to "
+"install."
 msgstr ""
+"但我们建议你指定文档项目所用的版本。``requirements`` 键是一个文件路径，指向一个文本（``.txt``）文件，列出你希望 Read "
+"the Docs 安装的 Python 包。"
 
 #: ../../upstream/docs/user/config-file/index.rst:149
 msgid ""
 ":ref:`guides/reproducible-builds:Use a requirements file for Python "
 "dependencies`"
 msgstr ""
+":ref:`guides/reproducible-builds:Use a requirements file for Python "
+"dependencies`"
 
 #: ../../upstream/docs/user/config-file/index.rst:150
 msgid ""
-"This guide explains how to specify Python requirements, such as the "
-"version of Sphinx or MkDocs."
-msgstr ""
+"This guide explains how to specify Python requirements, such as the version "
+"of Sphinx or MkDocs."
+msgstr "本指南解释如何指定 Python 依赖，例如 Sphinx 或 MkDocs 的版本。"
 
 #: ../../upstream/docs/user/config-file/index.rst:153
 msgid ":ref:`config-file/v2:sphinx`"
-msgstr ""
+msgstr ":ref:`config-file/v2:sphinx`"
 
 #: ../../upstream/docs/user/config-file/index.rst:154
 msgid "Configuration file reference for configuring the Sphinx builder."
-msgstr ""
+msgstr "配置 Sphinx 构建器的配置文件参考。"
 
 #: ../../upstream/docs/user/config-file/index.rst:156
 msgid ":ref:`config-file/v2:mkdocs`"
-msgstr ""
+msgstr ":ref:`config-file/v2:mkdocs`"
 
 #: ../../upstream/docs/user/config-file/index.rst:157
 msgid "Configuration file reference for configuring the MkDocs builder."
-msgstr ""
+msgstr "配置 MkDocs 构建器的配置文件参考。"
 
 #: ../../upstream/docs/user/config-file/index.rst:160
 msgid "Next steps"
-msgstr ""
+msgstr "后续步骤"
 
 #: ../../upstream/docs/user/config-file/index.rst:162
-msgid ""
-"There are more configuration options that the ones mentioned in this "
-"guide."
-msgstr ""
+msgid "There are more configuration options that the ones mentioned in this guide."
+msgstr "除了本指南提到的选项，还有更多配置选项可用。"
 
 #: ../../upstream/docs/user/config-file/index.rst:164
 msgid ""
-"After you add a configuration file your Git repository, and you can see "
-"that Read the Docs is building your documentation using the file, you "
-"should have a look at the complete configuration file reference for "
-"options that might apply to your project."
-msgstr ""
+"After you add a configuration file your Git repository, and you can see that"
+" Read the Docs is building your documentation using the file, you should "
+"have a look at the complete configuration file reference for options that "
+"might apply to your project."
+msgstr "将配置文件添加到 Git 仓库并看到 Read the Docs 正在使用该文件构建文档后，你应该查看完整的配置文件参考，了解可能适用于你项目的选项。"
 
 #: ../../upstream/docs/user/config-file/index.rst:170
 msgid ":doc:`/config-file/v2`."
-msgstr ""
+msgstr ":doc:`/config-file/v2`。"
 
 #: ../../upstream/docs/user/config-file/index.rst:171
 msgid ""
-"The complete list of all possible ``.readthedocs.yaml`` settings, "
-"including the optional settings not covered in on this page."
-msgstr ""
+"The complete list of all possible ``.readthedocs.yaml`` settings, including "
+"the optional settings not covered in on this page."
+msgstr "所有可能的 ``.readthedocs.yaml`` 设置的完整列表，包括本页未涵盖的可选设置。"
 
 #: ../../upstream/docs/user/config-file/index.rst:174
 msgid ":doc:`/build-customization`"
-msgstr ""
+msgstr ":doc:`/build-customization`"
 
 #: ../../upstream/docs/user/config-file/index.rst:175
 msgid ""
-"Are familiar with running a command line? Perhaps there are special "
-"commands that you know you want Read the Docs to run. Read this guide and"
-" learn more about how you add your own commands to ``.readthedocs.yaml``."
+"Are familiar with running a command line? Perhaps there are special commands"
+" that you know you want Read the Docs to run. Read this guide and learn more"
+" about how you add your own commands to ``.readthedocs.yaml``."
 msgstr ""
+"熟悉运行命令行？也许有些特殊命令是你明确希望 Read the Docs 运行的。阅读本指南，了解如何将你自己的命令添加到 "
+"``.readthedocs.yaml``。"
 

@@ -22,126 +22,137 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/reproducible-builds.rst:2
 msgid "How to create reproducible builds"
-msgstr ""
+msgstr "如何创建可复现构建"
 
 #: ../../upstream/docs/user/guides/reproducible-builds.rst:4
 msgid ""
-"Your documentation depends on a number of dependencies to be built. If "
-"your docs don't have :term:`reproducible` builds, an update in a "
-"dependency can break your builds when least expected, or make your docs "
-"look different from your local version. This guide will help you to keep "
-"your builds working over time, so that you can focus on content."
+"Your documentation depends on a number of dependencies to be built. If your "
+"docs don't have :term:`reproducible` builds, an update in a dependency can "
+"break your builds when least expected, or make your docs look different from"
+" your local version. This guide will help you to keep your builds working "
+"over time, so that you can focus on content."
 msgstr ""
+"你的文档构建依赖若干依赖项。如果你的文档没有 :term:`可复现 <reproducible>` "
+"构建，依赖更新可能在最意想不到的时候导致构建失败，或者让文档外观与本地版本不一致。本指南将帮助你让构建长期保持正常工作，以便你专注于内容。"
 
 #: ../../upstream/docs/user/guides/reproducible-builds.rst:13
 msgid "Contents"
-msgstr ""
+msgstr "目录"
 
 #: ../../upstream/docs/user/guides/reproducible-builds.rst:16
 msgid ""
 "This page explains how to pin the versions that correctly build your "
-"project. The versions used in this page are just for illustrative "
-"purpose. They are not the latest nor the recommended versions. It is up "
-"to you to find those versions."
-msgstr ""
+"project. The versions used in this page are just for illustrative purpose. "
+"They are not the latest nor the recommended versions. It is up to you to "
+"find those versions."
+msgstr "本页介绍如何固定能正确构建你项目的版本。本页使用的版本仅作说明用途，并非最新或推荐版本。请自行确定合适的版本。"
 
 #: ../../upstream/docs/user/guides/reproducible-builds.rst:22
 msgid "Define OS and tool versions in the config file"
-msgstr ""
+msgstr "在配置文件中定义操作系统与工具版本"
 
 #: ../../upstream/docs/user/guides/reproducible-builds.rst:24
 msgid ""
-"We recommend defining the explicit version of the OS and tool versions "
-"used to build your documentation using the ``.readthedocs.yaml``. This "
-"file *provides you per version settings*, and *those settings live in "
-"your Git repository*."
+"We recommend defining the explicit version of the OS and tool versions used "
+"to build your documentation using the ``.readthedocs.yaml``. This file "
+"*provides you per version settings*, and *those settings live in your Git "
+"repository*."
 msgstr ""
+"我们建议使用 ``.readthedocs.yaml`` "
+"显式定义用于构建文档的操作系统版本与工具版本。该文件*为每个版本提供独立设置*，且*这些设置位于你的 Git 仓库中*。"
 
 #: ../../upstream/docs/user/guides/reproducible-builds.rst:29
 msgid ""
 "This allows you to validate changes using :doc:`pull requests </pull-"
 "requests>`, and ensures that all your versions can be rebuilt from a "
 "reproducible configuration."
-msgstr ""
+msgstr "这让你能通过 :doc:`Pull Requests </pull-requests>` 验证变更，并确保所有版本都能从可复现的配置中重新构建。"
 
 #: ../../upstream/docs/user/guides/reproducible-builds.rst:33
 #: ../../upstream/docs/user/guides/reproducible-builds.rst:54
 msgid ".readthedocs.yaml"
-msgstr ""
+msgstr ".readthedocs.yaml"
 
 #: ../../upstream/docs/user/guides/reproducible-builds.rst:47
 msgid "Use a requirements file for Python dependencies"
-msgstr ""
+msgstr "使用 requirements 文件管理 Python 依赖"
 
 #: ../../upstream/docs/user/guides/reproducible-builds.rst:49
 msgid ""
 "We recommend using a Pip :ref:`requirements file <pip:requirements-file-"
-"format>` or Conda :ref:`environment file <config-"
-"file/v2:conda.environment>` to :term:`pin <pinning>` Python dependencies."
-" This ensures that top-level dependencies and extensions don't change."
+"format>` or Conda :ref:`environment file <config-file/v2:conda.environment>`"
+" to :term:`pin <pinning>` Python dependencies. This ensures that top-level "
+"dependencies and extensions don't change."
 msgstr ""
+"我们建议使用 Pip :ref:`requirements 文件 <pip:requirements-file-format>` 或 Conda "
+":ref:`环境文件 <config-file/v2:conda.environment>` 来 :term:`固定 <pinning>` Python"
+" 依赖。这能确保顶层依赖与扩展保持不变。"
 
 #: ../../upstream/docs/user/guides/reproducible-builds.rst:52
 msgid "A configuration file with explicit dependencies looks like this:"
-msgstr ""
+msgstr "包含显式依赖的配置文件如下所示："
 
 #: ../../upstream/docs/user/guides/reproducible-builds.rst:63
 #: ../../upstream/docs/user/guides/reproducible-builds.rst:95
 msgid "docs/requirements.txt"
-msgstr ""
+msgstr "docs/requirements.txt"
 
 #: ../../upstream/docs/user/guides/reproducible-builds.rst:73
 msgid ""
 "Remember to update your docs' dependencies from time to time to get new "
-"improvements and fixes. It also makes it easy to manage in case a version"
-" reaches its end of support date."
-msgstr ""
+"improvements and fixes. It also makes it easy to manage in case a version "
+"reaches its end of support date."
+msgstr "请定期更新文档的依赖以获取新改进和修复。这也能让你在某个版本达到生命周期结束时更容易管理。"
 
 #: ../../upstream/docs/user/guides/reproducible-builds.rst:77
 msgid "Pin your transitive dependencies"
-msgstr ""
+msgstr "固定你的传递依赖"
 
 #: ../../upstream/docs/user/guides/reproducible-builds.rst:79
 msgid ""
 "Once you have :term:`pinned <pinning>` your own dependencies, the next "
-"things to worry about are the dependencies of your dependencies. These "
-"are called *transitive dependencies*, and they can upgrade without "
-"warning if you do not pin these packages as well."
+"things to worry about are the dependencies of your dependencies. These are "
+"called *transitive dependencies*, and they can upgrade without warning if "
+"you do not pin these packages as well."
 msgstr ""
+"一旦你 :term:`固定 <pinning>` "
+"了自己的直接依赖，接下来要关注的是依赖的依赖。这些被称为*传递依赖*，如果你不固定这些包，它们可能会在不知情的情况下升级。"
 
 #: ../../upstream/docs/user/guides/reproducible-builds.rst:84
 msgid ""
 "We recommend `pip-tools`_ to help address this problem. It allows you to "
-"specify a ``requirements.in`` file with your top-level dependencies, and "
-"it generates a ``requirements.txt`` file with the full set of transitive "
+"specify a ``requirements.in`` file with your top-level dependencies, and it "
+"generates a ``requirements.txt`` file with the full set of transitive "
 "dependencies pinned."
 msgstr ""
+"我们推荐使用 `pip-tools`_ 来解决此问题。它允许你在 ``requirements.in`` "
+"文件中指定顶层依赖，并生成一个包含完整传递依赖并已固定版本的 ``requirements.txt`` 文件。"
 
 #: ../../upstream/docs/user/guides/reproducible-builds.rst:90
 msgid "docs/requirements.in"
-msgstr ""
+msgstr "docs/requirements.in"
 
 #: ../../upstream/docs/user/guides/reproducible-builds.rst:151
 msgid ":doc:`/config-file/v2`"
-msgstr ""
+msgstr ":doc:`/config-file/v2`"
 
 #: ../../upstream/docs/user/guides/reproducible-builds.rst:152
 msgid "Configuration file reference"
-msgstr ""
+msgstr "配置文件参考"
 
 #: ../../upstream/docs/user/guides/reproducible-builds.rst:153
 msgid ":doc:`/builds`"
-msgstr ""
+msgstr ":doc:`/builds`"
 
 #: ../../upstream/docs/user/guides/reproducible-builds.rst:154
 msgid "Build process information"
-msgstr ""
+msgstr "构建过程信息"
 
 #: ../../upstream/docs/user/guides/reproducible-builds.rst:155
 msgid ":doc:`/build-customization`"
-msgstr ""
+msgstr ":doc:`/build-customization`"
 
 #: ../../upstream/docs/user/guides/reproducible-builds.rst:156
 msgid "Customizing builds to do more"
-msgstr ""
+msgstr "定制构建以实现更多功能"
 

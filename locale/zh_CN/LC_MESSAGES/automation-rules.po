@@ -22,191 +22,200 @@ msgstr ""
 
 #: ../../upstream/docs/user/automation-rules.rst:2
 msgid "Automation rules"
-msgstr ""
+msgstr "自动化规则"
 
 #: ../../upstream/docs/user/automation-rules.rst:4
 msgid ""
 "Automation rules allow project maintainers to automate actions on new "
-"branches, tags, and pull requests in Git repositories. If you are "
-"familiar with :term:`GitOps`, this might seem familiar. The goal of "
-"automation rules is to be able to control versioning and builds through "
-"your Git repository and avoid duplicating these efforts on Read the Docs."
+"branches, tags, and pull requests in Git repositories. If you are familiar "
+"with :term:`GitOps`, this might seem familiar. The goal of automation rules "
+"is to be able to control versioning and builds through your Git repository "
+"and avoid duplicating these efforts on Read the Docs."
 msgstr ""
+"自动化规则允许项目维护者自动化处理 Git 仓库中的新分支、标签和 Pull Request。如果你熟悉 "
+":term:`GitOps`，这可能看起来很眼熟。自动化规则的目标是让你能通过 Git 仓库控制版本管理和构建，避免在 Read the Docs "
+"上重复这些工作。"
 
 #: ../../upstream/docs/user/automation-rules.rst:13
 msgid ":doc:`/guides/automation-rules`"
-msgstr ""
+msgstr ":doc:`/guides/automation-rules`"
 
 #: ../../upstream/docs/user/automation-rules.rst:14
 msgid "A practical guide to managing automated versioning of your documentation."
-msgstr ""
+msgstr "管理文档自动化版本控制的实用指南。"
 
 #: ../../upstream/docs/user/automation-rules.rst:16
 msgid ":doc:`/versions`"
-msgstr ""
+msgstr ":doc:`/versions`"
 
 #: ../../upstream/docs/user/automation-rules.rst:17
 msgid "General explanation of how versioning works on Read the Docs"
-msgstr ""
+msgstr "Read the Docs 上版本控制如何工作的总体说明"
 
 #: ../../upstream/docs/user/automation-rules.rst:20
 msgid "How automation rules work"
-msgstr ""
+msgstr "自动化规则如何工作"
 
 #: ../../upstream/docs/user/automation-rules.rst:22
 msgid ""
-"When a new tag or branch is pushed to your repository, or a pull request "
-"is opened or updated, Read the Docs receives a webhook from your Git "
-"provider. Read the Docs then creates (or updates) a *version* that "
-"matches your Git *tag, branch, or pull request*."
+"When a new tag or branch is pushed to your repository, or a pull request is "
+"opened or updated, Read the Docs receives a webhook from your Git provider. "
+"Read the Docs then creates (or updates) a *version* that matches your Git "
+"*tag, branch, or pull request*."
 msgstr ""
+"当新标签或分支推送到你的仓库、或有 Pull Request 被打开或更新时，Read the Docs 会从 Git 服务商接收 Webhook。随后"
+" Read the Docs 会创建（或更新）一个与你的 Git *标签、分支或 Pull Request* 匹配的*版本*。"
 
 #: ../../upstream/docs/user/automation-rules.rst:27
 msgid ""
-"All enabled automation rules are evaluated for that version, in the order"
-" they are listed. A rule has three groups of conditions, which are "
-"checked in order:"
-msgstr ""
+"All enabled automation rules are evaluated for that version, in the order "
+"they are listed. A rule has three groups of conditions, which are checked in"
+" order:"
+msgstr "所有已启用的自动化规则都会针对该版本按列出的顺序进行评估。每条规则有三组条件，按顺序检查："
 
 #: ../../upstream/docs/user/automation-rules.rst:31
 msgid ""
-"The version **type** must be one of the version types selected in the "
-"rule (tag, branch, or pull request)."
-msgstr ""
+"The version **type** must be one of the version types selected in the rule "
+"(tag, branch, or pull request)."
+msgstr "版本**类型**必须是规则中选定的版本类型之一（标签、分支或 Pull Request）。"
 
 #: ../../upstream/docs/user/automation-rules.rst:32
 msgid "The version **name** must match the version pattern in the rule."
-msgstr ""
+msgstr "版本**名称**必须匹配规则中的版本模式。"
 
 #: ../../upstream/docs/user/automation-rules.rst:33
 msgid ""
 "If any **webhook filter** is configured, the data from the webhook event "
 "(changed files, commit message, or pull request labels) must also match."
-msgstr ""
+msgstr "如果配置了任何 **Webhook 过滤器**，Webhook 事件中的数据（变更的文件、提交信息或 Pull Request 标签）也必须匹配。"
 
 #: ../../upstream/docs/user/automation-rules.rst:36
 msgid ""
-"If all the configured conditions match, the rule's **action** is "
-"performed on the version."
-msgstr ""
+"If all the configured conditions match, the rule's **action** is performed "
+"on the version."
+msgstr "如果所有配置的条件都匹配，规则的**动作**将在该版本上执行。"
 
 #: ../../upstream/docs/user/automation-rules.rst:40
 msgid ""
 "Versions can match multiple automation rules, and all matching version "
-"actions will be performed on the version. For build actions, only the "
-"first matching rule per version triggers a build, to avoid triggering "
-"multiple builds for the same change."
-msgstr ""
+"actions will be performed on the version. For build actions, only the first "
+"matching rule per version triggers a build, to avoid triggering multiple "
+"builds for the same change."
+msgstr "一个版本可以匹配多条自动化规则，所有匹配的版本动作都将在该版本上执行。对于构建动作，每个版本只触发第一条匹配规则的构建，以避免对同一变更触发多次构建。"
 
 #: ../../upstream/docs/user/automation-rules.rst:46
 msgid "Matching the version type"
-msgstr ""
+msgstr "匹配版本类型"
 
 #: ../../upstream/docs/user/automation-rules.rst:48
 msgid "Each rule applies to one or more version types:"
-msgstr ""
+msgstr "每条规则适用于一种或多种版本类型："
 
 #: ../../upstream/docs/user/automation-rules.rst:50
 msgid "**Tag** — Git tags pushed to the repository."
-msgstr ""
+msgstr "**标签** — 推送到仓库的 Git 标签。"
 
 #: ../../upstream/docs/user/automation-rules.rst:51
 msgid "**Branch** — Git branches pushed to the repository."
-msgstr ""
+msgstr "**分支** — 推送到仓库的 Git 分支。"
 
 #: ../../upstream/docs/user/automation-rules.rst:52
 msgid "**Pull request** — pull/merge requests opened against the repository."
-msgstr ""
+msgstr "**Pull Request** — 针对仓库打开的 Pull/Merge Request。"
 
 #: ../../upstream/docs/user/automation-rules.rst:54
 msgid "You can select any combination of types in a single rule."
-msgstr ""
+msgstr "你可以在一条规则中选择任意类型组合。"
 
 #: ../../upstream/docs/user/automation-rules.rst:57
 msgid "Matching the version name"
-msgstr ""
+msgstr "匹配版本名称"
 
 #: ../../upstream/docs/user/automation-rules.rst:59
 msgid ""
-"We have a couple predefined ways to match against the name of versions "
-"that are created, and you can also define your own."
-msgstr ""
+"We have a couple predefined ways to match against the name of versions that "
+"are created, and you can also define your own."
+msgstr "我们提供了几种预定义方式来匹配新建版本的名称，你也可以自定义。"
 
 #: ../../upstream/docs/user/automation-rules.rst:63
 msgid "Predefined matches"
-msgstr ""
+msgstr "预定义匹配"
 
 #: ../../upstream/docs/user/automation-rules.rst:65
 msgid "Automation rules support two predefined version name matches:"
-msgstr ""
+msgstr "自动化规则支持两种预定义的版本名称匹配："
 
 #: ../../upstream/docs/user/automation-rules.rst:67
 msgid "**Any version**: All new versions will match the rule."
-msgstr ""
+msgstr "**任意版本**：所有新版本都匹配该规则。"
 
 #: ../../upstream/docs/user/automation-rules.rst:68
 msgid ""
 "**SemVer versions**: All new versions that follow `semantic versioning "
 "<https://semver.org/>`__ (with or without a ``v`` prefix) will match the "
 "rule."
-msgstr ""
+msgstr "**SemVer 版本**：所有遵循 `语义化版本 <https://semver.org/>`__（带或不带 ``v`` 前缀）的新版本都匹配该规则。"
 
 #: ../../upstream/docs/user/automation-rules.rst:72
 msgid "Custom matches"
-msgstr ""
+msgstr "自定义匹配"
 
 #: ../../upstream/docs/user/automation-rules.rst:74
 msgid ""
-"If none of the above predefined matches meet your use case, you can use a"
-" **Custom match**."
-msgstr ""
+"If none of the above predefined matches meet your use case, you can use a "
+"**Custom match**."
+msgstr "如果上述预定义匹配都不满足你的需求，可以使用**自定义匹配**。"
 
 #: ../../upstream/docs/user/automation-rules.rst:77
 msgid ""
 "The custom match should be a valid `Python regular expression "
-"<https://docs.python.org/3/library/re.html>`__. Each new version's name "
-"will be tested against this regular expression."
+"<https://docs.python.org/3/library/re.html>`__. Each new version's name will"
+" be tested against this regular expression."
 msgstr ""
+"自定义匹配应为有效的 `Python 正则表达式 "
+"<https://docs.python.org/3/library/re.html>`__。每个新版本的名称都会针对此正则表达式进行测试。"
 
 #: ../../upstream/docs/user/automation-rules.rst:81
 msgid "Webhook filters"
-msgstr ""
+msgstr "Webhook 过滤器"
 
 #: ../../upstream/docs/user/automation-rules.rst:83
 msgid ""
-"In addition to matching the version, a rule can filter on the contents of"
-" the webhook event that triggered it. Webhook filters are useful to "
-"**avoid running an action when nothing relevant has changed**, for "
-"example to skip builds when only non-documentation files were modified, "
-"or when the commit message indicates the change should be ignored."
+"In addition to matching the version, a rule can filter on the contents of "
+"the webhook event that triggered it. Webhook filters are useful to **avoid "
+"running an action when nothing relevant has changed**, for example to skip "
+"builds when only non-documentation files were modified, or when the commit "
+"message indicates the change should be ignored."
 msgstr ""
+"除了匹配版本，规则还可以根据触发它的 Webhook 事件内容进行过滤。Webhook "
+"过滤器有助于**避免在无相关变更时运行动作**，例如当仅修改了非文档文件、或提交信息表明应忽略该变更时跳过构建。"
 
 #: ../../upstream/docs/user/automation-rules.rst:89
 msgid "The following filters are available:"
-msgstr ""
+msgstr "可用的过滤器如下："
 
 #: ../../upstream/docs/user/automation-rules.rst:91
 msgid "Changed files"
-msgstr ""
+msgstr "变更的文件"
 
 #: ../../upstream/docs/user/automation-rules.rst:92
 msgid ""
-"Match against the list of files modified, added, or deleted in the push "
-"or pull request. Patterns can include one or more of the following "
-"special characters:"
-msgstr ""
+"Match against the list of files modified, added, or deleted in the push or "
+"pull request. Patterns can include one or more of the following special "
+"characters:"
+msgstr "匹配推送或 Pull Request 中被修改、添加或删除的文件列表。模式可包含以下一个或多个特殊字符："
 
 #: ../../upstream/docs/user/automation-rules.rst:95
 msgid "``*`` matches everything, including slashes."
-msgstr ""
+msgstr "``*`` 匹配所有内容，包括斜杠。"
 
 #: ../../upstream/docs/user/automation-rules.rst:96
 msgid "``?`` matches any single character."
-msgstr ""
+msgstr "``?`` 匹配任意单个字符。"
 
 #: ../../upstream/docs/user/automation-rules.rst:97
 msgid "``[seq]`` matches any character in ``seq``."
-msgstr ""
+msgstr "``[seq]`` 匹配 ``seq`` 中的任意字符。"
 
 #: ../../upstream/docs/user/automation-rules.rst:99
 msgid ""
@@ -214,203 +223,214 @@ msgid ""
 "directory. - ``*.md`` matches any Markdown file. - ``.readthedocs.yaml`` "
 "matches the configuration file in the root of the repository."
 msgstr ""
+"示例模式：- ``docs/*`` 匹配 ``docs/`` 目录下的任意文件。- ``*.md`` 匹配任意 Markdown 文件。- "
+"``.readthedocs.yaml`` 匹配仓库根目录下的配置文件。"
 
 #: ../../upstream/docs/user/automation-rules.rst:104
 msgid ""
 "You can specify multiple patterns, one per line. The filter matches if "
 "**any** of the changed files matches **any** pattern."
-msgstr ""
+msgstr "你可以指定多个模式，每行一个。如果**任意**变更文件匹配**任意**模式，过滤器即匹配。"
 
 #: ../../upstream/docs/user/automation-rules.rst:107
 msgid "Commit message"
-msgstr ""
+msgstr "提交信息"
 
 #: ../../upstream/docs/user/automation-rules.rst:108
 msgid ""
-"Match against the commit message of the push event, or the head commit of"
-" the pull request, using a regular expression."
-msgstr ""
+"Match against the commit message of the push event, or the head commit of "
+"the pull request, using a regular expression."
+msgstr "使用正则表达式匹配推送事件的提交信息，或 Pull Request 的头部提交信息。"
 
 #: ../../upstream/docs/user/automation-rules.rst:112
 msgid "Pull request labels"
-msgstr ""
+msgstr "Pull Request 标签"
 
 #: ../../upstream/docs/user/automation-rules.rst:113
 msgid ""
-"Match against the labels of the pull request, using a regular expression."
-" This filter is only relevant for pull request events."
-msgstr ""
+"Match against the labels of the pull request, using a regular expression. "
+"This filter is only relevant for pull request events."
+msgstr "使用正则表达式匹配 Pull Request 的标签。此过滤器仅与 Pull Request 事件相关。"
 
 #: ../../upstream/docs/user/automation-rules.rst:117
 msgid ""
-"When more than one filter is configured, **all** of them must match for "
-"the rule to fire."
-msgstr ""
+"When more than one filter is configured, **all** of them must match for the "
+"rule to fire."
+msgstr "配置多个过滤器时，**所有**过滤器都必须匹配规则才会触发。"
 
 #: ../../upstream/docs/user/automation-rules.rst:121
 msgid ""
 "Webhook filters are only available for projects connected through the "
-":doc:`GitHub App integration </reference/git-integration>`. Rules that "
-"don't use webhook filters keep working with every Git provider."
+":doc:`GitHub App integration </reference/git-integration>`. Rules that don't"
+" use webhook filters keep working with every Git provider."
 msgstr ""
+"Webhook 过滤器仅对通过 :doc:`GitHub App 集成 </reference/git-integration>` "
+"连接的项目可用。不使用 Webhook 过滤器的规则仍可在所有 Git 服务商上工作。"
 
 #: ../../upstream/docs/user/automation-rules.rst:127
 msgid ""
 "Regular expressions are evaluated using the Python `re "
 "<https://docs.python.org/3/library/re.html>`__ module."
-msgstr ""
+msgstr "正则表达式使用 Python `re <https://docs.python.org/3/library/re.html>`__ 模块进行求值。"
 
 #: ../../upstream/docs/user/automation-rules.rst:131
 msgid "Actions"
-msgstr ""
+msgstr "动作"
 
 #: ../../upstream/docs/user/automation-rules.rst:133
 msgid ""
-"When an automation rule matches, the specified action is performed on the"
-" version. Actions are split into two groups: actions that operate on the "
+"When an automation rule matches, the specified action is performed on the "
+"version. Actions are split into two groups: actions that operate on the "
 "version itself, and actions that trigger a build."
-msgstr ""
+msgstr "当自动化规则匹配时，指定的动作会在该版本上执行。动作分为两组：作用于版本本身的动作，以及触发构建的动作。"
 
 #: ../../upstream/docs/user/automation-rules.rst:139
 msgid "Version actions"
-msgstr ""
+msgstr "版本动作"
 
 #: ../../upstream/docs/user/automation-rules.rst:141
 msgid "Activate version"
-msgstr ""
+msgstr "激活版本"
 
 #: ../../upstream/docs/user/automation-rules.rst:142
 msgid "Activates and builds the version."
-msgstr ""
+msgstr "激活并构建该版本。"
 
 #: ../../upstream/docs/user/automation-rules.rst:144
 msgid "Hide version"
-msgstr ""
+msgstr "隐藏版本"
 
 #: ../../upstream/docs/user/automation-rules.rst:145
 msgid ""
-"Hides the version. If the version is not active, activates it and builds "
-"the version. See :ref:`versions:Version states`."
-msgstr ""
+"Hides the version. If the version is not active, activates it and builds the"
+" version. See :ref:`versions:Version states`."
+msgstr "隐藏该版本。如果版本未激活，则激活并构建它。请参阅 :ref:`versions:Version states`。"
 
 #: ../../upstream/docs/user/automation-rules.rst:148
 msgid "Make version public"
-msgstr ""
+msgstr "设为公开版本"
 
 #: ../../upstream/docs/user/automation-rules.rst:149
 msgid ""
 "Sets the version's privacy level to public. See :ref:`versions:Version "
 "states`."
-msgstr ""
+msgstr "将版本的隐私级别设为公开。请参阅 :ref:`versions:Version states`。"
 
 #: ../../upstream/docs/user/automation-rules.rst:152
 msgid "Make version private"
-msgstr ""
+msgstr "设为私有版本"
 
 #: ../../upstream/docs/user/automation-rules.rst:153
 msgid ""
 "Sets the version's privacy level to private. See :ref:`versions:Version "
 "states`."
-msgstr ""
+msgstr "将版本的隐私级别设为私有。请参阅 :ref:`versions:Version states`。"
 
 #: ../../upstream/docs/user/automation-rules.rst:156
 msgid "Set version as default"
-msgstr ""
+msgstr "设为默认版本"
 
 #: ../../upstream/docs/user/automation-rules.rst:157
 msgid ""
 "Sets the version as the :term:`default version`. It also activates and "
 "builds the version. See :ref:`root_url_redirect`."
-msgstr ""
+msgstr "将版本设为 :term:`default version`。同时也会激活并构建该版本。请参阅 :ref:`root_url_redirect`。"
 
 #: ../../upstream/docs/user/automation-rules.rst:161
 msgid "Delete version"
-msgstr ""
+msgstr "删除版本"
 
 #: ../../upstream/docs/user/automation-rules.rst:162
 msgid ""
 "When a branch or tag is deleted from your repository, Read the Docs will "
-"delete it *only if isn't active*. This action allows you to delete "
-"*active* versions when a branch or tag is deleted from your repository."
-msgstr ""
+"delete it *only if isn't active*. This action allows you to delete *active* "
+"versions when a branch or tag is deleted from your repository."
+msgstr "当分支或标签从仓库删除时，Read the Docs *仅在版本非活跃*时删除它。此动作允许在分支或标签从仓库删除时删除*活跃*版本。"
 
 #: ../../upstream/docs/user/automation-rules.rst:166
 msgid "There are a couple caveats to these actions that are useful:"
-msgstr ""
+msgstr "这些动作有几个值得注意的注意事项："
 
 #: ../../upstream/docs/user/automation-rules.rst:168
 msgid ""
-"The :term:`default version` isn't deleted even if it matches a rule. You "
-"can use the ``Set version as default`` action to change the default "
-"version before deleting the current one."
+"The :term:`default version` isn't deleted even if it matches a rule. You can"
+" use the ``Set version as default`` action to change the default version "
+"before deleting the current one."
 msgstr ""
+":term:`default version` 不会被删除，即使它匹配某条规则。你可以使用 ``Set version as default`` "
+"动作在删除当前默认版本前先更改默认版本。"
 
 #: ../../upstream/docs/user/automation-rules.rst:171
 msgid ""
-"If your versions follow :pep:`440`, Read the Docs activates and builds "
-"the version if it's greater than the current stable version. The stable "
-"version is also automatically updated at the same time. See more in "
-":doc:`versions`."
+"If your versions follow :pep:`440`, Read the Docs activates and builds the "
+"version if it's greater than the current stable version. The stable version "
+"is also automatically updated at the same time. See more in :doc:`versions`."
 msgstr ""
+"如果你的版本遵循 :pep:`440`，当版本大于当前稳定版本时，Read the Docs 会激活并构建它。稳定版本也会同时自动更新。更多详情见 "
+":doc:`versions`。"
 
 #: ../../upstream/docs/user/automation-rules.rst:177
 msgid "Build actions"
-msgstr ""
+msgstr "构建动作"
 
 #: ../../upstream/docs/user/automation-rules.rst:179
 msgid "Trigger build for version"
-msgstr ""
+msgstr "触发版本构建"
 
 #: ../../upstream/docs/user/automation-rules.rst:180
 msgid "Trigger a build for the version when the rule matches."
-msgstr ""
+msgstr "规则匹配时触发该版本的构建。"
 
 #: ../../upstream/docs/user/automation-rules.rst:182
 msgid ""
-"Build actions are designed to be used together with :ref:`webhook filters"
-" <automation-rules:Webhook filters>`, so that builds are only triggered "
-"when something relevant has changed."
+"Build actions are designed to be used together with :ref:`webhook filters "
+"<automation-rules:Webhook filters>`, so that builds are only triggered when "
+"something relevant has changed."
 msgstr ""
+"构建动作旨在与 :ref:`Webhook 过滤器 <automation-rules:Webhook filters>` "
+"配合使用，以便仅在发生相关变更时触发构建。"
 
 #: ../../upstream/docs/user/automation-rules.rst:187
 msgid ""
-"When a project has at least one enabled rule with the **Trigger build for"
-" version** action, builds are **gated** by those rules: if no build rule "
-"matches the incoming webhook event, no build is triggered. If you don't "
-"have any build rule configured, builds keep being triggered for every "
-"push and pull request as usual."
+"When a project has at least one enabled rule with the **Trigger build for "
+"version** action, builds are **gated** by those rules: if no build rule "
+"matches the incoming webhook event, no build is triggered. If you don't have"
+" any build rule configured, builds keep being triggered for every push and "
+"pull request as usual."
 msgstr ""
+"当项目至少有一条启用了**触发版本构建**动作的规则时，构建会被这些规则**控制**：如果没有构建规则匹配传入的 Webhook "
+"事件，则不会触发构建。如果未配置任何构建规则，构建将像往常一样为每次推送和 Pull Request 触发。"
 
 #: ../../upstream/docs/user/automation-rules.rst:193
 msgid "Enabling and disabling rules"
-msgstr ""
+msgstr "启用与禁用规则"
 
 #: ../../upstream/docs/user/automation-rules.rst:195
 msgid ""
 "Each rule has an **Enabled** toggle. Disabling a rule keeps its "
-"configuration around but stops it from being evaluated, which is useful "
-"when you want to temporarily turn off an automation without losing its "
+"configuration around but stops it from being evaluated, which is useful when"
+" you want to temporarily turn off an automation without losing its "
 "configuration."
-msgstr ""
+msgstr "每条规则都有一个**启用**开关。禁用规则会保留其配置但停止评估，这在你想暂时关闭自动化但不想丢失配置时很有用。"
 
 #: ../../upstream/docs/user/automation-rules.rst:200
 msgid "Order"
-msgstr ""
+msgstr "顺序"
 
 #: ../../upstream/docs/user/automation-rules.rst:202
 msgid ""
 "When a new Read the Docs version is created, all rules with a successful "
 "match will have their action triggered, in the order they appear on the "
 ":guilabel:`Automation Rules` page."
-msgstr ""
+msgstr "创建新 Read the Docs 版本时，所有匹配成功的规则将按其在 :guilabel:`Automation Rules` 页面上的顺序触发动作。"
 
 #: ../../upstream/docs/user/automation-rules.rst:207
 msgid "Examples"
-msgstr ""
+msgstr "示例"
 
 #: ../../upstream/docs/user/automation-rules.rst:210
 msgid "Activate all new tags"
-msgstr ""
+msgstr "激活所有新标签"
 
 #: ../../upstream/docs/user/automation-rules.rst:212
 #: ../../upstream/docs/user/automation-rules.rst:226
@@ -418,122 +438,122 @@ msgstr ""
 #: ../../upstream/docs/user/automation-rules.rst:279
 #: ../../upstream/docs/user/automation-rules.rst:287
 msgid "Match: ``Any version``"
-msgstr ""
+msgstr "匹配：``Any version``"
 
 #: ../../upstream/docs/user/automation-rules.rst:213
 #: ../../upstream/docs/user/automation-rules.rst:234
 #: ../../upstream/docs/user/automation-rules.rst:255
 msgid "Version type: ``Tag``"
-msgstr ""
+msgstr "版本类型：``Tag``"
 
 #: ../../upstream/docs/user/automation-rules.rst:214
 #: ../../upstream/docs/user/automation-rules.rst:221
 #: ../../upstream/docs/user/automation-rules.rst:247
 #: ../../upstream/docs/user/automation-rules.rst:256
 msgid "Action: ``Activate version``"
-msgstr ""
+msgstr "动作：``Activate version``"
 
 #: ../../upstream/docs/user/automation-rules.rst:217
 msgid "Activate only new branches that belong to the ``1.x`` release"
-msgstr ""
+msgstr "仅激活属于 ``1.x`` 发布的新分支"
 
 #: ../../upstream/docs/user/automation-rules.rst:219
 msgid "Custom match: ``^1\\.\\d+$``"
-msgstr ""
+msgstr "自定义匹配：``^1\\.\\d+$``"
 
 #: ../../upstream/docs/user/automation-rules.rst:220
 #: ../../upstream/docs/user/automation-rules.rst:227
 msgid "Version type: ``Branch``"
-msgstr ""
+msgstr "版本类型：``Branch``"
 
 #: ../../upstream/docs/user/automation-rules.rst:224
 msgid "Delete an active version when a branch is deleted"
-msgstr ""
+msgstr "分支删除时删除活跃版本"
 
 #: ../../upstream/docs/user/automation-rules.rst:228
 msgid "Action: ``Delete version``"
-msgstr ""
+msgstr "动作：``Delete version``"
 
 #: ../../upstream/docs/user/automation-rules.rst:231
 msgid "Set as default new tags that have the ``-stable`` or ``-release`` suffix"
-msgstr ""
+msgstr "将带 ``-stable`` 或 ``-release`` 后缀的新标签设为默认"
 
 #: ../../upstream/docs/user/automation-rules.rst:233
 msgid "Custom match: ``-(stable|release)$``"
-msgstr ""
+msgstr "自定义匹配：``-(stable|release)$``"
 
 #: ../../upstream/docs/user/automation-rules.rst:235
 msgid "Action: ``Set version as default``"
-msgstr ""
+msgstr "动作：``Set version as default``"
 
 #: ../../upstream/docs/user/automation-rules.rst:239
 msgid ""
-"You can also create two rules: one to match ``-stable`` and other to "
-"match ``-release``."
-msgstr ""
+"You can also create two rules: one to match ``-stable`` and other to match "
+"``-release``."
+msgstr "你也可以创建两条规则：一条匹配 ``-stable``，另一条匹配 ``-release``。"
 
 #: ../../upstream/docs/user/automation-rules.rst:243
 msgid "Activate all new tags and branches that start with ``v`` or ``V``"
-msgstr ""
+msgstr "激活所有以 ``v`` 或 ``V`` 开头的新标签和分支"
 
 #: ../../upstream/docs/user/automation-rules.rst:245
 msgid "Custom match: ``^[vV]``"
-msgstr ""
+msgstr "自定义匹配：``^[vV]``"
 
 #: ../../upstream/docs/user/automation-rules.rst:246
 msgid "Version types: ``Tag``, ``Branch``"
-msgstr ""
+msgstr "版本类型：``Tag``, ``Branch``"
 
 #: ../../upstream/docs/user/automation-rules.rst:250
 msgid "Activate all new tags that don't contain the ``-nightly`` suffix"
-msgstr ""
+msgstr "激活所有不含 ``-nightly`` 后缀的新标签"
 
 #: ../../upstream/docs/user/automation-rules.rst:254
 msgid "Custom match: ``.*(?<!-nightly)$``"
-msgstr ""
+msgstr "自定义匹配：``.*(?<!-nightly)$``"
 
 #: ../../upstream/docs/user/automation-rules.rst:259
 msgid "Only build when documentation files change"
-msgstr ""
+msgstr "仅在文档文件变更时构建"
 
 #: ../../upstream/docs/user/automation-rules.rst:262
 #: ../../upstream/docs/user/automation-rules.rst:280
 msgid "Version types: ``Tag``, ``Branch``, ``Pull request``"
-msgstr ""
+msgstr "版本类型：``Tag``, ``Branch``, ``Pull request``"
 
 #: ../../upstream/docs/user/automation-rules.rst:263
 msgid "Changed files:"
-msgstr ""
+msgstr "变更的文件："
 
 #: ../../upstream/docs/user/automation-rules.rst:271
 #: ../../upstream/docs/user/automation-rules.rst:282
 #: ../../upstream/docs/user/automation-rules.rst:290
 msgid "Action: ``Trigger build for version``"
-msgstr ""
+msgstr "动作：``Trigger build for version``"
 
 #: ../../upstream/docs/user/automation-rules.rst:274
 msgid "Skip builds for commits with ``[skip ci]`` in the message"
-msgstr ""
+msgstr "跳过提交信息含 ``[skip ci]`` 的构建"
 
 #: ../../upstream/docs/user/automation-rules.rst:276
 msgid ""
-"Configure a single rule that triggers a build only when the commit "
-"message does *not* contain ``[skip ci]``:"
-msgstr ""
+"Configure a single rule that triggers a build only when the commit message "
+"does *not* contain ``[skip ci]``:"
+msgstr "配置一条仅在提交信息*不*包含 ``[skip ci]`` 时触发构建的规则："
 
 #: ../../upstream/docs/user/automation-rules.rst:281
 msgid "Commit message: ``^(?!.*\\[skip ci\\]).*``"
-msgstr ""
+msgstr "提交信息：``^(?!.*\\[skip ci\\]).*``"
 
 #: ../../upstream/docs/user/automation-rules.rst:285
 msgid "Only build pull requests labeled with ``documentation``"
-msgstr ""
+msgstr "仅构建带 ``documentation`` 标签的 Pull Request"
 
 #: ../../upstream/docs/user/automation-rules.rst:288
 msgid "Version type: ``Pull request``"
-msgstr ""
+msgstr "版本类型：``Pull request``"
 
 #: ../../upstream/docs/user/automation-rules.rst:289
 msgid "Pull request labels: ``^documentation$``"
-msgstr ""
+msgstr "Pull Request 标签：``^documentation$``"
 

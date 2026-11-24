@@ -22,385 +22,395 @@ msgstr ""
 
 #: ../../upstream/docs/user/addons.rst:2
 msgid "Read the Docs Addons"
-msgstr ""
+msgstr "Read the Docs Addon"
 
 #: ../../upstream/docs/user/addons.rst:4
 msgid ""
-"**Read the Docs Addons** is a group of features for documentation readers"
-" and maintainers that you can add to any documentation set hosted on Read"
-" the Docs. They are used in the rendered documentation, and can be "
-"accessed via hotkeys or on screen UI elements."
+"**Read the Docs Addons** is a group of features for documentation readers "
+"and maintainers that you can add to any documentation set hosted on Read the"
+" Docs. They are used in the rendered documentation, and can be accessed via "
+"hotkeys or on screen UI elements."
 msgstr ""
+"**Read the Docs Addon** 是一组面向文档读者和维护者的功能，可添加到 Read the Docs "
+"上托管的任何文档集中。它们在渲染后的文档中使用，可通过热键或屏幕上的 UI 元素访问。"
 
 #: ../../upstream/docs/user/addons.rst:8
 msgid ":doc:`Visual diff </visual-diff>`"
-msgstr ""
+msgstr ":doc:`Visual diff </visual-diff>`"
 
 #: ../../upstream/docs/user/addons.rst:9
 msgid "Highlight changed output from pull requests"
-msgstr ""
+msgstr "高亮显示 Pull Request 的变更内容"
 
 #: ../../upstream/docs/user/addons.rst:11
 msgid ":doc:`Link previews </link-previews>`"
-msgstr ""
+msgstr ":doc:`Link previews </link-previews>`"
 
 #: ../../upstream/docs/user/addons.rst:12
 msgid "See the content the link points to before clicking on it"
-msgstr ""
+msgstr "点击前预览链接指向的内容"
 
 #: ../../upstream/docs/user/addons.rst:14
 msgid ":doc:`Documentation notification </doc-notifications>`"
-msgstr ""
+msgstr ":doc:`Documentation notification </doc-notifications>`"
 
 #: ../../upstream/docs/user/addons.rst:15
 msgid "Alert users to various documentation states"
-msgstr ""
+msgstr "针对各种文档状态提醒用户"
 
 #: ../../upstream/docs/user/addons.rst:17
 msgid ":doc:`Flyout </flyout-menu>`"
-msgstr ""
+msgstr ":doc:`Flyout </flyout-menu>`"
 
 #: ../../upstream/docs/user/addons.rst:18
 msgid "Easily switch between versions and translations"
-msgstr ""
+msgstr "轻松在版本和翻译间切换"
 
 #: ../../upstream/docs/user/addons.rst:20
 msgid ":doc:`Non-stable notification </versions>`"
-msgstr ""
+msgstr ":doc:`Non-stable notification </versions>`"
 
 #: ../../upstream/docs/user/addons.rst:21
 msgid "Notify readers that they are reading docs from a non stable release"
-msgstr ""
+msgstr "通知读者他们正在阅读非稳定版本的文档"
 
 #: ../../upstream/docs/user/addons.rst:23
 msgid ":doc:`Latest version notification </versions>`"
-msgstr ""
+msgstr ":doc:`Latest version notification </versions>`"
 
 #: ../../upstream/docs/user/addons.rst:24
 msgid "Notify readers that they are reading docs from a development version"
-msgstr ""
+msgstr "通知读者他们正在阅读开发版本的文档"
 
 #: ../../upstream/docs/user/addons.rst:26
 msgid ":doc:`Search as you type </server-side-search/index>`"
-msgstr ""
+msgstr ":doc:`Search as you type </server-side-search/index>`"
 
 #: ../../upstream/docs/user/addons.rst:27
 msgid "Get search results faster"
-msgstr ""
+msgstr "更快获取搜索结果"
 
 #: ../../upstream/docs/user/addons.rst:29
 msgid ":doc:`Traffic analytics </traffic-analytics>`"
-msgstr ""
+msgstr ":doc:`Traffic analytics </traffic-analytics>`"
 
 #: ../../upstream/docs/user/addons.rst:30
 msgid "See what pages your users are reading"
-msgstr ""
+msgstr "查看用户正在阅读哪些页面"
 
 #: ../../upstream/docs/user/addons.rst:32
 msgid ":doc:`Search analytics </search-analytics>`"
-msgstr ""
+msgstr ":doc:`Search analytics </search-analytics>`"
 
 #: ../../upstream/docs/user/addons.rst:33
 msgid "Understand what your users are searching for"
-msgstr ""
+msgstr "了解用户在搜索什么"
 
 #: ../../upstream/docs/user/addons.rst:35
 msgid ":doc:`Custom script </custom-script>`"
-msgstr ""
+msgstr ":doc:`Custom script </custom-script>`"
 
 #: ../../upstream/docs/user/addons.rst:36
 msgid "Inject custom JavaScript into your documentation"
-msgstr ""
+msgstr "向文档注入自定义 JavaScript"
 
 #: ../../upstream/docs/user/addons.rst:39
 msgid "Configuring Read the Docs Addons"
-msgstr ""
+msgstr "配置 Read the Docs Addon"
 
 #: ../../upstream/docs/user/addons.rst:41
 msgid ""
 "Individual configuration options for each addon are available in your "
 "project's settings."
-msgstr ""
+msgstr "每个 Addon 的单独配置选项可在项目设置中找到。"
 
 #: ../../upstream/docs/user/addons.rst:43
 msgid "Go to your project's :menuselection:`Settings --> Addons`."
-msgstr ""
+msgstr "前往项目的 :menuselection:`Settings --> Addons`。"
 
 #: ../../upstream/docs/user/addons.rst:44
 msgid "Configure each Addon individually."
-msgstr ""
+msgstr "单独配置每个 Addon。"
 
 #: ../../upstream/docs/user/addons.rst:47
 msgid "Integrating with Addons"
-msgstr ""
+msgstr "与 Addon 集成"
 
 #: ../../upstream/docs/user/addons.rst:50
 msgid "Integrate with Search as you type"
-msgstr ""
+msgstr "集成 Search as you type"
 
 #: ../../upstream/docs/user/addons.rst:52
 msgid ""
 "To configure your site to use :doc:`Read the Docs search </server-side-"
-"search/index>` instead of the default search, adapt the following block "
-"of JavaScript to your own site:"
+"search/index>` instead of the default search, adapt the following block of "
+"JavaScript to your own site:"
 msgstr ""
+"要将站点配置为使用 :doc:`Read the Docs 搜索 </server-side-search/index>` 而非默认搜索，请将以下 "
+"JavaScript 代码块适配到你自己的站点："
 
 #: ../../upstream/docs/user/addons.rst:54
 msgid "javascript/readthedocs.js"
-msgstr ""
+msgstr "javascript/readthedocs.js"
 
 #: ../../upstream/docs/user/addons.rst:68
 msgid ""
-"Depending on the tool you are using, you may need to change the selector "
-"to match the search input field. You will also need to ensure that the "
+"Depending on the tool you are using, you may need to change the selector to "
+"match the search input field. You will also need to ensure that the "
 "JavaScript file is included in your documentation build."
-msgstr ""
+msgstr "根据你使用的工具，可能需要更改选择器以匹配搜索输入框。你还需要确保 JavaScript 文件已包含在文档构建中。"
 
 #: ../../upstream/docs/user/addons.rst:73
 msgid "Addons data and customization"
-msgstr ""
+msgstr "Addon 数据与定制"
 
 #: ../../upstream/docs/user/addons.rst:75
 msgid ""
-"Addons can be customized using CSS variables and the data used by Addons "
-"can be accessed using a custom event."
-msgstr ""
+"Addons can be customized using CSS variables and the data used by Addons can"
+" be accessed using a custom event."
+msgstr "Addon 可通过 CSS 变量进行定制，Addon 使用的数据可通过自定义事件访问。"
 
 #: ../../upstream/docs/user/addons.rst:78
 msgid "CSS variable customization"
-msgstr ""
+msgstr "CSS 变量定制"
 
 #: ../../upstream/docs/user/addons.rst:80
 msgid ""
 "Addons use CSS custom properties (`CSS variables "
-"<https://developer.mozilla.org/en-US/docs/Web/CSS/--*>`_) to allow for "
-"easy customization. To customize addons, add CSS variable definitions to "
-"your theme's CSS:"
+"<https://developer.mozilla.org/en-US/docs/Web/CSS/--*>`_) to allow for easy "
+"customization. To customize addons, add CSS variable definitions to your "
+"theme's CSS:"
 msgstr ""
+"Addon 使用 CSS 自定义属性（`CSS 变量 <https://developer.mozilla.org/en-"
+"US/docs/Web/CSS/--*>`_）以便轻松定制。要定制 Addon，请将 CSS 变量定义添加到你的主题 CSS 中："
 
 #: ../../upstream/docs/user/addons.rst:98
 msgid "CSS variables reference"
-msgstr ""
+msgstr "CSS 变量参考"
 
 #: ../../upstream/docs/user/addons.rst
 msgid "Click to see all available CSS variables"
-msgstr ""
+msgstr "点击查看所有可用的 CSS 变量"
 
 #: ../../upstream/docs/user/addons.rst:104
 msgid "**Global variables**"
-msgstr ""
+msgstr "**全局变量**"
 
 #: ../../upstream/docs/user/addons.rst:106
 msgid "``--readthedocs-font-size``"
-msgstr ""
+msgstr "``--readthedocs-font-size``"
 
 #: ../../upstream/docs/user/addons.rst:108
 msgid "**Flyout menu**"
-msgstr ""
+msgstr "**浮出菜单**"
 
 #: ../../upstream/docs/user/addons.rst:110
 msgid "``--readthedocs-flyout-background-color``"
-msgstr ""
+msgstr "``--readthedocs-flyout-background-color``"
 
 #: ../../upstream/docs/user/addons.rst:111
 msgid "``--readthedocs-flyout-color``"
-msgstr ""
+msgstr "``--readthedocs-flyout-color``"
 
 #: ../../upstream/docs/user/addons.rst:112
 msgid "``--readthedocs-flyout-current-version-color``"
-msgstr ""
+msgstr "``--readthedocs-flyout-current-version-color``"
 
 #: ../../upstream/docs/user/addons.rst:113
 msgid "``--readthedocs-flyout-font-family``"
-msgstr ""
+msgstr "``--readthedocs-flyout-font-family``"
 
 #: ../../upstream/docs/user/addons.rst:114
 msgid "``--readthedocs-flyout-font-size``"
-msgstr ""
+msgstr "``--readthedocs-flyout-font-size``"
 
 #: ../../upstream/docs/user/addons.rst:115
 msgid "``--readthedocs-flyout-header-font-size``"
-msgstr ""
+msgstr "``--readthedocs-flyout-header-font-size``"
 
 #: ../../upstream/docs/user/addons.rst:116
 msgid "``--readthedocs-flyout-item-link-color``"
-msgstr ""
+msgstr "``--readthedocs-flyout-item-link-color``"
 
 #: ../../upstream/docs/user/addons.rst:117
 msgid "``--readthedocs-flyout-link-color``"
-msgstr ""
+msgstr "``--readthedocs-flyout-link-color``"
 
 #: ../../upstream/docs/user/addons.rst:118
 msgid "``--readthedocs-flyout-section-heading-color``"
-msgstr ""
+msgstr "``--readthedocs-flyout-section-heading-color``"
 
 #: ../../upstream/docs/user/addons.rst:120
 msgid "**Notifications**"
-msgstr ""
+msgstr "**通知**"
 
 #: ../../upstream/docs/user/addons.rst:122
 msgid "``--readthedocs-notification-background-color``"
-msgstr ""
+msgstr "``--readthedocs-notification-background-color``"
 
 #: ../../upstream/docs/user/addons.rst:123
 msgid "``--readthedocs-notification-color``"
-msgstr ""
+msgstr "``--readthedocs-notification-color``"
 
 #: ../../upstream/docs/user/addons.rst:124
 msgid "``--readthedocs-notification-font-family``"
-msgstr ""
+msgstr "``--readthedocs-notification-font-family``"
 
 #: ../../upstream/docs/user/addons.rst:125
 msgid "``--readthedocs-notification-font-size``"
-msgstr ""
+msgstr "``--readthedocs-notification-font-size``"
 
 #: ../../upstream/docs/user/addons.rst:126
 msgid "``--readthedocs-notification-link-color``"
-msgstr ""
+msgstr "``--readthedocs-notification-link-color``"
 
 #: ../../upstream/docs/user/addons.rst:127
 msgid "``--readthedocs-notification-title-background-color``"
-msgstr ""
+msgstr "``--readthedocs-notification-title-background-color``"
 
 #: ../../upstream/docs/user/addons.rst:128
 msgid "``--readthedocs-notification-title-color``"
-msgstr ""
+msgstr "``--readthedocs-notification-title-color``"
 
 #: ../../upstream/docs/user/addons.rst:129
 msgid "``--readthedocs-notification-toast-font-size``"
-msgstr ""
+msgstr "``--readthedocs-notification-toast-font-size``"
 
 #: ../../upstream/docs/user/addons.rst:131
 msgid "**Search**"
-msgstr ""
+msgstr "**搜索**"
 
 #: ../../upstream/docs/user/addons.rst:133
 msgid "``--readthedocs-search-backdrop-color``"
-msgstr ""
+msgstr "``--readthedocs-search-backdrop-color``"
 
 #: ../../upstream/docs/user/addons.rst:134
 msgid "``--readthedocs-search-color``"
-msgstr ""
+msgstr "``--readthedocs-search-color``"
 
 #: ../../upstream/docs/user/addons.rst:135
 msgid "``--readthedocs-search-content-background-color``"
-msgstr ""
+msgstr "``--readthedocs-search-content-background-color``"
 
 #: ../../upstream/docs/user/addons.rst:136
 msgid "``--readthedocs-search-content-border-color``"
-msgstr ""
+msgstr "``--readthedocs-search-content-border-color``"
 
 #: ../../upstream/docs/user/addons.rst:137
 msgid "``--readthedocs-search-filters-border-color``"
-msgstr ""
+msgstr "``--readthedocs-search-filters-border-color``"
 
 #: ../../upstream/docs/user/addons.rst:138
 msgid "``--readthedocs-search-font-family``"
-msgstr ""
+msgstr "``--readthedocs-search-font-family``"
 
 #: ../../upstream/docs/user/addons.rst:139
 msgid "``--readthedocs-search-font-size``"
-msgstr ""
+msgstr "``--readthedocs-search-font-size``"
 
 #: ../../upstream/docs/user/addons.rst:140
 msgid "``--readthedocs-search-footer-background-color``"
-msgstr ""
+msgstr "``--readthedocs-search-footer-background-color``"
 
 #: ../../upstream/docs/user/addons.rst:141
 msgid "``--readthedocs-search-footer-code-background-color``"
-msgstr ""
+msgstr "``--readthedocs-search-footer-code-background-color``"
 
 #: ../../upstream/docs/user/addons.rst:142
 msgid "``--readthedocs-search-footer-code-border-color``"
-msgstr ""
+msgstr "``--readthedocs-search-footer-code-border-color``"
 
 #: ../../upstream/docs/user/addons.rst:143
 msgid "``--readthedocs-search-input-background-color``"
-msgstr ""
+msgstr "``--readthedocs-search-input-background-color``"
 
 #: ../../upstream/docs/user/addons.rst:144
 msgid "``--readthedocs-search-result-section-border-color``"
-msgstr ""
+msgstr "``--readthedocs-search-result-section-border-color``"
 
 #: ../../upstream/docs/user/addons.rst:145
 msgid "``--readthedocs-search-result-section-color``"
-msgstr ""
+msgstr "``--readthedocs-search-result-section-color``"
 
 #: ../../upstream/docs/user/addons.rst:146
 msgid "``--readthedocs-search-result-section-highlight-color``"
-msgstr ""
+msgstr "``--readthedocs-search-result-section-highlight-color``"
 
 #: ../../upstream/docs/user/addons.rst:147
 msgid "``--readthedocs-search-result-section-subheading-color``"
-msgstr ""
+msgstr "``--readthedocs-search-result-section-subheading-color``"
 
 #: ../../upstream/docs/user/addons.rst:149
 msgid ""
 "You can find default values and full CSS in our `Addons source "
 "<https://github.com/readthedocs/addons/tree/main/src>`_."
 msgstr ""
+"你可以在我们的 `Addons 源码 <https://github.com/readthedocs/addons/tree/main/src>`_ "
+"中找到默认值和完整的 CSS。"
 
 #: ../../upstream/docs/user/addons.rst:152
 msgid "Custom event integration"
-msgstr ""
+msgstr "自定义事件集成"
 
 #: ../../upstream/docs/user/addons.rst:154
 msgid ""
-"Read the Docs provides a custom event ``readthedocs-addons-data-ready`` "
-"that allows you to access the Addons data and integrate it into your "
-"theme or documentation. The event provides access to the version data, "
-"project information, and other Addons configuration."
+"Read the Docs provides a custom event ``readthedocs-addons-data-ready`` that"
+" allows you to access the Addons data and integrate it into your theme or "
+"documentation. The event provides access to the version data, project "
+"information, and other Addons configuration."
 msgstr ""
+"Read the Docs 提供了一个自定义事件 ``readthedocs-addons-data-ready``，允许你访问 Addon "
+"数据并将其集成到你的主题或文档中。该事件提供版本数据、项目信息和其他 Addon 配置的访问权限。"
 
 #: ../../upstream/docs/user/addons.rst:157
 msgid "To use the custom event:"
-msgstr ""
+msgstr "使用自定义事件："
 
 #: ../../upstream/docs/user/addons.rst:159
 msgid "Add the required meta tag to your HTML template:"
-msgstr ""
+msgstr "向 HTML 模板添加所需的 meta 标签："
 
 #: ../../upstream/docs/user/addons.rst:165
 msgid "Add a JavaScript event listener to handle the data:"
-msgstr ""
+msgstr "添加 JavaScript 事件监听器以处理数据："
 
 #: ../../upstream/docs/user/addons.rst:187
 msgid "Event data reference"
-msgstr ""
+msgstr "事件数据参考"
 
 #: ../../upstream/docs/user/addons.rst:189
 msgid ""
-"The ``event.detail.data()`` object contains all the Addons configuration,"
-" including:"
-msgstr ""
+"The ``event.detail.data()`` object contains all the Addons configuration, "
+"including:"
+msgstr "``event.detail.data()`` 对象包含所有 Addon 配置，包括："
 
 #: ../../upstream/docs/user/addons.rst:191
 msgid "``addons`` - Individual addon configurations"
-msgstr ""
+msgstr "``addons`` - 单个 Addon 的配置"
 
 #: ../../upstream/docs/user/addons.rst:192
 msgid "``builds.current`` - Details about the current build"
-msgstr ""
+msgstr "``builds.current`` - 当前构建的详细信息"
 
 #: ../../upstream/docs/user/addons.rst:193
 msgid "``projects.current`` - Current project details"
-msgstr ""
+msgstr "``projects.current`` - 当前项目详情"
 
 #: ../../upstream/docs/user/addons.rst:194
 msgid "``projects.translations`` - Available translations"
-msgstr ""
+msgstr "``projects.translations`` - 可用的翻译"
 
 #: ../../upstream/docs/user/addons.rst:195
 msgid "``versions.current`` - Details about the current version"
-msgstr ""
+msgstr "``versions.current`` - 当前版本的详细信息"
 
 #: ../../upstream/docs/user/addons.rst:196
 msgid "``versions.active`` - List of all active and not hidden versions"
-msgstr ""
+msgstr "``versions.active`` - 所有活跃且非隐藏版本的列表"
 
 #: ../../upstream/docs/user/addons.rst
 msgid "Click to see an example of the Addons data"
-msgstr ""
+msgstr "点击查看 Addon 数据示例"
 
 #: ../../upstream/docs/user/addons.rst:353
 msgid ""
@@ -408,26 +418,31 @@ msgid ""
 "docs <https://docs.readthedocs.io/_/addons/?client-version=0.22.0&api-"
 "version=1&project-slug=docs&version-slug=stable>`_."
 msgstr ""
+"你可以在我们的 `这些文档的 Addons API 响应 <https://docs.readthedocs.io/_/addons/?client-"
+"version=0.22.0&api-version=1&project-slug=docs&version-slug=stable>`_ "
+"中看到实时示例。"
 
 #: ../../upstream/docs/user/addons.rst:356
 msgid "Example: creating a version selector"
-msgstr ""
+msgstr "示例：创建版本选择器"
 
 #: ../../upstream/docs/user/addons.rst:358
 msgid ""
-"Here's a complete example showing how to create a version selector using "
-"the Addons data:"
-msgstr ""
+"Here's a complete example showing how to create a version selector using the"
+" Addons data:"
+msgstr "这是一个使用 Addon 数据创建版本选择器的完整示例："
 
 #: ../../upstream/docs/user/addons.rst:392
 msgid "Diving deeper"
-msgstr ""
+msgstr "深入了解"
 
 #: ../../upstream/docs/user/addons.rst:394
 msgid ""
-"You can read more about all of the Addons functionality by diving into "
-"each Addon above. If you are a developer and would like to integrate with"
-" our Addons or use our existing data, you can :doc:`reach out </support>`"
-" to us and we would love to work with you."
+"You can read more about all of the Addons functionality by diving into each "
+"Addon above. If you are a developer and would like to integrate with our "
+"Addons or use our existing data, you can :doc:`reach out </support>` to us "
+"and we would love to work with you."
 msgstr ""
+"你可以通过深入阅读上述每个 Addon 来了解所有 Addon 功能。如果你是开发者，想要与我们的 Addon 集成或使用现有数据，可以 "
+":doc:`联系我们 </support>`，我们非常乐意合作。"
 
