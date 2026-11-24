@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Read the Docs, Inc & contributors
+# This file is distributed under the same license as the Read the Docs user
+# documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Read the Docs user documentation 2026.11.17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-24 16:13+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../upstream/docs/user/sponsors.rst:2
+msgid "Sponsors of Read the Docs"
+msgstr ""
+
+#: ../../upstream/docs/user/sponsors.rst:4
+msgid ""
+"Running Read the Docs isn't free, and the site wouldn't be where it is "
+"today without generous support of our sponsors. Below is a list of all "
+"the folks who have helped the site financially, in order of the date they"
+" first started supporting us."
+msgstr ""
+
+#: ../../upstream/docs/user/sponsors.rst:10
+msgid "Current sponsors"
+msgstr ""
+
+#: ../../upstream/docs/user/sponsors.rst:12
+msgid ""
+"`AWS`_ - They cover all of our hosting expenses every month.  This is a "
+"pretty large sum of money, averaging around $5,000/mo."
+msgstr ""
+
+#: ../../upstream/docs/user/sponsors.rst:13
+msgid ""
+"`Cloudflare`_ - Cloudflare is providing us with an enterprise plan of "
+"their SSL for SaaS Providers product that enables us to provide SSL "
+"certificates for custom domains."
+msgstr ""
+
+#: ../../upstream/docs/user/sponsors.rst:14
+msgid ""
+"`Chan Zuckerberg Initiative`_ - Through their \"Essential Open Source "
+"Software for Science\" programme, they fund our ongoing efforts to "
+"improve scientific documentation and make Read the Docs a better service "
+"for scientific projects."
+msgstr ""
+
+#: ../../upstream/docs/user/sponsors.rst:16
+msgid "You? (Email us at hello@readthedocs.org for more info)"
+msgstr ""
+
+#: ../../upstream/docs/user/sponsors.rst:19
+msgid "Past sponsors"
+msgstr ""
+
+#: ../../upstream/docs/user/sponsors.rst:21
+msgid "`Microsoft Azure`_"
+msgstr ""
+
+#: ../../upstream/docs/user/sponsors.rst:22
+msgid "`Python Software Foundation`_"
+msgstr ""
+
+#: ../../upstream/docs/user/sponsors.rst:23
+msgid "`Revsys`_"
+msgstr ""
+
+#: ../../upstream/docs/user/sponsors.rst:24
+msgid "`Mozilla Web Dev`_"
+msgstr ""
+
+#: ../../upstream/docs/user/sponsors.rst:25
+msgid "`Django Software Foundation`_"
+msgstr ""
+
+#: ../../upstream/docs/user/sponsors.rst:26
+msgid "Lab305"
+msgstr ""
+
+#: ../../upstream/docs/user/sponsors.rst:27
+msgid "`Twilio`_"
+msgstr ""
+
+#: ../../upstream/docs/user/sponsors.rst:28
+msgid "`Rackspace`_"
+msgstr ""
+
+#: ../../upstream/docs/user/sponsors.rst:29
+msgid "`Mozilla`_"
+msgstr ""
+
+#: ../../upstream/docs/user/sponsors.rst:45
+msgid "Sponsor us"
+msgstr ""
+
+#: ../../upstream/docs/user/sponsors.rst:47
+msgid ""
+"Contact us at rev@readthedocs.org for more information on sponsoring Read"
+" the Docs."
+msgstr ""
+

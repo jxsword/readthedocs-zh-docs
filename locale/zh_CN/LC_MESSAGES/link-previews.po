@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Read the Docs, Inc & contributors
+# This file is distributed under the same license as the Read the Docs user
+# documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Read the Docs user documentation 2026.11.17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-24 16:13+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../upstream/docs/user/link-previews.rst:2
+msgid "Link previews"
+msgstr ""
+
+#: ../../upstream/docs/user/link-previews.rst:4
+msgid ""
+"Link previews allows you to see the content of the link you are about to "
+"click when you hover over it. This gives you the ability to quickly "
+"preview where a link points, so you can keep your context while reading "
+"but learn more from other resources."
+msgstr ""
+
+#: ../../upstream/docs/user/link-previews.rst:11
+msgid "Example of link previews addon"
+msgstr ""
+
+#: ../../upstream/docs/user/link-previews.rst:13
+msgid ""
+"Link previews will only be generated for internal links--links that point"
+" to pages within your documentation site. No link previews will be "
+"generated for links to external sites or links that appear outside of the"
+" primary content of the documentation page (eg. nav bars)."
+msgstr ""
+
+#: ../../upstream/docs/user/link-previews.rst:16
+msgid ""
+"You can see an example of a link preview by hovering over the following "
+"link: :doc:`Addons </addons>`."
+msgstr ""
+
+#: ../../upstream/docs/user/link-previews.rst:19
+msgid "Enabling link previews"
+msgstr ""
+
+#: ../../upstream/docs/user/link-previews.rst:21
+msgid ""
+"Go to your project's :menuselection:`Settings --> Addons --> Link "
+"previews`."
+msgstr ""
+
+#: ../../upstream/docs/user/link-previews.rst:22
+msgid "Check :guilabel:`Enabled`."
+msgstr ""
+
+#: ../../upstream/docs/user/link-previews.rst:23
+msgid "Save your settings -- a rebuild of your project isn't required!"
+msgstr ""
+
+#: ../../upstream/docs/user/link-previews.rst:26
+msgid "Troubleshooting link previews"
+msgstr ""
+
+#: ../../upstream/docs/user/link-previews.rst:28
+msgid ""
+"We perform some heuristic to detect the documentation tool used to "
+"generate the page based on its HTML structure. This auto-detection may "
+"fail, resulting in the content rendered inside the popup being incorrect."
+" If you are experiencing this, you can specify the :guilabel:`CSS main "
+"content selector` in your project's :menuselection:`Settings --> Addons "
+"--> Advanced`. See :ref:`reference/main-content-detection:detection "
+"logic` for how this content is detected and guidance on choosing a good "
+"selector. You can also `open an issue in the addons repository "
+"<https://github.com/readthedocs/addons>`_ so we improve our heuristic."
+msgstr ""
+
+#: ../../upstream/docs/user/link-previews.rst:34
+msgid ""
+"Link previews won't be generated if JavaScript is not enabled in your web"
+" browser or if all cookies are blocked."
+msgstr ""
+

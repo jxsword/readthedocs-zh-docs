@@ -32,7 +32,8 @@
 readthedocs-zh-docs/
 ├── .gitmodules                     # upstream -> readthedocs/readthedocs.org (branch=main)
 ├── .readthedocs.yaml               # RTD v2 配置，开启 submodules
-├── conf.py                         # 包装配置：加载上游 conf，覆盖 locale_dirs/language/html_context
+├── .gitignore                      # 忽略 .venv/、_build/、_generated/、*.mo、.workbuddy/ 等
+├── conf.py                         # 包装配置：加载上游 conf，覆盖 locale_dirs/language/html_context 等
 ├── Makefile                        # gettext / update / build / preview / check
 ├── README.md                       # 本机依赖安装部署详述（用户明确要求）
 ├── requirements-local.txt          # 本地工具额外依赖（如 polib 等，若需要）
@@ -57,7 +58,7 @@ readthedocs-zh-docs/
 
 ```text
 upstream/docs/user/*.rst
-        │  sphinx-build -b gettext -c . upstream/docs/user _build/gettext
+        │  sphinx-build -b gettext -c . upstream/docs _build/gettext
         ▼
 _build/gettext/*.pot
         │  sphinx-intl update -d locale -p _build/gettext -l zh_CN --no-obsolete
@@ -65,13 +66,15 @@ _build/gettext/*.pot
 locale/zh_CN/LC_MESSAGES/*.po  ←── translate_po.py + glossary.md（唯一人工/AI 翻译面）
         │  sphinx-intl build -d locale -l zh_CN   （po → mo）
         ▼
-sphinx-build -b html -c . -D language=zh_CN upstream/docs/user _build/html
+sphinx-build -b html -c . -D language=zh_CN upstream/docs _build/html
         │  同时由 gen_upstream_meta.py 注入 html_context
         ▼
 带提交标记的中文 HTML（静态产物，生成后冻结）
 ```
 
 关键点：上游 `.rst` 始终来自 submodule，翻译只落在 `.po`。上游更新时不会覆盖译文，只会在 `.po` 中新增/失效条目。
+
+**源目录参数（M1 实测修正）**：`sphinx-build` / `sphinx-autobuild` 的源目录参数必须是 `upstream/docs`，**不能**是 `upstream/docs/user`。原因：上游 `conf.py` 加载 `sphinx-multiproject` 扩展，该扩展在 `config-inited` 阶段把 `app.srcdir` 覆盖为 `srcdir / PROJECT`（PROJECT=user）；若传入 `upstream/docs/user` 会被二次拼成 `upstream/docs/user/user`，触发 `SphinxError: unable to load master document`。实测以 `upstream/docs` 为参数时构建 0 warning、0 error。
 
 ### 3.3 提交标记生成机制
 
@@ -85,6 +88,19 @@ sphinx-build -b html -c . -D language=zh_CN upstream/docs/user _build/html
 3. 值来自 submodule HEAD 而非硬编码；HTML 生成后即为静态值，只有执行 `sync_upstream.sh` 推高 submodule 并重新构建才会变化。
 4. “最新”定义为**同步时刻上游 `main` 的最新提交**；若上游 stable 对应其它 ref，只需修改 `.gitmodules` 的 `branch`，其余流程不变。
 
+### 3.4 包装 conf.py 的加载与覆盖细节（M1 实施补充）
+
+上游 `upstream/docs/conf.py` 依赖 `PROJECT` 环境变量选择 docset，且内部用相对路径引用 `_ext`、`_templates`、`_static`、`img/logo.svg`。包装配置的顺序为：
+
+1. 设 `os.environ["PROJECT"] = "user"`。
+2. `os.chdir(upstream/docs)` 后以 `__file__ = upstream/docs/conf.py` 执行上游 conf，再把其中的大写变量导入包装模块，最后恢复 cwd。
+3. 必须覆盖的键：
+   - `locale_dirs` → 仓库根 `locale/`（上游默认 `user/locale/`，指向 submodule 内的其它语言译文）；
+   - `language` → `zh_CN`；
+   - `html_static_path`、`html_logo` → 指向 `upstream/docs/` 下的绝对路径（上游原值相对其自身 confdir，包装后 confdir 为仓库根）；
+   - `templates_path` → 本仓库 `_templates` 优先、上游 `_templates` 保留；上游 `layout.html` 的 Plausible 注入由本仓库模板原样保留；
+   - `html_context` **增量注入**：保留上游 `conf_py_path`、`display_github`、`github_user`、`github_repo`、`github_version`、`plausible_domain` 等键，仅追加 `upstream_sha`、`upstream_short_sha`、`upstream_commit_time`、`upstream_commit_url`；整体替换会使 “Edit on GitHub” 链接失效。
+
 ## 4. 本机依赖环境与安装部署（README.md 必须详述）
 
 ### 4.1 依赖清单
@@ -94,6 +110,7 @@ sphinx-build -b html -c . -D language=zh_CN upstream/docs/user _build/html
 | Python 3.13 + venv | 构建环境隔离 | 本机已有 Python 3.13.14 |
 | `upstream/requirements/docs.txt` | Sphinx 8.2.3、sphinx-intl 2.4.0、sphinx-multiproject、主题与扩展 | 上游仓库固定版本 |
 | GNU gettext（`msgfmt`/`msgmerge`） | PO/MO 编译与合并兜底 | 当前 Windows 环境**未安装**，需补 |
+| GNU make | 执行 `Makefile` 目标；亦可直接调用等价命令 | Windows 可用 scoop/choco 安装或跳过 |
 | git 2.55 + gh 2.101 | submodule 与远端创建推送 | 本机已有，gh 已登录 `jxsword` 且具 repo scope |
 | `polib`（可选） | PO 批量翻译脚本解析 | 若 `translate_po.py` 需要 |
 
@@ -143,7 +160,8 @@ git submodule update --init --recursive
 ## 5. 仓库初始化与 submodule
 
 ```bash
-git init
+# 先建立 .gitignore：忽略 .venv/、_build/、_generated/、locale/**/*.mo、.workbuddy/
+git init -b main
 git add . && git commit -m "docs: add translation plan and decision log"
 
 git submodule add -b main https://github.com/readthedocs/readthedocs.org.git upstream
@@ -152,7 +170,7 @@ git commit -m "chore: pin upstream docs source"
 # 后续每次同步上游
 ./scripts/sync_upstream.sh
 # 内部：git submodule update --remote upstream
-#       PROJECT=user sphinx-build -b gettext -c . upstream/docs/user _build/gettext
+#       PROJECT=user sphinx-build -b gettext -c . upstream/docs _build/gettext
 #       sphinx-intl update -d locale -p _build/gettext -l zh_CN --no-obsolete
 #       git add upstream locale && git commit -m "chore: sync upstream and refresh po"
 ```
@@ -162,7 +180,7 @@ git commit -m "chore: pin upstream docs source"
 ### 6.1 首次全量
 
 1. 初始化 submodule，锁定一个上游 commit。
-2. 用包装 `conf.py` 生成 pot：`PROJECT=user sphinx-build -b gettext -c . upstream/docs/user _build/gettext`。
+2. 用包装 `conf.py` 生成 pot：`PROJECT=user sphinx-build -b gettext -c . upstream/docs _build/gettext`。
 3. `sphinx-intl update -d locale -p _build/gettext -l zh_CN --no-obsolete` 生成全部 PO。
 4. 建立 `docs/glossary.md`，约定：
    - 专名保留英文：Read the Docs、Sphinx、MkDocs、Jupyter、Git、GitHub、API、Webhook 等；
@@ -204,10 +222,10 @@ git commit -m "chore: pin upstream docs source"
 # 生成元数据 + 编译 mo + 构建 HTML
 python scripts/gen_upstream_meta.py
 sphinx-intl build -d locale -l zh_CN
-PROJECT=user sphinx-build -b html -c . -D language=zh_CN upstream/docs/user _build/html
+PROJECT=user sphinx-build -b html -c . -D language=zh_CN upstream/docs _build/html
 
 # 实时预览
-PROJECT=user sphinx-autobuild -c . -D language=zh_CN upstream/docs/user _build/html \
+PROJECT=user sphinx-autobuild -c . -D language=zh_CN upstream/docs _build/html \
   --host 127.0.0.1 --port 8000
 ```
 
@@ -239,7 +257,7 @@ build:
       - sphinx-intl build -d locale -l zh_CN
     build:
       html:
-        - sphinx-build -b html -c . -D language=zh_CN upstream/docs/user $READTHEDOCS_OUTPUT/html
+        - sphinx-build -b html -c . -D language=zh_CN upstream/docs $READTHEDOCS_OUTPUT/html
 submodules:
   include: all
 python:

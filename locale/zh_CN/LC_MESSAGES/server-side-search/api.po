@@ -1,0 +1,273 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Read the Docs, Inc & contributors
+# This file is distributed under the same license as the Read the Docs user
+# documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Read the Docs user documentation 2026.11.17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-24 16:13+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../upstream/docs/user/server-side-search/api.rst:2
+msgid "Server side search API"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:4
+msgid ""
+"You can integrate our :doc:`server side search </server-side-"
+"search/index>` in your documentation by using our API."
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:6
+msgid ""
+"If you are using :doc:`/commercial/index` you will need to replace "
+"https://app.readthedocs.org/ with https://app.readthedocs.com/ in all the"
+" URLs used in the following examples. Check :ref:`server-side-"
+"search/api:authentication and authorization` if you are using private "
+"versions."
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:11
+msgid "API v3"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:15
+msgid ""
+"Return a list of search results for a project or subset of projects. "
+"Results are divided into sections with highlights of the matching term."
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst
+msgid "Query Parameters"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:20
+msgid "Search query (see :doc:`/server-side-search/syntax`)"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:21
+#: ../../upstream/docs/user/server-side-search/api.rst:195
+msgid "Jump to a specific page"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:22
+#: ../../upstream/docs/user/server-side-search/api.rst:196
+msgid "Limits the results per page, default is 50"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst
+msgid "Request JSON Object"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:26
+#: ../../upstream/docs/user/server-side-search/api.rst:200
+msgid "The type of the result, currently page is the only type."
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:27
+msgid "The project object"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:28
+msgid "The version object"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:29
+#: ../../upstream/docs/user/server-side-search/api.rst:204
+msgid "The title of the page"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:30
+#: ../../upstream/docs/user/server-side-search/api.rst:205
+msgid "Canonical domain of the resulting page"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:31
+#: ../../upstream/docs/user/server-side-search/api.rst:206
+msgid "Path to the resulting page"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:32
+#: ../../upstream/docs/user/server-side-search/api.rst:207
+msgid ""
+"An object containing a list of substrings with matching terms. Note that "
+"the text is HTML escaped with the matching terms inside a ``<span>`` tag."
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:34
+#: ../../upstream/docs/user/server-side-search/api.rst:209
+msgid ""
+"A list of block objects containing search results from the page. "
+"Currently, there is one type of block:  - section: A page section with a "
+"linkable anchor (``id`` attribute)."
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:36
+#: ../../upstream/docs/user/server-side-search/api.rst:211
+msgid ""
+"A list of block objects containing search results from the page. "
+"Currently, there is one type of block:"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:39
+#: ../../upstream/docs/user/server-side-search/api.rst:214
+msgid "section: A page section with a linkable anchor (``id`` attribute)."
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:43
+#: ../../upstream/docs/user/server-side-search/api.rst:218
+msgid ""
+"Except for highlights, any other content is not HTML escaped, you "
+"shouldn't include it in your page without escaping it first."
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:46
+#: ../../upstream/docs/user/server-side-search/api.rst:221
+msgid "**Example request**:"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:64
+#: ../../upstream/docs/user/server-side-search/api.rst:241
+msgid "**Example response**:"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:132
+msgid "Migrating from API v2"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:134
+msgid ""
+"Instead of using query arguments to specify the project and version to "
+"search, you need to do it from the query itself, this is if you had the "
+"following parameters:"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:138
+msgid "project: docs"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:139
+msgid "version: latest"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:140
+msgid "q: test"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:142
+msgid "Now you need to use:"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:144
+msgid "q: project:docs/latest test"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:146
+msgid "The response of the API is very similar to V2, with the following changes:"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:149
+msgid "``project`` is an object, not a string."
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:150
+msgid "``version`` is an object, not a string."
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:151
+msgid ""
+"``project_alias`` isn't present, it is contained in the ``project`` "
+"object."
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:154
+msgid ""
+"When searching on a parent project, results from their subprojects won't "
+"be included automatically, to include results from subprojects use the "
+"``subprojects`` parameter."
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:159
+msgid "Authentication and authorization"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:161
+msgid ""
+"If you are using :ref:`private versions <versions:Version states>`, users"
+" will only be allowed to search projects they have permissions over. "
+"Authentication and authorization is done using the current session, or "
+"any of the valid :doc:`sharing methods </commercial/sharing>`."
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:168
+msgid ":doc:`/api/v3`"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:169
+msgid ""
+"You can create and revoke sharing methods programmatically from "
+"``/api/v3/projects/<project_slug>/sharing/``."
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:171
+msgid ""
+"To be able to use the user's current session you need to use the API from"
+" the domain where your docs are being served (``<you-docs-"
+"domain>/_/api/v3/search/``). This is ``https://docs.readthedocs-"
+"hosted.com/_/api/v3/search/`` for the ``https://docs.readthedocs-"
+"hosted.com/`` project, for example."
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:177
+msgid "API v2 (deprecated)"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:181
+msgid ""
+"Please use our :ref:`server-side-search/api:api v3` instead, see :ref"
+":`server-side-search/api:migrating from api v2`."
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:186
+msgid ""
+"Return a list of search results for a project, including results from its"
+" :doc:`/subprojects`. Results are divided into sections with highlights "
+"of the matching term."
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:192
+msgid "Search query"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:193
+msgid "Project slug"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:194
+msgid "Version slug"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:201
+msgid "The project slug"
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:202
+msgid "Alias of the project if it's a subproject."
+msgstr ""
+
+#: ../../upstream/docs/user/server-side-search/api.rst:203
+msgid "The version slug"
+msgstr ""
+

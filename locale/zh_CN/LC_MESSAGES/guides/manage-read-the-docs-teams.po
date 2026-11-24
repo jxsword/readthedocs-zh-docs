@@ -1,0 +1,210 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Read the Docs, Inc & contributors
+# This file is distributed under the same license as the Read the Docs user
+# documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Read the Docs user documentation 2026.11.17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-24 16:13+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:2
+msgid "How to manage organization owners and teams"
+msgstr ""
+
+#: ../../upstream/docs/user/shared/admonition-rtd-business.rst:2
+msgid ""
+"This feature is only available on `Read the Docs Business "
+"<https://app.readthedocs.com/>`_."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:6
+msgid ""
+"Read the Docs uses teams within an organization to group users and "
+"provide permissions to projects. This guide will cover how to manage both"
+" organization owners and team members. You can read more about "
+"organizations and teams in our :doc:`/commercial/organizations` "
+"documentation."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:11
+msgid "Managing organization owners"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:13
+msgid ""
+"Organization owners have full administrative access to the organization "
+"and all its projects. They can manage settings, teams, members, and other"
+" owners."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:17
+msgid "Adding an owner to an organization"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:19
+msgid ""
+"To grant someone full administrative access to your organization, add "
+"them as an owner."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:23
+msgid "You must be an owner of the organization to add another owner."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:25
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:41
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:62
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:75
+msgid "Follow these steps:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:27
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:43
+msgid ""
+"Navigate to the `organization management page "
+"<https://app.readthedocs.com/organizations/choose/organization_detail/>`__."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:28
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:44
+msgid "Select your organization from the list."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:29
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:45
+msgid "Go to :menuselection:`Settings --> Owners`."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:30
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:32
+msgid "Click :guilabel:`Invite owner`."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:31
+msgid "Enter the user's Read the Docs username or email address."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:34
+msgid "The user will receive an invitation and must accept it to become an owner."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:37
+msgid "Removing an owner from an organization"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:39
+msgid "To revoke administrative access from an organization owner:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:46
+msgid "Click :guilabel:`Remove owner` next to the owner you want to remove."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:50
+msgid ""
+"You cannot remove the last owner from an organization. There must always "
+"be at least one owner."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:54
+msgid "Managing team members"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:57
+msgid "Adding a user to a team"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:59
+msgid ""
+"Adding a user to a team gives them all the permissions available to that "
+"team, whether it's *read-only* or *admin*."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:64
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:77
+msgid ""
+"Navigate to the `teams management page "
+"<https://app.readthedocs.com/organizations/choose/organization_team_list/>`__."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:65
+msgid "Click on a :guilabel:`<team name>`."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:66
+msgid "Click :guilabel:`Invite Member`."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:67
+msgid "Input the user's Read the Docs username or email address."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:68
+msgid "Click :guilabel:`Add member`."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:71
+msgid "Removing a user from a team"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:73
+msgid "Removing a user from a team removes all permissions that team gave them."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:78
+msgid "Click on :guilabel:`<team name>`."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:79
+msgid "Click :guilabel:`Remove` next to the user."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:83
+msgid "Granting access to import a project"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:85
+msgid ""
+"Organization owners can import projects on any team. To let another user "
+"import projects, make them a member of any team with *admin* permissions,"
+" they will be granted access to import a project on that team."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:90
+msgid ""
+"If your organization uses :ref:`single sign-on with a Git provider "
+"<sso_git_provider>`, teams aren't used, and only organization owners can "
+"import projects."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:94
+msgid "Automating team management"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:96
+msgid ""
+"You can manage teams more easily using our :doc:`single sign-on "
+"</commercial/single-sign-on>` features."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:100
+msgid ":doc:`/commercial/organizations`"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:101
+msgid "General information about the *organizations* feature."
+msgstr ""
+

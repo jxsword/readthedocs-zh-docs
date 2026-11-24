@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Read the Docs, Inc & contributors
+# This file is distributed under the same license as the Read the Docs user
+# documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Read the Docs user documentation 2026.11.17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-24 16:13+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../upstream/docs/user/intro/starlight.rst:-1
+msgid "Learn how to host Starlight documentation on Read the Docs."
+msgstr ""
+
+#: ../../upstream/docs/user/intro/starlight.rst:3
+msgid "Deploying Starlight on Read the Docs"
+msgstr ""
+
+#: ../../upstream/docs/user/intro/starlight.rst:12
+msgid ""
+"`Starlight`_ is a documentation framework built on top of the `Astro`_ "
+"web framework."
+msgstr ""
+
+#: ../../upstream/docs/user/intro/starlight.rst:14
+msgid ""
+"Minimal configuration is required to build an existing Starlight project "
+"on Read the Docs."
+msgstr ""
+
+#: ../../upstream/docs/user/intro/starlight.rst:16
+msgid ".readthedocs.yaml"
+msgstr ""
+
+#: ../../upstream/docs/user/intro/starlight.rst:42
+msgid "Getting started"
+msgstr ""
+
+#: ../../upstream/docs/user/intro/starlight.rst:44
+msgid ""
+"If you have an existing Starlight project you want to host on Read the "
+"Docs, check out our :doc:`/intro/add-project` guide."
+msgstr ""
+
+#: ../../upstream/docs/user/intro/starlight.rst:45
+msgid ""
+"If you're new to Starlight, check out the official `Getting started with "
+"Starlight`_ guide."
+msgstr ""
+
+#: ../../upstream/docs/user/intro/starlight.rst:50
+msgid "Using the proper base path"
+msgstr ""
+
+#: ../../upstream/docs/user/intro/starlight.rst:52
+msgid ""
+"To ensure that your Starlight site works correctly on Read the Docs, you "
+"need to set the ``site`` and ``base`` options in your Astro "
+"configuration:"
+msgstr ""
+
+#: ../../upstream/docs/user/intro/starlight.rst:55
+msgid "astro.config.mjs"
+msgstr ""
+
+#: ../../upstream/docs/user/intro/starlight.rst:78
+msgid ""
+"Links starting with ``/`` in your content are not prefixed with the base "
+"path. Use relative links (e.g. ``./guides/example/``) so they work under "
+"the version path."
+msgstr ""
+
+#: ../../upstream/docs/user/intro/starlight.rst:82
+msgid "Example repository and demo"
+msgstr ""
+
+#: ../../upstream/docs/user/intro/starlight.rst:84
+msgid "Example repository"
+msgstr ""
+
+#: ../../upstream/docs/user/intro/starlight.rst:85
+msgid "https://github.com/readthedocs/test-builds/tree/starlight"
+msgstr ""
+
+#: ../../upstream/docs/user/intro/starlight.rst:87
+msgid "Demo"
+msgstr ""
+
+#: ../../upstream/docs/user/intro/starlight.rst:88
+msgid "https://test-builds.readthedocs.io/en/starlight/"
+msgstr ""
+
+#: ../../upstream/docs/user/intro/starlight.rst:91
+msgid "Further reading"
+msgstr ""
+
+#: ../../upstream/docs/user/intro/starlight.rst:93
+msgid "`Starlight documentation`_"
+msgstr ""
+
+#: ../../upstream/docs/user/intro/starlight.rst:94
+msgid "`Astro documentation`_"
+msgstr ""
+

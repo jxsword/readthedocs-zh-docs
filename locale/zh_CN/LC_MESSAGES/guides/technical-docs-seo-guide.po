@@ -1,0 +1,500 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Read the Docs, Inc & contributors
+# This file is distributed under the same license as the Read the Docs user
+# documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Read the Docs user documentation 2026.11.17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-24 16:13+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:-1
+msgid ""
+"Looking to optimize your documentation project for search engines? This "
+"SEO guide will help your docs be better understood by both people and "
+"crawlers as well as help you rank higher in search engine results."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:2
+msgid "How to do search engine optimization (SEO) for documentation projects"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:10
+msgid ""
+"This article explains how documentation can be optimized to appear in "
+"search results, ultimately increasing traffic to your docs."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:13
+msgid ""
+"While you optimize your docs to make them more friendly for search engine"
+" spiders/crawlers, it's important to keep in mind that your ultimate goal"
+" is to make your docs more :term:`discoverable <discoverability>` for "
+"your users."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:17
+msgid ""
+"By following :ref:`our best practices for SEO <guides/technical-docs-seo-"
+"guide:Best practices for documentation SEO>`, you can ensure that when a "
+"user types a question into a search engine, they can get the answers from"
+" your documentation in the search results."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:23
+msgid ""
+"This guide isn't meant to be your only resource on SEO, and there's a lot"
+" of SEO topics not covered here. For additional reading, please see the "
+":ref:`external resources <guides/technical-docs-seo-guide:External "
+"resources>` section."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:30
+msgid "SEO basics"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:32
+msgid ""
+"Search engines like Google and Bing crawl through the internet following "
+"links in an attempt to understand and build an index of what various "
+"pages and sites are about. This is called \"crawling\" or \"indexing\". "
+"When a person sends a query to a search engine, the search engine "
+"evaluates this index using a number of factors and attempts to return the"
+" results most likely to answer that person's question."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:40
+msgid ""
+"How search engines \"rank\" sites based on a person's query is part of "
+"their secret sauce. While some search engines publish the basics of their"
+" algorithms (see Google's published details on PageRank), few search "
+"engines give all of the details in an attempt to prevent users from "
+"gaming the rankings with low value content which happens to rank well."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:47
+msgid ""
+"Both `Google <https://support.google.com/webmasters/answer/35769>`_ and "
+"`Bing <https://www.bing.com/webmaster/help/webmaster-guidelines-"
+"30fba23a>`_ publish a set of guidelines to help make sites easier to "
+"understand for search engines and rank better. To summarize some of the "
+"most important aspects as they apply to technical documentation, your "
+"site should:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:53
+msgid ""
+"Use descriptive and accurate titles in the HTML ``<title>`` tag. For "
+"Sphinx, the ``<title>`` comes from the first heading on the page."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:55
+msgid ""
+"Ensure your URLs are descriptive. They are displayed in search results. "
+"Sphinx uses the source filename without the file extension as the URL."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:57
+msgid ""
+"Make sure the words your readers would search for to find your site are "
+"actually included on your pages."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:59
+msgid "Avoid low content pages or pages with minimal original content."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:60
+msgid ""
+"Avoid tactics that attempt to increase your search engine ranking without"
+" actually improving content."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:62
+msgid ""
+"Google specifically `warns about automatically generated content`_ "
+"although this applies primarily to keyword stuffing and low value "
+"content. High quality documentation generated from source code (eg. auto "
+"generated API documentation) seems OK."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:69
+msgid ""
+"While both Google and Bing discuss site performance as an important "
+"factor in search result ranking, this guide is not going to discuss it in"
+" detail. Most technical documentation that uses Sphinx or Read the Docs "
+"generates static HTML and the performance is typically decent relative to"
+" most of the internet."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:77
+msgid "Best practices for documentation SEO"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:79
+msgid ""
+"Once a crawler or spider finds your site, it will follow links and "
+"redirects in an attempt to find any and all pages on your site. While "
+"there are a few ways to guide the search engine in its crawl for example "
+"by using a :ref:`sitemap <seo_sitemap.xml>` or a :ref:`robots.txt file "
+"<seo_robots.txt>` which we'll discuss shortly, the most important thing "
+"is making sure the spider can follow links on your site and get to all "
+"your pages."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:89
+msgid "Avoid unlinked pages ✅️"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:91
+msgid ""
+"When building your documentation, you should ensure that pages aren't "
+"*unlinked*, meaning that no other pages or navigation have a link to "
+"them."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:95
+msgid ""
+"Search engine crawlers will not discover pages that aren't linked from "
+"somewhere else on your site."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:101
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:149
+msgid "Sphinx"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:103
+msgid ""
+"Sphinx calls pages that don't have links to them \"orphans\" and will "
+"throw a warning while building documentation that contains an orphan "
+"unless the warning is silenced with the :ref:`orphan directive "
+"<sphinx:metadata>`."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:107
+msgid ""
+"We recommend failing your builds whenever Sphinx warns you, using the "
+"``fail_on_warnings`` option in :ref:`.readthedocs.yaml <config-"
+"file/v2:sphinx>`."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:110
+msgid "Here is an example of a warning of an unreferenced page::"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:121
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:162
+msgid "MkDocs"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:123
+msgid ""
+"MkDocs automatically includes all ``.md`` files in the main navigation "
+"💯️. This makes sure that all files are discoverable by default, however "
+"there are configurations that allow for unlinked files in various ways. "
+"If you want to scan your documentation for unreferenced files and images,"
+" a plugin like `mkdocs-unused-files`_ does the job."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:134
+msgid "Avoid uncrawlable content ✅️"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:136
+msgid ""
+"While typically this isn't a problem with technical documentation, try to"
+" avoid content that is \"hidden\" from search engines. This includes "
+"content hidden in images or videos which the crawler may not understand. "
+"For example, if you do have a video in your docs, make sure the rest of "
+"that page describes the content of the video."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:143
+msgid ""
+"When using images, make sure to set the image alt text or set a caption "
+"on figures."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:151
+msgid ""
+"For Sphinx, the image and figure directives support both alt texts and "
+"captions:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:164
+msgid "The Markdown syntax defines an alt text for images:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:170
+msgid ""
+"Though HTML supports figures and captions, Markdown and MkDocs do not "
+"have a built-in feature. Instead, you can use markdown extensions such as"
+" `md-in-html`_ to allow the necessary HTML structures for including "
+"figures:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:188
+msgid "Redirects ✅️"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:190
+msgid ""
+"Redirects tell search engines when content has moved. For example, if "
+"this guide moved from ``guides/technical-docs-seo-guide.html`` to "
+"``guides/sphinx-seo-guide.html``, there will be a time period where "
+"search engines will still have the old URL in their index and will still "
+"be showing it to users. This is why it is important to update your own "
+"links within your docs as well as redirecting. If the hostname moved from"
+" docs.readthedocs.io to docs.readthedocs.org, this would be even more "
+"important!"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:197
+msgid ""
+"Read the Docs supports a few different kinds of :doc:`user defined "
+"redirects </user-defined-redirects>` that should cover all the different "
+"cases such as redirecting a certain page for all project versions, or "
+"redirecting one version to another."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:207
+msgid "Canonical URLs ✅️"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:209
+msgid ""
+"Anytime very similar content is hosted at multiple URLs, it is pretty "
+"important to set a canonical URL. The canonical URL tells search engines "
+"where the original version your documentation is even if you have "
+"multiple versions on the internet (for example, incomplete translations "
+"or deprecated versions)."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:215
+msgid ""
+"Read the Docs supports :doc:`setting the canonical URL </canonical-urls>`"
+" if you are using a :doc:`custom domain </custom-domains>` in your "
+"project's :menuselection:`Settings --> Domains`."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:223
+msgid "Use a robots.txt file ✅️"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:225
+msgid ""
+"A ``robots.txt`` file is readable by crawlers and lives at the root of "
+"your site (eg. https://docs.readthedocs.com/robots.txt). It tells search "
+"engines which pages to crawl or not to crawl and can allow you to control"
+" how a search engine crawls your site. For example, you may want to "
+"request that search engines :ref:`ignore unsupported versions of your "
+"documentation <faq:How can I avoid search results having a deprecated "
+"version of my docs?>` while keeping those docs online in case people need"
+" them."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:233
+msgid ""
+"By default, Read the Docs serves a ``robots.txt`` for you. To customize "
+"this file, you can create a ``robots.txt`` file that is written to your "
+"documentation root on your default branch/version."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:237
+msgid ""
+"See the `Google's documentation on robots.txt "
+"<https://support.google.com/webmasters/answer/6062608>`_ for additional "
+"details."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:243
+msgid "Use a sitemap.xml file ✅️"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:245
+msgid ""
+"A sitemap is a file readable by crawlers that contains a list of pages "
+"and other files on your site and some metadata or relationships about "
+"them (eg. https://docs.readthedocs.com/sitemap.xml). A good sitemaps "
+"provides information like how frequently a page or file is updated or any"
+" alternate language versions of a page."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:251
+msgid ""
+"Read the Docs generates a sitemap for you that contains the last time "
+"your documentation was updated as well as links to active versions, "
+"subprojects, and translations your project has. We have a small separate "
+"guide on :doc:`sitemaps </reference/sitemaps>`."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:255
+msgid ""
+"See the `Google docs on building a sitemap "
+"<https://support.google.com/webmasters/answer/183668>`_."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:259
+msgid "Use meta tags ✅️"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:261
+msgid ""
+"Using a meta description allows you to customize how your pages look in "
+"search engine result pages."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:264
+msgid ""
+"Typically search engines will use the first few sentences of a page if no"
+" meta description is provided. In Sphinx, you can customize your meta "
+"description using the following RestructuredText:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:279
+msgid "Google search engine results showing a customized meta description"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:281
+msgid ""
+"Moz.com, an authority on search engine optimization, makes the following "
+"suggestions for meta descriptions:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:284
+msgid ""
+"Your meta description should have the most relevant content of the page. "
+"A searcher should know whether they've found the right page from the "
+"description."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:286
+msgid ""
+"The meta description should be between 150-300 characters and it may be "
+"truncated down to around 150 characters in some situations."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:288
+msgid "Meta descriptions are used for display but not for ranking."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:290
+msgid ""
+"Search engines don't always use your customized meta description if they "
+"think a snippet from the page is a better description."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:294
+msgid "Measure, iterate, & improve"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:296
+msgid ""
+"Search engines (and soon, Read the Docs itself) can provide useful data "
+"that you can use to improve your docs' ranking on search engines."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:301
+msgid "Search engine feedback"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:303
+msgid ""
+"`Google Search Console <https://search.google.com/search-console>`_ and "
+"`Bing Webmaster Tools <https://www.bing.com/webmaster/help/webmaster-"
+"guidelines-30fba23a>`_ are tools for webmasters to get feedback about the"
+" crawling of their sites (or docs in our case). Some of the most valuable"
+" feedback these provide include:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:309
+msgid ""
+"Google and Bing will show pages that were previously indexed that now "
+"give a 404 (or more rarely a 500 or other status code). These will remain"
+" in the index for some time but will eventually be removed. This is a "
+"good opportunity to create a :ref:`redirect <seo_redirects>`."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:313
+msgid "These tools will show any crawl issues with your documentation."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:314
+msgid ""
+"Search Console and Webmaster Tools will highlight security issues found "
+"or if Google or Bing took action against your site because they believe "
+"it is spammy."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:319
+msgid "Analytics tools"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:321
+msgid ""
+"A tool like Google Analytics, along with our :doc:`integrated Read the "
+"Docs analytics </traffic-analytics>`, can give you feedback about the "
+"search terms people use to find your docs, your most popular pages, and "
+"lots of other useful data."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:326
+msgid ""
+"Search term feedback can be used to help you optimize content for certain"
+" keywords or for related keywords. For Sphinx documentation, or other "
+"technical documentation that has its own search features, analytics tools"
+" can also tell you the terms people search for within your site."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:330
+msgid ""
+"Knowing your popular pages can help you prioritize where to spend your "
+"SEO efforts. Optimizing your already popular pages can have a significant"
+" impact."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:335
+msgid "External resources"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:337
+msgid ""
+"Here are a few additional resources to help you learn more about SEO and "
+"rank better with search engines."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:340
+msgid "`Moz's beginners guide to SEO <https://moz.com/beginners-guide-to-seo>`_"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:341
+msgid ""
+"`Google's Webmaster Guidelines "
+"<https://support.google.com/webmasters/answer/35769>`_"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:342
+msgid ""
+"`Bing's Webmaster Guidelines <https://www.bing.com/webmaster/help"
+"/webmaster-guidelines-30fba23a>`_"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:343
+msgid ""
+"`Google's SEO Starter Guide "
+"<https://support.google.com/webmasters/answer/7451184>`_"
+msgstr ""
+

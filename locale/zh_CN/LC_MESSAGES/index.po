@@ -1,0 +1,396 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Read the Docs, Inc & contributors
+# This file is distributed under the same license as the Read the Docs user
+# documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Read the Docs user documentation 2026.11.17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-24 16:13+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../upstream/docs/user/index.rst:4
+msgid "Tutorial"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:4
+msgid "Getting started"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:14 ../../upstream/docs/user/index.rst:108
+#: ../../upstream/docs/user/index.rst:174
+msgid "Project setup and configuration"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:26 ../../upstream/docs/user/index.rst:108
+#: ../../upstream/docs/user/index.rst:185
+msgid "Build process"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:40 ../../upstream/docs/user/index.rst:196
+msgid "Hosting documentation"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:58
+msgid "Reading documentation"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:71 ../../upstream/docs/user/index.rst:216
+msgid "AI and agents"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:81 ../../upstream/docs/user/index.rst:233
+msgid "Maintaining projects"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:96 ../../upstream/docs/user/index.rst:247
+msgid "Business features"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:108
+msgid "Upgrading and maintaining projects"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:108
+msgid "Content, themes and SEO"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:108
+msgid "Security and access"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:108
+msgid "Account management"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:108
+msgid "Best practice"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:108
+msgid "Troubleshooting problems"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:108
+#: ../../upstream/docs/user/index.rst:261
+msgid "How-to guides"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:122
+msgid "Developer Documentation"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:122
+msgid "Read the Docs website"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:122
+#: ../../upstream/docs/user/index.rst:275
+msgid "Reference"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:-1
+msgid ""
+"Automate building, versioning, and hosting of your technical "
+"documentation continuously on Read the Docs."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:2
+msgid "Welcome to Read the Docs"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:142
+msgid ""
+"Connect your Git repository and treat docs like code. Read the Docs "
+"builds, versions, and hosts your documentation automatically."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:146
+msgid "Get started"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:151
+msgid "Add your project"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:155
+msgid ""
+"Already have documentation? Connect your repository and get your first "
+"build."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:158
+msgid "Choose your tool"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:162
+msgid "Quick starts for Sphinx, MkDocs, Docusaurus, and more."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:164
+msgid "Follow the tutorial"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:168
+msgid "Starting from nothing? Build and host a Sphinx project step by step."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:171
+msgid ""
+"Or browse :doc:`example projects </examples>` to see how other projects "
+"are configured."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:176
+msgid "Start with the basics of setting up your project:"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:178
+msgid ":doc:`/config-file/index`"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:179
+msgid "Learn how to configure your project with a ``.readthedocs.yaml`` file."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:181
+msgid ":doc:`/guides/reproducible-builds`"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:182
+msgid "Keep your builds working by making them reproducible."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:187
+msgid "Build your documentation with ease:"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:189
+msgid ":doc:`/builds`"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:190
+msgid "Understand how documentation builds happen."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:192
+msgid ":doc:`/pull-requests`"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:193
+msgid "Preview your documentation on every pull request."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:198
+msgid "Learn more about our hosting features:"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:200
+msgid ":doc:`/versions`"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:201
+msgid "Give your readers multiple versions of your documentation."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:203
+msgid ":doc:`/subprojects`"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:204
+msgid "Host multiple projects under a single domain."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:206
+msgid ":doc:`/localization`"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:207
+msgid "Translate your documentation into multiple languages."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:209
+msgid ":doc:`/versioning-schemes`"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:210
+msgid "Learn about different URL versioning schemes."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:212
+msgid ":doc:`/custom-domains`"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:213
+msgid "Brand your documentation on your own domain."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:218
+msgid "Make your documentation easy for AI assistants and coding agents to use:"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:220
+msgid ":doc:`/reference/llms-txt`"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:221
+msgid ""
+"Serve an ``llms.txt`` file that gives AI models a structured view of your"
+" documentation."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:223
+msgid ":doc:`/reference/markdown-for-agents`"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:224
+msgid ""
+"Serve Markdown instead of HTML to agents that ask for it, with no "
+"configuration."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:226
+msgid ":doc:`/reference/agent-skills`"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:227
+msgid ""
+"Give your coding agent skills for the Read the Docs API and configuration"
+" file."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:229
+msgid ":doc:`/reference/main-content-detection`"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:230
+msgid ""
+"How Read the Docs finds the main content of a page for search, Markdown, "
+"and other features."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:235
+msgid "All the tools you need as your project matures:"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:237
+msgid ":doc:`/user-defined-redirects`"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:238
+msgid "Redirect your old URLs to new ones."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:240
+msgid ":doc:`/traffic-analytics`"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:241
+msgid "Learn more about how users are interacting with your documentation."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:243
+msgid ":doc:`/security-log`"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:244
+msgid "Keep track of security events in your project."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:249
+msgid "Our Business hosting has everything your business needs:"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:251
+msgid ":doc:`/commercial/organizations`"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:252
+msgid "Manage permissions across multiple teams."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:254
+msgid ":doc:`/commercial/single-sign-on`"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:255
+msgid "Stay secure with single sign-on."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:257
+msgid ":doc:`/commercial/sharing`"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:258
+msgid "Share your private docs easily with contractors or customers."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:263
+msgid "Step-by-step guides for common tasks:"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:265
+msgid ":doc:`/guides/pull-requests`"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:266
+msgid "Configure pull request builds for your project."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:268
+msgid ":doc:`/guides/build/direct-upload`"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:269
+msgid ""
+"Build your documentation in your own CI and upload it to Read the Docs "
+"with direct upload."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:271
+msgid ":doc:`All how-to guides </guides/index>`"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:272
+msgid "Browse all our how-to guides."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:277
+msgid "More detailed information about Read the Docs:"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:279
+msgid ":doc:`/api/index`"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:280
+msgid "Integrate Read the Docs into your other workflows."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:282
+msgid ":doc:`/changelog`"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:283
+msgid "See what's new in Read the Docs."
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:285
+msgid ":doc:`/about/index`"
+msgstr ""
+
+#: ../../upstream/docs/user/index.rst:286
+msgid "Learn more about Read the Docs and our company."
+msgstr ""
+

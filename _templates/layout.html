@@ -1,0 +1,48 @@
+{% extends "!layout.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+
+  {# Preserve the upstream template's Plausible injection verbatim. #}
+  {% if READTHEDOCS %}
+  <script defer data-domain="{{ plausible_domain }}" src="https://plausible.io/js/script.js"></script>
+  {% endif %}
+
+  <style>
+    .rtd-zh-upstream-meta {
+      font-size: 0.85em;
+      opacity: 0.85;
+      margin-top: 0.6em;
+      line-height: 1.5;
+    }
+    .rtd-zh-upstream-banner {
+      border: 1px solid #ccc;
+      border-left: 4px solid #2980b9;
+      border-radius: 3px;
+      background: #f7f9fa;
+      padding: 0.75em 1em;
+      margin-bottom: 1.2em;
+      font-size: 0.92em;
+    }
+  </style>
+{% endblock extrahead %}
+
+{% block content %}
+  {% if pagename == 'index' %}
+  <div class="rtd-zh-upstream-banner">
+    中文翻译基于上游文档提交
+    {% if upstream_commit_url %}<a href="{{ upstream_commit_url }}">{{ upstream_short_sha }}</a>{% else %}{{ upstream_short_sha }}{% endif %}
+    （{{ upstream_commit_time }}）
+  </div>
+  {% endif %}
+  {{ super() }}
+{% endblock content %}
+
+{% block footer %}
+  <div class="rtd-zh-upstream-meta">
+    中文翻译基于上游文档提交
+    {% if upstream_commit_url %}<a href="{{ upstream_commit_url }}">{{ upstream_short_sha }}</a>{% else %}{{ upstream_short_sha }}{% endif %}
+    （{{ upstream_commit_time }}）
+  </div>
+  {{ super() }}
+{% endblock footer %}

@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Read the Docs, Inc & contributors
+# This file is distributed under the same license as the Read the Docs user
+# documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Read the Docs user documentation 2026.11.17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-24 16:13+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../upstream/docs/user/search-analytics.rst:2
+msgid "Search analytics"
+msgstr ""
+
+#: ../../upstream/docs/user/search-analytics.rst:4
+msgid ""
+"When someone visits your documentation and uses the built-in :doc:`server"
+" side search </server-side-search/index>` feature, Read the Docs will "
+"collect analytics on their search queries."
+msgstr ""
+
+#: ../../upstream/docs/user/search-analytics.rst:7
+msgid ""
+"These are aggregated into a simple view of the \"Top queries in the past "
+"30 days\". You can also download this data."
+msgstr ""
+
+#: ../../upstream/docs/user/search-analytics.rst:11
+msgid ""
+"This is helpful to optimize your documentation in alignment with your "
+"readers' interests. You can discover new trends and expand your "
+"documentation to new needs."
+msgstr ""
+
+#: ../../upstream/docs/user/search-analytics.rst:15
+msgid "Using search analytics"
+msgstr ""
+
+#: ../../upstream/docs/user/search-analytics.rst:17
+msgid ""
+"To see a list of the top queries and an overview from the last month, go "
+"to your project's :menuselection:`Settings --> Search analytics`."
+msgstr ""
+
+#: ../../upstream/docs/user/search-analytics.rst:20
+msgid "Search analytics demo"
+msgstr ""
+
+#: ../../upstream/docs/user/search-analytics.rst:25
+msgid "How the search analytics page looks."
+msgstr ""
+
+#: ../../upstream/docs/user/search-analytics.rst:27
+msgid ""
+"The list of top queries shows the latest searches ordered by their "
+"popularity. Use the :guilabel:`Results` filter to show only queries with "
+"or without results."
+msgstr ""
+
+#: ../../upstream/docs/user/search-analytics.rst:31
+msgid "Understanding your analytics"
+msgstr ""
+
+#: ../../upstream/docs/user/search-analytics.rst:33
+msgid ""
+"In the list of top queries, you can see the most popular terms that users"
+" have searched for. Next to the search query, the number of actual "
+"**results** for that query is shown. The number of times the query has "
+"been used in a search is displayed as the **queries** number."
+msgstr ""
+
+#: ../../upstream/docs/user/search-analytics.rst:37
+msgid ""
+"If you see a search term that doesn't have any results, you could apply "
+"that term in documentation articles or create new ones. This is a great "
+"way to understand missing gaps in your documentation."
+msgstr ""
+
+#: ../../upstream/docs/user/search-analytics.rst:41
+msgid ""
+"If a search term is often used but the documentation article exists, it "
+"can also indicate that it's hard to navigate to the article."
+msgstr ""
+
+#: ../../upstream/docs/user/search-analytics.rst:44
+msgid ""
+"Repeat the search yourself and inspect the results to see if they are "
+"relevant. You can add keywords to various pages that you want to show up "
+"for searches on that page."
+msgstr ""
+
+#: ../../upstream/docs/user/search-analytics.rst:47
+msgid ""
+"In **Overview**, you can see the daily search totals for the last month, "
+"and trends that might match special events in your project's publicity. "
+"If you wish to analyze these numbers in details, click "
+":guilabel:`Download search data` to get a CSV formatted file with all "
+"available search analytics."
+msgstr ""
+
+#: ../../upstream/docs/user/search-analytics.rst:53
+msgid "Data storage"
+msgstr ""
+
+#: ../../upstream/docs/user/search-analytics.rst:55
+msgid "The duration of analytics data stored depends on which site you're using:"
+msgstr ""
+
+#: ../../upstream/docs/user/search-analytics.rst:57
+msgid "On |org_brand|, the last 90 days are stored."
+msgstr ""
+
+#: ../../upstream/docs/user/search-analytics.rst:58
+msgid ""
+"On |com_brand|, storage duration starts at 30 days and increases with "
+"plan level."
+msgstr ""
+
+#: ../../upstream/docs/user/search-analytics.rst:62
+msgid "`Our plan pricing <https://about.readthedocs.com/pricing/>`_"
+msgstr ""
+
+#: ../../upstream/docs/user/search-analytics.rst:63
+msgid "Compare our plan pricing and analytics storage duration."
+msgstr ""
+
+#: ../../upstream/docs/user/search-analytics.rst:65
+msgid ":doc:`/traffic-analytics`"
+msgstr ""
+
+#: ../../upstream/docs/user/search-analytics.rst:66
+msgid "See how users are using your documentation."
+msgstr ""
+

@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Read the Docs, Inc & contributors
+# This file is distributed under the same license as the Read the Docs user
+# documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Read the Docs user documentation 2026.11.17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-24 16:13+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../upstream/docs/user/guides/reproducible-builds.rst:2
+msgid "How to create reproducible builds"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/reproducible-builds.rst:4
+msgid ""
+"Your documentation depends on a number of dependencies to be built. If "
+"your docs don't have :term:`reproducible` builds, an update in a "
+"dependency can break your builds when least expected, or make your docs "
+"look different from your local version. This guide will help you to keep "
+"your builds working over time, so that you can focus on content."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/reproducible-builds.rst:13
+msgid "Contents"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/reproducible-builds.rst:16
+msgid ""
+"This page explains how to pin the versions that correctly build your "
+"project. The versions used in this page are just for illustrative "
+"purpose. They are not the latest nor the recommended versions. It is up "
+"to you to find those versions."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/reproducible-builds.rst:22
+msgid "Define OS and tool versions in the config file"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/reproducible-builds.rst:24
+msgid ""
+"We recommend defining the explicit version of the OS and tool versions "
+"used to build your documentation using the ``.readthedocs.yaml``. This "
+"file *provides you per version settings*, and *those settings live in "
+"your Git repository*."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/reproducible-builds.rst:29
+msgid ""
+"This allows you to validate changes using :doc:`pull requests </pull-"
+"requests>`, and ensures that all your versions can be rebuilt from a "
+"reproducible configuration."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/reproducible-builds.rst:33
+#: ../../upstream/docs/user/guides/reproducible-builds.rst:54
+msgid ".readthedocs.yaml"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/reproducible-builds.rst:47
+msgid "Use a requirements file for Python dependencies"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/reproducible-builds.rst:49
+msgid ""
+"We recommend using a Pip :ref:`requirements file <pip:requirements-file-"
+"format>` or Conda :ref:`environment file <config-"
+"file/v2:conda.environment>` to :term:`pin <pinning>` Python dependencies."
+" This ensures that top-level dependencies and extensions don't change."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/reproducible-builds.rst:52
+msgid "A configuration file with explicit dependencies looks like this:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/reproducible-builds.rst:63
+#: ../../upstream/docs/user/guides/reproducible-builds.rst:95
+msgid "docs/requirements.txt"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/reproducible-builds.rst:73
+msgid ""
+"Remember to update your docs' dependencies from time to time to get new "
+"improvements and fixes. It also makes it easy to manage in case a version"
+" reaches its end of support date."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/reproducible-builds.rst:77
+msgid "Pin your transitive dependencies"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/reproducible-builds.rst:79
+msgid ""
+"Once you have :term:`pinned <pinning>` your own dependencies, the next "
+"things to worry about are the dependencies of your dependencies. These "
+"are called *transitive dependencies*, and they can upgrade without "
+"warning if you do not pin these packages as well."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/reproducible-builds.rst:84
+msgid ""
+"We recommend `pip-tools`_ to help address this problem. It allows you to "
+"specify a ``requirements.in`` file with your top-level dependencies, and "
+"it generates a ``requirements.txt`` file with the full set of transitive "
+"dependencies pinned."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/reproducible-builds.rst:90
+msgid "docs/requirements.in"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/reproducible-builds.rst:151
+msgid ":doc:`/config-file/v2`"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/reproducible-builds.rst:152
+msgid "Configuration file reference"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/reproducible-builds.rst:153
+msgid ":doc:`/builds`"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/reproducible-builds.rst:154
+msgid "Build process information"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/reproducible-builds.rst:155
+msgid ":doc:`/build-customization`"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/reproducible-builds.rst:156
+msgid "Customizing builds to do more"
+msgstr ""
+

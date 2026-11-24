@@ -1,0 +1,441 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Read the Docs, Inc & contributors
+# This file is distributed under the same license as the Read the Docs user
+# documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Read the Docs user documentation 2026.11.17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-24 16:13+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:2
+msgid "How to use cross-references with Sphinx"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:4
+msgid ""
+"When writing documentation you often need to link to other pages of your "
+"documentation, other sections of the current page, or sections from other"
+" pages."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:9
+msgid ""
+"An easy way is just to use the raw URL that Sphinx generates for each "
+"page/section. This works, but it has some disadvantages:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:12
+msgid "Links can change, so they are hard to maintain."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:13
+msgid ""
+"Links can be verbose and hard to read, so it is unclear what page/section"
+" they are linking to."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:14
+msgid ""
+"There is no easy way to link to specific sections like paragraphs, "
+"figures, or code blocks."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:15
+msgid "URL links only work for the html version of your documentation."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:17
+msgid ""
+"Instead, Sphinx offers a powerful way to linking to the different "
+"elements of the document, called *cross-references*. Some advantages of "
+"using them:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:21
+msgid "Use a human-readable name of your choice, instead of a URL."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:22
+msgid "Portable between formats: html, PDF, ePub."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:23
+msgid "Sphinx will warn you of invalid references."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:24
+msgid "You can cross reference more than just pages and section headers."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:26
+msgid ""
+"This page describes some best-practices for cross-referencing with Sphinx"
+" with two markup options: reStructuredText and MyST (Markdown)."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:29
+msgid ""
+"If you are not familiar with reStructuredText, check "
+":doc:`sphinx:usage/restructuredtext/basics` for a quick introduction."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:31
+msgid ""
+"If you want to learn more about the MyST Markdown dialect, check out :doc"
+":`myst-parser:syntax/reference`."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:37
+msgid "Table of contents"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:40
+msgid "Getting started"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:45
+msgid "Explicit targets"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:47
+msgid ""
+"Cross referencing in Sphinx uses two components, **references** and "
+"**targets**."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:49
+msgid ""
+"**references** are pointers in your documentation to other parts of your "
+"documentation."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:50
+msgid "**targets** are where the references can point to."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:52
+msgid ""
+"You can manually create a *target* in any location of your documentation,"
+" allowing you to *reference* it from other pages. These are called "
+"**explicit targets**."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:55
+msgid "For example, one way of creating an explicit target for a section is:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:59
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:87
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:114
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:136
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:178
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:229
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:284
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:341
+msgid "reStructuredText"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:70
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:96
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:143
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:186
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:237
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:297
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:348
+msgid "MyST (Markdown)"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:79
+msgid "Then the reference will be rendered as `My target`_."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:81
+msgid ""
+"You can also add explicit targets before paragraphs (or any other part of"
+" a page)."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:83
+msgid "Another example, add a target to a paragraph:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:105
+msgid ""
+"Then the reference will be rendered as: `some disadvantages <target to "
+"paragraph>`_."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:107
+msgid ""
+"You can also create _`in-line targets` within an element on your page, "
+"allowing you to, for example, reference text *within* a paragraph."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:110
+msgid "For example, an in-line target inside a paragraph:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:121
+msgid ""
+"Then you can reference it using ```in-line targets`_``, that will be "
+"rendered as: `in-line targets`_."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:125
+msgid "Implicit targets"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:127
+msgid ""
+"You may also reference some objects by name without explicitly giving "
+"them one by using *implicit targets*."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:131
+msgid ""
+"When you create a section, a footnote, or a citation, Sphinx will create "
+"a target with the title as the name:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:152
+msgid ""
+"This requires setting ``myst_heading_anchors = 2`` in your ``conf.py``, "
+"see :ref:`myst-parser:syntax/header-anchors`."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:155
+msgid "The reference will be rendered as: `Explicit targets`_."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:158
+msgid "Cross-referencing using roles"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:160
+msgid ""
+"All targets seen so far can be referenced only from the same page. Sphinx"
+" provides some roles that allow you to reference any explicit target from"
+" any page."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:165
+msgid ""
+"Since Sphinx will make all explicit targets available globally, all "
+"targets must be unique."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:168
+msgid ""
+"You can see the complete list of cross-referencing roles at :ref:`sphinx"
+":xref-syntax`. Next, you will explore the most common ones."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:172
+msgid "The ref role"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:174
+msgid ""
+"The ``ref`` role can be used to reference any explicit targets. For "
+"example:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:193
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:245
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:355
+msgid "That will be rendered as:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:195
+msgid ":ref:`my target`."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:196
+msgid ":ref:`Target to paragraph <target to paragraph>`."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:197
+msgid ":ref:`Target inside a paragraph <in-line targets>`."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:199
+msgid "The ``ref`` role also allow us to reference code blocks:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:215
+msgid ""
+"We can reference it using ``:ref:`code <target to code>```, that will be "
+"rendered as: :ref:`code <target to code>`."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:219
+msgid "The doc role"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:221
+msgid ""
+"The ``doc`` role allows us to link to a page instead of just a section. "
+"The target name can be relative to the page where the role exists, or "
+"relative to your documentation's root folder (in both cases, you should "
+"omit the extension)."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:225
+msgid ""
+"For example, to link to a page in the same directory as this one you can "
+"use:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:247
+msgid ":doc:`intersphinx`"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:248
+msgid ":doc:`/guides/intersphinx`"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:249
+msgid ":doc:`Custom title </guides/intersphinx>`"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:253
+msgid ""
+"Using paths relative to your documentation root is recommended, so you "
+"avoid changing the target name if the page is moved."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:257
+msgid "The numref role"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:259
+msgid ""
+"The ``numref`` role is used to reference **numbered** elements of your "
+"documentation. For example, tables and images."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:262
+msgid "To activate numbered references, add this to your ``conf.py`` file:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:269
+msgid ""
+"Next, ensure that an object you would like to reference has an explicit "
+"target."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:271
+msgid "For example, you can create a target for the next image:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:275
+msgid "Logo"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:280
+msgid "Link me!"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:309
+msgid ""
+"Finally, reference it using ``:numref:`target to image```, that will be "
+"rendered as ``Fig. N``. Sphinx will enumerate the image automatically."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:314
+msgid "Automatically label sections"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:316
+msgid ""
+"Manually adding an explicit target to each section and making sure is "
+"unique is a big task! Fortunately, Sphinx includes an extension to help "
+"us with that problem, :doc:`autosectionlabel "
+"<sphinx:usage/extensions/autosectionlabel>`."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:320
+msgid ""
+"To activate the ``autosectionlabel`` extension, add this to your "
+"``conf.py`` file:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:334
+#, python-brace-format
+msgid ""
+"Sphinx will create explicit targets for all your sections, the name of "
+"target has the form ``{path/to/page}:{title-of-section}``."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:337
+msgid "For example, you can reference the previous section using:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:357
+msgid ":ref:`guides/cross-referencing-with-sphinx:explicit targets`."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:358
+msgid ""
+":ref:`Custom title <guides/cross-referencing-with-sphinx:explicit "
+"targets>`."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:361
+msgid "Invalid targets"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:363
+msgid ""
+"If you reference an invalid or undefined target Sphinx will warn us. You "
+"can use the :option:`-W <sphinx:sphinx-build.-W>` option when building "
+"your docs to fail the build if there are any invalid references. On Read "
+"the Docs you can use the :ref:`config-file/v2:sphinx.fail_on_warning` "
+"option."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:369
+msgid "Finding the reference name"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:371
+msgid ""
+"When you build your documentation, Sphinx will generate an inventory of "
+"all explicit and implicit links called ``objects.inv``. You can list all "
+"of these targets to explore what is available for you to reference."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:375
+msgid "List all targets for built documentation with:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:381
+msgid ""
+"Where ``<link>`` is either a URL or a local path that points to your "
+"inventory file (usually in ``_build/html/objects.inv``). For example, to "
+"see all targets from the Read the Docs documentation:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:390
+msgid "Cross-referencing targets in other documentation sites"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:392
+msgid ""
+"You can reference to docs outside your project too! See "
+":doc:`/guides/intersphinx`."
+msgstr ""
+

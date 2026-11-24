@@ -1,0 +1,352 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Read the Docs, Inc & contributors
+# This file is distributed under the same license as the Read the Docs user
+# documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Read the Docs user documentation 2026.11.17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-24 16:13+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:2
+msgid "Setting up outgoing webhooks"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:4
+msgid ""
+"When a project build is *triggered*, *successful* or *failed*, Read the "
+"Docs can notify external APIs using outgoing :term:`webhooks <webhook>`. "
+"These webhooks contain information about the build and build status and "
+"can allow an external service to use this information for alerting, "
+"monitoring, and many other custom configurations."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:12
+msgid ":doc:`/guides/build/email-notifications`"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:13
+msgid "Setup basic email notifications for build failures."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:15
+msgid ":doc:`/pull-requests`"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:16
+msgid ""
+"Configure automated feedback and documentation site previews for your "
+"pull requests."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:20
+msgid ""
+":doc:`Builds for pull requests </pull-requests>` do not trigger outgoing "
+":term:`webhooks <webhook>`."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:23
+msgid "Creating a new webhook"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:25
+msgid "To create a new outgoing webhook for your project:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:27
+msgid "Go to your project's :menuselection:`Settings --> Outgoing webhooks`."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:28
+msgid "Click :guilabel:`Add webhook`."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:29
+msgid "Fill in the :guilabel:`URL` field with the target URL for your endpoint."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:30
+msgid "Select the which events will trigger the webhook."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:31
+msgid ""
+"Modify the :guilabel:`JSON payload` field or leave the default (see below"
+" for more)."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:32
+msgid "Click on :guilabel:`Add webhook`"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:34
+#: ../../upstream/docs/user/guides/build/webhooks.rst:38
+msgid "Form for creating a new webhook"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:40
+msgid ""
+"Every time one of the selected events trigger, Read the Docs will send a "
+"POST request to your webhook target URL. The default payload will look "
+"like this:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:58
+msgid ""
+"When a webhook is sent, a new entry will be added to the "
+":guilabel:`Recent activity` list. You can click on each entry to see the "
+"webhook request, response, and the request payload."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:61
+#: ../../upstream/docs/user/guides/build/webhooks.rst:65
+msgid "Recent activity of a webhook"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:68
+msgid "Custom payloads"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:70
+msgid ""
+"You can customize the payload of the webhook to fit the expected "
+"structure of your target endpoint. The payload structure must be valid "
+"JSON but can contain any of our `payload variable substitutions <Payload "
+"variable reference>`_."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:75
+msgid "Variable substitutions"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:77
+msgid ""
+"The following variable strings can be used in a custom payload to "
+"substitute information about the build and project in the webhook body."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:80
+msgid "``{{ event }}``"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:81
+msgid ""
+"Event that triggered the webhook, one of ``build:triggered``, "
+"``build:failed``, or ``build:passed``."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:83
+msgid "``{{ build.id }}``"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:84
+msgid "Build ID."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:86
+msgid "``{{ build.commit }}``"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:87
+msgid "Commit corresponding to the build, if present (otherwise ``\"\"``)."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:89
+msgid "``{{ build.url }}``"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:90
+msgid ""
+"URL of the build, for example "
+"``https://app.readthedocs.org/projects/docs/builds/15173336/``."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:92
+msgid "``{{ build.docs_url }}``"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:93
+msgid ""
+"URL of the documentation corresponding to the build, for example "
+"``https://docs.readthedocs.io/en/latest/``."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:96
+msgid "``{{ build.start_date }}``"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:97
+msgid ""
+"Start date of the build (UTC, ISO format), for example "
+"``2021-11-03T16:23:14``."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:99
+msgid "``{{ organization.name }}``"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:100
+msgid "Organization name (Commercial only)."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:102
+msgid "``{{ organization.slug }}``"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:103
+msgid "Organization slug (Commercial only)."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:105
+msgid "``{{ project.slug }}``"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:106
+msgid "Project slug."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:108
+msgid "``{{ project.name }}``"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:109
+msgid "Project name."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:111
+msgid "``{{ project.url }}``"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:112
+msgid "URL of the project :term:`dashboard`."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:114
+msgid "``{{ version.slug }}``"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:115
+msgid "Version slug."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:117
+msgid "``{{ version.name }}``"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:118
+msgid "Version name."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:121
+msgid "Examples"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:125
+msgid "Slack"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:164
+msgid ""
+"`Slack Incoming Webhooks documentation "
+"<https://api.slack.com/messaging/webhooks>`_"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:166
+msgid "Discord"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:199
+msgid ""
+"`Discord webhooks documentation <https://support.discord.com/hc/en-"
+"us/articles/228383668-Intro-to-Webhooks>`_"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:202
+msgid "Verifying the payload"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:204
+msgid ""
+"After you add a new webhook, Read the Docs will generate a secret key for"
+" it and use the key to generate a hash signature (HMAC-SHA256) for each "
+"payload. This signature is included in the ``X-Hub-Signature`` header of "
+"each request."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:208
+#: ../../upstream/docs/user/guides/build/webhooks.rst:213
+msgid "Webhook secret"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:215
+msgid ""
+"We highly recommend using this signature to verify that the webhook is "
+"coming from Read the Docs. To do so, you can add some custom code on your"
+" server, like this:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:244
+msgid "Legacy webhooks"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:246
+msgid ""
+"Webhooks created before the custom payloads functionality was added to "
+"Read the Docs send a payload with the following structure:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:263
+msgid ""
+"To migrate to the new webhooks and keep a similar structure, you can use "
+"this as the webhook custom payload:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:280
+msgid "Troubleshooting webhooks and payload discovery"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:282
+msgid ""
+"You can use public tools to discover, inspect, and test outgoing "
+"webhooks. These tools act as catch-all endpoints for HTTP requests and "
+"respond with a 200 OK HTTP status code. You can use these payloads to "
+"develop your webhook services. You should exercise caution when using "
+"these tools as you might be sending sensitive data to external tools."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:288
+msgid "These public tools include:"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:290
+msgid "`Beeceptor <https://beeceptor.com/webhook-integration/>`__"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:291
+msgid ""
+"Create a temporary HTTPS endpoint and inspect incoming payloads. It lets "
+"you respond custom response code or messages from named HTTP mock server."
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:294
+msgid "`Webhook Tester <https://webhook-test.com/>`__"
+msgstr ""
+
+#: ../../upstream/docs/user/guides/build/webhooks.rst:295
+msgid ""
+"Inspect and debug incoming payloads. It lets you inspect all incoming "
+"requests to it’s URL/bucket."
+msgstr ""
+

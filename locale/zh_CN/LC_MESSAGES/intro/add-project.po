@@ -1,0 +1,184 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Read the Docs, Inc & contributors
+# This file is distributed under the same license as the Read the Docs user
+# documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Read the Docs user documentation 2026.11.17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-24 16:13+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../upstream/docs/user/intro/add-project.rst:-1
+msgid "Add your existing documentation from a Git repository into Read the Docs."
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:2
+msgid "Adding a documentation project"
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:7
+msgid ""
+"This page takes you through the process of adding a documentation project"
+" to Read the Docs. If you have :doc:`connected your Read the Docs account"
+" </guides/connecting-git-account>` to GitHub, Bitbucket, or GitLab, and "
+"you have admin access to the repository you want to add, you will be able"
+" to add your project automatically. Otherwise, you will need to add it "
+"manually and perform some extra steps."
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:14
+msgid "Automatically add your project"
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:16
+#: ../../upstream/docs/user/intro/add-project.rst:36
+msgid "Go to your :term:`dashboard`."
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:17
+#: ../../upstream/docs/user/intro/add-project.rst:37
+msgid "Click on :guilabel:`Add project`."
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:18
+msgid ""
+"Type the name of the repository you want to add and click on it. If you "
+"are using our :ref:`reference/git-integration:GitHub App`, make sure you "
+"have installed the :ref:`Read the Docs GitHub App <reference/git-"
+"integration:Troubleshooting>` in your repository."
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:21
+#: ../../upstream/docs/user/intro/add-project.rst:39
+msgid "Click on :guilabel:`Continue`."
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:22
+msgid "Edit any of the pre-filled fields with information of the repository."
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:23
+#: ../../upstream/docs/user/intro/add-project.rst:41
+msgid "Click on :guilabel:`Next`."
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:24
+#: ../../upstream/docs/user/intro/add-project.rst:42
+msgid ""
+"Add a :term:`configuration file` to your repository if it doesn't exist "
+"yet."
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:25
+#: ../../upstream/docs/user/intro/add-project.rst:43
+msgid "Click on :guilabel:`This file exists`."
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:29
+msgid ":doc:`/reference/git-integration`"
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:30
+msgid ""
+"Your project will be automatically configured with a Git integration. "
+"Learn more about all the features enabled by that integration on this "
+"page."
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:34
+msgid "Manually add your project"
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:38
+msgid "Click on :guilabel:`Configure manually`."
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:40
+msgid "Fill all the fields of the form."
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:45
+msgid ""
+"Once your project is created, you'll need to manually configure the "
+"repository webhook if you would like to have new changes trigger builds "
+"for your project on Read the Docs."
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:49
+msgid ":doc:`/guides/setup/git-repo-manual`"
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:50
+msgid ""
+"Additional setup steps required for manually created projects. This guide"
+" covers setting up SSH keys and webhook integrations."
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:53
+msgid "Build your documentation outside Read the Docs"
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:55
+msgid ""
+"If you build your documentation in your own pipeline, for example in "
+"GitHub Actions, choose :guilabel:`Build externally and upload` instead of"
+" adding a configuration file, and click on :guilabel:`I will upload my "
+"documentation`. Read the Docs won't build your project, and your pipeline"
+" uploads the documentation instead. See :doc:`/guides/build/direct-"
+"upload` for the complete setup."
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:62
+msgid "What's next"
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:64
+msgid ""
+"Once your documentation project is created, a build will be triggered. It"
+" will automatically fetch the code from your repository and build the "
+"documentation. You can see the logs for the build process from your "
+":term:`dashboard`."
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:70
+msgid ":doc:`/builds`"
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:71
+msgid "Explanation about the build process."
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:73
+msgid ":doc:`/config-file/index`"
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:74
+msgid "Practical steps to add a configuration file to your documentation project."
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:76
+msgid ":doc:`/versions`"
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:77
+msgid "Manage multiple versions of your documentation project."
+msgstr ""
+
+#: ../../upstream/docs/user/intro/add-project.rst:79
+msgid ""
+"If you have any trouble, don't hesitate to reach out to us. The "
+":doc:`support </support>` page has more information on getting in touch."
+msgstr ""
+

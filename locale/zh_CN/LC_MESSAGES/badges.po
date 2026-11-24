@@ -1,0 +1,219 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Read the Docs, Inc & contributors
+# This file is distributed under the same license as the Read the Docs user
+# documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Read the Docs user documentation 2026.11.17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-24 16:13+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../upstream/docs/user/badges.rst:2
+msgid "Status badges"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:4
+msgid ""
+"Status badges let you show the state of your documentation to your users."
+" They will show if the latest build has passed, failed, or is in an "
+"unknown state. They are great for embedding in your README, or putting "
+"inside your actual doc pages."
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:9
+msgid "You can see a badge in action in the `Read the Docs README`_."
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:12
+msgid "Display states"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:14
+msgid "Badges have the following states which can be shown to users:"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:16
+msgid "**Green**: ``passing`` - the last build was successful."
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:17
+msgid "**Red**: ``failing`` - the last build failed."
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:18
+msgid ""
+"**Yellow**: ``unknown`` - we couldn't figure out the status of your last "
+"build."
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:20
+msgid "An example of each is shown here:"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:22
+msgid "|green| |nbsp| |red| |nbsp| |yellow|"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:107
+msgid "green"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:108
+msgid "red"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:109
+msgid "yellow"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:25
+msgid "Automatically generated"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:27
+msgid ""
+"Badges are generated on-demand for all Read the Docs projects, using the "
+"following URL syntax:"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:34
+#: ../../upstream/docs/user/badges.rst:41
+msgid "Style"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:36
+msgid ""
+"You can pass the ``style`` GET argument to get custom styled badges. This"
+" allows you to match the look and feel of your website. By default, the "
+"``flat`` style is used."
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:41
+#: ../../upstream/docs/user/badges.rst:56
+msgid "Badge"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:43
+msgid "flat - default"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:43
+msgid "|Flat Badge|"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:54
+msgid "Flat Badge"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:45
+msgid "flat-square"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:45
+msgid "|Flat-Square Badge|"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:55
+msgid "Flat-Square Badge"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:47
+msgid "for-the-badge"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:47
+msgid "|Badge|"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:49
+msgid "plastic"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:49
+msgid "|Plastic Badge|"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:57
+msgid "Plastic Badge"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:51
+msgid "social"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:51
+msgid "|Social Badge|"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:58
+msgid "Social Badge"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:62
+msgid "Version-specific badges"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:64
+msgid ""
+"You can change the version of the documentation your badge points to. To "
+"do this, you can pass the ``version`` GET argument to the badge URL. By "
+"default, it will point at the *default version* you have specified for "
+"your project."
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:68
+msgid "The badge URL looks like this:"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:76
+msgid "Embedding a badge"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:78
+msgid ""
+"Use one of the following snippets to embed a badge in your README or "
+"documentation pages. Replace ``<project-slug>`` with your project's slug,"
+" and ``<project-url>`` with the URL of your documentation."
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:84
+msgid "reStructuredText"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:92
+msgid "Markdown"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:98
+msgid "HTML"
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:115
+msgid "Badges for private projects"
+msgstr ""
+
+#: ../../upstream/docs/user/shared/admonition-rtd-business.rst:2
+msgid ""
+"This feature is only available on `Read the Docs Business "
+"<https://app.readthedocs.com/>`_."
+msgstr ""
+
+#: ../../upstream/docs/user/badges.rst:119
+msgid ""
+"For private projects, a badge URL cannot be guessed. A token is needed to"
+" display it. Please :doc:`contact support </support>` to get the badge "
+"URL for your private project."
+msgstr ""
+
