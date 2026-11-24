@@ -22,161 +22,166 @@ msgstr ""
 
 #: ../../upstream/docs/user/about/index.rst:2
 msgid "About Read the Docs"
-msgstr ""
+msgstr "关于 Read the Docs"
 
 #: ../../upstream/docs/user/about/index.rst:4
 #, python-format
 msgid ""
 "Read the Docs is a C Corporation registered in Oregon. Our bootstrapped "
-"company is owned and fully controlled by the founders, and fully funded "
-"by our customers and advertisers. This allows us to **focus 100% on our "
+"company is owned and fully controlled by the founders, and fully funded by "
+"our customers and advertisers. This allows us to **focus 100% on our "
 "users**."
 msgstr ""
+"Read the Docs 是在俄勒冈州注册的 C "
+"Corporation（股份有限公司）。我们这家自举公司由创始人拥有并完全控制，资金完全来自客户和广告商。这使我们能**100% 专注于用户** 。"
 
 #: ../../upstream/docs/user/about/index.rst:9
 msgid "We have two main sources of revenue:"
-msgstr ""
+msgstr "我们有两大主要收入来源："
 
 #: ../../upstream/docs/user/about/index.rst:11
 msgid ""
-"|com_brand| - where we `provide <https://app.readthedocs.com>`__ a "
-"valuable paid service to companies."
-msgstr ""
+"|com_brand| - where we `provide <https://app.readthedocs.com>`__ a valuable "
+"paid service to companies."
+msgstr "|com_brand| ——我们 `向企业提供 <https://app.readthedocs.com>`__ 有价值的付费服务。"
 
 #: ../../upstream/docs/user/about/index.rst:12
 msgid ""
-"|org_brand| - where we provide a free service to the open source "
-"community, funded via :doc:`/advertising/ethical-advertising`."
-msgstr ""
+"|org_brand| - where we provide a free service to the open source community, "
+"funded via :doc:`/advertising/ethical-advertising`."
+msgstr "|org_brand| ——我们为开源社区提供免费服务，资金来自 :doc:`/advertising/ethical-advertising` 。"
 
 #: ../../upstream/docs/user/about/index.rst:14
 msgid ""
-"We believe that having both paying customers and ethical advertising is "
-"the best way to create a sustainable platform for our users. We have "
-"built something that we expect to last a long time, and we are able to "
-"make decisions based only on the best interest of our community and "
-"customers."
-msgstr ""
+"We believe that having both paying customers and ethical advertising is the "
+"best way to create a sustainable platform for our users. We have built "
+"something that we expect to last a long time, and we are able to make "
+"decisions based only on the best interest of our community and customers."
+msgstr "我们认为，同时拥有付费客户和道德广告是为用户创建可持续平台的最佳方式。我们构建的东西经得起长久考验，且我们能仅基于社区和客户的最大利益做决策。"
 
 #: ../../upstream/docs/user/about/index.rst:18
 msgid ""
-"All of the source code for Read the Docs is open source. You are welcome "
-"to :doc:`contribute <rtd-dev:contribute>` the features you want or run "
-"your own instance. We should note that we generally only support our "
-"hosted versions as a matter of :doc:`our philosophy </open-source-"
-"philosophy>`."
+"All of the source code for Read the Docs is open source. You are welcome to "
+":doc:`contribute <rtd-dev:contribute>` the features you want or run your own"
+" instance. We should note that we generally only support our hosted versions"
+" as a matter of :doc:`our philosophy </open-source-philosophy>`."
 msgstr ""
+"Read the Docs 的所有源代码均为开源。欢迎你 :doc:`贡献 <rtd-dev:contribute>` "
+"你想要的功能，或运行自己的实例。需注意，我们通常仅支持我们托管的版本，这是基于 :doc:`我们的理念 </open-source-"
+"philosophy>` 。"
 
 #: ../../upstream/docs/user/about/index.rst:22
 msgid ""
-"We owe a great deal to the open source community that we are a part of, "
-"so we provide free ads via our :ref:`community ads <advertising/ethical-"
+"We owe a great deal to the open source community that we are a part of, so "
+"we provide free ads via our :ref:`community ads <advertising/ethical-"
 "advertising:Community Ads>` program. This allows us to give back to the "
 "communities and projects that we support and depend on."
 msgstr ""
+"我们深受所在开源社区之恩，因此通过 :ref:`社区广告 <advertising/ethical-advertising:Community "
+"Ads>` 计划提供免费广告。这让我们能回馈我们所支持和依赖的社区与项目。"
 
 #: ../../upstream/docs/user/about/index.rst:26
 msgid ""
-"We are proud about the way we manage our company and products, and are "
-"glad to have you on board with us in this :doc:`great documentation "
-"journey </story>`."
-msgstr ""
+"We are proud about the way we manage our company and products, and are glad "
+"to have you on board with us in this :doc:`great documentation journey "
+"</story>`."
+msgstr "我们为管理公司和产品的方式感到自豪，也很高兴你加入我们这场 :doc:`精彩的文档之旅 </story>` 。"
 
 #: ../../upstream/docs/user/about/index.rst:29
 msgid ""
-"If you want to dive more into more specific information and our policies,"
-" we've brought most of the most important ones below."
-msgstr ""
+"If you want to dive more into more specific information and our policies, "
+"we've brought most of the most important ones below."
+msgstr "如果你想深入了解更具体的信息和我们的政策，我们将最重要的几项列在下方。"
 
 #: ../../upstream/docs/user/about/index.rst:32
 msgid "⏩ :doc:`/commercial/index`"
-msgstr ""
+msgstr "⏩ :doc:`/commercial/index`"
 
 #: ../../upstream/docs/user/about/index.rst:33
 msgid "Learn more about how our company provides paid solutions"
-msgstr ""
+msgstr "了解我们公司如何提供付费解决方案"
 
 #: ../../upstream/docs/user/about/index.rst:35
 msgid "⏩ :doc:`/reference/policies`"
-msgstr ""
+msgstr "⏩ :doc:`/reference/policies`"
 
 #: ../../upstream/docs/user/about/index.rst:36
 msgid "Policies and legal documents used by |org_brand| and |com_brand|."
-msgstr ""
+msgstr "|org_brand| 和 |com_brand| 所用的政策与法律文件。"
 
 #: ../../upstream/docs/user/about/index.rst:38
 msgid "⏩ :doc:`/advertising/index`"
-msgstr ""
+msgstr "⏩ :doc:`/advertising/index`"
 
 #: ../../upstream/docs/user/about/index.rst:39
 msgid "Information about how advertisement in Read the Docs"
-msgstr ""
+msgstr "关于 Read the Docs 中广告的信息"
 
 #: ../../upstream/docs/user/about/index.rst:41
 msgid "⏩ :doc:`/story`"
-msgstr ""
+msgstr "⏩ :doc:`/story`"
 
 #: ../../upstream/docs/user/about/index.rst:42
 msgid "A brief throwback to how we were founded"
-msgstr ""
+msgstr "简述我们的创立历程"
 
 #: ../../upstream/docs/user/about/index.rst:44
 msgid "⏩ :doc:`/sponsors`"
-msgstr ""
+msgstr "⏩ :doc:`/sponsors`"
 
 #: ../../upstream/docs/user/about/index.rst:45
 msgid ""
-"Read about who currently sponsors Read the Docs and who sponsored us in "
-"the past."
-msgstr ""
+"Read about who currently sponsors Read the Docs and who sponsored us in the "
+"past."
+msgstr "阅读当前赞助 Read the Docs 的人，以及过去赞助过我们的人。"
 
 #: ../../upstream/docs/user/about/index.rst:47
 msgid "⏩ :doc:`/open-source-philosophy`"
-msgstr ""
+msgstr "⏩ :doc:`/open-source-philosophy`"
 
 #: ../../upstream/docs/user/about/index.rst:48
 msgid "Our philosophy is anchored in open source."
-msgstr ""
+msgstr "我们的理念植根于开源。"
 
 #: ../../upstream/docs/user/about/index.rst:50
 msgid "⏩ :doc:`/team`"
-msgstr ""
+msgstr "⏩ :doc:`/team`"
 
 #: ../../upstream/docs/user/about/index.rst:51
 msgid "How we work and who we are."
-msgstr ""
+msgstr "我们如何工作，我们是谁。"
 
 #: ../../upstream/docs/user/about/index.rst:53
 msgid "⏩ :doc:`/support`"
-msgstr ""
+msgstr "⏩ :doc:`/support`"
 
 #: ../../upstream/docs/user/about/index.rst:54
 msgid "Read this before asking for help: How to get support and where."
-msgstr ""
+msgstr "寻求帮助前请先读此：如何获得支持以及去哪里获得。"
 
 #: ../../upstream/docs/user/about/index.rst:56
 msgid "⏩ :doc:`/automated-access`"
-msgstr ""
+msgstr "⏩ :doc:`/automated-access`"
 
 #: ../../upstream/docs/user/about/index.rst:57
 msgid "Policies for automated access, scraping, and agents."
-msgstr ""
+msgstr "针对自动化访问、爬取与智能体的政策。"
 
 #: ../../upstream/docs/user/about/index.rst:59
 msgid "⏩ :doc:`/glossary`"
-msgstr ""
+msgstr "⏩ :doc:`/glossary`"
 
 #: ../../upstream/docs/user/about/index.rst:60
 msgid "A useful index of terms used in our docs"
-msgstr ""
+msgstr "我们文档中使用的术语的实用索引"
 
 #: ../../upstream/docs/user/about/index.rst:64
 msgid "`Our website <https://about.readthedocs.com>`__"
-msgstr ""
+msgstr "`我们的网站 <https://about.readthedocs.com>`__"
 
 #: ../../upstream/docs/user/about/index.rst:65
 msgid ""
-"Our primary website has general-purpose information about Read the Docs "
-"like pricing and feature overviews."
-msgstr ""
+"Our primary website has general-purpose information about Read the Docs like"
+" pricing and feature overviews."
+msgstr "我们的主网站提供关于 Read the Docs 的通用信息，如定价和功能概览。"
 

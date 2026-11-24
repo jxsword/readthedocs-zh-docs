@@ -22,537 +22,536 @@ msgstr ""
 
 #: ../../upstream/docs/user/api/v2.rst:2
 msgid "API v2"
-msgstr ""
+msgstr "API v2"
 
 #: ../../upstream/docs/user/api/v2.rst:4
 msgid ""
-"The Read the Docs API uses :abbr:`REST (Representational State "
-"Transfer)`. JSON is returned by all API responses including errors and "
-"HTTP response status codes are to designate success and failure."
+"The Read the Docs API uses :abbr:`REST (Representational State Transfer)`. "
+"JSON is returned by all API responses including errors and HTTP response "
+"status codes are to designate success and failure."
 msgstr ""
+"Read the Docs API 使用 :abbr:`REST (Representational State Transfer)` 。所有 API "
+"响应（包括错误）均返回 JSON，HTTP 响应状态码用于指示成功与失败。"
 
 #: ../../upstream/docs/user/api/v2.rst:10
 msgid ""
-"API v2 is planned to be deprecated soon, though we have not yet set a "
-"time frame for deprecation yet. We will alert users with our plans when "
-"we do."
-msgstr ""
+"API v2 is planned to be deprecated soon, though we have not yet set a time "
+"frame for deprecation yet. We will alert users with our plans when we do."
+msgstr "API v2 计划很快弃用，但我们尚未设定具体的弃用时间表。确定后我们会通知用户。"
 
 #: ../../upstream/docs/user/api/v2.rst:13
 msgid ""
-"For now, API v2 is still used by some legacy application operations "
-"still, but we highly recommend Read the Docs users use :doc:`API v3 "
-"</api/v3>` instead."
-msgstr ""
+"For now, API v2 is still used by some legacy application operations still, "
+"but we highly recommend Read the Docs users use :doc:`API v3 </api/v3>` "
+"instead."
+msgstr "目前，API v2 仍被某些遗留应用操作使用，但我们强烈建议 Read the Docs 用户改用 :doc:`API v3 </api/v3>` 。"
 
 #: ../../upstream/docs/user/api/v2.rst:17
 msgid "Some improvements in :doc:`API v3 </api/v3>` are:"
-msgstr ""
+msgstr ":doc:`API v3 </api/v3>` 的部分改进："
 
 #: ../../upstream/docs/user/api/v2.rst:19
 msgid "Token based authentication"
-msgstr ""
+msgstr "基于令牌的认证"
 
 #: ../../upstream/docs/user/api/v2.rst:20
 msgid "Easier to use URLs which no longer use numerical ids"
-msgstr ""
+msgstr "更易用的 URL，不再使用数字 ID"
 
 #: ../../upstream/docs/user/api/v2.rst:21
 msgid "More common user actions are exposed through the API"
-msgstr ""
+msgstr "更多常见用户操作通过 API 暴露"
 
 #: ../../upstream/docs/user/api/v2.rst:22
 msgid "Improved error reporting"
-msgstr ""
+msgstr "改进的错误报告"
 
 #: ../../upstream/docs/user/api/v2.rst:24
 msgid "See its full documentation at :doc:`/api/v3`."
-msgstr ""
+msgstr "完整文档见 :doc:`/api/v3` 。"
 
 #: ../../upstream/docs/user/api/v2.rst:28
 msgid "Authentication and authorization"
-msgstr ""
+msgstr "认证与授权"
 
 #: ../../upstream/docs/user/api/v2.rst:30
 msgid ""
-"Requests to the Read the Docs public API are for public information only "
-"and do not require any authentication."
-msgstr ""
+"Requests to the Read the Docs public API are for public information only and"
+" do not require any authentication."
+msgstr "对 Read the Docs 公共 API 的请求仅限公开信息，无需任何认证。"
 
 #: ../../upstream/docs/user/api/v2.rst:35
 msgid "Resources"
-msgstr ""
+msgstr "资源"
 
 #: ../../upstream/docs/user/api/v2.rst:38
 msgid "Projects"
-msgstr ""
+msgstr "项目"
 
 #: ../../upstream/docs/user/api/v2.rst:40
 msgid ""
-"Projects are the main building block of Read the Docs. Projects are built"
-" when there are changes to the code and the resulting documentation is "
-"hosted and served by Read the Docs."
-msgstr ""
+"Projects are the main building block of Read the Docs. Projects are built "
+"when there are changes to the code and the resulting documentation is hosted"
+" and served by Read the Docs."
+msgstr "项目是 Read the Docs 的主要构建块。代码发生变更时会构建项目，生成的文档由 Read the Docs 托管并提供服务。"
 
 #: ../../upstream/docs/user/api/v2.rst:44
 msgid ""
-"As an example, this documentation is part of the `Docs project`_ which "
-"has documentation at https://docs.readthedocs.com/platform/stable/."
+"As an example, this documentation is part of the `Docs project`_ which has "
+"documentation at https://docs.readthedocs.com/platform/stable/."
 msgstr ""
+"例如，本文档属于 `Docs project`_ ，其文档位于 "
+"https://docs.readthedocs.com/platform/stable/ 。"
 
 #: ../../upstream/docs/user/api/v2.rst:47
-msgid ""
-"You can always view your Read the Docs projects in your `project "
-"dashboard`_."
-msgstr ""
+msgid "You can always view your Read the Docs projects in your `project dashboard`_."
+msgstr "你始终可以在你的 `project dashboard`_ 中查看 Read the Docs 项目。"
 
 #: ../../upstream/docs/user/api/v2.rst:53
 msgid "Project list"
-msgstr ""
+msgstr "项目列表"
 
 #: ../../upstream/docs/user/api/v2.rst:57
 msgid "Retrieve a list of all Read the Docs projects."
-msgstr ""
+msgstr "获取所有 Read the Docs 项目的列表。"
 
-#: ../../upstream/docs/user/api/v2.rst:59
-#: ../../upstream/docs/user/api/v2.rst:239
+#: ../../upstream/docs/user/api/v2.rst:59 ../../upstream/docs/user/api/v2.rst:239
 #: ../../upstream/docs/user/api/v2.rst:342
 msgid "**Example request**:"
-msgstr ""
+msgstr "**示例请求** ："
 
-#: ../../upstream/docs/user/api/v2.rst:65
-#: ../../upstream/docs/user/api/v2.rst:245
+#: ../../upstream/docs/user/api/v2.rst:65 ../../upstream/docs/user/api/v2.rst:245
 msgid "**Example response**:"
-msgstr ""
+msgstr "**示例响应** ："
 
 #: ../../upstream/docs/user/api/v2.rst
 msgid "Request JSON Object"
-msgstr ""
+msgstr "请求 JSON 对象"
 
 #: ../../upstream/docs/user/api/v2.rst:76
 msgid "URI for next set of Projects."
-msgstr ""
+msgstr "下一组项目的 URI。"
 
 #: ../../upstream/docs/user/api/v2.rst:77
 msgid "URI for previous set of Projects."
-msgstr ""
+msgstr "上一组项目的 URI。"
 
 #: ../../upstream/docs/user/api/v2.rst:78
 msgid "Total number of Projects."
-msgstr ""
+msgstr "项目总数。"
 
 #: ../../upstream/docs/user/api/v2.rst:79
 msgid "Array of ``Project`` objects."
-msgstr ""
+msgstr "``Project`` 对象数组。"
 
 #: ../../upstream/docs/user/api/v2.rst
 msgid "Query Parameters"
-msgstr ""
+msgstr "查询参数"
 
 #: ../../upstream/docs/user/api/v2.rst:81
 msgid "Narrow the results by matching the exact project slug"
-msgstr ""
+msgstr "按精确匹配项目 slug 缩小结果范围"
 
 #: ../../upstream/docs/user/api/v2.rst:84
 msgid "Project details"
-msgstr ""
+msgstr "项目详情"
 
 #: ../../upstream/docs/user/api/v2.rst:88
 msgid "Retrieve details of a single project."
-msgstr ""
+msgstr "获取单个项目的详情。"
 
 #: ../../upstream/docs/user/api/v2.rst:109
 msgid "The ID of the project"
-msgstr ""
+msgstr "项目的 ID"
 
 #: ../../upstream/docs/user/api/v2.rst:110
 msgid "The name of the project."
-msgstr ""
+msgstr "项目的名称。"
 
 #: ../../upstream/docs/user/api/v2.rst:111
 msgid "The project slug (used in the URL)."
-msgstr ""
+msgstr "项目的 slug（用于 URL 中）。"
 
 #: ../../upstream/docs/user/api/v2.rst:112
 msgid "The programming language of the project (eg. \"py\", \"js\")"
-msgstr ""
+msgstr "项目的编程语言（如 \"py\"、\"js\"）"
 
 #: ../../upstream/docs/user/api/v2.rst:113
 msgid "The default version of the project (eg. \"latest\", \"stable\", \"v3\")"
-msgstr ""
+msgstr "项目的默认版本（如 \"latest\"、\"stable\"、\"v3\"）"
 
 #: ../../upstream/docs/user/api/v2.rst:114
 msgid "The default version control branch"
-msgstr ""
+msgstr "默认版本控制分支"
 
 #: ../../upstream/docs/user/api/v2.rst:115
 msgid "Version control repository of the project"
-msgstr ""
+msgstr "项目的版本控制仓库"
 
 #: ../../upstream/docs/user/api/v2.rst:116
 msgid "The repository URL for the project"
-msgstr ""
+msgstr "项目的仓库 URL"
 
-#: ../../upstream/docs/user/api/v2.rst:117
-#: ../../upstream/docs/user/api/v2.rst:119
+#: ../../upstream/docs/user/api/v2.rst:117 ../../upstream/docs/user/api/v2.rst:119
 msgid "An RST description of the project"
-msgstr ""
+msgstr "项目的 RST 格式描述"
 
 #: ../../upstream/docs/user/api/v2.rst:118
 msgid "The language code of this project"
-msgstr ""
+msgstr "该项目的语言代码"
 
 #: ../../upstream/docs/user/api/v2.rst:120
 msgid "The canonical URL of the default docs"
-msgstr ""
+msgstr "默认文档的规范 URL"
 
 #: ../../upstream/docs/user/api/v2.rst:121
 msgid "Array of ``User`` IDs who are maintainers of the project."
-msgstr ""
+msgstr "作为项目维护者的 ``User`` ID 数组。"
 
 #: ../../upstream/docs/user/api/v2.rst
 msgid "Status Codes"
-msgstr ""
+msgstr "状态码"
 
-#: ../../upstream/docs/user/api/v2.rst:123
-#: ../../upstream/docs/user/api/v2.rst:217
+#: ../../upstream/docs/user/api/v2.rst:123 ../../upstream/docs/user/api/v2.rst:217
 #: ../../upstream/docs/user/api/v2.rst:320
 msgid "no error"
-msgstr ""
+msgstr "无错误"
 
 #: ../../upstream/docs/user/api/v2.rst:124
 msgid "There is no ``Project`` with this ID"
-msgstr ""
+msgstr "不存在此 ID 的 ``Project``"
 
 #: ../../upstream/docs/user/api/v2.rst:127
 msgid "Project versions"
-msgstr ""
+msgstr "项目版本"
 
 #: ../../upstream/docs/user/api/v2.rst:131
 msgid ""
-"Retrieve a list of active versions (eg. \"latest\", \"stable\", \"v1.x\")"
-" for a single project."
-msgstr ""
+"Retrieve a list of active versions (eg. \"latest\", \"stable\", \"v1.x\") "
+"for a single project."
+msgstr "获取单个项目的活跃版本列表（如 \"latest\"、\"stable\"、\"v1.x\"）。"
 
 #: ../../upstream/docs/user/api/v2.rst:139
 msgid "Version objects for the given ``Project``"
-msgstr ""
+msgstr "给定 ``Project`` 的 Version 对象"
 
 #: ../../upstream/docs/user/api/v2.rst:141
 msgid ""
-"See the :ref:`Version detail <api-version-detail>` call for the format of"
-" the ``Version`` object."
-msgstr ""
+"See the :ref:`Version detail <api-version-detail>` call for the format of "
+"the ``Version`` object."
+msgstr "``Version`` 对象的格式见 :ref:`Version detail <api-version-detail>` 调用。"
 
 #: ../../upstream/docs/user/api/v2.rst:144
 msgid "Versions"
-msgstr ""
+msgstr "版本"
 
 #: ../../upstream/docs/user/api/v2.rst:146
 msgid "Versions are different versions of the same project documentation"
-msgstr ""
+msgstr "版本是同一项目文档的不同版本"
 
 #: ../../upstream/docs/user/api/v2.rst:148
 msgid ""
 "The versions for a given project can be viewed in a project's version "
 "screen. For example, here is the `Pip project's version screen`_."
-msgstr ""
+msgstr "给定项目的版本可在项目的版本界面查看。例如，这是 `Pip project's version screen`_ 。"
 
 #: ../../upstream/docs/user/api/v2.rst:154
 msgid "Version list"
-msgstr ""
+msgstr "版本列表"
 
 #: ../../upstream/docs/user/api/v2.rst:158
 msgid "Retrieve a list of all Versions for all projects"
-msgstr ""
+msgstr "获取所有项目的所有版本列表"
 
 #: ../../upstream/docs/user/api/v2.rst:170
 msgid "URI for next set of Versions."
-msgstr ""
+msgstr "下一组版本的 URI。"
 
 #: ../../upstream/docs/user/api/v2.rst:171
 msgid "URI for previous set of Versions."
-msgstr ""
+msgstr "上一组版本的 URI。"
 
 #: ../../upstream/docs/user/api/v2.rst:172
 msgid "Total number of Versions."
-msgstr ""
+msgstr "版本总数。"
 
 #: ../../upstream/docs/user/api/v2.rst:173
 msgid "Array of ``Version`` objects."
-msgstr ""
+msgstr "``Version`` 对象数组。"
 
 #: ../../upstream/docs/user/api/v2.rst:175
 msgid "Narrow to the versions for a specific ``Project``"
-msgstr ""
+msgstr "缩小到特定 ``Project`` 的版本"
 
 #: ../../upstream/docs/user/api/v2.rst:176
 msgid ""
 "Pass ``true`` or ``false`` to show only active or inactive versions. By "
 "default, the API returns all versions."
-msgstr ""
+msgstr "传递 ``true`` 或 ``false`` 以仅显示活跃或非活跃版本。默认情况下，API 返回所有版本。"
 
 #: ../../upstream/docs/user/api/v2.rst:182
 msgid "Version detail"
-msgstr ""
+msgstr "版本详情"
 
 #: ../../upstream/docs/user/api/v2.rst:186
 msgid "Retrieve details of a single version."
-msgstr ""
+msgstr "获取单个版本的详情。"
 
 #: ../../upstream/docs/user/api/v2.rst:207
 msgid "The ID of the version"
-msgstr ""
+msgstr "版本的 ID"
 
 #: ../../upstream/docs/user/api/v2.rst:208
 msgid "The name of the version."
-msgstr ""
+msgstr "版本的名称。"
 
 #: ../../upstream/docs/user/api/v2.rst:209
 msgid "The version slug."
-msgstr ""
+msgstr "版本的 slug。"
 
 #: ../../upstream/docs/user/api/v2.rst:210
 msgid "Whether this version has been built"
-msgstr ""
+msgstr "该版本是否已构建"
 
 #: ../../upstream/docs/user/api/v2.rst:211
 msgid "Whether this version is still active"
-msgstr ""
+msgstr "该版本是否仍处于活跃状态"
 
 #: ../../upstream/docs/user/api/v2.rst:212
 msgid "The type of this version (typically \"tag\" or \"branch\")"
-msgstr ""
+msgstr "该版本的类型（通常为 \"tag\" 或 \"branch\"）"
 
 #: ../../upstream/docs/user/api/v2.rst:213
 msgid ""
-"A version control identifier for this version (eg. the commit hash of the"
-" tag)"
-msgstr ""
+"A version control identifier for this version (eg. the commit hash of the "
+"tag)"
+msgstr "该版本的版本控制标识符（如标签的 commit hash）"
 
 #: ../../upstream/docs/user/api/v2.rst:214
 msgid "URLs to downloads of this version's documentation"
-msgstr ""
+msgstr "该版本文档的下载 URL"
 
 #: ../../upstream/docs/user/api/v2.rst:215
 msgid "Details of the ``Project`` for this version."
-msgstr ""
+msgstr "该版本对应的 ``Project`` 详情。"
 
 #: ../../upstream/docs/user/api/v2.rst:218
 msgid "There is no ``Version`` with this ID"
-msgstr ""
+msgstr "不存在此 ID 的 ``Version``"
 
 #: ../../upstream/docs/user/api/v2.rst:222
 msgid "Builds"
-msgstr ""
+msgstr "构建"
 
 #: ../../upstream/docs/user/api/v2.rst:224
 msgid ""
 "Builds are created by Read the Docs whenever a ``Project`` has its "
-"documentation built. Frequently this happens automatically via a web hook"
-" but can be triggered manually."
-msgstr ""
+"documentation built. Frequently this happens automatically via a web hook "
+"but can be triggered manually."
+msgstr "每当 ``Project`` 的文档被构建时，Read the Docs 就会创建构建。这通常通过 webhook 自动发生，也可手动触发。"
 
 #: ../../upstream/docs/user/api/v2.rst:227
 msgid ""
-"Builds can be viewed in the build screen for a project. For example, here"
-" is `Pip's build screen`_."
-msgstr ""
+"Builds can be viewed in the build screen for a project. For example, here is"
+" `Pip's build screen`_."
+msgstr "构建可在项目的构建界面查看。例如，这是 `Pip's build screen`_ 。"
 
 #: ../../upstream/docs/user/api/v2.rst:233
 msgid "Build list"
-msgstr ""
+msgstr "构建列表"
 
 #: ../../upstream/docs/user/api/v2.rst:237
 msgid "Retrieve details of builds ordered by most recent first"
-msgstr ""
+msgstr "获取按最近优先排序的构建详情"
 
 #: ../../upstream/docs/user/api/v2.rst:256
 msgid "URI for next set of Builds."
-msgstr ""
+msgstr "下一组构建的 URI。"
 
 #: ../../upstream/docs/user/api/v2.rst:257
 msgid "URI for previous set of Builds."
-msgstr ""
+msgstr "上一组构建的 URI。"
 
 #: ../../upstream/docs/user/api/v2.rst:258
 msgid "Total number of Builds."
-msgstr ""
+msgstr "构建总数。"
 
 #: ../../upstream/docs/user/api/v2.rst:259
 msgid "Array of ``Build`` objects."
-msgstr ""
+msgstr "``Build`` 对象数组。"
 
 #: ../../upstream/docs/user/api/v2.rst:261
 msgid "Narrow to builds for a specific ``Project``"
-msgstr ""
+msgstr "缩小到特定 ``Project`` 的构建"
 
 #: ../../upstream/docs/user/api/v2.rst:262
 msgid "Narrow to builds for a specific ``commit``"
-msgstr ""
+msgstr "缩小到特定 ``commit`` 的构建"
 
 #: ../../upstream/docs/user/api/v2.rst:265
 msgid "Build detail"
-msgstr ""
+msgstr "构建详情"
 
 #: ../../upstream/docs/user/api/v2.rst:269
 msgid "Retrieve details of a single build."
-msgstr ""
+msgstr "获取单个构建的详情。"
 
 #: ../../upstream/docs/user/api/v2.rst:305
 msgid "The ID of the build"
-msgstr ""
+msgstr "构建的 ID"
 
 #: ../../upstream/docs/user/api/v2.rst:306
 msgid "The ISO-8601 datetime of the build."
-msgstr ""
+msgstr "构建的 ISO-8601 日期时间。"
 
 #: ../../upstream/docs/user/api/v2.rst:307
 msgid "The length of the build in seconds."
-msgstr ""
+msgstr "构建耗时（秒）。"
 
 #: ../../upstream/docs/user/api/v2.rst:308
 msgid "The type of the build (one of \"html\", \"pdf\", \"epub\")"
-msgstr ""
+msgstr "构建类型（ \"html\"、\"pdf\"、\"epub\" 之一）"
 
 #: ../../upstream/docs/user/api/v2.rst:309
 msgid ""
-"The state of the build (one of \"triggered\", \"building\", "
-"\"installing\", \"cloning\", or \"finished\")"
+"The state of the build (one of \"triggered\", \"building\", \"installing\", "
+"\"cloning\", or \"finished\")"
 msgstr ""
+"构建状态（ \"triggered\"、\"building\"、\"installing\"、\"cloning\" 或 \"finished\" "
+"之一）"
 
 #: ../../upstream/docs/user/api/v2.rst:310
 msgid "Whether the build was successful"
-msgstr ""
+msgstr "构建是否成功"
 
 #: ../../upstream/docs/user/api/v2.rst:311
 msgid "An error message if the build was unsuccessful"
-msgstr ""
+msgstr "构建失败时的错误信息"
 
 #: ../../upstream/docs/user/api/v2.rst:312
 msgid "A version control identifier for this build (eg. the commit hash)"
-msgstr ""
+msgstr "该构建的版本控制标识符（如 commit hash）"
 
 #: ../../upstream/docs/user/api/v2.rst:313
 msgid "The canonical URL of the build docs"
-msgstr ""
+msgstr "构建文档的规范 URL"
 
 #: ../../upstream/docs/user/api/v2.rst:314
 msgid "The ID of the project being built"
-msgstr ""
+msgstr "正在构建的项目的 ID"
 
 #: ../../upstream/docs/user/api/v2.rst:315
 msgid "The slug for the project being built"
-msgstr ""
+msgstr "正在构建的项目的 slug"
 
 #: ../../upstream/docs/user/api/v2.rst:316
 msgid "The ID of the version of the project being built"
-msgstr ""
+msgstr "正在构建的项目版本的 ID"
 
 #: ../../upstream/docs/user/api/v2.rst:317
 msgid "The slug for the version of the project being built"
-msgstr ""
+msgstr "正在构建的项目版本的 slug"
 
 #: ../../upstream/docs/user/api/v2.rst:318
 msgid "Array of commands for the build with details including output."
-msgstr ""
+msgstr "包含输出等详情的构建命令数组。"
 
 #: ../../upstream/docs/user/api/v2.rst:321
 msgid "There is no ``Build`` with this ID"
-msgstr ""
+msgstr "不存在此 ID 的 ``Build``"
 
 #: ../../upstream/docs/user/api/v2.rst:323
 msgid "Some fields primarily used for UI elements in Read the Docs are omitted."
-msgstr ""
+msgstr "一些主要用于 Read the Docs 界面元素的字段已省略。"
 
 #: ../../upstream/docs/user/api/v2.rst:327
 msgid "Embed"
-msgstr ""
+msgstr "嵌入"
 
 #: ../../upstream/docs/user/api/v2.rst:331
 msgid ""
 "The embed API v2 has been deprecated and is no longer available. Use "
 ":ref:`embed API v3 <api/v3:embed>` instead."
-msgstr ""
+msgstr "嵌入 API v2 已弃用且不再可用。请改用 :ref:`embed API v3 <api/v3:embed>` 。"
 
 #: ../../upstream/docs/user/api/v2.rst:335
 msgid "Retrieve HTML-formatted content from documentation page or section."
-msgstr ""
+msgstr "从文档页面或片段获取 HTML 格式内容。"
 
 #: ../../upstream/docs/user/api/v2.rst:339
 msgid ""
-"The content will be returned as is, without any sanitization or escaping."
-" You should not include content from arbitrary projects, or projects you "
-"do not trust."
-msgstr ""
+"The content will be returned as is, without any sanitization or escaping. "
+"You should not include content from arbitrary projects, or projects you do "
+"not trust."
+msgstr "内容将原样返回，不做任何清理或转义。你不应包含来自任意项目或你不信任项目的内容。"
 
 #: ../../upstream/docs/user/api/v2.rst:348
 msgid "HTML content of the section."
-msgstr ""
+msgstr "片段的 HTML 内容。"
 
 #: ../../upstream/docs/user/api/v2.rst:349
 msgid "section's headers in the document."
-msgstr ""
+msgstr "文档中片段的标题。"
 
 #: ../../upstream/docs/user/api/v2.rst:350
 msgid "URL of the document."
-msgstr ""
+msgstr "文档的 URL。"
 
 #: ../../upstream/docs/user/api/v2.rst:351
 msgid "meta data of the requested section."
-msgstr ""
+msgstr "请求片段的元数据。"
 
 #: ../../upstream/docs/user/api/v2.rst:353
 msgid "Read the Docs project's slug."
-msgstr ""
+msgstr "Read the Docs 项目的 slug。"
 
 #: ../../upstream/docs/user/api/v2.rst:354
 msgid "document to fetch content from."
-msgstr ""
+msgstr "要获取内容的文档。"
 
 #: ../../upstream/docs/user/api/v2.rst:356
 msgid "*optional* Read the Docs version's slug (default: ``latest``)."
-msgstr ""
+msgstr "*可选* Read the Docs 版本的 slug（默认：``latest`` ）。"
 
 #: ../../upstream/docs/user/api/v2.rst:357
 msgid "*optional* section within the document to fetch."
-msgstr ""
+msgstr "*可选* 文档中要获取的片段。"
 
 #: ../../upstream/docs/user/api/v2.rst:358
 msgid "*optional* full path to the document including extension."
-msgstr ""
+msgstr "*可选* 包含扩展名的文档完整路径。"
 
 #: ../../upstream/docs/user/api/v2.rst:360
 msgid "full URL of the document (and section) to fetch content from."
-msgstr ""
+msgstr "要获取内容的文档（及片段）的完整 URL。"
 
 #: ../../upstream/docs/user/api/v2.rst:364
 msgid ""
-"You can call this endpoint by sending at least ``project`` and ``doc`` "
-"*or* ``url`` attribute."
-msgstr ""
+"You can call this endpoint by sending at least ``project`` and ``doc`` *or* "
+"``url`` attribute."
+msgstr "你可以通过至少发送 ``project`` 和 ``doc`` *或* ``url`` 属性来调用此端点。"
 
 #: ../../upstream/docs/user/api/v2.rst:368
 msgid "Undocumented resources and endpoints"
-msgstr ""
+msgstr "未记录的资源与端点"
 
 #: ../../upstream/docs/user/api/v2.rst:370
 msgid ""
-"There are some undocumented endpoints in the API. These should not be "
-"used and could change at any time. These include:"
-msgstr ""
+"There are some undocumented endpoints in the API. These should not be used "
+"and could change at any time. These include:"
+msgstr "API 中有一些未记录的端点。这些不应使用，且可能随时变更。包括："
 
 #: ../../upstream/docs/user/api/v2.rst:374
 msgid ""
-"Endpoints for returning footer and version data to be injected into docs."
-" (``/api/v2/footer_html``)"
-msgstr ""
+"Endpoints for returning footer and version data to be injected into docs. "
+"(``/api/v2/footer_html``)"
+msgstr "用于返回注入到文档中的页脚和版本数据的端点。（ ``/api/v2/footer_html`` ）"
 
 #: ../../upstream/docs/user/api/v2.rst:376
 msgid "Endpoints used for advertising (``/api/v2/sustainability/``)"
-msgstr ""
+msgstr "用于广告的端点（ ``/api/v2/sustainability/`` ）"
 
 #: ../../upstream/docs/user/api/v2.rst:377
 msgid "Any other endpoints not detailed above."
-msgstr ""
+msgstr "上述未详述的任何其他端点。"
 

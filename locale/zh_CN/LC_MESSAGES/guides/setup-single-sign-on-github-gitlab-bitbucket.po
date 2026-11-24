@@ -140,7 +140,7 @@ msgid ""
 "website."
 msgstr ""
 "在 Git 仓库中授予某用户**读取** 权限，即赋予其读取 Read the Docs 上关联项目文档的权限。默认情况下，私有 Git "
-"仓库会构建为私有文档站点。在 Git 仓库中拥有**读取** 权限，等同于对私有文档站点拥有**查看** 权限。"
+"仓库会构建为私有文档站点。在 Git 仓库中拥有** 读取** 权限，等同于对私有文档站点拥有** 查看** 权限。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-github-gitlab-bitbucket.rst:48
 msgid "Grant access to administer a project"

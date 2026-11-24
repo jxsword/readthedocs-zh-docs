@@ -209,8 +209,8 @@ msgid ""
 "teams can have either *read-only* or *admin* permissions over a set of "
 "projects."
 msgstr ""
-"启用后，所有使用 ``employee@company.com`` 邮箱注册的用户都会自动加入该团队。这些团队对一组项目可以具有*只读* 或*管理员* "
-"权限。"
+"启用后，所有使用 ``employee@company.com`` 邮箱注册的用户都会自动加入该团队。这些团队对一组项目可以具有*只读* 或* 管理员*"
+" 权限。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:71
 msgid "Revoke user's access to all the projects"

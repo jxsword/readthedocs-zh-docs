@@ -34,7 +34,7 @@ msgstr "本政策描述我们对项目文档的 unmaintained_ 和 unofficial_ fo
 msgid ""
 "If you want to free up a project's :term:`slug` and gain access over it, "
 "please see :doc:`/abandoned-projects`."
-msgstr "若你想释放某项目的 :term:`slug` 并取得其控制权，请参阅 :doc:`/abandoned-projects`。"
+msgstr "若你想释放某项目的 :term:`slug` 并取得其控制权，请参阅 :doc:`/abandoned-projects` 。"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:9
 msgid "Rationale"
@@ -60,7 +60,7 @@ msgstr "过时文档的问题在于用户会在搜索结果中找到它们，并
 msgid ""
 "We have this policy to allow a reporter to request the *delisting* of forks "
 "that are old and outdated."
-msgstr "我们制定本政策，让报告者可以请求将陈旧过时的 fork *从列表中移除*。"
+msgstr "我们制定本政策，让报告者可以请求将陈旧过时的 fork *从列表中移除* 。"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:23
 msgid "High level overview"
@@ -104,7 +104,7 @@ msgstr "非官方项目"
 msgid ""
 "A project is considered *unofficial* when it is not linked to or mentioned "
 "in **any** of these places:"
-msgstr "当项目未在**以下任何一处**被链接或提及时，视为*非官方*："
+msgstr "当项目未在**以下任何一处** 被链接或提及时，视为*非官方* ："
 
 #: ../../upstream/docs/user/unofficial-projects.rst:42
 msgid "Websites and domains associated with the project"
@@ -122,7 +122,7 @@ msgstr "无人维护的项目"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:49
 msgid "A project is considered *unmaintained* when **any** of the following are met:"
-msgstr "当满足以下**任一**条件时，项目被视为*无人维护*："
+msgstr "当满足以下**任一** 条件时，项目被视为*无人维护* ："
 
 #: ../../upstream/docs/user/unofficial-projects.rst:51
 msgid ""
@@ -153,7 +153,7 @@ msgstr "请求将项目从列表移除"
 msgid ""
 "You can request that we delist an outdated, unmaintained documentation by "
 "contacting our :doc:`/support`."
-msgstr "你可以联系我们的 :doc:`/support`，请求我们移除过时且无人维护的文档。"
+msgstr "你可以联系我们的 :doc:`/support` ，请求我们移除过时且无人维护的文档。"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:65
 msgid "Please include the following information:"
@@ -171,7 +171,7 @@ msgstr "被判定为 unmaintained_ 且 unofficial_ 的项目将被添加 ``robot
 
 #: ../../upstream/docs/user/unofficial-projects.rst:92
 msgid "Projects will be delisted if they meet **all** of the following criteria:"
-msgstr "项目满足以下**全部**标准时会被从列表移除："
+msgstr "项目满足以下**全部** 标准时会被从列表移除："
 
 #: ../../upstream/docs/user/unofficial-projects.rst:94
 msgid ""
@@ -245,5 +245,5 @@ msgid ""
 "policy."
 msgstr ""
 "本政策受我们的 :doc:`abandoned-projects` 启发。Python 包索引（PyPI）关于认领废弃包的政策（`PEP-0541 "
-"<https://www.python.org/dev/peps/pep-0541>`_）对本政策影响深远。"
+"<https://www.python.org/dev/peps/pep-0541>`_ ）对本政策影响深远。"
 

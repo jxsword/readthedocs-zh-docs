@@ -22,80 +22,80 @@ msgstr ""
 
 #: ../../upstream/docs/user/reference/policies.rst:3
 msgid "Policies and legal documents"
-msgstr ""
+msgstr "政策与法律文件"
 
 #: ../../upstream/docs/user/reference/policies.rst:5
 msgid "Here is some of the fine print used by |org_brand| and |com_brand|:"
-msgstr ""
+msgstr "以下是 |org_brand| 和 |com_brand| 使用的一些细则："
 
 #: ../../upstream/docs/user/reference/policies.rst:23
 msgid ":doc:`/abandoned-projects`"
-msgstr ""
+msgstr ":doc:`/abandoned-projects`"
 
 #: ../../upstream/docs/user/reference/policies.rst:24
 msgid "Our policy of taking action on abandoned projects."
-msgstr ""
+msgstr "我们针对废弃项目采取行动的政策。"
 
 #: ../../upstream/docs/user/reference/policies.rst:26
 msgid ":doc:`/unofficial-projects`"
-msgstr ""
+msgstr ":doc:`/unofficial-projects`"
 
 #: ../../upstream/docs/user/reference/policies.rst:27
 msgid "Our policy of taking action on unofficial and unmaintained projects."
-msgstr ""
+msgstr "我们针对非官方和未维护项目采取行动的政策。"
 
 #: ../../upstream/docs/user/reference/policies.rst:29
 msgid "`Terms of Service <https://about.readthedocs.com/terms-of-service/>`_"
-msgstr ""
+msgstr "`Terms of Service <https://about.readthedocs.com/terms-of-service/>`_"
 
 #: ../../upstream/docs/user/reference/policies.rst:30
 msgid ""
-"The terms of service for using |org_brand| and |com_brand|. You may "
-"instead have a master services agreement for your subscription if you "
-"have a custom or enterprise contract."
-msgstr ""
+"The terms of service for using |org_brand| and |com_brand|. You may instead "
+"have a master services agreement for your subscription if you have a custom "
+"or enterprise contract."
+msgstr "使用 |org_brand| 和 |com_brand| 的服务条款。如果你有定制或企业合同，可能有单独的主服务协议适用于你的订阅。"
 
 #: ../../upstream/docs/user/reference/policies.rst:34
 msgid ":doc:`/privacy-policy`"
-msgstr ""
+msgstr ":doc:`/privacy-policy`"
 
 #: ../../upstream/docs/user/reference/policies.rst:35
 msgid "Our policy on collecting, storing, and protecting user and visitor data."
-msgstr ""
+msgstr "我们关于收集、存储和保护用户及访问者数据的政策。"
 
 #: ../../upstream/docs/user/reference/policies.rst:37
 msgid ":doc:`/legal/security-policy`"
-msgstr ""
+msgstr ":doc:`/legal/security-policy`"
 
 #: ../../upstream/docs/user/reference/policies.rst:38
 msgid "Our policies around application and infrastructure security."
-msgstr ""
+msgstr "我们关于应用与基础设施安全的政策。"
 
 #: ../../upstream/docs/user/reference/policies.rst:40
 msgid ":doc:`/security`"
-msgstr ""
+msgstr ":doc:`/security`"
 
 #: ../../upstream/docs/user/reference/policies.rst:41
 msgid "How we respond to security incidents and how you report a security issue."
-msgstr ""
+msgstr "我们如何响应安全事件，以及你如何报告安全问题。"
 
 #: ../../upstream/docs/user/reference/policies.rst:43
 msgid ":doc:`/legal/dpa/index`"
-msgstr ""
+msgstr ":doc:`/legal/dpa/index`"
 
 #: ../../upstream/docs/user/reference/policies.rst:44
 msgid ""
 "For GDPR and CCPA compliance, we provide a data processing addendum for "
 "|com_brand| customers."
-msgstr ""
+msgstr "为符合 GDPR 和 CCPA，我们为 |com_brand| 客户提供数据处理附录。"
 
 #: ../../upstream/docs/user/reference/policies.rst:47
 msgid ":doc:`/dmca/index`"
-msgstr ""
+msgstr ":doc:`/dmca/index`"
 
 #: ../../upstream/docs/user/reference/policies.rst:48
 msgid ""
-"Our process for taking down content based on DMCA requests and how to "
-"submit requests."
-msgstr ""
+"Our process for taking down content based on DMCA requests and how to submit"
+" requests."
+msgstr "我们基于 DMCA 请求下架内容的流程，以及如何提交请求。"
 

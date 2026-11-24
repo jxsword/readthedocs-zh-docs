@@ -22,190 +22,196 @@ msgstr ""
 
 #: ../../upstream/docs/user/api/v3.rst:2
 msgid "API v3"
-msgstr ""
+msgstr "API v3"
 
 #: ../../upstream/docs/user/api/v3.rst:4
 msgid ""
-"The Read the Docs API uses :abbr:`REST (Representational State "
-"Transfer)`. JSON is returned by all API responses including errors and "
-"HTTP response status codes are to designate success and failure."
+"The Read the Docs API uses :abbr:`REST (Representational State Transfer)`. "
+"JSON is returned by all API responses including errors and HTTP response "
+"status codes are to designate success and failure."
 msgstr ""
+"Read the Docs API 使用 :abbr:`REST (Representational State Transfer)` 。所有 API "
+"响应（包括错误）均返回 JSON，HTTP 响应状态码用于指示成功与失败。"
 
 #: ../../upstream/docs/user/api/v3.rst:12
 msgid "Table of contents"
-msgstr ""
+msgstr "目录"
 
 #: ../../upstream/docs/user/api/v3.rst:15
 msgid "Authentication and authorization"
-msgstr ""
+msgstr "认证与授权"
 
 #: ../../upstream/docs/user/api/v3.rst:17
 msgid ""
 "Requests to the Read the Docs public API are for public and private "
 "information. Endpoints that return public information do not require "
 "authentication."
-msgstr ""
+msgstr "对 Read the Docs 公共 API 的请求可涉及公开或私有信息。返回公开信息的端点无需认证。"
 
 #: ../../upstream/docs/user/api/v3.rst:22
 msgid "Token"
-msgstr ""
+msgstr "令牌"
 
 #: ../../upstream/docs/user/api/v3.rst:24
 msgid ""
 "The ``Authorization`` HTTP header can be specified with ``Token <your-"
-"access-token>`` to authenticate as a user and have the same permissions "
-"that the user itself."
+"access-token>`` to authenticate as a user and have the same permissions that"
+" the user itself."
 msgstr ""
+"可在 ``Authorization`` HTTP 头中指定 ``Token <your-access-token>`` "
+"以用户身份认证，获得与该用户相同的权限。"
 
-#: ../../upstream/docs/user/api/v3.rst:30
-#: ../../upstream/docs/user/api/v3.rst:92
+#: ../../upstream/docs/user/api/v3.rst:30 ../../upstream/docs/user/api/v3.rst:92
 msgid "|org_brand|"
-msgstr ""
+msgstr "|org_brand|"
 
 #: ../../upstream/docs/user/api/v3.rst:34
 msgid ""
-"On |org_brand|, you will find your access Token under `your profile "
-"settings <https://app.readthedocs.org/accounts/tokens/>`__."
+"On |org_brand|, you will find your access Token under `your profile settings"
+" <https://app.readthedocs.org/accounts/tokens/>`__."
 msgstr ""
+"在 |org_brand| 上，你可以在 `个人设置 <https://app.readthedocs.org/accounts/tokens/>`__"
+" 中找到你的访问令牌。"
 
-#: ../../upstream/docs/user/api/v3.rst:37
-#: ../../upstream/docs/user/api/v3.rst:98
+#: ../../upstream/docs/user/api/v3.rst:37 ../../upstream/docs/user/api/v3.rst:98
 msgid "|com_brand|"
-msgstr ""
+msgstr "|com_brand|"
 
 #: ../../upstream/docs/user/api/v3.rst:41
 msgid ""
-"On |com_brand|, you will find your access Token under `your profile "
-"settings <https://app.readthedocs.com/accounts/tokens/>`__."
+"On |com_brand|, you will find your access Token under `your profile settings"
+" <https://app.readthedocs.com/accounts/tokens/>`__."
 msgstr ""
+"在 |com_brand| 上，你可以在 `个人设置 <https://app.readthedocs.com/accounts/tokens/>`__"
+" 中找到你的访问令牌。"
 
 #: ../../upstream/docs/user/api/v3.rst:46
 msgid "Session"
-msgstr ""
+msgstr "会话"
 
 #: ../../upstream/docs/user/api/v3.rst:48
 msgid ""
-"Session authentication is allowed, so the API can be used by our "
-"dashboard and other internal services."
-msgstr ""
+"Session authentication is allowed, so the API can be used by our dashboard "
+"and other internal services."
+msgstr "允许会话认证，因此 API 可供我们的仪表盘及其他内部服务使用。"
 
 #: ../../upstream/docs/user/api/v3.rst:51
 msgid "Rate limiting"
-msgstr ""
+msgstr "速率限制"
 
 #: ../../upstream/docs/user/api/v3.rst:53
 msgid ""
-"The API limits unauthenticated requests to 5 per minute and authenticated"
-" requests to 60 per minute. The :ref:`build <api/v3:Builds>` and build "
+"The API limits unauthenticated requests to 5 per minute and authenticated "
+"requests to 60 per minute. The :ref:`build <api/v3:Builds>` and build "
 "notification endpoints allow 120 authenticated and 30 unauthenticated "
 "requests per minute, so the build page can poll them while a build runs."
 msgstr ""
+"API 将未认证请求限制为每分钟 5 次，已认证请求限制为每分钟 60 次。:ref:`构建 <api/v3:Builds>` 与构建通知端点允许每分钟"
+" 120 次已认证和 30 次未认证请求，以便构建页面在构建运行时轮询它们。"
 
 #: ../../upstream/docs/user/api/v3.rst:59
 msgid ""
 "Authenticating your API requests with a :ref:`token <api/v3:Token>` also "
-"bypasses most other rate limiting, including network-level blocks that "
-"may affect automated scripts accessing Read the Docs from cloud providers"
-" or CI environments. If your script is getting ``403 Forbidden`` "
-"responses, adding an ``Authorization: Token <your-access-token>`` header "
-"is the recommended solution."
+"bypasses most other rate limiting, including network-level blocks that may "
+"affect automated scripts accessing Read the Docs from cloud providers or CI "
+"environments. If your script is getting ``403 Forbidden`` responses, adding "
+"an ``Authorization: Token <your-access-token>`` header is the recommended "
+"solution."
 msgstr ""
+"使用 :ref:`令牌 <api/v3:Token>` 认证 API 请求还能绕过大多数其他速率限制，包括可能影响从云提供商或 CI 环境访问 Read"
+" the Docs 的自动化脚本的网络层封锁。如果你的脚本收到 ``403 Forbidden`` 响应，建议添加 ``Authorization: "
+"Token <your-access-token>`` 头来解决。"
 
 #: ../../upstream/docs/user/api/v3.rst:64
 msgid "Pagination"
-msgstr ""
+msgstr "分页"
 
 #: ../../upstream/docs/user/api/v3.rst:66
 msgid ""
-"All endpoints that return a list of objects are paginated. By default, 10"
-" objects are returned per page, but you can change this using the "
-"``limit`` query parameter. The response includes a ``count``, ``next``, "
-"and ``previous`` attributes to navigate between pages."
+"All endpoints that return a list of objects are paginated. By default, 10 "
+"objects are returned per page, but you can change this using the ``limit`` "
+"query parameter. The response includes a ``count``, ``next``, and "
+"``previous`` attributes to navigate between pages."
 msgstr ""
+"所有返回对象列表的端点都会分页。默认每页返回 10 个对象，但你可以使用 ``limit`` 查询参数更改。响应包含 ``count`` "
+"、``next`` 和 ``previous`` 属性用于在页面间导航。"
 
 #: ../../upstream/docs/user/api/v3.rst:72
 msgid "Resources"
-msgstr ""
+msgstr "资源"
 
 #: ../../upstream/docs/user/api/v3.rst:74
 msgid ""
-"This section shows all the resources that are currently available in "
-"APIv3. There are some URL attributes that applies to all of these "
-"resources:"
-msgstr ""
+"This section shows all the resources that are currently available in APIv3. "
+"There are some URL attributes that applies to all of these resources:"
+msgstr "本节展示 APIv3 中当前可用的所有资源。这些资源都适用一些 URL 属性："
 
 #: ../../upstream/docs/user/api/v3.rst
 msgid "?fields="
-msgstr ""
+msgstr "?fields="
 
 #: ../../upstream/docs/user/api/v3.rst:79
 msgid "Specify which fields are going to be returned in the response."
-msgstr ""
+msgstr "指定响应中将返回哪些字段。"
 
 #: ../../upstream/docs/user/api/v3.rst
 msgid "?omit="
-msgstr ""
+msgstr "?omit="
 
 #: ../../upstream/docs/user/api/v3.rst:83
 msgid "Specify which fields are going to be omitted from the response."
-msgstr ""
+msgstr "指定响应中将省略哪些字段。"
 
 #: ../../upstream/docs/user/api/v3.rst
 msgid "?expand="
-msgstr ""
+msgstr "?expand="
 
 #: ../../upstream/docs/user/api/v3.rst:87
 msgid ""
 "Some resources allow to expand/add extra fields on their responses (see "
 "`Project details <#project-details>`__ for example)."
-msgstr ""
+msgstr "某些资源允许在响应中展开/添加额外字段（例如见 `Project details <#project-details>`__ ）。"
 
 #: ../../upstream/docs/user/api/v3.rst:96
 msgid ""
 "You can browse the full API by accessing its root URL: "
 "https://app.readthedocs.org/api/v3/"
-msgstr ""
+msgstr "你可以通过访问其根 URL 浏览完整 API：https://app.readthedocs.org/api/v3/"
 
 #: ../../upstream/docs/user/api/v3.rst:102
 msgid ""
 "You can browse the full API by accessing its root URL: "
 "https://app.readthedocs.com/api/v3/"
-msgstr ""
+msgstr "你可以通过访问其根 URL 浏览完整 API：https://app.readthedocs.com/api/v3/"
 
 #: ../../upstream/docs/user/api/v3.rst:107
 msgid ""
-"If you are using :doc:`Read the Docs Business </commercial/index>` take "
-"into account that you will need to replace https://app.readthedocs.org/ "
-"by https://app.readthedocs.com/ in all the URLs used in the following "
-"examples."
+"If you are using :doc:`Read the Docs Business </commercial/index>` take into"
+" account that you will need to replace https://app.readthedocs.org/ by "
+"https://app.readthedocs.com/ in all the URLs used in the following examples."
 msgstr ""
+"如果你使用的是 :doc:`Read the Docs Business </commercial/index>` ，请注意需要将以下示例中所有 URL"
+" 的 https://app.readthedocs.org/ 替换为 https://app.readthedocs.com/ 。"
 
 #: ../../upstream/docs/user/api/v3.rst:112
 msgid "Projects"
-msgstr ""
+msgstr "项目"
 
 #: ../../upstream/docs/user/api/v3.rst:115
 msgid "Projects list"
-msgstr ""
+msgstr "项目列表"
 
 #: ../../upstream/docs/user/api/v3.rst:119
 msgid "Retrieve a list of all the projects for the current logged in user."
-msgstr ""
+msgstr "获取当前登录用户的所有项目列表。"
 
-#: ../../upstream/docs/user/api/v3.rst:121
-#: ../../upstream/docs/user/api/v3.rst:229
-#: ../../upstream/docs/user/api/v3.rst:355
-#: ../../upstream/docs/user/api/v3.rst:433
-#: ../../upstream/docs/user/api/v3.rst:507
-#: ../../upstream/docs/user/api/v3.rst:552
-#: ../../upstream/docs/user/api/v3.rst:595
-#: ../../upstream/docs/user/api/v3.rst:668
-#: ../../upstream/docs/user/api/v3.rst:737
-#: ../../upstream/docs/user/api/v3.rst:831
-#: ../../upstream/docs/user/api/v3.rst:871
-#: ../../upstream/docs/user/api/v3.rst:921
-#: ../../upstream/docs/user/api/v3.rst:959
-#: ../../upstream/docs/user/api/v3.rst:996
+#: ../../upstream/docs/user/api/v3.rst:121 ../../upstream/docs/user/api/v3.rst:229
+#: ../../upstream/docs/user/api/v3.rst:355 ../../upstream/docs/user/api/v3.rst:433
+#: ../../upstream/docs/user/api/v3.rst:507 ../../upstream/docs/user/api/v3.rst:552
+#: ../../upstream/docs/user/api/v3.rst:595 ../../upstream/docs/user/api/v3.rst:668
+#: ../../upstream/docs/user/api/v3.rst:737 ../../upstream/docs/user/api/v3.rst:831
+#: ../../upstream/docs/user/api/v3.rst:871 ../../upstream/docs/user/api/v3.rst:921
+#: ../../upstream/docs/user/api/v3.rst:959 ../../upstream/docs/user/api/v3.rst:996
 #: ../../upstream/docs/user/api/v3.rst:1056
 #: ../../upstream/docs/user/api/v3.rst:1092
 #: ../../upstream/docs/user/api/v3.rst:1273
@@ -226,18 +232,13 @@ msgstr ""
 #: ../../upstream/docs/user/api/v3.rst:2140
 #: ../../upstream/docs/user/api/v3.rst:2267
 msgid "**Example request**:"
-msgstr ""
+msgstr "**示例请求** ："
 
-#: ../../upstream/docs/user/api/v3.rst:138
-#: ../../upstream/docs/user/api/v3.rst:246
-#: ../../upstream/docs/user/api/v3.rst:404
-#: ../../upstream/docs/user/api/v3.rst:569
-#: ../../upstream/docs/user/api/v3.rst:612
-#: ../../upstream/docs/user/api/v3.rst:754
-#: ../../upstream/docs/user/api/v3.rst:848
-#: ../../upstream/docs/user/api/v3.rst:890
-#: ../../upstream/docs/user/api/v3.rst:938
-#: ../../upstream/docs/user/api/v3.rst:976
+#: ../../upstream/docs/user/api/v3.rst:138 ../../upstream/docs/user/api/v3.rst:246
+#: ../../upstream/docs/user/api/v3.rst:404 ../../upstream/docs/user/api/v3.rst:569
+#: ../../upstream/docs/user/api/v3.rst:612 ../../upstream/docs/user/api/v3.rst:754
+#: ../../upstream/docs/user/api/v3.rst:848 ../../upstream/docs/user/api/v3.rst:890
+#: ../../upstream/docs/user/api/v3.rst:938 ../../upstream/docs/user/api/v3.rst:976
 #: ../../upstream/docs/user/api/v3.rst:1038
 #: ../../upstream/docs/user/api/v3.rst:1109
 #: ../../upstream/docs/user/api/v3.rst:1329
@@ -255,110 +256,114 @@ msgstr ""
 #: ../../upstream/docs/user/api/v3.rst:2157
 #: ../../upstream/docs/user/api/v3.rst:2273
 msgid "**Example response**:"
-msgstr ""
+msgstr "**示例响应** ："
 
 #: ../../upstream/docs/user/api/v3.rst
 msgid "Query Parameters"
-msgstr ""
+msgstr "查询参数"
 
 #: ../../upstream/docs/user/api/v3.rst:201
 msgid "return projects with matching name"
-msgstr ""
+msgstr "返回名称匹配的项目"
 
 #: ../../upstream/docs/user/api/v3.rst:202
 msgid "return projects with matching slug"
-msgstr ""
+msgstr "返回 slug 匹配的项目"
 
 #: ../../upstream/docs/user/api/v3.rst:203
 msgid "language code as ``en``, ``es``, ``ru``, etc."
-msgstr ""
+msgstr "语言代码，如 ``en`` 、``es`` 、``ru`` 等。"
 
 #: ../../upstream/docs/user/api/v3.rst:204
 msgid "programming language code as ``py``, ``js``, etc."
-msgstr ""
+msgstr "编程语言代码，如 ``py`` 、``js`` 等。"
 
 #: ../../upstream/docs/user/api/v3.rst:206
 #: ../../upstream/docs/user/api/v3.rst:1172
 msgid ""
-"The ``results`` in response is an array of project data, which is same as"
-" :http:get:`/api/v3/projects/(string:project_slug)/`."
+"The ``results`` in response is an array of project data, which is same as "
+":http:get:`/api/v3/projects/(string:project_slug)/`."
 msgstr ""
+"响应中的 ``results`` 是项目数据数组，与 "
+":http:get:`/api/v3/projects/(string:project_slug)/` 相同。"
 
-#: ../../upstream/docs/user/api/v3.rst:213
-#: ../../upstream/docs/user/api/v3.rst:327
+#: ../../upstream/docs/user/api/v3.rst:213 ../../upstream/docs/user/api/v3.rst:327
 #: ../../upstream/docs/user/api/v3.rst:412
 msgid ":doc:`Read the Docs Business </commercial/index>`, also accepts"
-msgstr ""
+msgstr ":doc:`Read the Docs Business </commercial/index>` 还接受"
 
 #: ../../upstream/docs/user/api/v3.rst:217
 msgid ""
 "**expand** (*string*) -- Add additional fields in the response. Allowed "
 "values are: ``organization``."
-msgstr ""
+msgstr "**expand** （*字符串* ）-- 在响应中添加额外字段。允许的值：``organization`` 。"
 
 #: ../../upstream/docs/user/api/v3.rst:223
 msgid "Project details"
-msgstr ""
+msgstr "项目详情"
 
 #: ../../upstream/docs/user/api/v3.rst:227
 msgid "Retrieve details of a single project."
-msgstr ""
+msgstr "获取单个项目的详情。"
 
 #: ../../upstream/docs/user/api/v3.rst:311
 msgid ""
 "Add additional fields in the response. Allowed values are: "
 "``active_versions``. Multiple fields can be passed separated by commas."
-msgstr ""
+msgstr "在响应中添加额外字段。允许的值：``active_versions`` 。多个字段可用逗号分隔传递。"
 
 #: ../../upstream/docs/user/api/v3.rst:317
 msgid "``versioning_scheme`` can be one of the following values:"
-msgstr ""
+msgstr "``versioning_scheme`` 可以是以下值之一："
 
 #: ../../upstream/docs/user/api/v3.rst:319
 msgid "``multiple_versions_with_translations``"
-msgstr ""
+msgstr "``multiple_versions_with_translations``"
 
 #: ../../upstream/docs/user/api/v3.rst:320
 msgid "``multiple_versions_without_translations``"
-msgstr ""
+msgstr "``multiple_versions_without_translations``"
 
 #: ../../upstream/docs/user/api/v3.rst:321
 msgid "``single_version_without_translations``"
-msgstr ""
+msgstr "``single_version_without_translations``"
 
 #: ../../upstream/docs/user/api/v3.rst:331
 msgid ""
 "**expand** (*string*) -- Add additional fields in the response. Allowed "
-"values are: ``organization``. We used to return a full organization "
-"object in the response, due to privacy concerns, now we return only the "
-"slug of the organization. If you need to get the full organization "
-"object, you can use the organization endpoint with the slug."
+"values are: ``organization``. We used to return a full organization object "
+"in the response, due to privacy concerns, now we return only the slug of the"
+" organization. If you need to get the full organization object, you can use "
+"the organization endpoint with the slug."
 msgstr ""
+"**expand** （*字符串* ）-- 在响应中添加额外字段。允许的值：``organization`` "
+"。我们过去在响应中返回完整的组织对象，出于隐私考虑，现在仅返回组织的 slug。如需获取完整组织对象，可使用组织端点配合 slug 查询。"
 
 #: ../../upstream/docs/user/api/v3.rst:339
 msgid ""
-"The ``single_version`` attribute is deprecated, use ``versioning_scheme``"
-" instead."
-msgstr ""
+"The ``single_version`` attribute is deprecated, use ``versioning_scheme`` "
+"instead."
+msgstr "``single_version`` 属性已弃用，请改用 ``versioning_scheme`` 。"
 
 #: ../../upstream/docs/user/api/v3.rst:344
 msgid ""
-"Previously, ``translation_of`` and ``subproject_of`` returned a full "
-"project object, due to privacy concerns, now they return only the slug of"
-" the project. If you need to get the full project object, you can use the"
-" project endpoint with the slug."
+"Previously, ``translation_of`` and ``subproject_of`` returned a full project"
+" object, due to privacy concerns, now they return only the slug of the "
+"project. If you need to get the full project object, you can use the project"
+" endpoint with the slug."
 msgstr ""
+"过去 ``translation_of`` 和 ``subproject_of`` 返回完整的项目对象，出于隐私考虑，现在仅返回项目的 "
+"slug。如需获取完整项目对象，可使用项目端点配合 slug 查询。"
 
 #: ../../upstream/docs/user/api/v3.rst:349
 msgid "Project create"
-msgstr ""
+msgstr "创建项目"
 
 #: ../../upstream/docs/user/api/v3.rst:353
 msgid "Import a project under authenticated user."
-msgstr ""
+msgstr "在已认证用户下导入项目。"
 
-#: ../../upstream/docs/user/api/v3.rst:382
-#: ../../upstream/docs/user/api/v3.rst:460
+#: ../../upstream/docs/user/api/v3.rst:382 ../../upstream/docs/user/api/v3.rst:460
 #: ../../upstream/docs/user/api/v3.rst:695
 #: ../../upstream/docs/user/api/v3.rst:1023
 #: ../../upstream/docs/user/api/v3.rst:1300
@@ -367,830 +372,845 @@ msgstr ""
 #: ../../upstream/docs/user/api/v3.rst:1716
 #: ../../upstream/docs/user/api/v3.rst:1776
 msgid "The content of ``body.json`` is like,"
-msgstr ""
+msgstr "``body.json`` 的内容如下："
 
 #: ../../upstream/docs/user/api/v3.rst:406
 msgid "`See Project details <#project-details>`__"
-msgstr ""
+msgstr "`See Project details <#project-details>`__"
 
 #: ../../upstream/docs/user/api/v3.rst
 msgid "Request JSON Object"
-msgstr ""
+msgstr "请求 JSON 对象"
 
 #: ../../upstream/docs/user/api/v3.rst:416
 msgid ""
 "**organization** (*string*) -- required organization's slug under the "
 "project will be imported. You must be an owner of this organization."
-msgstr ""
+msgstr "**organization** （*字符串* ）-- 必需，项目将导入到的组织的 slug。你必须是该组织的所有者。"
 
 #: ../../upstream/docs/user/api/v3.rst:418
 msgid ""
-"**teams** (*string*) -- teams' slugs the project will belong to. "
-"Required, unless the organization uses :ref:`single sign-on with a Git "
-"provider <sso_git_provider>`, where teams aren't used."
+"**teams** (*string*) -- teams' slugs the project will belong to. Required, "
+"unless the organization uses :ref:`single sign-on with a Git provider "
+"<sso_git_provider>`, where teams aren't used."
 msgstr ""
+"**teams** （*字符串* ）-- 项目所属团队的 slug。除非组织使用 :ref:`single sign-on with a Git "
+"provider <sso_git_provider>` （此时不使用团队），否则为必填。"
 
-#: ../../upstream/docs/user/api/v3.rst:424
-#: ../../upstream/docs/user/api/v3.rst:495
+#: ../../upstream/docs/user/api/v3.rst:424 ../../upstream/docs/user/api/v3.rst:495
 #: ../../upstream/docs/user/api/v3.rst:710
 msgid ""
 "Privacy levels are only available in :doc:`Read the Docs Business "
 "</commercial/index>`."
-msgstr ""
+msgstr "隐私级别仅在 :doc:`Read the Docs Business </commercial/index>` 中可用。"
 
 #: ../../upstream/docs/user/api/v3.rst:427
 msgid "Project update"
-msgstr ""
+msgstr "更新项目"
 
 #: ../../upstream/docs/user/api/v3.rst:431
 msgid "Update an existing project."
-msgstr ""
+msgstr "更新现有项目。"
 
 #: ../../upstream/docs/user/api/v3.rst:490
 msgid ""
-"Adding ``tags`` will replace existing tags with the new list, and if "
-"omitted won't change the tags."
-msgstr ""
+"Adding ``tags`` will replace existing tags with the new list, and if omitted"
+" won't change the tags."
+msgstr "添加 ``tags`` 将用新列表替换现有标签，如果省略则不更改标签。"
 
 #: ../../upstream/docs/user/api/v3.rst
 msgid "Status Codes"
-msgstr ""
+msgstr "状态码"
 
-#: ../../upstream/docs/user/api/v3.rst:497
-#: ../../upstream/docs/user/api/v3.rst:706
+#: ../../upstream/docs/user/api/v3.rst:497 ../../upstream/docs/user/api/v3.rst:706
 msgid "Updated successfully"
-msgstr ""
+msgstr "更新成功"
 
 #: ../../upstream/docs/user/api/v3.rst:501
 msgid "Project versions sync"
-msgstr ""
+msgstr "项目版本同步"
 
 #: ../../upstream/docs/user/api/v3.rst:505
 msgid "Trigger a background task to sync the versions of the project."
-msgstr ""
+msgstr "触发后台任务同步项目的版本。"
 
 #: ../../upstream/docs/user/api/v3.rst:530
 msgid "Task created successfully"
-msgstr ""
+msgstr "任务创建成功"
 
 #: ../../upstream/docs/user/api/v3.rst:531
 msgid "Bad request, task not created"
-msgstr ""
+msgstr "请求错误，任务未创建"
 
 #: ../../upstream/docs/user/api/v3.rst:534
 msgid "Versions"
-msgstr ""
+msgstr "版本"
 
 #: ../../upstream/docs/user/api/v3.rst:536
 msgid "Versions are different versions of the same project documentation."
-msgstr ""
+msgstr "版本是同一项目文档的不同版本。"
 
 #: ../../upstream/docs/user/api/v3.rst:538
 msgid ""
-"The versions for a given project can be viewed in a project's version "
-"page. For example, here is the `Pip project's version page`_. See "
-":doc:`/versions` for more information."
+"The versions for a given project can be viewed in a project's version page. "
+"For example, here is the `Pip project's version page`_. See :doc:`/versions`"
+" for more information."
 msgstr ""
+"给定项目的版本可在项目的版本页面查看。例如，这是 `Pip project's version page`_ 。更多信息见 "
+":doc:`/versions` 。"
 
 #: ../../upstream/docs/user/api/v3.rst:546
 msgid "Versions listing"
-msgstr ""
+msgstr "版本列表"
 
 #: ../../upstream/docs/user/api/v3.rst:550
 msgid "Retrieve a list of all versions for a project."
-msgstr ""
+msgstr "获取项目的所有版本列表。"
 
 #: ../../upstream/docs/user/api/v3.rst:580
 msgid "return only active versions"
-msgstr ""
+msgstr "仅返回活跃版本"
 
 #: ../../upstream/docs/user/api/v3.rst:581
 msgid "return only built versions"
-msgstr ""
+msgstr "仅返回已构建版本"
 
 #: ../../upstream/docs/user/api/v3.rst:582
 msgid "return versions with specific privacy level (``public`` or ``private``)"
-msgstr ""
+msgstr "返回指定隐私级别的版本（ ``public`` 或 ``private`` ）"
 
 #: ../../upstream/docs/user/api/v3.rst:583
 msgid "return versions with matching slug"
-msgstr ""
+msgstr "返回 slug 匹配的版本"
 
 #: ../../upstream/docs/user/api/v3.rst:584
 msgid "return versions with specific type (``branch`` or ``tag``)"
-msgstr ""
+msgstr "返回指定类型的版本（ ``branch`` 或 ``tag`` ）"
 
 #: ../../upstream/docs/user/api/v3.rst:585
 msgid "return versions with matching version name"
-msgstr ""
+msgstr "返回版本名称匹配的版本"
 
 #: ../../upstream/docs/user/api/v3.rst:589
 msgid "Version detail"
-msgstr ""
+msgstr "版本详情"
 
 #: ../../upstream/docs/user/api/v3.rst:593
 msgid "Retrieve details of a single version."
-msgstr ""
+msgstr "获取单个版本的详情。"
 
 #: ../../upstream/docs/user/api/v3.rst:647
 msgid ""
-"the version slug where the ``stable`` version points to. ``null`` when "
-"it's not the stable version."
-msgstr ""
+"the version slug where the ``stable`` version points to. ``null`` when it's "
+"not the stable version."
+msgstr "``stable`` 版本所指向的版本 slug。当它不是 stable 版本时为 ``null`` 。"
 
 #: ../../upstream/docs/user/api/v3.rst:649
 msgid "the version has at least one successful build."
-msgstr ""
+msgstr "该版本至少有一次成功的构建。"
 
 #: ../../upstream/docs/user/api/v3.rst:652
 msgid "Version update"
-msgstr ""
+msgstr "更新版本"
 
 #: ../../upstream/docs/user/api/v3.rst:656
 msgid "Update a version."
-msgstr ""
+msgstr "更新版本。"
 
 #: ../../upstream/docs/user/api/v3.rst:658
 msgid ""
-"When a version is deactivated, its documentation is removed, and when "
-"it's activated, a new build is triggered."
-msgstr ""
+"When a version is deactivated, its documentation is removed, and when it's "
+"activated, a new build is triggered."
+msgstr "当版本被停用时，其文档会被移除；当被启用时，会触发一次新的构建。"
 
 #: ../../upstream/docs/user/api/v3.rst:661
 msgid ""
-"Changing the ``slug`` of an active version removes the documentation "
-"served under the previous slug and triggers a new build. See "
-":ref:`versions:Version URL identifier (slug)` for what to take into "
-"account before renaming a version."
+"Changing the ``slug`` of an active version removes the documentation served "
+"under the previous slug and triggers a new build. See :ref:`versions:Version"
+" URL identifier (slug)` for what to take into account before renaming a "
+"version."
 msgstr ""
+"更改活跃版本的 ``slug`` 会移除原 slug 下提供的文档并触发一次新构建。重命名版本前的注意事项见 "
+":ref:`versions:Version URL identifier (slug)` 。"
 
 #: ../../upstream/docs/user/api/v3.rst:666
 msgid "Updates to a version also invalidates its CDN cache."
-msgstr ""
+msgstr "版本更新也会使其 CDN 缓存失效。"
 
 #: ../../upstream/docs/user/api/v3.rst:714
 msgid ""
 "You can't change the slug of versions managed by Read the Docs, like "
 "``latest`` and ``stable``."
-msgstr ""
+msgstr "你无法更改由 Read the Docs 管理的版本的 slug，例如 ``latest`` 和 ``stable`` 。"
 
 #: ../../upstream/docs/user/api/v3.rst:718
 msgid "Builds"
-msgstr ""
+msgstr "构建"
 
 #: ../../upstream/docs/user/api/v3.rst:720
 msgid ""
 "Builds are created by Read the Docs whenever a ``Project`` has its "
-"documentation built. Frequently this happens automatically via a web hook"
-" but can be triggered manually."
-msgstr ""
+"documentation built. Frequently this happens automatically via a web hook "
+"but can be triggered manually."
+msgstr "每当 ``Project`` 的文档被构建时，Read the Docs 就会创建构建。这通常通过 webhook 自动发生，也可手动触发。"
 
 #: ../../upstream/docs/user/api/v3.rst:723
 msgid ""
-"Builds can be viewed in the build page for a project. For example, here "
-"is `Pip's build page`_. See :doc:`/builds` for more information."
-msgstr ""
+"Builds can be viewed in the build page for a project. For example, here is "
+"`Pip's build page`_. See :doc:`/builds` for more information."
+msgstr "构建可在项目的构建页面查看。例如，这是 `Pip's build page`_ 。更多信息见 :doc:`/builds` 。"
 
 #: ../../upstream/docs/user/api/v3.rst:731
 msgid "Build details"
-msgstr ""
+msgstr "构建详情"
 
 #: ../../upstream/docs/user/api/v3.rst:735
 msgid "Retrieve details of a single build for a project."
-msgstr ""
+msgstr "获取项目单个构建的详情。"
 
 #: ../../upstream/docs/user/api/v3.rst:814
 msgid "The ISO-8601 datetime when the build was created."
-msgstr ""
+msgstr "构建创建时的 ISO-8601 日期时间。"
 
 #: ../../upstream/docs/user/api/v3.rst:815
 msgid "The ISO-8601 datetime when the build has finished."
-msgstr ""
+msgstr "构建完成时的 ISO-8601 日期时间。"
 
 #: ../../upstream/docs/user/api/v3.rst:816
 msgid "The length of the build in seconds."
-msgstr ""
+msgstr "构建耗时（秒）。"
 
 #: ../../upstream/docs/user/api/v3.rst:817
 msgid ""
-"The state of the build (one of ``triggered``, ``building``, "
-"``installing``, ``cloning``, ``finished`` or ``cancelled``)"
+"The state of the build (one of ``triggered``, ``building``, ``installing``, "
+"``cloning``, ``finished`` or ``cancelled``)"
 msgstr ""
+"构建状态（ ``triggered`` 、``building`` 、``installing`` 、``cloning`` 、``finished``"
+" 或 ``cancelled`` 之一）"
 
 #: ../../upstream/docs/user/api/v3.rst:818
 msgid "An error message if the build was unsuccessful"
-msgstr ""
+msgstr "构建失败时的错误信息"
 
 #: ../../upstream/docs/user/api/v3.rst:820
 msgid "Add additional fields in the response. Allowed value is ``config``."
-msgstr ""
+msgstr "在响应中添加额外字段。允许的值为 ``config`` 。"
 
 #: ../../upstream/docs/user/api/v3.rst:825
 msgid "Builds listing"
-msgstr ""
+msgstr "构建列表"
 
 #: ../../upstream/docs/user/api/v3.rst:829
 msgid "Retrieve list of all the builds on this project."
-msgstr ""
+msgstr "获取此项目的所有构建列表。"
 
 #: ../../upstream/docs/user/api/v3.rst:859
 msgid "commit hash to filter the builds returned by commit"
-msgstr ""
+msgstr "按 commit 过滤返回的构建，使用 commit hash"
 
 #: ../../upstream/docs/user/api/v3.rst:860
 msgid "filter the builds that are currently building/running"
-msgstr ""
+msgstr "过滤当前正在构建/运行的构建"
 
 #: ../../upstream/docs/user/api/v3.rst:864
 msgid "Build triggering"
-msgstr ""
+msgstr "触发构建"
 
 #: ../../upstream/docs/user/api/v3.rst:869
 msgid "Trigger a new build for the ``version_slug`` version of this project."
-msgstr ""
+msgstr "为该项目的 ``version_slug`` 版本触发一次新构建。"
 
 #: ../../upstream/docs/user/api/v3.rst:900
 msgid "the build was triggered"
-msgstr ""
+msgstr "构建已触发"
 
 #: ../../upstream/docs/user/api/v3.rst:904
 msgid "Subprojects"
-msgstr ""
+msgstr "子项目"
 
 #: ../../upstream/docs/user/api/v3.rst:906
 msgid ""
-"Projects can be configured in a nested manner, by configuring a project "
-"as a subproject of another project. This allows for documentation "
-"projects to share a search index and a namespace or custom domain, but "
-"still be maintained independently. See :doc:`/subprojects` for more "
-"information."
+"Projects can be configured in a nested manner, by configuring a project as a"
+" subproject of another project. This allows for documentation projects to "
+"share a search index and a namespace or custom domain, but still be "
+"maintained independently. See :doc:`/subprojects` for more information."
 msgstr ""
+"项目可以嵌套配置，方法是将一个项目配置为另一个项目的子项目。这允许文档项目共享搜索索引和命名空间或自定义域名，但仍可独立维护。更多信息见 "
+":doc:`/subprojects` 。"
 
 #: ../../upstream/docs/user/api/v3.rst:914
 msgid "Subproject details"
-msgstr ""
+msgstr "子项目详情"
 
 #: ../../upstream/docs/user/api/v3.rst:919
 msgid "Retrieve details of a subproject relationship."
-msgstr ""
+msgstr "获取子项目关系的详情。"
 
 #: ../../upstream/docs/user/api/v3.rst:952
 msgid "Subprojects listing"
-msgstr ""
+msgstr "子项目列表"
 
 #: ../../upstream/docs/user/api/v3.rst:957
 msgid "Retrieve a list of all sub-projects for a project."
-msgstr ""
+msgstr "获取项目的所有子项目列表。"
 
 #: ../../upstream/docs/user/api/v3.rst:989
 msgid "Subproject create"
-msgstr ""
+msgstr "创建子项目"
 
 #: ../../upstream/docs/user/api/v3.rst:994
 msgid "Create a subproject relationship between two projects."
-msgstr ""
+msgstr "在两个项目之间创建子项目关系。"
 
 #: ../../upstream/docs/user/api/v3.rst:1034
 msgid ""
 "``child`` must be a project that you have access to. Or if you are using "
-":doc:`/commercial/index`, additionally the project must be under the same"
-" organization as the parent project."
-msgstr ""
+":doc:`/commercial/index`, additionally the project must be under the same "
+"organization as the parent project."
+msgstr "``child`` 必须是你有权访问的项目。或者如果你使用 :doc:`/commercial/index` ，则该项目还必须与父项目在同一组织下。"
 
 #: ../../upstream/docs/user/api/v3.rst:1040
 msgid "`See Subproject details <#subproject-details>`_"
-msgstr ""
+msgstr "`See Subproject details <#subproject-details>`_"
 
 #: ../../upstream/docs/user/api/v3.rst:1042
 msgid "slug of the child project in the relationship."
-msgstr ""
+msgstr "关系中子项目的 slug。"
 
 #: ../../upstream/docs/user/api/v3.rst:1043
 msgid ""
 "optional slug alias to be used in the URL (e.g "
-"``/projects/<alias>/en/latest/``). If not provided, child project's slug "
-"is used as alias."
+"``/projects/<alias>/en/latest/``). If not provided, child project's slug is "
+"used as alias."
 msgstr ""
+"用于 URL 中的可选 slug 别名（例如 ``/projects/<alias>/en/latest/`` ）。如果未提供，则使用子项目的 slug"
+" 作为别名。"
 
 #: ../../upstream/docs/user/api/v3.rst:1046
 msgid "Subproject created successfully"
-msgstr ""
+msgstr "子项目创建成功"
 
 #: ../../upstream/docs/user/api/v3.rst:1050
 msgid "Subproject delete"
-msgstr ""
+msgstr "删除子项目"
 
 #: ../../upstream/docs/user/api/v3.rst:1054
 msgid "Delete a subproject relationship."
-msgstr ""
+msgstr "删除子项目关系。"
 
 #: ../../upstream/docs/user/api/v3.rst:1075
 msgid "Subproject deleted successfully"
-msgstr ""
+msgstr "子项目删除成功"
 
 #: ../../upstream/docs/user/api/v3.rst:1079
 msgid "Translations"
-msgstr ""
+msgstr "翻译"
 
 #: ../../upstream/docs/user/api/v3.rst:1081
 msgid ""
-"Translations are the same version of a Project in a different language. "
-"See :doc:`/localization` for more information."
-msgstr ""
+"Translations are the same version of a Project in a different language. See "
+":doc:`/localization` for more information."
+msgstr "翻译是同一项目在不同语言下的同一版本。更多信息见 :doc:`/localization` 。"
 
 #: ../../upstream/docs/user/api/v3.rst:1085
 msgid "Translations listing"
-msgstr ""
+msgstr "翻译列表"
 
 #: ../../upstream/docs/user/api/v3.rst:1090
 msgid "Retrieve a list of all translations for a project."
-msgstr ""
+msgstr "获取项目的所有翻译列表。"
 
 #: ../../upstream/docs/user/api/v3.rst:1177
 msgid "Redirects"
-msgstr ""
+msgstr "重定向"
 
 #: ../../upstream/docs/user/api/v3.rst:1179
 msgid ""
-"Redirects allow the author to redirect an old URL of the documentation to"
-" a new one. This is useful when pages are moved around in the structure "
-"of the documentation set. See :doc:`/user-defined-redirects` for more "
-"information."
+"Redirects allow the author to redirect an old URL of the documentation to a "
+"new one. This is useful when pages are moved around in the structure of the "
+"documentation set. See :doc:`/user-defined-redirects` for more information."
 msgstr ""
+"重定向允许作者将文档的旧 URL 重定向到新 URL。当文档集结构中的页面发生移动时，这很有用。更多信息见 :doc:`/user-defined-"
+"redirects` 。"
 
 #: ../../upstream/docs/user/api/v3.rst:1185
 msgid "Redirect details"
-msgstr ""
+msgstr "重定向详情"
 
 #: ../../upstream/docs/user/api/v3.rst:1189
 msgid "Retrieve details of a single redirect for a project."
-msgstr ""
+msgstr "获取项目单个重定向的详情。"
 
 #: ../../upstream/docs/user/api/v3.rst:1191
 #: ../../upstream/docs/user/api/v3.rst:1238
 #: ../../upstream/docs/user/api/v3.rst:1435
 #: ../../upstream/docs/user/api/v3.rst:1476
 msgid "**Example request**"
-msgstr ""
+msgstr "**示例请求**"
 
 #: ../../upstream/docs/user/api/v3.rst:1208
 #: ../../upstream/docs/user/api/v3.rst:1255
 #: ../../upstream/docs/user/api/v3.rst:1452
 #: ../../upstream/docs/user/api/v3.rst:1493
 msgid "**Example response**"
-msgstr ""
+msgstr "**示例响应**"
 
 #: ../../upstream/docs/user/api/v3.rst:1232
 msgid "Redirects listing"
-msgstr ""
+msgstr "重定向列表"
 
 #: ../../upstream/docs/user/api/v3.rst:1236
 msgid "Retrieve list of all the redirects for this project."
-msgstr ""
+msgstr "获取此项目的所有重定向列表。"
 
 #: ../../upstream/docs/user/api/v3.rst:1267
 msgid "Redirect create"
-msgstr ""
+msgstr "创建重定向"
 
 #: ../../upstream/docs/user/api/v3.rst:1271
 msgid "Create a redirect for this project."
-msgstr ""
+msgstr "为此项目创建重定向。"
 
 #: ../../upstream/docs/user/api/v3.rst:1317
 msgid ""
-"``type`` (required) can be one of ``page``, ``exact``, "
-"``clean_url_to_html`` and ``html_to_clean_url``."
+"``type`` (required) can be one of ``page``, ``exact``, ``clean_url_to_html``"
+" and ``html_to_clean_url``."
 msgstr ""
+"``type`` （必需）可以是 ``page`` 、``exact`` 、``clean_url_to_html`` 和 "
+"``html_to_clean_url`` 之一。"
 
 #: ../../upstream/docs/user/api/v3.rst:1318
 msgid "Depending on the ``type`` of the redirect, some fields may not be needed:"
-msgstr ""
+msgstr "根据重定向的 ``type`` ，某些字段可能不需要："
 
 #: ../../upstream/docs/user/api/v3.rst:1320
 msgid "``page`` and ``exact`` types require ``from_url`` and ``to_url``."
-msgstr ""
+msgstr "``page`` 和 ``exact`` 类型需要 ``from_url`` 和 ``to_url`` 。"
 
 #: ../../upstream/docs/user/api/v3.rst:1321
 msgid ""
 "``clean_url_to_html`` and ``html_to_clean_url`` types do not require "
 "``from_url`` and ``to_url``."
 msgstr ""
+"``clean_url_to_html`` 和 ``html_to_clean_url`` 类型不需要 ``from_url`` 和 "
+"``to_url`` 。"
 
 #: ../../upstream/docs/user/api/v3.rst:1323
 msgid ""
 "``position`` (optional, default: ``0``) - Order of execution. Position "
 "starts at 0 and is used to order redirects."
-msgstr ""
+msgstr "``position`` （可选，默认：``0`` ）-- 执行顺序。位置从 0 开始，用于给重定向排序。"
 
 #: ../../upstream/docs/user/api/v3.rst:1324
 msgid ""
-"``force`` (optional, default: ``false``) - Apply the redirect even if the"
-" page exists."
-msgstr ""
+"``force`` (optional, default: ``false``) - Apply the redirect even if the "
+"page exists."
+msgstr "``force`` （可选，默认：``false`` ）-- 即使页面存在也应用重定向。"
 
 #: ../../upstream/docs/user/api/v3.rst:1325
-msgid ""
-"``enabled`` (optional, default: ``true``) - Enable or disable the "
-"redirect."
-msgstr ""
+msgid "``enabled`` (optional, default: ``true``) - Enable or disable the redirect."
+msgstr "``enabled`` （可选，默认：``true`` ）-- 启用或禁用重定向。"
 
 #: ../../upstream/docs/user/api/v3.rst:1326
 msgid "``description`` (optional) - A description for the redirect."
-msgstr ""
+msgstr "``description`` （可选）-- 重定向的描述。"
 
 #: ../../upstream/docs/user/api/v3.rst:1327
 msgid ""
 "``http_status`` (optional, default: ``302``) - HTTP status code, can be "
 "``301`` (permanent) or ``302`` (temporary)."
-msgstr ""
+msgstr "``http_status`` （可选，默认：``302`` ）-- HTTP 状态码，可以是 ``301`` （永久）或 ``302`` （临时）。"
 
 #: ../../upstream/docs/user/api/v3.rst:1331
 #: ../../upstream/docs/user/api/v3.rst:1387
 msgid "`See Redirect details <#redirect-details>`_"
-msgstr ""
+msgstr "`See Redirect details <#redirect-details>`_"
 
 #: ../../upstream/docs/user/api/v3.rst:1333
 msgid "redirect created successfully"
-msgstr ""
+msgstr "重定向创建成功"
 
 #: ../../upstream/docs/user/api/v3.rst:1337
 msgid "Redirect update"
-msgstr ""
+msgstr "更新重定向"
 
 #: ../../upstream/docs/user/api/v3.rst:1341
 msgid "Update a redirect for this project."
-msgstr ""
+msgstr "更新此项目的重定向。"
 
 #: ../../upstream/docs/user/api/v3.rst:1382
 msgid ""
-"If the position of the redirect is changed, it will be inserted in the "
-"new position and the other redirects will be reordered."
-msgstr ""
+"If the position of the redirect is changed, it will be inserted in the new "
+"position and the other redirects will be reordered."
+msgstr "如果重定向的位置改变，它将被插入新位置，其他重定向会重新排序。"
 
 #: ../../upstream/docs/user/api/v3.rst:1390
 msgid "Redirect delete"
-msgstr ""
+msgstr "删除重定向"
 
 #: ../../upstream/docs/user/api/v3.rst:1394
 msgid "Delete a redirect for this project."
-msgstr ""
+msgstr "删除此项目的重定向。"
 
 #: ../../upstream/docs/user/api/v3.rst:1415
 msgid "Redirect deleted successfully"
-msgstr ""
+msgstr "重定向删除成功"
 
 #: ../../upstream/docs/user/api/v3.rst:1419
 msgid "Environment variables"
-msgstr ""
+msgstr "环境变量"
 
 #: ../../upstream/docs/user/api/v3.rst:1421
 msgid ""
-"Environment variables are variables that you can define for your project."
-" These variables are used in the build process when building your "
-"documentation. They are for example useful to define secrets in a safe "
-"way that can be used by your documentation to build properly. Environment"
-" variables can also be made public, allowing for them to be used in PR "
+"Environment variables are variables that you can define for your project. "
+"These variables are used in the build process when building your "
+"documentation. They are for example useful to define secrets in a safe way "
+"that can be used by your documentation to build properly. Environment "
+"variables can also be made public, allowing for them to be used in PR "
 "builds. See :doc:`/environment-variables`."
 msgstr ""
+"环境变量是你可以为项目定义的变量。构建文档时，这些变量会在构建过程中使用。例如，它们可用于以安全方式定义机密，供文档构建时使用。环境变量也可以设为公开，从而允许在"
+" PR 构建中使用。参见 :doc:`/environment-variables` 。"
 
 #: ../../upstream/docs/user/api/v3.rst:1429
 msgid "Environment variable details"
-msgstr ""
+msgstr "环境变量详情"
 
 #: ../../upstream/docs/user/api/v3.rst:1433
 msgid "Retrieve details of a single environment variable for a project."
-msgstr ""
+msgstr "获取项目单个环境变量的详情。"
 
 #: ../../upstream/docs/user/api/v3.rst:1470
 msgid "Environment variables listing"
-msgstr ""
+msgstr "环境变量列表"
 
 #: ../../upstream/docs/user/api/v3.rst:1474
 msgid "Retrieve list of all the environment variables for this project."
-msgstr ""
+msgstr "获取此项目的所有环境变量列表。"
 
 #: ../../upstream/docs/user/api/v3.rst:1505
 msgid "Environment variable create"
-msgstr ""
+msgstr "创建环境变量"
 
 #: ../../upstream/docs/user/api/v3.rst:1509
 msgid "Create an environment variable for this project."
-msgstr ""
+msgstr "为此项目创建环境变量。"
 
 #: ../../upstream/docs/user/api/v3.rst:1550
 msgid "`See Environment Variable details <#environmentvariable-details>`_"
-msgstr ""
+msgstr "`See Environment Variable details <#environmentvariable-details>`_"
 
 #: ../../upstream/docs/user/api/v3.rst:1552
 msgid "Environment variable created successfully"
-msgstr ""
+msgstr "环境变量创建成功"
 
 #: ../../upstream/docs/user/api/v3.rst:1556
 msgid ""
-"The `public` field is optional. If set to `true`, the environment "
-"variable will be exposed in PR builds. Defaults to `false`."
-msgstr ""
+"The `public` field is optional. If set to `true`, the environment variable "
+"will be exposed in PR builds. Defaults to `false`."
+msgstr "`public` 字段为可选。如果设为 `true`，环境变量将在 PR 构建中暴露。默认为 `false` 。"
 
 #: ../../upstream/docs/user/api/v3.rst:1559
 msgid "Environment variable delete"
-msgstr ""
+msgstr "删除环境变量"
 
 #: ../../upstream/docs/user/api/v3.rst:1563
 msgid "Delete an environment variable for this project."
-msgstr ""
+msgstr "删除此项目的环境变量。"
 
 #: ../../upstream/docs/user/api/v3.rst
 msgid "Request Headers"
-msgstr ""
+msgstr "请求头"
 
 #: ../../upstream/docs/user/api/v3.rst:1584
 #: ../../upstream/docs/user/api/v3.rst:2122
 #: ../../upstream/docs/user/api/v3.rst:2251
 msgid "token to authenticate."
-msgstr ""
+msgstr "用于认证的令牌。"
 
 #: ../../upstream/docs/user/api/v3.rst:1586
 msgid "Environment variable deleted successfully"
-msgstr ""
+msgstr "环境变量删除成功"
 
 #: ../../upstream/docs/user/api/v3.rst:1590
 msgid "Sharing methods"
-msgstr ""
+msgstr "共享方式"
 
 #: ../../upstream/docs/user/api/v3.rst:1592
 msgid ""
-"Sharing methods allow you to grant temporary access to private "
-"documentation by using a secret link, a password, or an HTTP header "
-"token. See :doc:`/commercial/sharing` for more information."
-msgstr ""
+"Sharing methods allow you to grant temporary access to private documentation"
+" by using a secret link, a password, or an HTTP header token. See "
+":doc:`/commercial/sharing` for more information."
+msgstr "共享方式允许你通过密链、密码或 HTTP 头令牌授予对私有文档的临时访问权限。更多信息见 :doc:`/commercial/sharing` 。"
 
 #: ../../upstream/docs/user/api/v3.rst:1597
 msgid ""
-"The ``/api/v3/projects/<project_slug>/sharing/`` endpoint is only "
-"available in :doc:`Read the Docs Business </commercial/index>`."
+"The ``/api/v3/projects/<project_slug>/sharing/`` endpoint is only available "
+"in :doc:`Read the Docs Business </commercial/index>`."
 msgstr ""
+"``/api/v3/projects/<project_slug>/sharing/`` 端点仅在 :doc:`Read the Docs "
+"Business </commercial/index>` 中可用。"
 
 #: ../../upstream/docs/user/api/v3.rst:1601
 msgid "Sharing method details"
-msgstr ""
+msgstr "共享方式详情"
 
 #: ../../upstream/docs/user/api/v3.rst:1605
 msgid "Retrieve details of a single sharing method for a project."
-msgstr ""
+msgstr "获取项目单个共享方式的详情。"
 
 #: ../../upstream/docs/user/api/v3.rst:1647
 msgid "Sharing methods listing"
-msgstr ""
+msgstr "共享方式列表"
 
 #: ../../upstream/docs/user/api/v3.rst:1651
 msgid "Retrieve list of all sharing methods for this project."
-msgstr ""
+msgstr "获取此项目的所有共享方式列表。"
 
 #: ../../upstream/docs/user/api/v3.rst:1683
 msgid "Sharing method create"
-msgstr ""
+msgstr "创建共享方式"
 
 #: ../../upstream/docs/user/api/v3.rst:1687
 msgid "Create a sharing method for this project."
-msgstr ""
+msgstr "为此项目创建共享方式。"
 
 #: ../../upstream/docs/user/api/v3.rst:1729
 msgid "``access_type`` can be ``token``, ``password``, or ``http_header_token``."
-msgstr ""
+msgstr "``access_type`` 可以是 ``token`` 、``password`` 或 ``http_header_token`` 。"
 
 #: ../../upstream/docs/user/api/v3.rst:1730
 msgid "``password`` is required only when ``access_type`` is ``password``."
-msgstr ""
+msgstr "仅当 ``access_type`` 为 ``password`` 时需要 ``password`` 。"
 
 #: ../../upstream/docs/user/api/v3.rst:1731
 msgid "``allow_all`` defaults to ``true``."
-msgstr ""
+msgstr "``allow_all`` 默认为 ``true`` 。"
 
 #: ../../upstream/docs/user/api/v3.rst:1732
 msgid ""
 "When ``allow_all`` is ``false``, ``versions`` must include at least one "
 "private active version slug."
-msgstr ""
+msgstr "当 ``allow_all`` 为 ``false`` 时，``versions`` 必须包含至少一个私有活跃版本 slug。"
 
 #: ../../upstream/docs/user/api/v3.rst:1733
 msgid "``expires`` defaults to 7 days from creation."
-msgstr ""
+msgstr "``expires`` 默认为创建起 7 天后。"
 
 #: ../../upstream/docs/user/api/v3.rst:1737
 #: ../../upstream/docs/user/api/v3.rst:1786
 msgid "`See Sharing method details <#sharing-method-details>`_."
-msgstr ""
+msgstr "`See Sharing method details <#sharing-method-details>`_ 。"
 
 #: ../../upstream/docs/user/api/v3.rst:1739
 msgid "Sharing method created successfully."
-msgstr ""
+msgstr "共享方式创建成功。"
 
 #: ../../upstream/docs/user/api/v3.rst:1743
 msgid "Sharing method update"
-msgstr ""
+msgstr "更新共享方式"
 
 #: ../../upstream/docs/user/api/v3.rst:1747
 msgid "Update a sharing method for this project."
-msgstr ""
+msgstr "更新此项目的共享方式。"
 
 #: ../../upstream/docs/user/api/v3.rst:1790
 msgid "Sharing method delete"
-msgstr ""
+msgstr "删除共享方式"
 
 #: ../../upstream/docs/user/api/v3.rst:1794
 msgid "Delete a sharing method for this project."
-msgstr ""
+msgstr "删除此项目的共享方式。"
 
 #: ../../upstream/docs/user/api/v3.rst:1815
 msgid "Sharing method deleted successfully."
-msgstr ""
+msgstr "共享方式删除成功。"
 
 #: ../../upstream/docs/user/api/v3.rst:1819
 msgid "Organizations"
-msgstr ""
+msgstr "组织"
 
 #: ../../upstream/docs/user/api/v3.rst:1823
 msgid ""
-"The ``/api/v3/organizations/`` endpoint is only available in :doc:`Read "
-"the Docs Business </commercial/index>` currently. We plan to have "
-"organizations on |org_brand| in a near future and we will add support for"
-" this endpoint at the same time."
+"The ``/api/v3/organizations/`` endpoint is only available in :doc:`Read the "
+"Docs Business </commercial/index>` currently. We plan to have organizations "
+"on |org_brand| in a near future and we will add support for this endpoint at"
+" the same time."
 msgstr ""
+"目前 ``/api/v3/organizations/`` 端点仅在 :doc:`Read the Docs Business "
+"</commercial/index>` 中可用。我们计划在不久的将来在 |org_brand| 上提供组织功能，届时将同时增加对该端点的支持。"
 
 #: ../../upstream/docs/user/api/v3.rst:1828
 msgid "Organizations list"
-msgstr ""
+msgstr "组织列表"
 
 #: ../../upstream/docs/user/api/v3.rst:1833
 msgid "Retrieve a list of all the organizations for the current logged in user."
-msgstr ""
+msgstr "获取当前登录用户的所有组织列表。"
 
 #: ../../upstream/docs/user/api/v3.rst:1884
 msgid "Organization details"
-msgstr ""
+msgstr "组织详情"
 
 #: ../../upstream/docs/user/api/v3.rst:1888
 msgid "Retrieve details of a single organization."
-msgstr ""
+msgstr "获取单个组织的详情。"
 
 #: ../../upstream/docs/user/api/v3.rst:1933
 msgid "Organization projects list"
-msgstr ""
+msgstr "组织项目列表"
 
 #: ../../upstream/docs/user/api/v3.rst:1937
 msgid "Retrieve list of projects under an organization."
-msgstr ""
+msgstr "获取组织下的项目列表。"
 
 #: ../../upstream/docs/user/api/v3.rst:2010
 msgid "Organization teams list"
-msgstr ""
+msgstr "组织团队列表"
 
 #: ../../upstream/docs/user/api/v3.rst:2014
 msgid "Retrieve list of teams under an organization."
-msgstr ""
+msgstr "获取组织下的团队列表。"
 
 #: ../../upstream/docs/user/api/v3.rst:2059
 msgid "Add additional fields in the response. Allowed values are: ``members``."
-msgstr ""
+msgstr "在响应中添加额外字段。允许的值：``members`` 。"
 
 #: ../../upstream/docs/user/api/v3.rst:2063
 msgid "Remote organizations"
-msgstr ""
+msgstr "远程组织"
 
 #: ../../upstream/docs/user/api/v3.rst:2065
 msgid ""
 "Remote organizations are the VCS organizations connected via ``GitHub``, "
 "``GitLab`` and ``Bitbucket``."
-msgstr ""
+msgstr "远程组织是通过 ``GitHub`` 、``GitLab`` 和 ``Bitbucket`` 连接的 VCS 组织。"
 
 #: ../../upstream/docs/user/api/v3.rst:2070
 msgid "Remote organization listing"
-msgstr ""
+msgstr "远程组织列表"
 
 #: ../../upstream/docs/user/api/v3.rst:2075
 msgid "Retrieve a list of all Remote Organizations for the authenticated user."
-msgstr ""
+msgstr "获取已认证用户的所有远程组织列表。"
 
 #: ../../upstream/docs/user/api/v3.rst:2117
 msgid "The ``results`` in response is an array of remote organizations data."
-msgstr ""
+msgstr "响应中的 ``results`` 是远程组织数据数组。"
 
 #: ../../upstream/docs/user/api/v3.rst:2119
 msgid "return remote organizations with containing the name"
-msgstr ""
+msgstr "返回名称包含指定字符串的远程组织"
 
 #: ../../upstream/docs/user/api/v3.rst:2120
 msgid ""
 "return remote organizations for specific vcs provider (``github``, "
 "``gitlab`` or ``bitbucket``)"
-msgstr ""
+msgstr "返回指定 VCS 提供方（ ``github`` 、``gitlab`` 或 ``bitbucket`` ）的远程组织"
 
 #: ../../upstream/docs/user/api/v3.rst:2126
 msgid "Remote repositories"
-msgstr ""
+msgstr "远程仓库"
 
 #: ../../upstream/docs/user/api/v3.rst:2128
 msgid ""
 "Remote repositories are the importable repositories connected via "
 "``GitHub``, ``GitLab`` and ``Bitbucket``."
-msgstr ""
+msgstr "远程仓库是通过 ``GitHub`` 、``GitLab`` 和 ``Bitbucket`` 连接的可导入仓库。"
 
 #: ../../upstream/docs/user/api/v3.rst:2133
 msgid "Remote repository listing"
-msgstr ""
+msgstr "远程仓库列表"
 
 #: ../../upstream/docs/user/api/v3.rst:2138
 msgid "Retrieve a list of all Remote Repositories for the authenticated user."
-msgstr ""
+msgstr "获取已认证用户的所有远程仓库列表。"
 
 #: ../../upstream/docs/user/api/v3.rst:2241
 msgid "The ``results`` in response is an array of remote repositories data."
-msgstr ""
+msgstr "响应中的 ``results`` 是远程仓库数据数组。"
 
 #: ../../upstream/docs/user/api/v3.rst:2243
 msgid "return remote repositories containing the name"
-msgstr ""
+msgstr "返回名称包含指定字符串的远程仓库"
 
 #: ../../upstream/docs/user/api/v3.rst:2244
 msgid ""
 "return remote repositories containing the full name (it includes the "
 "username/organization the project belongs to)"
-msgstr ""
+msgstr "返回全名包含指定字符串的远程仓库（全名包含项目所属的用户名/组织名）"
 
 #: ../../upstream/docs/user/api/v3.rst:2245
 msgid ""
-"return remote repositories for specific vcs provider (``github``, "
-"``gitlab`` or ``bitbucket``)"
-msgstr ""
+"return remote repositories for specific vcs provider (``github``, ``gitlab``"
+" or ``bitbucket``)"
+msgstr "返回指定 VCS 提供方（ ``github`` 、``gitlab`` 或 ``bitbucket`` ）的远程仓库"
 
 #: ../../upstream/docs/user/api/v3.rst:2246
 msgid ""
-"return remote repositories for specific remote organization (using remote"
-" organization ``slug``)"
-msgstr ""
+"return remote repositories for specific remote organization (using remote "
+"organization ``slug``)"
+msgstr "返回指定远程组织（使用远程组织 ``slug`` ）的远程仓库"
 
 #: ../../upstream/docs/user/api/v3.rst:2247
 msgid ""
 "Add additional fields in the response. Allowed values are: "
-"``remote_organization``. Multiple fields can be passed separated by "
-"commas."
-msgstr ""
+"``remote_organization``. Multiple fields can be passed separated by commas."
+msgstr "在响应中添加额外字段。允许的值：``remote_organization`` 。多个字段可用逗号分隔传递。"
 
 #: ../../upstream/docs/user/api/v3.rst:2255
 msgid "Embed"
-msgstr ""
+msgstr "嵌入"
 
 #: ../../upstream/docs/user/api/v3.rst:2259
 msgid ""
 "Retrieve HTML-formatted content from documentation page or section. Read "
 ":doc:`/guides/embedding-content` to know more about how to use this "
 "endpoint."
-msgstr ""
+msgstr "从文档页面或片段获取 HTML 格式内容。阅读 :doc:`/guides/embedding-content` 了解如何使用此端点。"
 
 #: ../../upstream/docs/user/api/v3.rst:2264
 msgid ""
-"The content will be returned as is, without any sanitization or escaping."
-" You should not include content from arbitrary projects, or projects you "
-"do not trust."
-msgstr ""
+"The content will be returned as is, without any sanitization or escaping. "
+"You should not include content from arbitrary projects, or projects you do "
+"not trust."
+msgstr "内容将原样返回，不做任何清理或转义。你不应包含来自任意项目或你不信任项目的内容。"
 
 #: ../../upstream/docs/user/api/v3.rst:2284
 msgid "URL of the document."
-msgstr ""
+msgstr "文档的 URL。"
 
 #: ../../upstream/docs/user/api/v3.rst:2285
 msgid "fragmet part of the URL used to query the page."
-msgstr ""
+msgstr "URL 中用于查询页面的片段（fragmet）部分。"
 
 #: ../../upstream/docs/user/api/v3.rst:2286
 msgid "HTML content of the section."
-msgstr ""
+msgstr "片段的 HTML 内容。"
 
 #: ../../upstream/docs/user/api/v3.rst:2287
 msgid "whether or not the page is hosted on Read the Docs or externally."
-msgstr ""
+msgstr "页面是托管在 Read the Docs 上还是外部。"
 
 #: ../../upstream/docs/user/api/v3.rst:2289
 msgid "full URL of the document (with optional fragment) to fetch content from."
-msgstr ""
+msgstr "要获取内容的文档完整 URL（可选带片段）。"
 
 #: ../../upstream/docs/user/api/v3.rst:2290
 msgid ""
 "*optional* documentation tool key name used to generate the target "
 "documentation (currently, only ``sphinx`` is accepted)"
-msgstr ""
+msgstr "*可选* 用于生成目标文档的文档工具键名（目前仅接受 ``sphinx`` ）"
 
 #: ../../upstream/docs/user/api/v3.rst:2291
 msgid ""
 "*optional* documentation tool version used to generate the target "
 "documentation (e.g. ``4.2.0``)."
-msgstr ""
+msgstr "*可选* 用于生成目标文档的文档工具版本（例如 4.2.0 ）。"
 
 #: ../../upstream/docs/user/api/v3.rst:2292
-msgid ""
-"*optional* CSS selector for the main content of the page (e.g. "
-"``div#main``)."
-msgstr ""
+msgid "*optional* CSS selector for the main content of the page (e.g. ``div#main``)."
+msgstr "*可选* 页面主内容的 CSS 选择器（例如 div#main ）。"
 
 #: ../../upstream/docs/user/api/v3.rst:2296
 msgid ""
@@ -1198,12 +1218,14 @@ msgid ""
 "improve the response since the endpoint will know more about the exact "
 "structure of the HTML and can make better decisions."
 msgstr ""
+"传递 ``?doctool=`` 、``?doctoolversion=`` 和 ``?maincontent=`` 可能改善响应，因为端点能更了解 "
+"HTML 的确切结构并做出更好的决策。"
 
 #: ../../upstream/docs/user/api/v3.rst:2300
 msgid "Additional APIs"
-msgstr ""
+msgstr "其他 API"
 
 #: ../../upstream/docs/user/api/v3.rst:2302
 msgid ":doc:`Server side search API </server-side-search/api>`."
-msgstr ""
+msgstr ":doc:`服务器端搜索 API </server-side-search/api>` 。"
 

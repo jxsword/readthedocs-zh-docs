@@ -22,11 +22,11 @@ msgstr ""
 
 #: ../../upstream/docs/user/api/index.rst:2
 msgid "Public REST API"
-msgstr ""
+msgstr "公共 REST API"
 
 #: ../../upstream/docs/user/api/index.rst:4
 msgid ""
-"This section of the documentation details the public REST API. Useful to "
-"get details of projects, builds, versions, and other resources."
-msgstr ""
+"This section of the documentation details the public REST API. Useful to get"
+" details of projects, builds, versions, and other resources."
+msgstr "本文档章节详述公共 REST API。可用于获取项目、构建、版本及其他资源的详情。"
 

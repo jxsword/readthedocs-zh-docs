@@ -113,7 +113,7 @@ msgstr "显式目标"
 msgid ""
 "Cross referencing in Sphinx uses two components, **references** and "
 "**targets**."
-msgstr "Sphinx 中的交叉引用由两个要素组成：**引用** 和**目标** 。"
+msgstr "Sphinx 中的交叉引用由两个要素组成：**引用** 和** 目标** 。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:49
 msgid ""
@@ -130,7 +130,7 @@ msgid ""
 "You can manually create a *target* in any location of your documentation, "
 "allowing you to *reference* it from other pages. These are called **explicit"
 " targets**."
-msgstr "你可以在文档任意位置手动创建*目标* ，从而从其他页面*引用* 它。这称为**显式目标** 。"
+msgstr "你可以在文档任意位置手动创建*目标* ，从而从其他页面* 引用* 它。这称为**显式目标** 。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:55
 msgid "For example, one way of creating an explicit target for a section is:"

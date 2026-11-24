@@ -80,8 +80,8 @@ msgid ""
 "environment variable. In other words, **do not use this option if your "
 "environment variable is a secret.**"
 msgstr ""
-"若将环境变量设为**公开** ，任何能在你的仓库创建 Pull Request "
-"的用户都能看到该变量的值。换句话说，**若环境变量是机密，请勿使用此选项。**"
+"若将环境变量设为**公开** ，任何能在你的仓库创建 Pull Request 的用户都能看到该变量的值。换句话说，** "
+"若环境变量是机密，请勿使用此选项。**"
 
 #: ../../upstream/docs/user/guides/environment-variables.rst:30
 msgid ""

@@ -22,67 +22,70 @@ msgstr ""
 
 #: ../../upstream/docs/user/api/cross-site-requests.rst:2
 msgid "Cross-site requests"
-msgstr ""
+msgstr "跨站请求"
 
 #: ../../upstream/docs/user/api/cross-site-requests.rst:4
 msgid "Cross site requests are allowed for the following endpoints:"
-msgstr ""
+msgstr "允许对以下端点进行跨站请求："
 
 #: ../../upstream/docs/user/api/cross-site-requests.rst:6
 msgid ":ref:`/api/v2/footer_html/ <api/v2:Undocumented resources and endpoints>`"
-msgstr ""
+msgstr ":ref:`/api/v2/footer_html/ <api/v2:Undocumented resources and endpoints>`"
 
 #: ../../upstream/docs/user/api/cross-site-requests.rst:7
 msgid ":ref:`/api/v2/search/ <server-side-search/api:API V2 (deprecated)>`"
-msgstr ""
+msgstr ":ref:`/api/v2/search/ <server-side-search/api:API V2 (deprecated)>`"
 
 #: ../../upstream/docs/user/api/cross-site-requests.rst:8
 msgid ":ref:`/api/v2/embed/ <api/v2:Embed>`"
-msgstr ""
+msgstr ":ref:`/api/v2/embed/ <api/v2:Embed>`"
 
 #: ../../upstream/docs/user/api/cross-site-requests.rst:9
-msgid ""
-":ref:`/api/v2/sustainability/ <api/v2:Undocumented resources and "
-"endpoints>`"
-msgstr ""
+msgid ":ref:`/api/v2/sustainability/ <api/v2:Undocumented resources and endpoints>`"
+msgstr ":ref:`/api/v2/sustainability/ <api/v2:Undocumented resources and endpoints>`"
 
 #: ../../upstream/docs/user/api/cross-site-requests.rst:10
 msgid ":ref:`/api/v3/embed/ <api/v3:Embed>`"
-msgstr ""
+msgstr ":ref:`/api/v3/embed/ <api/v3:Embed>`"
 
 #: ../../upstream/docs/user/api/cross-site-requests.rst:12
 msgid ""
-"Except for the sustainability API, all of the above endpoints don't allow"
-" you to pass credentials in cross-site requests. In other words, these "
-"API endpoints allow you to access **public information only**."
-msgstr ""
+"Except for the sustainability API, all of the above endpoints don't allow "
+"you to pass credentials in cross-site requests. In other words, these API "
+"endpoints allow you to access **public information only**."
+msgstr "除 sustainability API 外，上述所有端点都不允许在跨站请求中传递凭据。换言之，这些 API 端点仅允许访问**公开信息** 。"
 
 #: ../../upstream/docs/user/api/cross-site-requests.rst:16
 msgid ""
-"On a technical level, this is achieved by implementing the CORS_ "
-"standard, which is supported by all major browsers. We implement it such "
-"way that it strictly match the intention of the API endpoint."
-msgstr ""
+"On a technical level, this is achieved by implementing the CORS_ standard, "
+"which is supported by all major browsers. We implement it such way that it "
+"strictly match the intention of the API endpoint."
+msgstr "技术上，这是通过实现 CORS_ 标准实现的，所有主流浏览器均支持。我们的实现方式严格匹配 API 端点的意图。"
 
 #: ../../upstream/docs/user/api/cross-site-requests.rst:23
 msgid "Cookies"
-msgstr ""
+msgstr "Cookie"
 
 #: ../../upstream/docs/user/api/cross-site-requests.rst:25
 msgid ""
-"On |org_brand|, our session cookies have the ``SameSite`` attribute set "
-"to ``Lax``, This means that browsers will not include them in cross site "
-"requests. All resources in |org_brand| are public, you don't need to pass"
-" cookies to make use of our allowed APIs from other sites."
+"On |org_brand|, our session cookies have the ``SameSite`` attribute set to "
+"``Lax``, This means that browsers will not include them in cross site "
+"requests. All resources in |org_brand| are public, you don't need to pass "
+"cookies to make use of our allowed APIs from other sites."
 msgstr ""
+"在 |org_brand| 上，我们的会话 cookie 将 ``SameSite`` 属性设为 ``Lax`` "
+"，这意味着浏览器不会在跨站请求中携带它们。|org_brand| 上的所有资源均为公开，你无需传递 cookie 即可从其他站点使用我们允许的 API。"
 
 #: ../../upstream/docs/user/api/cross-site-requests.rst:30
 msgid ""
-"On |com_brand|, our session cookies have the ``SameSite`` attribute set "
-"to ``Lax``, this means that browsers will not include them in cross site "
-"requests. If you need to have access to versions that the current user "
-"has permissions over, you can make use of our proxied APIs, they can be "
-"accessed from docs domains with the `/_/` prefix. For example, you can "
-"make use of our search API from `<your-docs-domain>/_/api/v2/search/`."
+"On |com_brand|, our session cookies have the ``SameSite`` attribute set to "
+"``Lax``, this means that browsers will not include them in cross site "
+"requests. If you need to have access to versions that the current user has "
+"permissions over, you can make use of our proxied APIs, they can be accessed"
+" from docs domains with the `/_/` prefix. For example, you can make use of "
+"our search API from `<your-docs-domain>/_/api/v2/search/`."
 msgstr ""
+"在 |com_brand| 上，我们的会话 cookie 将 ``SameSite`` 属性设为 ``Lax`` "
+"，这意味着浏览器不会在跨站请求中携带它们。如果你需要访问当前用户有权限的版本，可以使用我们的代理 API，它们可通过文档域名的 `/_/` "
+"前缀访问。例如，你可以从 `<your-docs-domain>/_/api/v2/search/` 使用我们的搜索 API。"
 

@@ -44,7 +44,7 @@ msgid ""
 " downloads to 1 request per second. API requests have their own rate limits "
 "(see :ref:`API rate limiting <api/v3:Rate limiting>`)."
 msgstr ""
-"**速率限制** ：保持在**每秒 4 次请求** 以下。少量超出不会触发限速或封禁。许多项目以可下载 zip "
+"**速率限制** ：保持在** 每秒 4 次请求** 以下。少量超出不会触发限速或封禁。许多项目以可下载 zip "
 "文件或其他格式构建文档，此类下载请保持每秒 1 次请求。API 请求有独立的速率限制（见 :ref:`API 速率限制 <api/v3:Rate "
 "limiting>` ）。"
 

@@ -22,300 +22,313 @@ msgstr ""
 
 #: ../../upstream/docs/user/glossary.rst:2
 msgid "Glossary"
-msgstr ""
+msgstr "术语表"
 
 #: ../../upstream/docs/user/glossary.rst:4
 msgid ""
-"This page includes a number of terms that we use in our documentation, so"
-" that you have a reference for how we're using them."
-msgstr ""
+"This page includes a number of terms that we use in our documentation, so "
+"that you have a reference for how we're using them."
+msgstr "本页收录了我们在文档中使用的若干术语，供你查阅我们使用它们的方式。"
 
 #: ../../upstream/docs/user/glossary.rst:8
 msgid "CI/CD"
-msgstr ""
+msgstr "CI/CD"
 
 #: ../../upstream/docs/user/glossary.rst:10
 msgid ""
 "CI/CD is a common way to write *Continuous Integration and Continuous "
-"Deployment*. In some scenarios, they exist as two separate platforms. "
-"Read the Docs is a combined CI/CD platform made for documentation."
+"Deployment*. In some scenarios, they exist as two separate platforms. Read "
+"the Docs is a combined CI/CD platform made for documentation."
 msgstr ""
+"CI/CD 是 *持续集成与持续部署* （Continuous Integration and Continuous "
+"Deployment）的常见写法。在某些场景下，二者是两个相互独立的平台。Read the Docs 则是一个面向文档的 CI/CD 一体化平台。"
 
 #: ../../upstream/docs/user/glossary.rst:13
 msgid "configuration file"
-msgstr ""
+msgstr "配置文件"
 
 #: ../../upstream/docs/user/glossary.rst:15
 msgid ""
 "YAML configuration file (e.g. ``.readthedocs.yaml``) that configures the "
 "build process of your project on Read the Docs."
-msgstr ""
+msgstr "用于配置你的项目在 Read the Docs 上构建过程的 YAML 配置文件（例如 ``.readthedocs.yaml`` ）。"
 
 #: ../../upstream/docs/user/glossary.rst:19
 msgid ":doc:`/config-file/index`"
-msgstr ""
+msgstr ":doc:`/config-file/index`"
 
 #: ../../upstream/docs/user/glossary.rst:20
 msgid "Practical steps to add a configuration file to your documentation project."
-msgstr ""
+msgstr "为文档项目添加配置文件的实操步骤。"
 
 #: ../../upstream/docs/user/glossary.rst:22
 msgid "dashboard"
-msgstr ""
+msgstr "仪表盘"
 
 #: ../../upstream/docs/user/glossary.rst:24
 msgid ""
-"The \"admin\" site where Read the Docs projects are managed and "
-"configured. This varies for our two properties:"
-msgstr ""
+"The \"admin\" site where Read the Docs projects are managed and configured. "
+"This varies for our two properties:"
+msgstr "对 Read the Docs 项目进行管理和配置的“管理”站点。我们的两个站点在这方面有所不同："
 
 #: ../../upstream/docs/user/glossary.rst:27
 msgid "|com_brand|: https://app.readthedocs.com/dashboard/"
-msgstr ""
+msgstr "|com_brand|：https://app.readthedocs.com/dashboard/"
 
 #: ../../upstream/docs/user/glossary.rst:28
 msgid "|org_brand|: https://app.readthedocs.org/dashboard/"
-msgstr ""
+msgstr "|org_brand|：https://app.readthedocs.org/dashboard/"
 
 #: ../../upstream/docs/user/glossary.rst:29
 msgid "default version"
-msgstr ""
+msgstr "默认版本"
 
 #: ../../upstream/docs/user/glossary.rst:31
 msgid ""
-"Projects have a *default version*, usually the latest stable version of a"
-" project. The *default version* is the URL that is redirected to when a "
-"users loads the `/` URL for your project."
-msgstr ""
+"Projects have a *default version*, usually the latest stable version of a "
+"project. The *default version* is the URL that is redirected to when a users"
+" loads the `/` URL for your project."
+msgstr "每个项目都有一个*默认版本* ，通常是项目最新的稳定版本。当用户访问你项目的 `/` URL 时，重定向的目标即为*默认版本* 的 URL。"
 
 #: ../../upstream/docs/user/glossary.rst:33
 msgid "diff"
-msgstr ""
+msgstr "diff"
 
 #: ../../upstream/docs/user/glossary.rst:35
 msgid ""
-"A way to see the changes between two pieces of text, which shows the "
-"added and removed content with a green and red color respectively."
-msgstr ""
+"A way to see the changes between two pieces of text, which shows the added "
+"and removed content with a green and red color respectively."
+msgstr "一种查看两段文本之间差异的方式，以绿色和红色分别显示新增与删除的内容。"
 
 #: ../../upstream/docs/user/glossary.rst:37
 msgid "discoverability"
-msgstr ""
+msgstr "可发现性"
 
 #: ../../upstream/docs/user/glossary.rst:39
 msgid ""
-"A documentation page is said to be *discoverable* when a user that needs "
-"it can find it through various methods: Navigation, search, and links "
-"from other pages are the most typical ways of making content "
-"*discoverable*."
-msgstr ""
+"A documentation page is said to be *discoverable* when a user that needs it "
+"can find it through various methods: Navigation, search, and links from "
+"other pages are the most typical ways of making content *discoverable*."
+msgstr "当需要某个文档页面的用户能够通过多种途径找到它时，该页面即具有*可发现性* ：导航、搜索以及来自其他页面的链接，是让内容具有*可发现性* 的最典型方式。"
 
 #: ../../upstream/docs/user/glossary.rst:41
 msgid "Docs as Code"
-msgstr ""
+msgstr "Docs as Code"
 
 #: ../../upstream/docs/user/glossary.rst:43
 msgid ""
 "A term used to describe the workflow of keeping documentation in a Git "
 "repository, along with source code. Popular in the open source software "
 "movement, and used by many technology companies."
-msgstr ""
+msgstr "用于描述“将文档与源代码一同保存在 Git 仓库中”这一工作流的术语。它在开源软件运动中颇为流行，也被许多科技公司采用。"
 
 #: ../../upstream/docs/user/glossary.rst:47
 msgid "flyout menu"
-msgstr ""
+msgstr "浮出菜单"
 
 #: ../../upstream/docs/user/glossary.rst:49
 msgid ""
 "Menu displayed on the documentation, readily accessible for readers, "
-"containing the list active versions, links to static downloads, and other"
-" useful links. Read more in our :doc:`/flyout-menu` page."
+"containing the list active versions, links to static downloads, and other "
+"useful links. Read more in our :doc:`/flyout-menu` page."
 msgstr ""
+"显示在文档页面上、便于读者随时访问的菜单，其中包含活跃版本列表、静态下载链接以及其他实用链接。更多信息见我们的 :doc:`/flyout-menu` "
+"页面。"
 
 #: ../../upstream/docs/user/glossary.rst:51
 msgid "GitOps"
-msgstr ""
+msgstr "GitOps"
 
 #: ../../upstream/docs/user/glossary.rst:53
 msgid ""
-"Denotes the use of code maintained in Git to automate building, testing, "
-"and deployment of infrastructure. In terms of documentation, GitOps is "
+"Denotes the use of code maintained in Git to automate building, testing, and"
+" deployment of infrastructure. In terms of documentation, GitOps is "
 "applicable for Read the Docs, as the configuration for building "
-"documentation is stored in ``.readthedocs.yaml``, and rules for "
-"publication of documentation can be :doc:`automated </automation-rules>`."
-" Similar to :term:`Docs as Code`."
+"documentation is stored in ``.readthedocs.yaml``, and rules for publication "
+"of documentation can be :doc:`automated </automation-rules>`. Similar to "
+":term:`Docs as Code`."
 msgstr ""
+"指使用保存在 Git 中的代码来自动化基础设施的构建、测试与部署。就文档而言，GitOps 同样适用于 Read the Docs：构建文档的配置存储在"
+" ``.readthedocs.yaml`` 中，而文档的发布规则可以 :doc:`自动化 </automation-rules>` 。类似于 "
+":term:`Docs as Code` 。"
 
 #: ../../upstream/docs/user/glossary.rst:59
 msgid "maintainer"
-msgstr ""
+msgstr "维护者"
 
 #: ../../upstream/docs/user/glossary.rst:61
 msgid ""
 "A *maintainer* is a special role that only exists on |org_brand|. The "
 "creator of a project on |org_brand| can invite other collaborators as "
 "*maintainers* with full ownership rights."
-msgstr ""
+msgstr "*维护者* 是仅存在于 |org_brand| 的特殊角色。|org_brand| 上项目的创建者可以邀请其他协作者成为拥有完整所有权的*维护者* 。"
 
 #: ../../upstream/docs/user/glossary.rst:64
 msgid ""
-"The *maintainer* role does not exist on |com_brand|, which instead "
-"provides :doc:`/commercial/organizations`."
-msgstr ""
+"The *maintainer* role does not exist on |com_brand|, which instead provides "
+":doc:`/commercial/organizations`."
+msgstr "*维护者* 角色在 |com_brand| 上不存在，取而代之的是 :doc:`/commercial/organizations` 。"
 
 #: ../../upstream/docs/user/glossary.rst:65
 msgid "pinning"
-msgstr ""
+msgstr "固定"
 
 #: ../../upstream/docs/user/glossary.rst:67
 msgid ""
-"To *pin* a requirement means to explicitly specify which version should "
-"be used. *Pinning* software requirements is the most important technique "
-"to make a project :term:`reproducible`."
-msgstr ""
+"To *pin* a requirement means to explicitly specify which version should be "
+"used. *Pinning* software requirements is the most important technique to "
+"make a project :term:`reproducible`."
+msgstr "*固定* （pin）某个依赖意味着显式指定应使用的版本。*固定* 软件依赖是让项目 :term:`可复现 <reproducible>` 的最重要技术。"
 
 #: ../../upstream/docs/user/glossary.rst:70
 msgid ""
 "When documentation builds, software dependencies are installed in their "
 "latest versions permitted by the pinning specification. Since software "
 "packages are frequently released, we are usually trying to avoid "
-"incompatibilities in a new release from suddenly breaking a documentation"
-" build."
-msgstr ""
+"incompatibilities in a new release from suddenly breaking a documentation "
+"build."
+msgstr "文档构建时，软件依赖会按固定规范所允许的最新版本安装。由于软件包发布频繁，我们通常要避免新版本中的不兼容问题突然破坏文档构建。"
 
 #: ../../upstream/docs/user/glossary.rst:75
 msgid "Examples of Python dependencies::"
-msgstr ""
+msgstr "Python 依赖示例::"
 
 #: ../../upstream/docs/user/glossary.rst:86
 msgid "Read the Docs recommends using **exact pinning**."
-msgstr ""
+msgstr "Read the Docs 建议使用**精确固定** 。"
 
 #: ../../upstream/docs/user/glossary.rst:88
 #: ../../upstream/docs/user/glossary.rst:112
 msgid "See: :doc:`/guides/reproducible-builds`."
-msgstr ""
+msgstr "参见：:doc:`/guides/reproducible-builds` 。"
 
 #: ../../upstream/docs/user/glossary.rst:89
 msgid "pre-defined build jobs"
-msgstr ""
+msgstr "预定义构建作业"
 
 #: ../../upstream/docs/user/glossary.rst:91
 msgid ""
-"Commands executed by Read the Docs when performing the build process. "
-"They cannot be overwritten by the user."
-msgstr ""
+"Commands executed by Read the Docs when performing the build process. They "
+"cannot be overwritten by the user."
+msgstr "Read the Docs 在执行构建过程时运行的命令。用户无法覆盖它们。"
 
 #: ../../upstream/docs/user/glossary.rst:93
 msgid "project home"
-msgstr ""
+msgstr "项目主页"
 
 #: ../../upstream/docs/user/glossary.rst:95
 msgid ""
-"Page where you can access all the features of Read the Docs, from having "
-"an overview to browsing the latest builds or administering your project."
-msgstr ""
+"Page where you can access all the features of Read the Docs, from having an "
+"overview to browsing the latest builds or administering your project."
+msgstr "你可以在此页面访问 Read the Docs 的全部功能：纵览项目概况、浏览最新构建或管理你的项目。"
 
 #: ../../upstream/docs/user/glossary.rst:97
 msgid "project page"
-msgstr ""
+msgstr "项目页面"
 
 #: ../../upstream/docs/user/glossary.rst:99
 msgid "Another name for :term:`project home`."
-msgstr ""
+msgstr ":term:`project home` 的别称。"
 
 #: ../../upstream/docs/user/glossary.rst:100
 msgid "reproducible"
-msgstr ""
+msgstr "可复现"
 
 #: ../../upstream/docs/user/glossary.rst:102
 msgid ""
-"A documentation project is said to be *reproducible* when its sources "
-"build correctly on Read the Docs over a period of many years. You can "
-"also think of being *reproducible* as being *robust* or *resillient*."
-msgstr ""
+"A documentation project is said to be *reproducible* when its sources build "
+"correctly on Read the Docs over a period of many years. You can also think "
+"of being *reproducible* as being *robust* or *resillient*."
+msgstr "当文档项目的源码多年来在 Read the Docs 上持续正确构建时，即可称其是*可复现* 的。你也可以把*可复现* 理解为*健壮* 或*有韧性* 。"
 
 #: ../../upstream/docs/user/glossary.rst:105
 msgid ""
 "Being \"reproducible\" is an important positive quality goal of "
 "documentation."
-msgstr ""
+msgstr "“可复现”是文档质量的一个重要正面目标。"
 
 #: ../../upstream/docs/user/glossary.rst:107
 msgid ""
 "When builds are not reproducible and break due to external factors, they "
 "need frequent troubleshooting and manual fixing."
-msgstr ""
+msgstr "当构建不可复现、因外部因素而损坏时，就需要频繁排查并手动修复。"
 
 #: ../../upstream/docs/user/glossary.rst:110
 msgid ""
 "The most common external factor is that new versions of software "
 "dependencies are released."
-msgstr ""
+msgstr "最常见的外部因素是软件依赖发布了新版本。"
 
 #: ../../upstream/docs/user/glossary.rst:113
 msgid "root URL"
-msgstr ""
+msgstr "根 URL"
 
 #: ../../upstream/docs/user/glossary.rst:115
 msgid ""
-"Home URL of your documentation without the ``/<lang>`` and ``/<version>``"
-" segments. For projects without custom domains, the one ending in "
+"Home URL of your documentation without the ``/<lang>`` and ``/<version>`` "
+"segments. For projects without custom domains, the one ending in "
 "``.readthedocs.io/`` (for example, ``https://docs.readthedocs.io`` as "
 "opposed to ``https://docs.readthedocs.io/en/latest``)."
 msgstr ""
+"文档的主 URL，不含 ``/<lang>`` 与 ``/<version>`` 段。对于没有自定义域名的项目，即以 "
+"``.readthedocs.io/`` 结尾的 URL（例如 ``https://docs.readthedocs.io`` ，而非 "
+"``https://docs.readthedocs.io/en/latest`` ）。"
 
 #: ../../upstream/docs/user/glossary.rst:118
 msgid "slug"
-msgstr ""
+msgstr "slug"
 
 #: ../../upstream/docs/user/glossary.rst:120
 msgid ""
 "A unique identifier for a project or version. This value comes from the "
-"project or version name, which is reduced to lowercase letters, numbers, "
-"and hyphens. You can retrieve your project or version slugs from "
-":doc:`our API <api/v3>`."
+"project or version name, which is reduced to lowercase letters, numbers, and"
+" hyphens. You can retrieve your project or version slugs from :doc:`our API "
+"<api/v3>`."
 msgstr ""
+"项目或版本的唯一标识符。该值来自项目或版本的名称，会被缩减为小写字母、数字和连字符。你可以从 :doc:`我们的 API <api/v3>` "
+"获取项目或版本的 slug。"
 
 #: ../../upstream/docs/user/glossary.rst:124
 msgid "static website"
-msgstr ""
+msgstr "静态网站"
 
 #: ../../upstream/docs/user/glossary.rst:126
 msgid ""
-"A static site or static website is a collection of HTML files, images, "
-"CSS and JavaScript that are served statically, as opposed to dynamic "
-"websites that generate a unique response for each request, using "
-"databases and user sessions."
+"A static site or static website is a collection of HTML files, images, CSS "
+"and JavaScript that are served statically, as opposed to dynamic websites "
+"that generate a unique response for each request, using databases and user "
+"sessions."
 msgstr ""
+"静态站点或静态网站是以静态方式提供的 HTML 文件、图片、CSS 和 JavaScript "
+"的集合；与之相对，动态网站则借助数据库和用户会话为每个请求生成唯一的响应。"
 
 #: ../../upstream/docs/user/glossary.rst:129
 msgid ""
-"Static websites are highly portable, as they do not depend on the "
-"webserver. They can also be viewed offline."
-msgstr ""
+"Static websites are highly portable, as they do not depend on the webserver."
+" They can also be viewed offline."
+msgstr "静态网站的可移植性很高，因为它们不依赖于 Web 服务器，还可以离线查看。"
 
 #: ../../upstream/docs/user/glossary.rst:132
 msgid "Documentation projects served on Read the Docs are *static websites*."
-msgstr ""
+msgstr "在 Read the Docs 上提供的文档项目都是*静态网站* 。"
 
 #: ../../upstream/docs/user/glossary.rst:134
 msgid ""
-"Tools to manage and generate static websites are commonly known as "
-"*static site generators* and there is a big overlap with documentation "
-"tools. Some static site generators are also documentation tools, and some"
-" documentation tools are also used to generate normal websites."
-msgstr ""
+"Tools to manage and generate static websites are commonly known as *static "
+"site generators* and there is a big overlap with documentation tools. Some "
+"static site generators are also documentation tools, and some documentation "
+"tools are also used to generate normal websites."
+msgstr "管理和生成静态网站的工具通常被称为*静态站点生成器* ，它们与文档工具有很大重叠。有些静态站点生成器同时也是文档工具，而有些文档工具也被用于生成普通网站。"
 
 #: ../../upstream/docs/user/glossary.rst:138
 msgid ""
 "For instance, :doc:`Sphinx <sphinx:index>` is made for documentation but "
 "also used for blogging."
-msgstr ""
+msgstr "例如，:doc:`Sphinx <sphinx:index>` 为文档而生，但也可用于写博客。"
 
 #: ../../upstream/docs/user/glossary.rst:139
 msgid "subproject"
-msgstr ""
+msgstr "子项目"
 
 #: ../../upstream/docs/user/glossary.rst:141
 msgid ""
@@ -323,69 +336,72 @@ msgid ""
 "/<subproject-slug>``, the root of project B is returned. In this case, "
 "*project B* is the subproject. Read more in :doc:`/subprojects`."
 msgstr ""
+"可以对项目 A 进行配置，使得请求 URL ``/projects/<subproject-slug>`` 时返回项目 B 的根路径。此时，*项目 B*"
+" 就是子项目。更多信息见 :doc:`/subprojects` 。"
 
 #: ../../upstream/docs/user/glossary.rst:145
 msgid "user-defined build jobs"
-msgstr ""
+msgstr "用户自定义构建作业"
 
 #: ../../upstream/docs/user/glossary.rst:147
 msgid ""
-"Commands defined by the user that Read the Docs will execute when "
-"performing the build process."
-msgstr ""
+"Commands defined by the user that Read the Docs will execute when performing"
+" the build process."
+msgstr "由用户定义、Read the Docs 将在执行构建过程时运行的命令。"
 
 #: ../../upstream/docs/user/glossary.rst:148
 msgid "virtualenv"
-msgstr ""
+msgstr "virtualenv"
 
 #: ../../upstream/docs/user/glossary.rst:150
 msgid ""
-"The default way for Python projects to create an isolated environment. "
-"This ensures that a :doc:`reproducible set of dependencies </guides"
-"/reproducible-builds>` are installed so that you project builds the same "
-"way each time."
+"The default way for Python projects to create an isolated environment. This "
+"ensures that a :doc:`reproducible set of dependencies </guides/reproducible-"
+"builds>` are installed so that you project builds the same way each time."
 msgstr ""
+"Python 项目创建隔离环境的默认方式。它确保安装一组 :doc:`可复现的依赖 </guides/reproducible-builds>` "
+"，使你的项目每次都以相同方式构建。"
 
 #: ../../upstream/docs/user/glossary.rst:151
 msgid "webhook"
-msgstr ""
+msgstr "webhook"
 
 #: ../../upstream/docs/user/glossary.rst:153
 msgid ""
-"A webhook is a special URL that can be called from another service, "
-"usually with a secret token. It is commonly used to start a build or a "
-"deployment or to send a status update."
-msgstr ""
+"A webhook is a special URL that can be called from another service, usually "
+"with a secret token. It is commonly used to start a build or a deployment or"
+" to send a status update."
+msgstr "webhook 是一种可由其他服务调用的特殊 URL，通常带有私密令牌。它常用于启动构建或部署，或发送状态更新。"
 
 #: ../../upstream/docs/user/glossary.rst:157
 msgid "There are two important types of webhooks for Read the Docs:"
-msgstr ""
+msgstr "对 Read the Docs 而言，有两类重要的 webhook："
 
 #: ../../upstream/docs/user/glossary.rst:159
 msgid ""
-"Git providers have webhooks which are special URLs that Read the Docs can"
-" call in order to notify about documentation builds."
-msgstr ""
+"Git providers have webhooks which are special URLs that Read the Docs can "
+"call in order to notify about documentation builds."
+msgstr "Git 提供方拥有 webhook——即 Read the Docs 可调用以获知文档构建通知的特殊 URL。"
 
 #: ../../upstream/docs/user/glossary.rst:160
 msgid ""
-"Read the Docs has a unique webhook for each project that the Git provider"
-" calls when changes happen in Git."
-msgstr ""
+"Read the Docs has a unique webhook for each project that the Git provider "
+"calls when changes happen in Git."
+msgstr "Read the Docs 为每个项目提供一个唯一的 webhook，当 Git 中发生变更时，Git 提供方会调用它。"
 
 #: ../../upstream/docs/user/glossary.rst:164
 msgid ":doc:`/guides/setup/git-repo-manual`"
-msgstr ""
+msgstr ":doc:`/guides/setup/git-repo-manual`"
 
 #: ../../upstream/docs/user/glossary.rst:165
 msgid "Manually configuration for Git repositories."
-msgstr ""
+msgstr "手动配置 Git 仓库。"
 
 #: ../../upstream/docs/user/glossary.rst:167
 msgid ":doc:`/build-notifications`"
-msgstr ""
+msgstr ":doc:`/build-notifications`"
 
 #: ../../upstream/docs/user/glossary.rst:168
 msgid "Receive notifications when your documentation builds fail."
-msgstr ""
+msgstr "在文档构建失败时接收通知。"
 

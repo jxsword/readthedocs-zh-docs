@@ -30,7 +30,7 @@ msgid ""
 "*software* documentation and *academic* writing share. If you are working "
 "within the field of science or academia, this page can be used as an "
 "introduction."
-msgstr "本页探讨*软件* 文档与*学术* 写作共有的诸多工具和实践。若你在科学或学术领域工作，本页可作为入门介绍。"
+msgstr "本页探讨*软件* 文档与* 学术* 写作共有的诸多工具和实践。若你在科学或学术领域工作，本页可作为入门介绍。"
 
 #: ../../upstream/docs/user/science.rst:23
 msgid ""

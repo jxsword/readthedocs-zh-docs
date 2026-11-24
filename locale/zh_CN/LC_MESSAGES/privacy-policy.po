@@ -308,7 +308,7 @@ msgid ""
 "from advertisers and all ad images are hosted on Read the Docs' servers. For"
 " more details, see our document on :doc:`advertising/advertising-details`."
 msgstr ""
-"我们**确实** 在文档站点上投放广告。这些是由 Read the Docs 托管的第一方广告。我们**不会** "
+"我们**确实** 在文档站点上投放广告。这些是由 Read the Docs 托管的第一方广告。我们** 不会** "
 "运行广告主的任何代码，所有广告图片都托管在 Read the Docs 的服务器上。更多细节见我们的 :doc:`advertising"
 "/advertising-details` 文档。"
 

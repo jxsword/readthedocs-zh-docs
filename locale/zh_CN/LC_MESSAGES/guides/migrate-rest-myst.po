@@ -61,8 +61,8 @@ msgid ""
 " the official Jupyter Book tutorial: {doc}`jupyterbook:start/your-first-"
 "book`"
 msgstr ""
-"若你是**从头新建项目而非迁移**，可参阅 {doc}`myst-parser:intro`。若你启动的是一个 **Jupyter 项目**，可以从使用"
-" ``MyST-Parser`` 的 Jupyter Book 入手，参见官方 Jupyter Book "
+"若你是**从头新建项目而非迁移** ，可参阅 {doc}`myst-parser:intro`。若你启动的是一个 **Jupyter 项目** "
+"，可以从使用 ``MyST-Parser`` 的 Jupyter Book 入手，参见官方 Jupyter Book "
 "教程：{doc}`jupyterbook:start/your-first-book`"
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:20

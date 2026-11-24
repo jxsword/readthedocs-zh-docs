@@ -114,7 +114,7 @@ msgid ""
 "available to anyone with the link to the preview, while private previews are"
 " only available to users with access to the Read the Docs project."
 msgstr ""
-"若你未手动导入项目且仓库是公开的，Pull Request 预览的隐私级别将设为*公开* ，否则设为*私有* "
+"若你未手动导入项目且仓库是公开的，Pull Request 预览的隐私级别将设为*公开* ，否则设为* 私有* "
 "。公开预览对任何有链接的人可见，私有预览仅对有 Read the Docs 项目访问权限的用户可见。"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:51

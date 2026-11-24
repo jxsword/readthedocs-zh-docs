@@ -35,7 +35,7 @@ msgid ""
 "User-defined redirects are issued by our servers when a reader visits an "
 "*old URL*, which means that the reader is automatically redirected to a *new"
 " URL*."
-msgstr "当读者访问*旧 URL* 时，我们的服务器会发出用户自定义重定向，即读者被自动重定向到* 新 URL*。"
+msgstr "当读者访问*旧 URL* 时，我们的服务器会发出用户自定义重定向，即读者被自动重定向到* 新 URL* 。"
 
 #: ../../upstream/docs/user/guides/redirects.rst:12
 msgid ":doc:`/guides/best-practice/links`"
@@ -165,8 +165,8 @@ msgid ""
 "URLs from *HTML URLs* (``/en/latest/tutorial.html``) to *clean URLs* "
 "(``/en/latest/tutorial/``), you can redirect all mismatches automatically."
 msgstr ""
-"与上一个选项类似，若你决定把 URL 风格从 *HTML URL* （``/en/latest/tutorial.html`` ）改为*简洁 URL* "
-"（``/en/latest/tutorial/`` ），可自动重定向所有不匹配的情况。"
+"与上一个选项类似，若你决定把 URL 风格从 *HTML URL* （``/en/latest/tutorial.html`` ）改为* 简洁 URL*"
+" （``/en/latest/tutorial/`` ），可自动重定向所有不匹配的情况。"
 
 #: ../../upstream/docs/user/guides/redirects.rst:76
 msgid ""

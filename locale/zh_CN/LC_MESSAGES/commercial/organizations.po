@@ -36,7 +36,7 @@ msgid ""
 "manage access to your projects. On |com_brand|, your account is linked to an"
 " *organization*. Organizations allow you to define both individual and team "
 "permissions for your projects."
-msgstr "本文讲解*组织* 功能如何让你管理项目的访问权限。在 |com_brand| 上，你的账户关联到一个*组织* 。组织让你能为项目定义个人和团队两种权限。"
+msgstr "本文讲解*组织* 功能如何让你管理项目的访问权限。在 |com_brand| 上，你的账户关联到一个* 组织* 。组织让你能为项目定义个人和团队两种权限。"
 
 #: ../../upstream/docs/user/commercial/organizations.rst:12
 msgid ":doc:`/guides/manage-read-the-docs-teams`"
@@ -70,7 +70,7 @@ msgstr "理解这一关系的最佳方式是："
 
 #: ../../upstream/docs/user/commercial/organizations.rst:24
 msgid "*Owners* will create *Teams* to assign permissions to all *Members*."
-msgstr "*所有者* 创建*团队* ，为所有*成员* 分配权限。"
+msgstr "*所有者* 创建* 团队* ，为所有* 成员* 分配权限。"
 
 #: ../../upstream/docs/user/commercial/organizations.rst:28
 msgid ""
@@ -126,6 +126,6 @@ msgid ""
 " Coyote* to the team. This would give him access to just this one project "
 "inside the organization."
 msgstr ""
-"Roadrunner 会建立一个名为 *Contractors* 的* 团队*。该团队对 *Road Builder* 项目拥有* 只读*权限。随后他将"
-" *Wile E. Coyote* 加入该团队，这使他在组织内仅能访问这一个项目。"
+"Roadrunner 会建立一个名为 *Contractors* 的* 团队* 。该团队对 *Road Builder* 项目拥有* 只读* "
+"权限。随后他将 *Wile E. Coyote* 加入该团队，这使他在组织内仅能访问这一个项目。"
 

@@ -86,7 +86,7 @@ msgstr "从源语言更新可翻译文件"
 msgid ""
 "Translate only *new* and *modified* texts in source language into target "
 "language"
-msgstr "只将源语言中*新增* 和*修改* 的文本翻译为目标语言"
+msgstr "只将源语言中*新增* 和* 修改* 的文本翻译为目标语言"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:26
 msgid "Build the documentation using the most up to date translations"

@@ -22,131 +22,145 @@ msgstr ""
 
 #: ../../upstream/docs/user/faq.rst:2
 msgid "Frequently asked questions"
-msgstr ""
+msgstr "常见问题"
 
 #: ../../upstream/docs/user/faq.rst:14
 msgid "Building and publishing your project"
-msgstr ""
+msgstr "构建与发布你的项目"
 
 #: ../../upstream/docs/user/faq.rst:21
 msgid "Why does my project have status \"failing\"?"
-msgstr ""
+msgstr "为什么我的项目状态是“失败”（failing）？"
 
 #: ../../upstream/docs/user/faq.rst:23
 msgid ""
-"Projects have the status \"failing\" because something in the build "
-"process has failed. This can be because the project is not correctly "
-"configured, because the contents of the Git repository cannot be built, "
-"or in the most rare cases because a system that Read the Docs connects to"
-" is not working."
+"Projects have the status \"failing\" because something in the build process "
+"has failed. This can be because the project is not correctly configured, "
+"because the contents of the Git repository cannot be built, or in the most "
+"rare cases because a system that Read the Docs connects to is not working."
 msgstr ""
+"项目状态为“失败”（failing）是因为构建过程中某些环节出错了。原因可能是项目配置不正确、Git 仓库内容无法构建，或（极少数情况下）Read "
+"the Docs 所连接的某个系统出现故障。"
 
 #: ../../upstream/docs/user/faq.rst:28
 msgid ""
-"First, you should check out your project's :menuselection:`Builds` tab. "
-"By clicking on the failing step, you will be able to see details that can"
-" lead to resolutions to your build error."
-msgstr ""
+"First, you should check out your project's :menuselection:`Builds` tab. By "
+"clicking on the failing step, you will be able to see details that can lead "
+"to resolutions to your build error."
+msgstr "首先，你应当查看项目的 :menuselection:`Builds` 标签页。点击失败的步骤，即可看到有助于解决构建错误的详细信息。"
 
 #: ../../upstream/docs/user/faq.rst:32
 msgid ""
 "If the solution is not self-evident, you can use an important word or "
 "message from the error to search for a solution."
-msgstr ""
+msgstr "如果解决方案并不显而易见，你可以用错误信息中的关键词去搜索解决办法。"
 
 #: ../../upstream/docs/user/faq.rst:37
 msgid ":doc:`/guides/build-troubleshooting`"
-msgstr ""
+msgstr ":doc:`/guides/build-troubleshooting`"
 
 #: ../../upstream/docs/user/faq.rst:38
 msgid "Common errors and solutions for build failures."
-msgstr ""
+msgstr "构建失败的常见错误与解决办法。"
 
 #: ../../upstream/docs/user/faq.rst:40 ../../upstream/docs/user/faq.rst:133
 msgid "Other FAQ entries"
-msgstr ""
+msgstr "其他 FAQ 条目"
 
 #: ../../upstream/docs/user/faq.rst:41 ../../upstream/docs/user/faq.rst:134
 msgid ""
 ":ref:`faq:How do I add additional software dependencies for my "
 "documentation?`"
 msgstr ""
+":ref:`faq:How do I add additional software dependencies for my "
+"documentation?`"
 
 #: ../../upstream/docs/user/faq.rst:42
-msgid ""
-":ref:`faq:why do i get import errors from libraries depending on c "
-"modules?`"
-msgstr ""
+msgid ":ref:`faq:why do i get import errors from libraries depending on c modules?`"
+msgstr ":ref:`faq:why do i get import errors from libraries depending on c modules?`"
 
 #: ../../upstream/docs/user/faq.rst:46
 msgid "Why do I get import errors from libraries depending on C modules?"
-msgstr ""
+msgstr "为什么依赖 C 模块的库会报导入错误？"
 
 #: ../../upstream/docs/user/faq.rst:50
 msgid "Another use case for this is when you have a module with a C extension."
-msgstr ""
+msgstr "另一种适用场景是你的模块带有 C 扩展。"
 
 #: ../../upstream/docs/user/faq.rst:52
 msgid ""
 "This happens because the build system does not have the dependencies for "
-"building your project, such as C libraries needed by some Python packages"
-" (e.g. ``libevent`` or ``mysql``). For libraries that cannot be "
-":ref:`installed via apt <config-file/v2:build.apt_packages>` in the "
-"builder there is another way to successfully build the documentation "
-"despite missing dependencies."
+"building your project, such as C libraries needed by some Python packages "
+"(e.g. ``libevent`` or ``mysql``). For libraries that cannot be "
+":ref:`installed via apt <config-file/v2:build.apt_packages>` in the builder "
+"there is another way to successfully build the documentation despite missing"
+" dependencies."
 msgstr ""
+"出现这种情况是因为构建系统没有构建你的项目所需的依赖，例如某些 Python 包需要的 C 库（如 ``libevent`` 或 ``mysql`` "
+"）。对于无法在构建器中 :ref:`通过 apt 安装 <config-file/v2:build.apt_packages>` "
+"的库，还有一种方法可以在缺少依赖的情况下成功构建文档。"
 
 #: ../../upstream/docs/user/faq.rst:58
 msgid ""
-"With Sphinx you can use the built-in `autodoc_mock_imports`_ for mocking."
-" If such libraries are installed via ``setup.py``, you also will need to "
-"remove all the C-dependent libraries from your ``install_requires`` in "
-"the Read the Docs environment."
+"With Sphinx you can use the built-in `autodoc_mock_imports`_ for mocking. If"
+" such libraries are installed via ``setup.py``, you also will need to remove"
+" all the C-dependent libraries from your ``install_requires`` in the Read "
+"the Docs environment."
 msgstr ""
+"在 Sphinx 中，你可以使用内置的 `autodoc_mock_imports`_ 进行模拟（mock）。如果这些库是通过 ``setup.py``"
+" 安装的，你还需要在 Read the Docs 环境中从你的 ``install_requires`` 里移除所有依赖 C 的库。"
 
 #: ../../upstream/docs/user/faq.rst:66
 msgid "Where do I need to put my docs for Read the Docs to find it?"
-msgstr ""
+msgstr "我需要把文档放在仓库的什么位置，Read the Docs 才能找到它？"
 
 #: ../../upstream/docs/user/faq.rst:68
 msgid ""
-"You can put your docs wherever your want on your repository. However, you"
-" will need to tell Read the Docs where your Sphinx's (i.e. ``conf.py``) "
-"or MkDocs' (i.e. ``mkdocs.yml``) configuration file lives in order to "
-"build your documentation."
+"You can put your docs wherever your want on your repository. However, you "
+"will need to tell Read the Docs where your Sphinx's (i.e. ``conf.py``) or "
+"MkDocs' (i.e. ``mkdocs.yml``) configuration file lives in order to build "
+"your documentation."
 msgstr ""
+"你可以把文档放在仓库中的任意位置。不过，你需要告诉 Read the Docs 你的 Sphinx（即 ``conf.py`` ）或 MkDocs（即 "
+"``mkdocs.yml`` ）配置文件所在的位置，它才能构建你的文档。"
 
 #: ../../upstream/docs/user/faq.rst:72
 msgid ""
-"This is done by using ``sphinx.configuration`` or "
-"``mkdocs.configuration`` config key in your Read the Docs configuration "
-"file. Read :doc:`config-file/index` to know more about this."
+"This is done by using ``sphinx.configuration`` or ``mkdocs.configuration`` "
+"config key in your Read the Docs configuration file. Read :doc:`config-"
+"file/index` to know more about this."
 msgstr ""
+"这通过在 Read the Docs 配置文件中使用 ``sphinx.configuration`` 或 "
+"``mkdocs.configuration`` 配置键来完成。欲了解更多，请阅读 :doc:`config-file/index` 。"
 
 #: ../../upstream/docs/user/faq.rst:77
 msgid "How can I avoid search results having a deprecated version of my docs?"
-msgstr ""
+msgstr "如何避免搜索结果中出现我文档的已弃用版本？"
 
 #: ../../upstream/docs/user/faq.rst:79
 msgid ""
-"If readers search something related to your docs in Google, it will "
-"probably return the most relevant version of your documentation. It may "
-"happen that this version is already deprecated and you want to stop "
-"Google indexing it as a result, and start suggesting the latest (or "
-"newer) one."
+"If readers search something related to your docs in Google, it will probably"
+" return the most relevant version of your documentation. It may happen that "
+"this version is already deprecated and you want to stop Google indexing it "
+"as a result, and start suggesting the latest (or newer) one."
 msgstr ""
+"如果读者在 Google 中搜索与你文档相关的内容，Google 很可能返回其中最相关的那个版本。这个版本可能已经弃用，此时你会希望 Google "
+"停止收录它，转而推荐最新（或较新）的版本。"
 
 #: ../../upstream/docs/user/faq.rst:83
 msgid ""
 "To accomplish this, you can add a ``robots.txt`` file to your "
-"documentation's root so it ends up served at the root URL of your project"
-" (for example, https://yourproject.readthedocs.io/robots.txt). We have "
+"documentation's root so it ends up served at the root URL of your project "
+"(for example, https://yourproject.readthedocs.io/robots.txt). We have "
 "documented how to set this up in :doc:`/reference/robots`."
 msgstr ""
+"为此，你可以在文档根目录添加一个 ``robots.txt`` 文件，使其最终在项目的根 URL 下提供（例如 "
+"https://yourproject.readthedocs.io/robots.txt ）。我们已在 "
+":doc:`/reference/robots` 中说明了设置方法。"
 
 #: ../../upstream/docs/user/faq.rst:89
 msgid "How do I change the version slug of my project?"
-msgstr ""
+msgstr "如何更改我项目的版本 slug？"
 
 #: ../../upstream/docs/user/faq.rst:91
 msgid ""
@@ -154,257 +168,271 @@ msgid ""
 "project, see :ref:`versions:Version URL identifier (slug)` for more "
 "information."
 msgstr ""
+"你可以在项目的“版本”（versions）标签页中更改版本的 slug，详见 :ref:`versions:Version URL identifier"
+" (slug)` 。"
 
 #: ../../upstream/docs/user/faq.rst:96
 msgid "What commit of Read the Docs is in production?"
-msgstr ""
+msgstr "生产环境中运行的是 Read the Docs 的哪个提交？"
 
 #: ../../upstream/docs/user/faq.rst:98
 msgid ""
-"We deploy readthedocs.org from the ``rel`` branch in our GitHub "
-"repository. You can see the latest commits that have been deployed by "
-"looking on GitHub: "
-"https://github.com/readthedocs/readthedocs.org/commits/rel"
+"We deploy readthedocs.org from the ``rel`` branch in our GitHub repository. "
+"You can see the latest commits that have been deployed by looking on GitHub:"
+" https://github.com/readthedocs/readthedocs.org/commits/rel"
 msgstr ""
+"我们从 GitHub 仓库的 ``rel`` 分支部署 readthedocs.org。你可以在 GitHub "
+"上查看已部署的最新提交：https://github.com/readthedocs/readthedocs.org/commits/rel"
 
 #: ../../upstream/docs/user/faq.rst:101
 msgid "We also keep an up-to-date :doc:`changelog </changelog>`."
-msgstr ""
+msgstr "我们还维护着一个及时更新的 :doc:`更新日志 </changelog>` 。"
 
 #: ../../upstream/docs/user/faq.rst:106
 msgid "Additional features and configuration"
-msgstr ""
+msgstr "更多功能与配置"
 
 #: ../../upstream/docs/user/faq.rst:109
 msgid "How do I add additional software dependencies for my documentation?"
-msgstr ""
+msgstr "如何为我的文档添加额外的软件依赖？"
 
 #: ../../upstream/docs/user/faq.rst:111
 msgid ""
 "For most Python dependencies, you can specify a requirements file which "
-"details your dependencies. You can also set your project documentation to"
-" install your Python project itself as a dependency."
+"details your dependencies. You can also set your project documentation to "
+"install your Python project itself as a dependency."
 msgstr ""
+"对于大多数 Python 依赖，你可以指定一个详细列出依赖项的 requirements 文件。你也可以将项目文档设置为把你的 Python "
+"项目本身作为依赖安装。"
 
 #: ../../upstream/docs/user/faq.rst:117
 msgid ":doc:`/builds`"
-msgstr ""
+msgstr ":doc:`/builds`"
 
 #: ../../upstream/docs/user/faq.rst:118
 msgid "An overview of the build process."
-msgstr ""
+msgstr "构建过程概览。"
 
 #: ../../upstream/docs/user/faq.rst:120
 msgid ":doc:`/guides/reproducible-builds`"
-msgstr ""
+msgstr ":doc:`/guides/reproducible-builds`"
 
 #: ../../upstream/docs/user/faq.rst:121
 msgid ""
 "General information about adding dependencies and best-practices for "
 "maintaining them."
-msgstr ""
+msgstr "关于添加依赖及维护依赖最佳实践的通用信息。"
 
 #: ../../upstream/docs/user/faq.rst:123
 msgid ":doc:`/build-customization`"
-msgstr ""
+msgstr ":doc:`/build-customization`"
 
 #: ../../upstream/docs/user/faq.rst:124
 msgid ""
 "How to customize your builds, for example if you need to build with "
-"different tools from Sphinx or if you need to add additional packages for"
-" the Ubuntu-based builder."
-msgstr ""
+"different tools from Sphinx or if you need to add additional packages for "
+"the Ubuntu-based builder."
+msgstr "如何自定义构建，例如当你需要使用 Sphinx 以外的工具构建，或需要为基于 Ubuntu 的构建器添加额外软件包时。"
 
 #: ../../upstream/docs/user/faq.rst:127
 msgid ":doc:`/config-file/v2`"
-msgstr ""
+msgstr ":doc:`/config-file/v2`"
 
 #: ../../upstream/docs/user/faq.rst:128
 msgid "Reference for the main configuration file, `.readthedocs.yaml`"
-msgstr ""
+msgstr "主配置文件 `.readthedocs.yaml` 的参考"
 
 #: ../../upstream/docs/user/faq.rst:130
 msgid ":ref:`build.apt_packages <config-file/v2:build.apt_packages>`"
-msgstr ""
+msgstr ":ref:`build.apt_packages <config-file/v2:build.apt_packages>`"
 
 #: ../../upstream/docs/user/faq.rst:131
-msgid ""
-"Reference for adding Debian packages with apt for the Ubuntu-based "
-"builders"
-msgstr ""
+msgid "Reference for adding Debian packages with apt for the Ubuntu-based builders"
+msgstr "关于在基于 Ubuntu 的构建器中用 apt 添加 Debian 软件包的参考"
 
 #: ../../upstream/docs/user/faq.rst:135
-msgid ""
-":ref:`faq:Why do I get import errors from libraries depending on C "
-"modules?`"
-msgstr ""
+msgid ":ref:`faq:Why do I get import errors from libraries depending on C modules?`"
+msgstr ":ref:`faq:Why do I get import errors from libraries depending on C modules?`"
 
 #: ../../upstream/docs/user/faq.rst:139
 msgid "How do I change behavior when building with Read the Docs?"
-msgstr ""
+msgstr "使用 Read the Docs 构建时如何改变行为？"
 
 #: ../../upstream/docs/user/faq.rst:141
 msgid ""
-"When Read the Docs builds your project, it sets the :envvar:`READTHEDOCS`"
-" environment variable to the string ``'True'``. So within your Sphinx "
-":file:`conf.py` file, you can vary the behavior based on this. For "
-"example:"
+"When Read the Docs builds your project, it sets the :envvar:`READTHEDOCS` "
+"environment variable to the string ``'True'``. So within your Sphinx "
+":file:`conf.py` file, you can vary the behavior based on this. For example:"
 msgstr ""
+"当 Read the Docs 构建你的项目时，它会把 :envvar:`READTHEDOCS` 环境变量设置为字符串 ``'True'`` "
+"。因此，在你的 Sphinx :file:`conf.py` 文件中，你可以据此改变行为。例如："
 
 #: ../../upstream/docs/user/faq.rst:155
 msgid ""
 "The :envvar:`READTHEDOCS` variable is also available in the Sphinx build "
 "environment, and will be set to ``True`` when building on Read the Docs:"
 msgstr ""
+":envvar:`READTHEDOCS` 变量在 Sphinx 构建环境中同样可用，在 Read the Docs 上构建时它会被设为 "
+"``True`` ："
 
 #: ../../upstream/docs/user/faq.rst:167
 msgid "I want comments in my docs"
-msgstr ""
+msgstr "我想在我的文档中加入评论功能"
 
 #: ../../upstream/docs/user/faq.rst:169
 msgid ""
-"Read the Docs doesn't have explicit support for this. That said, a tool "
-"like `Disqus`_ (and the `sphinxcontrib-disqus`_ plugin) can be used for "
-"this purpose on Read the Docs."
+"Read the Docs doesn't have explicit support for this. That said, a tool like"
+" `Disqus`_ (and the `sphinxcontrib-disqus`_ plugin) can be used for this "
+"purpose on Read the Docs."
 msgstr ""
+"Read the Docs 没有对这一功能提供显式支持。不过，像 `Disqus`_ 这样的工具（以及 `sphinxcontrib-disqus`_ "
+"插件）可以在 Read the Docs 上用于此目的。"
 
 #: ../../upstream/docs/user/faq.rst:176
 msgid "Can I remove advertising from my documentation?"
-msgstr ""
+msgstr "我可以移除文档中的广告吗？"
 
 #: ../../upstream/docs/user/faq.rst:178
 msgid ""
 "Yes. See :ref:`Opting out of advertising <advertising/ethical-"
 "advertising:Opting Out>`."
-msgstr ""
+msgstr "可以。参见 :ref:`退出广告 <advertising/ethical-advertising:Opting Out>` 。"
 
 #: ../../upstream/docs/user/faq.rst:182
 msgid "How do I change my project slug (the URL your docs are served at)?"
-msgstr ""
+msgstr "如何更改我的项目 slug（文档对外提供服务的 URL）？"
 
 #: ../../upstream/docs/user/faq.rst:184
 msgid ""
-"We don't support allowing folks to change the slug for their project. You"
-" can update the name which is shown on the site, but not the actual URL "
-"that documentation is served."
-msgstr ""
+"We don't support allowing folks to change the slug for their project. You "
+"can update the name which is shown on the site, but not the actual URL that "
+"documentation is served."
+msgstr "我们不支持用户更改项目的 slug。你可以更新站点上显示的名称，但不能更改文档实际提供服务的 URL。"
 
 #: ../../upstream/docs/user/faq.rst:188
 msgid ""
 "The main reason for this is that all existing URLs to the content will "
-"break. You can delete and re-create the project with the proper name to "
-"get a new slug, but you really shouldn't do this if you have existing "
-"inbound links, as it `breaks the internet "
+"break. You can delete and re-create the project with the proper name to get "
+"a new slug, but you really shouldn't do this if you have existing inbound "
+"links, as it `breaks the internet "
 "<http://www.w3.org/Provider/Style/URI.html>`_."
 msgstr ""
+"主要原因在于，所有指向该内容的既有 URL 都会失效。你可以删除项目并用合适的名称重新创建以获得新 "
+"slug，但如果已有外部链接指向你的文档，就真的不应这样做，因为这是在 `破坏互联网 "
+"<http://www.w3.org/Provider/Style/URI.html>`_ 。"
 
 #: ../../upstream/docs/user/faq.rst:193
 msgid ""
-"Instead, you can consider *migrating your documentation to another "
-"domain* with :doc:`/user-defined-redirects`."
-msgstr ""
+"Instead, you can consider *migrating your documentation to another domain* "
+"with :doc:`/user-defined-redirects`."
+msgstr "作为替代，你可以考虑借助 :doc:`/user-defined-redirects` *将文档迁移到另一个域名* 。"
 
 #: ../../upstream/docs/user/faq.rst:196
 msgid ""
 "If that isn't enough, you can request the change sending an email to "
 "support@readthedocs.org."
-msgstr ""
+msgstr "如果这样仍不满足需求，你可以发送邮件至 support@readthedocs.org 申请变更。"
 
 #: ../../upstream/docs/user/faq.rst:200
 msgid "Big projects"
-msgstr ""
+msgstr "大型项目"
 
 #: ../../upstream/docs/user/faq.rst:203
 msgid "How do I host multiple projects on one custom domain?"
-msgstr ""
+msgstr "如何在一个自定义域名上托管多个项目？"
 
 #: ../../upstream/docs/user/faq.rst:205
 msgid ""
 "We support the concept of subprojects, which allows multiple projects to "
 "share a single domain. If you add a subproject to a project, that "
-"documentation will be served under the parent project's subdomain or "
-"custom domain."
-msgstr ""
+"documentation will be served under the parent project's subdomain or custom "
+"domain."
+msgstr "我们支持子项目的概念，允许多个项目共享同一个域名。如果你为一个项目添加子项目，该子项目的文档将挂在父项目的子域名或自定义域名之下提供服务。"
 
 #: ../../upstream/docs/user/faq.rst:209
 msgid ""
-"For example, Kombu is a subproject of Celery, so you can access it on the"
-" `celery.readthedocs.io` domain:"
-msgstr ""
+"For example, Kombu is a subproject of Celery, so you can access it on the "
+"`celery.readthedocs.io` domain:"
+msgstr "例如，Kombu 是 Celery 的子项目，因此你可以在 `celery.readthedocs.io` 域名上访问它："
 
 #: ../../upstream/docs/user/faq.rst:213
 msgid "https://celery.readthedocs.io/projects/kombu/en/latest/"
-msgstr ""
+msgstr "https://celery.readthedocs.io/projects/kombu/en/latest/"
 
 #: ../../upstream/docs/user/faq.rst:215
 msgid "This also works the same for custom domains:"
-msgstr ""
+msgstr "对于自定义域名也是一样："
 
 #: ../../upstream/docs/user/faq.rst:217
 msgid "http://docs.celeryq.dev/projects/kombu/en/latest/"
-msgstr ""
+msgstr "http://docs.celeryq.dev/projects/kombu/en/latest/"
 
 #: ../../upstream/docs/user/faq.rst:219
 msgid "You can add subprojects in the project admin dashboard."
-msgstr ""
+msgstr "你可以在项目管理仪表盘中添加子项目。"
 
 #: ../../upstream/docs/user/faq.rst:221
 msgid ""
 "For details on custom domains, see our documentation on :doc:`/custom-"
 "domains`."
-msgstr ""
+msgstr "关于自定义域名的详细信息，请参阅我们关于 :doc:`/custom-domains` 的文档。"
 
 #: ../../upstream/docs/user/faq.rst:224
 msgid "How do I support multiple languages of documentation?"
-msgstr ""
+msgstr "如何支持多语言文档？"
 
 #: ../../upstream/docs/user/faq.rst:226
 msgid ""
 "Read the Docs supports multiple languages. See the section on "
 ":doc:`localization`."
-msgstr ""
+msgstr "Read the Docs 支持多语言。参见 :doc:`localization` 一节。"
 
 #: ../../upstream/docs/user/faq.rst:232
 msgid "Sphinx"
-msgstr ""
+msgstr "Sphinx"
 
 #: ../../upstream/docs/user/faq.rst:240
 msgid "I want to use the Read the Docs theme"
-msgstr ""
+msgstr "我想使用 Read the Docs 主题"
 
 #: ../../upstream/docs/user/faq.rst:242
 msgid ""
-"To use the Read the Docs theme, you have to specify that in your Sphinx's"
-" ``conf.py`` file."
-msgstr ""
+"To use the Read the Docs theme, you have to specify that in your Sphinx's "
+"``conf.py`` file."
+msgstr "要使用 Read the Docs 主题，你需要在 Sphinx 的 ``conf.py`` 文件中指定它。"
 
 #: ../../upstream/docs/user/faq.rst:245
 msgid ""
 "Read the `sphinx-rtd-theme documentation <https://sphinx-rtd-"
-"theme.readthedocs.io/en/stable/installing.html>`_ for instructions to "
-"enable it in your Sphinx project."
+"theme.readthedocs.io/en/stable/installing.html>`_ for instructions to enable"
+" it in your Sphinx project."
 msgstr ""
+"阅读 `sphinx-rtd-theme 文档 <https://sphinx-rtd-"
+"theme.readthedocs.io/en/stable/installing.html>`_ ，了解在 Sphinx 项目中启用它的步骤。"
 
 #: ../../upstream/docs/user/faq.rst:250
 msgid "Image scaling doesn't work in my documentation"
-msgstr ""
+msgstr "我的文档中图片缩放不生效"
 
 #: ../../upstream/docs/user/faq.rst:252
 msgid ""
 "Image scaling in ``docutils`` depends on ``Pillow``. If you notice that "
-"image scaling is not working properly on your Sphinx project, you may "
-"need to add ``Pillow`` to your requirements to fix this issue. Read more "
-"about :doc:`guides/reproducible-builds` to define your dependencies in a "
+"image scaling is not working properly on your Sphinx project, you may need "
+"to add ``Pillow`` to your requirements to fix this issue. Read more about "
+":doc:`guides/reproducible-builds` to define your dependencies in a "
 "``requirements.txt`` file."
 msgstr ""
+"``docutils`` 中的图片缩放依赖 ``Pillow`` 。如果你发现 Sphinx 项目中图片缩放不正常，可能需要在依赖中添加 "
+"``Pillow`` 来修复该问题。阅读 :doc:`guides/reproducible-builds` 了解如何在 "
+"``requirements.txt`` 文件中定义依赖。"
 
 #: ../../upstream/docs/user/faq.rst:258
 msgid "Python"
-msgstr ""
+msgstr "Python"
 
 #: ../../upstream/docs/user/faq.rst:261
 msgid "Can I document a Python package that is not at the root of my repository?"
-msgstr ""
+msgstr "我可以为不在仓库根目录的 Python 包撰写文档吗？"
 
 #: ../../upstream/docs/user/faq.rst:263
 msgid ""
@@ -413,99 +441,114 @@ msgid ""
 "``python.install.method: pip`` (:ref:`config-file/v2:python.install`) "
 "configuration key."
 msgstr ""
+"可以。要在文档中访问 Python 包（例如通过 `Sphinx's autoapi`_ ），最方便的方式是使用 "
+"``python.install.method: pip`` （ :ref:`config-file/v2:python.install` ）配置键。"
 
 #: ../../upstream/docs/user/faq.rst:267
 msgid ""
-"This configuration will tell Read the Docs to install your package in the"
-" virtual environment used to build your documentation so your "
-"documentation tool can access to it."
-msgstr ""
+"This configuration will tell Read the Docs to install your package in the "
+"virtual environment used to build your documentation so your documentation "
+"tool can access to it."
+msgstr "这一配置会让 Read the Docs 把你的包安装到构建文档所用的虚拟环境中，这样你的文档工具就能访问它。"
 
 #: ../../upstream/docs/user/faq.rst:274
 msgid "Does Read the Docs work well with \"legible\" docstrings?"
-msgstr ""
+msgstr "Read the Docs 能很好地处理“易读的”docstring 吗？"
 
 #: ../../upstream/docs/user/faq.rst:276
 msgid ""
-"Yes. One criticism of Sphinx is that its annotated docstrings are too "
-"dense and difficult for humans to read. In response, many projects have "
-"adopted customized docstring styles that are simultaneously informative "
-"and legible. The `NumPy "
-"<https://numpydoc.readthedocs.io/en/latest/format.html#docstring-"
-"standard>`__ and `Google "
+"Yes. One criticism of Sphinx is that its annotated docstrings are too dense "
+"and difficult for humans to read. In response, many projects have adopted "
+"customized docstring styles that are simultaneously informative and legible."
+" The `NumPy <https://numpydoc.readthedocs.io/en/latest/format.html"
+"#docstring-standard>`__ and `Google "
 "<https://google.github.io/styleguide/pyguide.html#38-comments-and-"
-"docstrings>`__ styles are two popular docstring formats.  Fortunately, "
-"the default Read the Docs theme handles both formats just fine, provided "
-"your ``conf.py`` specifies an appropriate Sphinx extension that knows how"
-" to convert your customized docstrings.  Two such extensions are "
-"`numpydoc <https://github.com/numpy/numpydoc>`_ and `napoleon <http"
-"://sphinxcontrib-napoleon.readthedocs.io>`_. Only ``napoleon`` is able to"
-" handle both docstring formats. Its default output more closely matches "
-"the format of standard Sphinx annotations, and as a result, it tends to "
-"look a bit better with the default theme."
+"docstrings>`__ styles are two popular docstring formats.  Fortunately, the "
+"default Read the Docs theme handles both formats just fine, provided your "
+"``conf.py`` specifies an appropriate Sphinx extension that knows how to "
+"convert your customized docstrings.  Two such extensions are `numpydoc "
+"<https://github.com/numpy/numpydoc>`_ and `napoleon <http://sphinxcontrib-"
+"napoleon.readthedocs.io>`_. Only ``napoleon`` is able to handle both "
+"docstring formats. Its default output more closely matches the format of "
+"standard Sphinx annotations, and as a result, it tends to look a bit better "
+"with the default theme."
 msgstr ""
+"可以。对 Sphinx 的一种批评是，其带注解的 docstring 过于稠密、人类难以阅读。为此，许多项目采用了自定义的 docstring "
+"风格，使其兼具信息量与可读性。`NumPy <https://numpydoc.readthedocs.io/en/latest/format.html"
+"#docstring-standard>`__ 与 `Google "
+"<https://google.github.io/styleguide/pyguide.html#38-comments-and-"
+"docstrings>`__ 风格是两种流行的 docstring 格式。幸运的是，只要你的 ``conf.py`` 中指定了知道如何转换自定义 "
+"docstring 的合适 Sphinx 扩展，默认的 Read the Docs 主题对这两种格式都能处理得很好。`numpydoc "
+"<https://github.com/numpy/numpydoc>`_ 与 `napoleon <http://sphinxcontrib-"
+"napoleon.readthedocs.io>`_ 就是两个这样的扩展。只有 ``napoleon`` 能同时处理两种 docstring "
+"格式。它的默认输出与标准 Sphinx 注解格式更接近，因此在默认主题下往往显得更好看一些。"
 
 #: ../../upstream/docs/user/faq.rst:295
 msgid ""
-"To use these extensions you need to specify the dependencies on your "
-"project by following this :doc:`guide </guides/reproducible-builds>`."
-msgstr ""
+"To use these extensions you need to specify the dependencies on your project"
+" by following this :doc:`guide </guides/reproducible-builds>`."
+msgstr "要使用这些扩展，你需要按照这份 :doc:`指南 </guides/reproducible-builds>` 在项目中声明依赖。"
 
 #: ../../upstream/docs/user/faq.rst:300
 msgid "I need to install a package in a environment with pinned versions"
-msgstr ""
+msgstr "我需要在版本固定的环境中安装软件包"
 
 #: ../../upstream/docs/user/faq.rst:302
 msgid ""
-"If you'd like to pin your dependencies outside the package, you can add "
-"this line to your requirements or environment file (if you are using "
-"Conda)."
-msgstr ""
+"If you'd like to pin your dependencies outside the package, you can add this"
+" line to your requirements or environment file (if you are using Conda)."
+msgstr "如果你想在包之外固定依赖版本，可以在 requirements 或环境文件（如果你使用 Conda）中加入这一行。"
 
 #: ../../upstream/docs/user/faq.rst:305
 msgid "In your ``requirements.txt`` file::"
-msgstr ""
+msgstr "在你的 ``requirements.txt`` 文件中::"
 
 #: ../../upstream/docs/user/faq.rst:310
 msgid "In your Conda environment file (``environment.yml``)::"
-msgstr ""
+msgstr "在你的 Conda 环境文件（ ``environment.yml`` ）中::"
 
 #: ../../upstream/docs/user/faq.rst:317
 msgid "Other documentation frameworks"
-msgstr ""
+msgstr "其他文档框架"
 
 #: ../../upstream/docs/user/faq.rst:320
 msgid "How can I deploy Jupyter Book projects on Read the Docs?"
-msgstr ""
+msgstr "如何在 Read the Docs 上部署 Jupyter Book 项目？"
 
 #: ../../upstream/docs/user/faq.rst:322
 msgid "According to `its own documentation <https://jupyterbook.org/>`_,"
-msgstr ""
+msgstr "根据 `其官方文档 <https://jupyterbook.org/>`_ ，"
 
 #: ../../upstream/docs/user/faq.rst:324
 msgid ""
-"Jupyter Book is an open source project for building beautiful, "
-"publication-quality books and documents from computational material."
-msgstr ""
+"Jupyter Book is an open source project for building beautiful, publication-"
+"quality books and documents from computational material."
+msgstr "Jupyter Book 是一个开源项目，用于从计算材料构建精美的、出版级质量的书籍和文档。"
 
 #: ../../upstream/docs/user/faq.rst:327
 msgid ""
-"Even though `Jupyter Book leverages Sphinx \"for almost everything that "
-"it does\" <https://jupyterbook.org/explain/sphinx.html#jupyter-book-is-a"
-"-distribution-of-sphinx>`_, it purposely hides Sphinx ``conf.py`` files "
-"from the user, and instead generates them on the fly from its declarative"
-" ``_config.yml``. As a result, you need to follow some extra steps to "
-"make Jupyter Book work on Read the Docs."
+"Even though `Jupyter Book leverages Sphinx \"for almost everything that it "
+"does\" <https://jupyterbook.org/explain/sphinx.html#jupyter-book-is-a"
+"-distribution-of-sphinx>`_, it purposely hides Sphinx ``conf.py`` files from"
+" the user, and instead generates them on the fly from its declarative "
+"``_config.yml``. As a result, you need to follow some extra steps to make "
+"Jupyter Book work on Read the Docs."
 msgstr ""
+"尽管 `Jupyter Book 在“它所做的几乎所有事情”中都借助 Sphinx "
+"<https://jupyterbook.org/explain/sphinx.html#jupyter-book-is-a-distribution-"
+"of-sphinx>`_ ，它却有意对用户隐藏 Sphinx ``conf.py`` 文件，而是从其声明式的 ``_config.yml`` "
+"即时生成。因此，你需要执行一些额外步骤才能让 Jupyter Book 在 Read the Docs 上正常工作。"
 
 #: ../../upstream/docs/user/faq.rst:334
 msgid ""
 "As described in :doc:`the official documentation "
-"<jupyterbook:publish/readthedocs>`, you can manually convert your Jupyter"
-" Book project to Sphinx with the following configuration:"
+"<jupyterbook:publish/readthedocs>`, you can manually convert your Jupyter "
+"Book project to Sphinx with the following configuration:"
 msgstr ""
+"如 :doc:`官方文档 <jupyterbook:publish/readthedocs>` 所述，你可以使用以下配置手动将 Jupyter Book"
+" 项目转换为 Sphinx："
 
 #: ../../upstream/docs/user/faq.rst:337
 msgid ".readthedocs.yaml"
-msgstr ""
+msgstr ".readthedocs.yaml"
 

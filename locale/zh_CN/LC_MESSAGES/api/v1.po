@@ -22,11 +22,11 @@ msgstr ""
 
 #: ../../upstream/docs/user/api/v1.rst:4
 msgid "API v1 (removed)"
-msgstr ""
+msgstr "API v1（已移除）"
 
 #: ../../upstream/docs/user/api/v1.rst:8
 msgid ""
 "This API is has been **removed**. Please connect with a supported "
 ":doc:`/api/index`."
-msgstr ""
+msgstr "此 API 已**移除** 。请使用受支持的 :doc:`/api/index` 连接。"
 

@@ -134,7 +134,7 @@ msgstr "为团队添加用户"
 msgid ""
 "Adding a user to a team gives them all the permissions available to that "
 "team, whether it's *read-only* or *admin*."
-msgstr "为团队添加用户会赋予其该团队拥有的全部权限，无论该团队是*只读* 还是*管理员* 。"
+msgstr "为团队添加用户会赋予其该团队拥有的全部权限，无论该团队是*只读* 还是* 管理员* 。"
 
 #: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:64
 #: ../../upstream/docs/user/guides/manage-read-the-docs-teams.rst:77

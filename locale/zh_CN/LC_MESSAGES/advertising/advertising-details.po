@@ -96,7 +96,7 @@ msgid ""
 "audiences* or *similar audiences*."
 msgstr ""
 "其他广告预测则通过机器学习基于用户数据将相似用户分组得出。这通常涉及广告主向广告网络上传用户个人数据（往往是广告主的过往客户），并告知该网络去定向相似用户。其逻辑是：人口统计信息和兴趣相似的两名用户会喜欢相同的产品。在广告技术上，这称为*相似受众*"
-" 或*类似受众* 。"
+" 或* 类似受众* 。"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:50
 msgid ""
