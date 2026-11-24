@@ -13,9 +13,10 @@ build:
       # 用 python -m 模块调用，绕开 venv bin 目录的 PATH 不确定性
       - python -m sphinx_intl build -d locale -l zh_CN
     build:
-      # 源目录必须是 upstream/docs（sphinx-multiproject 会拼 PROJECT，
-      # 传 upstream/docs/user 会被二次拼接为 user/user 导致无法加载 master doc）
-      - python -m sphinx -b html -c . -D language=zh_CN upstream/docs $READTHEDOCS_OUTPUT/html
+      html:
+        # 源目录必须是 upstream/docs（sphinx-multiproject 会拼 PROJECT，
+        # 传 upstream/docs/user 会被二次拼接为 user/user 导致无法加载 master doc）
+        - python -m sphinx -b html -c . -D language=zh_CN upstream/docs $READTHEDOCS_OUTPUT/html
 
 submodules:
   include: all
