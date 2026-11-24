@@ -49,6 +49,7 @@ readthedocs-zh-docs/
 │   ├── gen_upstream_meta.py        # 从 submodule 动态读取 commit id / time
 │   ├── sync_upstream.sh            # bump submodule + 生成 pot + 合并 po
 │   ├── translate_po.py             # 批量翻译未翻译条目（AI 辅助）
+│   ├── check_batch.py              # 按 PO 文件集校验单批全译无 fuzzy（M2 新增）
 │   └── check_translation.sh        # sphinx-intl stat + 构建门禁
 ├── upstream/                       # submodule，只读，不修改
 └── _build/                         # 本地构建产物，不入库
@@ -187,7 +188,7 @@ git commit -m "chore: pin upstream docs source"
    - 代码块、内联代码、路径、命令、配置键不译；
    - RST 角色/指令（`:doc:`、``.. note::`` 等）结构不译，只译其文本内容。
 5. 按批次翻译 PO（见 6.3），每批提交一次。
-6. `sphinx-intl stat -d locale -l zh_CN` 必须退出码 0（全部已翻译且非 fuzzy）。
+6. 每批验收用 `scripts/check_batch.py <PO 列表>` 校验**该批 PO**：无未翻译、无 fuzzy（退出码 0）。全站 `sphinx-intl stat -d locale -l zh_CN` 退出码 0 仅在 B1–B7 全部完成（M2 结束）时要求——分批阶段其余 PO 为空，全站命令必然返回 1。（M2 实施修订：原表述「每批全站 stat 退出码 0」逻辑不可行。）
 
 ### 6.2 增量更新（上游有新提交时）
 
@@ -197,17 +198,21 @@ git commit -m "chore: pin upstream docs source"
 4. 更新提交标记（自动来自新 submodule HEAD），重新构建与预览。
 5. 提交：`git add upstream locale && git commit -m "chore: sync upstream <sha>"`。
 
-### 6.3 翻译批次（按上游 toctree caption 划分）
+### 6.3 翻译批次（按 PO 路径前缀互斥划分，覆盖全部 152 个 PO）
 
-| 批次 | 内容 | 验收 |
-|---|---|---|
-| B1 | Getting started（tutorial、intro、examples） | 该目录 PO 全译、预览通过 |
-| B2 | Project setup and configuration | 同上 |
-| B3 | Build process | 同上 |
-| B4 | Hosting documentation | 同上 |
-| B5 | AI and agents / Maintaining projects | 同上 |
-| B6 | Business features / How-to guides | 同上 |
-| B7 | Reference / API / Changelog / About | 全站 `sphinx-intl stat` 通过 |
+上游 index.rst 有 10 个 toctree caption 与 56 个嵌套未直接列入的文档；原「按 caption 划分」无法覆盖全部 PO 且存在归属歧义。M2 实施改为按 PO 文件路径前缀互斥划分，清单以 `docs/batch_manifest.txt` 为准（每行一个相对 `locale/zh_CN/LC_MESSAGES/` 的 PO 路径，批间用 `# B1..B7` 分隔）。
+
+| 批次 | 内容（路径前缀） | PO 数 | 验收 |
+|---|---|---|---|
+| B1 | `index`、`intro/`、`tutorial/`、`tutorials/`、`examples` | ~ | `check_batch.py` 该批全译无 fuzzy |
+| B2 | `config-file/`、`addons`、`automation-rules`、`guides/reproducible-builds` | ~ | 同上 |
+| B3 | `builds`、`build-*`、`build-customization`、`pull-requests`、`build-notifications`、`environment-variables`、`guides/build/`、`reference/git-integration`、`reference/environment-variables` | ~ | 同上 |
+| B4 | `versions`、`subprojects`、`localization`、`versioning-schemes`、`custom-domains`、`url-path-prefixes`、`doc-notifications`、`canonical-urls`、`reference/cdn`、`reference/sitemaps`、`reference/404-not-found`、`reference/robots` | ~ | 同上 |
+| B5 | `offline-formats`、`visual-diff`、`link-previews`、`guides/embedding-content`、`server-side-search/`、`flyout-menu`、`reference/llms-txt`、`reference/markdown-for-agents`、`reference/agent-skills`、`reference/main-content-detection`、`user-defined-redirects`、`traffic-analytics`、`search-analytics`、`security-log`、`badges`、`explanation/`、`guides/best-practice/links`、`security-implications`、`custom-script` | ~ | 同上 |
+| B6 | `commercial/`、`guides/`、`advertising/`、`security`、`support`、`team`、`science`、`story`、`sponsors`、`glossary*`、`legal/`、`dmca/`、`privacy-policy`、`unofficial-projects`、`abandoned-projects`、`continuous-deployment` 等其余正文 | ~ | 同上 |
+| B7 | `api/`、`faq`、`changelog`、`about/`、`reference/`（剩余） | ~ | 全部完成后全站 `sphinx-intl stat` 退出码 0 |
+
+批次划分原则：按主题聚合、路径互斥、覆盖全部 PO；`guides/` 下按子目录拆分到对应批次，未明确归入的正文页归入 B6。每批 `check_batch.py` 通过后提交一次。
 
 ### 6.4 PO 翻译规范
 
@@ -235,7 +240,8 @@ PROJECT=user sphinx-autobuild -c . -D language=zh_CN upstream/docs _build/html \
 
 | 门槛 | 命令/条件 | 通过标准 |
 |---|---|---|
-| 译文完整 | `sphinx-intl stat -d locale -l zh_CN` | 退出码 0，无 fuzzy |
+| 单批译文完整 | `python scripts/check_batch.py <PO 列表>` | 该批 PO 无未翻译、无 fuzzy，退出码 0（M2 每批验收） |
+| 全站译文完整 | `sphinx-intl stat -d locale -l zh_CN` | 退出码 0，无 fuzzy（M2 全部完成后 / M3 验收） |
 | 构建无错 | `sphinx-build -b html -W --keep-going ...` | 0 error（warning 逐项登记） |
 | 标记正确 | 页面页脚文本 vs `git -C upstream rev-parse HEAD` | sha 与时间一致 |
 | 源文零改动 | `git -C upstream status --porcelain` | 输出为空 |
