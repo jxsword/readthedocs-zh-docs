@@ -22,63 +22,65 @@ msgstr ""
 
 #: ../../upstream/docs/user/reference/404-not-found.rst:2
 msgid "``404 Not Found`` pages"
-msgstr ""
+msgstr "``404 Not Found`` 页面"
 
 #: ../../upstream/docs/user/reference/404-not-found.rst:4
 msgid ""
-"If you want your project to use a custom or branded ``404 Not Found`` "
-"page, you can put a ``404.html`` or ``404/index.html`` at the top level "
-"of your project's HTML output."
+"If you want your project to use a custom or branded ``404 Not Found`` page, "
+"you can put a ``404.html`` or ``404/index.html`` at the top level of your "
+"project's HTML output."
 msgstr ""
+"若希望项目使用自定义或品牌化的 ``404 Not Found`` 页面，可在项目 HTML 输出的顶层放置 ``404.html`` 或 "
+"``404/index.html``。"
 
 #: ../../upstream/docs/user/reference/404-not-found.rst:8
 msgid "How it works"
-msgstr ""
+msgstr "工作原理"
 
 #: ../../upstream/docs/user/reference/404-not-found.rst:10
 msgid ""
-"When our servers return a ``404 Not Found`` error, we check if there is a"
-" ``404.html`` or ``404/index.html`` in the root of your project's output."
+"When our servers return a ``404 Not Found`` error, we check if there is a "
+"``404.html`` or ``404/index.html`` in the root of your project's output."
 msgstr ""
+"当我们的服务器返回 ``404 Not Found`` 错误时，会检查项目输出根目录是否存在 ``404.html`` 或 "
+"``404/index.html``。"
 
 #: ../../upstream/docs/user/reference/404-not-found.rst:13
 msgid "The following locations are checked, in order:"
-msgstr ""
+msgstr "按以下顺序检查位置："
 
 #: ../../upstream/docs/user/reference/404-not-found.rst:15
-msgid ""
-"``/404.html`` or ``404/index.html`` in the *current* documentation "
-"version."
-msgstr ""
+msgid "``/404.html`` or ``404/index.html`` in the *current* documentation version."
+msgstr "*当前* 文档版本中的 ``/404.html`` 或 ``404/index.html``。"
 
 #: ../../upstream/docs/user/reference/404-not-found.rst:16
-msgid ""
-"``/404.html`` or ``404/index.html`` in the *default* documentation "
-"version."
-msgstr ""
+msgid "``/404.html`` or ``404/index.html`` in the *default* documentation version."
+msgstr "*默认* 文档版本中的 ``/404.html`` 或 ``404/index.html``。"
 
 #: ../../upstream/docs/user/reference/404-not-found.rst:19
 msgid "Tool integration"
-msgstr ""
+msgstr "工具集成"
 
 #: ../../upstream/docs/user/reference/404-not-found.rst:21
 msgid ""
-"Documentation tools will have different ways of generating a ``404.html``"
-" or ``404/index.html`` file. We have examples for some of the most "
-"popular tools below."
-msgstr ""
+"Documentation tools will have different ways of generating a ``404.html`` or"
+" ``404/index.html`` file. We have examples for some of the most popular "
+"tools below."
+msgstr "不同文档工具生成 ``404.html`` 或 ``404/index.html`` 的方式各不相同。下面给出一些最常用工具的示例。"
 
 #: ../../upstream/docs/user/reference/404-not-found.rst:26
 msgid "Sphinx"
-msgstr ""
+msgstr "Sphinx"
 
 #: ../../upstream/docs/user/reference/404-not-found.rst:28
 msgid ""
 "We recommend the `sphinx-notfound-page`_ extension, which Read the Docs "
 "maintains. It automatically creates a ``404.html`` page for your "
-"documentation, matching the theme of your project. See its documentation_"
-" for how to install and customize it."
+"documentation, matching the theme of your project. See its documentation_ "
+"for how to install and customize it."
 msgstr ""
+"我们推荐使用由 Read the Docs 维护的 `sphinx-notfound-page`_ 扩展。它会自动为你的文档创建与项目主题匹配的 "
+"``404.html`` 页面。安装与定制方法见其 documentation_。"
 
 #: ../../upstream/docs/user/reference/404-not-found.rst:34
 msgid ""
@@ -87,24 +89,30 @@ msgid ""
 "create a ``404.html`` file and put it under the path defined in "
 "``html_extra_path``."
 msgstr ""
+"若要创建自定义 ``404.html``，Sphinx 使用 `html_extra_path`_ 选项将静态文件加入输出。你需要创建 "
+"``404.html`` 文件并放到 ``html_extra_path`` 定义的路径下。"
 
 #: ../../upstream/docs/user/reference/404-not-found.rst:38
 msgid ""
 "If you are using the ``DirHTML`` builder, no further steps are required. "
 "Sphinx will automatically apply the ``<page-name>/index.html`` folder "
-"structure to your 404 page: ``404/index.html``. Read the Docs also "
-"detects 404 pages named this way."
+"structure to your 404 page: ``404/index.html``. Read the Docs also detects "
+"404 pages named this way."
 msgstr ""
+"若使用 ``DirHTML`` 构建器，无需额外步骤。Sphinx 会自动对 404 页面应用 ``<page-name>/index.html`` "
+"目录结构，即 ``404/index.html``。Read the Docs 也能识别这种命名的 404 页面。"
 
 #: ../../upstream/docs/user/reference/404-not-found.rst:44
 msgid "MkDocs"
-msgstr ""
+msgstr "MkDocs"
 
 #: ../../upstream/docs/user/reference/404-not-found.rst:46
 msgid ""
-"MkDocs automatically generates a ``404.html`` which Read the Docs will "
-"use. However, assets will not be loaded correctly unless you define the "
+"MkDocs automatically generates a ``404.html`` which Read the Docs will use. "
+"However, assets will not be loaded correctly unless you define the "
 "`site_url`_ configuration value as your site's :doc:`canonical base URL "
 "</canonical-urls>`."
 msgstr ""
+"MkDocs 会自动生成 ``404.html``，Read the Docs 将使用它。但除非将 `site_url`_ 配置值设为你站点的 "
+":doc:`规范基础 URL </canonical-urls>`，否则静态资源无法正确加载。"
 

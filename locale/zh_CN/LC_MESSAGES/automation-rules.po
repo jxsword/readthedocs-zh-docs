@@ -154,7 +154,9 @@ msgid ""
 "**SemVer versions**: All new versions that follow `semantic versioning "
 "<https://semver.org/>`__ (with or without a ``v`` prefix) will match the "
 "rule."
-msgstr "**SemVer 版本**：所有遵循 `语义化版本 <https://semver.org/>`__ （带或不带 ``v`` 前缀）的新版本都匹配该规则。"
+msgstr ""
+"**SemVer 版本**：所有遵循 `semantic versioning <https://semver.org/>`__ （带或不带 ``v``"
+" 前缀）的新版本都匹配该规则。"
 
 #: ../../upstream/docs/user/automation-rules.rst:72
 msgid "Custom matches"
@@ -230,7 +232,7 @@ msgstr ""
 msgid ""
 "You can specify multiple patterns, one per line. The filter matches if "
 "**any** of the changed files matches **any** pattern."
-msgstr "你可以指定多个模式，每行一个。如果**任意** 变更文件匹配**任意** 模式，过滤器即匹配。"
+msgstr "你可以指定多个模式，每行一个。如果**任意** 变更文件匹配** 任意** 模式，过滤器即匹配。"
 
 #: ../../upstream/docs/user/automation-rules.rst:107
 msgid "Commit message"
@@ -345,7 +347,7 @@ msgid ""
 "When a branch or tag is deleted from your repository, Read the Docs will "
 "delete it *only if isn't active*. This action allows you to delete *active* "
 "versions when a branch or tag is deleted from your repository."
-msgstr "当分支或标签从仓库删除时，Read the Docs *仅在版本非活跃* 时删除它。此动作允许在分支或标签从仓库删除时删除*活跃* 版本。"
+msgstr "当分支或标签从仓库删除时，Read the Docs *仅在版本非活跃* 时删除它。此动作允许在分支或标签从仓库删除时删除* 活跃* 版本。"
 
 #: ../../upstream/docs/user/automation-rules.rst:166
 msgid "There are a couple caveats to these actions that are useful:"
@@ -398,7 +400,7 @@ msgid ""
 " any build rule configured, builds keep being triggered for every push and "
 "pull request as usual."
 msgstr ""
-"当项目至少有一条启用了**触发版本构建** 动作的规则时，构建会被这些规则**控制**：如果没有构建规则匹配传入的 Webhook "
+"当项目至少有一条启用了**触发版本构建** 动作的规则时，构建会被这些规则** 控制**：如果没有构建规则匹配传入的 Webhook "
 "事件，则不会触发构建。如果未配置任何构建规则，构建将像往常一样为每次推送和 Pull Request 触发。"
 
 #: ../../upstream/docs/user/automation-rules.rst:193

@@ -22,103 +22,107 @@ msgstr ""
 
 #: ../../upstream/docs/user/reference/robots.rst:2
 msgid "``robots.txt`` support"
-msgstr ""
+msgstr "``robots.txt`` 支持"
 
 #: ../../upstream/docs/user/reference/robots.rst:4
 msgid ""
 "The `robots.txt`_ files allow you to customize how your documentation is "
 "indexed in search engines. It's useful for:"
-msgstr ""
+msgstr "`robots.txt`_ 文件可让你自定义文档在搜索引擎中的索引方式。它适用于："
 
 #: ../../upstream/docs/user/reference/robots.rst:7
 msgid "Hiding various pages from search engines"
-msgstr ""
+msgstr "对搜索引擎隐藏特定页面"
 
 #: ../../upstream/docs/user/reference/robots.rst:8
 msgid "Disabling certain web crawlers from accessing your documentation"
-msgstr ""
+msgstr "禁止特定网络爬虫访问你的文档"
 
 #: ../../upstream/docs/user/reference/robots.rst:9
 msgid "Disallowing any indexing of your documentation"
-msgstr ""
+msgstr "禁止索引你的文档"
 
 #: ../../upstream/docs/user/reference/robots.rst:11
 msgid ""
-"Read the Docs automatically generates one for you with a configuration "
-"that works for most projects. By default, the automatically created "
+"Read the Docs automatically generates one for you with a configuration that "
+"works for most projects. By default, the automatically created "
 "``robots.txt``:"
-msgstr ""
+msgstr "Read the Docs 会自动为你生成一份对大多数项目都适用的配置。默认情况下，自动生成的 ``robots.txt``："
 
 #: ../../upstream/docs/user/reference/robots.rst:14
 msgid ""
-"Hides versions which are set to :ref:`Hidden <versions:Version states>` "
-"from being indexed."
-msgstr ""
+"Hides versions which are set to :ref:`Hidden <versions:Version states>` from"
+" being indexed."
+msgstr "隐藏设置为 :ref:`隐藏 <versions:Version states>` 的版本，不使其被索引。"
 
 #: ../../upstream/docs/user/reference/robots.rst:15
 msgid "Allows indexing of all other versions."
-msgstr ""
+msgstr "允许索引所有其他版本。"
 
 #: ../../upstream/docs/user/reference/robots.rst:19
 msgid ""
-"``robots.txt`` files are respected by most search engines, but they "
-"aren't a guarantee that your pages will not be indexed. Search engines "
-"may choose to ignore your ``robots.txt`` file, and index your docs "
-"anyway."
+"``robots.txt`` files are respected by most search engines, but they aren't a"
+" guarantee that your pages will not be indexed. Search engines may choose to"
+" ignore your ``robots.txt`` file, and index your docs anyway."
 msgstr ""
+"大多数搜索引擎会遵守 ``robots.txt`` 文件，但这并不保证你的页面不会被索引。搜索引擎可能选择忽略你的 ``robots.txt`` "
+"文件，仍然索引你的文档。"
 
 #: ../../upstream/docs/user/reference/robots.rst:24
 msgid ""
 "If you require *private* documentation, please see "
 ":doc:`/commercial/sharing`."
-msgstr ""
+msgstr "如需*私有* 文档，请参阅 :doc:`/commercial/sharing`。"
 
 #: ../../upstream/docs/user/reference/robots.rst:27
 msgid "How it works"
-msgstr ""
+msgstr "工作原理"
 
 #: ../../upstream/docs/user/reference/robots.rst:29
 msgid ""
-"You can customize this file to add more rules to it. The ``robots.txt`` "
-"file will be served from the **default version** of your project. This is"
-" because the ``robots.txt`` file is served at the top-level of your "
-"domain, so we must choose a version to find the file in. The **default "
-"version** is the best place to look for it."
+"You can customize this file to add more rules to it. The ``robots.txt`` file"
+" will be served from the **default version** of your project. This is "
+"because the ``robots.txt`` file is served at the top-level of your domain, "
+"so we must choose a version to find the file in. The **default version** is "
+"the best place to look for it."
 msgstr ""
+"你可以自定义该文件以添加更多规则。``robots.txt`` 文件将从项目的**默认版本** 提供。因为 ``robots.txt`` "
+"在域名顶层提供服务，我们必须选择某个版本来查找该文件，** 默认版本** 是最合适的位置。"
 
 #: ../../upstream/docs/user/reference/robots.rst:36
 msgid "Tool integration"
-msgstr ""
+msgstr "工具集成"
 
 #: ../../upstream/docs/user/reference/robots.rst:38
 msgid ""
-"Documentation tools will have different ways of generating a "
-"``robots.txt`` file. We have examples for some of the most popular tools "
-"below."
-msgstr ""
+"Documentation tools will have different ways of generating a ``robots.txt`` "
+"file. We have examples for some of the most popular tools below."
+msgstr "不同文档工具生成 ``robots.txt`` 的方式各不相同。下面给出一些最常用工具的示例。"
 
 #: ../../upstream/docs/user/reference/robots.rst:43
 msgid "Sphinx"
-msgstr ""
+msgstr "Sphinx"
 
 #: ../../upstream/docs/user/reference/robots.rst:45
 msgid ""
-"Sphinx uses the `html_extra_path`_ configuration value to add static "
-"files to its final HTML output. You need to create a ``robots.txt`` file "
-"and put it under the path defined in ``html_extra_path``."
+"Sphinx uses the `html_extra_path`_ configuration value to add static files "
+"to its final HTML output. You need to create a ``robots.txt`` file and put "
+"it under the path defined in ``html_extra_path``."
 msgstr ""
+"Sphinx 使用 `html_extra_path`_ 配置值将静态文件加入最终 HTML 输出。你需要创建 ``robots.txt`` 文件并放到"
+" ``html_extra_path`` 定义的路径下。"
 
 #: ../../upstream/docs/user/reference/robots.rst:48
 msgid "MkDocs"
-msgstr ""
+msgstr "MkDocs"
 
 #: ../../upstream/docs/user/reference/robots.rst:50
 msgid ""
 "MkDocs needs the ``robots.txt`` to be at the directory defined by the "
 "`docs_dir`_ configuration value."
-msgstr ""
+msgstr "MkDocs 要求 ``robots.txt`` 位于 `docs_dir`_ 配置值定义的目录中。"
 
 #: ../../upstream/docs/user/reference/robots.rst:58
 msgid ":doc:`/guides/technical-docs-seo-guide`"
-msgstr ""
+msgstr ":doc:`/guides/technical-docs-seo-guide`"
 

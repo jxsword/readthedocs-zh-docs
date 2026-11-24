@@ -148,8 +148,8 @@ msgid ""
 "``pdf`` formats:"
 msgstr ""
 "这些任务使用 :doc:`配置文件 </config-file/v2>` 通过 :ref:`config-file/v2:build.jobs` "
-"键定义。以下示例配置定义了在安装*前* 和构建完成*后* 执行的命令，同时覆盖 ``htmlzip`` 格式的默认构建命令，同时保留 ``html`` "
-"和 ``pdf`` 格式的默认命令："
+"键定义。以下示例配置定义了在安装*前* 和构建完成* 后* 执行的命令，同时覆盖 ``htmlzip`` 格式的默认构建命令，同时保留 ``html``"
+" 和 ``pdf`` 格式的默认命令："
 
 #: ../../upstream/docs/user/build-customization.rst:52
 #: ../../upstream/docs/user/build-customization.rst:138

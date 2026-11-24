@@ -22,213 +22,222 @@ msgstr ""
 
 #: ../../upstream/docs/user/versions.rst:2
 msgid "Versions"
-msgstr ""
+msgstr "版本"
 
 #: ../../upstream/docs/user/versions.rst:4
 msgid ""
-"Read the Docs supports publishing multiple versions of your "
-"documentation. This allows your users to read the exact documentation for"
-" the specific version of the project they are using."
-msgstr ""
+"Read the Docs supports publishing multiple versions of your documentation. "
+"This allows your users to read the exact documentation for the specific "
+"version of the project they are using."
+msgstr "Read the Docs 支持发布文档的多个版本。这让你的用户能阅读与其所用项目版本完全对应的文档。"
 
 #: ../../upstream/docs/user/versions.rst:7
 msgid "Versioning is useful for many reasons, but a few common use cases are:"
-msgstr ""
+msgstr "版本控制有很多用处，常见场景包括："
 
 #: ../../upstream/docs/user/versions.rst:9
 msgid "Shipping API client libraries that release versions across time."
-msgstr ""
+msgstr "发布随时间迭代版本的 API 客户端库。"
 
 #: ../../upstream/docs/user/versions.rst:10
 msgid ""
-"Having a \"stable\" and \"latest\" branch so that users can see the "
-"current release and the upcoming changes."
-msgstr ""
+"Having a \"stable\" and \"latest\" branch so that users can see the current "
+"release and the upcoming changes."
+msgstr "同时保留 \"stable\" 和 \"latest\" 分支，让用户既能看当前发布版，也能看到即将到来的变更。"
 
 #: ../../upstream/docs/user/versions.rst:11
 msgid ""
-"Having a private development branch and a public stable branch so that in"
-" development releases aren't accidentally seen by users until they are "
+"Having a private development branch and a public stable branch so that in "
+"development releases aren't accidentally seen by users until they are "
 "released."
-msgstr ""
+msgstr "保留私有开发分支和公开稳定分支，避免开发版在正式发布前被用户意外看到。"
 
 #: ../../upstream/docs/user/versions.rst:14
 msgid "Versions are Git tags and branches"
-msgstr ""
+msgstr "版本即 Git 标签和分支"
 
 #: ../../upstream/docs/user/versions.rst:16
 msgid ""
 "When you add a project to Read the Docs, all Git tags and branches are "
 "created as **Inactive** and **Not Hidden** versions by default. During "
-"initial setup, Read the Docs also creates a ``latest`` version that "
-"points to the default branch defined in your Git repository (usually "
-"``main``). This version should always exist and is the default version "
-"for your project."
+"initial setup, Read the Docs also creates a ``latest`` version that points "
+"to the default branch defined in your Git repository (usually ``main``). "
+"This version should always exist and is the default version for your "
+"project."
 msgstr ""
+"将项目添加到 Read the Docs 时，所有 Git 标签和分支默认创建为**非活跃** 且** 未隐藏** 的版本。在初始设置阶段，Read "
+"the Docs 还会创建一个指向 Git 仓库中默认分支（通常为 ``main``）的 ``latest`` "
+"版本。该版本应始终存在，且是项目的默认版本。"
 
 #: ../../upstream/docs/user/versions.rst:22
 msgid ""
 "If your project has any tags or branches with a name following `semantic "
-"versioning <https://semver.org/>`_ (with or without a ``v`` prefix), we "
-"also create a ``stable`` version tracking your greatest stable semantic "
-"version number release. It excludes pre-release versions indicated by "
-"alphas, betas, and similar unstable notations, according to semantic "
-"versioning. If you want a custom ``stable`` version, create either a tag "
-"or branch in your project with that name."
+"versioning <https://semver.org/>`_ (with or without a ``v`` prefix), we also"
+" create a ``stable`` version tracking your greatest stable semantic version "
+"number release. It excludes pre-release versions indicated by alphas, betas,"
+" and similar unstable notations, according to semantic versioning. If you "
+"want a custom ``stable`` version, create either a tag or branch in your "
+"project with that name."
 msgstr ""
+"若项目中有名称遵循 `semantic versioning <https://semver.org/>`_ （带或不带 ``v`` "
+"前缀）的标签或分支，我们还会创建一个 ``stable`` 版本，跟踪你最大的稳定语义化版本号发布。按语义化版本规范，它会排除由 alpha、beta "
+"等不稳定标记指示的预发布版本。若想自定义 ``stable`` 版本，请在项目中创建同名标签或分支。"
 
 #: ../../upstream/docs/user/versions.rst:30
 msgid ""
-"If you have at least one tag, tags will take preference over branches "
-"when selecting the stable version. The comparison uses the tag or branch "
-"name from your Git repository, not the version slug shown in URLs."
-msgstr ""
+"If you have at least one tag, tags will take preference over branches when "
+"selecting the stable version. The comparison uses the tag or branch name "
+"from your Git repository, not the version slug shown in URLs."
+msgstr "若至少有一个标签，选择稳定版本时标签优先于分支。比较使用 Git 仓库中的标签或分支名，而非 URL 中显示的版本 slug。"
 
 #: ../../upstream/docs/user/versions.rst:35
 msgid ""
 "When you have :doc:`/reference/git-integration` configured for your "
-"repository, we will automatically build each version when you push a "
-"commit."
-msgstr ""
+"repository, we will automatically build each version when you push a commit."
+msgstr "为你的仓库配置 :doc:`/reference/git-integration` 后，推送提交时我们会自动构建每个版本。"
 
 #: ../../upstream/docs/user/versions.rst:39
 msgid "Version states"
-msgstr ""
+msgstr "版本状态"
 
 #: ../../upstream/docs/user/versions.rst:41
 msgid ""
-"Each version of your documentation has a state that changes the "
-"visibility of it to other users."
-msgstr ""
+"Each version of your documentation has a state that changes the visibility "
+"of it to other users."
+msgstr "文档的每个版本都有一个状态，决定它对其他用户的可见性。"
 
 #: ../../upstream/docs/user/versions.rst:43
 msgid "**Active** or **Inactive**"
-msgstr ""
+msgstr "**活跃** 或** 非活跃**"
 
 #: ../../upstream/docs/user/versions.rst:44
 msgid ""
 "**Active** docs are visible, and builds can be triggered for the "
 "documentation."
-msgstr ""
+msgstr "**活跃** 文档可见，且可触发构建。"
 
 #: ../../upstream/docs/user/versions.rst:45
 msgid ""
-"**Inactive** versions *have their documentation content deleted* and "
-"builds cannot be triggered."
-msgstr ""
+"**Inactive** versions *have their documentation content deleted* and builds "
+"cannot be triggered."
+msgstr "**非活跃** 版本*其文档内容会被删除*，且无法触发构建。"
 
 #: ../../upstream/docs/user/versions.rst:47
 msgid "**Hidden** or **Not hidden**"
-msgstr ""
+msgstr "**隐藏** 或** 未隐藏**"
 
 #: ../../upstream/docs/user/versions.rst:48
 msgid ""
-"**Not hidden** docs are listed on the :term:`flyout menu` on the docs "
-"site and are shown in search results."
-msgstr ""
+"**Not hidden** docs are listed on the :term:`flyout menu` on the docs site "
+"and are shown in search results."
+msgstr "**未隐藏** 文档会列在文档站点的 :term:`flyout menu` 上，并出现在搜索结果中。"
 
 #: ../../upstream/docs/user/versions.rst:50
 msgid ""
-"**Hidden** docs are not listed on the :term:`flyout menu` on the docs "
-"site and are not shown in search results."
-msgstr ""
+"**Hidden** docs are not listed on the :term:`flyout menu` on the docs site "
+"and are not shown in search results."
+msgstr "**隐藏** 文档不会列在文档站点的 :term:`flyout menu` 上，也不会出现在搜索结果中。"
 
 #: ../../upstream/docs/user/versions.rst:53
 msgid ""
-"Hiding a version doesn't make it private, any user with a link to its "
-"docs can still see it. This is useful when:"
-msgstr ""
+"Hiding a version doesn't make it private, any user with a link to its docs "
+"can still see it. This is useful when:"
+msgstr "隐藏版本不会使其变为私有，任何拥有其文档链接的用户仍可查看。这在以下情况有用："
 
 #: ../../upstream/docs/user/versions.rst:57
 msgid "You no longer support a version, but you don't want to remove its docs."
-msgstr ""
+msgstr "你不再支持某个版本，但不想删除其文档。"
 
 #: ../../upstream/docs/user/versions.rst:58
 msgid ""
-"You have a work in progress version and don't want to publish its docs "
-"just yet."
-msgstr ""
+"You have a work in progress version and don't want to publish its docs just "
+"yet."
+msgstr "你有进行中的版本，暂时不想发布其文档。"
 
 #: ../../upstream/docs/user/versions.rst:60
 msgid ""
-"Hidden versions are listed as ``Disallow: /path/to/version/`` in the "
-"default :doc:`/reference/robots` created by Read the Docs."
+"Hidden versions are listed as ``Disallow: /path/to/version/`` in the default"
+" :doc:`/reference/robots` created by Read the Docs."
 msgstr ""
+"在 Read the Docs 创建的默认 :doc:`/reference/robots` 中，隐藏版本列为 ``Disallow: "
+"/path/to/version/``。"
 
 #: ../../upstream/docs/user/versions.rst:63
 msgid "**Public** or **Private** (only available on :doc:`/commercial/index`)"
-msgstr ""
+msgstr "**公开** 或** 私有** （仅 :doc:`/commercial/index` 提供）"
 
 #: ../../upstream/docs/user/versions.rst:64
 msgid ""
 "**Public** versions are visible to everyone, and are browsable by "
 "unauthenticated users."
-msgstr ""
+msgstr "**公开** 版本对所有人可见，未认证用户也可浏览。"
 
 #: ../../upstream/docs/user/versions.rst:65
 msgid ""
-"**Private** versions are available only to people who have permissions to"
-" see them. They will return a `404 Not Found` when visited by people "
-"without viewing permissions. If you want to share your docs temporarily, "
-"see :doc:`/commercial/sharing`."
+"**Private** versions are available only to people who have permissions to "
+"see them. They will return a `404 Not Found` when visited by people without "
+"viewing permissions. If you want to share your docs temporarily, see "
+":doc:`/commercial/sharing`."
 msgstr ""
+"**私有** 版本仅对有查看权限的用户可用。无查看权限的用户访问时会返回 `404 Not Found`。若想临时共享文档，请参阅 "
+":doc:`/commercial/sharing`。"
 
 #: ../../upstream/docs/user/versions.rst:69
 msgid ""
-"If you want unauthenticated people to be able to view the build page of "
-"your public versions, you'll need to the set the :doc:`privacy level of "
-"your project </commercial/privacy-level>` to public."
-msgstr ""
+"If you want unauthenticated people to be able to view the build page of your"
+" public versions, you'll need to the set the :doc:`privacy level of your "
+"project </commercial/privacy-level>` to public."
+msgstr "若希望未认证用户也能查看公开版本的构建页面，需将 :doc:`项目的隐私级别 </commercial/privacy-level>` 设为公开。"
 
 #: ../../upstream/docs/user/versions.rst:73
 msgid "Version syncing"
-msgstr ""
+msgstr "版本同步"
 
 #: ../../upstream/docs/user/versions.rst:75
 msgid "Versions are automatically synced when the following events happen:"
-msgstr ""
+msgstr "发生以下事件时版本自动同步："
 
 #: ../../upstream/docs/user/versions.rst:77
 msgid ""
 "A commit is pushed to your Git repository and you have a :doc:`Git "
 "integration </reference/git-integration>` configured."
-msgstr ""
+msgstr "向 Git 仓库推送提交，且已配置 :doc:`Git 集成 </reference/git-integration>`。"
 
 #: ../../upstream/docs/user/versions.rst:78
 msgid "A build for any of your version is triggered."
-msgstr ""
+msgstr "任一版本触发构建。"
 
 #: ../../upstream/docs/user/versions.rst:80
 msgid ""
-"If you find that your versions are out of date, triggering a build is the"
-" best approach to ensuring they are synced again."
-msgstr ""
+"If you find that your versions are out of date, triggering a build is the "
+"best approach to ensuring they are synced again."
+msgstr "若发现版本已过期，触发构建是确保重新同步的最好办法。"
 
 #: ../../upstream/docs/user/versions.rst:84
 msgid "Managing your versions"
-msgstr ""
+msgstr "管理版本"
 
 #: ../../upstream/docs/user/versions.rst:86
 msgid ""
-"When you activate a version, a :doc:`build </builds>` will be triggered "
-"to automatically deploy your documentation."
-msgstr ""
+"When you activate a version, a :doc:`build </builds>` will be triggered to "
+"automatically deploy your documentation."
+msgstr "激活版本时会触发一次 :doc:`构建 </builds>`，自动部署你的文档。"
 
 #: ../../upstream/docs/user/versions.rst:89
 msgid ""
-"When you deactivate a version, all of the artifacts of your version will "
-"be deleted and a ``404 Not Found`` page will be served for it."
-msgstr ""
+"When you deactivate a version, all of the artifacts of your version will be "
+"deleted and a ``404 Not Found`` page will be served for it."
+msgstr "停用版本时，该版本的所有构建产物都会被删除，并对其提供 ``404 Not Found`` 页面。"
 
 #: ../../upstream/docs/user/versions.rst:92
 msgid ""
 "You can change the state for each version of your documentation in your "
 "project's :menuselection:`Versions` tab."
-msgstr ""
+msgstr "可在项目的 :menuselection:`Versions` 标签页中更改每个文档版本的状态。"
 
 #: ../../upstream/docs/user/versions.rst:95
 msgid "Version URL identifier (slug)"
-msgstr ""
+msgstr "版本 URL 标识符（slug）"
 
 #: ../../upstream/docs/user/versions.rst:97
 msgid ""
@@ -236,15 +245,18 @@ msgid ""
 "identifier is used to reference the version in your documentation, "
 ":term:`dashboard`, and :doc:`API </api/index>`."
 msgstr ""
+"项目的每个版本都有唯一的 URL 标识符（slug）。该标识符用于在文档、:term:`dashboard` 和 :doc:`API "
+"</api/index>` 中引用版本。"
 
 #: ../../upstream/docs/user/versions.rst:100
 msgid ""
-"A version slug is automatically generated from the name of the branch or "
-"tag in your repository, some special characters like spaces and ``/`` are"
-" replaced with a dash (``-``), and the name is lowercased. If the "
-"resulting slug collides with another one, a suffix is added (``_a``, "
-"``_b``, etc.)."
+"A version slug is automatically generated from the name of the branch or tag"
+" in your repository, some special characters like spaces and ``/`` are "
+"replaced with a dash (``-``), and the name is lowercased. If the resulting "
+"slug collides with another one, a suffix is added (``_a``, ``_b``, etc.)."
 msgstr ""
+"版本 slug 由仓库中分支或标签名自动生成，空格和 ``/`` 等特殊字符会替换为连字符（``-``），名称转为小写。若生成的 slug "
+"与其他冲突，会追加后缀（``_a``、``_b`` 等）。"
 
 #: ../../upstream/docs/user/versions.rst:104
 msgid ""
@@ -252,6 +264,8 @@ msgid ""
 "project <versions:Managing your versions>`, or with the :ref:`API "
 "<api/v3:Version update>`, but you should take the following into account:"
 msgstr ""
+"可在 :ref:`项目的版本标签页 <versions:Managing your versions>` 或通过 :ref:`API "
+"<api/v3:Version update>` 更改版本 slug，但需注意："
 
 #: ../../upstream/docs/user/versions.rst:108
 #: ../../upstream/docs/user/versions.rst:126
@@ -260,162 +274,176 @@ msgid ""
 "documentation being deleted, and a new build being triggered. Be careful "
 "when renaming active versions, specially old ones that might not build "
 "anymore."
-msgstr ""
+msgstr "更改活跃版本的 slug 会导致其原文档被删除，并触发新构建。重命名活跃版本时请谨慎，尤其是可能已无法构建的旧版本。"
 
 #: ../../upstream/docs/user/versions.rst:110
 msgid ""
-"Any URL referencing your version with the old slug will return a ``404 "
-"Not Found`` page. You can use :ref:`an exact redirect <user-defined-"
-"redirects:Redirecting an old version to a new one>` to redirect users to "
-"the new URL. After changing the slug of an active version, the "
-":term:`dashboard` shows a notification with a link to create that "
-"redirect, with the form already filled in."
+"Any URL referencing your version with the old slug will return a ``404 Not "
+"Found`` page. You can use :ref:`an exact redirect <user-defined-"
+"redirects:Redirecting an old version to a new one>` to redirect users to the"
+" new URL. After changing the slug of an active version, the "
+":term:`dashboard` shows a notification with a link to create that redirect, "
+"with the form already filled in."
 msgstr ""
+"任何使用旧 slug 引用该版本的 URL 都会返回 ``404 Not Found`` 页面。可用 :ref:`精确重定向 <user-"
+"defined-redirects:Redirecting an old version to a new one>` 将用户导向新 "
+"URL。更改活跃版本 slug 后，:term:`dashboard` 会显示带创建重定向链接的通知，表单已预填。"
 
 #: ../../upstream/docs/user/versions.rst:113
 msgid ""
 "You may still see the original name of the version in some places, as "
-"changing the slug only affects the URL used in your documentation and how"
-" the APIs identify that version. `We are considering adding another field"
-" to be used for display in the future "
+"changing the slug only affects the URL used in your documentation and how "
+"the APIs identify that version. `We are considering adding another field to "
+"be used for display in the future "
 "<https://github.com/readthedocs/readthedocs.org/issues/11979>`__."
 msgstr ""
+"某些地方你可能仍会看到版本原名，因为更改 slug 只影响文档中使用的 URL 以及 API 标识该版本的方式。`我们正在考虑未来增加一个用于展示的字段"
+" <https://github.com/readthedocs/readthedocs.org/issues/11979>`__。"
 
 #: ../../upstream/docs/user/versions.rst:116
 msgid ""
 "Sorting of versions in the version selector is done based on the slug, "
-"changing the slug of a version may change the order in which they are "
-"shown to your users. `We are considering adding another field to be used "
-"for sorting in the future "
+"changing the slug of a version may change the order in which they are shown "
+"to your users. `We are considering adding another field to be used for "
+"sorting in the future "
 "<https://github.com/readthedocs/readthedocs.org/issues/11979>`__."
 msgstr ""
+"版本选择器中的版本排序基于 slug，更改版本 slug 可能改变向用户展示的顺序。`我们正在考虑未来增加一个用于排序的字段 "
+"<https://github.com/readthedocs/readthedocs.org/issues/11979>`__。"
 
 #: ../../upstream/docs/user/versions.rst:119
 msgid ""
 "You can't change the slug of versions that are managed by Read the Docs, "
 "like ``latest`` and ``stable``."
-msgstr ""
+msgstr "无法更改由 Read the Docs 管理的版本（如 ``latest`` 和 ``stable``）的 slug。"
 
 #: ../../upstream/docs/user/versions.rst:120
 msgid "Slugs must be unique for each version of your project."
-msgstr ""
+msgstr "项目每个版本的 slug 必须唯一。"
 
 #: ../../upstream/docs/user/versions.rst:121
 msgid ""
-"The slug can contain lowercase letters, numbers, dashes (``-``), "
-"underscores (``_``) and dots (``.``). If you try to use a slug that "
-"contains any other character, you'll get an error message with a "
-"suggestion of a valid slug."
+"The slug can contain lowercase letters, numbers, dashes (``-``), underscores"
+" (``_``) and dots (``.``). If you try to use a slug that contains any other "
+"character, you'll get an error message with a suggestion of a valid slug."
 msgstr ""
+"slug 可包含小写字母、数字、连字符（``-``）、下划线（``_``）和点（``.``）。若使用含其他字符的 slug，会收到错误提示并给出有效 "
+"slug 建议。"
 
 #: ../../upstream/docs/user/versions.rst:130
 msgid "Disabling versioning completely"
-msgstr ""
+msgstr "完全禁用版本控制"
 
 #: ../../upstream/docs/user/versions.rst:132
 msgid ""
-"You can :doc:`configure a single version project </versioning-schemes>`, "
-"and the version will be hidden from the URL."
-msgstr ""
+"You can :doc:`configure a single version project </versioning-schemes>`, and"
+" the version will be hidden from the URL."
+msgstr "你可以 :doc:`将项目配置为单版本 </versioning-schemes>`，版本号将从 URL 中隐藏。"
 
 #: ../../upstream/docs/user/versions.rst:136
 msgid "Version warning notifications"
-msgstr ""
+msgstr "版本警告通知"
 
 #: ../../upstream/docs/user/versions.rst:138
 msgid ""
 "As part of :doc:`addons`, Read the Docs displays notifications in the "
 "following situations:"
-msgstr ""
+msgstr "作为 :doc:`addons` 的一部分，Read the Docs 在以下情况显示通知："
 
 #: ../../upstream/docs/user/versions.rst:140
 msgid "Non-stable notification"
-msgstr ""
+msgstr "非稳定版本通知"
 
 #: ../../upstream/docs/user/versions.rst:141
 msgid ""
-"A notification on all non-stable versions is shown to clearly communicate"
-" to readers they may be reading an outdated version of the documentation."
-msgstr ""
+"A notification on all non-stable versions is shown to clearly communicate to"
+" readers they may be reading an outdated version of the documentation."
+msgstr "所有非稳定版本上都会显示通知，明确告知读者他们可能正在阅读过时版本的文档。"
 
 #: ../../upstream/docs/user/versions.rst:143
 msgid ""
 "Specifically, when a version is being shown that is not the ``stable`` "
 "version, and there is a ``stable`` version available."
-msgstr ""
+msgstr "具体来说，当显示的版本不是 ``stable`` 版本，且存在可用的 ``stable`` 版本时。"
 
 #: ../../upstream/docs/user/versions.rst:146
 msgid "Latest version notification"
-msgstr ""
+msgstr "最新版本通知"
 
 #: ../../upstream/docs/user/versions.rst:147
 msgid ""
-"A notification shown on the latest version tells readers they are reading"
-" the latest/development version of the documentation that may include "
+"A notification shown on the latest version tells readers they are reading "
+"the latest/development version of the documentation that may include "
 "features not yet deployed."
-msgstr ""
+msgstr "最新版本上显示的通知告知读者，他们正在阅读文档的最新/开发版本，其中可能包含尚未部署的功能。"
 
 #: ../../upstream/docs/user/versions.rst:149
 msgid ""
-"Specifically, when the ``latest`` version is being shown, and there's "
-"also an active ``stable`` version that is not hidden."
-msgstr ""
+"Specifically, when the ``latest`` version is being shown, and there's also "
+"an active ``stable`` version that is not hidden."
+msgstr "具体来说，当显示 ``latest`` 版本，且同时存在未隐藏的活跃 ``stable`` 版本时。"
 
 #: ../../upstream/docs/user/versions.rst:151
 msgid ""
 "Each of these notifications can be configured by project admins in "
 ":ref:`addons:Configuring Read the Docs Addons`."
-msgstr ""
+msgstr "项目管理员可在 :ref:`addons:Configuring Read the Docs Addons` 中配置每个通知。"
 
 #: ../../upstream/docs/user/versions.rst:154
 msgid "Redirects on root URLs"
-msgstr ""
+msgstr "根 URL 重定向"
 
 #: ../../upstream/docs/user/versions.rst:156
 msgid ""
 "When a user hits the root URL for your documentation, for example "
-"``https://pip.readthedocs.io/``, they will be redirected to the **Default"
-" version**. This defaults to **latest**, but another common configuration"
-" is setting it to your **stable** version."
+"``https://pip.readthedocs.io/``, they will be redirected to the **Default "
+"version**. This defaults to **latest**, but another common configuration is "
+"setting it to your **stable** version."
 msgstr ""
+"当用户访问文档根 URL（如 ``https://pip.readthedocs.io/``）时，会被重定向到**默认版本**。默认是 "
+"**latest**，另一常见配置是设为 **stable** 版本。"
 
 #: ../../upstream/docs/user/versions.rst:163
 msgid "Versioning workflows"
-msgstr ""
+msgstr "版本控制工作流"
 
 #: ../../upstream/docs/user/versions.rst:165
 msgid ""
 "Read the Docs makes certain assumptions about your documentation version "
 "defaults, all of which can be reconfigured if necessary:"
-msgstr ""
+msgstr "Read the Docs 对文档版本默认值做了若干假设，必要时均可重新配置："
 
 #: ../../upstream/docs/user/versions.rst:168
 msgid ""
-"The ``latest`` version points to the most up to date development code. If"
-" you develop on a branch that is different than the default for your "
-"version control system, set the **Default Branch** to the branch you use."
-msgstr ""
+"The ``latest`` version points to the most up to date development code. If "
+"you develop on a branch that is different than the default for your version "
+"control system, set the **Default Branch** to the branch you use."
+msgstr "``latest`` 版本指向最新的开发代码。若你在与版本控制系统默认分支不同的分支上开发，请将**默认分支** 设为你使用的分支。"
 
 #: ../../upstream/docs/user/versions.rst:172
 msgid ""
 "**Tags** are semantic versioning compatible (according to  `PEP 440`_) "
-"snapshots of your documentation. The most recent semantic tag maps to the"
-" ``stable`` version."
-msgstr ""
+"snapshots of your documentation. The most recent semantic tag maps to the "
+"``stable`` version."
+msgstr "**标签** 是兼容语义化版本（依 `PEP 440`_）的文档快照。最近的语义化标签对应 ``stable`` 版本。"
 
 #: ../../upstream/docs/user/versions.rst:175
 msgid ""
 "Semantic versioning allows \"normal\" version numbers like ``1.4.2``, as "
-"well as pre-releases like this: ``2.0a1``. The ``stable`` version of your"
-" documentation never includes a pre-release. An optional ``v`` prefix "
-"like ``v1.4.2`` or ``v2.0a1`` is also allowed."
+"well as pre-releases like this: ``2.0a1``. The ``stable`` version of your "
+"documentation never includes a pre-release. An optional ``v`` prefix like "
+"``v1.4.2`` or ``v2.0a1`` is also allowed."
 msgstr ""
+"语义化版本允许 ``1.4.2`` 这样的\"常规\"版本号，也允许 ``2.0a1`` 这样的预发布版本。文档的 ``stable`` "
+"版本绝不包含预发布。也允许 ``v1.4.2`` 或 ``v2.0a1`` 这样的可选 ``v`` 前缀。"
 
 #: ../../upstream/docs/user/versions.rst:179
 msgid ""
-"Branches are assumed to be **long-lived branches**, This is most useful "
-"for **release branches**, which are maintained over time for a specific "
-"release. An example would be a ``2.1`` branch that is kept up to date "
-"with the latest ``2.1.x`` release."
+"Branches are assumed to be **long-lived branches**, This is most useful for "
+"**release branches**, which are maintained over time for a specific release."
+" An example would be a ``2.1`` branch that is kept up to date with the "
+"latest ``2.1.x`` release."
 msgstr ""
+"分支被假定为**长期分支**。这对** 发布分支** 最有用，即为特定发布长期维护的分支。例如 ``2.1`` 分支持续与最新的 ``2.1.x`` "
+"发布保持同步。"
 

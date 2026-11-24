@@ -22,196 +22,207 @@ msgstr ""
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:2
 msgid "URL path prefixes"
-msgstr ""
+msgstr "URL 路径前缀"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:4
 msgid ""
 "URL path prefixes allow you to customize the URL structure of your "
 "documentation, giving you more control over how your documentation is "
 "organized and presented."
-msgstr ""
+msgstr "URL 路径前缀让你能自定义文档的 URL 结构，更好地掌控文档的组织与呈现方式。"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:9
 msgid ""
 "This is a |com_brand| feature available on Pro and higher plans. Contact "
-":doc:`Read the Docs support </support>` to enable custom URL path "
-"prefixes for your project."
+":doc:`Read the Docs support </support>` to enable custom URL path prefixes "
+"for your project."
 msgstr ""
+"这是 |com_brand| 的 Pro 及以上套餐提供的功能。联系 :doc:`Read the Docs 支持 </support>` "
+"为你的项目启用自定义 URL 路径前缀。"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:13
 msgid "What are URL path prefixes?"
-msgstr ""
+msgstr "什么是 URL 路径前缀？"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:15
 msgid ""
 "By default, Read the Docs serves documentation from the following URL "
 "patterns:"
-msgstr ""
+msgstr "默认情况下，Read the Docs 按以下 URL 模式提供文档："
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:21
 msgid "Project type"
-msgstr ""
+msgstr "项目类型"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:22
 msgid "Default URL pattern"
-msgstr ""
+msgstr "默认 URL 模式"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:23
 msgid "Multi-version with translations"
-msgstr ""
+msgstr "多版本带翻译"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:24
 msgid "``/<language>/<version>/<filename>``"
-msgstr ""
+msgstr "``/<language>/<version>/<filename>``"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:25
 msgid "Multi-version without translations"
-msgstr ""
+msgstr "多版本不带翻译"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:26
 msgid "``/<version>/<filename>``"
-msgstr ""
+msgstr "``/<version>/<filename>``"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:27
 msgid "Single version without translations"
-msgstr ""
+msgstr "单版本不带翻译"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:28
 msgid "``/<filename>``"
-msgstr ""
+msgstr "``/<filename>``"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:29
 msgid "Subproject (multi-version with translations)"
-msgstr ""
+msgstr "子项目（多版本带翻译）"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:30
 msgid "``/projects/<subproject-alias>/<language>/<version>/<filename>``"
-msgstr ""
+msgstr "``/projects/<subproject-alias>/<language>/<version>/<filename>``"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:31
 msgid "Subproject (multi-version without translations)"
-msgstr ""
+msgstr "子项目（多版本不带翻译）"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:32
 msgid "``/projects/<subproject-alias>/<version>/<filename>``"
-msgstr ""
+msgstr "``/projects/<subproject-alias>/<version>/<filename>``"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:33
 msgid "Subproject (single version without translations)"
-msgstr ""
+msgstr "子项目（单版本不带翻译）"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:34
 msgid "``/projects/<subproject-alias>/<filename>``"
-msgstr ""
+msgstr "``/projects/<subproject-alias>/<filename>``"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:36
 msgid "URL path prefixes let you customize these URL patterns by:"
-msgstr ""
+msgstr "URL 路径前缀让你能通过以下方式自定义这些 URL 模式："
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:38
 msgid "Adding a prefix to your project's documentation URLs"
-msgstr ""
+msgstr "为项目文档 URL 添加前缀"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:39
 msgid "Changing or removing the ``/projects/`` prefix used for subprojects"
-msgstr ""
+msgstr "更改或移除子项目使用的 ``/projects/`` 前缀"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:42
 msgid "Use cases"
-msgstr ""
+msgstr "使用场景"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:44
 msgid "Here are some common scenarios where custom URL path prefixes are useful:"
-msgstr ""
+msgstr "以下是自定义 URL 路径前缀的常见场景："
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:46
 msgid "Proxy documentation behind your main website"
-msgstr ""
+msgstr "将文档代理到主站之后"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:47
 msgid ""
-"If you want to serve your documentation as part of your main website (for"
-" example, at ``https://example.com/docs/``), you can configure your web "
+"If you want to serve your documentation as part of your main website (for "
+"example, at ``https://example.com/docs/``), you can configure your web "
 "server to proxy requests to Read the Docs and use a custom prefix of "
 "``/docs/`` to match. Your documentation would then be served from "
 "``https://example.com/docs/en/latest/`` instead of "
 "``https://example.com/en/latest/``."
 msgstr ""
+"若想把文档作为主站的一部分提供（例如在 ``https://example.com/docs/``），可配置 Web 服务器将请求代理到 Read "
+"the Docs，并使用 ``/docs/`` 作为匹配的自定义前缀。这样文档将从 "
+"``https://example.com/docs/en/latest/`` 而非 "
+"``https://example.com/en/latest/`` 提供。"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:54
 msgid "Remove or customize the ``/projects/`` prefix from subproject URLs"
-msgstr ""
+msgstr "移除或自定义子项目 URL 的 ``/projects/`` 前缀"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:55
 msgid ""
 "By default, subprojects are served from URLs like "
-"``https://docs.example.com/projects/plugin/en/latest/``. You can change "
-"this prefix to something shorter or remove it entirely, so your "
-"subproject is served from ``https://docs.example.com/plugin/en/latest/`` "
-"or ``https://docs.example.com/libs/plugin/en/latest/``."
+"``https://docs.example.com/projects/plugin/en/latest/``. You can change this"
+" prefix to something shorter or remove it entirely, so your subproject is "
+"served from ``https://docs.example.com/plugin/en/latest/`` or "
+"``https://docs.example.com/libs/plugin/en/latest/``."
 msgstr ""
+"默认子项目从类似 ``https://docs.example.com/projects/plugin/en/latest/`` 的 URL "
+"提供。你可以将此前缀改得更短或完全移除，使子项目从 ``https://docs.example.com/plugin/en/latest/`` 或 "
+"``https://docs.example.com/libs/plugin/en/latest/`` 提供。"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:61
 msgid "Organize documentation with meaningful URL paths"
-msgstr ""
+msgstr "用有意义的 URL 路径组织文档"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:62
 msgid ""
-"You can use prefixes to create a more meaningful URL structure. For "
-"example, you could use ``/api/`` for API documentation and ``/guides/`` "
-"for user guides."
-msgstr ""
+"You can use prefixes to create a more meaningful URL structure. For example,"
+" you could use ``/api/`` for API documentation and ``/guides/`` for user "
+"guides."
+msgstr "你可以用前缀构建更有意义的 URL 结构。例如用 ``/api/`` 放 API 文档，用 ``/guides/`` 放用户指南。"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:67
 msgid "Getting started"
-msgstr ""
+msgstr "快速开始"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:69
 msgid "To enable this feature for your project:"
-msgstr ""
+msgstr "为你的项目启用此功能："
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:71
 msgid "Ensure you have a Pro plan or higher subscription."
-msgstr ""
+msgstr "确保你持有 Pro 或更高套餐订阅。"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:72
 msgid ""
-"Contact :doc:`Read the Docs support </support>` with your project name "
-"and desired URL structure."
-msgstr ""
+"Contact :doc:`Read the Docs support </support>` with your project name and "
+"desired URL structure."
+msgstr "联系 :doc:`Read the Docs 支持 </support>`，提供项目名称和期望的 URL 结构。"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:74
 msgid "Our support team will configure the custom prefixes for your project."
-msgstr ""
+msgstr "我们的支持团队会为你的项目配置自定义前缀。"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:78
 msgid ""
-"When planning your URL structure, consider how it will affect existing "
-"links to your documentation. You may need to set up :doc:`redirects "
-"</user-defined-redirects>` to ensure old URLs continue to work."
+"When planning your URL structure, consider how it will affect existing links"
+" to your documentation. You may need to set up :doc:`redirects </user-"
+"defined-redirects>` to ensure old URLs continue to work."
 msgstr ""
+"规划 URL 结构时，请考虑它对现有文档链接的影响。你可能需要设置 :doc:`重定向 </user-defined-redirects>` 以确保旧 "
+"URL 继续可用。"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:85
 msgid ":doc:`/subprojects`"
-msgstr ""
+msgstr ":doc:`/subprojects`"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:86
 msgid "Learn how to set up subprojects and share a custom domain"
-msgstr ""
+msgstr "了解如何设置子项目并共享自定义域名"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:88
 msgid ":doc:`/custom-domains`"
-msgstr ""
+msgstr ":doc:`/custom-domains`"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:89
 msgid "Configure a custom domain for your documentation"
-msgstr ""
+msgstr "为你的文档配置自定义域名"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:91
 msgid ":doc:`/versioning-schemes`"
-msgstr ""
+msgstr ":doc:`/versioning-schemes`"
 
 #: ../../upstream/docs/user/url-path-prefixes.rst:92
 msgid "Learn about different URL versioning schemes"
-msgstr ""
+msgstr "了解不同的 URL 版本控制方案"
 

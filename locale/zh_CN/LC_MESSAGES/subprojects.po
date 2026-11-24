@@ -22,133 +22,141 @@ msgstr ""
 
 #: ../../upstream/docs/user/subprojects.rst:2
 msgid "Subprojects"
-msgstr ""
+msgstr "子项目"
 
 #: ../../upstream/docs/user/subprojects.rst:4
 msgid ""
-"In this article, you can learn more about how several documentation "
-"projects can be combined and presented to the reader on the same website."
-msgstr ""
+"In this article, you can learn more about how several documentation projects"
+" can be combined and presented to the reader on the same website."
+msgstr "本文介绍如何将多个文档项目组合起来，在同一网站上呈现给读者。"
 
 #: ../../upstream/docs/user/subprojects.rst:6
 msgid ""
-"Read the Docs can be configured to make other *projects* available on the"
-" website of the *main project* as **subprojects**. This allows for "
+"Read the Docs can be configured to make other *projects* available on the "
+"website of the *main project* as **subprojects**. This allows for "
 "documentation projects to share a search index and a namespace or custom "
 "domain, but still be maintained independently."
 msgstr ""
+"Read the Docs 可配置为在*主项目* 网站上以**子项目** "
+"形式提供其他*项目*。这让文档项目可共享搜索索引和命名空间或自定义域名，同时仍独立维护。"
 
 #: ../../upstream/docs/user/subprojects.rst:10
 msgid "This is useful for:"
-msgstr ""
+msgstr "适用于："
 
 #: ../../upstream/docs/user/subprojects.rst:12
 msgid ""
 "Organizations that need all their projects visible in one documentation "
 "portal or landing page"
-msgstr ""
+msgstr "需要在一个文档门户或落地页中展示全部项目的组织"
 
 #: ../../upstream/docs/user/subprojects.rst:13
 msgid "Projects that document and release several packages or extensions"
-msgstr ""
+msgstr "需要为多个包或扩展提供文档并发布的项目"
 
 #: ../../upstream/docs/user/subprojects.rst:14
 msgid ""
 "Organizations or projects that want to have a common search function for "
 "several sets of documentation"
-msgstr ""
+msgstr "希望多套文档共享统一搜索功能的组织或项目"
 
 #: ../../upstream/docs/user/subprojects.rst:16
 msgid ""
 "For a main project ``example-project``, a subproject ``example-project-"
 "plugin`` can be made available as follows:"
-msgstr ""
+msgstr "对于主项目 ``example-project``，子项目 ``example-project-plugin`` 可按如下方式提供："
 
 #: ../../upstream/docs/user/subprojects.rst:18
 msgid "Main project: ``https://example-project.readthedocs.io/en/latest/``"
-msgstr ""
+msgstr "主项目：``https://example-project.readthedocs.io/en/latest/``"
 
 #: ../../upstream/docs/user/subprojects.rst:19
 msgid ""
 "Subproject: ``https://example-"
 "project.readthedocs.io/projects/plugin/en/latest/``"
-msgstr ""
+msgstr "子项目：``https://example-project.readthedocs.io/projects/plugin/en/latest/``"
 
 #: ../../upstream/docs/user/subprojects.rst:23
 msgid ":doc:`/guides/subprojects`"
-msgstr ""
+msgstr ":doc:`/guides/subprojects`"
 
 #: ../../upstream/docs/user/subprojects.rst:24
 msgid "Learn how to create and manage subprojects"
-msgstr ""
+msgstr "了解如何创建和管理子项目"
 
 #: ../../upstream/docs/user/subprojects.rst:26
 msgid ":doc:`/guides/intersphinx`"
-msgstr ""
+msgstr ":doc:`/guides/intersphinx`"
 
 #: ../../upstream/docs/user/subprojects.rst:27
 msgid ""
-"Learn how to use references between different Sphinx projects, for "
-"instance between subprojects"
-msgstr ""
+"Learn how to use references between different Sphinx projects, for instance "
+"between subprojects"
+msgstr "了解如何在不同 Sphinx 项目之间使用引用，例如子项目之间"
 
 #: ../../upstream/docs/user/subprojects.rst:31
 msgid "Sharing a custom domain"
-msgstr ""
+msgstr "共享自定义域名"
 
 #: ../../upstream/docs/user/subprojects.rst:33
 msgid ""
-"Projects and subprojects can be used to share a custom domain. To "
-"configure this, one project should be established as the main project and"
-" configured with a custom domain. Other projects are then added as "
-"subprojects to the main project."
-msgstr ""
+"Projects and subprojects can be used to share a custom domain. To configure "
+"this, one project should be established as the main project and configured "
+"with a custom domain. Other projects are then added as subprojects to the "
+"main project."
+msgstr "项目和子项目可用于共享自定义域名。配置时，需将一个项目设为主项目并为其配置自定义域名，然后将其余项目作为子项目添加到主项目。"
 
 #: ../../upstream/docs/user/subprojects.rst:37
 msgid ""
-"If the example project ``example-project`` was set up with a custom "
-"domain, ``docs.example.com``, the URLs for projects ``example-project`` "
-"and ``example-project-plugin`` with alias ``plugin`` would respectively "
-"be at:"
+"If the example project ``example-project`` was set up with a custom domain, "
+"``docs.example.com``, the URLs for projects ``example-project`` and "
+"``example-project-plugin`` with alias ``plugin`` would respectively be at:"
 msgstr ""
+"若示例项目 ``example-project`` 使用自定义域名 ``docs.example.com`` 设置，则项目 ``example-"
+"project`` 和别名为 ``plugin`` 的 ``example-project-plugin`` 的 URL 分别为："
 
 #: ../../upstream/docs/user/subprojects.rst:41
 msgid "``example-project``: ``https://docs.example.com/en/latest/``"
-msgstr ""
+msgstr "``example-project``：``https://docs.example.com/en/latest/``"
 
 #: ../../upstream/docs/user/subprojects.rst:42
 msgid ""
 "``example-project-plugin``: "
 "``https://docs.example.com/projects/plugin/en/latest/``"
 msgstr ""
+"``example-project-"
+"plugin``：``https://docs.example.com/projects/plugin/en/latest/``"
 
 #: ../../upstream/docs/user/subprojects.rst:45
 msgid "Using aliases"
-msgstr ""
+msgstr "使用别名"
 
 #: ../../upstream/docs/user/subprojects.rst:47
 msgid ""
-"Adding an alias for the subproject allows you to override the URL that is"
-" used to access it, giving more control over how you want to structure "
-"your projects. You can choose an alias for the subproject when it is "
-"created."
-msgstr ""
+"Adding an alias for the subproject allows you to override the URL that is "
+"used to access it, giving more control over how you want to structure your "
+"projects. You can choose an alias for the subproject when it is created."
+msgstr "为子项目添加别名可覆盖访问它的 URL，让你更能掌控项目结构。创建子项目时即可选择别名。"
 
 #: ../../upstream/docs/user/subprojects.rst:51
 msgid ""
 "You can set your subproject's project name and :term:`slug` however you "
 "want, but we suggest prefixing it with the name of the main project."
-msgstr ""
+msgstr "你可以任意设置子项目的项目名称和 :term:`slug`，但我们建议加上主项目名称作为前缀。"
 
 #: ../../upstream/docs/user/subprojects.rst:54
 msgid ""
 "Typically, a subproject is created with a ``<mainproject>-`` prefix, for "
 "instance if the main project is called ``example-project`` and the "
-"subproject is called ``plugin``, then the subproject's Read the Docs "
-"project :term:`slug` will be ``example-project-plugin``. When adding the "
+"subproject is called ``plugin``, then the subproject's Read the Docs project"
+" :term:`slug` will be ``example-project-plugin``. When adding the "
 "subproject, the alias is set to ``plugin`` and the project's URL becomes "
 "``example-project.readthedocs.io/projects/plugin``."
 msgstr ""
+"通常子项目创建时带 ``<mainproject>-`` 前缀。例如主项目名为 ``example-project``、子项目名为 ``plugin``"
+" 时，子项目的 Read the Docs 项目 :term:`slug` 为 ``example-project-"
+"plugin``。添加子项目时别名设为 ``plugin``，项目 URL 变为 ``example-"
+"project.readthedocs.io/projects/plugin``。"
 
 #: ../../upstream/docs/user/subprojects.rst:61
 msgid ""
@@ -157,79 +165,86 @@ msgid ""
 "plugin.readthedocs.io/`` will redirect to ``example-"
 "project.readthedocs.io/projects/plugin``."
 msgstr ""
+"添加子项目后，子项目不再能通过自身域名直接访问。例如 ``example-project-plugin.readthedocs.io/`` 会重定向到 "
+"``example-project.readthedocs.io/projects/plugin``。"
 
 #: ../../upstream/docs/user/subprojects.rst:67
 msgid ":doc:`/url-path-prefixes`"
-msgstr ""
+msgstr ":doc:`/url-path-prefixes`"
 
 #: ../../upstream/docs/user/subprojects.rst:68
 msgid ""
-"On |com_brand| Pro plans and higher, you can customize the ``/projects/``"
-" prefix or remove it entirely."
-msgstr ""
+"On |com_brand| Pro plans and higher, you can customize the ``/projects/`` "
+"prefix or remove it entirely."
+msgstr "在 |com_brand| Pro 及以上套餐中，你可以自定义 ``/projects/`` 前缀或完全移除它。"
 
 #: ../../upstream/docs/user/subprojects.rst:72
 msgid "Custom domain on subprojects"
-msgstr ""
+msgstr "子项目的自定义域名"
 
 #: ../../upstream/docs/user/subprojects.rst:74
 msgid ""
 "Adding a custom domain to a subproject is not allowed, since your "
-"documentation will always be served from the domain of the parent "
-"project."
-msgstr ""
+"documentation will always be served from the domain of the parent project."
+msgstr "不允许为子项目添加自定义域名，因为文档始终从父项目的域名提供。"
 
 #: ../../upstream/docs/user/subprojects.rst:79
 msgid "Separate release cycles"
-msgstr ""
+msgstr "独立发布周期"
 
 #: ../../upstream/docs/user/subprojects.rst:81
 msgid ""
-"By using subprojects, you can present the documentation of several "
-"projects even though they have separate release cycles."
-msgstr ""
+"By using subprojects, you can present the documentation of several projects "
+"even though they have separate release cycles."
+msgstr "通过子项目，即使多个项目有各自的发布周期，也能统一呈现其文档。"
 
 #: ../../upstream/docs/user/subprojects.rst:85
 msgid ""
-"Your main project may have its own versions and releases, while all of "
-"its subprojects maintain their own individual versions and releases. We "
+"Your main project may have its own versions and releases, while all of its "
+"subprojects maintain their own individual versions and releases. We "
 "recommend that documentation follows the release cycle of whatever it is "
-"documenting, meaning that your subprojects should be free to follow their"
-" own release cycle."
-msgstr ""
+"documenting, meaning that your subprojects should be free to follow their "
+"own release cycle."
+msgstr "主项目可以有自己的版本和发布，而其所有子项目则各自维护独立版本与发布。我们建议文档遵循其所记录对象的发布周期，即子项目应能自主遵循自己的发布周期。"
 
 #: ../../upstream/docs/user/subprojects.rst:90
 msgid ""
-"This is solved by having an individual :term:`flyout menu` active for the"
-" project that's viewed. When the user navigates to a subproject, they are"
-" presented with a flyout menu matching the subproject's versions and :doc"
+"This is solved by having an individual :term:`flyout menu` active for the "
+"project that's viewed. When the user navigates to a subproject, they are "
+"presented with a flyout menu matching the subproject's versions and :doc"
 ":`/offline-formats`."
 msgstr ""
+"这通过为所查看的项目启用独立的 :term:`flyout menu` 解决。用户导航到子项目时，会看到与该子项目版本和 :doc:`/offline-"
+"formats` 相匹配的浮出菜单。"
 
 #: ../../upstream/docs/user/subprojects.rst:95
 msgid "Search"
-msgstr ""
+msgstr "搜索"
 
 #: ../../upstream/docs/user/subprojects.rst:97
 msgid ""
-"Search on the parent project will include results from its subprojects, "
-"and readers can filter results by subproject from the search modal. If "
-"you search on the ``v1`` version of the parent project, results from the "
-"``v1`` version of its subprojects will be included, or from the default "
-"version for subprojects that don't have a ``v1`` version."
+"Search on the parent project will include results from its subprojects, and "
+"readers can filter results by subproject from the search modal. If you "
+"search on the ``v1`` version of the parent project, results from the ``v1`` "
+"version of its subprojects will be included, or from the default version for"
+" subprojects that don't have a ``v1`` version."
 msgstr ""
+"在父项目上搜索会包含其子项目的结果，读者可在搜索弹窗中按子项目筛选结果。若在父项目的 ``v1`` 版本上搜索，会包含其子项目 ``v1`` "
+"版本的结果；对于没有 ``v1`` 版本的子项目则使用其默认版本。"
 
 #: ../../upstream/docs/user/subprojects.rst:103
 msgid ""
-"This is currently the only way to share search results between projects, "
-"we do not yet support sharing search results between sibling subprojects "
-"or arbitrary projects."
-msgstr ""
+"This is currently the only way to share search results between projects, we "
+"do not yet support sharing search results between sibling subprojects or "
+"arbitrary projects."
+msgstr "这目前是项目间共享搜索结果的唯一方式，我们尚不支持在同级子项目或任意项目之间共享搜索结果。"
 
 #: ../../upstream/docs/user/subprojects.rst:106
 msgid ""
-"The subprojects filter in the search modal can be turned off from the "
-"parent project's :menuselection:`Settings --> Search`, by disabling "
+"The subprojects filter in the search modal can be turned off from the parent"
+" project's :menuselection:`Settings --> Search`, by disabling "
 ":guilabel:`Show subprojects filter in search modal`."
 msgstr ""
+"可在父项目的 :menuselection:`Settings --> Search` 中禁用 :guilabel:`Show subprojects "
+"filter in search modal`，关闭搜索弹窗中的子项目过滤器。"
 

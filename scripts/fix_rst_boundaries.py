@@ -26,12 +26,15 @@ BOUNDARY = "（【「" + CJK_CLASS
 LITERAL_RE = re.compile(r"(``[^`\n]+``)(?=[" + BOUNDARY + r"])")
 STRONG_RE = re.compile(r"(\*\*[^*\n]+\*\*)(?=[" + BOUNDARY + r"])")
 EMPH_RE = re.compile(r"(?<!\*)(\*[^*\n]+\*)(?!\*)(?=[" + BOUNDARY + r"])")
+# Named / anonymous references: `text`_ or `text`__
+NAMED_REF_RE = re.compile(r"(`[^`\n]+`_{1,2})(?=[" + BOUNDARY + r"])")
 
 
 def fix_text(text: str) -> str:
     text = LITERAL_RE.sub(r"\1 ", text)
     text = STRONG_RE.sub(r"\1 ", text)
     text = EMPH_RE.sub(r"\1 ", text)
+    text = NAMED_REF_RE.sub(r"\1 ", text)
     return text
 
 

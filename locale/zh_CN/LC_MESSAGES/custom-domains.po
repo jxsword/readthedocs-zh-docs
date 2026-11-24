@@ -22,30 +22,31 @@ msgstr ""
 
 #: ../../upstream/docs/user/custom-domains.rst:2
 msgid "Custom domains"
-msgstr ""
+msgstr "自定义域名"
 
 #: ../../upstream/docs/user/custom-domains.rst:4
 msgid ""
-"By configuring a *custom domain* for your project, your project can serve"
-" documentation from a domain you control, for instance "
-"``docs.example.com``. This is great for maintaining a consistent brand "
-"for your product and its documentation."
+"By configuring a *custom domain* for your project, your project can serve "
+"documentation from a domain you control, for instance ``docs.example.com``. "
+"This is great for maintaining a consistent brand for your product and its "
+"documentation."
 msgstr ""
+"为项目配置*自定义域名* 后，项目可从你控制的域名提供文档服务，例如 "
+"``docs.example.com``。这有助于为你的产品及其文档保持一致的品牌形象。"
 
 #: ../../upstream/docs/user/custom-domains.rst:12
 msgid "Default subdomains"
-msgstr ""
+msgstr "默认子域名"
 
 #: ../../upstream/docs/user/custom-domains.rst:13
 msgid ""
-"*Without a custom domain configured*, your project's documentation is "
-"served from a Read the Docs domain using a unique subdomain for your "
-"project:"
-msgstr ""
+"*Without a custom domain configured*, your project's documentation is served"
+" from a Read the Docs domain using a unique subdomain for your project:"
+msgstr "*未配置自定义域名* 时，项目文档从 Read the Docs 域名通过为你项目生成的唯一子域名提供服务："
 
 #: ../../upstream/docs/user/custom-domains.rst:16
 msgid "``<project name>.readthedocs.io`` for |org_brand|."
-msgstr ""
+msgstr "|org_brand| 使用 ``<project name>.readthedocs.io``。"
 
 #: ../../upstream/docs/user/custom-domains.rst:17
 msgid ""
@@ -53,84 +54,91 @@ msgid ""
 "|com_brand|. The addition of the organization name allows multiple "
 "organizations to have projects with the same name."
 msgstr ""
+"|com_brand| 使用 ``<organization name>-<project name>.readthedocs-"
+"hosted.com``。加上组织名可让多个组织拥有同名项目。"
 
 #: ../../upstream/docs/user/custom-domains.rst:22
 msgid ":doc:`/guides/custom-domains`"
-msgstr ""
+msgstr ":doc:`/guides/custom-domains`"
 
 #: ../../upstream/docs/user/custom-domains.rst:23
 msgid "How to create and manage custom domains for your project."
-msgstr ""
+msgstr "如何为项目创建和管理自定义域名。"
 
 #: ../../upstream/docs/user/custom-domains.rst:26
 msgid "Features"
-msgstr ""
+msgstr "功能"
 
 #: ../../upstream/docs/user/custom-domains.rst:28
 msgid "Automatic SSL"
-msgstr ""
+msgstr "自动 SSL"
 
 #: ../../upstream/docs/user/custom-domains.rst:29
 msgid ""
 "SSL certificates are automatically issued through Cloudflare for every "
-"custom domain. No extra set up is required beyond configuring your "
-"project's custom domain."
-msgstr ""
+"custom domain. No extra set up is required beyond configuring your project's"
+" custom domain."
+msgstr "每个自定义域名的 SSL 证书都通过 Cloudflare 自动签发。除配置项目自定义域名外无需额外设置。"
 
 #: ../../upstream/docs/user/custom-domains.rst:32
 msgid "CDN caching"
-msgstr ""
+msgstr "CDN 缓存"
 
 #: ../../upstream/docs/user/custom-domains.rst:33
 msgid ""
-"Response caching is provided through a :doc:`CDN </reference/cdn>` for "
-"all documentation projects, including projects using a custom domain. CDN"
-" caching improves page response time for your documentation's users, and "
-"the CDN edge network provides low latency response times regardless of "
-"location."
+"Response caching is provided through a :doc:`CDN </reference/cdn>` for all "
+"documentation projects, including projects using a custom domain. CDN "
+"caching improves page response time for your documentation's users, and the "
+"CDN edge network provides low latency response times regardless of location."
 msgstr ""
+"所有文档项目（包括使用自定义域名的项目）都通过 :doc:`CDN </reference/cdn>` 提供响应缓存。CDN "
+"缓存提升文档用户的页面响应速度，CDN 边缘网络无论用户位置如何都提供低延迟响应。"
 
 #: ../../upstream/docs/user/custom-domains.rst:38
 msgid "Multiple domains"
-msgstr ""
+msgstr "多域名"
 
 #: ../../upstream/docs/user/custom-domains.rst:39
 msgid ""
-"Projects can be configured to be served from multiple domains, which "
-"always includes the :ref:`project's default subdomain <default-"
-"subdomain>`. Only one domain can be configured as the canonical domain "
-"however, and any requests to non-canonical domains and subdomains will "
-"redirect to the canonical domain."
+"Projects can be configured to be served from multiple domains, which always "
+"includes the :ref:`project's default subdomain <default-subdomain>`. Only "
+"one domain can be configured as the canonical domain however, and any "
+"requests to non-canonical domains and subdomains will redirect to the "
+"canonical domain."
 msgstr ""
+"项目可配置为从多个域名提供服务，其中始终包含 :ref:`项目默认子域名 <default-"
+"subdomain>`。但只能配置一个规范域名，对非规范域名和子域名的请求都会重定向到规范域名。"
 
 #: ../../upstream/docs/user/custom-domains.rst:44
 msgid "Canonical domains"
-msgstr ""
+msgstr "规范域名"
 
 #: ../../upstream/docs/user/custom-domains.rst:45
 msgid ""
-"The canonical domain configures the primary domain the documentation will"
-" serve from, and also sets the domain search engines use for search "
-"results when hosting from multiple domains. Projects can only have one "
-"canonical domain, which is the :ref:`project's default subdomain "
-"<default-subdomain>` if no other canonical domain is defined."
+"The canonical domain configures the primary domain the documentation will "
+"serve from, and also sets the domain search engines use for search results "
+"when hosting from multiple domains. Projects can only have one canonical "
+"domain, which is the :ref:`project's default subdomain <default-subdomain>` "
+"if no other canonical domain is defined."
 msgstr ""
+"规范域名决定文档服务的主域名，并在多域名托管时设定搜索引擎用于搜索结果的域名。项目只能有一个规范域名，未定义其他规范域名时即为 "
+":ref:`项目默认子域名 <default-subdomain>`。"
 
 #: ../../upstream/docs/user/custom-domains.rst:52
 msgid ":doc:`/canonical-urls`"
-msgstr ""
+msgstr ":doc:`/canonical-urls`"
 
 #: ../../upstream/docs/user/custom-domains.rst:53
 msgid ""
-"How canonical domains affect your project's canonical URL, and why "
-"canonical URLs are important."
-msgstr ""
+"How canonical domains affect your project's canonical URL, and why canonical"
+" URLs are important."
+msgstr "规范域名如何影响项目的规范 URL，以及规范 URL 为何重要。"
 
 #: ../../upstream/docs/user/custom-domains.rst:56
 msgid ":doc:`/subprojects`"
-msgstr ""
+msgstr ":doc:`/subprojects`"
 
 #: ../../upstream/docs/user/custom-domains.rst:57
 msgid "How to share a custom domain between multiple projects."
-msgstr ""
+msgstr "如何在多个项目间共享自定义域名。"
 

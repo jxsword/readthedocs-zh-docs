@@ -32,7 +32,7 @@ msgid ""
 "an external service to use this information for alerting, monitoring, and "
 "many other custom configurations."
 msgstr ""
-"项目构建*触发*、* 成功*或* 失败*时，Read the Docs 可使用外出 :term:`webhooks <webhook>` 通知外部 "
+"项目构建*触发*、* 成功* 或* 失败* 时，Read the Docs 可使用外出 :term:`webhooks <webhook>` 通知外部 "
 "API。这些 Webhook 包含构建和构建状态信息，允许外部服务将其用于告警、监控等各种自定义配置。"
 
 #: ../../upstream/docs/user/guides/build/webhooks.rst:12

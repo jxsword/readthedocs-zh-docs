@@ -22,82 +22,88 @@ msgstr ""
 
 #: ../../upstream/docs/user/reference/sitemaps.rst:2
 msgid "Sitemap support"
-msgstr ""
+msgstr "站点地图支持"
 
 #: ../../upstream/docs/user/reference/sitemaps.rst:4
 msgid ""
-"`Sitemaps <https://www.sitemaps.org/>`__ allow you to inform search "
-"engines about URLs that are available for crawling. This makes your "
-"content more :term:`discoverable <discoverability>`, and improves your "
-":doc:`Search Engine Optimization (SEO) </guides/technical-docs-seo-"
-"guide>`."
+"`Sitemaps <https://www.sitemaps.org/>`__ allow you to inform search engines "
+"about URLs that are available for crawling. This makes your content more "
+":term:`discoverable <discoverability>`, and improves your :doc:`Search "
+"Engine Optimization (SEO) </guides/technical-docs-seo-guide>`."
 msgstr ""
+"`站点地图 <https://www.sitemaps.org/>`__ 让你向搜索引擎告知可供抓取的 URL。这让你的内容更易被 :term:`发现 "
+"<discoverability>`，并改善 :doc:`搜索引擎优化（SEO） </guides/technical-docs-seo-"
+"guide>`。"
 
 #: ../../upstream/docs/user/reference/sitemaps.rst:9
 msgid "How it works"
-msgstr ""
+msgstr "工作原理"
 
 #: ../../upstream/docs/user/reference/sitemaps.rst:11
 msgid ""
 "The ``sitemap.xml`` file is read by search engines to index your "
 "documentation. It contains information such as:"
-msgstr ""
+msgstr "搜索引擎读取 ``sitemap.xml`` 文件来索引你的文档。其中包含如下信息："
 
 #: ../../upstream/docs/user/reference/sitemaps.rst:14
 msgid "When a URL was last updated."
-msgstr ""
+msgstr "URL 最后更新时间。"
 
 #: ../../upstream/docs/user/reference/sitemaps.rst:15
 msgid "How often that URL changes."
-msgstr ""
+msgstr "该 URL 的变更频率。"
 
 #: ../../upstream/docs/user/reference/sitemaps.rst:16
 msgid "How important this URL is in relation to other URLs on the site."
-msgstr ""
+msgstr "该 URL 相对于站点内其他 URL 的重要程度。"
 
 #: ../../upstream/docs/user/reference/sitemaps.rst:17
 msgid "What translations are available for a page."
-msgstr ""
+msgstr "页面可用的翻译。"
 
 #: ../../upstream/docs/user/reference/sitemaps.rst:19
 msgid ""
-"Read the Docs automatically generates a ``sitemap.xml`` for your project."
-" The sitemap includes :ref:`public and not hidden versions "
-"<versions:Version states>` of your documentation and when they were last "
-"updated, sorted by version number."
+"Read the Docs automatically generates a ``sitemap.xml`` for your project. "
+"The sitemap includes :ref:`public and not hidden versions <versions:Version "
+"states>` of your documentation and when they were last updated, sorted by "
+"version number."
 msgstr ""
+"Read the Docs 会自动为项目生成 ``sitemap.xml``。站点地图包含你文档中 :ref:`公开且未隐藏的版本 "
+"<versions:Version states>` 及其最后更新时间，按版本号排序。"
 
 #: ../../upstream/docs/user/reference/sitemaps.rst:23
 msgid ""
 "This allows search engines to prioritize results based on the version "
 "number, sorted by `semantic versioning`_."
-msgstr ""
+msgstr "这让搜索引擎能依据按 `semantic versioning`_ 排序的版本号确定结果优先级。"
 
 #: ../../upstream/docs/user/reference/sitemaps.rst:27
 msgid "Custom ``sitemap.xml``"
-msgstr ""
+msgstr "自定义 ``sitemap.xml``"
 
 #: ../../upstream/docs/user/reference/sitemaps.rst:29
 msgid ""
-"You can provide a custom ``sitemap.xml`` file with your docs build "
-"output. Read the Docs looks for this file in the **default version** of "
-"your project, because ``sitemap.xml`` is served from the root of your "
-"docs domain."
+"You can provide a custom ``sitemap.xml`` file with your docs build output. "
+"Read the Docs looks for this file in the **default version** of your "
+"project, because ``sitemap.xml`` is served from the root of your docs "
+"domain."
 msgstr ""
+"你可以在文档构建输出中提供自定义 ``sitemap.xml`` 文件。Read the Docs 会在项目的**默认版本** 中查找该文件，因为 "
+"``sitemap.xml`` 从文档域名根目录提供服务。"
 
 #: ../../upstream/docs/user/reference/sitemaps.rst:33
 msgid ""
-"If this custom file exists, it is served as-is. If it does not exist, "
-"Read the Docs serves the generated sitemap instead."
-msgstr ""
+"If this custom file exists, it is served as-is. If it does not exist, Read "
+"the Docs serves the generated sitemap instead."
+msgstr "若该自定义文件存在，将原样提供；不存在则由 Read the Docs 提供生成的站点地图。"
 
 #: ../../upstream/docs/user/reference/sitemaps.rst:36
 msgid ""
-"You can also point crawlers to a different sitemap URL via "
-"``robots.txt``. See :doc:`/reference/robots` for details."
-msgstr ""
+"You can also point crawlers to a different sitemap URL via ``robots.txt``. "
+"See :doc:`/reference/robots` for details."
+msgstr "你也可以通过 ``robots.txt`` 将爬虫指向其他站点地图 URL。详见 :doc:`/reference/robots`。"
 
 #: ../../upstream/docs/user/reference/sitemaps.rst:39
 msgid "For example, in ``robots.txt``::"
-msgstr ""
+msgstr "例如，在 ``robots.txt`` 中："
 

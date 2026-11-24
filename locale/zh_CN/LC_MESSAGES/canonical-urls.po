@@ -22,90 +22,104 @@ msgstr ""
 
 #: ../../upstream/docs/user/canonical-urls.rst:2
 msgid "Canonical URLs"
-msgstr ""
+msgstr "规范 URL"
 
 #: ../../upstream/docs/user/canonical-urls.rst:4
 msgid ""
-"A `canonical URL`_ allows you to specify the preferred version of a web "
-"page to prevent duplicated content. Here are some examples of when a "
-"canonical URL is used:"
-msgstr ""
+"A `canonical URL`_ allows you to specify the preferred version of a web page"
+" to prevent duplicated content. Here are some examples of when a canonical "
+"URL is used:"
+msgstr "`canonical URL`_ 允许你指定网页的首选版本，以防止内容重复。以下是使用规范 URL 的几种场景："
 
 #: ../../upstream/docs/user/canonical-urls.rst:8
 msgid ""
-"Search engines use your canonical URL to link users to the correct "
-"version and domain of your documentation."
-msgstr ""
+"Search engines use your canonical URL to link users to the correct version "
+"and domain of your documentation."
+msgstr "搜索引擎使用你的规范 URL 将用户链接到正确版本和域名的文档。"
 
 #: ../../upstream/docs/user/canonical-urls.rst:9
 msgid ""
-"Many popular chat clients and social media networks generate link "
-"previews, using your canonical URL as the final destination."
-msgstr ""
+"Many popular chat clients and social media networks generate link previews, "
+"using your canonical URL as the final destination."
+msgstr "许多流行的聊天客户端和社交媒体网络会生成链接预览，使用你的规范 URL 作为最终目标。"
 
 #: ../../upstream/docs/user/canonical-urls.rst:12
 msgid ""
-"If canonical URLs aren't used, it's easy for outdated documentation to be"
-" the top search result for various pages in your documentation. This is "
-"not a perfect solution for this problem, but generally people finding "
-"outdated documentation is a big problem, and this is one of the suggested"
-" ways to solve it from search engines."
+"If canonical URLs aren't used, it's easy for outdated documentation to be "
+"the top search result for various pages in your documentation. This is not a"
+" perfect solution for this problem, but generally people finding outdated "
+"documentation is a big problem, and this is one of the suggested ways to "
+"solve it from search engines."
 msgstr ""
+"如果不使用规范 "
+"URL，文档中各页面很容易以过时内容作为搜索结果首条。这不是该问题的完美解决方案，但用户找到过时文档通常是个大问题，而这是搜索引擎建议的解决方式之一。"
 
 #: ../../upstream/docs/user/canonical-urls.rst:21
 msgid "How Read the Docs generates canonical URLs"
-msgstr ""
+msgstr "Read the Docs 如何生成规范 URL"
 
 #: ../../upstream/docs/user/canonical-urls.rst:23
 msgid "The canonical URL takes the following into account:"
-msgstr ""
+msgstr "规范 URL 会考虑以下因素："
 
 #: ../../upstream/docs/user/canonical-urls.rst:25
 msgid "The default version of your project (usually \"latest\" or \"stable\")."
-msgstr ""
+msgstr "项目的默认版本（通常是 \"latest\" 或 \"stable\"）。"
 
 #: ../../upstream/docs/user/canonical-urls.rst:26
 msgid ""
 "The canonical :doc:`custom domain </custom-domains>` if you have one, "
 "otherwise the default :ref:`subdomain <default-subdomain>` will be used."
 msgstr ""
+"若设置了规范 :doc:`自定义域名 </custom-domains>` 则使用它，否则使用默认 :ref:`子域名 <default-"
+"subdomain>`。"
 
 #: ../../upstream/docs/user/canonical-urls.rst:29
 msgid ""
 "For example, if you have a project named ``example-docs`` with a custom "
-"domain ``https://docs.example.com``, then your documentation will be "
-"served at ``https://example-docs.readthedocs.io`` and "
-"``https://docs.example.com``. Without specifying a canonical URL, a "
-"search engine like Google will index both domains."
+"domain ``https://docs.example.com``, then your documentation will be served "
+"at ``https://example-docs.readthedocs.io`` and ``https://docs.example.com``."
+" Without specifying a canonical URL, a search engine like Google will index "
+"both domains."
 msgstr ""
+"例如，若你有名为 ``example-docs`` 的项目并使用自定义域名 ``https://docs.example.com``，文档将同时在 "
+"``https://example-docs.readthedocs.io`` 和 ``https://docs.example.com`` "
+"提供服务。未指定规范 URL 时，Google 等搜索引擎会同时索引两个域名。"
 
 #: ../../upstream/docs/user/canonical-urls.rst:34
 msgid ""
-"You'll want to use ``https://docs.example.com`` as your canonical domain."
-" This means that when Google indexes a page like ``https://example-"
-"docs.readthedocs.io/en/latest/``, it will know that it should really "
-"point at ``https://docs.example.com/en/latest/``, thus avoiding "
-"duplicating the content."
+"You'll want to use ``https://docs.example.com`` as your canonical domain. "
+"This means that when Google indexes a page like ``https://example-"
+"docs.readthedocs.io/en/latest/``, it will know that it should really point "
+"at ``https://docs.example.com/en/latest/``, thus avoiding duplicating the "
+"content."
 msgstr ""
+"你应将 ``https://docs.example.com`` 用作规范域名。这样当 Google 索引到 ``https://example-"
+"docs.readthedocs.io/en/latest/`` 这样的页面时，就知道它实际应指向 "
+"``https://docs.example.com/en/latest/``，从而避免内容重复。"
 
 #: ../../upstream/docs/user/canonical-urls.rst:41
 msgid ""
-"If you want your custom domain to be set as the canonical, you need to "
-"set ``Canonical:  This domain is the primary one where the documentation "
-"is served from`` in your project's :menuselection:`Settings --> Domains`."
+"If you want your custom domain to be set as the canonical, you need to set "
+"``Canonical:  This domain is the primary one where the documentation is "
+"served from`` in your project's :menuselection:`Settings --> Domains`."
 msgstr ""
+"若要将自定义域名设为规范域名，需在项目的 :menuselection:`Settings --> Domains` 中设置 ``Canonical:"
+"  This domain is the primary one where the documentation is served from``。"
 
 #: ../../upstream/docs/user/canonical-urls.rst:47
 msgid "How to specify the canonical URL"
-msgstr ""
+msgstr "如何指定规范 URL"
 
 #: ../../upstream/docs/user/canonical-urls.rst:49
 msgid ""
 "A canonical URL is automatically passed to the build process as "
 "``READTHEDOCS_CANONICAL_URL`` :doc:`environment variable </reference"
 "/environment-variables>`. You can use this variable to configure your "
-"documentation tool to use it (eg. Sphinx does this via the "
-"``html_baseurl`` config, MkDocs via ``site_url`` and Pelican with "
-"``SITEURL``)"
+"documentation tool to use it (eg. Sphinx does this via the ``html_baseurl`` "
+"config, MkDocs via ``site_url`` and Pelican with ``SITEURL``)"
 msgstr ""
+"规范 URL 会自动作为 ``READTHEDOCS_CANONICAL_URL`` :doc:`环境变量 </reference"
+"/environment-variables>` 传入构建过程。你可以用该变量配置文档工具使用它（例如 Sphinx 通过 "
+"``html_baseurl`` 配置，MkDocs 通过 ``site_url``，Pelican 通过 ``SITEURL``）"
 

@@ -22,173 +22,181 @@ msgstr ""
 
 #: ../../upstream/docs/user/localization.rst:2
 msgid "Localization and Internationalization"
-msgstr ""
+msgstr "本地化与国际化"
 
 #: ../../upstream/docs/user/localization.rst:4
 msgid ""
-"In this article, we explain high-level approaches to internationalizing "
-"and localizing your documentation."
-msgstr ""
+"In this article, we explain high-level approaches to internationalizing and "
+"localizing your documentation."
+msgstr "本文介绍对文档进行国际化和本地化的高层方法。"
 
 #: ../../upstream/docs/user/localization.rst:6
 msgid ""
 "By default, Read the Docs assumes that your documentation is or *might "
-"become* multilingual one day. The initial default language is English and"
-" therefore you often see the initial build of your documentation "
-"published at ``/en/latest/``, where the ``/en`` denotes that it's in "
-"English. By having the ``en`` URL component present from the beginning, "
-"you are ready for the eventuality that you would want a second language."
+"become* multilingual one day. The initial default language is English and "
+"therefore you often see the initial build of your documentation published at"
+" ``/en/latest/``, where the ``/en`` denotes that it's in English. By having "
+"the ``en`` URL component present from the beginning, you are ready for the "
+"eventuality that you would want a second language."
 msgstr ""
+"默认情况下，Read the Docs 假设你的文档是或*将来可能成为* 多语言的。初始默认语言为英语，因此你常会看到文档的首次构建发布在 "
+"``/en/latest/``，其中 ``/en`` 表示英语。从一开始就包含 ``en`` 这一 URL 片段，可让你在未来需要第二种语言时从容应对。"
 
 #: ../../upstream/docs/user/localization.rst:13
 msgid ""
 "Read the Docs supports hosting your documentation in multiple languages. "
 "Read below for the various approaches that we support."
-msgstr ""
+msgstr "Read the Docs 支持以多种语言托管你的文档。我们支持的各种方式见下文。"
 
 #: ../../upstream/docs/user/localization.rst:20
 msgid "Projects with one language"
-msgstr ""
+msgstr "单语言项目"
 
 #: ../../upstream/docs/user/localization.rst:22
 msgid ""
-"If your documentation isn't in English (the default), you should indicate"
-" which language you have written it in."
-msgstr ""
+"If your documentation isn't in English (the default), you should indicate "
+"which language you have written it in."
+msgstr "如果你的文档不是英语（默认语言），应指明你所使用的语言。"
 
 #: ../../upstream/docs/user/localization.rst:25
 msgid ""
 "It is easy to set the language of your project. In your project's "
-":menuselection:`Settings` (or when adding the project), simply select "
-"your desired :guilabel:`Language` from the dropdown. This will tell Read "
-"the Docs that your project is in the language. The language will be "
-"represented in the URL for your project."
+":menuselection:`Settings` (or when adding the project), simply select your "
+"desired :guilabel:`Language` from the dropdown. This will tell Read the Docs"
+" that your project is in the language. The language will be represented in "
+"the URL for your project."
 msgstr ""
+"设置项目语言很简单。在项目的 :menuselection:`Settings`（或添加项目时），只需从下拉框中选择所需的 "
+":guilabel:`Language`。这会告知 Read the Docs 项目所用语言。语言会体现在项目 URL 中。"
 
 #: ../../upstream/docs/user/localization.rst:31
 msgid ""
 "For example, a project that is in Spanish will have a default URL of "
 "``/es/latest/`` instead of ``/en/latest/``."
-msgstr ""
+msgstr "例如，西班牙语项目的默认 URL 为 ``/es/latest/`` 而非 ``/en/latest/``。"
 
 #: ../../upstream/docs/user/localization.rst:35
 msgid "Projects with multiple translations"
-msgstr ""
+msgstr "多翻译项目"
 
 #: ../../upstream/docs/user/localization.rst:39
 msgid ":doc:`guides/manage-translations-sphinx`"
-msgstr ""
+msgstr ":doc:`guides/manage-translations-sphinx`"
 
 #: ../../upstream/docs/user/localization.rst:40
 msgid ""
 "Describes the whole process for a Sphinx documentation projects with "
-"multiples languages in the same repository and how to keep the "
-"translations updated on time."
-msgstr ""
+"multiples languages in the same repository and how to keep the translations "
+"updated on time."
+msgstr "介绍在同一仓库中管理多语言 Sphinx 文档项目的完整流程，以及如何让翻译及时更新。"
 
 #: ../../upstream/docs/user/localization.rst:43
 msgid ""
-"Each language must have its own project on Read the Docs. You will choose"
-" one to be the parent project, and add each of the other projects as "
+"Each language must have its own project on Read the Docs. You will choose "
+"one to be the parent project, and add each of the other projects as "
 "\"Translations\" of the parent project."
-msgstr ""
+msgstr "每种语言都必须在 Read the Docs 上有独立项目。你需指定其中一个作为父项目，并将其他项目添加为父项目的\"翻译\"。"
 
 #: ../../upstream/docs/user/localization.rst:47
 msgid "Let's use ``godot`` as an example."
-msgstr ""
+msgstr "以 ``godot`` 为例。"
 
 #: ../../upstream/docs/user/localization.rst:49
 msgid ""
 "The ``godot`` project is the parent. Each translation then has its own "
-"project, for example ``godot-es``. The *Language* for ``godot-es`` is set"
-" to ``Spanish``. Then, on the  *Translations* page of the ``godot`` "
-"project, ``godot-es`` is set as translation."
+"project, for example ``godot-es``. The *Language* for ``godot-es`` is set to"
+" ``Spanish``. Then, on the  *Translations* page of the ``godot`` project, "
+"``godot-es`` is set as translation."
 msgstr ""
+"``godot`` 项目为父项目。每个翻译随后有独立项目，例如 ``godot-es``。``godot-es`` 的*语言* 设为 "
+"``Spanish``。然后在 ``godot`` 项目的* 翻译* 页面中，将 ``godot-es`` 设为翻译。"
 
 #: ../../upstream/docs/user/localization.rst:54
 msgid "This has the results of serving:"
-msgstr ""
+msgstr "这样提供服务的结果是："
 
 #: ../../upstream/docs/user/localization.rst:56
 msgid "``godot`` at ``https://docs.godotengine.org/en/stable/``"
-msgstr ""
+msgstr "``godot`` 位于 ``https://docs.godotengine.org/en/stable/``"
 
 #: ../../upstream/docs/user/localization.rst:57
 msgid "``godot-es`` at ``https://docs.godotengine.org/es/stable/``"
-msgstr ""
+msgstr "``godot-es`` 位于 ``https://docs.godotengine.org/es/stable/``"
 
 #: ../../upstream/docs/user/localization.rst:59
 msgid "It also gets included in the Read the Docs :term:`flyout menu`:"
-msgstr ""
+msgstr "它也会包含在 Read the Docs 的 :term:`flyout menu` 中："
 
 #: ../../upstream/docs/user/localization.rst:64
 msgid ""
-"The default language of a custom domain is determined by the language of "
-"the parent project that the domain was configured on. See :doc:`/custom-"
+"The default language of a custom domain is determined by the language of the"
+" parent project that the domain was configured on. See :doc:`/custom-"
 "domains` for more information."
-msgstr ""
+msgstr "自定义域名的默认语言由配置该域名的父项目语言决定。更多信息见 :doc:`/custom-domains`。"
 
 #: ../../upstream/docs/user/localization.rst:70
 msgid "Translation workflows"
-msgstr ""
+msgstr "翻译工作流"
 
 #: ../../upstream/docs/user/localization.rst:72
 msgid ""
-"When you work with translations, the workflow of your translators becomes"
-" a critical component."
-msgstr ""
+"When you work with translations, the workflow of your translators becomes a "
+"critical component."
+msgstr "使用翻译时，译者的工作流成为关键环节。"
 
 #: ../../upstream/docs/user/localization.rst:75
 msgid "Considerations include:"
-msgstr ""
+msgstr "需要考虑："
 
 #: ../../upstream/docs/user/localization.rst:77
 msgid ""
-"Are your translators able to use a Git workflow? For instance, are they "
-"able to translate directly via GitHub?"
-msgstr ""
+"Are your translators able to use a Git workflow? For instance, are they able"
+" to translate directly via GitHub?"
+msgstr "你的译者能否使用 Git 工作流？例如，他们能否直接通过 GitHub 翻译？"
 
 #: ../../upstream/docs/user/localization.rst:78
 msgid "Do you benefit from machine translation?"
-msgstr ""
+msgstr "机器翻译对你是否有帮助？"
 
 #: ../../upstream/docs/user/localization.rst:79
 msgid ""
 "Do you need different roles, for instance do you need translators and "
 "editors?"
-msgstr ""
+msgstr "你是否需要不同角色，例如译者与审校？"
 
 #: ../../upstream/docs/user/localization.rst:80
 msgid "What is your source language?"
-msgstr ""
+msgstr "你的源语言是什么？"
 
 #: ../../upstream/docs/user/localization.rst:81
 msgid "When are your translated versions published?"
-msgstr ""
+msgstr "翻译版本何时发布？"
 
 #: ../../upstream/docs/user/localization.rst:83
 msgid ""
 "There are many translation platforms that support this workflow. These "
 "include:"
-msgstr ""
+msgstr "许多翻译平台支持此工作流，包括："
 
 #: ../../upstream/docs/user/localization.rst:86
 msgid "`Weblate <https://weblate.org/>`_"
-msgstr ""
+msgstr "`Weblate <https://weblate.org/>`_"
 
 #: ../../upstream/docs/user/localization.rst:87
 msgid "`Transifex <https://www.transifex.com/>`_"
-msgstr ""
+msgstr "`Transifex <https://www.transifex.com/>`_"
 
 #: ../../upstream/docs/user/localization.rst:88
 msgid "`Crowdin <https://crowdin.com/>`_"
-msgstr ""
+msgstr "`Crowdin <https://crowdin.com/>`_"
 
 #: ../../upstream/docs/user/localization.rst:90
 msgid ""
 "Because Read the Docs builds your Git repository, you can use any of the "
-"above solutions. Any solution that synchronizes your translations with "
-"your Git repository will ensure that your translations are automatically "
+"above solutions. Any solution that synchronizes your translations with your "
+"Git repository will ensure that your translations are automatically "
 "published with Read the Docs."
 msgstr ""
+"由于 Read the Docs 构建你的 Git 仓库，你可以使用上述任一方案。任何能将翻译与 Git 仓库同步的方案，都能确保翻译随 Read "
+"the Docs 自动发布。"
 

@@ -230,7 +230,7 @@ msgid ""
 "*Cancelled* state. Cancelling builds allows your team to speed up review "
 "times and also help us reduce server costs and our environmental footprint."
 msgstr ""
-"*取消的* 构建是正常触发但未完成就停止的构建。取消的构建会以*已取消* "
+"*取消的* 构建是正常触发但未完成就停止的构建。取消的构建会以* 已取消* "
 "状态出现在构建历史中。取消构建可让你的团队加快审查速度，也有助于我们降低服务器成本和环境足迹。"
 
 #: ../../upstream/docs/user/builds.rst:109

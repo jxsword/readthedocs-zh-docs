@@ -22,163 +22,163 @@ msgstr ""
 
 #: ../../upstream/docs/user/versioning-schemes.rst:2
 msgid "URL versioning schemes"
-msgstr ""
+msgstr "URL 版本控制方案"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:4
 msgid ""
 "The URL versioning scheme of your project defines the URL of your "
 "documentation, and if your project supports multiple versions or "
 "translations."
-msgstr ""
+msgstr "项目的 URL 版本控制方案决定文档的 URL，以及项目是否支持多版本或多翻译。"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:7
 msgid "Read the Docs supports three different versioning schemes:"
-msgstr ""
+msgstr "Read the Docs 支持三种不同的版本控制方案："
 
 #: ../../upstream/docs/user/versioning-schemes.rst:9
 msgid "`Multiple versions with translations`_."
-msgstr ""
+msgstr "`Multiple versions with translations`_。"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:10
 msgid "`Multiple versions without translations`_."
-msgstr ""
+msgstr "`Multiple versions without translations`_。"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:11
 msgid "`Single version without translations`_."
-msgstr ""
+msgstr "`Single version without translations`_。"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:15
 msgid ":doc:`/versions`"
-msgstr ""
+msgstr ":doc:`/versions`"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:16
 msgid "General explanation of how versioning works on Read the Docs."
-msgstr ""
+msgstr "Read the Docs 上版本控制如何工作的总体说明。"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:18
 msgid ":doc:`/url-path-prefixes`"
-msgstr ""
+msgstr ":doc:`/url-path-prefixes`"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:19
-msgid ""
-"Customize the URL structure of your documentation with custom path "
-"prefixes."
-msgstr ""
+msgid "Customize the URL structure of your documentation with custom path prefixes."
+msgstr "用自定义路径前缀定制文档的 URL 结构。"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:22
 msgid "Multiple versions with translations"
-msgstr ""
+msgstr "多版本带翻译"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:24
 msgid ""
 "This is the default versioning scheme, it's the recommend one if your "
 "project has multiple versions, and has or plans to support translations."
-msgstr ""
+msgstr "这是默认的版本控制方案，若项目有多个版本且已支持或计划支持翻译，推荐使用。"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:27
 #: ../../upstream/docs/user/versioning-schemes.rst:40
 #: ../../upstream/docs/user/versioning-schemes.rst:59
 msgid "The URLs of your documentation will look like:"
-msgstr ""
+msgstr "文档 URL 形式如下："
 
 #: ../../upstream/docs/user/versioning-schemes.rst:29
 msgid "``/en/latest/``"
-msgstr ""
+msgstr "``/en/latest/``"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:30
 msgid "``/en/1.5/``"
-msgstr ""
+msgstr "``/en/1.5/``"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:31
 msgid "``/es/latest/install.html``"
-msgstr ""
+msgstr "``/es/latest/install.html``"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:32
 msgid "``/es/1.5/contributing.html``"
-msgstr ""
+msgstr "``/es/1.5/contributing.html``"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:35
 msgid "Multiple versions without translations"
-msgstr ""
+msgstr "多版本不带翻译"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:37
 msgid ""
 "Use this versioning scheme if you want to have multiple versions of your "
 "documentation, but don't want to have translations."
-msgstr ""
+msgstr "若想有多个文档版本但不想要翻译，使用此版本控制方案。"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:42
 msgid "``/latest/``"
-msgstr ""
+msgstr "``/latest/``"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:43
 msgid "``/1.5/install.html``"
-msgstr ""
+msgstr "``/1.5/install.html``"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:47
 msgid "This means you can't have translations for your documentation."
-msgstr ""
+msgstr "这意味着文档不能有翻译。"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:50
 msgid "Single version without translations"
-msgstr ""
+msgstr "单版本不带翻译"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:52
 msgid ""
 "Having a single version of a documentation project can be considered the "
-"better choice in cases where there should only always exist one "
-"unambiguous copy of your project. For example:"
-msgstr ""
+"better choice in cases where there should only always exist one unambiguous "
+"copy of your project. For example:"
+msgstr "在项目应始终只存在一份无歧义副本的情况下，单版本文档项目是更合适的选择。例如："
 
 #: ../../upstream/docs/user/versioning-schemes.rst:56
 msgid ""
-"A research project may wish to *only* expose readers to their latest list"
-" of publications and research data."
-msgstr ""
+"A research project may wish to *only* expose readers to their latest list of"
+" publications and research data."
+msgstr "研究项目可能希望*仅* 向读者展示其最新的论文与研究数据列表。"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:57
 msgid ""
-"A :abbr:`SaaS (Software as a Service)` application might only ever have "
-"one version live."
-msgstr ""
+"A :abbr:`SaaS (Software as a Service)` application might only ever have one "
+"version live."
+msgstr ":abbr:`SaaS (Software as a Service)` 应用可能永远只有一个线上版本。"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:61
 msgid "``/``"
-msgstr ""
+msgstr "``/``"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:62
 msgid "``/install.html``"
-msgstr ""
+msgstr "``/install.html``"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:66
 msgid ""
 "This means you can't have translations or multiple versions for your "
 "documentation."
-msgstr ""
+msgstr "这意味着文档不能有翻译或多个版本。"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:69
 msgid "How to change the URL versioning scheme of your project"
-msgstr ""
+msgstr "如何更改项目的 URL 版本控制方案"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:71
 msgid ""
-"Changing the versioning scheme of your project will affect the URLs of "
-"your documentation, any existing links to your documentation will break. "
-"If you want to keep the old URLs working, you can create :doc:`redirects "
-"</user-defined-redirects>`."
+"Changing the versioning scheme of your project will affect the URLs of your "
+"documentation, any existing links to your documentation will break. If you "
+"want to keep the old URLs working, you can create :doc:`redirects </user-"
+"defined-redirects>`."
 msgstr ""
+"更改项目的版本控制方案会影响文档 URL，现有的文档链接都会失效。若想保持旧 URL 可用，可创建 :doc:`重定向 </user-defined-"
+"redirects>`。"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:75
 msgid "Go to your project's :menuselection:`Settings`."
-msgstr ""
+msgstr "前往项目的 :menuselection:`Settings`。"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:76
 msgid ""
-"Select the new versioning scheme in the :guilabel:`URL versioning scheme`"
-" dropdown."
-msgstr ""
+"Select the new versioning scheme in the :guilabel:`URL versioning scheme` "
+"dropdown."
+msgstr "在 :guilabel:`URL versioning scheme` 下拉框中选择新的版本控制方案。"
 
 #: ../../upstream/docs/user/versioning-schemes.rst:77
 msgid "Click on :guilabel:`Save`."
-msgstr ""
+msgstr "点击 :guilabel:`Save`。"
 
