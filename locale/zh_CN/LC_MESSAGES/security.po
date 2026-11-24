@@ -22,147 +22,158 @@ msgstr ""
 
 #: ../../upstream/docs/user/security.rst:6
 msgid "Security reports"
-msgstr ""
+msgstr "安全报告"
 
 #: ../../upstream/docs/user/security.rst:8
 msgid ""
-"Security is extremely important to us at Read the Docs. We follow "
-"generally accepted industry standards to protect the personal information"
-" submitted to us, both during transmission and once we receive it. In the"
-" spirit of transparency, we are committed to responsible reporting and "
-"disclosure of security issues."
+"Security is extremely important to us at Read the Docs. We follow generally "
+"accepted industry standards to protect the personal information submitted to"
+" us, both during transmission and once we receive it. In the spirit of "
+"transparency, we are committed to responsible reporting and disclosure of "
+"security issues."
 msgstr ""
+"安全对 Read the Docs "
+"至关重要。我们遵循业界公认的标准保护提交给我们的个人信息，无论是在传输过程中还是接收之后。秉持透明精神，我们致力于负责任地报告和披露安全问题。"
 
 #: ../../upstream/docs/user/security.rst:17
 msgid "Contents"
-msgstr ""
+msgstr "目录"
 
 #: ../../upstream/docs/user/security.rst:21
 msgid ":doc:`/legal/security-policy`"
-msgstr ""
+msgstr ":doc:`/legal/security-policy`"
 
 #: ../../upstream/docs/user/security.rst:22
 msgid ""
 "Read our policy for security, which we base our security handling and "
 "reporting on."
-msgstr ""
+msgstr "阅读我们的安全政策，我们的安全处理和报告均以此为依据。"
 
 #: ../../upstream/docs/user/security.rst:25
 msgid "Supported versions"
-msgstr ""
+msgstr "受支持的版本"
 
 #: ../../upstream/docs/user/security.rst:27
 msgid ""
-"Only the latest version of Read the Docs will receive security updates. "
-"We don't support security updates for :doc:`custom installations </open-"
-"source-philosophy>` of Read the Docs."
+"Only the latest version of Read the Docs will receive security updates. We "
+"don't support security updates for :doc:`custom installations </open-source-"
+"philosophy>` of Read the Docs."
 msgstr ""
+"只有 Read the Docs 的最新版本会收到安全更新。我们不为 Read the Docs 的 :doc:`定制安装 </open-source-"
+"philosophy>` 提供安全更新。"
 
 #: ../../upstream/docs/user/security.rst:31
 msgid "Reporting a security issue"
-msgstr ""
+msgstr "报告安全问题"
 
 #: ../../upstream/docs/user/security.rst:33
 msgid ""
-"If you believe you've discovered a security issue at Read the Docs, "
-"please contact us at **security@readthedocs.org** (optionally using our "
-":ref:`security:PGP key`). We request that you please not publicly "
-"disclose the issue until it has been addressed by us."
+"If you believe you've discovered a security issue at Read the Docs, please "
+"contact us at **security@readthedocs.org** (optionally using our "
+":ref:`security:PGP key`). We request that you please not publicly disclose "
+"the issue until it has been addressed by us."
 msgstr ""
+"若你发现 Read the Docs 存在安全问题，请联系 **security@readthedocs.org** （可选用我们的 "
+":ref:`security:PGP key` ）。我们请求你在我们处理完毕前不要公开披露该问题。"
 
 #: ../../upstream/docs/user/security.rst:37
 msgid "You can expect:"
-msgstr ""
+msgstr "你可以期待："
 
 #: ../../upstream/docs/user/security.rst:39
-msgid ""
-"We will respond acknowledging your email typically within one business "
-"day."
-msgstr ""
+msgid "We will respond acknowledging your email typically within one business day."
+msgstr "我们通常会在一个工作日内回复确认你的邮件。"
 
 #: ../../upstream/docs/user/security.rst:40
 msgid ""
-"We will follow up if and when we have confirmed the issue with a "
-"timetable for the fix."
-msgstr ""
+"We will follow up if and when we have confirmed the issue with a timetable "
+"for the fix."
+msgstr "确认问题后，我们会跟进并给出修复时间表。"
 
 #: ../../upstream/docs/user/security.rst:41
 msgid "We will notify you when the issue is fixed."
-msgstr ""
+msgstr "问题修复后我们会通知你。"
 
 #: ../../upstream/docs/user/security.rst:42
 msgid ""
-"We will create a `GitHub advisory`_ and publish it when the issue has "
-"been fixed and deployed in our platforms."
-msgstr ""
+"We will create a `GitHub advisory`_ and publish it when the issue has been "
+"fixed and deployed in our platforms."
+msgstr "问题修复并部署到我们平台后，我们会创建 `GitHub advisory`_ 并发布。"
 
 #: ../../upstream/docs/user/security.rst:48
 msgid "PGP key"
-msgstr ""
+msgstr "PGP 密钥"
 
 #: ../../upstream/docs/user/security.rst:50
 msgid ""
 "You may use this :download:`PGP key </_static/security/pgpkey.txt>` to "
-"securely communicate with us and to verify signed messages you receive "
-"from us."
-msgstr ""
+"securely communicate with us and to verify signed messages you receive from "
+"us."
+msgstr "你可以使用此 :download:`PGP 密钥 </_static/security/pgpkey.txt>` 与我们安全通信，并验证你收到的签名消息。"
 
 #: ../../upstream/docs/user/security.rst:54
 msgid "Bug bounties"
-msgstr ""
+msgstr "漏洞赏金"
 
 #: ../../upstream/docs/user/security.rst:56
 msgid ""
-"While we sincerely appreciate and encourage reports of suspected security"
-" problems, please note that the Read the Docs is an open source project, "
-"and **does not run any bug bounty programs**. But we will gladly give "
-"credit to you and/or your organization for responsibly reporting security"
-" issues."
+"While we sincerely appreciate and encourage reports of suspected security "
+"problems, please note that the Read the Docs is an open source project, and "
+"**does not run any bug bounty programs**. But we will gladly give credit to "
+"you and/or your organization for responsibly reporting security issues."
 msgstr ""
+"我们真诚感谢并鼓励报告疑似安全问题，但请注意 Read the Docs 是开源项目，**不运行任何漏洞赏金计划** "
+"。不过，对负责任地报告安全问题的你和/或你的组织，我们乐于给予致谢。"
 
 #: ../../upstream/docs/user/security.rst:61
 msgid "Security issue archive"
-msgstr ""
+msgstr "安全问题归档"
 
 #: ../../upstream/docs/user/security.rst:63
 msgid ""
 "You can see all past reports at "
 "https://github.com/readthedocs/readthedocs.org/security/advisories."
 msgstr ""
+"你可以在 https://github.com/readthedocs/readthedocs.org/security/advisories "
+"查看所有过往报告。"
 
 #: ../../upstream/docs/user/security.rst:66
 msgid "Version 3.2.0"
-msgstr ""
+msgstr "Version 3.2.0"
 
 #: ../../upstream/docs/user/security.rst:68
 msgid ""
-":ref:`changelog:Version 3.2.0` resolved an issue where a specially "
-"crafted request could result in a DNS query to an arbitrary domain."
-msgstr ""
+":ref:`changelog:Version 3.2.0` resolved an issue where a specially crafted "
+"request could result in a DNS query to an arbitrary domain."
+msgstr ":ref:`changelog:Version 3.2.0` 修复了一个问题：特制请求可能导致对任意域名的 DNS 查询。"
 
 #: ../../upstream/docs/user/security.rst:71
 msgid ""
 "This issue was found by `Cyber Smart Defence "
-"<https://www.cybersmartdefence.com/>`_ who reported it as part of a "
-"security audit to a firm running a local installation of Read the Docs."
+"<https://www.cybersmartdefence.com/>`_ who reported it as part of a security"
+" audit to a firm running a local installation of Read the Docs."
 msgstr ""
+"该问题由 `Cyber Smart Defence <https://www.cybersmartdefence.com/>`_ 发现，他们在为某家运行"
+" Read the Docs 本地安装的公司做安全审计时报告了此问题。"
 
 #: ../../upstream/docs/user/security.rst:77
 msgid "Release 2.3.0"
-msgstr ""
+msgstr "Release 2.3.0"
 
 #: ../../upstream/docs/user/security.rst:79
 msgid ""
-":ref:`changelog:Version 2.3.0` resolves a security issue with "
-"translations on our community hosting site that allowed users to modify "
-"the hosted path of a target project by adding it as a translation project"
-" of their own project. A check was added to ensure project ownership "
-"before adding the project as a translation."
+":ref:`changelog:Version 2.3.0` resolves a security issue with translations "
+"on our community hosting site that allowed users to modify the hosted path "
+"of a target project by adding it as a translation project of their own "
+"project. A check was added to ensure project ownership before adding the "
+"project as a translation."
 msgstr ""
+":ref:`changelog:Version 2.3.0` "
+"修复了社区托管站点上翻译功能的一个安全问题：用户可将目标项目添加为自有项目的翻译项目，从而修改其托管路径。现已增加检查，在添加为翻译项目前确认项目所有权。"
 
 #: ../../upstream/docs/user/security.rst:84
 msgid ""
 "In order to add a project as a translation now, users must now first be "
 "granted ownership in the translation project."
-msgstr ""
+msgstr "如今要将项目添加为翻译，用户必须先获得该翻译项目的所有权。"
 

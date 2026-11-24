@@ -22,289 +22,295 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:2
 msgid "How to manage translations for Sphinx projects"
-msgstr ""
+msgstr "如何管理 Sphinx 项目的翻译"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:4
 msgid ""
-"This guide walks through the process needed to manage translations of "
-"your documentation. Once this work is done, you can set up your project "
-"under Read the Docs to build each language of your documentation by "
-"reading :doc:`/localization`."
+"This guide walks through the process needed to manage translations of your "
+"documentation. Once this work is done, you can set up your project under "
+"Read the Docs to build each language of your documentation by reading "
+":doc:`/localization`."
 msgstr ""
+"本指南讲解管理文档翻译所需的流程。完成这些工作后，可按 :doc:`/localization` 的说明在 Read the Docs "
+"上设置项目，构建文档的每种语言。"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:8
 msgid "Overview"
-msgstr ""
+msgstr "概览"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:10
 msgid ""
-"There are many different ways to manage documentation in multiple "
-"languages by using different tools or services. All of them have their "
-"pros and cons depending on the context of your project or organization."
-msgstr ""
+"There are many different ways to manage documentation in multiple languages "
+"by using different tools or services. All of them have their pros and cons "
+"depending on the context of your project or organization."
+msgstr "使用不同工具或服务管理多语言文档有多种方式。根据你项目或组织的实际情况，各有优劣。"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:13
 msgid ""
-"In this guide we will focus our efforts around two different methods: "
-"manual and using Transifex_."
-msgstr ""
+"In this guide we will focus our efforts around two different methods: manual"
+" and using Transifex_."
+msgstr "本指南聚焦两种方法：手动方式和使用 Transifex_。"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:15
 msgid ""
 "In both methods, we need to follow these steps to translate our "
 "documentation:"
-msgstr ""
+msgstr "两种方法都需要遵循以下步骤来翻译文档："
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:17
 msgid ""
 "Create translatable files (``.pot`` and ``.po`` extensions) from source "
 "language"
-msgstr ""
+msgstr "从源语言生成可翻译文件（``.pot`` 和 ``.po`` 扩展名）"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:18
 msgid "Translate the text on those files from source language to target language"
-msgstr ""
+msgstr "将这些文件中的文本从源语言翻译为目标语言"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:19
 msgid "Build the documentation in *target language* using the translated texts"
-msgstr ""
+msgstr "使用翻译后的文本以*目标语言* 构建文档"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:21
 msgid ""
-"Besides these steps, once we have published our first translated version "
-"of our documentation, we will want to keep it updated from the source "
-"language. At that time, the workflow would be:"
-msgstr ""
+"Besides these steps, once we have published our first translated version of "
+"our documentation, we will want to keep it updated from the source language."
+" At that time, the workflow would be:"
+msgstr "除上述步骤外，一旦发布了第一个翻译版本，我们还需让它随源语言保持更新。此时工作流为："
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:24
 msgid "Update our translatable files from source language"
-msgstr ""
+msgstr "从源语言更新可翻译文件"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:25
 msgid ""
 "Translate only *new* and *modified* texts in source language into target "
 "language"
-msgstr ""
+msgstr "只将源语言中*新增* 和*修改* 的文本翻译为目标语言"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:26
 msgid "Build the documentation using the most up to date translations"
-msgstr ""
+msgstr "使用最新的翻译构建文档"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:30
 msgid "Create translatable files"
-msgstr ""
+msgstr "生成可翻译文件"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:32
 msgid ""
-"To generate these ``.pot`` files it's needed to run this command from "
-"your ``docs/`` directory:"
-msgstr ""
+"To generate these ``.pot`` files it's needed to run this command from your "
+"``docs/`` directory:"
+msgstr "要生成这些 ``.pot`` 文件，需在你的 ``docs/`` 目录下运行此命令："
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:41
 msgid ""
-"We recommend configuring Sphinx to use gettext_uuid_ as ``True`` and also"
-" gettext_compact_ as ``False`` to generate ``.pot`` files."
+"We recommend configuring Sphinx to use gettext_uuid_ as ``True`` and also "
+"gettext_compact_ as ``False`` to generate ``.pot`` files."
 msgstr ""
+"我们建议配置 Sphinx 将 gettext_uuid_ 设为 ``True`` ，gettext_compact_ 设为 ``False`` 以生成"
+" ``.pot`` 文件。"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:50
 msgid "This command will leave the generated files under ``_build/gettext``."
-msgstr ""
+msgstr "此命令会将生成的文件留在 ``_build/gettext`` 下。"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:54
 msgid "Translate text from source language"
-msgstr ""
+msgstr "从源语言翻译文本"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:57
 msgid "Manually"
-msgstr ""
+msgstr "手动方式"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:59
 msgid "We recommend using `sphinx-intl`_ tool for this workflow."
-msgstr ""
+msgstr "我们建议在此工作流中使用 `sphinx-intl`_ 工具。"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:63
 msgid "First, you need to install it:"
-msgstr ""
+msgstr "首先，你需要安装它："
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:70
 msgid ""
-"As a second step, we want to create a directory with each translated file"
-" per target language (in this example we are using Spanish/Argentina and "
+"As a second step, we want to create a directory with each translated file "
+"per target language (in this example we are using Spanish/Argentina and "
 "Portuguese/Brazil). This can be achieved with the following command:"
-msgstr ""
+msgstr "第二步，我们要创建一个按目标语言组织翻译文件的目录（本例使用西班牙语/阿根廷和葡萄牙语/巴西）。可用以下命令实现："
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:78
 msgid ""
 "This command will create a directory structure similar to the following "
 "(with one ``.po`` file per ``.rst`` file in your documentation)::"
-msgstr ""
+msgstr "此命令会创建类似以下的目录结构（文档中每个 ``.rst`` 文件对应一个 ``.po`` 文件）：："
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:90
 msgid ""
-"Now, you can just open those ``.po`` files with a text editor and "
-"translate them taking care of no breaking the reST notation. Example:"
-msgstr ""
+"Now, you can just open those ``.po`` files with a text editor and translate "
+"them taking care of no breaking the reST notation. Example:"
+msgstr "现在你只需用文本编辑器打开这些 ``.po`` 文件并翻译，注意不要破坏 reST 标记。示例："
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:106
 msgid "Using Transifex"
-msgstr ""
+msgstr "使用 Transifex"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:108
 msgid ""
-"Transifex_ is a platform that simplifies the manipulation of ``.po`` "
-"files and offers many useful features to make the translation process as "
-"smooth as possible. These features includes a great web based UI, "
-"`Translation Memory`_, collaborative translation, etc."
+"Transifex_ is a platform that simplifies the manipulation of ``.po`` files "
+"and offers many useful features to make the translation process as smooth as"
+" possible. These features includes a great web based UI, `Translation "
+"Memory`_, collaborative translation, etc."
 msgstr ""
+"Transifex_ 是一个简化 ``.po`` 文件操作的平台，提供许多实用功能让翻译过程尽可能顺畅。这些功能包括优秀的 Web "
+"界面、`Translation Memory`_ 、协作翻译等。"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:114
 msgid ""
 "You need to create an account in their service and a new project before "
 "start."
-msgstr ""
+msgstr "开始前，你需要在他们的服务中创建账户并新建项目。"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:116
 msgid ""
-"After that, you need to install the `Transifex CLI`_ tool which will help"
-" you in the process to upload source files, update them and also download"
-" translated files. To do this, run this command:"
-msgstr ""
+"After that, you need to install the `Transifex CLI`_ tool which will help "
+"you in the process to upload source files, update them and also download "
+"translated files. To do this, run this command:"
+msgstr "之后，你需要安装 `Transifex CLI`_ 工具，它能帮你上传源文件、更新它们以及下载翻译文件。为此运行此命令："
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:125
 msgid ""
-"After installing it, you need to configure your account. For this, you "
-"need to create an API Token for your user to access this service through "
-"the command line. This can be done under your `User's Settings`_."
-msgstr ""
+"After installing it, you need to configure your account. For this, you need "
+"to create an API Token for your user to access this service through the "
+"command line. This can be done under your `User's Settings`_."
+msgstr "安装后需要配置你的账户。为此，你需要在 `User's Settings`_ 下创建一个 API 令牌，以便通过命令行访问该服务。"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:131
 msgid ""
-"With the token, you have two options: to export as ``TX_TOKEN`` "
-"environment variable or to store it in ``~/.transifexrc``."
-msgstr ""
+"With the token, you have two options: to export as ``TX_TOKEN`` environment "
+"variable or to store it in ``~/.transifexrc``."
+msgstr "有了令牌，你有两个选择：导出为 ``TX_TOKEN`` 环境变量，或存储在 ``~/.transifexrc`` 中。"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:133
 msgid ""
 "You can export the token to an environment variable, using an ``export`` "
 "command, which activates it in your current command line session:"
-msgstr ""
+msgstr "你可以用 ``export`` 命令把令牌导出为环境变量，在当前命令行会话中生效："
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:140
 msgid ""
 "In order to store the token permanently, you can save it in a "
 "``~/.transifexrc`` file. It should look like this:"
-msgstr ""
+msgstr "要永久保存令牌，可将其存入 ``~/.transifexrc`` 文件。内容应如下："
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:150
 msgid ""
 "Now, it is time to set the project's Transifex configuration and to map "
 "every ``.pot`` file you have created in the previous step to a resource "
 "under Transifex. To achieve this, you need to run this command:"
-msgstr ""
+msgstr "现在该设置项目的 Transifex 配置，并将上一步创建的每个 ``.pot`` 文件映射到 Transifex 下的资源。为此运行此命令："
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:163
 msgid ""
-"This command will generate a file at ``.tx/config`` with all the "
-"information needed by the ``tx`` tool to keep your translation "
-"synchronized."
-msgstr ""
+"This command will generate a file at ``.tx/config`` with all the information"
+" needed by the ``tx`` tool to keep your translation synchronized."
+msgstr "此命令会在 ``.tx/config`` 生成文件，包含 ``tx`` 工具保持翻译同步所需的全部信息。"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:170
 msgid ""
-"Finally, you need to upload these files to Transifex platform so "
-"translators can start their work. To do this, you can run this command:"
-msgstr ""
+"Finally, you need to upload these files to Transifex platform so translators"
+" can start their work. To do this, you can run this command:"
+msgstr "最后，需要把这些文件上传到 Transifex 平台，让译者开始工作。为此运行此命令："
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:178
 msgid ""
 "Now, you can go to your Transifex's project and check that there is one "
-"resource per ``.rst`` file of your documentation. After the source files "
-"are translated using Transifex, you can download all the translations for"
-" all the languages by running:"
+"resource per ``.rst`` file of your documentation. After the source files are"
+" translated using Transifex, you can download all the translations for all "
+"the languages by running:"
 msgstr ""
+"现在你可以前往 Transifex 项目，确认文档中每个 ``.rst`` 文件都对应一个资源。源文件用 Transifex "
+"翻译完成后，可通过以下命令下载所有语言的全部翻译："
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:185
 msgid ""
 "This command will leave the ``.po`` files needed for building the "
 "documentation in the target language under ``locale/<lang>/LC_MESSAGES``."
-msgstr ""
+msgstr "此命令会将构建目标语言文档所需的 ``.po`` 文件留在 ``locale/<lang>/LC_MESSAGES`` 下。"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:189
 msgid ""
-"It's important to use always the same method to translate the "
-"documentation and do not mix them. Otherwise, it's very easy to end up "
-"with inconsistent translations or losing already translated text."
-msgstr ""
+"It's important to use always the same method to translate the documentation "
+"and do not mix them. Otherwise, it's very easy to end up with inconsistent "
+"translations or losing already translated text."
+msgstr "务必始终使用同一种方法翻译文档，不要混用。否则很容易产生译文不一致，或丢失已翻译的文本。"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:194
 msgid "Build the documentation in target language"
-msgstr ""
+msgstr "以目标语言构建文档"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:197
 msgid ""
-"Finally, to build our documentation in Spanish(Argentina) we need to tell"
-" Sphinx builder the target language with the following command:"
-msgstr ""
+"Finally, to build our documentation in Spanish(Argentina) we need to tell "
+"Sphinx builder the target language with the following command:"
+msgstr "最后，要以西班牙语（阿根廷）构建文档，需用以下命令告知 Sphinx 构建器目标语言："
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:205
 msgid ""
-"There is no need to create a new ``conf.py`` to redefine the ``language``"
-" for the Spanish version of this documentation, but you need to set "
-"locale_dirs_ to ``[\"locale\"]`` for Sphinx to find the translated "
-"content."
+"There is no need to create a new ``conf.py`` to redefine the ``language`` "
+"for the Spanish version of this documentation, but you need to set "
+"locale_dirs_ to ``[\"locale\"]`` for Sphinx to find the translated content."
 msgstr ""
+"无需新建 ``conf.py`` 来重定义该文档西班牙语版本的 ``language`` ，但你需要把 locale_dirs_ 设为 "
+"``[\"locale\"]`` ，让 Sphinx 找到翻译内容。"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:210
 msgid ""
 "After running this command, the Spanish(Argentina) version of your "
 "documentation will be under ``_build/html/es_AR``."
-msgstr ""
+msgstr "运行此命令后，文档的西班牙语（阿根廷）版本将位于 ``_build/html/es_AR`` 下。"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:214
 msgid "Summary"
-msgstr ""
+msgstr "小结"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:217
 msgid "Update sources to be translated"
-msgstr ""
+msgstr "更新待翻译的源文件"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:219
 msgid ""
-"Once you have done changes in your documentation, you may want to make "
-"these additions/modifications available for translators so they can "
-"update it:"
-msgstr ""
+"Once you have done changes in your documentation, you may want to make these"
+" additions/modifications available for translators so they can update it:"
+msgstr "完成文档修改后，你可能希望把这些新增/修改提供给译者以便其更新："
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:221
 msgid "Create the ``.pot`` files:"
-msgstr ""
+msgstr "创建 ``.pot`` 文件："
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:233
 msgid "Push new files to Transifex"
-msgstr ""
+msgstr "将新文件推送到 Transifex"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:241
 msgid "Build documentation from up to date translation"
-msgstr ""
+msgstr "用最新翻译构建文档"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:243
 msgid ""
 "When translators have finished their job, you may want to update the "
 "documentation by pulling the changes from Transifex:"
-msgstr ""
+msgstr "译者完成后，你可能希望通过拉取 Transifex 的更改来更新文档："
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:245
 msgid "Pull up to date translations from Transifex:"
-msgstr ""
+msgstr "从 Transifex 拉取最新翻译："
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:251
 msgid "Commit and push these changes to our repo"
-msgstr ""
+msgstr "将这些更改提交并推送到我们的仓库"
 
 #: ../../upstream/docs/user/guides/manage-translations-sphinx.rst:259
 msgid ""
-"The last ``git push`` will trigger a build per translation defined as "
-"part of your project under Read the Docs and make it immediately "
-"available."
-msgstr ""
+"The last ``git push`` will trigger a build per translation defined as part "
+"of your project under Read the Docs and make it immediately available."
+msgstr "最后一次 ``git push`` 会为 Read the Docs 项目中定义的每种翻译触发构建，并立即生效。"
 

@@ -22,17 +22,17 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/hiding-a-version.rst:2
 msgid "How to hide a version and keep its documentation online"
-msgstr ""
+msgstr "如何隐藏版本同时保持其文档在线"
 
 #: ../../upstream/docs/user/guides/hiding-a-version.rst:4
 msgid ""
-"If you manage a project with a lot of versions, the version (flyout) menu"
-" of your docs can be easily overwhelmed and hard to navigate."
-msgstr ""
+"If you manage a project with a lot of versions, the version (flyout) menu of"
+" your docs can be easily overwhelmed and hard to navigate."
+msgstr "若你管理的项目版本很多，文档的版本（浮出）菜单很容易被塞满且难以导航。"
 
 #: ../../upstream/docs/user/guides/hiding-a-version.rst:10
 msgid "Overwhelmed flyout menu"
-msgstr ""
+msgstr "被塞满的浮出菜单"
 
 #: ../../upstream/docs/user/guides/hiding-a-version.rst:12
 msgid ""
@@ -42,18 +42,23 @@ msgid ""
 ":menuselection:`Versions` tab, open the dot menu for the version, select "
 ":guilabel:`Configure version`, and toggle the :guilabel:`Hidden` option."
 msgstr ""
+"你可以停用版本来移除其文档，但移除文档并非总是可行。若想在浮出菜单中不列出某版本、同时保持其文档在线，可将其标记为隐藏。前往项目的 "
+":menuselection:`Versions` 标签页，打开该版本的操作菜单，选择 :guilabel:`Configure version` "
+"，切换 :guilabel:`Hidden` 选项。"
 
 #: ../../upstream/docs/user/guides/hiding-a-version.rst:17
 msgid ""
-"Users that have a link to your old version will still be able to see your"
-" docs. And new users can see all your versions (including hidden "
-"versions) in the versions tab of your project at "
-"``https://app.readthedocs.org/projects/<your-project>/versions/``"
+"Users that have a link to your old version will still be able to see your "
+"docs. And new users can see all your versions (including hidden versions) in"
+" the versions tab of your project at ``https://app.readthedocs.org/projects"
+"/<your-project>/versions/``"
 msgstr ""
+"持有你旧版本链接的用户仍可查看文档。新用户则可在项目的版本标签页 ``https://app.readthedocs.org/projects"
+"/<your-project>/versions/`` 看到所有版本（含隐藏版本）。"
 
 #: ../../upstream/docs/user/guides/hiding-a-version.rst:20
 msgid ""
-"Check the docs about :ref:`versions' states <versions:Version States>` "
-"for more information."
-msgstr ""
+"Check the docs about :ref:`versions' states <versions:Version States>` for "
+"more information."
+msgstr "更多信息请查阅 :ref:`版本状态 <versions:Version States>` 相关文档。"
 

@@ -22,173 +22,180 @@ msgstr ""
 
 #: ../../upstream/docs/user/legal/security-policy.rst:2
 msgid "Security policy"
-msgstr ""
+msgstr "安全政策"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:4
 msgid ""
-"Read the Docs adheres to the following security policies and procedures "
-"with regards to development, operations, and managing infrastructure. You"
-" can also find information on how we handle specific user data in our "
-":doc:`/privacy-policy`."
+"Read the Docs adheres to the following security policies and procedures with"
+" regards to development, operations, and managing infrastructure. You can "
+"also find information on how we handle specific user data in our :doc"
+":`/privacy-policy`."
 msgstr ""
+"Read the Docs 在开发、运营和基础设施管理方面遵循以下安全政策和流程。关于我们如何处理特定用户数据的信息，也可参阅 :doc"
+":`/privacy-policy` 。"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:9
 msgid ""
 "Our engineering team monitors several sources for security threats and "
 "responds accordingly to security threats and notifications."
-msgstr ""
+msgstr "我们的工程团队监控多个安全威胁来源，并相应响应安全威胁与通知。"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:12
 msgid ""
 "We monitor 3rd party software included in our application and in our "
-"infrastructure for security notifications. Any relevant security patches "
-"are applied and released immediately."
-msgstr ""
+"infrastructure for security notifications. Any relevant security patches are"
+" applied and released immediately."
+msgstr "我们监控应用和基础设施中包含的第三方软件以获取安全通知。任何相关安全补丁都会立即应用并发布。"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:15
 msgid ""
-"We monitor our infrastructure providers for signs of attacks or abuse and"
-" will respond accordingly to threats."
-msgstr ""
+"We monitor our infrastructure providers for signs of attacks or abuse and "
+"will respond accordingly to threats."
+msgstr "我们监控基础设施提供商是否有攻击或滥用迹象，并相应响应威胁。"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:19
 msgid "Infrastructure"
-msgstr ""
+msgstr "基础设施"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:21
 msgid ""
 "Read the Docs infrastructure is hosted on Amazon Web Services (AWS).  We "
 "also use Cloudflare services to mitigate attacks and abuse."
-msgstr ""
+msgstr "Read the Docs 基础设施托管在 Amazon Web Services（AWS）上。我们还使用 Cloudflare 服务缓解攻击和滥用。"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:25
 msgid "`AWS security policies`_"
-msgstr ""
+msgstr "`AWS security policies`_"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:26
 msgid "`Cloudflare privacy and security policies`_"
-msgstr ""
+msgstr "`Cloudflare privacy and security policies`_"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:32
 msgid "Data and data center"
-msgstr ""
+msgstr "数据与数据中心"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:34
 msgid ""
-"All user data is stored in the USA in multi-tenant datastores in Amazon "
-"Web Services data centers. Physical access to these data centers is "
-"secured with a `variety of controls`_ to prevent unauthorized access."
+"All user data is stored in the USA in multi-tenant datastores in Amazon Web "
+"Services data centers. Physical access to these data centers is secured with"
+" a `variety of controls`_ to prevent unauthorized access."
 msgstr ""
+"所有用户数据都存储在美国 Amazon Web Services 数据中心的多租户数据存储中。对这些数据中心的物理访问通过 `variety of "
+"controls`_ 加以防护，防止未授权访问。"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:41
 msgid "Application"
-msgstr ""
+msgstr "应用"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:43
 msgid "Encryption in transit"
-msgstr ""
+msgstr "传输加密"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:44
 msgid ""
 "All documentation, application dashboard, and API access is transmitted "
 "using SSL encryption. We do not support unencrypted requests, even for "
 "public project documentation hosting."
-msgstr ""
+msgstr "所有文档、应用仪表盘和 API 访问均使用 SSL 加密传输。我们不支持未加密的请求，即使对公开项目的文档托管也是如此。"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:48
 msgid "Temporary repository storage"
-msgstr ""
+msgstr "临时仓库存储"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:49
 msgid ""
-"We do not store or cache user repository data, temporary storage is used "
-"for every project build on Read the Docs."
-msgstr ""
+"We do not store or cache user repository data, temporary storage is used for"
+" every project build on Read the Docs."
+msgstr "我们不存储或缓存用户仓库数据，Read the Docs 上每次项目构建都使用临时存储。"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:52
 msgid "Authentication"
-msgstr ""
+msgstr "认证"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:53
 msgid ""
 "Read the Docs supports SSO with GitHub, GitLab, Bitbucket, and Google "
 "Workspaces (formerly G Suite)."
 msgstr ""
+"Read the Docs 支持与 GitHub、GitLab、Bitbucket 和 Google Workspaces（原 G Suite）的 "
+"SSO。"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:56
 msgid "Payment security"
-msgstr ""
+msgstr "支付安全"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:57
 msgid ""
-"We do not store or process any payment details. All payment information "
-"is stored with our payment provider, Stripe -- a PCI-certified level 1 "
-"payment provider."
-msgstr ""
+"We do not store or process any payment details. All payment information is "
+"stored with our payment provider, Stripe -- a PCI-certified level 1 payment "
+"provider."
+msgstr "我们不存储或处理任何支付详情。所有支付信息都存储在我们的支付提供商 Stripe 处——一家通过 PCI 认证的 1 级支付提供商。"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:62
 msgid "Engineering and operational practices"
-msgstr ""
+msgstr "工程与运营实践"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:64
 msgid "Immutable infrastructure"
-msgstr ""
+msgstr "不可变基础设施"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:65
 msgid ""
-"We don’t make live changes to production code or infrastructure. All "
-"changes to our application and our infrastructure go through the same "
-"code review process before being applied and released."
-msgstr ""
+"We don’t make live changes to production code or infrastructure. All changes"
+" to our application and our infrastructure go through the same code review "
+"process before being applied and released."
+msgstr "我们不对生产代码或基础设施做线上变更。对应用和基础设施的所有变更在应用和发布前都经过同样的代码审查流程。"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:69
 msgid "Continuous integration"
-msgstr ""
+msgstr "持续集成"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:70
 msgid ""
-"We are constantly testing changes to our application code and operational"
-" changes to our infrastructure."
-msgstr ""
+"We are constantly testing changes to our application code and operational "
+"changes to our infrastructure."
+msgstr "我们持续测试应用代码的变更以及基础设施的运维变更。"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:73
 msgid "Incident response"
-msgstr ""
+msgstr "事件响应"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:74
 msgid ""
 "Our engineering team is on a rotating on-call schedule to respond to "
 "security or availability incidents."
-msgstr ""
+msgstr "我们的工程团队按轮值待命，响应安全或可用性事件。"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:78
 msgid "Account security"
-msgstr ""
+msgstr "账户安全"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:80
 msgid "All traffic is encrypted in transit so your login is protected."
-msgstr ""
+msgstr "所有流量都在传输中加密，你的登录信息受到保护。"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:81
 msgid ""
-"Read the Docs stores only one-way hashes of all passwords. Nobody at Read"
-" the Docs has access to your passwords."
-msgstr ""
+"Read the Docs stores only one-way hashes of all passwords. Nobody at Read "
+"the Docs has access to your passwords."
+msgstr "Read the Docs 只存储密码的单向哈希。Read the Docs 的任何人都无法访问你的密码。"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:83
 msgid "Account login is protected from brute force attacks with rate limiting."
-msgstr ""
+msgstr "账户登录通过速率限制防止暴力破解攻击。"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:84
 msgid ""
 "While most projects and docs on Read the Docs are public, we treat your "
-"private repositories and private documentation as confidential and Read "
-"the Docs employees may only view them with your explicit permission in "
-"response to your support requests, or when required for security "
-"purposes."
+"private repositories and private documentation as confidential and Read the "
+"Docs employees may only view them with your explicit permission in response "
+"to your support requests, or when required for security purposes."
 msgstr ""
+"尽管 Read the Docs 上大多数项目和文档是公开的，我们仍把你的私有仓库和私有文档视为机密。Read the Docs "
+"员工只有在你的支持请求中明确许可，或出于安全目的需要时，才会查看它们。"
 
 #: ../../upstream/docs/user/legal/security-policy.rst:89
 msgid "You can read more about account privacy in our :doc:`/privacy-policy`."
-msgstr ""
+msgstr "关于账户隐私的更多信息，请参阅我们的 :doc:`/privacy-policy` 。"
 

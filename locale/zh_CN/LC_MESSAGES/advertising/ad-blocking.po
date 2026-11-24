@@ -22,132 +22,152 @@ msgstr ""
 
 #: ../../upstream/docs/user/advertising/ad-blocking.rst:2
 msgid "Ad blocking"
-msgstr ""
+msgstr "广告拦截"
 
 #: ../../upstream/docs/user/advertising/ad-blocking.rst:4
 msgid ""
-"Ad blockers fulfill a legitimate need to mitigate the significant "
-"downsides of advertising from tracking across the internet, security "
-"implications of third-party code, and impacting the UX and performance of"
-" sites."
-msgstr ""
+"Ad blockers fulfill a legitimate need to mitigate the significant downsides "
+"of advertising from tracking across the internet, security implications of "
+"third-party code, and impacting the UX and performance of sites."
+msgstr "广告拦截器满足了一个正当需求：减轻广告在互联网上追踪带来的诸多弊端、第三方代码的安全隐患，以及对站点用户体验和性能的影响。"
 
 #: ../../upstream/docs/user/advertising/ad-blocking.rst:10
 msgid ""
-"At Read the Docs, we specifically didn't want those things. That's why we"
-" built the our :doc:`Ethical Ad initiative <ethical-advertising>` with "
-"only relevant, unobtrusive ads that respect your privacy and don't do "
-"creepy behavioral targeting."
+"At Read the Docs, we specifically didn't want those things. That's why we "
+"built the our :doc:`Ethical Ad initiative <ethical-advertising>` with only "
+"relevant, unobtrusive ads that respect your privacy and don't do creepy "
+"behavioral targeting."
 msgstr ""
+"在 Read the Docs，我们明确不希望出现这些问题。这正是我们打造 :doc:`道德广告计划 <ethical-advertising>` "
+"的原因——只投放相关、不打扰的广告，尊重你的隐私，不做令人不适的行为定向。"
 
 #: ../../upstream/docs/user/advertising/ad-blocking.rst:15
 msgid ""
-"Advertising is the single largest source of funding for Read the Docs. To"
-" keep our operations sustainable, we ask that you either :ref:`allow our "
+"Advertising is the single largest source of funding for Read the Docs. To "
+"keep our operations sustainable, we ask that you either :ref:`allow our "
 "EthicalAds <advertising/ad-blocking:Allowing EthicalAds>` or :ref:`go ad-"
 "free <advertising/ad-blocking:Going ad-free>`."
 msgstr ""
+"广告是 Read the Docs 最大的单一资金来源。为保持运营可持续，我们请求你 :ref:`允许我们的 EthicalAds "
+"<advertising/ad-blocking:Allowing EthicalAds>` 或 :ref:`选择无广告 <advertising"
+"/ad-blocking:Going ad-free>` 。"
 
 #: ../../upstream/docs/user/advertising/ad-blocking.rst:22
 msgid "Allowing EthicalAds"
-msgstr ""
+msgstr "允许 EthicalAds"
 
 #: ../../upstream/docs/user/advertising/ad-blocking.rst:24
 msgid ""
 "If you use AdBlock or AdBlockPlus and you allow `acceptable ads`_ or "
-"`privacy-friendly acceptable ads`_ then you're all set. Advertising on "
-"Read the Docs complies with both of these programs."
+"`privacy-friendly acceptable ads`_ then you're all set. Advertising on Read "
+"the Docs complies with both of these programs."
 msgstr ""
+"若你使用 AdBlock 或 AdBlockPlus 并允许了 `acceptable ads`_ 或 `privacy-friendly "
+"acceptable ads`_ ，就没问题了。Read the Docs 上的广告符合这两个项目的规定。"
 
 #: ../../upstream/docs/user/advertising/ad-blocking.rst:29
 msgid ""
-"If you prefer not to allow acceptable ads but would consider allowing "
-"`ads that benefit open source`_, please consider subscribing to either "
-"the wider **Open Source Ads list** or simply the **Read the Docs Ads "
-"list**."
+"If you prefer not to allow acceptable ads but would consider allowing `ads "
+"that benefit open source`_, please consider subscribing to either the wider "
+"**Open Source Ads list** or simply the **Read the Docs Ads list**."
 msgstr ""
+"若你不愿允许 acceptable ads，但愿意考虑允许 `ads that benefit open source`_ ，请考虑订阅更宽泛的 "
+"**Open Source Ads 列表** ，或仅订阅 **Read the Docs Ads 列表** 。"
 
 #: ../../upstream/docs/user/advertising/ad-blocking.rst:34
 msgid "`Setup for AdBlock`_"
-msgstr ""
+msgstr "`Setup for AdBlock`_"
 
 #: ../../upstream/docs/user/advertising/ad-blocking.rst:35
 msgid "`Setup for AdBlockPlus`_"
-msgstr ""
+msgstr "`Setup for AdBlockPlus`_"
 
 #: ../../upstream/docs/user/advertising/ad-blocking.rst:36
 msgid "`Setup for uBlock Origin`_"
-msgstr ""
+msgstr "`Setup for uBlock Origin`_"
 
 #: ../../upstream/docs/user/advertising/ad-blocking.rst:40
 msgid ""
-"Because of the way Read the Docs is structured where docs are hosted on "
-"many different domains, adding a normal ad block exception will only "
-"allow that single domain not Read the Docs as a whole."
-msgstr ""
+"Because of the way Read the Docs is structured where docs are hosted on many"
+" different domains, adding a normal ad block exception will only allow that "
+"single domain not Read the Docs as a whole."
+msgstr "由于 Read the Docs 的结构是文档托管在许多不同域名上，添加常规广告拦截例外只会放行那一个域名，而非整个 Read the Docs。"
 
 #: ../../upstream/docs/user/advertising/ad-blocking.rst:53
 msgid "Going ad-free"
-msgstr ""
+msgstr "选择无广告"
 
 #: ../../upstream/docs/user/advertising/ad-blocking.rst:55
 msgid ""
-"`Gold members <https://app.readthedocs.org/accounts/gold/>`_ may "
-"completely remove advertising for all visitors to their projects. Thank "
-"you for supporting Read the Docs."
+"`Gold members <https://app.readthedocs.org/accounts/gold/>`_ may completely "
+"remove advertising for all visitors to their projects. Thank you for "
+"supporting Read the Docs."
 msgstr ""
+"`Gold members <https://app.readthedocs.org/accounts/gold/>`_ "
+"可以为所有访问其项目的访客彻底移除广告。感谢你对 Read the Docs 的支持。"
 
 #: ../../upstream/docs/user/advertising/ad-blocking.rst:61
 msgid ""
 "Previously, Gold members or `Supporters "
-"<https://app.readthedocs.org/sustainability/#donations>`_ were provided "
-"an ad-free reading experience across all projects on Read the Docs while "
-"logged-in. However, the cross-site cookies needed to make that work are "
-"no longer supported by major browsers outside of Chrome, and this feature"
-" has been removed."
+"<https://app.readthedocs.org/sustainability/#donations>`_ were provided an "
+"ad-free reading experience across all projects on Read the Docs while "
+"logged-in. However, the cross-site cookies needed to make that work are no "
+"longer supported by major browsers outside of Chrome, and this feature has "
+"been removed."
 msgstr ""
+"此前，Gold 成员或 `Supporters "
+"<https://app.readthedocs.org/sustainability/#donations>`_ 在登录状态下可在 Read the "
+"Docs 所有项目中获得无广告阅读体验。但实现该功能所需的跨站 cookie 已不被 Chrome 之外的主流浏览器支持，此功能已被移除。"
 
 #: ../../upstream/docs/user/advertising/ad-blocking.rst:69
 msgid "Statistics and data"
-msgstr ""
+msgstr "统计数据"
 
 #: ../../upstream/docs/user/advertising/ad-blocking.rst:71
 msgid ""
 "It can be really hard to find good data on ad blocking. In the spirit of "
 "transparency, here is the data we have on ad blocking at Read the Docs."
-msgstr ""
+msgstr "要找到关于广告拦截的可靠数据相当困难。秉持透明精神，以下是我们掌握的 Read the Docs 广告拦截数据。"
 
 #: ../../upstream/docs/user/advertising/ad-blocking.rst:75
 #, python-format
 msgid ""
-"`32% of Read the Docs users use an ad blocker "
-"<https://blog.readthedocs.com/ads-and-adblocking/>`_"
+"`32% of Read the Docs users use an ad blocker <https://blog.readthedocs.com"
+"/ads-and-adblocking/>`_"
 msgstr ""
+"`32% 的 Read the Docs 用户使用广告拦截器 <https://blog.readthedocs.com/ads-and-"
+"adblocking/>`_"
 
 #: ../../upstream/docs/user/advertising/ad-blocking.rst:76
 msgid ""
 "Of those, `a little over 50% allow acceptable ads "
 "<https://blog.readthedocs.com/ad-blocker-update/>`_"
 msgstr ""
+"其中 `略多于 50% 允许 acceptable ads <https://blog.readthedocs.com/ad-blocker-"
+"update/>`_"
 
 #: ../../upstream/docs/user/advertising/ad-blocking.rst:77
 msgid ""
-"Read the Docs users running ad blockers click on ads at about the same "
-"rate as those not running an ad blocker."
-msgstr ""
+"Read the Docs users running ad blockers click on ads at about the same rate "
+"as those not running an ad blocker."
+msgstr "运行广告拦截器的 Read the Docs 用户点击广告的比率与未运行拦截器的用户大致相同。"
 
 #: ../../upstream/docs/user/advertising/ad-blocking.rst:79
 #, python-format
 msgid ""
-"Comparing with our server logs, roughly 28% of our hits did not register "
-"a Google Analytics (GA) pageview due to an ad blocker, privacy plugin, "
+"Comparing with our server logs, roughly 28% of our hits did not register a "
+"Google Analytics (GA) pageview due to an ad blocker, privacy plugin, "
 "disabling JavaScript, or another reason."
 msgstr ""
+"对比我们的服务器日志，约 28% 的访问未记录到 Google Analytics（GA）页面浏览，原因可能是广告拦截器、隐私插件、禁用 "
+"JavaScript 或其他。"
 
 #: ../../upstream/docs/user/advertising/ad-blocking.rst:82
 #, python-format
 msgid ""
-"Of users who do not block GA, about 6% opt out of analytics on Read the "
-"Docs by enabling :ref:`Do Not Track <privacy-policy:Do Not Track>`."
+"Of users who do not block GA, about 6% opt out of analytics on Read the Docs"
+" by enabling :ref:`Do Not Track <privacy-policy:Do Not Track>`."
 msgstr ""
+"在未拦截 GA 的用户中，约 6% 通过启用 :ref:`Do Not Track <privacy-policy:Do Not Track>` "
+"选择退出 Read the Docs 的分析。"
 

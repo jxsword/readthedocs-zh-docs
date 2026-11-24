@@ -22,106 +22,110 @@ msgstr ""
 
 #: ../../upstream/docs/user/commercial/organizations.rst:2
 msgid "Organizations"
-msgstr ""
+msgstr "组织"
 
 #: ../../upstream/docs/user/shared/admonition-rtd-business.rst:2
 msgid ""
 "This feature is only available on `Read the Docs Business "
 "<https://app.readthedocs.com/>`_."
-msgstr ""
+msgstr "此功能仅在 `Read the Docs Business <https://app.readthedocs.com/>`_ 上提供。"
 
 #: ../../upstream/docs/user/commercial/organizations.rst:6
 msgid ""
-"In this article, we explain how the *organizations* feature allows you to"
-" manage access to your projects. On |com_brand|, your account is linked "
-"to an *organization*. Organizations allow you to define both individual "
-"and team permissions for your projects."
-msgstr ""
+"In this article, we explain how the *organizations* feature allows you to "
+"manage access to your projects. On |com_brand|, your account is linked to an"
+" *organization*. Organizations allow you to define both individual and team "
+"permissions for your projects."
+msgstr "本文讲解*组织* 功能如何让你管理项目的访问权限。在 |com_brand| 上，你的账户关联到一个*组织* 。组织让你能为项目定义个人和团队两种权限。"
 
 #: ../../upstream/docs/user/commercial/organizations.rst:12
 msgid ":doc:`/guides/manage-read-the-docs-teams`"
-msgstr ""
+msgstr ":doc:`/guides/manage-read-the-docs-teams`"
 
 #: ../../upstream/docs/user/commercial/organizations.rst:13
 msgid "A step-by-step guide to managing organization owners and teams."
-msgstr ""
+msgstr "管理组织所有者和团队的分步指南。"
 
 #: ../../upstream/docs/user/commercial/organizations.rst:16
 msgid "Important objects"
-msgstr ""
+msgstr "重要对象"
 
 #: ../../upstream/docs/user/commercial/organizations.rst:18
 msgid ""
-"**Owners** -- Get full access to both view and edit the organization and "
-"all projects"
-msgstr ""
+"**Owners** -- Get full access to both view and edit the organization and all"
+" projects"
+msgstr "**所有者** -- 对组织和所有项目拥有查看和编辑的完全权限"
 
 #: ../../upstream/docs/user/commercial/organizations.rst:19
 msgid "**Members** -- Get access to a subset of the organization projects"
-msgstr ""
+msgstr "**成员** -- 可访问组织中部分项目"
 
 #: ../../upstream/docs/user/commercial/organizations.rst:20
 msgid "**Teams** -- Where you give members access to a set of projects."
-msgstr ""
+msgstr "**团队** -- 在此为成员授予一组项目的访问权限。"
 
 #: ../../upstream/docs/user/commercial/organizations.rst:22
 msgid "The best way to think about this relationship is:"
-msgstr ""
+msgstr "理解这一关系的最佳方式是："
 
 #: ../../upstream/docs/user/commercial/organizations.rst:24
 msgid "*Owners* will create *Teams* to assign permissions to all *Members*."
-msgstr ""
+msgstr "*所有者* 创建*团队* ，为所有*成员* 分配权限。"
 
 #: ../../upstream/docs/user/commercial/organizations.rst:28
 msgid ""
 "Owners, Members, and Teams behave differently if you are using "
 ":ref:`sso_git_provider`."
-msgstr ""
+msgstr "若你使用 :ref:`sso_git_provider` ，所有者、成员和团队的行为会有所不同。"
 
 #: ../../upstream/docs/user/commercial/organizations.rst:32
 msgid "Team types"
-msgstr ""
+msgstr "团队类型"
 
 #: ../../upstream/docs/user/commercial/organizations.rst:34
 msgid "You can create two types of teams:"
-msgstr ""
+msgstr "你可以创建两种类型的团队："
 
 #: ../../upstream/docs/user/commercial/organizations.rst:36
 msgid ""
 "**Admin** -- Team members have full access to administer the projects "
-"assigned to the team. Members are allowed to change all of the settings, "
-"set notifications, and perform any action under the "
-":menuselection:`Settings` tab for each project."
+"assigned to the team. Members are allowed to change all of the settings, set"
+" notifications, and perform any action under the :menuselection:`Settings` "
+"tab for each project."
 msgstr ""
+"**管理员** -- 团队成员拥有管理分配给该团队项目的完全权限。成员可以修改所有设置、设置通知，并执行各项目 "
+":menuselection:`Settings` 标签页下的任意操作。"
 
 #: ../../upstream/docs/user/commercial/organizations.rst:37
 msgid ""
 "**Read Only** -- Team members are only able to read the documentation of "
 "each project, and not able to change anything about each project."
-msgstr ""
+msgstr "**只读** -- 团队成员只能阅读各项目的文档，无法对项目做任何更改。"
 
 #: ../../upstream/docs/user/commercial/organizations.rst:40
 msgid "Example"
-msgstr ""
+msgstr "示例"
 
 #: ../../upstream/docs/user/commercial/organizations.rst:42
 msgid ""
 "ACME would set up *Owners* of their organization, for example, Frank "
-"Roadrunner would be an owner. He has full access to the organization and "
-"all projects."
-msgstr ""
+"Roadrunner would be an owner. He has full access to the organization and all"
+" projects."
+msgstr "ACME 会为其组织设置*所有者* ，例如 Frank Roadrunner 就是一位所有者。他对组织和所有项目拥有完全权限。"
 
 #: ../../upstream/docs/user/commercial/organizations.rst:46
 msgid ""
-"Wile E. Coyote is a contractor, and will just have access to the new "
-"project Road Builder."
-msgstr ""
+"Wile E. Coyote is a contractor, and will just have access to the new project"
+" Road Builder."
+msgstr "Wile E. Coyote 是承包商，将只拥有新项目 Road Builder 的访问权限。"
 
 #: ../../upstream/docs/user/commercial/organizations.rst:49
 msgid ""
-"Roadrunner would set up a *Team* called *Contractors*. That team would "
-"have *Read Only* access to the *Road Builder* project. Then he would add "
-"*Wile E. Coyote* to the team. This would give him access to just this one"
-" project inside the organization."
+"Roadrunner would set up a *Team* called *Contractors*. That team would have "
+"*Read Only* access to the *Road Builder* project. Then he would add *Wile E."
+" Coyote* to the team. This would give him access to just this one project "
+"inside the organization."
 msgstr ""
+"Roadrunner 会建立一个名为 *Contractors* 的* 团队*。该团队对 *Road Builder* 项目拥有* 只读*权限。随后他将"
+" *Wile E. Coyote* 加入该团队，这使他在组织内仅能访问这一个项目。"
 

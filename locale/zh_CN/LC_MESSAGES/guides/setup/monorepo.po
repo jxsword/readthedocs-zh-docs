@@ -22,216 +22,229 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:4
 msgid "How to use a .readthedocs.yaml file in a sub-folder"
-msgstr ""
+msgstr "如何在子目录中使用 .readthedocs.yaml 文件"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:6
 msgid ""
-"This guide shows how to configure a Read the Docs project to use a custom"
-" path for the ``.readthedocs.yaml`` build configuration. `Monorepos "
-"<https://en.wikipedia.org/wiki/Monorepo>`__ that have multiple "
-"documentation projects in the same Git repository can benefit from this "
-"feature."
+"This guide shows how to configure a Read the Docs project to use a custom "
+"path for the ``.readthedocs.yaml`` build configuration. `Monorepos "
+"<https://en.wikipedia.org/wiki/Monorepo>`__ that have multiple documentation"
+" projects in the same Git repository can benefit from this feature."
 msgstr ""
+"本指南讲解如何配置 Read the Docs 项目，为 ``.readthedocs.yaml`` 构建配置使用自定义路径。同一 Git "
+"仓库中有多个文档项目的 `Monorepos <https://en.wikipedia.org/wiki/Monorepo>`__ 可从此功能受益。"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:9
 msgid ""
 "By default, Read the Docs will use the ``.readthedocs.yaml`` at the top "
 "level of your Git repository. But if a Git repository contains multiple "
-"documentation projects that need different build configurations, you will"
-" need to have a ``.readthedocs.yaml`` file in multiple sub-folders."
+"documentation projects that need different build configurations, you will "
+"need to have a ``.readthedocs.yaml`` file in multiple sub-folders."
 msgstr ""
+"默认情况下，Read the Docs 使用 Git 仓库顶层的 ``.readthedocs.yaml`` 。但若一个 Git "
+"仓库包含多个需要不同构建配置的文档项目，就需要在多个子目录中各放一个 ``.readthedocs.yaml`` 文件。"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:16
 msgid ""
 "`sphinx-multiproject <https://sphinx-"
 "multiproject.readthedocs.io/en/latest/>`__"
 msgstr ""
+"`sphinx-multiproject <https://sphinx-"
+"multiproject.readthedocs.io/en/latest/>`__"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:17
 msgid ""
 "If you are only using Sphinx projects and want to share the same build "
 "configuration, you can also use the ``sphinx-multiproject`` extension."
-msgstr ""
+msgstr "若你只使用 Sphinx 项目且希望共享同一构建配置，也可使用 ``sphinx-multiproject`` 扩展。"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:20
 msgid ":doc:`/guides/environment-variables`"
-msgstr ""
+msgstr ":doc:`/guides/environment-variables`"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:21
 msgid ""
-"You might also be able to reuse the same configuration file across "
-"multiple projects, using only environment variables. This is possible if "
-"the configuration pattern is very similar and the documentation tool is "
-"the same."
-msgstr ""
+"You might also be able to reuse the same configuration file across multiple "
+"projects, using only environment variables. This is possible if the "
+"configuration pattern is very similar and the documentation tool is the "
+"same."
+msgstr "若配置模式非常相似且文档工具相同，你或许还能仅通过环境变量在多个项目间复用同一配置文件。"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:26
 msgid "Implementation considerations"
-msgstr ""
+msgstr "实现注意事项"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:28
 msgid ""
-"This feature is currently *project-wide*. A custom build configuration "
-"file path is applied to all versions of your documentation."
-msgstr ""
+"This feature is currently *project-wide*. A custom build configuration file "
+"path is applied to all versions of your documentation."
+msgstr "此功能目前是*项目级* 的。自定义构建配置文件路径会应用到文档的所有版本。"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:33
 msgid ""
 "All paths in the ``.readthedocs.yaml`` file are always relative to the "
-"**repository root**, regardless of where the configuration file is "
-"located."
-msgstr ""
+"**repository root**, regardless of where the configuration file is located."
+msgstr "``.readthedocs.yaml`` 文件中的所有路径始终相对于**仓库根目录** ，与配置文件所在位置无关。"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:36
 msgid ""
-"For example, if your config file is at ``docs/.readthedocs.yaml`` and "
-"your requirements file is at ``docs/requirements.txt``, you should still "
-"use ``docs/requirements.txt`` as the path in the config file, not "
+"For example, if your config file is at ``docs/.readthedocs.yaml`` and your "
+"requirements file is at ``docs/requirements.txt``, you should still use "
+"``docs/requirements.txt`` as the path in the config file, not "
 "``requirements.txt``."
 msgstr ""
+"例如，若配置文件位于 ``docs/.readthedocs.yaml`` 而 requirements 文件位于 "
+"``docs/requirements.txt`` ，配置文件中仍应使用 ``docs/requirements.txt`` 而非 "
+"``requirements.txt`` 。"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:41
 msgid ""
-"The one exception is the Sphinx build command itself, which is executed "
-"from the directory containing your ``conf.py`` file. This only affects "
-"paths that Sphinx resolves internally (for example, inside your "
-"``conf.py``), and does not change how paths in ``.readthedocs.yaml`` are "
-"interpreted."
+"The one exception is the Sphinx build command itself, which is executed from"
+" the directory containing your ``conf.py`` file. This only affects paths "
+"that Sphinx resolves internally (for example, inside your ``conf.py``), and "
+"does not change how paths in ``.readthedocs.yaml`` are interpreted."
 msgstr ""
+"唯一的例外是 Sphinx 构建命令本身，它在包含 ``conf.py`` 文件的目录中执行。这只影响 Sphinx 内部解析的路径（例如 "
+"``conf.py`` 内部），不改变 ``.readthedocs.yaml`` 中路径的解释方式。"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:48
 msgid ""
 "Changing the configuration path will apply to all versions. Different "
 "versions of the project may not be able to build again if this path is "
 "changed."
-msgstr ""
+msgstr "更改配置路径会应用到所有版本。若该路径被更改，项目的某些版本可能无法再次构建。"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:52
 msgid "Adding an additional project from the same repository"
-msgstr ""
+msgstr "从同一仓库添加其他项目"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:54
 msgid ""
 "Once you have added the first project from the :ref:`Import Wizard <intro"
-"/add-project:Automatically add your project>`, you will need to repeat "
-"this process again to add the additional project from the same "
-"repository."
+"/add-project:Automatically add your project>`, you will need to repeat this "
+"process again to add the additional project from the same repository."
 msgstr ""
+"通过 :ref:`导入向导 <intro/add-project:Automatically add your project>` "
+"添加了第一个项目后，需要重复该流程以从同一仓库添加其他项目。"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:58
 msgid "Setting the custom build configuration file"
-msgstr ""
+msgstr "设置自定义构建配置文件"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:60
 msgid ""
 "Once you have added a Git repository to a project that needs a custom "
-"configuration file path, go to your project's :menuselection:`Settings` "
-"and add the path to the :guilabel:`Path for .readthedocs.yaml` field."
+"configuration file path, go to your project's :menuselection:`Settings` and "
+"add the path to the :guilabel:`Path for .readthedocs.yaml` field."
 msgstr ""
+"为需要自定义配置文件路径的项目添加 Git 仓库后，前往项目的 :menuselection:`Settings` ，在 :guilabel:`Path"
+" for .readthedocs.yaml` 字段中填入该路径。"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:63
 msgid ""
 "Screenshot of where to find the :guilabel:`Path for .readthedocs.yaml` "
 "setting."
-msgstr ""
+msgstr ":guilabel:`Path for .readthedocs.yaml` 设置位置截图。"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:66
 msgid ""
-"After pressing :guilabel:`Save`, you need to ensure that relevant "
-"versions of your documentation are built again."
-msgstr ""
+"After pressing :guilabel:`Save`, you need to ensure that relevant versions "
+"of your documentation are built again."
+msgstr "点击 :guilabel:`Save` 后，需要确保相关版本的文档重新构建。"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:71
 msgid ""
 "Having multiple different build configuration files can be complex. We "
-"recommend setting up 1-2 projects in your Monorepo and getting them to "
-"build and publish successfully before adding additional projects to the "
-"equation."
-msgstr ""
+"recommend setting up 1-2 projects in your Monorepo and getting them to build"
+" and publish successfully before adding additional projects to the equation."
+msgstr "存在多个不同的构建配置文件可能较为复杂。我们建议先在 Monorepo 中设置 1-2 个项目并确保其成功构建和发布，再加入更多项目。"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:75
 msgid "Next steps"
-msgstr ""
+msgstr "后续步骤"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:77
 msgid ""
-"Once you have your monorepo pattern implemented and tested and it's ready"
-" to roll out to all your projects, you should also consider the Read the "
-"Docs project setup for these individual projects."
-msgstr ""
+"Once you have your monorepo pattern implemented and tested and it's ready to"
+" roll out to all your projects, you should also consider the Read the Docs "
+"project setup for these individual projects."
+msgstr "monorepo 模式实现并测试通过、可以推广到所有项目后，你还应考虑为这些单独项目配置 Read the Docs 项目设置。"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:80
 msgid ""
-"Having individual projects gives you the full flexibility of the Read the"
-" Docs platform to make individual setups for each project."
-msgstr ""
+"Having individual projects gives you the full flexibility of the Read the "
+"Docs platform to make individual setups for each project."
+msgstr "使用独立项目可让你充分利用 Read the Docs 平台的灵活性，为每个项目做单独配置。"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:82
 msgid "For each project, it's now possible to configure:"
-msgstr ""
+msgstr "现在每个项目都可以配置："
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:84
 msgid ""
-"Sets of maintainers (or :doc:`organizations </commercial/organizations>` "
-"on |com_brand|)"
-msgstr ""
+"Sets of maintainers (or :doc:`organizations </commercial/organizations>` on "
+"|com_brand|)"
+msgstr "维护者集合（或在 |com_brand| 上使用 :doc:`组织 </commercial/organizations>` ）"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:85
 msgid ":doc:`Custom redirect rules </guides/custom-domains>`"
-msgstr ""
+msgstr ":doc:`自定义重定向规则 </guides/custom-domains>`"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:86
 msgid ":doc:`Custom domains </guides/custom-domains>`"
-msgstr ""
+msgstr ":doc:`自定义域名 </guides/custom-domains>`"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:87
 msgid ":doc:`Automation rules </automation-rules>`"
-msgstr ""
+msgstr ":doc:`自动化规则 </automation-rules>`"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:88
 msgid ":doc:`Traffic analytics </traffic-analytics>`"
-msgstr ""
+msgstr ":doc:`流量分析 </traffic-analytics>`"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:89
 msgid ""
 "Additional documentation tools with individual :doc:`build processes "
-"</build-customization>`: One project might use :doc:`Sphinx "
-"<sphinx:index>`, while another project setup might use `Asciidoctor "
+"</build-customization>`: One project might use :doc:`Sphinx <sphinx:index>`,"
+" while another project setup might use `Asciidoctor "
 "<https://asciidoctor.org/>`__."
 msgstr ""
+"带独立 :doc:`构建过程 </build-customization>` 的其他文档工具：一个项目可能使用 :doc:`Sphinx "
+"<sphinx:index>` ，而另一个项目可能使用 `Asciidoctor <https://asciidoctor.org/>`__ 。"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:93
 msgid ""
-"...and much more. *All* settings for a Read the Docs project is available"
-" for each individual project."
-msgstr ""
+"...and much more. *All* settings for a Read the Docs project is available "
+"for each individual project."
+msgstr "……以及更多。Read the Docs 项目的*全部* 设置都可用于每个独立项目。"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:97
 msgid ":doc:`/guides/subprojects`"
-msgstr ""
+msgstr ":doc:`/guides/subprojects`"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:98
 msgid ""
 "More information on nesting one project inside another project. In this "
 "setup, it is still possible to use the same monorepo for each subproject."
-msgstr ""
+msgstr "关于将一个项目嵌套在另一个项目内的更多信息。在这种设置下，每个子项目仍可使用同一个 monorepo。"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:102
 msgid "Other tips"
-msgstr ""
+msgstr "其他提示"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:104
 msgid ""
-"For a monorepo, it's not desirable to have changes in unrelated sub-"
-"folders trigger new builds."
-msgstr ""
+"For a monorepo, it's not desirable to have changes in unrelated sub-folders "
+"trigger new builds."
+msgstr "对 monorepo 而言，不相关的子目录发生变化触发新构建并不可取。"
 
 #: ../../upstream/docs/user/guides/setup/monorepo.rst:107
 msgid ""
 "Therefore, you should consider setting up :doc:`conditional build "
-"cancellation rules </guides/build/skip-or-cancel-builds>`. The "
-"configuration is added in each ``.readthedocs.yaml``, making it possible "
-"to write one conditional build rules per documentation project in the "
-"Monorepo 💯️"
+"cancellation rules </guides/build/skip-or-cancel-builds>`. The configuration"
+" is added in each ``.readthedocs.yaml``, making it possible to write one "
+"conditional build rules per documentation project in the Monorepo 💯️"
 msgstr ""
+"因此，你应考虑设置 :doc:`条件构建取消规则 </guides/build/skip-or-cancel-builds>` 。配置在每个 "
+"``.readthedocs.yaml`` 中添加，从而可以为 Monorepo 中的每个文档项目编写一条条件构建规则 💯️"
 

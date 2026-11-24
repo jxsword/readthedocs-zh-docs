@@ -22,92 +22,98 @@ msgstr ""
 
 #: ../../upstream/docs/user/sponsors.rst:2
 msgid "Sponsors of Read the Docs"
-msgstr ""
+msgstr "Read the Docs 的赞助者"
 
 #: ../../upstream/docs/user/sponsors.rst:4
 msgid ""
-"Running Read the Docs isn't free, and the site wouldn't be where it is "
-"today without generous support of our sponsors. Below is a list of all "
-"the folks who have helped the site financially, in order of the date they"
-" first started supporting us."
+"Running Read the Docs isn't free, and the site wouldn't be where it is today"
+" without generous support of our sponsors. Below is a list of all the folks "
+"who have helped the site financially, in order of the date they first "
+"started supporting us."
 msgstr ""
+"运营 Read the Docs "
+"并非免费，若没有赞助者的慷慨支持，站点不会有今天的成就。以下列出所有在财务上帮助过本站的人，按他们首次开始支持我们的时间排序。"
 
 #: ../../upstream/docs/user/sponsors.rst:10
 msgid "Current sponsors"
-msgstr ""
+msgstr "当前赞助者"
 
 #: ../../upstream/docs/user/sponsors.rst:12
 msgid ""
 "`AWS`_ - They cover all of our hosting expenses every month.  This is a "
 "pretty large sum of money, averaging around $5,000/mo."
-msgstr ""
+msgstr "`AWS`_ - 他们每月承担我们全部的托管费用。这是一笔相当可观的资金，平均每月约 5,000 美元。"
 
 #: ../../upstream/docs/user/sponsors.rst:13
 msgid ""
-"`Cloudflare`_ - Cloudflare is providing us with an enterprise plan of "
-"their SSL for SaaS Providers product that enables us to provide SSL "
-"certificates for custom domains."
+"`Cloudflare`_ - Cloudflare is providing us with an enterprise plan of their "
+"SSL for SaaS Providers product that enables us to provide SSL certificates "
+"for custom domains."
 msgstr ""
+"`Cloudflare`_ - Cloudflare 为我们提供其 SSL for SaaS Providers "
+"产品的企业级套餐，使我们能够为自定义域名提供 SSL 证书。"
 
 #: ../../upstream/docs/user/sponsors.rst:14
 msgid ""
 "`Chan Zuckerberg Initiative`_ - Through their \"Essential Open Source "
-"Software for Science\" programme, they fund our ongoing efforts to "
-"improve scientific documentation and make Read the Docs a better service "
-"for scientific projects."
+"Software for Science\" programme, they fund our ongoing efforts to improve "
+"scientific documentation and make Read the Docs a better service for "
+"scientific projects."
 msgstr ""
+"`Chan Zuckerberg Initiative`_ - 他们通过\"Essential Open Source Software for "
+"Science\"计划资助我们持续改进科学文档的工作，让 Read the Docs 成为科研项目更好的服务。"
 
 #: ../../upstream/docs/user/sponsors.rst:16
 msgid "You? (Email us at hello@readthedocs.org for more info)"
-msgstr ""
+msgstr "你呢？（发邮件至 hello@readthedocs.org 了解更多）"
 
 #: ../../upstream/docs/user/sponsors.rst:19
 msgid "Past sponsors"
-msgstr ""
+msgstr "过往赞助者"
 
 #: ../../upstream/docs/user/sponsors.rst:21
 msgid "`Microsoft Azure`_"
-msgstr ""
+msgstr "`Microsoft Azure`_"
 
 #: ../../upstream/docs/user/sponsors.rst:22
 msgid "`Python Software Foundation`_"
-msgstr ""
+msgstr "`Python Software Foundation`_"
 
 #: ../../upstream/docs/user/sponsors.rst:23
 msgid "`Revsys`_"
-msgstr ""
+msgstr "`Revsys`_"
 
 #: ../../upstream/docs/user/sponsors.rst:24
 msgid "`Mozilla Web Dev`_"
-msgstr ""
+msgstr "`Mozilla Web Dev`_"
 
 #: ../../upstream/docs/user/sponsors.rst:25
 msgid "`Django Software Foundation`_"
-msgstr ""
+msgstr "`Django Software Foundation`_"
 
 #: ../../upstream/docs/user/sponsors.rst:26
 msgid "Lab305"
-msgstr ""
+msgstr "Lab305"
 
 #: ../../upstream/docs/user/sponsors.rst:27
 msgid "`Twilio`_"
-msgstr ""
+msgstr "`Twilio`_"
 
 #: ../../upstream/docs/user/sponsors.rst:28
 msgid "`Rackspace`_"
-msgstr ""
+msgstr "`Rackspace`_"
 
 #: ../../upstream/docs/user/sponsors.rst:29
 msgid "`Mozilla`_"
-msgstr ""
+msgstr "`Mozilla`_"
 
 #: ../../upstream/docs/user/sponsors.rst:45
 msgid "Sponsor us"
-msgstr ""
+msgstr "赞助我们"
 
 #: ../../upstream/docs/user/sponsors.rst:47
 msgid ""
-"Contact us at rev@readthedocs.org for more information on sponsoring Read"
-" the Docs."
-msgstr ""
+"Contact us at rev@readthedocs.org for more information on sponsoring Read "
+"the Docs."
+msgstr "有关赞助 Read the Docs 的更多信息，请联系 rev@readthedocs.org。"
 

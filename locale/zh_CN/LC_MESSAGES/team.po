@@ -22,83 +22,83 @@ msgstr ""
 
 #: ../../upstream/docs/user/team.rst:2
 msgid "Read the Docs team"
-msgstr ""
+msgstr "Read the Docs 团队"
 
 #: ../../upstream/docs/user/team.rst:4
 msgid ""
-"readthedocs.org is the largest open source documentation hosting service."
-" Today we:"
-msgstr ""
+"readthedocs.org is the largest open source documentation hosting service. "
+"Today we:"
+msgstr "readthedocs.org 是最大的开源文档托管服务。今天我们："
 
 #: ../../upstream/docs/user/team.rst:7
 msgid "Serve over **55 million pages** of documentation a month"
-msgstr ""
+msgstr "每月提供超过 **5500 万个** 文档页面"
 
 #: ../../upstream/docs/user/team.rst:8
 msgid "Serve over **40 TB** of documentation a month"
-msgstr ""
+msgstr "每月提供超过 **40 TB** 的文档"
 
 #: ../../upstream/docs/user/team.rst:9
-msgid ""
-"Host over **80,000 open source projects** and support over **100,000 "
-"users**"
-msgstr ""
+msgid "Host over **80,000 open source projects** and support over **100,000 users**"
+msgstr "托管超过 **80,000 个开源项目** ，服务超过 **100,000 名用户**"
 
 #: ../../upstream/docs/user/team.rst:11
 msgid ""
-"Read the Docs is provided as a free service to the open source community,"
-" and we hope to maintain a reliable and stable hosting platform for years"
-" to come."
-msgstr ""
+"Read the Docs is provided as a free service to the open source community, "
+"and we hope to maintain a reliable and stable hosting platform for years to "
+"come."
+msgstr "Read the Docs 作为免费服务提供给开源社区，我们希望未来多年都能维持一个可靠稳定的托管平台。"
 
 #: ../../upstream/docs/user/team.rst:16
 msgid "`Our website: Who we are <https://about.readthedocs.com/company/>`__"
-msgstr ""
+msgstr "`Our website: Who we are <https://about.readthedocs.com/company/>`__"
 
 #: ../../upstream/docs/user/team.rst:17
 msgid "More information about the staff and contributors of Read the Docs."
-msgstr ""
+msgstr "关于 Read the Docs 员工和贡献者的更多信息。"
 
 #: ../../upstream/docs/user/team.rst:20
 msgid "Teams"
-msgstr ""
+msgstr "团队"
 
 #: ../../upstream/docs/user/team.rst:22
 msgid ""
-"The **Backend Team** folks develop the Django code that powers the "
-"backend of the project."
-msgstr ""
+"The **Backend Team** folks develop the Django code that powers the backend "
+"of the project."
+msgstr "**后端团队** 成员开发支撑项目后端的 Django 代码。"
 
 #: ../../upstream/docs/user/team.rst:23
 msgid ""
 "The members of the **Frontend Team** care about UX, CSS, HTML, and "
 "JavaScript, and they maintain the project UI as well as the Sphinx theme."
-msgstr ""
+msgstr "**前端团队** 成员关注 UX、CSS、HTML 和 JavaScript，并维护项目 UI 及 Sphinx 主题。"
 
 #: ../../upstream/docs/user/team.rst:25
 msgid ""
-"As part of operating the site, members of the **Operations Team** "
-"maintain a 24/7 on-call rotation. This means that folks have to be "
-"available and have their phone in service."
-msgstr ""
+"As part of operating the site, members of the **Operations Team** maintain a"
+" 24/7 on-call rotation. This means that folks have to be available and have "
+"their phone in service."
+msgstr "作为站点运营的一部分，**运维团队** 成员维持 7×24 小时轮值待命。这意味着相关人员需随时可用并保持电话畅通。"
 
 #: ../../upstream/docs/user/team.rst:27
 msgid ""
-"The members of the **Advocacy Team** spread the word about all the work "
-"we do, and seek to understand the users priorities and feedback."
-msgstr ""
+"The members of the **Advocacy Team** spread the word about all the work we "
+"do, and seek to understand the users priorities and feedback."
+msgstr "**推广团队** 成员宣传我们所做的一切工作，并努力理解用户的优先事项与反馈。"
 
 #: ../../upstream/docs/user/team.rst:29
 msgid ""
 "The **Support Team** helps our thousands of users using the service, "
-"addressing tasks like resetting passwords, enable experimental features, "
-"or troubleshooting build errors."
-msgstr ""
+"addressing tasks like resetting passwords, enable experimental features, or "
+"troubleshooting build errors."
+msgstr "**支持团队** 帮助我们数以千计的服务用户，处理重置密码、启用实验性功能、排查构建错误等事务。"
 
 #: ../../upstream/docs/user/team.rst:34
 msgid ""
-"**Please don't email us personally for support on Read the Docs.** You "
-"can `use our support form <https://app.readthedocs.org/support/>`_ for "
-"any issues you may have."
+"**Please don't email us personally for support on Read the Docs.** You can "
+"`use our support form <https://app.readthedocs.org/support/>`_ for any "
+"issues you may have."
 msgstr ""
+"**请勿就 Read the Docs 支持事宜给我们发个人邮件。** 你遇到的任何问题都可以通过 `使用我们的支持表单 "
+"<https://app.readthedocs.org/support/>`_ 反馈。"
 

@@ -22,44 +22,44 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/index.rst:10
 msgid "Project setup and configuration"
-msgstr ""
+msgstr "项目设置与配置"
 
 #: ../../upstream/docs/user/guides/index.rst:10
 msgid "Build process"
-msgstr ""
+msgstr "构建过程"
 
 #: ../../upstream/docs/user/guides/index.rst:10
 msgid "Upgrading and maintaining projects"
-msgstr ""
+msgstr "升级与维护项目"
 
 #: ../../upstream/docs/user/guides/index.rst:10
 msgid "Content, themes and SEO"
-msgstr ""
+msgstr "内容、主题与 SEO"
 
 #: ../../upstream/docs/user/guides/index.rst:10
 msgid "Security and access"
-msgstr ""
+msgstr "安全与访问"
 
 #: ../../upstream/docs/user/guides/index.rst:10
 msgid "Account management"
-msgstr ""
+msgstr "账户管理"
 
 #: ../../upstream/docs/user/guides/index.rst:10
 msgid "Best practice"
-msgstr ""
+msgstr "最佳实践"
 
 #: ../../upstream/docs/user/guides/index.rst:10
 msgid "Troubleshooting problems"
-msgstr ""
+msgstr "问题排查"
 
 #: ../../upstream/docs/user/guides/index.rst:4
 msgid "How-to guides A-Z"
-msgstr ""
+msgstr "操作指南 A-Z"
 
 #: ../../upstream/docs/user/guides/index.rst:6
 msgid ""
-"These guides will help walk you through specific use cases related to "
-"Read the Docs itself, documentation tools like Sphinx and MkDocs and how "
-"to write successful documentation."
-msgstr ""
+"These guides will help walk you through specific use cases related to Read "
+"the Docs itself, documentation tools like Sphinx and MkDocs and how to write"
+" successful documentation."
+msgstr "这些指南帮助你了解与 Read the Docs 本身、Sphinx 和 MkDocs 等文档工具相关的具体使用场景，以及如何写出成功的文档。"
 

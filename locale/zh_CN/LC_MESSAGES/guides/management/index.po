@@ -22,27 +22,27 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/management/index.rst:10
 msgid "Managing your Read the Docs Business subscription"
-msgstr ""
+msgstr "管理你的 Read the Docs Business 订阅"
 
 #: ../../upstream/docs/user/guides/management/index.rst:2
 msgid "How-to guides: account management"
-msgstr ""
+msgstr "操作指南：账户管理"
 
 #: ../../upstream/docs/user/guides/management/index.rst:4
 msgid ""
 "⏩️ :doc:`Managing your Read the Docs Business subscription "
 "</commercial/subscriptions>`"
-msgstr ""
+msgstr "⏩️ :doc:`管理你的 Read the Docs Business 订阅 </commercial/subscriptions>`"
 
 #: ../../upstream/docs/user/guides/management/index.rst:5
 msgid "Solving the most common tasks for managing Read the Docs subscriptions."
-msgstr ""
+msgstr "解决管理 Read the Docs 订阅时最常见的任务。"
 
 #: ../../upstream/docs/user/guides/management/index.rst:7
 msgid "🔒 :doc:`/guides/management/2fa`"
-msgstr ""
+msgstr "🔒 :doc:`/guides/management/2fa`"
 
 #: ../../upstream/docs/user/guides/management/index.rst:8
 msgid "Secure your account with two-factor authentication."
-msgstr ""
+msgstr "用双因素认证保护你的账户。"
 

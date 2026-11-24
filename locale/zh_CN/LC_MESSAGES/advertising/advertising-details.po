@@ -22,256 +22,277 @@ msgstr ""
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:2
 msgid "Advertising details"
-msgstr ""
+msgstr "广告细节"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:7
 msgid ""
 "Read the Docs largely funds our operations and development through "
-"advertising. However, we aren't willing to compromise our values, "
-"document authors, or site visitors simply to make a bit more money. "
-"That's why we created our :doc:`ethical advertising <ethical-"
-"advertising>` initiative."
+"advertising. However, we aren't willing to compromise our values, document "
+"authors, or site visitors simply to make a bit more money. That's why we "
+"created our :doc:`ethical advertising <ethical-advertising>` initiative."
 msgstr ""
+"Read the Docs 的运营和开发主要依靠广告资助。但我们不愿仅仅为了多赚一点钱而牺牲我们的价值观、文档作者或站点访客。这正是我们发起 "
+":doc:`道德广告 <ethical-advertising>` 计划的原因。"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:13
 msgid ""
-"We get a lot of inquiries about our approach to advertising which range "
-"from questions about our practices to requests to partner. The goal of "
-"this document is to shed light on the advertising industry, exactly what "
-"we do for advertising, and how what we do is different. If you have "
-"questions or comments, `send us an email <mailto:ads@readthedocs.org>`_ "
-"or `open an issue on GitHub "
-"<https://github.com/readthedocs/readthedocs.org/issues>`_."
+"We get a lot of inquiries about our approach to advertising which range from"
+" questions about our practices to requests to partner. The goal of this "
+"document is to shed light on the advertising industry, exactly what we do "
+"for advertising, and how what we do is different. If you have questions or "
+"comments, `send us an email <mailto:ads@readthedocs.org>`_ or `open an issue"
+" on GitHub <https://github.com/readthedocs/readthedocs.org/issues>`_."
 msgstr ""
+"我们收到大量关于广告做法的咨询，从询问我们的实践到寻求合作。本文档旨在揭示广告行业、我们在广告方面具体做了什么，以及我们的做法有何不同。若有问题或意见，请"
+" `给我们发邮件 <mailto:ads@readthedocs.org>`_ 或 `在 GitHub 上提交 issue "
+"<https://github.com/readthedocs/readthedocs.org/issues>`_ 。"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:23
 msgid "Other ad networks' targeting"
-msgstr ""
+msgstr "其他广告网络的定向"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:25
 msgid ""
-"Some ad networks build a database of user data in order to predict the "
-"types of ads that are likely to be clicked. In the advertising industry, "
-"this is called *behavioral targeting*. This can include data such as:"
-msgstr ""
+"Some ad networks build a database of user data in order to predict the types"
+" of ads that are likely to be clicked. In the advertising industry, this is "
+"called *behavioral targeting*. This can include data such as:"
+msgstr "某些广告网络会建立用户数据库，预测用户可能点击的广告类型。在广告行业，这称为*行为定向* 。这类数据可能包括："
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:30
 msgid "sites a user has visited"
-msgstr ""
+msgstr "用户访问过的网站"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:31
 msgid "a user's search history"
-msgstr ""
+msgstr "用户的搜索历史"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:32
 msgid "ads, pages, or stories a user has clicked on in the past"
-msgstr ""
+msgstr "用户过去点击过的广告、页面或文章"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:33
 msgid "demographic information such as age, gender, or income level"
-msgstr ""
+msgstr "年龄、性别、收入水平等人口统计信息"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:35
 msgid ""
-"Typically, getting a user's page visit history is accomplished by the use"
-" of trackers (sometimes called beacons or pixels). For example, if a site"
-" uses a tracker from an ad network and a user visits that site, the site "
-"can now target future advertising to that user -- a known past visitor --"
-" with that network. This is called *retargeting*."
+"Typically, getting a user's page visit history is accomplished by the use of"
+" trackers (sometimes called beacons or pixels). For example, if a site uses "
+"a tracker from an ad network and a user visits that site, the site can now "
+"target future advertising to that user -- a known past visitor -- with that "
+"network. This is called *retargeting*."
 msgstr ""
+"通常，获取用户页面访问历史的做法是使用追踪器（也称为信标或像素）。例如，若某网站使用了某广告网络的追踪器，而用户访问了该网站，该网站现在就可以通过该网络向该用户——一位已知的过往访客——投放后续广告。这称为*重定向营销*"
+" 。"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:41
 msgid ""
-"Other ad predictions are made by grouping similar users together based on"
-" user data using machine learning. Frequently this involves an advertiser"
-" uploading personal data on users (often past customers of the "
-"advertiser) to an ad network and telling the network to target similar "
-"users. The idea is that two users with similar demographic information "
-"and similar interests would like the same products. In ad tech, this is "
-"known as *lookalike audiences* or *similar audiences*."
+"Other ad predictions are made by grouping similar users together based on "
+"user data using machine learning. Frequently this involves an advertiser "
+"uploading personal data on users (often past customers of the advertiser) to"
+" an ad network and telling the network to target similar users. The idea is "
+"that two users with similar demographic information and similar interests "
+"would like the same products. In ad tech, this is known as *lookalike "
+"audiences* or *similar audiences*."
 msgstr ""
+"其他广告预测则通过机器学习基于用户数据将相似用户分组得出。这通常涉及广告主向广告网络上传用户个人数据（往往是广告主的过往客户），并告知该网络去定向相似用户。其逻辑是：人口统计信息和兴趣相似的两名用户会喜欢相同的产品。在广告技术上，这称为*相似受众*"
+" 或*类似受众* 。"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:50
 msgid ""
-"Understandably, many people have concerns about these targeting "
-"techniques. The modern advertising industry has built enormous value by "
-"centralizing massive amounts of data on as many people as possible."
-msgstr ""
+"Understandably, many people have concerns about these targeting techniques. "
+"The modern advertising industry has built enormous value by centralizing "
+"massive amounts of data on as many people as possible."
+msgstr "可以理解，许多人对这些定向技术抱有顾虑。现代广告行业通过尽可能多地集中海量数据，构建了巨大的价值。"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:56
 msgid "Our targeting details"
-msgstr ""
+msgstr "我们的定向细节"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:58
 msgid ""
-"**Read the Docs doesn't use the above techniques**. Instead, we target "
-"based solely upon:"
-msgstr ""
+"**Read the Docs doesn't use the above techniques**. Instead, we target based"
+" solely upon:"
+msgstr "**Read the Docs 不使用上述技术** 。相反，我们仅基于以下信息进行定向："
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:61
 msgid "Details of the page where the advertisement is shown including:"
-msgstr ""
+msgstr "广告所显示页面的细节，包括："
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:63
 msgid ""
 "The name, keywords, or programming language associated with the project "
 "being viewed"
-msgstr ""
+msgstr "所查看项目的名称、关键词或编程语言"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:64
 msgid "Content of the page (eg. H1, title, theme, etc.)"
-msgstr ""
+msgstr "页面内容（如 H1、标题、主题等）"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:65
 msgid "Whether the page is being viewed from a mobile device"
-msgstr ""
+msgstr "页面是否从移动设备查看"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:67
 msgid "General geography"
-msgstr ""
+msgstr "大致地理位置"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:69
 msgid ""
 "We allow advertisers to target ads to a list of countries or to exclude "
-"countries from their advertising. For ads targeting the USA, we also "
-"support targeting by state or by metro area (DMA specifically)."
-msgstr ""
+"countries from their advertising. For ads targeting the USA, we also support"
+" targeting by state or by metro area (DMA specifically)."
+msgstr "我们允许广告主将广告定向到国家列表，或从投放中排除某些国家。对面向美国的广告，我们还支持按州或按都市区（具体为 DMA）定向。"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:72
 msgid "We geolocate a user's IP address to a country when a request is made."
-msgstr ""
+msgstr "发起请求时，我们会将用户 IP 地址地理定位到国家。"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:76
 msgid "Where ads are shown"
-msgstr ""
+msgstr "广告展示位置"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:78
 msgid "We can place ads in:"
-msgstr ""
+msgstr "我们可以在以下位置放置广告："
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:80
 msgid "the sidebar navigation"
-msgstr ""
+msgstr "侧边导航栏"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:81
 msgid "the footer of the page"
-msgstr ""
+msgstr "页面页脚"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:82
 msgid "on search result pages"
-msgstr ""
+msgstr "搜索结果页面"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:83
 msgid "a small footer fixed to the bottom of the viewport"
-msgstr ""
+msgstr "固定在视口底部的小横幅"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:84
 msgid "on 404 pages (rare)"
-msgstr ""
+msgstr "404 页面（少见）"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:86
 msgid "We never show more than 1 ad on a page."
-msgstr ""
+msgstr "我们每页最多只展示 1 条广告。"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:89
 msgid "Do Not Track Policy"
-msgstr ""
+msgstr "Do Not Track 政策"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:91
 msgid ""
 "Read the Docs supports Do Not Track (DNT) and respects users' tracking "
-"preferences. For more details, see the :ref:`Do Not Track section "
-"<privacy-policy:Do Not Track>` of our privacy policy."
+"preferences. For more details, see the :ref:`Do Not Track section <privacy-"
+"policy:Do Not Track>` of our privacy policy."
 msgstr ""
+"Read the Docs 支持 Do Not Track（DNT）并尊重用户的追踪偏好。更多细节见我们隐私政策中的 :ref:`Do Not "
+"Track 章节 <privacy-policy:Do Not Track>` 。"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:97
 msgid "Ad serving infrastructure"
-msgstr ""
+msgstr "广告投放基础设施"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:99
 msgid ""
-"Our `entire ad server <https://github.com/readthedocs/ethical-ad-"
-"server>`_ is open source, so you can inspect how we're doing things. We "
-"believe strongly in open source, and we practice what we preach."
+"Our `entire ad server <https://github.com/readthedocs/ethical-ad-server>`_ "
+"is open source, so you can inspect how we're doing things. We believe "
+"strongly in open source, and we practice what we preach."
 msgstr ""
+"我们的 `完整广告服务器 <https://github.com/readthedocs/ethical-ad-server>`_ "
+"是开源的，你可以检视我们的具体做法。我们坚信开源的价值，并以身作则。"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:105
 msgid "Analytics"
-msgstr ""
+msgstr "分析"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:107
-msgid ""
-"Analytics are a sensitive enough issue that they require their own "
-"section."
-msgstr ""
+msgid "Analytics are a sensitive enough issue that they require their own section."
+msgstr "分析是一个足够敏感的话题，需要单独的章节讨论。"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:109
 msgid ""
 "Google Analytics is a contentious issue inside Read the Docs and in our "
-"community. Some users are very sensitive and privacy conscious to usage "
-"of GA. Some authors want their own analytics on their docs to see the "
-"usage their docs get. The developers at Read the Docs understand that "
-"different users have different priorities and we try to respect the "
-"different viewpoints as much as possible while also accomplishing our own"
-" goals."
+"community. Some users are very sensitive and privacy conscious to usage of "
+"GA. Some authors want their own analytics on their docs to see the usage "
+"their docs get. The developers at Read the Docs understand that different "
+"users have different priorities and we try to respect the different "
+"viewpoints as much as possible while also accomplishing our own goals."
 msgstr ""
+"Google Analytics 在 Read the Docs 内部和社区中都是有争议的话题。有些用户对 GA "
+"的使用非常敏感、注重隐私；有些作者希望在自己的文档上使用自己的分析工具以了解文档的使用情况。Read the Docs "
+"的开发者理解不同用户的优先级不同，我们在尽力尊重不同观点的同时也完成自己的目标。"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:117
 msgid "Why we use analytics"
-msgstr ""
+msgstr "我们为何使用分析"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:119
 msgid ""
 "Advertisers ask us questions that are easily answered with an analytics "
-"solution like \"how many users do you have in Switzerland browsing Python"
-" docs?\". We need to be able to easily get this data. We also use data "
-"from GA for some development decisions such as what browsers to support "
-"(or not) or how much usage a particular page or feature gets."
+"solution like \"how many users do you have in Switzerland browsing Python "
+"docs?\". We need to be able to easily get this data. We also use data from "
+"GA for some development decisions such as what browsers to support (or not) "
+"or how much usage a particular page or feature gets."
 msgstr ""
+"广告主会问一些用分析工具就能轻松回答的问题，比如\"你在瑞士有多少用户浏览 Python 文档？\"。我们需要能便捷地获取这类数据。我们也使用 GA "
+"数据做一些开发决策，比如支持（或不支持）哪些浏览器，或某个页面或功能的使用量。"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:125
 msgid "Alternatives"
-msgstr ""
+msgstr "替代方案"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:127
 msgid ""
 "We are always exploring our options with respect to analytics. There are "
-"alternatives but none of them are without downsides. Some alternatives "
-"are:"
-msgstr ""
+"alternatives but none of them are without downsides. Some alternatives are:"
+msgstr "我们一直在探索分析方面的可选方案。确有替代方案，但都各有代价。部分替代方案包括："
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:131
 msgid ""
-"Run a different cloud analytics solution from a provider other than "
-"Google (eg. Parse.ly, Matomo Cloud, Adobe Analytics). We priced a couple "
-"of these out based on our load and they are very expensive. They also "
-"just substitute one problem of data sharing with another."
+"Run a different cloud analytics solution from a provider other than Google "
+"(eg. Parse.ly, Matomo Cloud, Adobe Analytics). We priced a couple of these "
+"out based on our load and they are very expensive. They also just substitute"
+" one problem of data sharing with another."
 msgstr ""
+"使用 Google 之外的其他提供商提供的云分析方案（如 Parse.ly、Matomo Cloud、Adobe "
+"Analytics）。我们根据自身负载评估过其中几个，价格非常昂贵。而且它们只是用一个数据共享问题替换另一个。"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:135
 msgid ""
-"Send data to GA (or another cloud analytics provider) on the server side "
-"and strip or anonymize personal data such as IPs before sending them. "
-"This would be a complex solution and involve additional infrastructure, "
-"but it would have many advantages. It would result in a loss of data on "
-"\"sessions\" and new vs. returning visitors which are of limited value to"
-" us."
+"Send data to GA (or another cloud analytics provider) on the server side and"
+" strip or anonymize personal data such as IPs before sending them. This "
+"would be a complex solution and involve additional infrastructure, but it "
+"would have many advantages. It would result in a loss of data on "
+"\"sessions\" and new vs. returning visitors which are of limited value to "
+"us."
 msgstr ""
+"在服务端将数据发送给 GA（或其他云分析提供商），并在发送前去除或匿名化 IP "
+"等个人数据。这是个复杂方案并需要额外基础设施，但有许多优点。代价是会丢失\"会话\"以及新老访客对比数据，而这些对我们的价值有限。"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:140
 msgid ""
-"Run a local JavaScript based analytics solution (eg. Matomo community). "
-"This involves additional infrastructure that needs to be always up. "
-"Frequently there are very large databases associated with this. Many of "
-"these solutions aren't built to handle Read the Docs' load."
+"Run a local JavaScript based analytics solution (eg. Matomo community). This"
+" involves additional infrastructure that needs to be always up. Frequently "
+"there are very large databases associated with this. Many of these solutions"
+" aren't built to handle Read the Docs' load."
 msgstr ""
+"运行基于 JavaScript 的本地分析方案（如 Matomo "
+"社区版）。这需要额外的、必须始终在线的基础设施。通常会伴随非常大的数据库。许多此类方案并非为承载 Read the Docs 的负载而设计。"
 
 #: ../../upstream/docs/user/advertising/advertising-details.rst:144
 msgid ""
-"Run a local analytics solution based on web server log parsing. This has "
-"the same infrastructure problems as above while also not capturing all "
-"the data we want (without additional engineering) like the programming "
-"language of the docs being shown or whether the docs are built with "
-"Sphinx or something else."
+"Run a local analytics solution based on web server log parsing. This has the"
+" same infrastructure problems as above while also not capturing all the data"
+" we want (without additional engineering) like the programming language of "
+"the docs being shown or whether the docs are built with Sphinx or something "
+"else."
 msgstr ""
+"运行基于 Web "
+"服务器日志解析的本地分析方案。这有与上述相同的基础设施问题，而且（在不做额外工程的情况下）也无法捕获我们想要的全部数据，比如所显示文档的编程语言，或文档是用"
+" Sphinx 还是其他工具构建的。"
 

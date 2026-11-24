@@ -22,139 +22,141 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/subprojects.rst:2
 msgid "Managing subprojects"
-msgstr ""
+msgstr "管理子项目"
 
 #: ../../upstream/docs/user/guides/subprojects.rst:4
 msgid ""
 "Subprojects can be used to nest projects together under a single parent "
-"project, which is most commonly used to share a single custom domain "
-"across multiple projects."
-msgstr ""
+"project, which is most commonly used to share a single custom domain across "
+"multiple projects."
+msgstr "子项目可用于将多个项目嵌套在单一父项目下，最常见的用途是在多个项目间共享一个自定义域名。"
 
 #: ../../upstream/docs/user/guides/subprojects.rst:9
 msgid ":doc:`/subprojects`"
-msgstr ""
+msgstr ":doc:`/subprojects`"
 
 #: ../../upstream/docs/user/guides/subprojects.rst:10
 msgid ""
 "Learn what the subproject feature can do, how it works, and how to use "
 "custom domains and subproject aliases."
-msgstr ""
+msgstr "了解子项目功能能做什么、如何工作，以及如何使用自定义域名和子项目别名。"
 
 #: ../../upstream/docs/user/guides/subprojects.rst:14
 msgid "Adding a subproject"
-msgstr ""
+msgstr "添加子项目"
 
 #: ../../upstream/docs/user/guides/subprojects.rst:16
 msgid "The following steps can be used to connect two existing projects together:"
-msgstr ""
+msgstr "可用以下步骤将两个现有项目关联起来："
 
 #: ../../upstream/docs/user/guides/subprojects.rst:18
 msgid ""
-"Go to :menuselection:`Settings --> Subprojects` of the project that will "
-"act as your **parent project**."
-msgstr ""
+"Go to :menuselection:`Settings --> Subprojects` of the project that will act"
+" as your **parent project**."
+msgstr "前往将作为**父项目** 的项目的 :menuselection:`Settings --> Subprojects` 。"
 
 #: ../../upstream/docs/user/guides/subprojects.rst:20
 msgid "Click :guilabel:`Add subproject`"
-msgstr ""
+msgstr "点击 :guilabel:`Add subproject`"
 
 #: ../../upstream/docs/user/guides/subprojects.rst:22
 msgid ""
-"Choose a project to connect as a subproject using the "
-":guilabel:`Subproject` dropdown"
-msgstr ""
+"Choose a project to connect as a subproject using the :guilabel:`Subproject`"
+" dropdown"
+msgstr "使用 :guilabel:`Subproject` 下拉框选择要作为子项目关联的项目"
 
 #: ../../upstream/docs/user/guides/subprojects.rst:26
 msgid "For users of |org_brand|"
-msgstr ""
+msgstr "对于 |org_brand| 用户"
 
 #: ../../upstream/docs/user/guides/subprojects.rst:27
 msgid ""
-"You need to be *maintainer* of a subproject in order to choose it from "
-"your main project."
-msgstr ""
+"You need to be *maintainer* of a subproject in order to choose it from your "
+"main project."
+msgstr "你需要是子项目的*维护者* 才能从主项目中选择它。"
 
 #: ../../upstream/docs/user/guides/subprojects.rst:29
 msgid "For users of |com_brand|"
-msgstr ""
+msgstr "对于 |com_brand| 用户"
 
 #: ../../upstream/docs/user/guides/subprojects.rst:30
 msgid ""
-"You need to have *admin access* to the subproject in order to choose it "
-"from your main project."
-msgstr ""
+"You need to have *admin access* to the subproject in order to choose it from"
+" your main project."
+msgstr "你需要对子项目拥有*管理员访问权限* 才能从主项目中选择它。"
 
 #: ../../upstream/docs/user/guides/subprojects.rst:32
 #: ../../upstream/docs/user/guides/subprojects.rst:36
 msgid "Project subproject creation"
-msgstr ""
+msgstr "项目子项目创建"
 
 #: ../../upstream/docs/user/guides/subprojects.rst:38
 msgid ""
 "If you would like the subproject to use a different name in the URL "
 "structure of your built documentation, you can alter that subproject "
 ":guilabel:`Alias` field -- otherwise leave this blank."
-msgstr ""
+msgstr "若希望子项目在构建后文档的 URL 结构中使用不同名称，可修改该子项目的 :guilabel:`Alias` 字段——否则留空即可。"
 
 #: ../../upstream/docs/user/guides/subprojects.rst:41
 msgid "Click on :guilabel:`Add subproject`"
-msgstr ""
+msgstr "点击 :guilabel:`Add subproject`"
 
 #: ../../upstream/docs/user/guides/subprojects.rst:43
 msgid ""
 "After adding the subproject, the URL the project is served from will by "
 "changed to the URL displayed in the updated list of subprojects."
-msgstr ""
+msgstr "添加子项目后，该项目的服务 URL 会变为更新后的子项目列表中显示的 URL。"
 
 #: ../../upstream/docs/user/guides/subprojects.rst:46
 #: ../../upstream/docs/user/guides/subprojects.rst:50
 msgid "Project subproject list with a new subproject added"
-msgstr ""
+msgstr "添加新子项目后的项目子项目列表"
 
 #: ../../upstream/docs/user/guides/subprojects.rst:60
 msgid "Updating a subproject"
-msgstr ""
+msgstr "更新子项目"
 
 #: ../../upstream/docs/user/guides/subprojects.rst:62
 msgid ""
-"You can update a subproject by clicking the configure button |button-"
-"edit| in the list of subprojects. On the following page, it's possible to"
-" change both the subproject and its alias using the "
-":guilabel:`Subproject` dropdown and the :guilabel:`Alias` field. Click "
-":guilabel:`Update subproject` to save your changes."
+"You can update a subproject by clicking the configure button |button-edit| "
+"in the list of subprojects. On the following page, it's possible to change "
+"both the subproject and its alias using the :guilabel:`Subproject` dropdown "
+"and the :guilabel:`Alias` field. Click :guilabel:`Update subproject` to save"
+" your changes."
 msgstr ""
+"你可以点击子项目列表中的配置按钮 |button-edit| 更新子项目。在接下来的页面中，可用 :guilabel:`Subproject` 下拉框和"
+" :guilabel:`Alias` 字段同时更改子项目及其别名。点击 :guilabel:`Update subproject` 保存更改。"
 
 #: ../../upstream/docs/user/guides/subprojects.rst:52
 msgid "Configure button"
-msgstr ""
+msgstr "配置按钮"
 
 #: ../../upstream/docs/user/guides/subprojects.rst:67
 msgid ""
-"The URL the subproject documentation is served from will be updated after"
-" you save your changes."
-msgstr ""
+"The URL the subproject documentation is served from will be updated after "
+"you save your changes."
+msgstr "保存更改后，子项目文档的服务 URL 会随之更新。"
 
 #: ../../upstream/docs/user/guides/subprojects.rst:70
 msgid "Deleting a subproject"
-msgstr ""
+msgstr "删除子项目"
 
 #: ../../upstream/docs/user/guides/subprojects.rst:72
 msgid ""
 "You can delete a subproject connection by clicking the delete button "
 "|button-delete| in the list of subprojects. Confirm the deletion on the "
 "popup that shows to delete the subproject connection."
-msgstr ""
+msgstr "你可以点击子项目列表中的删除按钮 |button-delete| 删除子项目关联。在弹出的确认框中确认删除该子项目关联。"
 
 #: ../../upstream/docs/user/guides/subprojects.rst:55
 msgid "Delete button"
-msgstr ""
+msgstr "删除按钮"
 
 #: ../../upstream/docs/user/guides/subprojects.rst:75
 msgid ""
 "The subproject connection will be removed and the project that was "
-"configured as a subproject will return to being served from it's own "
-"domain. **This will not remove either project, only the subproject "
-"relationship will be removed.**"
-msgstr ""
+"configured as a subproject will return to being served from it's own domain."
+" **This will not remove either project, only the subproject relationship "
+"will be removed.**"
+msgstr "子项目关联将被移除，被配置为子项目的项目将恢复为从其自身域名提供服务。**这不会删除任何项目，只解除子项目关系。**"
 

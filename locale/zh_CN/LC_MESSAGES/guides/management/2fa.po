@@ -22,84 +22,84 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/management/2fa.rst:2
 msgid "Configuring two-factor authentication"
-msgstr ""
+msgstr "配置双因素认证"
 
 #: ../../upstream/docs/user/guides/management/2fa.rst:4
 msgid ""
-"Two-factor authentication (2FA) adds an extra layer of security to your "
-"Read the Docs account. When you enable 2FA, you need to provide two "
-"pieces of information to log in: your password and a verification code."
-msgstr ""
+"Two-factor authentication (2FA) adds an extra layer of security to your Read"
+" the Docs account. When you enable 2FA, you need to provide two pieces of "
+"information to log in: your password and a verification code."
+msgstr "双因素认证（2FA）为你的 Read the Docs 账户增加一层安全保障。启用 2FA 后，登录时需提供两项信息：密码和验证码。"
 
 #: ../../upstream/docs/user/guides/management/2fa.rst:8
 msgid "Enabling two-factor authentication"
-msgstr ""
+msgstr "启用双因素认证"
 
 #: ../../upstream/docs/user/guides/management/2fa.rst:10
 msgid "To enable 2FA:"
-msgstr ""
+msgstr "启用 2FA："
 
 #: ../../upstream/docs/user/guides/management/2fa.rst:12
 #: ../../upstream/docs/user/guides/management/2fa.rst:30
 #: ../../upstream/docs/user/guides/management/2fa.rst:39
 msgid "Go to your account settings."
-msgstr ""
+msgstr "前往你的账户设置。"
 
 #: ../../upstream/docs/user/guides/management/2fa.rst:13
 #: ../../upstream/docs/user/guides/management/2fa.rst:31
 #: ../../upstream/docs/user/guides/management/2fa.rst:40
 msgid "Click on :guilabel:`Two-factor authentication`."
-msgstr ""
+msgstr "点击 :guilabel:`Two-factor authentication` 。"
 
 #: ../../upstream/docs/user/guides/management/2fa.rst:14
 #: ../../upstream/docs/user/guides/management/2fa.rst:17
 msgid "Click on :guilabel:`Activate`."
-msgstr ""
+msgstr "点击 :guilabel:`Activate` 。"
 
 #: ../../upstream/docs/user/guides/management/2fa.rst:15
 msgid "Scan the QR code with your authenticator app."
-msgstr ""
+msgstr "用你的认证器应用扫描二维码。"
 
 #: ../../upstream/docs/user/guides/management/2fa.rst:16
 msgid "Enter the verification code from your authenticator app."
-msgstr ""
+msgstr "输入认证器应用生成的验证码。"
 
 #: ../../upstream/docs/user/guides/management/2fa.rst:18
 msgid "Save your recovery codes in a safe place."
-msgstr ""
+msgstr "将恢复码保存在安全的地方。"
 
 #: ../../upstream/docs/user/guides/management/2fa.rst:22
 msgid ""
-"If you lose access to your authenticator app, you can use the recovery "
-"codes to log in. Keep them in a safe place, as they are the only way to "
-"access your account if you lose your device."
-msgstr ""
+"If you lose access to your authenticator app, you can use the recovery codes"
+" to log in. Keep them in a safe place, as they are the only way to access "
+"your account if you lose your device."
+msgstr "若无法访问认证器应用，可用恢复码登录。请妥善保管，因为设备丢失时它们是访问账户的唯一方式。"
 
 #: ../../upstream/docs/user/guides/management/2fa.rst:26
 msgid "Disabling two-factor authentication"
-msgstr ""
+msgstr "禁用双因素认证"
 
 #: ../../upstream/docs/user/guides/management/2fa.rst:28
 msgid "To disable 2FA:"
-msgstr ""
+msgstr "禁用 2FA："
 
 #: ../../upstream/docs/user/guides/management/2fa.rst:32
 msgid "Click on :guilabel:`Deactivate`."
-msgstr ""
+msgstr "点击 :guilabel:`Deactivate` 。"
 
 #: ../../upstream/docs/user/guides/management/2fa.rst:35
 msgid "Managing recovery codes"
-msgstr ""
+msgstr "管理恢复码"
 
 #: ../../upstream/docs/user/guides/management/2fa.rst:37
 msgid "To manage your recovery codes:"
-msgstr ""
+msgstr "管理你的恢复码："
 
 #: ../../upstream/docs/user/guides/management/2fa.rst:41
 msgid "Click on :guilabel:`Manage recovery codes`."
-msgstr ""
+msgstr "点击 :guilabel:`Manage recovery codes` 。"
 
 #: ../../upstream/docs/user/guides/management/2fa.rst:43
 msgid "From there you can download your recovery codes or generate new ones."
-msgstr ""
+msgstr "在那里你可以下载恢复码或生成新的恢复码。"
 

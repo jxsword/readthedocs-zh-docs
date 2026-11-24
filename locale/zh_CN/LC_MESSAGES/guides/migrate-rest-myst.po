@@ -22,139 +22,155 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:1
 msgid "How to migrate from reStructuredText to MyST Markdown"
-msgstr ""
+msgstr "如何从 reStructuredText 迁移到 MyST Markdown"
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:3
 msgid ""
 "In this guide, you will find how you can start writing Markdown in your "
 "existing reStructuredText project, or migrate it completely."
-msgstr ""
+msgstr "本指南讲解如何在现有的 reStructuredText 项目中开始编写 Markdown，或完全迁移过去。"
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:7
 #, python-brace-format
 msgid ""
 "Sphinx is usually associated with reStructuredText, the markup language "
-"{pep}`designed for the CPython project in the early '00s <287>`. However,"
-" for quite some time Sphinx has been compatible with Markdown as well, "
-"thanks to a number of extensions."
+"{pep}`designed for the CPython project in the early '00s <287>`. However, "
+"for quite some time Sphinx has been compatible with Markdown as well, thanks"
+" to a number of extensions."
 msgstr ""
+"Sphinx 通常与 reStructuredText 联系在一起——这是 {pep}`为 CPython 项目设计的 <287>` 标记语言。不过 "
+"thanks to 若干扩展，Sphinx 早已兼容 Markdown。"
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:12
 #, python-brace-format
 msgid ""
 "The most powerful of such extensions is {doc}`MyST-Parser <myst-"
-"parser:index>`, which implements a CommonMark-compliant, extensible "
-"Markdown dialect with support for the Sphinx roles and directives that "
-"make it so useful."
+"parser:index>`, which implements a CommonMark-compliant, extensible Markdown"
+" dialect with support for the Sphinx roles and directives that make it so "
+"useful."
 msgstr ""
+"其中最强大的扩展是 {doc}`MyST-Parser <myst-parser:index>`，它实现了一种符合 CommonMark 且可扩展的 "
+"Markdown 方言，并支持使其如此有用的 Sphinx 角色和指令。"
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:16
 #, python-brace-format
 msgid ""
-"If, **instead of migrating**, you are starting a new project from "
-"scratch, have a look at {doc}`myst-parser:intro`. If you are starting a "
-"**project for Jupyter**, you can start with Jupyter Book, which uses "
-"``MyST-Parser``, see the official Jupyter Book tutorial: "
-"{doc}`jupyterbook:start/your-first-book`"
+"If, **instead of migrating**, you are starting a new project from scratch, "
+"have a look at {doc}`myst-parser:intro`. If you are starting a **project for"
+" Jupyter**, you can start with Jupyter Book, which uses ``MyST-Parser``, see"
+" the official Jupyter Book tutorial: {doc}`jupyterbook:start/your-first-"
+"book`"
 msgstr ""
+"若你是**从头新建项目而非迁移**，可参阅 {doc}`myst-parser:intro`。若你启动的是一个 **Jupyter 项目**，可以从使用"
+" ``MyST-Parser`` 的 Jupyter Book 入手，参见官方 Jupyter Book "
+"教程：{doc}`jupyterbook:start/your-first-book`"
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:20
 msgid "How to write  your content both in reStructuredText and MyST"
-msgstr ""
+msgstr "如何同时用 reStructuredText 和 MyST 编写内容"
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:22
 msgid ""
 "It is useful to ask whether a migration is necessary in the first place. "
-"Doing bulk migrations of large projects with lots of work in progress "
-"will create conflicts for ongoing changes. On the other hand, your "
-"writers might prefer to have some files in Markdown and some others in "
-"reStructuredText, for whatever reason. Luckily, Sphinx supports reading "
-"both types of markup at the same time without problems."
+"Doing bulk migrations of large projects with lots of work in progress will "
+"create conflicts for ongoing changes. On the other hand, your writers might "
+"prefer to have some files in Markdown and some others in reStructuredText, "
+"for whatever reason. Luckily, Sphinx supports reading both types of markup "
+"at the same time without problems."
 msgstr ""
+"首先值得思考的是迁移是否真的必要。对有大量进行中工作的项目做批量迁移会与进行中的变更产生冲突。另一方面，你的作者出于各种原因可能更愿意一部分文件用 "
+"Markdown、另一部分用 reStructuredText。幸运的是，Sphinx 支持同时读取两种标记语言，毫无问题。"
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:29
 msgid ""
 "To start using MyST in your existing Sphinx project, first [install the "
 "`myst-parser` Python package](https://myst-"
-"parser.readthedocs.io/en/stable/intro.html#installation) and then [enable"
-" it on your configuration](https://myst-"
+"parser.readthedocs.io/en/stable/intro.html#installation) and then [enable it"
+" on your configuration](https://myst-"
 "parser.readthedocs.io/en/stable/intro.html#enable-myst-in-sphinx):"
 msgstr ""
+"要在现有 Sphinx 项目中使用 MyST，先 [安装 `myst-parser` Python 包](https://myst-"
+"parser.readthedocs.io/en/stable/intro.html#installation)，然后 [在配置中启用它](https"
+"://myst-parser.readthedocs.io/en/stable/intro.html#enable-myst-in-sphinx)："
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:33
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:99
 msgid "conf.py"
-msgstr ""
+msgstr "conf.py"
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:44
 msgid ""
-"Your reStructuredText documents will keep rendering, and you will be able"
-" to add MyST documents with the `.md` extension that will be processed by"
-" MyST-Parser."
-msgstr ""
+"Your reStructuredText documents will keep rendering, and you will be able to"
+" add MyST documents with the `.md` extension that will be processed by MyST-"
+"Parser."
+msgstr "你的 reStructuredText 文档将继续正常渲染，并且可以添加 `.md` 扩展名的 MyST 文档，由 MyST-Parser 处理。"
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:48
 msgid ""
-"As an example, _this guide_ is written in MyST while the rest of the Read"
-" the Docs documentation is written in reStructuredText."
-msgstr ""
+"As an example, _this guide_ is written in MyST while the rest of the Read "
+"the Docs documentation is written in reStructuredText."
+msgstr "举例来说，_本指南_ 使用 MyST 编写，而 Read the Docs 其余文档使用 reStructuredText 编写。"
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:52
 msgid ""
-"By default, MyST-Parser registers the `.md` suffix for MyST source files."
-" If you want to use a different suffix, you can do so by changing your "
+"By default, MyST-Parser registers the `.md` suffix for MyST source files. If"
+" you want to use a different suffix, you can do so by changing your "
 "`source_suffix` configuration value in `conf.py`."
 msgstr ""
+"默认情况下，MyST-Parser 为 MyST 源文件注册 `.md` 后缀。若想使用其他后缀，可在 `conf.py` 中修改 "
+"`source_suffix` 配置值。"
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:57
 msgid "How to convert existing reStructuredText documentation to MyST"
-msgstr ""
+msgstr "如何将现有 reStructuredText 文档转换为 MyST"
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:59
 #, python-brace-format
 msgid ""
-"To convert existing reST documents to MyST, you can use the `rst2myst` "
-"CLI script shipped by {doc}`rst-to-myst:index`. The script supports "
-"converting the documents one by one, or scanning a series of directories "
-"to convert them in bulk."
+"To convert existing reST documents to MyST, you can use the `rst2myst` CLI "
+"script shipped by {doc}`rst-to-myst:index`. The script supports converting "
+"the documents one by one, or scanning a series of directories to convert "
+"them in bulk."
 msgstr ""
+"要将现有 reST 文档转换为 MyST，可使用 {doc}`rst-to-myst:index` 提供的 `rst2myst` CLI "
+"脚本。该脚本支持逐个转换文档，也可扫描一系列目录批量转换。"
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:64
 #, python-brace-format
 msgid ""
-"After {doc}``installing `rst-to-myst` <rst-to-myst:index>``, you can run "
-"the script as follows:"
-msgstr ""
+"After {doc}``installing `rst-to-myst` <rst-to-myst:index>``, you can run the"
+" script as follows:"
+msgstr "在 {doc}``安装 `rst-to-myst` <rst-to-myst:index>`` 之后，可按以下方式运行脚本："
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:72
 msgid "This will create a `.md` MyST file for every `.rst` source file converted."
-msgstr ""
+msgstr "这会为每个已转换的 `.rst` 源文件创建一个 `.md` MyST 文件。"
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:74
 msgid "How to modify the behaviour of `rst2myst`"
-msgstr ""
+msgstr "如何修改 `rst2myst` 的行为"
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:76
 msgid ""
 "The `rst2myst` accepts several flags to modify its behavior. All of them "
-"have sensible defaults, so you don't have to specify them unless you want"
-" to."
-msgstr ""
+"have sensible defaults, so you don't have to specify them unless you want "
+"to."
+msgstr "`rst2myst` 接受若干标志以修改其行为。它们都有合理的默认值，除非你确实需要，否则无需指定。"
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:80
 msgid "These are a few options you might find useful:"
-msgstr ""
+msgstr "以下是几个可能对你有用的选项："
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:82
 #, python-brace-format
 msgid "{option}``-d, --dry-run <rst-to-myst:rst2myst-convert.--dry-run>``"
-msgstr ""
+msgstr "{option}``-d, --dry-run <rst-to-myst:rst2myst-convert.--dry-run>``"
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:83
 msgid ""
-"Only verify that the script would work correctly, without actually "
-"writing any files."
-msgstr ""
+"Only verify that the script would work correctly, without actually writing "
+"any files."
+msgstr "仅验证脚本能否正确工作，不实际写入任何文件。"
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:86
 #, python-brace-format
@@ -162,71 +178,76 @@ msgid ""
 "{option}``-R, --replace-files <rst-to-myst:rst2myst-convert.--replace-"
 "files>``"
 msgstr ""
+"{option}``-R, --replace-files <rst-to-myst:rst2myst-convert.--replace-"
+"files>``"
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:87
 msgid ""
-"Replace the `.rst` files by their `.md` equivalent, rather than writing a"
-" new `.md` file next to the old `.rst` one."
-msgstr ""
+"Replace the `.rst` files by their `.md` equivalent, rather than writing a "
+"new `.md` file next to the old `.rst` one."
+msgstr "用对应的 `.md` 文件替换 `.rst` 文件，而不是在旧 `.rst` 文件旁写入新的 `.md` 文件。"
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:90
 #, python-brace-format
 msgid ""
-"You can read the full list of options in {doc}``the `rst2myst` "
-"documentation <rst-to-myst:cli>``."
-msgstr ""
+"You can read the full list of options in {doc}``the `rst2myst` documentation"
+" <rst-to-myst:cli>``."
+msgstr "完整选项列表见 {doc}``the `rst2myst` documentation <rst-to-myst:cli>``。"
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:93
 msgid "How to enable optional syntax"
-msgstr ""
+msgstr "如何启用可选语法"
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:95
 msgid ""
 "Some reStructuredText syntax will require you to enable certain MyST "
-"plugins. For example, to write [reST definition lists], you need to add a"
-" `myst_enable_extensions` variable to your Sphinx configuration, as "
-"follows:"
+"plugins. For example, to write [reST definition lists], you need to add a "
+"`myst_enable_extensions` variable to your Sphinx configuration, as follows:"
 msgstr ""
+"部分 reStructuredText 语法需要你启用特定的 MyST 插件。例如，要编写 [reST 定义列表]，需在 Sphinx 配置中添加 "
+"`myst_enable_extensions` 变量，如下所示："
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:106
 #, python-brace-format
 msgid ""
 "You can learn more about {doc}`other MyST-Parser plugins <myst-"
 "parser:syntax/optional>` in their documentation."
-msgstr ""
+msgstr "关于 {doc}`其他 MyST-Parser 插件 <myst-parser:syntax/optional>` 的更多信息，请查阅其文档。"
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:111
 msgid "How to write reStructuredText syntax within MyST"
-msgstr ""
+msgstr "如何在 MyST 中编写 reStructuredText 语法"
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:113
 #, python-brace-format
 msgid ""
-"There is a small chance that `rst2myst` does not properly understand a "
-"piece of reST syntax, either because there is a bug in the tool or "
-"because that syntax does not have a MyST equivalent yet. For example, "
-"{ref}`as explained in the documentation <myst-parser:howto/autodoc>`, the"
-" `sphinx.ext.autodoc` extension is incompatible with MyST."
+"There is a small chance that `rst2myst` does not properly understand a piece"
+" of reST syntax, either because there is a bug in the tool or because that "
+"syntax does not have a MyST equivalent yet. For example, {ref}`as explained "
+"in the documentation <myst-parser:howto/autodoc>`, the `sphinx.ext.autodoc` "
+"extension is incompatible with MyST."
 msgstr ""
+"`rst2myst` 有很小概率无法正确理解某段 reST 语法——可能是工具的缺陷，也可能是该语法尚无 MyST 等价物。例如，{ref}`如文档所述"
+" <myst-parser:howto/autodoc>`，`sphinx.ext.autodoc` 扩展与 MyST 不兼容。"
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:119
 msgid ""
 "Fortunately, MyST supports an `eval-rst` directive that will parse the "
 "content as reStructuredText, rather than MyST. For example:"
-msgstr ""
+msgstr "幸运的是，MyST 支持 `eval-rst` 指令，它会将内容按 reStructuredText 而非 MyST 解析。例如："
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:132
 msgid "will produce the following result:"
-msgstr ""
+msgstr "将产生以下结果："
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:137
 msgid "Complete MyST migration."
-msgstr ""
+msgstr "完成 MyST 迁移。"
 
 #: ../../upstream/docs/user/guides/migrate-rest-myst.md:141
 msgid ""
-"As a result, this allows you to conduct a gradual migration, at the "
-"expense of having heterogeneous syntax in your source files. In any case,"
-" the HTML output will be the same."
-msgstr ""
+"As a result, this allows you to conduct a gradual migration, at the expense "
+"of having heterogeneous syntax in your source files. In any case, the HTML "
+"output will be the same."
+msgstr "这让你可以进行渐进式迁移，代价是源文件中会存在混合语法。无论如何，HTML 输出完全相同。"
 

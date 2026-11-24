@@ -22,109 +22,123 @@ msgstr ""
 
 #: ../../upstream/docs/user/automated-access.rst:2
 msgid "Automated access to Read the Docs"
-msgstr ""
+msgstr "自动化访问 Read the Docs"
 
 #: ../../upstream/docs/user/automated-access.rst:4
 msgid ""
-"Read the Docs generally welcomes respectful crawlers, spiders, and bots "
-"on documentation sites. Agent use of Read the Docs is also supported."
-msgstr ""
+"Read the Docs generally welcomes respectful crawlers, spiders, and bots on "
+"documentation sites. Agent use of Read the Docs is also supported."
+msgstr "Read the Docs 总体欢迎尊重规则的爬虫、蜘蛛和机器人访问文档站点，也支持智能体使用 Read the Docs。"
 
 #: ../../upstream/docs/user/automated-access.rst:7
 msgid ""
 "Please respect the following policies when automating access to Read the "
 "Docs:"
-msgstr ""
+msgstr "自动化访问 Read the Docs 时请遵守以下政策："
 
 #: ../../upstream/docs/user/automated-access.rst:9
 msgid ""
-"**Rate limits**: Keep to under **4 requests per second**. Small bursts "
-"above this will not result in rate limiting or bans. Many projects build "
-"their documentation as a downloadable zip file or other formats. Please "
-"keep these downloads to 1 request per second. API requests have their own"
-" rate limits (see :ref:`API rate limiting <api/v3:Rate limiting>`)."
+"**Rate limits**: Keep to under **4 requests per second**. Small bursts above"
+" this will not result in rate limiting or bans. Many projects build their "
+"documentation as a downloadable zip file or other formats. Please keep these"
+" downloads to 1 request per second. API requests have their own rate limits "
+"(see :ref:`API rate limiting <api/v3:Rate limiting>`)."
 msgstr ""
+"**速率限制** ：保持在**每秒 4 次请求** 以下。少量超出不会触发限速或封禁。许多项目以可下载 zip "
+"文件或其他格式构建文档，此类下载请保持每秒 1 次请求。API 请求有独立的速率限制（见 :ref:`API 速率限制 <api/v3:Rate "
+"limiting>` ）。"
 
 #: ../../upstream/docs/user/automated-access.rst:15
 msgid ""
 "**Product dashboards**: Scraping pages from our product dashboards on "
 "|org_brand| or |com_brand| is frowned upon in bulk."
-msgstr ""
+msgstr "**产品仪表盘** ：批量抓取 |org_brand| 或 |com_brand| 上的产品仪表盘页面不被鼓励。"
 
 #: ../../upstream/docs/user/automated-access.rst:17
 msgid ""
 "**Copyright**: While automated access to documentation is acceptable, "
-"content is the copyright of the respective project owners and "
-"contributors."
-msgstr ""
+"content is the copyright of the respective project owners and contributors."
+msgstr "**版权** ：自动化访问文档是可以接受的，但内容版权归相应的项目所有者和贡献者所有。"
 
 #: ../../upstream/docs/user/automated-access.rst:20
 msgid ""
-"**Account creation**: Automated account creation is not acceptable beyond"
-" a single personal account."
-msgstr ""
+"**Account creation**: Automated account creation is not acceptable beyond a "
+"single personal account."
+msgstr "**账户创建** ：除单个个人账户外，自动化创建账户不可接受。"
 
 #: ../../upstream/docs/user/automated-access.rst:22
 msgid ""
 "**Bot identification**: Identify yourself. Put a domain or email in your "
-"user agent. This is very helpful and reduces your chances of being "
-"blocked."
-msgstr ""
+"user agent. This is very helpful and reduces your chances of being blocked."
+msgstr "**机器人标识** ：请表明身份，在 user agent 中填入域名或邮箱。这非常有帮助，也能降低被封禁的可能。"
 
 #: ../../upstream/docs/user/automated-access.rst:25
 msgid ""
 "**Markdown format**: Bots can request documentation pages as Markdown "
 "directly. See :doc:`/reference/markdown-for-agents`."
 msgstr ""
+"**Markdown 格式** ：机器人可直接以 Markdown 请求文档页面。参见 :doc:`/reference/markdown-for-"
+"agents` 。"
 
 #: ../../upstream/docs/user/automated-access.rst:28
 msgid ""
-"**Traffic analysis**: We analyze our traffic beyond simple IP rate "
-"limiting. We frown upon large amounts of traffic impersonating real "
-"browsers or traffic distributed to get around rate limits. Distributed "
-"traffic is far more likely to result in a ban."
-msgstr ""
+"**Traffic analysis**: We analyze our traffic beyond simple IP rate limiting."
+" We frown upon large amounts of traffic impersonating real browsers or "
+"traffic distributed to get around rate limits. Distributed traffic is far "
+"more likely to result in a ban."
+msgstr "**流量分析** ：我们的流量分析不止简单的 IP 限速。我们不鼓励大量伪装成真实浏览器的流量，或为绕过限速而分散的流量。分散流量被封禁的可能性高得多。"
 
 #: ../../upstream/docs/user/automated-access.rst:32
 msgid ""
-"**Cloudflare verification**: We use Cloudflare heavily (thanks to "
-"Cloudflare for sponsoring |org_brand|). Cloudflare `verified bots "
-"<https://developers.cloudflare.com/bots/concepts/bot/verified-bots/>`_ "
-"are less likely to be limited or blocked."
+"**Cloudflare verification**: We use Cloudflare heavily (thanks to Cloudflare"
+" for sponsoring |org_brand|). Cloudflare `verified bots "
+"<https://developers.cloudflare.com/bots/concepts/bot/verified-bots/>`_ are "
+"less likely to be limited or blocked."
 msgstr ""
+"**Cloudflare 验证** ：我们大量使用 Cloudflare（感谢 Cloudflare 对 |org_brand| "
+"的赞助）。Cloudflare `verified bots "
+"<https://developers.cloudflare.com/bots/concepts/bot/verified-bots/>`_ "
+"较少受到限制或封禁。"
 
 #: ../../upstream/docs/user/automated-access.rst:36
 msgid ""
-"**Caching**: Read the Docs implements most caching strategies. Well-"
-"behaved crawlers can take advantage of cache headers, ``ETag`` headers, "
-"``Date`` headers, and more. Cached requests generally don't count against"
-" rate limits."
+"**Caching**: Read the Docs implements most caching strategies. Well-behaved "
+"crawlers can take advantage of cache headers, ``ETag`` headers, ``Date`` "
+"headers, and more. Cached requests generally don't count against rate "
+"limits."
 msgstr ""
+"**缓存** ：Read the Docs 实现了大多数缓存策略。行为良好的爬虫可利用缓存标头、``ETag`` 标头、``Date`` "
+"标头等。命中缓存的请求通常不计入速率限制。"
 
 #: ../../upstream/docs/user/automated-access.rst:41
 msgid ""
-"Please help keep the web open by respecting these policies. Read our blog"
-" post about `AI crawler abuse <https://about.readthedocs.com/blog/2024/07"
-"/ai-crawlers-abuse/>`_ to understand the impact of poor behavior."
+"Please help keep the web open by respecting these policies. Read our blog "
+"post about `AI crawler abuse <https://about.readthedocs.com/blog/2024/07/ai-"
+"crawlers-abuse/>`_ to understand the impact of poor behavior."
 msgstr ""
+"请遵守这些政策，帮助保持网络开放。阅读我们关于 `AI 爬虫滥用 <https://about.readthedocs.com/blog/2024/07"
+"/ai-crawlers-abuse/>`_ 的博客文章，了解不当行为的影响。"
 
 #: ../../upstream/docs/user/automated-access.rst:46
 msgid "Special considerations"
-msgstr ""
+msgstr "特别 considerations"
 
 #: ../../upstream/docs/user/automated-access.rst:48
 msgid ""
-"We are open to special considerations or increased rate limits on a case-"
-"by-case basis. Please :doc:`contact support </support>` to discuss your "
-"needs."
-msgstr ""
+"We are open to special considerations or increased rate limits on a case-by-"
+"case basis. Please :doc:`contact support </support>` to discuss your needs."
+msgstr "我们可逐案考虑特殊情况或提高速率限制。请 :doc:`联系支持 </support>` 讨论你的需求。"
 
 #: ../../upstream/docs/user/automated-access.rst:51
 msgid ""
 "If you believe you have been incorrectly limited or blocked, please "
-":doc:`contact support </support>` with details about your user agent and "
-"the requesting IP block. Please include the Cloudflare `Ray ID "
+":doc:`contact support </support>` with details about your user agent and the"
+" requesting IP block. Please include the Cloudflare `Ray ID "
 "<https://developers.cloudflare.com/fundamentals/reference/cloudflare-ray-"
 "id/>`_ from the blocking page if possible."
 msgstr ""
+"若你认为被错误限速或封禁，请 :doc:`联系支持 </support>` 并提供你的 user agent 和发起请求的 IP "
+"段详情。如可能，请附上拦截页面上的 Cloudflare `Ray ID "
+"<https://developers.cloudflare.com/fundamentals/reference/cloudflare-ray-"
+"id/>`_ 。"
 

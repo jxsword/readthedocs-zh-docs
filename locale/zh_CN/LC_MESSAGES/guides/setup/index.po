@@ -22,136 +22,140 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/setup/index.rst:40
 msgid "Connecting your Read the Docs account to your Git provider"
-msgstr ""
+msgstr "将 Read the Docs 账户连接到 Git 服务商"
 
 #: ../../upstream/docs/user/guides/setup/index.rst:40
 msgid "Configuring a Git repository manually"
-msgstr ""
+msgstr "手动配置 Git 仓库"
 
 #: ../../upstream/docs/user/guides/setup/index.rst:40
 msgid "Managing custom domains"
-msgstr ""
+msgstr "管理自定义域名"
 
 #: ../../upstream/docs/user/guides/setup/index.rst:40
 msgid "Hiding a version"
-msgstr ""
+msgstr "隐藏版本"
 
 #: ../../upstream/docs/user/guides/setup/index.rst:40
 msgid "Using a .readthedocs.yaml file in a sub-folder"
-msgstr ""
+msgstr "在子目录中使用 .readthedocs.yaml 文件"
 
 #: ../../upstream/docs/user/guides/setup/index.rst:40
 msgid "Using custom URL redirects in documentation projects"
-msgstr ""
+msgstr "在文档项目中使用自定义 URL 重定向"
 
 #: ../../upstream/docs/user/guides/setup/index.rst:2
 msgid "How-to guides: project setup and configuration"
-msgstr ""
+msgstr "操作指南：项目设置与配置"
 
 #: ../../upstream/docs/user/guides/setup/index.rst:4
 msgid ""
-"The following how-to guides help you solve common tasks and challenges in"
-" the setup and configuration stages."
-msgstr ""
+"The following how-to guides help you solve common tasks and challenges in "
+"the setup and configuration stages."
+msgstr "以下操作指南帮助你解决设置和配置阶段的常见任务与挑战。"
 
 #: ../../upstream/docs/user/guides/setup/index.rst:6
 msgid ""
-"⏩️ :doc:`Connecting your Read the Docs account to your Git provider "
-"</guides/connecting-git-account>`"
-msgstr ""
+"⏩️ :doc:`Connecting your Read the Docs account to your Git provider </guides"
+"/connecting-git-account>`"
+msgstr "⏩️ :doc:`将 Read the Docs 账户连接到 Git 服务商 </guides/connecting-git-account>`"
 
 #: ../../upstream/docs/user/guides/setup/index.rst:7
 msgid ""
-"Steps to connect an account on |git_providers_or| with your Read the Docs"
-" account."
-msgstr ""
+"Steps to connect an account on |git_providers_or| with your Read the Docs "
+"account."
+msgstr "将 |git_providers_or| 上的账户与 Read the Docs 账户关联的步骤。"
 
 #: ../../upstream/docs/user/guides/setup/index.rst:9
 msgid ""
 "⏩️ :doc:`Configuring a Git repository manually </guides/setup/git-repo-"
 "manual>`"
-msgstr ""
+msgstr "⏩️ :doc:`手动配置 Git 仓库 </guides/setup/git-repo-manual>`"
 
 #: ../../upstream/docs/user/guides/setup/index.rst:10
 msgid ""
-"If you are connecting a Git repository from another provider (for "
-"instance Gitea or Codeberg), this guide tells you how to add and "
-"configure the webhook **manually**."
-msgstr ""
+"If you are connecting a Git repository from another provider (for instance "
+"Gitea or Codeberg), this guide tells you how to add and configure the "
+"webhook **manually**."
+msgstr "若你要连接来自其他服务商（如 Gitea 或 Codeberg）的 Git 仓库，本指南讲解如何**手动** 添加和配置 Webhook。"
 
 #: ../../upstream/docs/user/guides/setup/index.rst:13
 msgid "⏩️ :doc:`Managing custom domains </guides/custom-domains>`"
-msgstr ""
+msgstr "⏩️ :doc:`管理自定义域名 </guides/custom-domains>`"
 
 #: ../../upstream/docs/user/guides/setup/index.rst:14
 msgid ""
 "Hosting your documentation using your own domain name, such as "
 "``docs.example.com``."
-msgstr ""
+msgstr "使用自有域名（如 ``docs.example.com`` ）托管文档。"
 
 #: ../../upstream/docs/user/guides/setup/index.rst:16
 msgid ""
 "⏩️ :doc:`Using custom URL redirects in documentation projects "
 "</guides/redirects>`"
-msgstr ""
+msgstr "⏩️ :doc:`在文档项目中使用自定义 URL 重定向 </guides/redirects>`"
 
 #: ../../upstream/docs/user/guides/setup/index.rst:17
 msgid ""
 "Configuring your Read the Docs project for redirecting visitors from one "
 "location to another."
-msgstr ""
+msgstr "配置 Read the Docs 项目，将访问者从一个位置重定向到另一位置。"
 
 #: ../../upstream/docs/user/guides/setup/index.rst:19
 msgid "⏩️ :doc:`/guides/subprojects`"
-msgstr ""
+msgstr "⏩️ :doc:`/guides/subprojects`"
 
 #: ../../upstream/docs/user/guides/setup/index.rst:20
 msgid ""
 "Use subprojects to nest multiple projects into a single custom domain or "
 "single documentation project."
-msgstr ""
+msgstr "用子项目将多个项目嵌套到单一自定义域名或单一文档项目中。"
 
 #: ../../upstream/docs/user/guides/setup/index.rst:22
 msgid ""
 "⏩️ :doc:`Using a .readthedocs.yaml file in a sub-folder "
 "</guides/setup/monorepo>`"
-msgstr ""
+msgstr "⏩️ :doc:`在子目录中使用 .readthedocs.yaml 文件 </guides/setup/monorepo>`"
 
 #: ../../upstream/docs/user/guides/setup/index.rst:23
 msgid ""
-"This guide shows how to configure a Read the Docs project to use a custom"
-" path for the ``.readthedocs.yaml`` build configuration. *Monorepos* that"
-" have multiple documentation projects in the same Git repository can "
-"benefit from this feature."
+"This guide shows how to configure a Read the Docs project to use a custom "
+"path for the ``.readthedocs.yaml`` build configuration. *Monorepos* that "
+"have multiple documentation projects in the same Git repository can benefit "
+"from this feature."
 msgstr ""
+"本指南讲解如何配置 Read the Docs 项目，为 ``.readthedocs.yaml`` 构建配置使用自定义路径。同一 Git "
+"仓库中有多个文档项目的 *Monorepos* 可从此功能受益。"
 
 #: ../../upstream/docs/user/guides/setup/index.rst:26
 msgid "⏩️ :doc:`Hiding a version </guides/hiding-a-version>`"
-msgstr ""
+msgstr "⏩️ :doc:`隐藏版本 </guides/hiding-a-version>`"
 
 #: ../../upstream/docs/user/guides/setup/index.rst:27
 msgid ""
-"Is your version (flyout) menu overwhelmed and hard to navigate? Here's "
-"how to make it shorter."
-msgstr ""
+"Is your version (flyout) menu overwhelmed and hard to navigate? Here's how "
+"to make it shorter."
+msgstr "你的版本（浮出）菜单是否被塞满且难以导航？这里告诉你如何精简。"
 
 #: ../../upstream/docs/user/guides/setup/index.rst:30
 msgid ""
-"⏩️ :ref:`versioning-schemes:How to change the URL versioning scheme of "
-"your project`"
+"⏩️ :ref:`versioning-schemes:How to change the URL versioning scheme of your "
+"project`"
 msgstr ""
+"⏩️ :ref:`versioning-schemes:How to change the URL versioning scheme of your "
+"project`"
 
 #: ../../upstream/docs/user/guides/setup/index.rst:31
 msgid ""
 "Change how the URLs of your documentation look like, and if your project "
 "supports multiple versions or translations."
-msgstr ""
+msgstr "改变文档 URL 的形态，以及项目是否支持多版本或多翻译。"
 
 #: ../../upstream/docs/user/guides/setup/index.rst:36
 msgid ":doc:`/tutorial/index`"
-msgstr ""
+msgstr ":doc:`/tutorial/index`"
 
 #: ../../upstream/docs/user/guides/setup/index.rst:37
 msgid "All you need to know to get started."
-msgstr ""
+msgstr "开始所需了解的一切。"
 

@@ -22,128 +22,140 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/jupyter.rst:2
 msgid "How to use Jupyter notebooks in Sphinx"
-msgstr ""
+msgstr "如何在 Sphinx 中使用 Jupyter Notebook"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:4
 msgid ""
-"`Jupyter`_ notebooks are a popular tool to describe computational "
-"narratives that mix code, prose, images, interactive components, and "
-"more. Embedding them in your Sphinx project allows using these rich "
-"documents as documentation, which can provide a great experience for "
-"tutorials, examples, and other types of technical content. There are a "
-"few extensions that allow integrating Jupyter and Sphinx, and this "
-"document will explain how to achieve some of the most commonly requested "
-"features."
+"`Jupyter`_ notebooks are a popular tool to describe computational narratives"
+" that mix code, prose, images, interactive components, and more. Embedding "
+"them in your Sphinx project allows using these rich documents as "
+"documentation, which can provide a great experience for tutorials, examples,"
+" and other types of technical content. There are a few extensions that allow"
+" integrating Jupyter and Sphinx, and this document will explain how to "
+"achieve some of the most commonly requested features."
 msgstr ""
+"`Jupyter`_ Notebook 是描述计算叙事的常用工具，可混合代码、文字、图片、交互式组件等。将它们嵌入 Sphinx "
+"项目，就能把这些丰富的文档用作文档载体，为教程、示例和其他类型的技术内容提供出色体验。有若干扩展支持集成 Jupyter 与 "
+"Sphinx，本文档将讲解如何实现其中最常被要求的功能。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:16
 msgid "Including classic ``.ipynb`` notebooks in Sphinx documentation"
-msgstr ""
+msgstr "在 Sphinx 文档中包含经典 ``.ipynb`` Notebook"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:18
 msgid ""
-"There are two main extensions that add support Jupyter notebooks as "
-"source files in Sphinx: nbsphinx_ and MyST-NB_. They have similar intent "
-"and basic functionality: both can read notebooks in ``.ipynb`` and "
-"additional formats supported by `jupytext`_, and are configured in a "
-"similar way (see :ref:`nb-background` for more background on their "
-"differences)."
+"There are two main extensions that add support Jupyter notebooks as source "
+"files in Sphinx: nbsphinx_ and MyST-NB_. They have similar intent and basic "
+"functionality: both can read notebooks in ``.ipynb`` and additional formats "
+"supported by `jupytext`_, and are configured in a similar way (see :ref:`nb-"
+"background` for more background on their differences)."
 msgstr ""
+"有两个主要扩展支持在 Sphinx 中把 Jupyter Notebook 作为源文件：nbsphinx_ 和 MyST-"
+"NB_。它们目标和基本功能相似：都能读取 ``.ipynb`` 格式以及 `jupytext`_ 支持的其他格式，配置方式也相似（差异详见 :ref"
+":`nb-background` ）。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:24
 msgid ""
-"First of all, create a Jupyter notebook using the editor of your liking "
-"(for example, JupyterLab_). For example, ``source/notebooks/Example "
-"1.ipynb``:"
+"First of all, create a Jupyter notebook using the editor of your liking (for"
+" example, JupyterLab_). For example, ``source/notebooks/Example 1.ipynb``:"
 msgstr ""
+"首先，用你喜欢的编辑器（如 JupyterLab_）创建一个 Jupyter Notebook。例如 "
+"``source/notebooks/Example 1.ipynb`` ："
 
 #: ../../upstream/docs/user/guides/jupyter.rst:27
 #: ../../upstream/docs/user/guides/jupyter.rst:32
 msgid "Example Jupyter notebook created on JupyterLab"
-msgstr ""
+msgstr "在 JupyterLab 上创建的示例 Jupyter Notebook"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:36
 msgid "Next, you will need to enable one of the extensions, as follows:"
-msgstr ""
+msgstr "接下来，你需要启用其中一个扩展，如下所示："
 
 #: ../../upstream/docs/user/guides/jupyter.rst:40
 #: ../../upstream/docs/user/guides/jupyter.rst:211
 msgid "nbsphinx"
-msgstr ""
+msgstr "nbsphinx"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:42
 #: ../../upstream/docs/user/guides/jupyter.rst:51
 #: ../../upstream/docs/user/guides/jupyter.rst:213
 #: ../../upstream/docs/user/guides/jupyter.rst:222
 msgid "conf.py"
-msgstr ""
+msgstr "conf.py"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:49
 #: ../../upstream/docs/user/guides/jupyter.rst:220
 msgid "MyST-NB"
-msgstr ""
+msgstr "MyST-NB"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:58
 msgid ""
 "Finally, you can include the notebook in any *toctree*. For example, add "
 "this to your root document:"
-msgstr ""
+msgstr "最后，你可以把 Notebook 包含进任意 *toctree* 。例如，在根文档中添加："
 
 #: ../../upstream/docs/user/guides/jupyter.rst:63
 #: ../../upstream/docs/user/guides/jupyter.rst:260
 msgid "reStructuredText"
-msgstr ""
+msgstr "reStructuredText"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:73
 #: ../../upstream/docs/user/guides/jupyter.rst:271
 msgid "MyST (Markdown)"
-msgstr ""
+msgstr "MyST（Markdown）"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:85
 msgid ""
-"The notebook will render as any other HTML page in your documentation "
-"after doing ``make html``."
-msgstr ""
+"The notebook will render as any other HTML page in your documentation after "
+"doing ``make html``."
+msgstr "执行 ``make html`` 后，该 Notebook 会像文档中其他 HTML 页面一样渲染。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:88
 #: ../../upstream/docs/user/guides/jupyter.rst:93
 msgid "Example Jupyter notebook rendered on HTML by nbsphinx"
-msgstr ""
+msgstr "由 nbsphinx 渲染为 HTML 的示例 Jupyter Notebook"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:95
 msgid ""
-"To further customize the rendering process among other things, refer to "
-"the nbsphinx_ or MyST-NB_ documentation."
-msgstr ""
+"To further customize the rendering process among other things, refer to the "
+"nbsphinx_ or MyST-NB_ documentation."
+msgstr "如需进一步定制渲染过程等，请参阅 nbsphinx_ 或 MyST-NB_ 文档。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:99
 msgid "Rendering interactive widgets"
-msgstr ""
+msgstr "渲染交互式组件"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:101
 msgid ""
 "Widgets are eventful python objects that have a representation in the "
-"browser and that you can use to build interactive GUIs for your "
-"notebooks. Basic widgets using `ipywidgets`_ include controls like "
-"sliders, textboxes, and buttons, and more complex widgets include "
-"interactive maps, like the ones provided by `ipyleaflet`_."
+"browser and that you can use to build interactive GUIs for your notebooks. "
+"Basic widgets using `ipywidgets`_ include controls like sliders, textboxes, "
+"and buttons, and more complex widgets include interactive maps, like the "
+"ones provided by `ipyleaflet`_."
 msgstr ""
+"Widget 是可响应事件的 Python 对象，在浏览器中有相应表示，可用于为你的 Notebook 构建交互式 GUI。使用 "
+"`ipywidgets`_ 的基础组件包括滑块、文本框、按钮等控件；更复杂的组件包括交互式地图，如 `ipyleaflet`_ 提供的那些。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:109
 msgid ""
-"You can embed these interactive widgets on HTML Sphinx documentation. For"
-" this to work, it's necessary to *save the widget state* before "
-"generating the HTML documentation, otherwise the widget will appear as "
-"empty. Each editor has a different way of doing it:"
+"You can embed these interactive widgets on HTML Sphinx documentation. For "
+"this to work, it's necessary to *save the widget state* before generating "
+"the HTML documentation, otherwise the widget will appear as empty. Each "
+"editor has a different way of doing it:"
 msgstr ""
+"你可以在 Sphinx 的 HTML 文档中嵌入这些交互式组件。为此，必须在生成 HTML 文档之前*保存组件状态* "
+"，否则组件会显示为空。各编辑器的做法不同："
 
 #: ../../upstream/docs/user/guides/jupyter.rst:115
 msgid ""
-"The classical Jupyter Notebook interface provides a \"Save Notebook "
-"Widget State\" action in the \"Widgets\" menu, :doc:`as explained in the "
-"ipywidgets documentation <ipywidgets:embedding>`. You need to click it "
-"before exporting your notebook to HTML."
+"The classical Jupyter Notebook interface provides a \"Save Notebook Widget "
+"State\" action in the \"Widgets\" menu, :doc:`as explained in the ipywidgets"
+" documentation <ipywidgets:embedding>`. You need to click it before "
+"exporting your notebook to HTML."
 msgstr ""
+"经典 Jupyter Notebook 界面在\"Widgets\"菜单中提供\"Save Notebook Widget "
+"State\"操作，:doc:`如 ipywidgets 文档所述 <ipywidgets:embedding>` 。导出 Notebook 为 "
+"HTML 前需点击它。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:120
 msgid ""
@@ -151,36 +163,43 @@ msgid ""
 "\"Settings\" menu. You need to leave it checked so that widget state is "
 "automatically saved."
 msgstr ""
+"JupyterLab 在\"Settings\"菜单中提供\"Save Widget State "
+"Automatically\"选项。你需要保持勾选，使组件状态自动保存。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:122
 msgid ""
 "In Visual Studio Code `it's not possible to save the widget state "
-"<https://github.com/microsoft/vscode-jupyter/issues/4404>`_ at the time "
-"of writing (June 2021)."
+"<https://github.com/microsoft/vscode-jupyter/issues/4404>`_ at the time of "
+"writing (June 2021)."
 msgstr ""
+"在 Visual Studio Code 中，`截至撰写时（2021 年 6 月）无法保存组件状态 "
+"<https://github.com/microsoft/vscode-jupyter/issues/4404>`_ 。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:126
 #: ../../upstream/docs/user/guides/jupyter.rst:131
 msgid "JupyterLab option to save the interactive widget state automatically"
-msgstr ""
+msgstr "JupyterLab 自动保存交互式组件状态的选项"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:133
 #, python-format
 msgid ""
 "For example, if you create a notebook with a simple `IntSlider "
 "<https://ipywidgets.readthedocs.io/en/stable/examples/Widget%20List.html#intslider>`__"
-" widget from ipywidgets and save the widget state, the slider will render"
-" correctly in Sphinx."
+" widget from ipywidgets and save the widget state, the slider will render "
+"correctly in Sphinx."
 msgstr ""
+"例如，若你创建了一个包含 ipywidgets 简单 `IntSlider "
+"<https://ipywidgets.readthedocs.io/en/stable/examples/Widget%20List.html#intslider>`__"
+" 组件的 Notebook 并保存了组件状态，该滑块就能在 Sphinx 中正确渲染。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:138
 #: ../../upstream/docs/user/guides/jupyter.rst:143
 msgid "Interactive widget rendered in HTML by Sphinx"
-msgstr ""
+msgstr "由 Sphinx 渲染为 HTML 的交互式组件"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:145
 msgid "To see more elaborate examples:"
-msgstr ""
+msgstr "查看更丰富的示例："
 
 #: ../../upstream/docs/user/guides/jupyter.rst:147
 msgid ""
@@ -188,175 +207,205 @@ msgid ""
 "live versions of them :doc:`in their documentation "
 "<ipyleaflet:layers/velocity>`."
 msgstr ""
+"`ipyleaflet`_ 提供多个交互式地图组件，并在 :doc:`其文档中 <ipyleaflet:layers/velocity>` "
+"渲染其实时版本。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:149
 msgid ""
 "`PyVista <https://docs.pyvista.org/>`_ is used for scientific 3D "
 "visualization with several interactive backends and `examples in their "
-"documentation <https://docs.pyvista.org/index.html#maps-and-geoscience>`_"
-" as well."
+"documentation <https://docs.pyvista.org/index.html#maps-and-geoscience>`_ as"
+" well."
 msgstr ""
+"`PyVista <https://docs.pyvista.org/>`_ 用于科学三维可视化，支持多种交互式后端，也提供 `其文档中的示例 "
+"<https://docs.pyvista.org/index.html#maps-and-geoscience>`_ 。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:155
 msgid ""
 "Although widgets themselves can be embedded in HTML, :doc:`events "
-"<ipywidgets:examples/Widget Events>` require a backend (kernel) to "
-"execute. Therefore, ``@interact``, ``.observe``, and related "
-"functionalities relying on them will not work as expected."
+"<ipywidgets:examples/Widget Events>` require a backend (kernel) to execute. "
+"Therefore, ``@interact``, ``.observe``, and related functionalities relying "
+"on them will not work as expected."
 msgstr ""
+"虽然组件本身可以嵌入 HTML，但 :doc:`事件 <ipywidgets:examples/Widget Events>` "
+"需要后端（内核）执行。因此，``@interact`` 、``.observe`` 及依赖它们的相关功能不会按预期工作。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:163
 msgid ""
-"If your widgets need some additional JavaScript libraries, you can add "
-"them using :py:meth:`~sphinx.application.Sphinx.add_js_file`."
+"If your widgets need some additional JavaScript libraries, you can add them "
+"using :py:meth:`~sphinx.application.Sphinx.add_js_file`."
 msgstr ""
+"若你的组件需要额外的 JavaScript 库，可用 :py:meth:`~sphinx.application.Sphinx.add_js_file`"
+" 添加。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:169
 msgid "Using notebooks in other formats"
-msgstr ""
+msgstr "使用其他格式的 Notebook"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:171
 msgid ""
 "For example, this is how a simple notebook looks like in MyST Markdown "
 "format:"
-msgstr ""
+msgstr "例如，一个简单的 Notebook 在 MyST Markdown 格式下如下："
 
 #: ../../upstream/docs/user/guides/jupyter.rst:173
 msgid "Example 3.md"
-msgstr ""
+msgstr "Example 3.md"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:206
 msgid ""
 "To render this notebook in Sphinx you will need to add this to your "
 "``conf.py``:"
-msgstr ""
+msgstr "要在 Sphinx 中渲染此 Notebook，需在你的 ``conf.py`` 中添加："
 
 #: ../../upstream/docs/user/guides/jupyter.rst:229
 msgid ""
 "Notice that the Markdown format does not store the outputs of the "
-"computation. Sphinx will automatically execute notebooks without outputs,"
-" so in your HTML documentation they appear as complete."
-msgstr ""
+"computation. Sphinx will automatically execute notebooks without outputs, so"
+" in your HTML documentation they appear as complete."
+msgstr "注意 Markdown 格式不保存计算输出。Sphinx 会自动执行没有输出的 Notebook，因此在 HTML 文档中它们显示为完整内容。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:236
 msgid "Creating galleries of examples using notebooks"
-msgstr ""
+msgstr "使用 Notebook 创建示例画廊"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:238
 msgid ""
-"`nbsphinx`_ has support for :doc:`creating thumbnail galleries from a "
-"list of Jupyter notebooks <nbsphinx:subdir/gallery>`."
+"`nbsphinx`_ has support for :doc:`creating thumbnail galleries from a list "
+"of Jupyter notebooks <nbsphinx:subdir/gallery>`."
 msgstr ""
+"`nbsphinx`_ 支持 :doc:`从 Jupyter Notebook 列表创建缩略图画廊 <nbsphinx:subdir/gallery>`"
+" 。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:241
 msgid "There are two ways to create the gallery:"
-msgstr ""
+msgstr "创建画廊有两种方式："
 
 #: ../../upstream/docs/user/guides/jupyter.rst:243
 msgid ""
-"From a reStructuredText source file, using the ``.. nbgallery::`` "
-"directive, :ref:`as showcased in the documentation <nbsphinx:/a-normal-"
-"rst-file.rst#thumbnail-galleries>`."
+"From a reStructuredText source file, using the ``.. nbgallery::`` directive,"
+" :ref:`as showcased in the documentation <nbsphinx:/a-normal-rst-file.rst"
+"#thumbnail-galleries>`."
 msgstr ""
+"从 reStructuredText 源文件出发，使用 ``.. nbgallery::`` 指令，:ref:`如文档中所示 <nbsphinx:/a"
+"-normal-rst-file.rst#thumbnail-galleries>` 。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:246
 msgid ""
 "From a Jupyter notebook, adding a ``\"nbsphinx-gallery\"`` tag to the "
-"metadata of a cell. Each editor has a different way of modifying the cell"
-" metadata (see figure below)."
+"metadata of a cell. Each editor has a different way of modifying the cell "
+"metadata (see figure below)."
 msgstr ""
+"从 Jupyter Notebook 出发，为某个单元格的元数据添加 ``\"nbsphinx-gallery\"`` "
+"标签。各编辑器修改单元格元数据的方式不同（见下图）。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:249
 #: ../../upstream/docs/user/guides/jupyter.rst:254
 msgid "Panel to modify cell metadata in JupyterLab"
-msgstr ""
+msgstr "在 JupyterLab 中修改单元格元数据的面板"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:256
 msgid "For example, this markup would create a thumbnail gallery:"
-msgstr ""
+msgstr "例如，以下标记会创建一个缩略图画廊："
 
 #: ../../upstream/docs/user/guides/jupyter.rst:282
 #: ../../upstream/docs/user/guides/jupyter.rst:287
 msgid "Simple thumbnail gallery created using nbsphinx"
-msgstr ""
+msgstr "使用 nbsphinx 创建的简单缩略图画廊"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:289
 msgid "To see some examples of notebook galleries in the wild:"
-msgstr ""
+msgstr "查看一些实际应用中的 Notebook 画廊示例："
 
 #: ../../upstream/docs/user/guides/jupyter.rst:291
 msgid ""
-"`poliastro <https://docs.poliastro.space/>`_ offers tools for interactive"
-" Astrodynamics in Python, and features :doc:`several examples and how-to "
+"`poliastro <https://docs.poliastro.space/>`_ offers tools for interactive "
+"Astrodynamics in Python, and features :doc:`several examples and how-to "
 "guides using notebooks <poliastro:gallery>` and displays them in an "
 "appealing thumbnail gallery. In addition, `poliastro uses unpaired MyST "
 "Notebooks "
-"<https://github.com/poliastro/poliastro/tree/0.15.x/docs/source/examples>`_"
-" to reduce repository size and improve integration with git."
+"<https://github.com/poliastro/poliastro/tree/0.15.x/docs/source/examples>`_ "
+"to reduce repository size and improve integration with git."
 msgstr ""
+"`poliastro <https://docs.poliastro.space/>`_ 提供 Python "
+"交互式天体动力学工具，:doc:`包含多个使用 Notebook 的示例和操作指南 <poliastro:gallery>` "
+"，并以美观的缩略图画廊展示。此外，`poliastro 使用非配对 MyST Notebook "
+"<https://github.com/poliastro/poliastro/tree/0.15.x/docs/source/examples>`_ "
+"以减小仓库体积并改善与 git 的集成。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:299
 msgid "Background"
-msgstr ""
+msgstr "背景"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:304
 msgid "Existing relevant extensions"
-msgstr ""
+msgstr "现有的相关扩展"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:306
 msgid ""
-"In the first part of this document we have seen that `nbsphinx`_ and "
-"`MyST-NB`_ are similar. However, there are some differences between them:"
-msgstr ""
+"In the first part of this document we have seen that `nbsphinx`_ and `MyST-"
+"NB`_ are similar. However, there are some differences between them:"
+msgstr "本文第一部分已说明 `nbsphinx`_ 和 `MyST-NB`_ 相似，但两者仍有一些差异："
 
 #: ../../upstream/docs/user/guides/jupyter.rst:310
 msgid ""
-"nsphinx uses `pandoc <https://pandoc.org/>`_ to convert the Markdown from"
-" Jupyter notebooks to reStructuredText and then to `docutils AST "
-"<https://docutils.sourceforge.io/docs/ref/doctree.html>`_, whereas MyST-"
-"NB uses `MyST-Parser`_ to directly convert the Markdown text to docutils "
-"AST. Therefore, nbsphinx assumes `pandoc flavored Markdown "
-"<https://pandoc.org/MANUAL.html#pandocs-markdown>`_, whereas MyST-NB uses"
-" :doc:`MyST flavored Markdown <myst-parser:index>`. Both Markdown flavors"
-" are mostly equal, but they have some differences."
+"nsphinx uses `pandoc <https://pandoc.org/>`_ to convert the Markdown from "
+"Jupyter notebooks to reStructuredText and then to `docutils AST "
+"<https://docutils.sourceforge.io/docs/ref/doctree.html>`_, whereas MyST-NB "
+"uses `MyST-Parser`_ to directly convert the Markdown text to docutils AST. "
+"Therefore, nbsphinx assumes `pandoc flavored Markdown "
+"<https://pandoc.org/MANUAL.html#pandocs-markdown>`_, whereas MyST-NB uses "
+":doc:`MyST flavored Markdown <myst-parser:index>`. Both Markdown flavors are"
+" mostly equal, but they have some differences."
 msgstr ""
+"nbsphinx 用 `pandoc <https://pandoc.org/>`_ 将 Jupyter Notebook 中的 Markdown 转为"
+" reStructuredText，再转为 `docutils AST "
+"<https://docutils.sourceforge.io/docs/ref/doctree.html>`_ ；而 MyST-NB 用 "
+"`MyST-Parser`_ 直接将 Markdown 文本转为 docutils AST。因此 nbsphinx 假定的是 `pandoc 风格 "
+"Markdown <https://pandoc.org/MANUAL.html#pandocs-markdown>`_ ，MyST-NB 使用的则是 "
+":doc:`MyST 风格 Markdown <myst-parser:index>` 。两种 Markdown 方言大体相同，但存在一些差异。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:319
 msgid ""
-"nbsphinx executes each notebook during the parsing phase, whereas MyST-NB"
-" can execute all notebooks up front and cache them with `jupyter-cache "
-"<https://jupyter-cache.readthedocs.io/>`_. This can result in shorter "
-"build times when notebooks are modified if using MyST-NB."
+"nbsphinx executes each notebook during the parsing phase, whereas MyST-NB "
+"can execute all notebooks up front and cache them with `jupyter-cache <https"
+"://jupyter-cache.readthedocs.io/>`_. This can result in shorter build times "
+"when notebooks are modified if using MyST-NB."
 msgstr ""
+"nbsphinx 在解析阶段执行每个 Notebook，而 MyST-NB 可以预先执行全部 Notebook 并用 `jupyter-cache "
+"<https://jupyter-cache.readthedocs.io/>`_ 缓存。因此使用 MyST-NB 时，Notebook "
+"被修改可带来更短的构建时间。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:324
 msgid ""
-"nbsphinx provides functionality to create thumbnail galleries, whereas "
-"MyST-NB does not have such functionality at the moment (see :ref"
-":`notebook-galleries` for more information about galleries)."
-msgstr ""
+"nbsphinx provides functionality to create thumbnail galleries, whereas MyST-"
+"NB does not have such functionality at the moment (see :ref:`notebook-"
+"galleries` for more information about galleries)."
+msgstr "nbsphinx 提供创建缩略图画廊的功能，而 MyST-NB 目前没有此功能（画廊的更多信息见 :ref:`notebook-galleries` ）。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:327
 msgid ""
 "MyST-NB allows embedding Python objects coming from the notebook in the "
 "documentation (read :doc:`their \"glue\" documentation <myst-"
 "nb:render/glue>` for more information) and provides more sophisticated "
-":doc:`error reporting <myst-nb:computation/execute>` than the one "
-"nbsphinx has."
+":doc:`error reporting <myst-nb:computation/execute>` than the one nbsphinx "
+"has."
 msgstr ""
+"MyST-NB 允许在文档中嵌入来自 Notebook 的 Python 对象（详见 :doc:`其 \"glue\" 文档 <myst-"
+"nb:render/glue>` ），并提供比 nbsphinx 更精细的 :doc:`错误报告 <myst-"
+"nb:computation/execute>` 。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:332
 msgid ""
-"The visual appearance of code cells and their outputs is slightly "
-"different: nbsphinx renders the cell numbers by default, whereas MyST-NB "
-"doesn't."
-msgstr ""
+"The visual appearance of code cells and their outputs is slightly different:"
+" nbsphinx renders the cell numbers by default, whereas MyST-NB doesn't."
+msgstr "代码单元格及其输出的视觉呈现略有不同：nbsphinx 默认渲染单元格编号，MyST-NB 则不渲染。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:341
 msgid ""
 "Deciding which one to use depends on your use case. As general "
 "recommendations:"
-msgstr ""
+msgstr "选择哪一个取决于你的使用场景。一般建议如下："
 
 #: ../../upstream/docs/user/guides/jupyter.rst:343
 msgid ""
@@ -364,17 +413,19 @@ msgid ""
 ":ref:`generate a thumbnail gallery from your notebooks <notebook-"
 "galleries>`, nbsphinx is the right choice."
 msgstr ""
+"若你想使用 :ref:`其他 Notebook 格式 <other-formats>` 或 :ref:`从 Notebook 生成缩略图画廊 "
+"<notebook-galleries>` ，nbsphinx 是正确选择。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:346
 msgid ""
 "If you want to leverage a more optimized execution workflow and a more "
 "streamlined parsing mechanism, as well as some of the unique MyST-NB "
 "functionalities, you should use MyST-NB."
-msgstr ""
+msgstr "若你想利用更优化的执行流程和更精简的解析机制，以及 MyST-NB 一些独有能力，应使用 MyST-NB。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:352
 msgid "Alternative notebook formats"
-msgstr ""
+msgstr "替代的 Notebook 格式"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:354
 msgid ""
@@ -382,79 +433,95 @@ msgid ""
 "documentation <https://nbformat.readthedocs.io/>`_) are by far the most "
 "widely used for historical reasons."
 msgstr ""
+"出于历史原因，``.ipynb`` 格式的 Jupyter Notebook（如 `nbformat 文档 "
+"<https://nbformat.readthedocs.io/>`_ 所述）仍是应用最广的格式。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:359
 msgid ""
-"However, to compensate some of the disadvantages of the ``.ipynb`` format"
-" (like cumbersome integration with version control systems), `jupytext`_ "
-"offers `other formats <https://jupytext.org/formats/markdown/>`__ based "
-"on plain text rather than JSON."
+"However, to compensate some of the disadvantages of the ``.ipynb`` format "
+"(like cumbersome integration with version control systems), `jupytext`_ "
+"offers `other formats <https://jupytext.org/formats/markdown/>`__ based on "
+"plain text rather than JSON."
 msgstr ""
+"不过，为弥补 ``.ipynb`` 格式的一些缺点（如与版本控制系统集成繁琐），`jupytext`_ 提供了基于纯文本而非 JSON 的 `其他格式 "
+"<https://jupytext.org/formats/markdown/>`__ 。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:364
 msgid "As a result, there are three modes of operation:"
-msgstr ""
+msgstr "因此有三种工作模式："
 
 #: ../../upstream/docs/user/guides/jupyter.rst:366
 msgid ""
-"Using classic ``.ipynb`` notebooks. It's the most straightforward option,"
-" since all the tooling is prepared to work with them, and does not "
-"require additional pieces of software. It is therefore simpler to manage,"
-" since there are fewer moving parts. However, it requires some care when "
-"working with Version Control Systems (like git), by doing one of these "
-"things:"
+"Using classic ``.ipynb`` notebooks. It's the most straightforward option, "
+"since all the tooling is prepared to work with them, and does not require "
+"additional pieces of software. It is therefore simpler to manage, since "
+"there are fewer moving parts. However, it requires some care when working "
+"with Version Control Systems (like git), by doing one of these things:"
 msgstr ""
+"使用经典 ``.ipynb`` "
+"Notebook。这是最直接的选择，所有工具链都已为其准备就绪，无需额外软件，因此管理更简单、参与环节更少。但与版本控制系统（如 "
+"git）配合时需格外小心，可采取以下做法之一："
 
 #: ../../upstream/docs/user/guides/jupyter.rst:373
 msgid ""
 "Clear outputs before commit. Minimizes conflicts, but might defeat the "
 "purpose of notebooks themselves, since the computation results are not "
 "stored."
-msgstr ""
+msgstr "提交前清空输出。可将冲突降到最低，但可能削弱 Notebook 本身的意义，因为计算结果不会被保存。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:376
 msgid ""
-"Use tools like `nbdime <https://nbdime.readthedocs.io/>`_ (open source) "
-"or `ReviewNB <https://www.reviewnb.com/>`_ (proprietary) to improve the "
-"review process."
+"Use tools like `nbdime <https://nbdime.readthedocs.io/>`_ (open source) or "
+"`ReviewNB <https://www.reviewnb.com/>`_ (proprietary) to improve the review "
+"process."
 msgstr ""
+"使用 `nbdime <https://nbdime.readthedocs.io/>`_ （开源）或 `ReviewNB "
+"<https://www.reviewnb.com/>`_ （商业）等工具改进审查流程。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:379
 msgid "Use a different collaboration workflow that doesn't involve notebooks."
-msgstr ""
+msgstr "采用不涉及 Notebook 的其他协作流程。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:381
 msgid ""
 "Replace ``.ipynb`` notebooks with `a text-based format "
 "<https://jupytext.org/formats/markdown/>`__. These formats behave better "
-"under version control and they can also be edited with normal text "
-"editors that do not support cell-based JSON notebooks. However, text-"
-"based formats do not store the outputs of the cells, and this might not "
-"be what you want."
+"under version control and they can also be edited with normal text editors "
+"that do not support cell-based JSON notebooks. However, text-based formats "
+"do not store the outputs of the cells, and this might not be what you want."
 msgstr ""
+"用 `基于文本的格式 <https://jupytext.org/formats/markdown/>`__ 替换 ``.ipynb`` "
+"Notebook。这类格式在版本控制下表现更好，也可用不支持单元格式 JSON Notebook "
+"的普通文本编辑器编辑。但文本格式不保存单元格输出，这可能并非你想要的。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:387
 msgid ""
-"Pairing ``.ipynb`` notebooks with a text-based format, and putting the "
-"text-based file in version control, as suggested in the `jupytext "
-"documentation <https://jupytext.org/using/paired-notebooks/>`__. This "
-"solution has the best of both worlds. In some rare cases you might "
-"experience synchronization issues between both files."
+"Pairing ``.ipynb`` notebooks with a text-based format, and putting the text-"
+"based file in version control, as suggested in the `jupytext documentation "
+"<https://jupytext.org/using/paired-notebooks/>`__. This solution has the "
+"best of both worlds. In some rare cases you might experience synchronization"
+" issues between both files."
 msgstr ""
+"将 ``.ipynb`` Notebook 与基于文本的格式配对，并把文本文件纳入版本控制，如 `jupytext 文档 "
+"<https://jupytext.org/using/paired-notebooks/>`__ "
+"所建议。该方案兼取两者之长，但在少数情况下两个文件之间可能出现同步问题。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:393
 msgid ""
-"These approaches are not mutually exclusive, nor you have to use a single"
-" format for all your notebooks. For the examples in this document, we "
-"have used the `MyST Markdown format "
-"<https://jupytext.org/formats/markdown/>`__."
+"These approaches are not mutually exclusive, nor you have to use a single "
+"format for all your notebooks. For the examples in this document, we have "
+"used the `MyST Markdown format <https://jupytext.org/formats/markdown/>`__."
 msgstr ""
+"这些方法并不互斥，也不必对所有 Notebook 使用同一种格式。本文档的示例使用的是 `MyST Markdown 格式 "
+"<https://jupytext.org/formats/markdown/>`__ 。"
 
 #: ../../upstream/docs/user/guides/jupyter.rst:397
 msgid ""
-"If you are using alternative formats for Jupyter notebooks, you can "
-"include them in your Sphinx documentation using either `nbsphinx`_ or "
-"`MyST-NB`_ (see :ref:`nb-background` for more information about the "
-"differences between them)."
+"If you are using alternative formats for Jupyter notebooks, you can include "
+"them in your Sphinx documentation using either `nbsphinx`_ or `MyST-NB`_ "
+"(see :ref:`nb-background` for more information about the differences between"
+" them)."
 msgstr ""
+"若你对 Jupyter Notebook 使用替代格式，可用 `nbsphinx`_ 或 `MyST-NB`_ 之一将其包含进 Sphinx "
+"文档（两者差异详见 :ref:`nb-background` ）。"
 

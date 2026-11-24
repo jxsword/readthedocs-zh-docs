@@ -22,208 +22,208 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/content/index.rst:55
 msgid "Search engine optimization (SEO) for documentation projects"
-msgstr ""
+msgstr "文档项目的搜索引擎优化（SEO）"
 
 #: ../../upstream/docs/user/guides/content/index.rst:55
 msgid "Using traffic analytics"
-msgstr ""
+msgstr "使用流量分析"
 
 #: ../../upstream/docs/user/guides/content/index.rst:55
 msgid "Using search analytics"
-msgstr ""
+msgstr "使用搜索分析"
 
 #: ../../upstream/docs/user/guides/content/index.rst:55
 msgid "Enabling offline formats"
-msgstr ""
+msgstr "启用离线格式"
 
 #: ../../upstream/docs/user/guides/content/index.rst:55
 msgid "Embedding content from your documentation"
-msgstr ""
+msgstr "嵌入文档内容"
 
 #: ../../upstream/docs/user/guides/content/index.rst:55
 msgid "Managing translations for Sphinx projects"
-msgstr ""
+msgstr "管理 Sphinx 项目的翻译"
 
 #: ../../upstream/docs/user/guides/content/index.rst:55
 msgid "Supporting Unicode in Sphinx PDFs"
-msgstr ""
+msgstr "在 Sphinx PDF 中支持 Unicode"
 
 #: ../../upstream/docs/user/guides/content/index.rst:55
 msgid "Cross-referencing with Sphinx"
-msgstr ""
+msgstr "使用 Sphinx 进行交叉引用"
 
 #: ../../upstream/docs/user/guides/content/index.rst:55
 msgid "Linking to other projects with Intersphinx"
-msgstr ""
+msgstr "使用 Intersphinx 链接到其他项目"
 
 #: ../../upstream/docs/user/guides/content/index.rst:55
 msgid "Using Jupyter notebooks in Sphinx"
-msgstr ""
+msgstr "在 Sphinx 中使用 Jupyter Notebook"
 
 #: ../../upstream/docs/user/guides/content/index.rst:55
 msgid "Migrating from rST to MyST"
-msgstr ""
+msgstr "从 rST 迁移到 MyST"
 
 #: ../../upstream/docs/user/guides/content/index.rst:55
 msgid "Adding custom CSS or JavaScript to Sphinx documentation"
-msgstr ""
+msgstr "为 Sphinx 文档添加自定义 CSS 或 JavaScript"
 
 #: ../../upstream/docs/user/guides/content/index.rst:55
 msgid "Adding \"Edit Source\" links on your Sphinx theme"
-msgstr ""
+msgstr "在 Sphinx 主题中添加\"编辑源文件\"链接"
 
 #: ../../upstream/docs/user/guides/content/index.rst:2
 msgid "How-to guides: content, themes and SEO"
-msgstr ""
+msgstr "操作指南：内容、主题与 SEO"
 
 #: ../../upstream/docs/user/guides/content/index.rst:4
 msgid ""
 "⏩️ :doc:`Search engine optimization (SEO) for documentation projects "
 "</guides/technical-docs-seo-guide>`"
-msgstr ""
+msgstr "⏩️ :doc:`文档项目的搜索引擎优化（SEO） </guides/technical-docs-seo-guide>`"
 
 #: ../../upstream/docs/user/guides/content/index.rst:5
 msgid ""
-"This article explains how documentation can be optimized to appear in "
-"search results, ultimately increasing traffic to your docs."
-msgstr ""
+"This article explains how documentation can be optimized to appear in search"
+" results, ultimately increasing traffic to your docs."
+msgstr "本文讲解如何优化文档以出现在搜索结果中，最终为你的文档带来更多流量。"
 
 #: ../../upstream/docs/user/guides/content/index.rst:8
 msgid "⏩️ :doc:`Using traffic analytics </traffic-analytics>`"
-msgstr ""
+msgstr "⏩️ :doc:`使用流量分析 </traffic-analytics>`"
 
 #: ../../upstream/docs/user/guides/content/index.rst:9
 msgid ""
 "In this guide, you can learn to use Read the Docs' built-in traffic "
 "analytics for your documentation project."
-msgstr ""
+msgstr "本指南讲解如何为你的文档项目使用 Read the Docs 内置的流量分析。"
 
 #: ../../upstream/docs/user/guides/content/index.rst:11
 msgid ""
 "⏩️ :doc:`Managing translations for Sphinx projects </guides/manage-"
 "translations-sphinx>`"
-msgstr ""
+msgstr "⏩️ :doc:`管理 Sphinx 项目的翻译 </guides/manage-translations-sphinx>`"
 
 #: ../../upstream/docs/user/guides/content/index.rst:12
 msgid ""
-"This guide walks through the process needed to manage translations of "
-"your documentation. Once this work is done, you can setup your project "
-"under Read the Docs to build each language of your documentation by "
-"reading :doc:`/localization`."
+"This guide walks through the process needed to manage translations of your "
+"documentation. Once this work is done, you can setup your project under Read"
+" the Docs to build each language of your documentation by reading "
+":doc:`/localization`."
 msgstr ""
+"本指南讲解管理文档翻译所需的流程。完成这些工作后，可按 :doc:`/localization` 的说明在 Read the Docs "
+"上设置项目，构建文档的每种语言。"
 
 #: ../../upstream/docs/user/guides/content/index.rst:15
-msgid ""
-"⏩️ :doc:`Supporting Unicode in Sphinx PDFs </guides/pdf-non-ascii-"
-"languages>`"
-msgstr ""
+msgid "⏩️ :doc:`Supporting Unicode in Sphinx PDFs </guides/pdf-non-ascii-languages>`"
+msgstr "⏩️ :doc:`在 Sphinx PDF 中支持 Unicode </guides/pdf-non-ascii-languages>`"
 
 #: ../../upstream/docs/user/guides/content/index.rst:16
 msgid ""
-"Sphinx offers different LaTeX engines that have better support for "
-"Unicode characters, relevant for instance for Japanese or Chinese."
-msgstr ""
+"Sphinx offers different LaTeX engines that have better support for Unicode "
+"characters, relevant for instance for Japanese or Chinese."
+msgstr "Sphinx 提供不同的 LaTeX 引擎，对 Unicode 字符支持更好，例如对日语或中文。"
 
 #: ../../upstream/docs/user/guides/content/index.rst:18
 msgid ""
 "⏩️ :doc:`Cross-referencing with Sphinx </guides/cross-referencing-with-"
 "sphinx>`"
-msgstr ""
+msgstr "⏩️ :doc:`使用 Sphinx 进行交叉引用 </guides/cross-referencing-with-sphinx>`"
 
 #: ../../upstream/docs/user/guides/content/index.rst:19
 msgid ""
 "When writing documentation you often need to link to other pages of your "
-"documentation, other sections of the current page, or sections from other"
-" pages."
-msgstr ""
+"documentation, other sections of the current page, or sections from other "
+"pages."
+msgstr "编写文档时，你经常需要链接到文档的其他页面、当前页面的其他章节，或其他页面的章节。"
 
 #: ../../upstream/docs/user/guides/content/index.rst:22
 msgid "⏩️ :doc:`Linking to other projects with Intersphinx </guides/intersphinx>`"
-msgstr ""
+msgstr "⏩️ :doc:`使用 Intersphinx 链接到其他项目 </guides/intersphinx>`"
 
 #: ../../upstream/docs/user/guides/content/index.rst:23
 msgid ""
-"This section shows you how to maintain references to named sections of "
-"other external Sphinx projects."
-msgstr ""
+"This section shows you how to maintain references to named sections of other"
+" external Sphinx projects."
+msgstr "本节讲解如何维护对其他外部 Sphinx 项目中具名章节的引用。"
 
 #: ../../upstream/docs/user/guides/content/index.rst:25
 msgid "⏩️ :doc:`Using Jupyter notebooks in Sphinx </guides/jupyter>`"
-msgstr ""
+msgstr "⏩️ :doc:`在 Sphinx 中使用 Jupyter Notebook </guides/jupyter>`"
 
 #: ../../upstream/docs/user/guides/content/index.rst:26
 msgid ""
-"There are a few extensions that allow integrating Jupyter and Sphinx, and"
-" this document will explain how to achieve some of the most commonly "
+"There are a few extensions that allow integrating Jupyter and Sphinx, and "
+"this document will explain how to achieve some of the most commonly "
 "requested features."
-msgstr ""
+msgstr "有若干扩展支持集成 Jupyter 与 Sphinx，本文档将讲解如何实现其中最常被要求的功能。"
 
 #: ../../upstream/docs/user/guides/content/index.rst:29
 msgid "⏩️ :doc:`Migrating from rST to MyST </guides/migrate-rest-myst>`"
-msgstr ""
+msgstr "⏩️ :doc:`从 rST 迁移到 MyST </guides/migrate-rest-myst>`"
 
 #: ../../upstream/docs/user/guides/content/index.rst:30
 msgid ""
 "In this guide, you will find how you can start writing Markdown in your "
 "existing reStructuredText project, or migrate it completely."
-msgstr ""
+msgstr "本指南讲解如何在现有的 reStructuredText 项目中开始编写 Markdown，或完全迁移过去。"
 
 #: ../../upstream/docs/user/guides/content/index.rst:34
 msgid "⏩️ :doc:`Enabling offline formats </guides/enable-offline-formats>`"
-msgstr ""
+msgstr "⏩️ :doc:`启用离线格式 </guides/enable-offline-formats>`"
 
 #: ../../upstream/docs/user/guides/content/index.rst:35
 msgid ""
-"This guide provides step-by-step instructions to enabling offline formats"
-" of your documentation."
-msgstr ""
+"This guide provides step-by-step instructions to enabling offline formats of"
+" your documentation."
+msgstr "本指南提供启用文档离线格式的分步说明。"
 
 #: ../../upstream/docs/user/guides/content/index.rst:37
 msgid "⏩️ :doc:`Using search analytics </search-analytics>`"
-msgstr ""
+msgstr "⏩️ :doc:`使用搜索分析 </search-analytics>`"
 
 #: ../../upstream/docs/user/guides/content/index.rst:38
 msgid ""
-"In this guide, you can learn to use Read the Docs' built-in search "
-"analytics for your documentation project."
-msgstr ""
+"In this guide, you can learn to use Read the Docs' built-in search analytics"
+" for your documentation project."
+msgstr "本指南讲解如何为你的文档项目使用 Read the Docs 内置的搜索分析。"
 
 #: ../../upstream/docs/user/guides/content/index.rst:40
 msgid ""
 "⏩️ :doc:`Adding custom CSS or JavaScript to Sphinx documentation </guides"
 "/adding-custom-css>`"
-msgstr ""
+msgstr "⏩️ :doc:`为 Sphinx 文档添加自定义 CSS 或 JavaScript </guides/adding-custom-css>`"
 
 #: ../../upstream/docs/user/guides/content/index.rst:41
 msgid ""
-"Adding additional CSS or JavaScript files to your Sphinx documentation "
-"can let you customize the look and feel of your docs or add additional "
+"Adding additional CSS or JavaScript files to your Sphinx documentation can "
+"let you customize the look and feel of your docs or add additional "
 "functionality."
-msgstr ""
+msgstr "向 Sphinx 文档添加额外的 CSS 或 JavaScript 文件，可以定制文档的观感或增加额外功能。"
 
 #: ../../upstream/docs/user/guides/content/index.rst:45
 msgid ""
 "⏩️ :doc:`Embedding content from your documentation </guides/embedding-"
 "content>`"
-msgstr ""
+msgstr "⏩️ :doc:`嵌入文档内容 </guides/embedding-content>`"
 
 #: ../../upstream/docs/user/guides/content/index.rst:46
 msgid ""
-"Did you know that Read the Docs has a public API that you can use to "
-"embed documentation content? There are a number of use cases for "
-"embedding content, so we've built our integration in a way that enables "
-"users to build on top of it."
-msgstr ""
+"Did you know that Read the Docs has a public API that you can use to embed "
+"documentation content? There are a number of use cases for embedding "
+"content, so we've built our integration in a way that enables users to build"
+" on top of it."
+msgstr "你知道 Read the Docs 提供了可用于嵌入文档内容的公共 API 吗？嵌入内容有多种使用场景，因此我们以便于用户在其基础上构建的方式设计了集成。"
 
 #: ../../upstream/docs/user/guides/content/index.rst:50
 msgid ""
 "⏩️ :doc:`Adding \"Edit Source\" links on your Sphinx theme </guides/edit-"
 "source-links-sphinx>`"
-msgstr ""
+msgstr "⏩️ :doc:`在 Sphinx 主题中添加\"编辑源文件\"链接 </guides/edit-source-links-sphinx>`"
 
 #: ../../upstream/docs/user/guides/content/index.rst:51
 msgid ""
 "Using your own theme? Add some extra variables in the Sphinx "
 "``html_context``, to add an \"edit source\" link at the top of all pages."
-msgstr ""
+msgstr "使用自己的主题？在 Sphinx 的 ``html_context`` 中添加一些额外变量，即可在所有页面顶部加上\"编辑源文件\"链接。"
 

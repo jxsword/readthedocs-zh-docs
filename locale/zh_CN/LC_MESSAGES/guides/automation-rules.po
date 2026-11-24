@@ -22,95 +22,99 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:2
 msgid "How to manage versions automatically"
-msgstr ""
+msgstr "如何自动管理版本"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:4
 msgid ""
-"In this guide, we show you how to define rules to automate creation of "
-"new versions on Read the Docs, using your Git repository's version logic."
-" Automating your versioning on Read the Docs means you only have to "
-"handle your versioning logic in Git."
+"In this guide, we show you how to define rules to automate creation of new "
+"versions on Read the Docs, using your Git repository's version logic. "
+"Automating your versioning on Read the Docs means you only have to handle "
+"your versioning logic in Git."
 msgstr ""
+"本指南讲解如何利用 Git 仓库的版本逻辑定义规则，在 Read the Docs 上自动创建新版本。在 Read the Docs "
+"上自动化版本控制意味着你只需在 Git 中处理版本逻辑。"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:11
 msgid ":doc:`/versions`"
-msgstr ""
+msgstr ":doc:`/versions`"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:12
 msgid "Learn more about versioning of documentation in general."
-msgstr ""
+msgstr "进一步了解文档版本控制的通用知识。"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:14
 msgid ":doc:`/automation-rules`"
-msgstr ""
+msgstr ":doc:`/automation-rules`"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:15
 msgid "Reference for all different rules and actions possible with automation."
-msgstr ""
+msgstr "自动化中所有可用规则和动作的参考。"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:18
 msgid "Adding a new automation rule"
-msgstr ""
+msgstr "添加新的自动化规则"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:20
 msgid "First you need to go to the automation rule creation page:"
-msgstr ""
+msgstr "首先需要前往自动化规则创建页面："
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:22
 msgid "Go to your project's :menuselection:`Settings --> Automation rules`."
-msgstr ""
+msgstr "前往项目的 :menuselection:`Settings --> Automation rules` 。"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:23
-msgid ""
-"Click on :guilabel:`Add automation rule` and you will see the following "
-"form."
-msgstr ""
+msgid "Click on :guilabel:`Add automation rule` and you will see the following form."
+msgstr "点击 :guilabel:`Add automation rule` ，你会看到以下表单。"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:25
 msgid "Screenshot of the \"Add rule\" form"
-msgstr ""
+msgstr "\"添加规则\"表单截图"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:28
 msgid "In the :guilabel:`Add rule` form, fill in the following fields:"
-msgstr ""
+msgstr "在 :guilabel:`Add rule` 表单中填写以下字段："
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:30
 msgid ""
-"Enter a :guilabel:`Description` that you can refer to later. For example,"
-" entering \"Create new stable version\" is a good title, as it explains "
-"the intention of the rule."
+"Enter a :guilabel:`Description` that you can refer to later. For example, "
+"entering \"Create new stable version\" is a good title, as it explains the "
+"intention of the rule."
 msgstr ""
+"填写一个日后便于查阅的 :guilabel:`Description` 。例如\"Create new stable "
+"version\"是不错的标题，因为它说明了规则的意图。"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:34
 msgid ""
 "Choose one or more :guilabel:`Version types`: *Branch*, *Tag*, or *Pull "
 "request*."
-msgstr ""
+msgstr "选择一个或多个 :guilabel:`Version types` ：*Branch* 、*Tag* 或 *Pull request* 。"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:37
 msgid ""
-"Choose a :guilabel:`Version predefined match pattern`, which is the "
-"pattern you wish to detect in the version name."
-msgstr ""
+"Choose a :guilabel:`Version predefined match pattern`, which is the pattern "
+"you wish to detect in the version name."
+msgstr "选择 :guilabel:`Version predefined match pattern` ，即你希望在版本名中检测的模式。"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:40
-msgid ""
-":ref:`Any version <automation-rules:Predefined matches>` matches all "
-"values."
-msgstr ""
+msgid ":ref:`Any version <automation-rules:Predefined matches>` matches all values."
+msgstr ":ref:`Any version <automation-rules:Predefined matches>` 匹配所有值。"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:41
 msgid ""
-":ref:`SemVer versions <automation-rules:Predefined matches>` matches only"
-" values that have the `SemVer`_ format."
+":ref:`SemVer versions <automation-rules:Predefined matches>` matches only "
+"values that have the `SemVer`_ format."
 msgstr ""
+":ref:`SemVer versions <automation-rules:Predefined matches>` 只匹配符合 `SemVer`_"
+" 格式的值。"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:42
 msgid ""
 ":ref:`Custom match <automation-rules:Custom matches>` matches your own "
-"pattern. If you choose this option, enter a regular expression in `Python"
-" regex format`_ in the :guilabel:`Version match pattern` field."
+"pattern. If you choose this option, enter a regular expression in `Python "
+"regex format`_ in the :guilabel:`Version match pattern` field."
 msgstr ""
+":ref:`Custom match <automation-rules:Custom matches>` 匹配你自己的模式。若选择此选项，在 "
+":guilabel:`Version match pattern` 字段中填入 `Python regex format`_ 格式的正则表达式。"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:46
 msgid ""
@@ -118,86 +122,92 @@ msgid ""
 "files, pull request labels, or commit messages. See :ref:`automation-"
 "rules:Webhook filters`."
 msgstr ""
+"可选：填写 Webhook 匹配模式，仅针对特定文件、Pull Request 标签或提交信息进行匹配。参见 :ref:`automation-"
+"rules:Webhook filters` 。"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:49
 msgid "Finally, choose the :guilabel:`Action`:"
-msgstr ""
+msgstr "最后，选择 :guilabel:`Action` ："
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:51
 msgid ":ref:`Activate version <automation-rules:Version actions>`"
-msgstr ""
+msgstr ":ref:`Activate version <automation-rules:Version actions>`"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:52
 msgid ":ref:`Hide version <automation-rules:Version actions>`"
-msgstr ""
+msgstr ":ref:`Hide version <automation-rules:Version actions>`"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:53
 msgid ":ref:`Make version public <automation-rules:Version actions>`"
-msgstr ""
+msgstr ":ref:`Make version public <automation-rules:Version actions>`"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:54
 msgid ":ref:`Make version private <automation-rules:Version actions>`"
-msgstr ""
+msgstr ":ref:`Make version private <automation-rules:Version actions>`"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:55
 msgid ":ref:`Set version as default <automation-rules:Version actions>`"
-msgstr ""
+msgstr ":ref:`Set version as default <automation-rules:Version actions>`"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:56
 msgid ":ref:`Delete version <automation-rules:Version actions>`"
-msgstr ""
+msgstr ":ref:`Delete version <automation-rules:Version actions>`"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:57
 msgid ":ref:`Trigger build for version <automation-rules:Build actions>`"
-msgstr ""
+msgstr ":ref:`Trigger build for version <automation-rules:Build actions>`"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:60
 msgid ""
 "Now your rule is ready and you can press :guilabel:`Add rule`. The rule "
-"takes effect immediately when a new version is created, but does not "
-"apply to old versions."
-msgstr ""
+"takes effect immediately when a new version is created, but does not apply "
+"to old versions."
+msgstr "规则已就绪，可以点击 :guilabel:`Add rule` 。规则在创建新版本时立即生效，但不适用于旧版本。"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:66
 msgid "Examples of common usage"
-msgstr ""
+msgstr "常见用法示例"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:67
 msgid ""
-"See :ref:`the list of examples <automation-rules:Examples>` for rules "
-"that are commonly used."
-msgstr ""
+"See :ref:`the list of examples <automation-rules:Examples>` for rules that "
+"are commonly used."
+msgstr "常用规则见 :ref:`示例列表 <automation-rules:Examples>` 。"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:69
 msgid "Want to test if your rule works?"
-msgstr ""
+msgstr "想测试你的规则是否生效？"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:70
 msgid ""
-"If you are using Git in order to create new versions, create a Git tag or"
-" branch that matches the rule and check if your automation action is "
-"triggered. After the experiment, you can delete both from Git and Read "
-"the Docs."
+"If you are using Git in order to create new versions, create a Git tag or "
+"branch that matches the rule and check if your automation action is "
+"triggered. After the experiment, you can delete both from Git and Read the "
+"Docs."
 msgstr ""
+"如果你用 Git 创建新版本，请创建一个匹配该规则的 Git 标签或分支，检查自动化动作是否被触发。实验结束后，你可以在 Git 和 Read the "
+"Docs 上将其删除。"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:79
 msgid "Ordering your rules"
-msgstr ""
+msgstr "规则排序"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:81
 msgid ""
-"The order your rules are listed in your project's "
-":menuselection:`Settings --> Automation rules` matters. Each action will "
-"be performed in that order, so earlier rules have a higher priority."
+"The order your rules are listed in your project's :menuselection:`Settings "
+"--> Automation rules` matters. Each action will be performed in that order, "
+"so earlier rules have a higher priority."
 msgstr ""
+"规则在项目 :menuselection:`Settings --> Automation rules` "
+"中的列出顺序很重要。每个动作将按该顺序执行，因此靠前的规则优先级更高。"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:85
 msgid "You can change the order using the up and down arrow buttons."
-msgstr ""
+msgstr "你可以用上下箭头按钮更改顺序。"
 
 #: ../../upstream/docs/user/guides/automation-rules.rst:89
 msgid ""
 "New rules are added at the start of the list (i.e. they have the highest "
 "priority)."
-msgstr ""
+msgstr "新规则会添加到列表开头（即优先级最高）。"
 

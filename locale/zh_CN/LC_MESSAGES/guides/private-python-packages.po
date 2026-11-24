@@ -22,59 +22,64 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/private-python-packages.rst:2
 msgid "How to install private python packages"
-msgstr ""
+msgstr "如何安装私有 Python 包"
 
 #: ../../upstream/docs/user/guides/private-python-packages.rst:6
 msgid "This guide is for :doc:`/commercial/index`."
-msgstr ""
+msgstr "本指南适用于 :doc:`/commercial/index` 。"
 
 #: ../../upstream/docs/user/guides/private-python-packages.rst:8
 msgid ""
 "Read the Docs uses :ref:`pip <config-file/v2:python.install>` to install "
-"your Python packages. If you have private dependencies, you can install "
-"them from a :ref:`private Git repository <guides/private-python-"
-"packages:From a Git repository>` or a :ref:`private repository manager "
-"<guides/private-python-packages:From a repository manager other than "
-"PyPI>`."
+"your Python packages. If you have private dependencies, you can install them"
+" from a :ref:`private Git repository <guides/private-python-packages:From a "
+"Git repository>` or a :ref:`private repository manager <guides/private-"
+"python-packages:From a repository manager other than PyPI>`."
 msgstr ""
+"Read the Docs 使用 :ref:`pip <config-file/v2:python.install>` 安装 Python "
+"包。若你有私有依赖，可从 :ref:`私有 Git 仓库 <guides/private-python-packages:From a Git "
+"repository>` 或 :ref:`私有仓库管理器 <guides/private-python-packages:From a "
+"repository manager other than PyPI>` 安装。"
 
 #: ../../upstream/docs/user/guides/private-python-packages.rst:14
 msgid "From a Git repository"
-msgstr ""
+msgstr "从 Git 仓库"
 
 #: ../../upstream/docs/user/guides/private-python-packages.rst:16
 msgid ""
 "Pip supports installing packages from a :ref:`Git repository <pip:vcs "
 "support>` using the URI form:"
-msgstr ""
+msgstr "Pip 支持用 URI 形式从 :ref:`Git 仓库 <pip:vcs support>` 安装包："
 
 #: ../../upstream/docs/user/guides/private-python-packages.rst:18
 #, python-brace-format
 msgid ""
 "``git+https://gitprovider.com/user/project.git@{version}`` (public "
 "repository)"
-msgstr ""
+msgstr "``git+https://gitprovider.com/user/project.git@{version}`` （公开仓库）"
 
 #: ../../upstream/docs/user/guides/private-python-packages.rst:19
 #, python-brace-format
 msgid ""
-"``git+https://{token}@gitprovider.com/user/project.git@{version}`` "
-"(private repository)"
-msgstr ""
+"``git+https://{token}@gitprovider.com/user/project.git@{version}`` (private "
+"repository)"
+msgstr "``git+https://{token}@gitprovider.com/user/project.git@{version}`` （私有仓库）"
 
 #: ../../upstream/docs/user/guides/private-python-packages.rst:21
 msgid ""
-"Where ``version`` can be a tag, a branch, or a commit, and ``token`` is a"
-" personal access token with read only permissions from your provider."
-msgstr ""
+"Where ``version`` can be a tag, a branch, or a commit, and ``token`` is a "
+"personal access token with read only permissions from your provider."
+msgstr "其中 ``version`` 可以是标签、分支或提交，``token`` 是从你的服务商获取的只读权限个人访问令牌。"
 
 #: ../../upstream/docs/user/guides/private-python-packages.rst:25
 msgid ""
-"To install a private package from a Git repositories, add the URI to your"
-" :ref:`requirements file <config-file/v2:Requirements file>`. Make sure "
-"to use an environment variable for the token, so you don't have to hard "
-"code it in the URI."
+"To install a private package from a Git repositories, add the URI to your "
+":ref:`requirements file <config-file/v2:Requirements file>`. Make sure to "
+"use an environment variable for the token, so you don't have to hard code it"
+" in the URI."
 msgstr ""
+"要从 Git 仓库安装私有包，将该 URI 添加到 :ref:`requirements 文件 <config-file/v2:Requirements"
+" file>` 。请确保用环境变量承载令牌，避免在 URI 中硬编码。"
 
 #: ../../upstream/docs/user/guides/private-python-packages.rst:27
 #, python-brace-format
@@ -85,93 +90,110 @@ msgid ""
 "including a dollar sign and curly brackets around the name, like "
 "``${API_TOKEN}``."
 msgstr ""
+"`Pip automatically  expands <https://pip.pypa.io/en/stable/reference"
+"/requirements-file-format/#using-environment-variables>`__ 会按 POSIX "
+"格式展开环境变量：仅使用大写字母和 ``_`` ，并在名称外加美元符号和花括号，如 ``${API_TOKEN}`` 。"
 
 #: ../../upstream/docs/user/guides/private-python-packages.rst:29
 msgid ""
 "See :doc:`using environment variables in Read the Docs </environment-"
 "variables>` for more information."
-msgstr ""
+msgstr "更多信息请参阅 :doc:`在 Read the Docs 中使用环境变量 </environment-variables>` 。"
 
 #: ../../upstream/docs/user/guides/private-python-packages.rst:32
 msgid "How to get a personal access token from our supported providers"
-msgstr ""
+msgstr "如何从我们支持的服务商获取个人访问令牌"
 
 #: ../../upstream/docs/user/guides/private-python-packages.rst:35
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: ../../upstream/docs/user/guides/private-python-packages.rst:37
 msgid ""
 "You need to create a fine-grained personal access token with the "
-"``Contents`` repository permission set to ``Read-only``. Follow the "
-"`GitHub documentation <https://docs.github.com/en/authentication/keeping-"
-"your-account-and-data-secure/managing-your-personal-access-"
-"tokens#creating-a-fine-grained-personal-access-token>`__ on how to create"
-" a fine-grained personal access token."
+"``Contents`` repository permission set to ``Read-only``. Follow the `GitHub "
+"documentation <https://docs.github.com/en/authentication/keeping-your-"
+"account-and-data-secure/managing-your-personal-access-tokens#creating-a"
+"-fine-grained-personal-access-token>`__ on how to create a fine-grained "
+"personal access token."
 msgstr ""
+"你需要创建一个细粒度个人访问令牌，并将 ``Contents`` 仓库权限设为 ``Read-only`` 。创建方法请参阅 `GitHub 文档 "
+"<https://docs.github.com/en/authentication/keeping-your-account-and-data-"
+"secure/managing-your-personal-access-tokens#creating-a-fine-grained-"
+"personal-access-token>`__ 。"
 
 #: ../../upstream/docs/user/guides/private-python-packages.rst:41
 #: ../../upstream/docs/user/guides/private-python-packages.rst:67
 msgid "URI example:"
-msgstr ""
+msgstr "URI 示例："
 
 #: ../../upstream/docs/user/guides/private-python-packages.rst:48
 msgid "GitLab"
-msgstr ""
+msgstr "GitLab"
 
 #: ../../upstream/docs/user/guides/private-python-packages.rst:50
 msgid ""
-"You need to create a deploy token with the ``read_repository`` scope for "
-"the repository you want to install the package from. Follow the `GitLab "
+"You need to create a deploy token with the ``read_repository`` scope for the"
+" repository you want to install the package from. Follow the `GitLab "
 "documentation "
-"<https://docs.gitlab.com/ee/user/project/deploy_tokens/#creating-a"
-"-deploy-token>`__ on how to create a deploy token."
+"<https://docs.gitlab.com/ee/user/project/deploy_tokens/#creating-a-deploy-"
+"token>`__ on how to create a deploy token."
 msgstr ""
+"你需要为要安装包的仓库创建一个具有 ``read_repository`` 范围的部署令牌。创建方法请参阅 `GitLab 文档 "
+"<https://docs.gitlab.com/ee/user/project/deploy_tokens/#creating-a-deploy-"
+"token>`__ 。"
 
 #: ../../upstream/docs/user/guides/private-python-packages.rst:54
 msgid ""
-"URI example, where ``GITLAB_TOKEN_USER`` is the user from the deploy "
-"token you created, not your GitLab user:"
-msgstr ""
+"URI example, where ``GITLAB_TOKEN_USER`` is the user from the deploy token "
+"you created, not your GitLab user:"
+msgstr "URI 示例，其中 ``GITLAB_TOKEN_USER`` 是你创建的部署令牌所属用户，而非你的 GitLab 用户："
 
 #: ../../upstream/docs/user/guides/private-python-packages.rst:61
 msgid "Bitbucket"
-msgstr ""
+msgstr "Bitbucket"
 
 #: ../../upstream/docs/user/guides/private-python-packages.rst:63
 msgid ""
-"You need to create an app password with ``Read repositories`` "
-"permissions. Follow the `Bitbucket documentation "
-"<https://confluence.atlassian.com/bitbucket/app-"
-"passwords-828781300.html>`__ on how to create an app password."
+"You need to create an app password with ``Read repositories`` permissions. "
+"Follow the `Bitbucket documentation "
+"<https://confluence.atlassian.com/bitbucket/app-passwords-828781300.html>`__"
+" on how to create an app password."
 msgstr ""
+"你需要创建一个具有 ``Read repositories`` 权限的应用密码。创建方法请参阅 `Bitbucket 文档 "
+"<https://confluence.atlassian.com/bitbucket/app-passwords-828781300.html>`__"
+" 。"
 
 #: ../../upstream/docs/user/guides/private-python-packages.rst:73
 msgid "Here ``BITBUCKET_USER`` is your Bitbucket user."
-msgstr ""
+msgstr "其中 ``BITBUCKET_USER`` 是你的 Bitbucket 用户。"
 
 #: ../../upstream/docs/user/guides/private-python-packages.rst:77
 msgid ""
-"Bitbucket doesn't support app passwords per repository. An app password "
-"will grant read access to all repositories the user has access to. You "
-"can create a `machine user "
-"<https://confluence.atlassian.com/bitbucketserver/ssh-access-keys-for-"
-"system-use-776639781.html>`__ to give read access only to the "
-"repositories you need."
+"Bitbucket doesn't support app passwords per repository. An app password will"
+" grant read access to all repositories the user has access to. You can "
+"create a `machine user <https://confluence.atlassian.com/bitbucketserver"
+"/ssh-access-keys-for-system-use-776639781.html>`__ to give read access only "
+"to the repositories you need."
 msgstr ""
+"Bitbucket 不支持按仓库设置应用密码。应用密码会授予该用户可访问的所有仓库的读取权限。你可以创建一个 `machine user "
+"<https://confluence.atlassian.com/bitbucketserver/ssh-access-keys-for-"
+"system-use-776639781.html>`__ ，仅授予所需仓库的读取权限。"
 
 #: ../../upstream/docs/user/guides/private-python-packages.rst:82
 msgid "From a repository manager other than PyPI"
-msgstr ""
+msgstr "从 PyPI 以外的仓库管理器"
 
 #: ../../upstream/docs/user/guides/private-python-packages.rst:84
 msgid ""
-"By default Pip installs your packages from `PyPI <https://pypi.org/>`__. "
-"If you are using a different repository manager like *pypiserver*, or "
-"*Nexus Repository*, you need to get the index URL from your repository "
-"manager and set the :option:`pip:--index-url` option in one of the "
-"following ways:"
+"By default Pip installs your packages from `PyPI <https://pypi.org/>`__. If "
+"you are using a different repository manager like *pypiserver*, or *Nexus "
+"Repository*, you need to get the index URL from your repository manager and "
+"set the :option:`pip:--index-url` option in one of the following ways:"
 msgstr ""
+"默认 Pip 从 `PyPI <https://pypi.org/>`__ 安装你的包。若你使用其他仓库管理器（如 *pypiserver* 或 "
+"*Nexus Repository* ），需从仓库管理器获取索引 URL，并通过以下方式之一设置 :option:`pip:--index-url` "
+"选项："
 
 #: ../../upstream/docs/user/guides/private-python-packages.rst:88
 msgid ""
@@ -180,10 +202,16 @@ msgid ""
 "`environment variables <https://pip.pypa.io/en/stable/reference"
 "/requirements-file-format#using-environment-variables>`__ reference."
 msgstr ""
+"将索引 URL 设置到 Read the Docs 的 ``PIP_INDEX_URL`` :doc:`环境变量 </environment-"
+"variables>` 中。参见 Requirements File 的 `environment variables "
+"<https://pip.pypa.io/en/stable/reference/requirements-file-format#using-"
+"environment-variables>`__ 参考。"
 
 #: ../../upstream/docs/user/guides/private-python-packages.rst:90
 msgid ""
 "Put ``--index-url=https://my-index-url.com/`` at the top of your "
 "requirements file. See :ref:`pip:requirements-file-format`."
 msgstr ""
+"在 requirements 文件顶部放置 ``--index-url=https://my-index-url.com/`` 。参见 "
+":ref:`pip:requirements-file-format` 。"
 

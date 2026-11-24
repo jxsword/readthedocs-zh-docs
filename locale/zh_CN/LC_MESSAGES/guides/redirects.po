@@ -22,225 +22,232 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/redirects.rst:2
 msgid "How to use custom URL redirects in documentation projects"
-msgstr ""
+msgstr "如何在文档项目中使用自定义 URL 重定向"
 
 #: ../../upstream/docs/user/guides/redirects.rst:4
 msgid ""
-"In this guide, you will learn the steps necessary to configure your Read "
-"the Docs project for redirecting visitors from one location to another."
-msgstr ""
+"In this guide, you will learn the steps necessary to configure your Read the"
+" Docs project for redirecting visitors from one location to another."
+msgstr "本指南讲解配置 Read the Docs 项目、将访问者从一个位置重定向到另一位置所需的步骤。"
 
 #: ../../upstream/docs/user/guides/redirects.rst:7
 msgid ""
 "User-defined redirects are issued by our servers when a reader visits an "
-"*old URL*, which means that the reader is automatically redirected to a "
-"*new URL*."
-msgstr ""
+"*old URL*, which means that the reader is automatically redirected to a *new"
+" URL*."
+msgstr "当读者访问*旧 URL* 时，我们的服务器会发出用户自定义重定向，即读者被自动重定向到* 新 URL*。"
 
 #: ../../upstream/docs/user/guides/redirects.rst:12
 msgid ":doc:`/guides/best-practice/links`"
-msgstr ""
+msgstr ":doc:`/guides/best-practice/links`"
 
 #: ../../upstream/docs/user/guides/redirects.rst:13
 msgid ""
 "The need for a redirect often comes from external links to your "
-"documentation. Read more about handling links in this explanation of best"
-" practices."
-msgstr ""
+"documentation. Read more about handling links in this explanation of best "
+"practices."
+msgstr "重定向的需求通常来自指向你文档的外部链接。更多链接处理内容见这篇最佳实践讲解。"
 
 #: ../../upstream/docs/user/guides/redirects.rst:16
 msgid ":doc:`/user-defined-redirects`"
-msgstr ""
+msgstr ":doc:`/user-defined-redirects`"
 
 #: ../../upstream/docs/user/guides/redirects.rst:17
 msgid ""
-"If you want to know more about our implementation of redirects, you can "
-"look up more examples in our reference before continuing with the how-to."
-msgstr ""
+"If you want to know more about our implementation of redirects, you can look"
+" up more examples in our reference before continuing with the how-to."
+msgstr "若想更多了解我们的重定向实现，可在继续本操作指南前查阅参考文档中的更多示例。"
 
 #: ../../upstream/docs/user/guides/redirects.rst:21
 msgid "Adding a redirect rule"
-msgstr ""
+msgstr "添加重定向规则"
 
 #: ../../upstream/docs/user/guides/redirects.rst:23
 msgid ""
 "Redirects are configured in the project dashboard, go to your project's "
 ":menuselection:`Settings --> Redirects`."
-msgstr ""
+msgstr "重定向在项目仪表盘中配置，请前往项目的 :menuselection:`Settings --> Redirects` 。"
 
 #: ../../upstream/docs/user/guides/redirects.rst:26
 msgid "Screenshot of the Redirects settings page"
-msgstr ""
+msgstr "重定向设置页面截图"
 
 #: ../../upstream/docs/user/guides/redirects.rst:29
 msgid ""
 "After clicking :guilabel:`Add redirect`, you need to select a "
-":guilabel:`Redirect Type`. This is where things get a bit more "
-"complicated you need to fill in specific information according to that "
-"choice."
+":guilabel:`Redirect Type`. This is where things get a bit more complicated "
+"you need to fill in specific information according to that choice."
 msgstr ""
+"点击 :guilabel:`Add redirect` 后，需要选择 :guilabel:`Redirect Type` "
+"。这里会稍复杂一些——你需要根据所选类型填写特定信息。"
 
 #: ../../upstream/docs/user/guides/redirects.rst:34
 msgid "Choosing a :guilabel:`Redirect Type`"
-msgstr ""
+msgstr "选择 :guilabel:`Redirect Type`"
 
 #: ../../upstream/docs/user/guides/redirects.rst:36
 msgid ""
-"There are different types of redirect rules targeting different needs. "
-"For each choice in :guilabel:`Redirect Type`, the form shows a "
-"**preview** of the final rule generated as you fill in the fields."
+"There are different types of redirect rules targeting different needs. For "
+"each choice in :guilabel:`Redirect Type`, the form shows a **preview** of "
+"the final rule generated as you fill in the fields."
 msgstr ""
+"有不同类型的重定向规则以满足不同需求。对 :guilabel:`Redirect Type` "
+"中的每个选项，表单都会在你填写字段时显示最终规则的**预览** 。"
 
 #: ../../upstream/docs/user/guides/redirects.rst:40
 msgid "Screenshot of the \"Add redirect\" form with the redirect preview"
-msgstr ""
+msgstr "带重定向预览的\"添加重定向\"表单截图"
 
 #: ../../upstream/docs/user/guides/redirects.rst:43
 msgid ""
 "Here is a quick overview of the options available in :guilabel:`Redirect "
 "Type`:"
-msgstr ""
+msgstr "以下是 :guilabel:`Redirect Type` 中可用选项的简要说明："
 
 #: ../../upstream/docs/user/guides/redirects.rst:45
 msgid "Page redirect"
-msgstr ""
+msgstr "页面重定向"
 
 #: ../../upstream/docs/user/guides/redirects.rst:46
 msgid ""
-"With this option, you can specify a page in your documentation to "
-"redirect elsewhere. The rule triggers no matter the version of your "
-"documentation that the user is visiting. This rule can also redirect to "
-"another website."
-msgstr ""
+"With this option, you can specify a page in your documentation to redirect "
+"elsewhere. The rule triggers no matter the version of your documentation "
+"that the user is visiting. This rule can also redirect to another website."
+msgstr "使用此选项可指定文档中的某个页面重定向到别处。无论用户访问的是哪个文档版本，该规则都会触发。此规则也可重定向到其他网站。"
 
 #: ../../upstream/docs/user/guides/redirects.rst:51
-msgid ""
-"Read more about this option in :ref:`user-defined-redirects:Page "
-"redirects`"
-msgstr ""
+msgid "Read more about this option in :ref:`user-defined-redirects:Page redirects`"
+msgstr "有关此选项的更多内容见 :ref:`user-defined-redirects:Page redirects`"
 
 #: ../../upstream/docs/user/guides/redirects.rst:53
 msgid "Exact redirect"
-msgstr ""
+msgstr "精确重定向"
 
 #: ../../upstream/docs/user/guides/redirects.rst:54
 msgid ""
-"With this option, you can specify a page in your documentation to "
-"redirect elsewhere. The rule is specific to the language and version of "
-"your documentation that the user is visiting. This rule can also redirect"
-" to another website."
-msgstr ""
+"With this option, you can specify a page in your documentation to redirect "
+"elsewhere. The rule is specific to the language and version of your "
+"documentation that the user is visiting. This rule can also redirect to "
+"another website."
+msgstr "使用此选项可指定文档中的某个页面重定向到别处。该规则针对用户访问的语言和版本生效。此规则也可重定向到其他网站。"
 
 #: ../../upstream/docs/user/guides/redirects.rst:59
-msgid ""
-"Read more about this option in :ref:`user-defined-redirects:Exact "
-"redirects`"
-msgstr ""
+msgid "Read more about this option in :ref:`user-defined-redirects:Exact redirects`"
+msgstr "有关此选项的更多内容见 :ref:`user-defined-redirects:Exact redirects`"
 
 #: ../../upstream/docs/user/guides/redirects.rst:61
 msgid "Clean URL to HTML"
-msgstr ""
+msgstr "简洁 URL 转 HTML"
 
 #: ../../upstream/docs/user/guides/redirects.rst:62
 msgid ""
 "If you choose to change the style of your URLs from *clean URLs* "
-"(``/en/latest/tutorial/``) to *HTML URLs* (``/en/latest/tutorial.html``),"
-" you can redirect all mismatches automatically."
+"(``/en/latest/tutorial/``) to *HTML URLs* (``/en/latest/tutorial.html``), "
+"you can redirect all mismatches automatically."
 msgstr ""
+"若你决定把 URL 风格从*简洁 URL* （``/en/latest/tutorial/`` ）改为 *HTML URL* "
+"（``/en/latest/tutorial.html`` ），可自动重定向所有不匹配的情况。"
 
 #: ../../upstream/docs/user/guides/redirects.rst:65
 #: ../../upstream/docs/user/guides/redirects.rst:72
 msgid ""
-"Read more about this option in :ref:`user-defined-redirects:Clean/HTML "
-"URLs redirects`"
-msgstr ""
+"Read more about this option in :ref:`user-defined-redirects:Clean/HTML URLs "
+"redirects`"
+msgstr "有关此选项的更多内容见 :ref:`user-defined-redirects:Clean/HTML URLs redirects`"
 
 #: ../../upstream/docs/user/guides/redirects.rst:67
 msgid "HTML to clean URL"
-msgstr ""
+msgstr "HTML 转简洁 URL"
 
 #: ../../upstream/docs/user/guides/redirects.rst:68
 msgid ""
-"Similarly to the former option, if you choose to change the style of your"
-" URLs from *HTML URLs* (``/en/latest/tutorial.html``) to *clean URLs* "
-"(``/en/latest/tutorial/``), you can redirect all mismatches "
-"automatically."
+"Similarly to the former option, if you choose to change the style of your "
+"URLs from *HTML URLs* (``/en/latest/tutorial.html``) to *clean URLs* "
+"(``/en/latest/tutorial/``), you can redirect all mismatches automatically."
 msgstr ""
+"与上一个选项类似，若你决定把 URL 风格从 *HTML URL* （``/en/latest/tutorial.html`` ）改为*简洁 URL* "
+"（``/en/latest/tutorial/`` ），可自动重定向所有不匹配的情况。"
 
 #: ../../upstream/docs/user/guides/redirects.rst:76
 msgid ""
-"By default, redirects are followed only if the requested page doesn't "
-"exist (*404 File Not Found* error). If you need to apply a redirect for "
-"files that exist, you can have a :guilabel:`Force redirect` option "
-"visible. **This option is only available on some plan levels**. Please "
-"ask support to enable it for you."
+"By default, redirects are followed only if the requested page doesn't exist "
+"(*404 File Not Found* error). If you need to apply a redirect for files that"
+" exist, you can have a :guilabel:`Force redirect` option visible. **This "
+"option is only available on some plan levels**. Please ask support to enable"
+" it for you."
 msgstr ""
+"默认情况下，仅当请求的页面不存在（*404 File Not Found* 错误）时才执行重定向。若需要对已存在的文件应用重定向，可显示 "
+":guilabel:`Force redirect` 选项。**此选项仅在部分套餐等级提供** ，请联系支持为你启用。"
 
 #: ../../upstream/docs/user/guides/redirects.rst:85
 msgid "Defining the redirect rule"
-msgstr ""
+msgstr "定义重定向规则"
 
 #: ../../upstream/docs/user/guides/redirects.rst:87
 msgid ""
 "As mentioned before, you can pick and choose a :guilabel:`Redirect Type` "
-"that fits your redirect need. When you have entered a :guilabel:`From "
-"URL` and :guilabel:`To URL` and the redirect preview looks good, you are "
-"ready to save the rule."
+"that fits your redirect need. When you have entered a :guilabel:`From URL` "
+"and :guilabel:`To URL` and the redirect preview looks good, you are ready to"
+" save the rule."
 msgstr ""
+"如前所述，你可以挑选适合自身需求的 :guilabel:`Redirect Type` 。填写 :guilabel:`From URL` 和 "
+":guilabel:`To URL` 且重定向预览无误后，即可保存规则。"
 
 #: ../../upstream/docs/user/guides/redirects.rst:93
 msgid "Saving the redirect"
-msgstr ""
+msgstr "保存重定向"
 
 #: ../../upstream/docs/user/guides/redirects.rst:95
 msgid ""
 "The redirect is not activated before you click :guilabel:`Save`. Before "
-"clicking, you are free to experiment and preview the effects. Your "
-"redirect rules is added and effective immediately after saving it."
-msgstr ""
+"clicking, you are free to experiment and preview the effects. Your redirect "
+"rules is added and effective immediately after saving it."
+msgstr "在点击 :guilabel:`Save` 之前重定向不会生效。点击前你可以自由试验并预览效果。保存后重定向规则即被添加并立即生效。"
 
 #: ../../upstream/docs/user/guides/redirects.rst:99
 msgid ""
-"After adding the rule, you can add more redirects as needed. There are no"
-" immediate upper bounds to how many redirect rules a project may define."
-msgstr ""
+"After adding the rule, you can add more redirects as needed. There are no "
+"immediate upper bounds to how many redirect rules a project may define."
+msgstr "添加规则后，你可以按需添加更多重定向。项目可定义的重定向规则数量暂无即时上限。"
 
 #: ../../upstream/docs/user/guides/redirects.rst:104
 msgid "Editing and deleting redirect rules"
-msgstr ""
+msgstr "编辑和删除重定向规则"
 
 #: ../../upstream/docs/user/guides/redirects.rst:106
 msgid ""
 "You can always revisit your project's :menuselection:`Settings --> "
 "Redirects` in order to delete a rule or edit it."
-msgstr ""
+msgstr "你可以随时返回项目的 :menuselection:`Settings --> Redirects` 删除或编辑规则。"
 
 #: ../../upstream/docs/user/guides/redirects.rst:109
 msgid ""
-"When editing a rule, you can change its :guilabel:`Redirect Type` and its"
-" :guilabel:`From URL` or :guilabel:`To URL`."
+"When editing a rule, you can change its :guilabel:`Redirect Type` and its "
+":guilabel:`From URL` or :guilabel:`To URL`."
 msgstr ""
+"编辑规则时，你可以更改其 :guilabel:`Redirect Type` 以及 :guilabel:`From URL` 或 "
+":guilabel:`To URL` 。"
 
 #: ../../upstream/docs/user/guides/redirects.rst:113
 msgid "Changing the order of redirects"
-msgstr ""
+msgstr "更改重定向顺序"
 
 #: ../../upstream/docs/user/guides/redirects.rst:115
 msgid ""
-"The order of redirects is important, if you have multiple rules that "
-"match the same URL, the first redirect in the list will be used."
-msgstr ""
+"The order of redirects is important, if you have multiple rules that match "
+"the same URL, the first redirect in the list will be used."
+msgstr "重定向顺序很重要，若有多条规则匹配同一 URL，将使用列表中的第一条重定向。"
 
 #: ../../upstream/docs/user/guides/redirects.rst:119
 msgid ""
 "You can change the order of the redirect from your project's "
 ":menuselection:`Settings --> Redirects`, by using the up and down arrow "
 "buttons."
-msgstr ""
+msgstr "你可以在项目的 :menuselection:`Settings --> Redirects` 中用上下箭头按钮更改重定向顺序。"
 
 #: ../../upstream/docs/user/guides/redirects.rst:122
 msgid ""
-"New redirects are added at the start of the list (i.e. they have the "
-"highest priority)."
-msgstr ""
+"New redirects are added at the start of the list (i.e. they have the highest"
+" priority)."
+msgstr "新重定向会添加到列表开头（即优先级最高）。"
 

@@ -22,355 +22,382 @@ msgstr ""
 
 #: ../../upstream/docs/user/science.rst:2
 msgid "Documentation in scientific and academic publishing"
-msgstr ""
+msgstr "科学与学术出版中的文档"
 
 #: ../../upstream/docs/user/science.rst:4
 msgid ""
 "On this page, we explore some of the many tools and practices that "
-"*software* documentation and *academic* writing share. If you are working"
-" within the field of science or academia, this page can be used as an "
+"*software* documentation and *academic* writing share. If you are working "
+"within the field of science or academia, this page can be used as an "
 "introduction."
-msgstr ""
+msgstr "本页探讨*软件* 文档与*学术* 写作共有的诸多工具和实践。若你在科学或学术领域工作，本页可作为入门介绍。"
 
 #: ../../upstream/docs/user/science.rst:23
 msgid ""
 "Documentation and technical writing are broad fields. Their tools and "
-"practices have grown relevant to most scientific activities. This "
-"includes building publications, books, educational resources, interactive"
-" data science, resources for data journalism and full-scale websites for "
-"research projects and courses."
-msgstr ""
+"practices have grown relevant to most scientific activities. This includes "
+"building publications, books, educational resources, interactive data "
+"science, resources for data journalism and full-scale websites for research "
+"projects and courses."
+msgstr "文档和技术写作是宽泛的领域，其工具和实践已与大多数科学活动相关。这包括构建出版物、书籍、教学资源、交互式数据科学、数据新闻报道资源，以及为研究项目和课程构建的完整网站。"
 
 #: ../../upstream/docs/user/science.rst:27
 msgid ""
-"Here's a brief overview of some :doc:`features </reference/features>` "
-"that people in science and academic writing love about Read the Docs:"
-msgstr ""
+"Here's a brief overview of some :doc:`features </reference/features>` that "
+"people in science and academic writing love about Read the Docs:"
+msgstr "以下是科学与学术写作领域用户喜爱的 Read the Docs 部分 :doc:`功能 </reference/features>` 简介："
 
 #: ../../upstream/docs/user/science.rst
 msgid "🪄 Easy to use"
-msgstr ""
+msgstr "🪄 易于使用"
 
 #: ../../upstream/docs/user/science.rst:32
 msgid ""
 "Documentation code doesn't have to be written by a programmer. In fact, "
-"documentation coding languages are designed and developed so you don't "
-"have to be a programmer, and there are many writing aids that makes it "
-"easy to abstract from code and focus on content."
-msgstr ""
+"documentation coding languages are designed and developed so you don't have "
+"to be a programmer, and there are many writing aids that makes it easy to "
+"abstract from code and focus on content."
+msgstr "文档代码不必由程序员编写。事实上，文档编写语言的设计和开发初衷就是让你无需成为程序员也能使用，并且有诸多写作辅助工具让你能轻松从代码中抽离、专注于内容。"
 
 #: ../../upstream/docs/user/science.rst:34
 msgid "Getting started is also made easy:"
-msgstr ""
+msgstr "入门同样轻松："
 
 #: ../../upstream/docs/user/science.rst:36
 msgid ""
-"All new to this? Take the official :external+jupyterbook:doc:`Jupyter "
-"Book Tutorial <start/your-first-book>`"
+"All new to this? Take the official :external+jupyterbook:doc:`Jupyter Book "
+"Tutorial <start/your-first-book>`"
 msgstr ""
+"对此完全陌生？阅读官方 :external+jupyterbook:doc:`Jupyter Book 教程 <start/your-first-"
+"book>`"
 
 #: ../../upstream/docs/user/science.rst:37
 msgid "Curious for practical code? See :doc:`/examples`"
-msgstr ""
+msgstr "想看实用代码？参见 :doc:`/examples`"
 
 #: ../../upstream/docs/user/science.rst:38
 msgid "Familiar with Sphinx? See :doc:`/guides/jupyter`"
-msgstr ""
+msgstr "熟悉 Sphinx？参见 :doc:`/guides/jupyter`"
 
 #: ../../upstream/docs/user/science.rst
-msgid ""
-"🔋 Batteries included: Graphs, computations, formulas, maps, diagrams and "
-"more"
-msgstr ""
+msgid "🔋 Batteries included: Graphs, computations, formulas, maps, diagrams and more"
+msgstr "🔋 开箱即用：图表、计算、公式、地图、示意图等"
 
 #: ../../upstream/docs/user/science.rst:42
 msgid ""
 "Take full advantage of getting all the richness of "
-":external+jupyter:doc:`Jupyter Notebook <index>` combined with Sphinx and"
-" the giant ecosystem of extensions for both of these."
+":external+jupyter:doc:`Jupyter Notebook <index>` combined with Sphinx and "
+"the giant ecosystem of extensions for both of these."
 msgstr ""
+"充分结合 :external+jupyter:doc:`Jupyter Notebook <index>` 的丰富能力与 "
+"Sphinx，以及两者庞大的扩展生态。"
 
 #: ../../upstream/docs/user/science.rst:44
 msgid "Here are some examples:"
-msgstr ""
+msgstr "以下是一些示例："
 
 #: ../../upstream/docs/user/science.rst:46
 msgid ""
-"Use symbols familiar from math and physics, build advanced proofs. See "
-"also: `sphinx-proof <https://sphinx-"
+"Use symbols familiar from math and physics, build advanced proofs. See also:"
+" `sphinx-proof <https://sphinx-"
 "proof.readthedocs.io/en/latest/syntax.html>`__"
 msgstr ""
+"使用数学和物理中熟悉的符号，编写高级证明。另见：`sphinx-proof <https://sphinx-"
+"proof.readthedocs.io/en/latest/syntax.html>`__"
 
 #: ../../upstream/docs/user/science.rst:47
 msgid ""
-"Present results with plots, graphs, images and let users interact "
-"directly with your datasets and algorithms. See also: `Matplotlib "
+"Present results with plots, graphs, images and let users interact directly "
+"with your datasets and algorithms. See also: `Matplotlib "
 "<https://matplotlib.org/stable/tutorials/introductory/usage.html>`__, "
 "`Interactive Data Visualizations "
 "<https://jupyterbook.org/en/stable/interactive/interactive.html>`__"
 msgstr ""
+"用图表、曲线、图片呈现结果，让用户直接与你的数据集和算法交互。另见：`Matplotlib "
+"<https://matplotlib.org/stable/tutorials/introductory/usage.html>`__ "
+"、`Interactive Data Visualizations "
+"<https://jupyterbook.org/en/stable/interactive/interactive.html>`__"
 
 #: ../../upstream/docs/user/science.rst:48
 msgid ""
-"Graphs, tables etc. are computed when the latest version of your project "
-"is built and published as a stand-alone website. All code examples on "
-"your website are validated each time you build."
-msgstr ""
+"Graphs, tables etc. are computed when the latest version of your project is "
+"built and published as a stand-alone website. All code examples on your "
+"website are validated each time you build."
+msgstr "图表、表格等在构建项目最新版本时计算生成，并发布为独立网站。你网站上的所有代码示例在每次构建时都会得到验证。"
 
 #: ../../upstream/docs/user/science.rst
 msgid "📚 Bibliographies and external links"
-msgstr ""
+msgstr "📚 参考文献与外部链接"
 
 #: ../../upstream/docs/user/science.rst:52
 msgid ""
 "Maintain bibliography databases directly as code and have external links "
 "automatically verified."
-msgstr ""
+msgstr "直接以代码方式维护参考文献数据库，并自动验证外部链接。"
 
 #: ../../upstream/docs/user/science.rst:54
 msgid ""
-"Using extensions for Sphinx such as the popular `sphinxcontrib-bibtex "
-"<https://sphinxcontrib-bibtex.readthedocs.io/>`__ extension, you can "
-"maintain your bibliography with Sphinx directly or refer to entries "
-"``.bib`` files, as well as generating entire Bibliography sections from "
-"those files."
+"Using extensions for Sphinx such as the popular `sphinxcontrib-bibtex <https"
+"://sphinxcontrib-bibtex.readthedocs.io/>`__ extension, you can maintain your"
+" bibliography with Sphinx directly or refer to entries ``.bib`` files, as "
+"well as generating entire Bibliography sections from those files."
 msgstr ""
+"使用 Sphinx 扩展（如流行的 `sphinxcontrib-bibtex <https://sphinxcontrib-"
+"bibtex.readthedocs.io/>`__ 扩展），你可以直接用 Sphinx 维护参考文献，或引用 ``.bib`` "
+"文件中的条目，还能从这些文件生成完整的参考文献章节。"
 
 #: ../../upstream/docs/user/science.rst
 msgid "📜 Modern themes and classic PDF outputs"
-msgstr ""
+msgstr "📜 现代主题与经典 PDF 输出"
 
 #: ../../upstream/docs/user/science.rst:61
 msgid ""
 "Use the latest state-of-the-art themes for web and have PDFs and e-book "
 "formats automatically generated."
-msgstr ""
+msgstr "网页使用最新的前沿主题，PDF 和电子书格式自动生成。"
 
 #: ../../upstream/docs/user/science.rst:63
 msgid ""
-"New themes are improving every day, and when you write documentation "
-"based on Jupyter Book and Sphinx, you will separate your contents and "
-"semantics from your presentation logic. This way, you can keep up with "
-"the latest theme updates or try new themes."
+"New themes are improving every day, and when you write documentation based "
+"on Jupyter Book and Sphinx, you will separate your contents and semantics "
+"from your presentation logic. This way, you can keep up with the latest "
+"theme updates or try new themes."
 msgstr ""
+"新主题每天都在改进。基于 Jupyter Book 和 Sphinx "
+"编写文档时，你会将内容与语义同展示逻辑分离。这样既能跟上最新主题更新，也能尝试新主题。"
 
 #: ../../upstream/docs/user/science.rst:65
 msgid ""
 "Another example of the benefits from separating content and presentation "
-"logic: Your documentation also transforms into printable books and "
-"eBooks."
-msgstr ""
+"logic: Your documentation also transforms into printable books and eBooks."
+msgstr "内容与展示逻辑分离的另一个好处示例：你的文档还能转换为可打印的书籍和电子书。"
 
 #: ../../upstream/docs/user/science.rst
 msgid "📐 Widgets, widgets and more widgets"
-msgstr ""
+msgstr "📐 组件、组件，还有更多组件"
 
 #: ../../upstream/docs/user/science.rst:69
 msgid ""
-"Design your science project's layout and components with widgets from a "
-"rich eco-system of open-source extensions built for many purposes. "
-"Special widgets help users display and interact with graphs, maps and "
-"more. :external+jupyterbook:doc:`Several <content/components>` "
-"`extensions <https://sphinx-gallery.github.io/>`__ are built and invented"
-" by the science community."
+"Design your science project's layout and components with widgets from a rich"
+" eco-system of open-source extensions built for many purposes. Special "
+"widgets help users display and interact with graphs, maps and more. "
+":external+jupyterbook:doc:`Several <content/components>` `extensions <https"
+"://sphinx-gallery.github.io/>`__ are built and invented by the science "
+"community."
 msgstr ""
+"用来自丰富开源扩展生态的组件设计科学项目的布局，这些扩展用途多样。专门的组件可帮助用户展示并与图表、地图等交互。:external+jupyterbook:doc:`多个"
+" <content/components>` `扩展 <https://sphinx-gallery.github.io/>`__ "
+"由科学社区构建和发明。"
 
 #: ../../upstream/docs/user/science.rst
 msgid "⚙️ Automatic builds"
-msgstr ""
+msgstr "⚙️ 自动构建"
 
 #: ../../upstream/docs/user/science.rst:73
 msgid ""
-"Build and publish your project for every change made through Git (GitHub,"
-" GitLab, Bitbucket etc). Preview changes via pull requests. Receive "
-"notifications when something is wrong. How does this work? Have a look at"
-" this video:"
+"Build and publish your project for every change made through Git (GitHub, "
+"GitLab, Bitbucket etc). Preview changes via pull requests. Receive "
+"notifications when something is wrong. How does this work? Have a look at "
+"this video:"
 msgstr ""
+"每次通过 Git（GitHub、GitLab、Bitbucket 等）做出更改时自动构建并发布项目。通过 Pull Request "
+"预览变更。出现问题时收到通知。这如何运作？观看此视频："
 
 #: ../../upstream/docs/user/science.rst
 msgid "💬 Collaboration and community"
-msgstr ""
+msgstr "💬 协作与社区"
 
 #: ../../upstream/docs/user/science.rst:89
 msgid ""
 "Science and academia have a big kinship with software developers: We ❤️ "
 "community. Our solutions and projects become better when we foster "
-"inclusivity and active participation. Read the Docs features easy access "
-"for readers to suggest changes via your git platform (GitHub, GitLab, "
-"Bitbucket etc.). But not just any unqualified feedback. Instead, the "
-"*code* and all the tools are available for your community to forge "
-"qualified contributions."
+"inclusivity and active participation. Read the Docs features easy access for"
+" readers to suggest changes via your git platform (GitHub, GitLab, Bitbucket"
+" etc.). But not just any unqualified feedback. Instead, the *code* and all "
+"the tools are available for your community to forge qualified contributions."
 msgstr ""
+"科学与学术界与软件开发者有深厚的亲缘关系：我们热爱社区 ❤️。当我们促进包容性和积极参与时，我们的方案和项目会变得更好。Read the Docs "
+"让读者可通过你的 git 平台（GitHub、GitLab、Bitbucket "
+"等）便捷地提出修改建议。但并非任何无资质的反馈——你的社区可以使用*代码* 及所有工具，产出有价值的贡献。"
 
 #: ../../upstream/docs/user/science.rst:91
 msgid "Your readers can become your co-authors!"
-msgstr ""
+msgstr "你的读者可以成为你的合著者！"
 
 #: ../../upstream/docs/user/science.rst:93
 msgid ""
 "Discuss changes via pull request and track all changes in your project's "
 "version history."
-msgstr ""
+msgstr "通过 Pull Request 讨论变更，并在项目的版本历史中追踪所有更改。"
 
 #: ../../upstream/docs/user/science.rst:95
 msgid ""
 "Using git does not mean that anyone can go and change your code and your "
 "published project. The full ownership and permission handling remains in "
-"your hands. Project and organization owners on your git platform govern "
-"what is released and who has access to approve and build changes."
+"your hands. Project and organization owners on your git platform govern what"
+" is released and who has access to approve and build changes."
 msgstr ""
+"使用 git 并不意味着任何人都能随意更改你的代码和已发布项目。完整的所有权和权限管理仍在你手中。你的 git "
+"平台上的项目和组织所有者决定发布内容，以及谁有权批准和构建变更。"
 
 #: ../../upstream/docs/user/science.rst
 msgid "🔎 Full search and analytics"
-msgstr ""
+msgstr "🔎 完整搜索与分析"
 
 #: ../../upstream/docs/user/science.rst:99
 msgid ""
-"Read the Docs comes with a number of features bundled in that you would "
-"have to configure if you were hosting documentation elsewhere."
-msgstr ""
+"Read the Docs comes with a number of features bundled in that you would have"
+" to configure if you were hosting documentation elsewhere."
+msgstr "Read the Docs 自带若干功能，若你在其他地方托管文档则需自行配置。"
 
 #: ../../upstream/docs/user/science.rst:101
 msgid "Super-fast text search"
-msgstr ""
+msgstr "极速全文搜索"
 
 #: ../../upstream/docs/user/science.rst:102
-msgid ""
-"Your documentation is automatically indexed and gets its own search "
-"function."
-msgstr ""
+msgid "Your documentation is automatically indexed and gets its own search function."
+msgstr "你的文档会自动建立索引，并拥有自己的搜索功能。"
 
 #: ../../upstream/docs/user/science.rst:104
 msgid "Traffic statistics"
-msgstr ""
+msgstr "流量统计"
 
 #: ../../upstream/docs/user/science.rst:105
 msgid ""
-"Have full access to your traffic data and have quick access to see which "
-"of your pages are most popular."
-msgstr ""
+"Have full access to your traffic data and have quick access to see which of "
+"your pages are most popular."
+msgstr "完整访问你的流量数据，快速查看哪些页面最受欢迎。"
 
 #: ../../upstream/docs/user/science.rst:107
 msgid "Search analytics"
-msgstr ""
+msgstr "搜索分析"
 
 #: ../../upstream/docs/user/science.rst:108
 msgid ""
-"What are people searching for and do they get hits? From each search "
-"query in your documentation, we collect a neat little statistic that can "
-"help to improve the discoverability and relevance of your documentation."
-msgstr ""
+"What are people searching for and do they get hits? From each search query "
+"in your documentation, we collect a neat little statistic that can help to "
+"improve the discoverability and relevance of your documentation."
+msgstr "人们在搜索什么？是否找到了结果？我们从文档中的每次搜索查询收集一项有用的小统计，可帮助你改进文档的可发现性和相关性。"
 
 #: ../../upstream/docs/user/science.rst:110
 msgid "SEO - Don't reinvent search engine optimization"
-msgstr ""
+msgstr "SEO——不必重新发明搜索引擎优化"
 
 #: ../../upstream/docs/user/science.rst:111
 msgid ""
-"Use built-in SEO best-practices from Sphinx, its themes and Read the Docs"
-" hosting. This can give you a good ranking on search engines as a direct "
+"Use built-in SEO best-practices from Sphinx, its themes and Read the Docs "
+"hosting. This can give you a good ranking on search engines as a direct "
 "outcome of simply writing and publishing your documentation project."
-msgstr ""
+msgstr "利用 Sphinx、其主题和 Read the Docs 托管内置的 SEO 最佳实践。仅仅编写并发布你的文档项目，就能直接带来不错的搜索引擎排名。"
 
 #: ../../upstream/docs/user/science.rst
 msgid "🌱 Grow your own solutions"
-msgstr ""
+msgstr "🌱 培育你自己的方案"
 
 #: ../../upstream/docs/user/science.rst:115
 msgid ""
-"The eco-system is open source and makes it accessible for anyone with "
-"Python skills to build their own extensions."
-msgstr ""
+"The eco-system is open source and makes it accessible for anyone with Python"
+" skills to build their own extensions."
+msgstr "该生态是开源的，任何具备 Python 技能的人都可以构建自己的扩展。"
 
 #: ../../upstream/docs/user/science.rst:117
 msgid ""
 "We want science communities to use Read the Docs and to be part of the "
 "documentation community 💞"
-msgstr ""
+msgstr "我们希望科学社区使用 Read the Docs，并成为文档社区的一员 💞"
 
 #: ../../upstream/docs/user/science.rst:120
 msgid "Getting started: Jupyter Book"
-msgstr ""
+msgstr "快速开始：Jupyter Book"
 
 #: ../../upstream/docs/user/science.rst:122
 msgid ""
-":external+jupyterbook:doc:`Jupyter Book <intro>` on Read the Docs brings "
-"you the rich experience of computed `Jupyter <https://jupyter.org/>`__ "
-"documents built together with a modern documentation tool. The results "
-"are beautiful and automatically deployed websites, built with Sphinx and "
-":doc:`Executable Book <executablebook:index>` + all the extensions "
-"available in this ecosystem."
+":external+jupyterbook:doc:`Jupyter Book <intro>` on Read the Docs brings you"
+" the rich experience of computed `Jupyter <https://jupyter.org/>`__ "
+"documents built together with a modern documentation tool. The results are "
+"beautiful and automatically deployed websites, built with Sphinx and "
+":doc:`Executable Book <executablebook:index>` + all the extensions available"
+" in this ecosystem."
 msgstr ""
+"Read the Docs 上的 :external+jupyterbook:doc:`Jupyter Book <intro>` 带来由计算型 "
+"`Jupyter <https://jupyter.org/>`__ 文档与现代文档工具结合的丰富体验。其成果是用 "
+"Sphinx、:doc:`Executable Book <executablebook:index>` "
+"以及该生态中全部扩展构建的、美观且自动部署的网站。"
 
 #: ../../upstream/docs/user/science.rst:124
 msgid "Here are some popular activities that are well-supported by Jupyter Book:"
-msgstr ""
+msgstr "以下是 Jupyter Book 良好支持的一些常见用途："
 
 #: ../../upstream/docs/user/science.rst:126
 msgid "Publications and books"
-msgstr ""
+msgstr "出版物与书籍"
 
 #: ../../upstream/docs/user/science.rst:127
 msgid "Course and research websites"
-msgstr ""
+msgstr "课程与研究网站"
 
 #: ../../upstream/docs/user/science.rst:128
 msgid "Interactive classroom activities"
-msgstr ""
+msgstr "交互式课堂活动"
 
 #: ../../upstream/docs/user/science.rst:129
 msgid "Data science software documentation"
-msgstr ""
+msgstr "数据科学软件文档"
 
 #: ../../upstream/docs/user/science.rst:132
 msgid ""
 ":doc:`Visit the gallery of solutions built with Jupyter Book » "
 "<executablebook:gallery>`"
-msgstr ""
+msgstr ":doc:`浏览用 Jupyter Book 构建的方案画廊 » <executablebook:gallery>`"
 
 #: ../../upstream/docs/user/science.rst:136
 msgid "Ready to get started?"
-msgstr ""
+msgstr "准备好开始了吗？"
 
 #: ../../upstream/docs/user/science.rst:140
 msgid ""
-"All new to this? Take the official :external+jupyterbook:doc:`Jupyter "
-"Book Tutorial » <start/your-first-book>`"
+"All new to this? Take the official :external+jupyterbook:doc:`Jupyter Book "
+"Tutorial » <start/your-first-book>`"
 msgstr ""
+"对此完全陌生？阅读官方 :external+jupyterbook:doc:`Jupyter Book 教程 » <start/your-first-"
+"book>`"
 
 #: ../../upstream/docs/user/science.rst:141
 msgid ""
 "Curious for practical code? See the list of :doc:`example projects » "
 "</examples>`"
-msgstr ""
+msgstr "想看实用代码？参见 :doc:`示例项目列表 » </examples>`"
 
 #: ../../upstream/docs/user/science.rst:142
 msgid ""
-"Familiar with Sphinx? Read :doc:`How to use Jupyter notebooks in Sphinx »"
-" </guides/jupyter>`"
-msgstr ""
+"Familiar with Sphinx? Read :doc:`How to use Jupyter notebooks in Sphinx » "
+"</guides/jupyter>`"
+msgstr "熟悉 Sphinx？阅读 :doc:`如何在 Sphinx 中使用 Jupyter Notebook » </guides/jupyter>`"
 
 #: ../../upstream/docs/user/science.rst:146
 msgid "Examples and users"
-msgstr ""
+msgstr "示例与用户"
 
 #: ../../upstream/docs/user/science.rst:151
 msgid ""
-"Read the Docs community for science is already big and keeps growing. The"
-" :external+jupyter:doc:`Jupyter Project <index>` itself and `the many "
-"sub-projects of Jupyter <https://docs.jupyter.org/en/latest/#sub-project-"
+"Read the Docs community for science is already big and keeps growing. The "
+":external+jupyter:doc:`Jupyter Project <index>` itself and `the many sub-"
+"projects of Jupyter <https://docs.jupyter.org/en/latest/#sub-project-"
 "documentation>`__ are built and published with Read the Docs."
 msgstr ""
+"面向科学的 Read the Docs 社区已经颇具规模并持续壮大。:external+jupyter:doc:`Jupyter Project "
+"<index>` 本身以及 `Jupyter 的众多子项目 <https://docs.jupyter.org/en/latest/#sub-"
+"project-documentation>`__ 都使用 Read the Docs 构建和发布。"
 
 #: ../../upstream/docs/user/science.rst:157
 msgid "Jupyter Project Documentation"
-msgstr ""
+msgstr "Jupyter Project 文档"
 
 #: ../../upstream/docs/user/science.rst:161
 msgid "Chainladder - Property and Casualty Loss Reserving in Python"
-msgstr ""
+msgstr "Chainladder - 用 Python 进行财产与意外险损失准备金计提"
 
 #: ../../upstream/docs/user/science.rst:165
 msgid "Feature-engine - A Python library for Feature Engineering and Selection"
-msgstr ""
+msgstr "Feature-engine - 用于特征工程与特征选择的 Python 库"
 

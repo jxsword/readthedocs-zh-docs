@@ -22,38 +22,38 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/maintenance/index.rst:18
 msgid "Creating reproducible builds"
-msgstr ""
+msgstr "创建可复现构建"
 
 #: ../../upstream/docs/user/guides/maintenance/index.rst:18
 msgid "Using Conda as your Python environment"
-msgstr ""
+msgstr "使用 Conda 作为 Python 环境"
 
 #: ../../upstream/docs/user/guides/maintenance/index.rst:2
 msgid "How-to guides: upgrading and maintaining projects"
-msgstr ""
+msgstr "操作指南：升级与维护项目"
 
 #: ../../upstream/docs/user/guides/maintenance/index.rst:4
 msgid "⏩️ :doc:`Creating reproducible builds </guides/reproducible-builds>`"
-msgstr ""
+msgstr "⏩️ :doc:`创建可复现构建 </guides/reproducible-builds>`"
 
 #: ../../upstream/docs/user/guides/maintenance/index.rst:5
 msgid ""
-"Using Sphinx, themes and extensions means that your documentation project"
-" needs to fetch a set of dependencies, each with a special version. Over "
+"Using Sphinx, themes and extensions means that your documentation project "
+"needs to fetch a set of dependencies, each with a special version. Over "
 "time, using an unspecified version means that documentation projects "
-"suddenly start breaking. In this guide, you learn how to secure your "
-"project against sudden breakage. **This is one of our most popular "
-"guides!**"
+"suddenly start breaking. In this guide, you learn how to secure your project"
+" against sudden breakage. **This is one of our most popular guides!**"
 msgstr ""
+"使用 "
+"Sphinx、主题和扩展意味着你的文档项目需要获取一组依赖，每个都有特定版本。日积月累，使用不固定的版本会导致文档项目突然失效。本指南讲解如何让项目免于意外失效。**这是我们最受欢迎的指南之一！**"
 
 #: ../../upstream/docs/user/guides/maintenance/index.rst:12
 msgid "⏩️ :doc:`Using Conda as your Python environment </guides/conda>`"
-msgstr ""
+msgstr "⏩️ :doc:`使用 Conda 作为 Python 环境 </guides/conda>`"
 
 #: ../../upstream/docs/user/guides/maintenance/index.rst:13
 msgid ""
-"Read the Docs supports Conda and Mamba as an environment management "
-"tools. In this guide, we show the practical steps of using Conda or "
-"Mamba."
-msgstr ""
+"Read the Docs supports Conda and Mamba as an environment management tools. "
+"In this guide, we show the practical steps of using Conda or Mamba."
+msgstr "Read the Docs 支持将 Conda 和 Mamba 作为环境管理工具。本指南展示使用 Conda 或 Mamba 的实际步骤。"
 

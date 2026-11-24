@@ -22,299 +22,325 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:2
 msgid "How to manage custom domains"
-msgstr ""
+msgstr "如何管理自定义域名"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:4
 msgid ""
-"This guide describes how to host your documentation using your own domain"
-" name, such as ``docs.example.com``."
-msgstr ""
+"This guide describes how to host your documentation using your own domain "
+"name, such as ``docs.example.com``."
+msgstr "本指南讲解如何使用自有域名（如 ``docs.example.com`` ）托管文档。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:7
 msgid "Contents"
-msgstr ""
+msgstr "目录"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:10
 msgid "Adding a custom domain"
-msgstr ""
+msgstr "添加自定义域名"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:12
 msgid "To set up your :doc:`custom domain </custom-domains>`, follow these steps:"
-msgstr ""
+msgstr "要设置 :doc:`自定义域名 </custom-domains>` ，按以下步骤操作："
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:14
 #: ../../upstream/docs/user/guides/custom-domains.rst:62
 msgid "Go to your project's :menuselection:`Settings --> Domains`."
-msgstr ""
+msgstr "前往项目的 :menuselection:`Settings --> Domains` 。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:15
 #: ../../upstream/docs/user/guides/custom-domains.rst:19
 msgid "Click on :guilabel:`Add domain`."
-msgstr ""
+msgstr "点击 :guilabel:`Add domain` 。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:16
 msgid ""
 "Enter the domain where you want to serve the documentation from (e.g. "
 "``docs.example.com``)."
-msgstr ""
+msgstr "输入你希望提供文档服务的域名（如 ``docs.example.com`` ）。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:17
 msgid ""
-"Mark the :guilabel:`Canonical` option if you want to use this domain as "
-"your :doc:`canonical domain </canonical-urls>`."
-msgstr ""
+"Mark the :guilabel:`Canonical` option if you want to use this domain as your"
+" :doc:`canonical domain </canonical-urls>`."
+msgstr "若想将该域名用作 :doc:`规范域名 </canonical-urls>` ，请勾选 :guilabel:`Canonical` 选项。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:20
 msgid ""
-"At the top of the next page you'll find the value of the DNS record that "
-"you need to point your domain to. For |org_brand| this is "
-"``readthedocs.io``, and for :doc:`/commercial/index` the record is in the"
-" form of ``<hash>.domains.readthedocs.com``. If you are using Cloudflare,"
-" make sure to disable the proxy status (orange cloud) for the CNAME "
-"record."
+"At the top of the next page you'll find the value of the DNS record that you"
+" need to point your domain to. For |org_brand| this is ``readthedocs.io``, "
+"and for :doc:`/commercial/index` the record is in the form of "
+"``<hash>.domains.readthedocs.com``. If you are using Cloudflare, make sure "
+"to disable the proxy status (orange cloud) for the CNAME record."
 msgstr ""
+"下一页顶部会显示你需要将域名指向的 DNS 记录值。对于 |org_brand| 是 ``readthedocs.io`` ，对于 "
+":doc:`/commercial/index` 则形如 ``<hash>.domains.readthedocs.com`` 。若你使用 "
+"Cloudflare，请确保为 CNAME 记录关闭代理状态（橙色云朵）。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:27
 msgid ""
-"For a subdomain like ``docs.example.com`` add a CNAME record, and for a "
-"root domain like ``example.com`` use an ANAME or ALIAS record."
+"For a subdomain like ``docs.example.com`` add a CNAME record, and for a root"
+" domain like ``example.com`` use an ANAME or ALIAS record."
 msgstr ""
+"对于 ``docs.example.com`` 这样的子域名添加 CNAME 记录；对于 ``example.com`` 这样的根域名使用 ANAME "
+"或 ALIAS 记录。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:32
 #: ../../upstream/docs/user/guides/custom-domains.rst:75
 msgid ""
-"If you delete a domain, make sure to also remove the DNS records for that"
-" domain. Otherwise, another user may add the same domain to their project"
-" and serve that content from your domain (domain hijacking)."
-msgstr ""
+"If you delete a domain, make sure to also remove the DNS records for that "
+"domain. Otherwise, another user may add the same domain to their project and"
+" serve that content from your domain (domain hijacking)."
+msgstr "若删除域名，请务必同时移除该域名的 DNS 记录。否则其他用户可能把同一域名添加到他们的项目，并从你的域名提供该内容（域名劫持）。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:35
 msgid ""
-"SSL certificates are automatically provisioned for your domain once the "
-"DNS record (CNAME or ANAME/ALIAS) is pointed to Read the Docs, no extra "
-"action or certificate request is needed. Certificates are managed by "
-"`Cloudflare <https://www.cloudflare.com/>`_ and are typically issued "
-"within a few minutes, but may take up to one hour. See `SSL certificate "
-"issue delays`_ for more troubleshooting options."
+"SSL certificates are automatically provisioned for your domain once the DNS "
+"record (CNAME or ANAME/ALIAS) is pointed to Read the Docs, no extra action "
+"or certificate request is needed. Certificates are managed by `Cloudflare "
+"<https://www.cloudflare.com/>`_ and are typically issued within a few "
+"minutes, but may take up to one hour. See `SSL certificate issue delays`_ "
+"for more troubleshooting options."
 msgstr ""
+"DNS 记录（CNAME 或 ANAME/ALIAS）指向 Read the Docs 后，你的域名的 SSL "
+"证书会自动配置，无需额外操作或申请证书。证书由 `Cloudflare <https://www.cloudflare.com/>`_ "
+"管理，通常几分钟内签发，但最长可能需要一小时。更多排查选项见 `SSL certificate issue delays`_ 。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:43
 msgid ""
-"To see if your DNS change has propagated, you can use a tool like ``dig``"
-" to inspect your domain from your command line. As an example, our blog's"
-" DNS record looks like this:"
-msgstr ""
+"To see if your DNS change has propagated, you can use a tool like ``dig`` to"
+" inspect your domain from your command line. As an example, our blog's DNS "
+"record looks like this:"
+msgstr "要查看 DNS 变更是否已生效，可用 ``dig`` 等工具从命令行检查你的域名。例如，我们博客的 DNS 记录如下："
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:53
 msgid ""
-"We don't support pointing subdomains or root domains to a project using A"
-" records. DNS A records require a static IP address and our IPs may "
-"change without notice."
-msgstr ""
+"We don't support pointing subdomains or root domains to a project using A "
+"records. DNS A records require a static IP address and our IPs may change "
+"without notice."
+msgstr "我们不支持用 A 记录将子域名或根域名指向项目。DNS A 记录需要静态 IP 地址，而我们的 IP 可能随时变更。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:58
 msgid "Removing a custom domain"
-msgstr ""
+msgstr "移除自定义域名"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:60
 msgid "To remove a custom domain:"
-msgstr ""
+msgstr "要移除自定义域名："
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:63
 msgid "Click the :guilabel:`Remove domain` button next to the domain."
-msgstr ""
+msgstr "点击该域名旁的 :guilabel:`Remove domain` 按钮。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:64
 msgid "Click :guilabel:`Remove domain` in the confirmation dialog."
-msgstr ""
+msgstr "在确认对话框中点击 :guilabel:`Remove domain` 。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:65
 msgid "Remove the DNS record for the domain from your DNS provider."
-msgstr ""
+msgstr "从你的 DNS 服务商移除该域名的 DNS 记录。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:69
 msgid ""
-"Once a domain is removed, your previous documentation domain is no longer"
-" served by Read the Docs, and any request for it will return a 404 Not "
-"Found!"
-msgstr ""
+"Once a domain is removed, your previous documentation domain is no longer "
+"served by Read the Docs, and any request for it will return a 404 Not Found!"
+msgstr "域名移除后，Read the Docs 不再提供你此前文档域名的服务，对它的任何请求都将返回 404 Not Found！"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:79
 msgid "Strict Transport Security (HSTS) and other custom headers"
-msgstr ""
+msgstr "严格传输安全（HSTS）与其他自定义标头"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:81
 msgid ""
-"By default, we do not return a `Strict Transport Security header`_ (HSTS)"
-" for user custom domains. This is a conscious decision as it can be "
+"By default, we do not return a `Strict Transport Security header`_ (HSTS) "
+"for user custom domains. This is a conscious decision as it can be "
 "misconfigured in a not easily reversible way. For both |org_brand| and "
 "|com_brand|, HSTS and other custom headers can be set upon request."
 msgstr ""
+"默认情况下，我们不会为用户自定义域名返回 `Strict Transport Security header`_ "
+"（HSTS）。这是一个经过深思的决定，因为它可能被错误配置且不易撤销。对于 |org_brand| 和 |com_brand|，均可按需设置 HSTS "
+"和其他自定义标头。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:85
 msgid ""
-"We always return the HSTS header with a max-age of at least one year for "
-"our own domains including ``*.readthedocs.io``, ``*.readthedocs-"
-"hosted.com``, ``readthedocs.org`` and ``readthedocs.com``."
+"We always return the HSTS header with a max-age of at least one year for our"
+" own domains including ``*.readthedocs.io``, ``*.readthedocs-hosted.com``, "
+"``readthedocs.org`` and ``readthedocs.com``."
 msgstr ""
+"对我们自己的域名（包括 ``*.readthedocs.io`` 、``*.readthedocs-hosted.com`` "
+"、``readthedocs.org`` 和 ``readthedocs.com`` ），始终返回 max-age 至少一年的 HSTS 标头。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:90
 msgid ""
-"Please contact :doc:`/support` if you want to add a custom header to your"
-" domain."
-msgstr ""
+"Please contact :doc:`/support` if you want to add a custom header to your "
+"domain."
+msgstr "若你想为域名添加自定义标头，请联系 :doc:`/support` 。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:95
 msgid "Multiple documentation sites as sub-folders of a domain"
-msgstr ""
+msgstr "将多个文档站点作为域名的子目录"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:97
 msgid ""
 "You may host multiple documentation repositories as **sub-folders of a "
 "single domain**. For example, ``docs.example.org/projects/repo1`` and "
-"``docs.example.org/projects/repo2``. This is `a way to boost the SEO of "
-"your website <https://moz.com/blog/subdomains-vs-subfolders-rel-"
-"canonical-vs-301-how-to-structure-links-optimally-for-seo-whiteboard-"
-"friday>`_."
+"``docs.example.org/projects/repo2``. This is `a way to boost the SEO of your"
+" website <https://moz.com/blog/subdomains-vs-subfolders-rel-canonical-vs-301"
+"-how-to-structure-links-optimally-for-seo-whiteboard-friday>`_."
 msgstr ""
+"你可以将多个文档仓库作为**单个域名的子目录** 来托管。例如 ``docs.example.org/projects/repo1`` 和 "
+"``docs.example.org/projects/repo2`` 。这是 `提升网站 SEO 的一种方式 "
+"<https://moz.com/blog/subdomains-vs-subfolders-rel-canonical-vs-301-how-to-"
+"structure-links-optimally-for-seo-whiteboard-friday>`_ 。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:103
 msgid ":doc:`/subprojects`"
-msgstr ""
+msgstr ":doc:`/subprojects`"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:104
 msgid ""
-"Further information about hosting multiple documentation repositories, "
-"using the :term:`subproject` feature."
-msgstr ""
+"Further information about hosting multiple documentation repositories, using"
+" the :term:`subproject` feature."
+msgstr "关于使用 :term:`subproject` 功能托管多个文档仓库的更多信息。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:108
 msgid "Troubleshooting"
-msgstr ""
+msgstr "故障排查"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:111
 msgid "\"Error 1014: CNAME Cross-User Banned\" when using Cloudflare"
-msgstr ""
+msgstr "使用 Cloudflare 时出现\"Error 1014: CNAME Cross-User Banned\""
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:113
 msgid ""
-"Read the Docs uses Cloudflare to manage SSL certificates for custom "
-"domains, CDN caching, and other features that require the domain to be "
-"completely managed by our Cloudflare account."
+"Read the Docs uses Cloudflare to manage SSL certificates for custom domains,"
+" CDN caching, and other features that require the domain to be completely "
+"managed by our Cloudflare account."
 msgstr ""
+"Read the Docs 使用 Cloudflare 管理自定义域名的 SSL 证书、CDN 缓存，以及其他要求域名完全由我们的 Cloudflare"
+" 账户管理的功能。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:116
 msgid ""
-"If you see an \"Error 1014: CNAME Cross-User Banned\" message, it means "
-"that the domain is already managed by another Cloudflare account. To fix "
-"this, you need to:"
+"If you see an \"Error 1014: CNAME Cross-User Banned\" message, it means that"
+" the domain is already managed by another Cloudflare account. To fix this, "
+"you need to:"
 msgstr ""
+"若看到\"Error 1014: CNAME Cross-User Banned\"消息，说明该域名已由另一个 Cloudflare "
+"账户管理。要解决此问题，你需要："
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:120
 msgid "Log in your Cloudflare account (https://www.cloudflare.com/)."
-msgstr ""
+msgstr "登录你的 Cloudflare 账户（https://www.cloudflare.com/）。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:121
 msgid "Select your domain."
-msgstr ""
+msgstr "选择你的域名。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:122
 msgid "Click on \"DNS\"."
-msgstr ""
+msgstr "点击\"DNS\"。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:123
 msgid "Find your CNAME record and click on \"Edit\"."
-msgstr ""
+msgstr "找到你的 CNAME 记录并点击\"Edit\"。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:124
 msgid "Uncheck the \"Proxy status\" (orange cloud) option."
-msgstr ""
+msgstr "取消勾选\"Proxy status\"（橙色云朵）选项。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:125
 msgid "Leave everything else unchanged."
-msgstr ""
+msgstr "其余设置保持不变。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:126
 msgid "Click on save."
-msgstr ""
+msgstr "点击保存。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:129
 msgid "SSL certificate issue delays"
-msgstr ""
+msgstr "SSL 证书签发延迟"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:131
 msgid ""
-"The status of your domain validation and certificate can always be seen "
-"on the details page for your domain. Go to your project's "
+"The status of your domain validation and certificate can always be seen on "
+"the details page for your domain. Go to your project's "
 ":menuselection:`Settings --> Domains` and click on your domain."
-msgstr ""
+msgstr "你的域名验证和证书状态始终可在域名的详情页查看。前往项目的 :menuselection:`Settings --> Domains` 并点击你的域名。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:134
 msgid ""
 "Domains are usually validated and a certificate issued within minutes. "
-"However, if you setup the domain in Read the Docs without provisioning "
-"the necessary DNS changes and then update DNS hours or days later, this "
-"can cause a delay in validating because there is an exponential back-off "
-"in validation."
+"However, if you setup the domain in Read the Docs without provisioning the "
+"necessary DNS changes and then update DNS hours or days later, this can "
+"cause a delay in validating because there is an exponential back-off in "
+"validation."
 msgstr ""
+"域名通常几分钟内即可验证并签发证书。但若你在 Read the Docs 中设置域名时未做必要的 DNS 变更，而是在数小时或数天后才更新 "
+"DNS，由于验证采用指数退避，验证会被延迟。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:141
 msgid ""
 "Loading the domain details in the Read the Docs dashboard and saving the "
 "domain again will force a revalidation."
-msgstr ""
+msgstr "在 Read the Docs 仪表盘中加载域名详情并再次保存该域名，可强制重新验证。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:144
 msgid "Disallowed DNS configurations"
-msgstr ""
+msgstr "不允许的 DNS 配置"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:146
 msgid ""
-"In order to prevent some common cases of domain hijacking, we disallow "
-"some DNS configurations:"
-msgstr ""
+"In order to prevent some common cases of domain hijacking, we disallow some "
+"DNS configurations:"
+msgstr "为防止一些常见的域名劫持情形，我们不允许以下 DNS 配置："
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:148
 msgid ""
 "CNAME records pointing to another CNAME record (``doc.example.com -> "
 "docs.example.com -> readthedocs.io``)."
 msgstr ""
+"CNAME 记录指向另一个 CNAME 记录（``doc.example.com -> docs.example.com -> "
+"readthedocs.io`` ）。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:150
 msgid ""
-"CNAME records pointing to the APEX domain (``www.example.com -> "
-"example.com -> readthedocs.io``)."
-msgstr ""
+"CNAME records pointing to the APEX domain (``www.example.com -> example.com "
+"-> readthedocs.io``)."
+msgstr "CNAME 记录指向 APEX 域（``www.example.com -> example.com -> readthedocs.io`` ）。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:153
 msgid ""
-"This prevents attackers from taking over unused domains with CNAME "
-"records pointing to domains that are on Read the Docs."
-msgstr ""
+"This prevents attackers from taking over unused domains with CNAME records "
+"pointing to domains that are on Read the Docs."
+msgstr "这可防止攻击者通过指向 Read the Docs 域名的 CNAME 记录劫持未使用的域名。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:157
 msgid ""
-"Users shouldn't rely on these restrictions to prevent domain hijacking. "
-"We recommend regularly reviewing your DNS records, removing any that are "
-"no longer needed or that don't exist on Read the Docs, or registering all"
-" valid domains in your project."
+"Users shouldn't rely on these restrictions to prevent domain hijacking. We "
+"recommend regularly reviewing your DNS records, removing any that are no "
+"longer needed or that don't exist on Read the Docs, or registering all valid"
+" domains in your project."
 msgstr ""
+"用户不应依赖这些限制来防止域名劫持。我们建议定期检查 DNS 记录，移除不再需要或不在 Read the Docs "
+"上存在的记录，或在项目中注册所有有效域名。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:163
 msgid "The validation process period has ended"
-msgstr ""
+msgstr "验证流程期限已结束"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:165
 msgid ""
 "After you add a new custom domain, you have 30 days to complete the "
-"configuration. Once that period has ended, we will stop trying to "
-"validate your domain. If you still want to complete the configuration, go"
-" to your domain and click on :guilabel:`Save` to restart the process."
+"configuration. Once that period has ended, we will stop trying to validate "
+"your domain. If you still want to complete the configuration, go to your "
+"domain and click on :guilabel:`Save` to restart the process."
 msgstr ""
+"添加新自定义域名后，你有 30 天时间完成配置。该期限结束后，我们将停止尝试验证你的域名。若仍想完成配置，请前往该域名并点击 "
+":guilabel:`Save` 以重启流程。"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:171
 msgid "Migrating from GitBook"
-msgstr ""
+msgstr "从 GitBook 迁移"
 
 #: ../../upstream/docs/user/guides/custom-domains.rst:173
 msgid ""
@@ -323,4 +349,6 @@ msgid ""
 "their DNS Zone in order for your domain name to work with Read the Docs, "
 "otherwise it will always redirect to GitBook."
 msgstr ""
+"若你的自定义域名此前用于 GitBook，请联系 GitBook 支持（通过其网站在线聊天）从他们的 DNS Zone 中移除该域名，你的域名才能配合 "
+"Read the Docs 工作，否则将始终重定向到 GitBook。"
 

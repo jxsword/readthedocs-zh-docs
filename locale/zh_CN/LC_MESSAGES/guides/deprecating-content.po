@@ -22,13 +22,13 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/deprecating-content.rst:2
 msgid "How to deprecate content"
-msgstr ""
+msgstr "如何废弃内容"
 
 #: ../../upstream/docs/user/guides/deprecating-content.rst:4
 msgid ""
-"When you deprecate a feature from your project, you may want to deprecate"
-" its docs as well, and stop your users from reading that content."
-msgstr ""
+"When you deprecate a feature from your project, you may want to deprecate "
+"its docs as well, and stop your users from reading that content."
+msgstr "当你废弃项目中的某项功能时，可能也想废弃其文档，阻止用户继续阅读该内容。"
 
 #: ../../upstream/docs/user/guides/deprecating-content.rst:8
 msgid ""
@@ -37,127 +37,142 @@ msgid ""
 "inaccessible. Here you'll find some tips on how to use Read the Docs to "
 "deprecate your content progressively and in non harmful ways."
 msgstr ""
+"废弃内容听起来像删除一样简单，但这样做会破坏现有链接，而且你未必想让内容完全无法访问。这里提供一些技巧，教你如何用 Read the Docs "
+"以渐进且无害的方式废弃内容。"
 
 #: ../../upstream/docs/user/guides/deprecating-content.rst:16
 msgid ":doc:`/guides/best-practice/links`"
-msgstr ""
+msgstr ":doc:`/guides/best-practice/links`"
 
 #: ../../upstream/docs/user/guides/deprecating-content.rst:17
 msgid ""
 "More information about handling URL structures, renaming and removing "
 "content."
-msgstr ""
+msgstr "关于处理 URL 结构、重命名和移除内容的更多信息。"
 
 #: ../../upstream/docs/user/guides/deprecating-content.rst:20
 msgid "Deprecating versions"
-msgstr ""
+msgstr "废弃版本"
 
 #: ../../upstream/docs/user/guides/deprecating-content.rst:22
 msgid ""
-"If you have multiple versions of your project, it makes sense to have its"
-" :doc:`documentation versioned </versions>` as well. For example, if you "
-"have the following versions and want to deprecate v1."
-msgstr ""
+"If you have multiple versions of your project, it makes sense to have its "
+":doc:`documentation versioned </versions>` as well. For example, if you have"
+" the following versions and want to deprecate v1."
+msgstr "若你的项目有多个版本，相应的 :doc:`文档也应版本化 </versions>` 。例如，若你有以下版本并想废弃 v1。"
 
 #: ../../upstream/docs/user/guides/deprecating-content.rst:26
 msgid "``https://project.readthedocs.io/en/v1/``"
-msgstr ""
+msgstr "``https://project.readthedocs.io/en/v1/``"
 
 #: ../../upstream/docs/user/guides/deprecating-content.rst:27
 msgid "``https://project.readthedocs.io/en/v2/``"
-msgstr ""
+msgstr "``https://project.readthedocs.io/en/v2/``"
 
 #: ../../upstream/docs/user/guides/deprecating-content.rst:28
 msgid "``https://project.readthedocs.io/en/v3/``"
-msgstr ""
+msgstr "``https://project.readthedocs.io/en/v3/``"
 
 #: ../../upstream/docs/user/guides/deprecating-content.rst:30
 msgid ""
 "For cases like this you can *hide* a version. Hidden versions won't be "
 "listed in the versions menu of your docs, and they will be listed in a "
-":doc:`robots.txt file </reference/robots>` to stop search engines of "
-"showing results for that version."
+":doc:`robots.txt file </reference/robots>` to stop search engines of showing"
+" results for that version."
 msgstr ""
+"这类情况你可以*隐藏* 某个版本。隐藏版本不会列在文档的版本菜单中，并会记录在 :doc:`robots.txt 文件 "
+"</reference/robots>` 中，以阻止搜索引擎显示该版本的结果。"
 
 #: ../../upstream/docs/user/guides/deprecating-content.rst:35
 msgid ""
-"Users can still see all versions in the dashboard of your project. To "
-"hide a version, go to your project's :menuselection:`Versions` tab, open "
-"the dot menu for the version, select :guilabel:`Configure version`, and "
-"mark the :guilabel:`Hidden` option. Check :ref:`versions:Version States` "
-"for more information."
+"Users can still see all versions in the dashboard of your project. To hide a"
+" version, go to your project's :menuselection:`Versions` tab, open the dot "
+"menu for the version, select :guilabel:`Configure version`, and mark the "
+":guilabel:`Hidden` option. Check :ref:`versions:Version States` for more "
+"information."
 msgstr ""
+"用户仍可在项目仪表盘中看到所有版本。要隐藏版本，请前往项目的 :menuselection:`Versions` 标签页，打开该版本的操作菜单，选择 "
+":guilabel:`Configure version` ，勾选 :guilabel:`Hidden` 选项。更多信息见 "
+":ref:`versions:Version States` 。"
 
 #: ../../upstream/docs/user/guides/deprecating-content.rst:41
 msgid ""
 "If the versions of your project follow the semver_ convention, you can "
-"activate the :ref:`versions:version warning notifications` option for "
-"your project. A banner with a warning and linking to the stable version "
-"will be shown on all versions that are lower than the stable one."
+"activate the :ref:`versions:version warning notifications` option for your "
+"project. A banner with a warning and linking to the stable version will be "
+"shown on all versions that are lower than the stable one."
 msgstr ""
+"若你的项目版本遵循 semver_ 规范，可为项目启用 :ref:`versions:version warning notifications` "
+"选项。所有低于稳定版本的版本上都会显示带警告并链接到稳定版本的横幅。"
 
 #: ../../upstream/docs/user/guides/deprecating-content.rst:49
 msgid "Deprecating pages"
-msgstr ""
+msgstr "废弃页面"
 
 #: ../../upstream/docs/user/guides/deprecating-content.rst:51
 msgid ""
-"You may not always want to deprecate a version, but deprecate some pages."
-" For example, if you have documentation about two APIs and you want to "
+"You may not always want to deprecate a version, but deprecate some pages. "
+"For example, if you have documentation about two APIs and you want to "
 "deprecate v1:"
-msgstr ""
+msgstr "你可能并不想废弃整个版本，而只想废弃部分页面。例如，若你有关于两个 API 的文档并想废弃 v1："
 
 #: ../../upstream/docs/user/guides/deprecating-content.rst:54
 msgid "``https://project.readthedocs.io/en/latest/api/v1.html``"
-msgstr ""
+msgstr "``https://project.readthedocs.io/en/latest/api/v1.html``"
 
 #: ../../upstream/docs/user/guides/deprecating-content.rst:55
 msgid "``https://project.readthedocs.io/en/latest/api/v2.html``"
-msgstr ""
+msgstr "``https://project.readthedocs.io/en/latest/api/v2.html``"
 
 #: ../../upstream/docs/user/guides/deprecating-content.rst:57
 msgid ""
-"A simple way is just adding a warning at the top of the page, this will "
-"warn users visiting that page, but it won't stop users from being "
-"redirected to that page from search results. You can add an entry of that"
-" page in a :doc:`custom robots.txt </reference/robots>` file to avoid "
-"search engines of showing those results. For example::"
+"A simple way is just adding a warning at the top of the page, this will warn"
+" users visiting that page, but it won't stop users from being redirected to "
+"that page from search results. You can add an entry of that page in a "
+":doc:`custom robots.txt </reference/robots>` file to avoid search engines of"
+" showing those results. For example::"
 msgstr ""
+"最简单的做法是在页面顶部添加警告，这会提醒访问该页的用户，但无法阻止用户从搜索结果跳转到该页面。你可以在 :doc:`自定义 robots.txt "
+"</reference/robots>` 文件中添加该页面的条目，避免搜索引擎显示这些结果。例如::"
 
 #: ../../upstream/docs/user/guides/deprecating-content.rst:69
 msgid ""
-"However, your users will still see search results from that page if they "
-"use the search from your docs. With Read the Docs you can set a "
-":ref:`custom rank per pages <config-file/v2:search.ranking>`. For "
-"example:"
+"However, your users will still see search results from that page if they use"
+" the search from your docs. With Read the Docs you can set a :ref:`custom "
+"rank per pages <config-file/v2:search.ranking>`. For example:"
 msgstr ""
+"不过，若用户使用你文档内的搜索，仍会看到来自该页面的结果。借助 Read the Docs，你可以设置 :ref:`按页面的自定义排名 <config-"
+"file/v2:search.ranking>` 。例如："
 
 #: ../../upstream/docs/user/guides/deprecating-content.rst:82
 msgid ""
-"This won't hide results from that page, but it will give priority to "
-"results from other pages."
-msgstr ""
+"This won't hide results from that page, but it will give priority to results"
+" from other pages."
+msgstr "这不会隐藏该页面的结果，但会让其他页面的结果获得更高优先级。"
 
 #: ../../upstream/docs/user/guides/deprecating-content.rst:88
 msgid ""
 "You can make use of Sphinx :doc:`directives "
 "<sphinx:usage/restructuredtext/directives>` (like ``warning``, "
-"``deprecated``, ``versionchanged``) or MkDocs `admonitions <https"
-"://python-markdown.github.io/extensions/admonition/>`_ to warn your users"
-" about deprecated content."
+"``deprecated``, ``versionchanged``) or MkDocs `admonitions <https://python-"
+"markdown.github.io/extensions/admonition/>`_ to warn your users about "
+"deprecated content."
 msgstr ""
+"你可以使用 Sphinx :doc:`指令 <sphinx:usage/restructuredtext/directives>` （如 "
+"``warning`` 、``deprecated`` 、``versionchanged`` ）或 MkDocs `admonitions "
+"<https://python-markdown.github.io/extensions/admonition/>`_ 向用户提示内容已废弃。"
 
 #: ../../upstream/docs/user/guides/deprecating-content.rst:94
 msgid "Moving and deleting pages"
-msgstr ""
+msgstr "移动和删除页面"
 
 #: ../../upstream/docs/user/guides/deprecating-content.rst:96
 msgid ""
-"After you have deprecated a feature for a while, you may want to get rid "
-"of its documentation, that's OK, you don't have to maintain that content "
-"forever. However, be aware that users may have links of that page saved, "
-"and it will be frustrating and confusing for them to get a 404."
-msgstr ""
+"After you have deprecated a feature for a while, you may want to get rid of "
+"its documentation, that's OK, you don't have to maintain that content "
+"forever. However, be aware that users may have links of that page saved, and"
+" it will be frustrating and confusing for them to get a 404."
+msgstr "废弃某项功能一段时间后，你可能想彻底移除其文档，这没问题，你不必永远维护那些内容。但请注意用户可能保存了该页面的链接，他们遇到 404 会感到沮丧和困惑。"
 
 #: ../../upstream/docs/user/guides/deprecating-content.rst:102
 msgid ""
@@ -167,4 +182,7 @@ msgid ""
 "<user-defined-redirects:page redirects>` from ``/api/v1.html`` to "
 "``/api/v2.html``. See :doc:`/user-defined-redirects`."
 msgstr ""
+"解决该问题的方法是创建一个指向功能/内容相近页面的重定向，例如当用户访问已删除的 v1 文档时重定向到 API v2 的文档，即从 "
+"``/api/v1.html`` 到 ``/api/v2.html`` 的 :ref:`页面重定向 <user-defined-"
+"redirects:page redirects>` 。参见 :doc:`/user-defined-redirects` 。"
 

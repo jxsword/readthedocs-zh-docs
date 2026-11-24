@@ -22,32 +22,32 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/troubleshooting/index.rst:2
 msgid "How-to guides: troubleshooting problems"
-msgstr ""
+msgstr "操作指南：问题排查"
 
 #: ../../upstream/docs/user/guides/troubleshooting/index.rst:4
 msgid ""
-"In the following guides, you can learn how to fix common problems using "
-"Read the Docs."
-msgstr ""
+"In the following guides, you can learn how to fix common problems using Read"
+" the Docs."
+msgstr "以下指南讲解如何解决使用 Read the Docs 时的常见问题。"
 
 #: ../../upstream/docs/user/guides/troubleshooting/index.rst:7
 msgid "⏩️ :doc:`/guides/build-troubleshooting`"
-msgstr ""
+msgstr "⏩️ :doc:`/guides/build-troubleshooting`"
 
 #: ../../upstream/docs/user/guides/troubleshooting/index.rst:8
 msgid ""
 "A list of common errors and resolutions encountered in the :doc:`build "
 "process </builds>`."
-msgstr ""
+msgstr "列出 :doc:`构建过程 </builds>` 中遇到的常见错误及解决方法。"
 
 #: ../../upstream/docs/user/guides/troubleshooting/index.rst:10
 msgid "⏩️ :doc:`/guides/build-using-too-many-resources`"
-msgstr ""
+msgstr "⏩️ :doc:`/guides/build-using-too-many-resources`"
 
 #: ../../upstream/docs/user/guides/troubleshooting/index.rst:11
 msgid ""
-"A list of the most common issues that are slowing down builds. Even if "
-"you are not facing any immediate performance issues, it's always good to "
-"be familiar with the most common ones."
-msgstr ""
+"A list of the most common issues that are slowing down builds. Even if you "
+"are not facing any immediate performance issues, it's always good to be "
+"familiar with the most common ones."
+msgstr "列出拖慢构建的最常见问题。即使你当前没有性能问题，熟悉这些常见问题也总有好处。"
 

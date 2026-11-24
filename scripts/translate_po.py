@@ -26,6 +26,10 @@ INLINE_LITERAL_RE = re.compile(r"``[^`]+``|\|[^|]+\|")
 ROLE_RE = re.compile(r":([a-z]+):`([^`]*)`")
 REF_RE = re.compile(r"`([^`]+)`_")
 
+# Inline markup whose *content* is translatable but whose *presence* is not.
+# Only the count of each kind is compared, not the text between the markers.
+MARKUP_KINDS = ("``", "**", "``__", "`__")
+
 
 def _invariant_of_inner(inner: str) -> str:
     """For a role/reference body, return the invariant part.
@@ -36,6 +40,27 @@ def _invariant_of_inner(inner: str) -> str:
     """
     target = re.match(r"[^<]*<([^>]+)>$", inner)
     return target.group(1) if target else inner
+
+
+def markup_counts(text: str) -> dict[str, int]:
+    """Count inline markup constructs by kind.
+
+    The *content* inside inline literals, emphasis and strong markers is
+    translatable, so only their counts are compared between source and
+    translation. Counting avoids false positives from greedy matching (for
+    example ``:numref:`x``` where the trailing triple backtick merges two
+    separate literals).
+    """
+    stripped = ROLE_RE.sub("", text)
+    stripped = REF_RE.sub("", stripped)
+    counts = {
+        "literal": len(re.findall(r"``", text)) // 2,
+        "strong": len(re.findall(r"\*\*", text)) // 2,
+        "emphasis": len(re.findall(r"(?<!\*)\*(?!\*)", text)) // 2,
+        "named_ref": len(re.findall(r"`[^`\n]+`_{1,2}", text)),
+        "substitution": len(re.findall(r"\|[^|\n]+\|", text)),
+    }
+    return counts
 
 
 def tokens(text: str) -> set[str]:
@@ -59,7 +84,8 @@ def tokens(text: str) -> set[str]:
     for inner in REF_RE.findall(stripped):
         result.add(_invariant_of_inner(inner))
     stripped = REF_RE.sub("", stripped)
-    result |= set(INLINE_LITERAL_RE.findall(stripped))
+    # Substitution references (|name|) keep their name verbatim.
+    result |= set(re.findall(r"\|([^|\n]+)\|", stripped))
     return result
 
 
@@ -91,6 +117,14 @@ def import_translations(po: Path, src: Path) -> int:
         value = translations[key]
         missing = tokens(key) - tokens(value)
         extra = tokens(value) - tokens(key)
+        src_counts = markup_counts(key)
+        dst_counts = markup_counts(value)
+        if src_counts != dst_counts:
+            print(f"[warn] markup count mismatch in {po.name}: {key[:60]!r}")
+            print(f"       source: {src_counts}")
+            print(f"       target: {dst_counts}")
+            errors += 1
+            continue
         if missing or extra:
             print(f"[warn] token mismatch in {po.name}: {key[:60]!r}")
             if missing:

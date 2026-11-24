@@ -22,62 +22,65 @@ msgstr ""
 
 #: ../../upstream/docs/user/advertising/index.rst:33
 msgid "Advertising at Read the Docs"
-msgstr ""
+msgstr "Read the Docs 上的广告"
 
 #: ../../upstream/docs/user/advertising/index.rst:-1
 msgid ""
-"Read the Docs is a large open source project funded by ethical "
-"advertising which respects user privacy and doesn't track people."
-msgstr ""
+"Read the Docs is a large open source project funded by ethical advertising "
+"which respects user privacy and doesn't track people."
+msgstr "Read the Docs 是一个大型开源项目，由尊重用户隐私、不追踪用户的道德广告资助。"
 
 #: ../../upstream/docs/user/advertising/index.rst:2
 msgid "Advertising"
-msgstr ""
+msgstr "广告"
 
 #: ../../upstream/docs/user/advertising/index.rst:8
 msgid ""
-"Advertising is the single largest source of funding for Read the Docs. It"
-" allows us to:"
-msgstr ""
+"Advertising is the single largest source of funding for Read the Docs. It "
+"allows us to:"
+msgstr "广告是 Read the Docs 最大的单一资金来源。它使我们能够："
 
 #: ../../upstream/docs/user/advertising/index.rst:13
 msgid "Serve over **35 million pages** of documentation per month"
-msgstr ""
+msgstr "每月提供超过 **3500 万个** 文档页面"
 
 #: ../../upstream/docs/user/advertising/index.rst:14
 msgid "Serve over **40 TB** of documentation per month"
-msgstr ""
+msgstr "每月提供超过 **40 TB** 的文档"
 
 #: ../../upstream/docs/user/advertising/index.rst:15
-msgid ""
-"Host over **80,000 open source projects** and support over **100,000 "
-"users**"
-msgstr ""
+msgid "Host over **80,000 open source projects** and support over **100,000 users**"
+msgstr "托管超过 **80,000 个开源项目** ，服务超过 **100,000 名用户**"
 
 #: ../../upstream/docs/user/advertising/index.rst:16
 msgid "Pay a :doc:`small team </team>` of dedicated full-time staff"
-msgstr ""
+msgstr "支付一支专注此项工作的 :doc:`小团队 </team>` 全职人员的薪酬"
 
 #: ../../upstream/docs/user/advertising/index.rst:18
 msgid ""
-"Many advertising models involve tracking users around the internet, "
-"selling their data, and privacy intrusion in general. Instead of doing "
-"that, we built an :doc:`Ethical Advertising <ethical-advertising>` model "
-"that respects user privacy."
+"Many advertising models involve tracking users around the internet, selling "
+"their data, and privacy intrusion in general. Instead of doing that, we "
+"built an :doc:`Ethical Advertising <ethical-advertising>` model that "
+"respects user privacy."
 msgstr ""
+"许多广告模式涉及在互联网上追踪用户、出售其数据以及普遍的隐私侵犯。我们没有这样做，而是构建了尊重用户隐私的 :doc:`道德广告 <ethical-"
+"advertising>` 模式。"
 
 #: ../../upstream/docs/user/advertising/index.rst:23
 msgid ""
-"We recognize that advertising is not for everyone. You may :ref:`opt out "
-"of paid advertising <advertising/ethical-advertising:Opting Out>` "
-"although you will still see :ref:`community ads <advertising/ethical-"
+"We recognize that advertising is not for everyone. You may :ref:`opt out of "
+"paid advertising <advertising/ethical-advertising:Opting Out>` although you "
+"will still see :ref:`community ads <advertising/ethical-"
 "advertising:Community Ads>`. `Gold members`_ may also remove advertising "
 "from their projects for all visitors."
 msgstr ""
+"我们认识到广告并非人人适用。你可以 :ref:`选择退出付费广告 <advertising/ethical-advertising:Opting "
+"Out>` ，但仍会看到 :ref:`社区广告 <advertising/ethical-advertising:Community Ads>` "
+"。`Gold members`_ 还可以为所有访客移除其项目上的广告。"
 
 #: ../../upstream/docs/user/advertising/index.rst:28
 msgid ""
-"For businesses looking to remove advertising, please consider :doc:`Read "
-"the Docs Business </commercial/index>`."
-msgstr ""
+"For businesses looking to remove advertising, please consider :doc:`Read the"
+" Docs Business </commercial/index>`."
+msgstr "希望移除广告的企业，请考虑 :doc:`Read the Docs Business </commercial/index>` 。"
 

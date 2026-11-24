@@ -22,13 +22,13 @@ msgstr ""
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:-1
 msgid ""
-"To fund Read the Docs, we built an ad platform that doesn't track users "
-"and respects their privacy."
-msgstr ""
+"To fund Read the Docs, we built an ad platform that doesn't track users and "
+"respects their privacy."
+msgstr "为 Read the Docs 提供资金支持时，我们打造了一个不追踪用户、尊重其隐私的广告平台。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:2
 msgid "EthicalAds"
-msgstr ""
+msgstr "EthicalAds"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:8
 msgid ""
@@ -36,162 +36,178 @@ msgid ""
 "model to support this kind of site: **Advertising**. We are building the "
 "advertising model we want to exist, and we're calling it **EthicalAds**."
 msgstr ""
+"Read the Docs 是一项大型免费 Web 服务。支撑这类站点有一项经过验证的商业模式：**广告** "
+"。我们正在构建我们希望存在的广告模式，并称之为 **EthicalAds** 。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:13
 #, python-format
 msgid ""
-"**EthicalAds respect users while providing value to advertisers.** We "
-"don't track you, sell your data, or anything else. We simply show ads to "
-"users, based on the content of the pages you look at. We also give 10% of"
-" our ad space to :ref:`community projects <advertising/ethical-"
-"advertising:Community Ads>`, as our way of saying thanks to the open "
-"source community."
+"**EthicalAds respect users while providing value to advertisers.** We don't "
+"track you, sell your data, or anything else. We simply show ads to users, "
+"based on the content of the pages you look at. We also give 10% of our ad "
+"space to :ref:`community projects <advertising/ethical-advertising:Community"
+" Ads>`, as our way of saying thanks to the open source community."
 msgstr ""
+"**EthicalAds 在为广告主提供价值的同时尊重用户。** "
+"我们不追踪你、不出售你的数据，也不做其他类似的事。我们只是根据你浏览页面的内容向用户展示广告。我们还将 10% 的广告位留给 :ref:`社区项目 "
+"<advertising/ethical-advertising:Community Ads>` ，以此向开源社区致谢。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:19
 msgid ""
 "We talk a bit below about :ref:`our worldview on advertising <advertising"
 "/ethical-advertising:Our Worldview>`, if you want to know more."
 msgstr ""
+"下文我们会聊聊 :ref:`我们关于广告的世界观 <advertising/ethical-advertising:Our Worldview>` "
+"，若你想了解更多可继续阅读。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:22
 msgid "Are you a marketer?"
-msgstr ""
+msgstr "你是营销人员吗？"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:24
 msgid ""
 "We built a `whole business <https://www.ethicalads.io/?ref=rtd-docs>`_ "
-"around privacy-focused advertising. If you're trying to reach developers,"
-" we have a network of hand-approved sites (including Read the Docs) where"
-" your ads are shown."
+"around privacy-focused advertising. If you're trying to reach developers, we"
+" have a network of hand-approved sites (including Read the Docs) where your "
+"ads are shown."
 msgstr ""
+"我们围绕注重隐私的广告打造了 `一整套业务 <https://www.ethicalads.io/?ref=rtd-docs>`_ "
+"。若你想触达开发者，我们拥有一个经人工审核的站点网络（包含 Read the Docs），你的广告会在这些站点展示。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:31
 msgid "Feedback"
-msgstr ""
+msgstr "反馈"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:33
 msgid ""
-"We're a community, and we value your feedback. If you ever want to reach "
-"out about this effort, feel free to `shoot us an email "
+"We're a community, and we value your feedback. If you ever want to reach out"
+" about this effort, feel free to `shoot us an email "
 "<mailto:rev@readthedocs.org>`_."
-msgstr ""
+msgstr "我们是一个社区，重视你的反馈。若你想就此项工作联系我们，欢迎 `给我们发邮件 <mailto:rev@readthedocs.org>`_ 。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:38
 msgid ""
 "You can :ref:`opt out <advertising/ethical-advertising:Opting out>` of "
-"having paid ads on your projects, or seeing paid ads if you want. You "
-"will still see :ref:`community ads <advertising/ethical-"
-"advertising:Community Ads>`, which we run at no cost that promote "
-"community projects."
+"having paid ads on your projects, or seeing paid ads if you want. You will "
+"still see :ref:`community ads <advertising/ethical-advertising:Community "
+"Ads>`, which we run at no cost that promote community projects."
 msgstr ""
+"你可以 :ref:`选择退出 <advertising/ethical-advertising:Opting out>` "
+"在你的项目上投放付费广告，或选择不看付费广告。你仍会看到 :ref:`社区广告 <advertising/ethical-"
+"advertising:Community Ads>` ，我们零成本投放它们以推广社区项目。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:44
 msgid "Our worldview"
-msgstr ""
+msgstr "我们的世界观"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:46
 msgid "We're building the advertising model we want to exist:"
-msgstr ""
+msgstr "我们正在构建我们希望存在的广告模式："
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:48
 msgid "We don't track you"
-msgstr ""
+msgstr "我们不追踪你"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:49
 msgid "We don't sell your data"
-msgstr ""
+msgstr "我们不出售你的数据"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:50
 msgid "We host everything ourselves, no third-party scripts or images"
-msgstr ""
+msgstr "所有内容都由我们自行托管，不使用第三方脚本或图片"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:52
 msgid ""
-"**We're doing newspaper advertising, on the internet.** For a hundred "
-"years, newspapers put an ad on the page, some folks would see it, and "
-"advertisers would pay for this. This is our model."
-msgstr ""
+"**We're doing newspaper advertising, on the internet.** For a hundred years,"
+" newspapers put an ad on the page, some folks would see it, and advertisers "
+"would pay for this. This is our model."
+msgstr "**我们就是互联网上的报纸广告。** 长期以来，报纸把广告放在版面上，有些人看到它，广告主为此付费。我们的模式正是如此。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:60
 msgid ""
 "So much ad tech has been built to track users. Following them across the "
-"web, from site to site, showing the same ads and gathering data about "
-"them. Then retailers sell your purchase data to try and attribute sales "
-"to advertising. Now there is an industry in doing `fake ad clicks`_ and "
-"other scams, which leads the ad industry to track you even more "
-"intrusively to know more about you. The current advertising industry is "
-"in a vicious downward spiral."
+"web, from site to site, showing the same ads and gathering data about them. "
+"Then retailers sell your purchase data to try and attribute sales to "
+"advertising. Now there is an industry in doing `fake ad clicks`_ and other "
+"scams, which leads the ad industry to track you even more intrusively to "
+"know more about you. The current advertising industry is in a vicious "
+"downward spiral."
 msgstr ""
+"大量广告技术被开发出来用于追踪用户——跨网站跟随你，从一个站点到另一个站点，展示相同广告并收集你的数据。随后零售商出售你的购买数据，试图把销售归因于广告。如今甚至出现了专门制造"
+" `fake ad clicks`_ 等骗局的行业，迫使广告行业更加侵入性地追踪你以获取更多信息。当前广告行业正处于恶性循环的下行螺旋中。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:69
 msgid ""
 "As developers, we understand the `massive downsides`_ of the current "
-"advertising industry. This includes malware, slow site performance, and "
-"huge databases of your personal data being sold to the highest bidder."
+"advertising industry. This includes malware, slow site performance, and huge"
+" databases of your personal data being sold to the highest bidder."
 msgstr ""
+"作为开发者，我们理解当前广告行业的 `massive downsides`_ "
+"，包括恶意软件、缓慢的站点性能，以及你的个人数据被整合成庞大数据库后出售给出价最高者。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:75
 msgid ""
-"The trend in advertising is to have larger and larger ads. They should "
-"run before your content, they should take over the page, the bigger, "
-"weirder, or flashier the better."
-msgstr ""
+"The trend in advertising is to have larger and larger ads. They should run "
+"before your content, they should take over the page, the bigger, weirder, or"
+" flashier the better."
+msgstr "广告的趋势是越来越大。它们应该在你内容之前运行，应该占据整个页面，越大、越怪异、越炫目越好。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:84
 msgid "We opt out"
-msgstr ""
+msgstr "我们选择退出"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:86
 msgid "We don't store personal information about you."
-msgstr ""
+msgstr "我们不存储你的个人信息。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:87
 msgid "We only keep track of views and clicks."
-msgstr ""
+msgstr "我们只记录展示和点击。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:88
 msgid "We don't build a profile of your personality to sell ads against."
-msgstr ""
+msgstr "我们不会构建你个人特征的画像来定向投放广告。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:89
 msgid ""
 "We only show high quality ads from companies that are of interest to "
 "developers."
-msgstr ""
+msgstr "我们只展示来自开发者关注公司的优质广告。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:91
 msgid ""
-"We are running a single, small, unobtrusive ad on documentation pages. "
-"The products should be interesting to you. The ads won't flash or move."
-msgstr ""
+"We are running a single, small, unobtrusive ad on documentation pages. The "
+"products should be interesting to you. The ads won't flash or move."
+msgstr "我们在文档页面上只投放一个小型、不打扰的广告。产品应该对你有兴趣。广告不会闪烁或移动。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:97
-msgid ""
-"We run the ads we want to have on our site, in a way that makes us feel "
-"good."
-msgstr ""
+msgid "We run the ads we want to have on our site, in a way that makes us feel good."
+msgstr "我们以让自己感到舒服的方式，投放我们希望在自己站点上出现的广告。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:101
 msgid "Additional details"
-msgstr ""
+msgstr "更多细节"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:103
 msgid ""
 "We have additional documentation on the :doc:`technical details of our "
-"advertising <advertising-details>` including our Do Not Track policy and "
-"our use of analytics."
+"advertising <advertising-details>` including our Do Not Track policy and our"
+" use of analytics."
 msgstr ""
+"我们另有文档说明 :doc:`广告的技术细节 <advertising-details>` ，包括我们的 Do Not Track "
+"政策以及分析数据的使用方式。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:106
 msgid "We have an `advertising FAQ`_ written for advertisers."
-msgstr ""
+msgstr "我们为广告主编写了 `advertising FAQ`_ 。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:107
 msgid ""
 "We have gone into more detail about our views in our `blog post "
 "<https://blog.readthedocs.com/ads-on-read-the-docs/>`_ about this topic."
 msgstr ""
+"我们在关于此主题的 `博客文章 <https://blog.readthedocs.com/ads-on-read-the-docs/>`_ "
+"中更详细地阐述了我们的观点。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:109
 msgid ""
@@ -199,24 +215,29 @@ msgid ""
 "<https://www.ericholscher.com/blog/2016/aug/31/funding-oss-marketing-"
 "money/>`_ about funding open source this way on his blog."
 msgstr ""
+"我们的联合创始人之一 Eric Holscher 在他的博客上 `进一步讨论了 "
+"<https://www.ericholscher.com/blog/2016/aug/31/funding-oss-marketing-"
+"money/>`_ 以这种方式资助开源。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:112
 msgid ""
-"After proving our ad model as a way to fund open source and building our "
-"ad serving infrastructure, we launched the `EthicalAds network "
+"After proving our ad model as a way to fund open source and building our ad "
+"serving infrastructure, we launched the `EthicalAds network "
 "<https://www.ethicalads.io?ref=rtd-docs>`_ to help other projects be "
 "sustainable."
 msgstr ""
+"在证明我们的广告模式可以作为资助开源的方式、并建成广告投放基础设施后，我们推出了 `EthicalAds 网络 "
+"<https://www.ethicalads.io?ref=rtd-docs>`_ ，帮助其他项目实现可持续发展。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:119
 msgid "Join us"
-msgstr ""
+msgstr "加入我们"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:121
 msgid ""
-"We're building the advertising model we want to exist. We hope that "
-"others will join us in this mission:"
-msgstr ""
+"We're building the advertising model we want to exist. We hope that others "
+"will join us in this mission:"
+msgstr "我们正在构建我们希望存在的广告模式，希望有更多人加入这项使命："
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:124
 msgid ""
@@ -224,125 +245,129 @@ msgid ""
 "<https://www.ericholscher.com/blog/2016/aug/31/funding-oss-marketing-"
 "money/>`_ about using advertising that respects your privacy."
 msgstr ""
+"**如果你是开发者** ，`与你的营销同事聊聊 <https://www.ericholscher.com/blog/2016/aug/31"
+"/funding-oss-marketing-money/>`_ 使用尊重隐私的广告方式。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:126
 msgid ""
-"**If you're a marketer**, vote with your dollars and support us in "
-"building the ad model we want to exist. `Get more information "
+"**If you're a marketer**, vote with your dollars and support us in building "
+"the ad model we want to exist. `Get more information "
 "<https://www.ethicalads.io/advertisers/?ref=rtd-docs>`_ on what we offer."
 msgstr ""
+"**如果你是营销人员** ，用你的预算投票支持我们构建希望存在的广告模式。`了解更多信息 "
+"<https://www.ethicalads.io/advertisers/?ref=rtd-docs>`_ 了解我们提供什么。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:132
 msgid "Community Ads"
-msgstr ""
+msgstr "社区广告"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:134
 msgid ""
-"There are a large number of projects, conferences, and initiatives that "
-"we care about in the software and open source ecosystems. A large number "
-"of them operate like we did in the past, with almost no income. Our "
-"Community Ads program will highlight some of these projects."
-msgstr ""
+"There are a large number of projects, conferences, and initiatives that we "
+"care about in the software and open source ecosystems. A large number of "
+"them operate like we did in the past, with almost no income. Our Community "
+"Ads program will highlight some of these projects."
+msgstr "在软件和开源生态中，有大量我们关注的项目、会议和倡议。其中许多像我们过去那样运营，几乎没有收入。我们的社区广告计划将重点推介其中一些项目。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:139
 msgid "There are a few qualifications for our Community Ads program:"
-msgstr ""
+msgstr "我们的社区广告计划有若干资格要求："
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:141
 msgid ""
 "Your organization and the linked site should not be trying to entice "
-"visitors to buy a product or service. We make an exception for "
-"conferences around open source projects if they are run not for profit "
-"and soliciting donations for open source projects."
-msgstr ""
+"visitors to buy a product or service. We make an exception for conferences "
+"around open source projects if they are run not for profit and soliciting "
+"donations for open source projects."
+msgstr "你的组织和关联站点不应以诱导访客购买产品或服务为目的。若围绕开源项目的会议以非营利方式举办并为开源项目募款，我们对此作例外处理。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:145
 msgid "A software project should have an `OSI approved license`_."
-msgstr ""
+msgstr "软件项目应采用 `OSI approved license`_ 。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:146
 msgid ""
-"We will not run a community ad for an organization tied to one of our "
-"paid advertisers."
-msgstr ""
+"We will not run a community ad for an organization tied to one of our paid "
+"advertisers."
+msgstr "我们不会为与我们的付费广告主存在关联的组织投放社区广告。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:149
 #, python-format
 msgid ""
-"We'll show 10% of our ad inventory each month to support initiatives that"
-" we care about. Please `complete an application`_ to be considered for "
-"our Community Ads program."
-msgstr ""
+"We'll show 10% of our ad inventory each month to support initiatives that we"
+" care about. Please `complete an application`_ to be considered for our "
+"Community Ads program."
+msgstr "我们每月会拿出 10% 的广告库存支持我们关注的各类倡议。请 `complete an application`_ 以参与我们的社区广告计划。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:157
 msgid "Opting out"
-msgstr ""
+msgstr "选择退出"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:159
-msgid ""
-"We have added multiple ways to opt out of the advertising on Read the "
-"Docs."
-msgstr ""
+msgid "We have added multiple ways to opt out of the advertising on Read the Docs."
+msgstr "我们提供了多种方式让你退出 Read the Docs 上的广告。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:161
 msgid ""
 "`Gold members <https://app.readthedocs.org/accounts/gold/>`_ may remove "
 "advertising from their projects for all visitors."
-msgstr ""
+msgstr "`Gold 成员 <https://app.readthedocs.org/accounts/gold/>`_ 可以为所有访客移除其项目上的广告。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:164
 msgid "You can opt out of seeing paid advertisements on documentation pages:"
-msgstr ""
+msgstr "你可以选择不在文档页面上看到付费广告："
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:166
 msgid "Go to :menuselection:`<Username dropdown> --> Settings --> Advertising`."
-msgstr ""
+msgstr "前往 :menuselection:`<Username dropdown> --> Settings --> Advertising` 。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:167
 msgid "Uncheck :guilabel:`See paid advertising`."
-msgstr ""
+msgstr "取消勾选 :guilabel:`See paid advertising` 。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:168
 msgid "Click :guilabel:`Update advertisement preference`."
-msgstr ""
+msgstr "点击 :guilabel:`Update advertisement preference` 。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:170
 msgid ""
 "You will still see :ref:`community ads <advertising/ethical-"
 "advertising:Community Ads>` for open source projects and conferences."
-msgstr ""
+msgstr "你仍会看到面向开源项目和会议的 :ref:`社区广告 <advertising/ethical-advertising:Community Ads>` 。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:173
 msgid ""
-"Project owners can also opt out of paid advertisements for their "
-"projects. You can change these options:"
-msgstr ""
+"Project owners can also opt out of paid advertisements for their projects. "
+"You can change these options:"
+msgstr "项目所有者也可为其项目退出付费广告。你可以更改这些选项："
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:176
 msgid "Go to your project's :menuselection:`Settings --> Advertising`."
-msgstr ""
+msgstr "前往项目的 :menuselection:`Settings --> Advertising` 。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:177
 msgid "Change your advertising settings."
-msgstr ""
+msgstr "更改你的广告设置。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:178
 msgid "Click :guilabel:`Update advertising preference`."
-msgstr ""
+msgstr "点击 :guilabel:`Update advertising preference` 。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:180
 msgid ""
-"If you are part of a company that uses Read the Docs to host "
-"documentation for a commercial product, we offer :doc:`Read the Docs "
-"Business </commercial/index>` that offers a completely ad-free "
-"experience, additional build resources, and other great features like CDN"
-" support and private documentation."
+"If you are part of a company that uses Read the Docs to host documentation "
+"for a commercial product, we offer :doc:`Read the Docs Business "
+"</commercial/index>` that offers a completely ad-free experience, additional"
+" build resources, and other great features like CDN support and private "
+"documentation."
 msgstr ""
+"如果你所在公司使用 Read the Docs 托管商业产品的文档，我们提供 :doc:`Read the Docs Business "
+"</commercial/index>` ，它提供完全无广告的体验、额外构建资源，以及 CDN 支持和私有文档等优秀功能。"
 
 #: ../../upstream/docs/user/advertising/ethical-advertising.rst:184
 msgid ""
 "If you would like to completely remove advertising from your open source "
-"project, but our commercial plans don't seem like the right fit, please "
-"`get in touch`_ to discuss alternatives to advertising."
-msgstr ""
+"project, but our commercial plans don't seem like the right fit, please `get"
+" in touch`_ to discuss alternatives to advertising."
+msgstr "若你想从开源项目中彻底移除广告，但我们的商业套餐似乎不合适，请 `get in touch`_ 讨论广告之外的替代方案。"
 

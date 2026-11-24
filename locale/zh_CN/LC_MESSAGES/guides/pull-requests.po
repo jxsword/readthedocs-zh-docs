@@ -22,236 +22,260 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:2
 msgid "How to configure pull request builds"
-msgstr ""
+msgstr "如何配置 Pull Request 构建"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:4
 msgid ""
-"In this section, you can learn how to configure :doc:`pull request builds"
-" </pull-requests>`."
-msgstr ""
+"In this section, you can learn how to configure :doc:`pull request builds "
+"</pull-requests>`."
+msgstr "本节讲解如何配置 :doc:`Pull Request 构建 </pull-requests>` 。"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:6
 msgid ""
-"Pull request builds are enabled by default on new projects. Your Read the"
-" Docs project needs to be connected to a repository from a supported Git "
+"Pull request builds are enabled by default on new projects. Your Read the "
+"Docs project needs to be connected to a repository from a supported Git "
 "provider. See `Limitations`_ for more information."
 msgstr ""
+"新项目默认启用 Pull Request 构建。你的 Read the Docs 项目需连接到受支持 Git 服务商上的仓库。更多信息见 "
+"`Limitations`_ 。"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:10
 msgid "To enable or disable pull request builds:"
-msgstr ""
+msgstr "启用或禁用 Pull Request 构建："
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:12
 #: ../../upstream/docs/user/guides/pull-requests.rst:60
 msgid "Go to your project's :menuselection:`Settings --> Pull request builds`."
-msgstr ""
+msgstr "前往项目的 :menuselection:`Settings --> Pull request builds` 。"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:13
-msgid ""
-"Enable or disable the :guilabel:`Build pull requests for this project` "
-"option"
-msgstr ""
+msgid "Enable or disable the :guilabel:`Build pull requests for this project` option"
+msgstr "启用或禁用 :guilabel:`Build pull requests for this project` 选项"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:14
 #: ../../upstream/docs/user/guides/pull-requests.rst:62
 msgid "Click on :guilabel:`Update`"
-msgstr ""
+msgstr "点击 :guilabel:`Update`"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:18
 msgid ""
-"Pull requests opened before enabling pull request builds will not trigger"
-" new builds automatically. Push a new commit to the pull request to "
-"trigger its first build."
+"Pull requests opened before enabling pull request builds will not trigger "
+"new builds automatically. Push a new commit to the pull request to trigger "
+"its first build."
 msgstr ""
+"在启用 Pull Request 构建之前打开的 Pull Request 不会自动触发新构建。向该 Pull Request "
+"推送新提交即可触发其首次构建。"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:23
 msgid ""
-"The previous method of pull request previews using a GitHub workflow that"
-" called `@readthedocs/actions "
-"<https://github.com/readthedocs/actions/>`__ is now deprecated. If you "
-"used that method, you should remove its configuration."
+"The previous method of pull request previews using a GitHub workflow that "
+"called `@readthedocs/actions <https://github.com/readthedocs/actions/>`__ is"
+" now deprecated. If you used that method, you should remove its "
+"configuration."
 msgstr ""
+"此前使用调用 `@readthedocs/actions <https://github.com/readthedocs/actions/>`__ 的 "
+"GitHub 工作流来实现 Pull Request 预览的方式现已弃用。若你使用了该方式，应移除其配置。"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:27
 msgid "Build overview"
-msgstr ""
+msgstr "构建概览"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:29
 msgid ""
-"You can enable a build overview comment to be added to your pull requests"
-" when changes are detected between the pull request and the latest "
-"version of the documentation. This comment includes a list of the files "
-"that changed, and links to view the built documentation."
+"You can enable a build overview comment to be added to your pull requests "
+"when changes are detected between the pull request and the latest version of"
+" the documentation. This comment includes a list of the files that changed, "
+"and links to view the built documentation."
 msgstr ""
+"你可以启用构建概览评论，当检测到 Pull Request 与文档最新版本之间存在变更时，该评论会自动添加到你的 Pull Request "
+"中。评论包含变更文件列表，以及查看已构建文档的链接。"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:33
 msgid ":ref:`visual-diff:Show build overview in pull requests`"
-msgstr ""
+msgstr ":ref:`visual-diff:Show build overview in pull requests`"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:34
 msgid "How to configure your project to enable build overviews"
-msgstr ""
+msgstr "如何配置项目以启用构建概览"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:37
 msgid "Privacy levels"
-msgstr ""
+msgstr "隐私级别"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:41
 msgid "Privacy levels are only supported on :doc:`/commercial/index`."
-msgstr ""
+msgstr "隐私级别仅在 :doc:`/commercial/index` 上受支持。"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:43
 msgid ""
-"If you didn’t import your project manually and your repository is public,"
-" the privacy level of pull request previews will be set to *Public*, "
+"If you didn’t import your project manually and your repository is public, "
+"the privacy level of pull request previews will be set to *Public*, "
 "otherwise it will be set to *Private*. Public pull request previews are "
-"available to anyone with the link to the preview, while private previews "
-"are only available to users with access to the Read the Docs project."
+"available to anyone with the link to the preview, while private previews are"
+" only available to users with access to the Read the Docs project."
 msgstr ""
+"若你未手动导入项目且仓库是公开的，Pull Request 预览的隐私级别将设为*公开* ，否则设为*私有* "
+"。公开预览对任何有链接的人可见，私有预览仅对有 Read the Docs 项目访问权限的用户可见。"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:51
 msgid ""
 "If you set the privacy level of pull request previews to *Private*, make "
 "sure that only trusted users can open pull requests in your repository."
-msgstr ""
+msgstr "若将 Pull Request 预览的隐私级别设为*私有* ，请确保只有受信任的用户能在你的仓库打开 Pull Request。"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:54
 msgid ""
-"Setting pull request previews to private on a public repository can allow"
-" a malicious user to access read-only APIs using the user's session that "
-"is reading the pull request preview. Similar to `GHSA-pw32-ffxw-68rh "
+"Setting pull request previews to private on a public repository can allow a "
+"malicious user to access read-only APIs using the user's session that is "
+"reading the pull request preview. Similar to `GHSA-pw32-ffxw-68rh "
 "<https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-"
 "pw32-ffxw-68rh>`__."
 msgstr ""
+"在公开仓库上将 Pull Request 预览设为私有，可能允许恶意用户利用正在阅读 Pull Request 预览的用户会话访问只读 API。类似 "
+"`GHSA-pw32-ffxw-68rh "
+"<https://github.com/readthedocs/readthedocs.org/security/advisories/GHSA-"
+"pw32-ffxw-68rh>`__ 。"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:58
 msgid "To change the privacy level:"
-msgstr ""
+msgstr "更改隐私级别："
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:61
 msgid "Select your option in :guilabel:`Privacy level of Pull Requests`"
-msgstr ""
+msgstr "在 :guilabel:`Privacy level of Pull Requests` 中选择相应选项"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:64
 msgid ""
-"Privacy levels work the same way as :ref:`normal versions "
-"<versions:Version states>`."
-msgstr ""
+"Privacy levels work the same way as :ref:`normal versions <versions:Version "
+"states>`."
+msgstr "隐私级别的工作方式与 :ref:`普通版本 <versions:Version states>` 相同。"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:67
 msgid "Limitations"
-msgstr ""
+msgstr "限制"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:69
 msgid ""
-"Pull requests are only available for **GitHub** and **GitLab** currently."
-" Bitbucket is not yet supported."
-msgstr ""
+"Pull requests are only available for **GitHub** and **GitLab** currently. "
+"Bitbucket is not yet supported."
+msgstr "Pull Request 目前仅支持 **GitHub** 和 **GitLab** ，尚不支持 Bitbucket。"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:70
 msgid ""
-"To enable this feature, your Read the Docs project needs to be connected "
-"to a repository from a supported Git provider."
-msgstr ""
+"To enable this feature, your Read the Docs project needs to be connected to "
+"a repository from a supported Git provider."
+msgstr "要启用此功能，你的 Read the Docs 项目需连接到受支持 Git 服务商上的仓库。"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:71
 msgid ""
-"If your project is using our :ref:`reference/git-integration:GitHub App`,"
-" you don't need to configure a webhook. For GitLab, and projects using "
-"our old GitHub integration, you need to make sure that your webhook is "
+"If your project is using our :ref:`reference/git-integration:GitHub App`, "
+"you don't need to configure a webhook. For GitLab, and projects using our "
+"old GitHub integration, you need to make sure that your webhook is "
 "configured to send pull request events, not just push events."
 msgstr ""
+"若项目使用我们的 :ref:`reference/git-integration:GitHub App` ，无需配置 Webhook。对于 GitLab"
+" 以及使用旧版 GitHub 集成的项目，需确保 Webhook 配置为发送 Pull Request 事件，而不只是推送事件。"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:73
 msgid ""
-"Builds from pull requests have the same memory and time limitations "
-":doc:`as regular builds </builds>`."
-msgstr ""
+"Builds from pull requests have the same memory and time limitations :doc:`as"
+" regular builds </builds>`."
+msgstr "Pull Request 构建与常规构建具有相同的内存和时间限制（见 :doc:`/builds` ）。"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:75
 msgid "Additional formats like PDF aren't built in order to reduce build time."
-msgstr ""
+msgstr "为缩短构建时间，不构建 PDF 等额外格式。"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:76
 msgid ""
-"Read the Docs doesn't index search on pull request builds. This means "
-"that Addons search and the Read the Docs Search API will return no "
-"results."
+"Read the Docs doesn't index search on pull request builds. This means that "
+"Addons search and the Read the Docs Search API will return no results."
 msgstr ""
+"Read the Docs 不对 Pull Request 构建建立搜索索引。这意味着 Addon 搜索和 Read the Docs 搜索 API "
+"不会返回结果。"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:77
 msgid ""
-"The built documentation is kept for 90 days after the pull request has "
-"been closed or merged."
-msgstr ""
+"The built documentation is kept for 90 days after the pull request has been "
+"closed or merged."
+msgstr "Pull Request 关闭或合并后，构建的文档保留 90 天。"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:78
 msgid ""
 "The build overview comment is only available for projects connected to a "
 ":ref:`reference/git-integration:GitHub App`."
-msgstr ""
+msgstr "构建概览评论仅对连接了 :ref:`reference/git-integration:GitHub App` 的项目可用。"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:81
 msgid "Troubleshooting"
-msgstr ""
+msgstr "故障排查"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:83
 msgid "No new builds are started when I open a pull request"
-msgstr ""
+msgstr "打开 Pull Request 时没有新构建启动"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:84
 msgid ""
-"The most common cause when using GitHub is that your Read the Docs "
-"project is not :ref:`connected to the corresponding repository on GitHub "
-"<reference/git-integration:Connect a repository to an existing project>`."
+"The most common cause when using GitHub is that your Read the Docs project "
+"is not :ref:`connected to the corresponding repository on GitHub <reference"
+"/git-integration:Connect a repository to an existing project>`."
 msgstr ""
+"使用 GitHub 时最常见的原因是，你的 Read the Docs 项目未 :ref:`连接到 GitHub 上对应的仓库 <reference"
+"/git-integration:Connect a repository to an existing project>` 。"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:87
 msgid ""
 "If you are using our old GitHub integration, make sure that your "
-"repository's webhook is configured to send pull request events. You can "
-"re-sync your project's webhook integration to reconfigure the Read the "
-"Docs webhook."
+"repository's webhook is configured to send pull request events. You can re-"
+"sync your project's webhook integration to reconfigure the Read the Docs "
+"webhook."
 msgstr ""
+"若使用旧版 GitHub 集成，请确保仓库的 Webhook 配置为发送 Pull Request 事件。你可以重新同步项目的 Webhook "
+"集成以重配 Read the Docs Webhook。"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:92
 msgid ""
 "To re-sync your project's webhook, go to your project's "
 ":menuselection:`Settings --> Integrations`, and then select the webhook "
-"integration for your provider. Follow the directions to re-sync the "
-"webhook, or create a new webhook integration."
+"integration for your provider. Follow the directions to re-sync the webhook,"
+" or create a new webhook integration."
 msgstr ""
+"要重新同步项目的 Webhook，请前往项目的 :menuselection:`Settings --> Integrations` "
+"，然后选择对应服务商的 Webhook 集成。按提示重新同步 Webhook，或创建新的 Webhook 集成。"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:96
 msgid ""
 "You may also notice this behavior if your Read the Docs account is not "
-"connected to your Git provider account, or if it needs to be reconnected."
-" You can (re)connect your account by going to :menuselection:`<Username "
+"connected to your Git provider account, or if it needs to be reconnected. "
+"You can (re)connect your account by going to :menuselection:`<Username "
 "dropdown> --> Settings --> Connected services`."
 msgstr ""
+"若你的 Read the Docs 账户未连接到 Git 服务商账户，或需要重新连接，也可能出现此现象。可前往 "
+":menuselection:`<Username dropdown> --> Settings --> Connected services` "
+"（重新）连接账户。"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:100
 msgid "Build status is not being reported to your Git provider"
-msgstr ""
+msgstr "构建状态未报告到你的 Git 服务商"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:101
 msgid ""
-"If opening a pull request does start a new build, but the build status is"
-" not being updated with your Git provider, then your connected account "
-"may have out dated or insufficient permissions."
-msgstr ""
+"If opening a pull request does start a new build, but the build status is "
+"not being updated with your Git provider, then your connected account may "
+"have out dated or insufficient permissions."
+msgstr "若打开 Pull Request 确实启动了新构建，但构建状态未在 Git 服务商更新，则你的关联账户可能权限已过期或权限不足。"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:105
 msgid ""
-"Make sure that you have granted access to the Read the Docs `GitHub OAuth"
-" App`_ for your personal or organization GitHub account."
-msgstr ""
+"Make sure that you have granted access to the Read the Docs `GitHub OAuth "
+"App`_ for your personal or organization GitHub account."
+msgstr "确保你已为个人或组织 GitHub 账户授予 Read the Docs `GitHub OAuth App`_ 访问权限。"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:109
 msgid ":ref:`guides/setup/git-repo-manual:Debugging webhooks`"
-msgstr ""
+msgstr ":ref:`guides/setup/git-repo-manual:Debugging webhooks`"
 
 #: ../../upstream/docs/user/guides/pull-requests.rst:110
 msgid ":ref:`github-permission-troubleshooting`"
-msgstr ""
+msgstr ":ref:`github-permission-troubleshooting`"
 

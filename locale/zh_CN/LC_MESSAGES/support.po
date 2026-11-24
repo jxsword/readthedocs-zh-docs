@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../upstream/docs/user/support.rst:2
 msgid "Site support"
-msgstr ""
+msgstr "站点支持"
 
 #: ../../upstream/docs/user/support.rst:4
 msgid ""
@@ -31,124 +31,127 @@ msgid ""
 "assist with any questions or problems you have using either of our "
 "platforms."
 msgstr ""
+"Read the Docs 为 :doc:`Read the Docs Business </commercial/index>` 和 "
+"|org_brand| 平台上的项目提供支持。使用我们任一平台时遇到的问题，我们都乐于协助。"
 
 #: ../../upstream/docs/user/support.rst:8
 msgid ""
 "Read the Docs does not offer support for questions or problems with "
-"documentation tools or content. If you have a question or problem using a"
-" particular documentation tool, you should refer to :ref:`external "
-"resources <support:External resources>` for help instead."
+"documentation tools or content. If you have a question or problem using a "
+"particular documentation tool, you should refer to :ref:`external resources "
+"<support:External resources>` for help instead."
 msgstr ""
+"Read the Docs 不提供关于文档工具或内容的问题支持。若你在使用某款文档工具时遇到问题，请参阅 :ref:`外部资源 "
+"<support:External resources>` 获取帮助。"
 
 #: ../../upstream/docs/user/support.rst:12
 msgid "Some examples of requests that we support are:"
-msgstr ""
+msgstr "我们支持的请求示例包括："
 
 #: ../../upstream/docs/user/support.rst:14
 msgid ""
 "\"How do I transfer ownership of a Read the Docs project to another "
 "maintainer?\""
-msgstr ""
+msgstr "\"如何将 Read the Docs 项目的所有权转移给另一位维护者？\""
 
 #: ../../upstream/docs/user/support.rst:15
 msgid "\"Why are my project builds being cancelled automatically?\""
-msgstr ""
+msgstr "\"为什么我的项目构建被自动取消？\""
 
 #: ../../upstream/docs/user/support.rst:16
 msgid "\"How do I manage my subscription?\""
-msgstr ""
+msgstr "\"如何管理我的订阅？\""
 
 #: ../../upstream/docs/user/support.rst:18
 msgid ""
 "You might also find the answers you are looking for in our "
 ":doc:`documentation guides </guides/index>`. These provide step-by-step "
 "solutions to common user requests."
-msgstr ""
+msgstr "你可能也在我们的 :doc:`文档指南 </guides/index>` 中找到所需答案。这些指南为常见用户需求提供分步解决方案。"
 
 #: ../../upstream/docs/user/support.rst:23
 msgid "|com_brand|"
-msgstr ""
+msgstr "|com_brand|"
 
 #: ../../upstream/docs/user/support.rst:25
 msgid "Please fill out the form at https://app.readthedocs.com/support/."
-msgstr ""
+msgstr "请填写 https://app.readthedocs.com/support/ 上的表单。"
 
 #: ../../upstream/docs/user/support.rst:27
 msgid ""
-"Our team responds to support requests within 2 business days or earlier "
-"for most plans. Faster support response times and support SLAs are "
-"available with plan upgrades."
-msgstr ""
+"Our team responds to support requests within 2 business days or earlier for "
+"most plans. Faster support response times and support SLAs are available "
+"with plan upgrades."
+msgstr "对大多数套餐，我们的团队会在 2 个工作日内或更早响应支持请求。升级套餐可获得更快的支持响应时间和支持 SLA。"
 
 #: ../../upstream/docs/user/support.rst:30
 msgid ""
 "If you are unable to create or access your account, you can email us at "
 "support@readthedocs.com."
-msgstr ""
+msgstr "若你无法创建或访问账户，可发邮件至 support@readthedocs.com。"
 
 #: ../../upstream/docs/user/support.rst:32
 msgid "|org_brand|"
-msgstr ""
+msgstr "|org_brand|"
 
 #: ../../upstream/docs/user/support.rst:34
 msgid ""
 "Please fill out the form at https://app.readthedocs.org/support/, and we "
 "will reply as soon as possible."
-msgstr ""
+msgstr "请填写 https://app.readthedocs.org/support/ 上的表单，我们会尽快回复。"
 
 #: ../../upstream/docs/user/support.rst:37
 msgid ""
 "If you are unable to create or access your account, you can email us at "
 "support@readthedocs.org."
-msgstr ""
+msgstr "若你无法创建或访问账户，可发邮件至 support@readthedocs.org。"
 
 #: ../../upstream/docs/user/support.rst:40
 msgid "External resources"
-msgstr ""
+msgstr "外部资源"
 
 #: ../../upstream/docs/user/support.rst:42
 msgid ""
 "If you have questions about how to use a documentation tool or authoring "
-"content for your project, or have an issue that isn't related to a bug "
-"with Read the Docs, `Stack Overflow`_ is the best place for your "
-"question."
-msgstr ""
+"content for your project, or have an issue that isn't related to a bug with "
+"Read the Docs, `Stack Overflow`_ is the best place for your question."
+msgstr "若你对如何使用文档工具或为项目编写内容有疑问，或遇到的问题并非 Read the Docs 的缺陷，`Stack Overflow`_ 是提问的最佳场所。"
 
 #: ../../upstream/docs/user/support.rst:46
 msgid "Examples of good questions for Stack Overflow are:"
-msgstr ""
+msgstr "适合在 Stack Overflow 提问的例子包括："
 
 #: ../../upstream/docs/user/support.rst:48
-msgid ""
-"\"What is the best way to structure the table of contents across a "
-"project?\""
-msgstr ""
+msgid "\"What is the best way to structure the table of contents across a project?\""
+msgstr "\"在项目中组织目录的最佳方式是什么？\""
 
 #: ../../upstream/docs/user/support.rst:49
 msgid ""
 "\"How do I structure translations inside of my project for easiest "
 "contribution from users?\""
-msgstr ""
+msgstr "\"如何在项目内组织翻译以便用户最容易参与贡献？\""
 
 #: ../../upstream/docs/user/support.rst:50
 msgid ""
 "\"How do I use Sphinx to use SVG images in HTML output but PNG in PDF "
 "output?\""
-msgstr ""
+msgstr "\"如何用 Sphinx 让 HTML 输出使用 SVG 图片而 PDF 输出使用 PNG？\""
 
 #: ../../upstream/docs/user/support.rst:53
 msgid "Tag questions with ``read-the-docs`` so other folks can find them easily."
-msgstr ""
+msgstr "为提问添加 ``read-the-docs`` 标签，方便他人查找。"
 
 #: ../../upstream/docs/user/support.rst:56
 msgid "Bug reports"
-msgstr ""
+msgstr "缺陷报告"
 
 #: ../../upstream/docs/user/support.rst:58
 msgid ""
-"If you have an issue with the actual functioning of Read the Docs, you "
-"can file bug reports on our `GitHub issue tracker`_. You can also "
-":doc:`contribute changes and fixes <rtd-dev:contribute>` to Read the "
-"Docs, as the code is open source."
+"If you have an issue with the actual functioning of Read the Docs, you can "
+"file bug reports on our `GitHub issue tracker`_. You can also "
+":doc:`contribute changes and fixes <rtd-dev:contribute>` to Read the Docs, "
+"as the code is open source."
 msgstr ""
+"若 Read the Docs 实际功能存在问题，可在我们的 `GitHub issue tracker`_ 上提交缺陷报告。由于代码开源，你也可以 "
+":doc:`贡献更改和修复 <rtd-dev:contribute>` 。"
 

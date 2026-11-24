@@ -22,72 +22,77 @@ msgstr ""
 
 #: ../../upstream/docs/user/commercial/privacy-level.rst:2
 msgid "Privacy levels"
-msgstr ""
+msgstr "隐私级别"
 
 #: ../../upstream/docs/user/shared/admonition-rtd-business.rst:2
 msgid ""
 "This feature is only available on `Read the Docs Business "
 "<https://app.readthedocs.com/>`_."
-msgstr ""
+msgstr "此功能仅在 `Read the Docs Business <https://app.readthedocs.com/>`_ 上提供。"
 
 #: ../../upstream/docs/user/commercial/privacy-level.rst:6
 msgid ""
 "Privacy levels allow you to set the visibility of your project and its "
-"versions. This allows you to specify what information is available to the"
-" public and what is private. Privacy can be controlled at the level of "
-"the project and each version, and nothing more granular (eg. specific "
+"versions. This allows you to specify what information is available to the "
+"public and what is private. Privacy can be controlled at the level of the "
+"project and each version, and nothing more granular (eg. specific "
 "directories or URLs) can be controlled."
-msgstr ""
+msgstr "隐私级别让你能设置项目及其版本的可见性，从而指定哪些信息公开、哪些保持私有。隐私可在项目级别和各版本级别控制，无法更细粒度地控制（如特定目录或 URL）。"
 
 #: ../../upstream/docs/user/commercial/privacy-level.rst:12
 msgid "Project privacy"
-msgstr ""
+msgstr "项目隐私"
 
 #: ../../upstream/docs/user/commercial/privacy-level.rst:14
 msgid ""
 "By default, only users that belong to your organization can see the "
 "dashboard of your project and its builds. If you want users outside your "
-"organization to be able to see the dashboard of your project, and the "
-"build output of *public versions* you can set the privacy level of your "
-"project to ``Public``."
+"organization to be able to see the dashboard of your project, and the build "
+"output of *public versions* you can set the privacy level of your project to"
+" ``Public``."
 msgstr ""
+"默认情况下，只有属于你组织的用户能看到项目仪表盘及其构建。若希望组织外的用户也能看到项目仪表盘和*公开版本* 的构建输出，可将项目隐私级别设为 "
+"``Public`` 。"
 
 #: ../../upstream/docs/user/commercial/privacy-level.rst:18
 msgid ""
 "You can set the project privacy level in your project's "
-":menuselection:`Settings` by changing :guilabel:`Privacy level` to "
-"`Public`."
+":menuselection:`Settings` by changing :guilabel:`Privacy level` to `Public`."
 msgstr ""
+"可在项目的 :menuselection:`Settings` 中将 :guilabel:`Privacy level` 改为 `Public` "
+"来设置项目隐私级别。"
 
 #: ../../upstream/docs/user/commercial/privacy-level.rst:21
 msgid ""
-"**Making a project public doesn't give access to any versions.** So if "
-"you want all your versions to be accessible, you need to configure those "
-"to be `Public` as well."
-msgstr ""
+"**Making a project public doesn't give access to any versions.** So if you "
+"want all your versions to be accessible, you need to configure those to be "
+"`Public` as well."
+msgstr "**将项目设为公开并不使其任何版本可访问。** 因此若希望所有版本都可访问，还需将这些版本也配置为 `Public`。"
 
 #: ../../upstream/docs/user/commercial/privacy-level.rst:26
 msgid "Version privacy"
-msgstr ""
+msgstr "版本隐私"
 
 #: ../../upstream/docs/user/commercial/privacy-level.rst:28
 msgid ""
 "Each version of your documentation can be set to either `Public` or "
-"`Private`. This allows you to control who can see the documentation for a"
-" specific version."
-msgstr ""
+"`Private`. This allows you to control who can see the documentation for a "
+"specific version."
+msgstr "文档的每个版本可设为 `Public` 或 `Private`，从而控制谁能查看特定版本的文档。"
 
 #: ../../upstream/docs/user/commercial/privacy-level.rst:31
 msgid "Documentation for public versions is visible to everyone."
-msgstr ""
+msgstr "公开版本的文档对所有人可见。"
 
 #: ../../upstream/docs/user/commercial/privacy-level.rst:32
 msgid ""
-"Private versions are available only to people who have permissions to see"
-" them. They will not display on any list view, and will 404 when visited "
-"by people without viewing permissions. If you want to share your docs "
+"Private versions are available only to people who have permissions to see "
+"them. They will not display on any list view, and will 404 when visited by "
+"people without viewing permissions. If you want to share your docs "
 "temporarily, see :doc:`/commercial/sharing`."
 msgstr ""
+"私有版本仅对有查看权限的用户可用。它们不会出现在任何列表视图中，无查看权限的用户访问时会返回 404。若想临时共享文档，请参阅 "
+":doc:`/commercial/sharing` 。"
 
 #: ../../upstream/docs/user/commercial/privacy-level.rst:36
 msgid ""
@@ -96,16 +101,17 @@ msgid ""
 ":guilabel:`Configure version`, and change :guilabel:`Privacy Level` to "
 "`Public`."
 msgstr ""
+"可在项目的 :menuselection:`Versions` 标签页中为每个版本设置隐私级别：打开该版本的操作菜单，选择 "
+":guilabel:`Configure version` ，将 :guilabel:`Privacy Level` 改为 `Public`。"
 
 #: ../../upstream/docs/user/commercial/privacy-level.rst:39
 msgid "Recommended workflow"
-msgstr ""
+msgstr "推荐工作流"
 
 #: ../../upstream/docs/user/commercial/privacy-level.rst:41
 msgid ""
 "We recommend defaulting everything to private, and only making versions "
-"public when you are ready to share them with the world. This allows you "
-"to work on your documentation in private, and only share it when you are "
-"ready."
-msgstr ""
+"public when you are ready to share them with the world. This allows you to "
+"work on your documentation in private, and only share it when you are ready."
+msgstr "我们建议默认全部设为私有，仅在准备好与全世界分享时才将版本设为公开。这样你可以在私有状态下编写文档，准备好后再分享。"
 

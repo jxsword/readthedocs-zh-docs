@@ -22,120 +22,119 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:2
 msgid "How to use cross-references with Sphinx"
-msgstr ""
+msgstr "如何在 Sphinx 中使用交叉引用"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:4
 msgid ""
 "When writing documentation you often need to link to other pages of your "
-"documentation, other sections of the current page, or sections from other"
-" pages."
-msgstr ""
+"documentation, other sections of the current page, or sections from other "
+"pages."
+msgstr "编写文档时，你经常需要链接到文档的其他页面、当前页面的其他章节，或其他页面的章节。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:9
 msgid ""
 "An easy way is just to use the raw URL that Sphinx generates for each "
 "page/section. This works, but it has some disadvantages:"
-msgstr ""
+msgstr "一种简单做法是直接使用 Sphinx 为每个页面/章节生成的原始 URL。这行得通，但有一些缺点："
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:12
 msgid "Links can change, so they are hard to maintain."
-msgstr ""
+msgstr "链接可能变化，难以维护。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:13
 msgid ""
-"Links can be verbose and hard to read, so it is unclear what page/section"
-" they are linking to."
-msgstr ""
+"Links can be verbose and hard to read, so it is unclear what page/section "
+"they are linking to."
+msgstr "链接可能冗长且难以阅读，看不出指向哪个页面/章节。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:14
 msgid ""
-"There is no easy way to link to specific sections like paragraphs, "
-"figures, or code blocks."
-msgstr ""
+"There is no easy way to link to specific sections like paragraphs, figures, "
+"or code blocks."
+msgstr "没有便捷方式链接到段落、图表或代码块等特定章节。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:15
 msgid "URL links only work for the html version of your documentation."
-msgstr ""
+msgstr "URL 链接仅对文档的 HTML 版本有效。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:17
 msgid ""
-"Instead, Sphinx offers a powerful way to linking to the different "
-"elements of the document, called *cross-references*. Some advantages of "
-"using them:"
-msgstr ""
+"Instead, Sphinx offers a powerful way to linking to the different elements "
+"of the document, called *cross-references*. Some advantages of using them:"
+msgstr "相比之下，Sphinx 提供了链接到文档各元素的有力方式，称为*交叉引用* 。使用它们的好处包括："
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:21
 msgid "Use a human-readable name of your choice, instead of a URL."
-msgstr ""
+msgstr "使用你选择的人类可读名称，而非 URL。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:22
 msgid "Portable between formats: html, PDF, ePub."
-msgstr ""
+msgstr "跨格式可移植：html、PDF、ePub。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:23
 msgid "Sphinx will warn you of invalid references."
-msgstr ""
+msgstr "Sphinx 会就无效引用发出警告。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:24
 msgid "You can cross reference more than just pages and section headers."
-msgstr ""
+msgstr "交叉引用的对象不止页面和章节标题。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:26
 msgid ""
-"This page describes some best-practices for cross-referencing with Sphinx"
-" with two markup options: reStructuredText and MyST (Markdown)."
-msgstr ""
+"This page describes some best-practices for cross-referencing with Sphinx "
+"with two markup options: reStructuredText and MyST (Markdown)."
+msgstr "本页介绍使用 Sphinx 交叉引用的若干最佳实践，涉及两种标记选项：reStructuredText 和 MyST（Markdown）。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:29
 msgid ""
 "If you are not familiar with reStructuredText, check "
 ":doc:`sphinx:usage/restructuredtext/basics` for a quick introduction."
-msgstr ""
+msgstr "若不熟悉 reStructuredText，查阅 :doc:`sphinx:usage/restructuredtext/basics` 快速入门。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:31
 msgid ""
 "If you want to learn more about the MyST Markdown dialect, check out :doc"
 ":`myst-parser:syntax/reference`."
-msgstr ""
+msgstr "若想深入了解 MyST Markdown 方言，请查阅 :doc:`myst-parser:syntax/reference` 。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:37
 msgid "Table of contents"
-msgstr ""
+msgstr "目录"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:40
 msgid "Getting started"
-msgstr ""
+msgstr "快速开始"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:45
 msgid "Explicit targets"
-msgstr ""
+msgstr "显式目标"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:47
 msgid ""
 "Cross referencing in Sphinx uses two components, **references** and "
 "**targets**."
-msgstr ""
+msgstr "Sphinx 中的交叉引用由两个要素组成：**引用** 和**目标** 。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:49
 msgid ""
 "**references** are pointers in your documentation to other parts of your "
 "documentation."
-msgstr ""
+msgstr "**引用** 是指向文档其他部分的指针。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:50
 msgid "**targets** are where the references can point to."
-msgstr ""
+msgstr "**目标** 是引用可以指向的位置。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:52
 msgid ""
-"You can manually create a *target* in any location of your documentation,"
-" allowing you to *reference* it from other pages. These are called "
-"**explicit targets**."
-msgstr ""
+"You can manually create a *target* in any location of your documentation, "
+"allowing you to *reference* it from other pages. These are called **explicit"
+" targets**."
+msgstr "你可以在文档任意位置手动创建*目标* ，从而从其他页面*引用* 它。这称为**显式目标** 。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:55
 msgid "For example, one way of creating an explicit target for a section is:"
-msgstr ""
+msgstr "例如，为章节创建显式目标的一种方式是："
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:59
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:87
@@ -146,7 +145,7 @@ msgstr ""
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:284
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:341
 msgid "reStructuredText"
-msgstr ""
+msgstr "reStructuredText"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:70
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:96
@@ -156,286 +155,290 @@ msgstr ""
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:297
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:348
 msgid "MyST (Markdown)"
-msgstr ""
+msgstr "MyST（Markdown）"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:79
 msgid "Then the reference will be rendered as `My target`_."
-msgstr ""
+msgstr "这样引用将渲染为 `My target`_ 。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:81
 msgid ""
-"You can also add explicit targets before paragraphs (or any other part of"
-" a page)."
-msgstr ""
+"You can also add explicit targets before paragraphs (or any other part of a "
+"page)."
+msgstr "你也可以在段落（或页面其他任何部分）之前添加显式目标。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:83
 msgid "Another example, add a target to a paragraph:"
-msgstr ""
+msgstr "另一个例子，为段落添加目标："
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:105
 msgid ""
 "Then the reference will be rendered as: `some disadvantages <target to "
 "paragraph>`_."
-msgstr ""
+msgstr "这样引用将渲染为：`some disadvantages <target to paragraph>`_ 。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:107
 msgid ""
 "You can also create _`in-line targets` within an element on your page, "
 "allowing you to, for example, reference text *within* a paragraph."
-msgstr ""
+msgstr "你也可以在页面元素内部创建 _`行内目标`，例如引用段落*内部* 的文本。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:110
 msgid "For example, an in-line target inside a paragraph:"
-msgstr ""
+msgstr "例如，段落内的行内目标："
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:121
 msgid ""
 "Then you can reference it using ```in-line targets`_``, that will be "
 "rendered as: `in-line targets`_."
-msgstr ""
+msgstr "随后可用 ```in-line targets`_`` 引用它，将渲染为：`in-line targets`_ 。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:125
 msgid "Implicit targets"
-msgstr ""
+msgstr "隐式目标"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:127
 msgid ""
-"You may also reference some objects by name without explicitly giving "
-"them one by using *implicit targets*."
-msgstr ""
+"You may also reference some objects by name without explicitly giving them "
+"one by using *implicit targets*."
+msgstr "你也可以使用*隐式目标* 按名称引用某些对象，无需显式为其命名。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:131
 msgid ""
-"When you create a section, a footnote, or a citation, Sphinx will create "
-"a target with the title as the name:"
-msgstr ""
+"When you create a section, a footnote, or a citation, Sphinx will create a "
+"target with the title as the name:"
+msgstr "创建章节、脚注或引文时，Sphinx 会以标题为名称创建目标："
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:152
 msgid ""
-"This requires setting ``myst_heading_anchors = 2`` in your ``conf.py``, "
-"see :ref:`myst-parser:syntax/header-anchors`."
+"This requires setting ``myst_heading_anchors = 2`` in your ``conf.py``, see "
+":ref:`myst-parser:syntax/header-anchors`."
 msgstr ""
+"这需要在 ``conf.py`` 中设置 ``myst_heading_anchors = 2`` ，参见 :ref:`myst-"
+"parser:syntax/header-anchors` 。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:155
 msgid "The reference will be rendered as: `Explicit targets`_."
-msgstr ""
+msgstr "该引用将渲染为：`Explicit targets`_ 。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:158
 msgid "Cross-referencing using roles"
-msgstr ""
+msgstr "使用角色进行交叉引用"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:160
 msgid ""
-"All targets seen so far can be referenced only from the same page. Sphinx"
-" provides some roles that allow you to reference any explicit target from"
-" any page."
-msgstr ""
+"All targets seen so far can be referenced only from the same page. Sphinx "
+"provides some roles that allow you to reference any explicit target from any"
+" page."
+msgstr "目前所见的所有目标只能从同一页面引用。Sphinx 提供了一些角色，允许你从任意页面引用任意显式目标。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:165
 msgid ""
-"Since Sphinx will make all explicit targets available globally, all "
-"targets must be unique."
-msgstr ""
+"Since Sphinx will make all explicit targets available globally, all targets "
+"must be unique."
+msgstr "由于 Sphinx 会让所有显式目标全局可用，所有目标必须唯一。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:168
 msgid ""
 "You can see the complete list of cross-referencing roles at :ref:`sphinx"
 ":xref-syntax`. Next, you will explore the most common ones."
-msgstr ""
+msgstr "完整交叉引用角色列表见 :ref:`sphinx:xref-syntax` 。接下来我们看看最常用的几个。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:172
 msgid "The ref role"
-msgstr ""
+msgstr "ref 角色"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:174
-msgid ""
-"The ``ref`` role can be used to reference any explicit targets. For "
-"example:"
-msgstr ""
+msgid "The ``ref`` role can be used to reference any explicit targets. For example:"
+msgstr "``ref`` 角色可用于引用任意显式目标。例如："
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:193
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:245
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:355
 msgid "That will be rendered as:"
-msgstr ""
+msgstr "将渲染为："
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:195
 msgid ":ref:`my target`."
-msgstr ""
+msgstr ":ref:`my target` 。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:196
 msgid ":ref:`Target to paragraph <target to paragraph>`."
-msgstr ""
+msgstr ":ref:`Target to paragraph <target to paragraph>` 。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:197
 msgid ":ref:`Target inside a paragraph <in-line targets>`."
-msgstr ""
+msgstr ":ref:`Target inside a paragraph <in-line targets>` 。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:199
 msgid "The ``ref`` role also allow us to reference code blocks:"
-msgstr ""
+msgstr "``ref`` 角色还允许我们引用代码块："
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:215
 msgid ""
 "We can reference it using ``:ref:`code <target to code>```, that will be "
 "rendered as: :ref:`code <target to code>`."
 msgstr ""
+"我们可以用 ``:ref:`code <target to code>``` 引用它，将渲染为：:ref:`code <target to code>`"
+" 。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:219
 msgid "The doc role"
-msgstr ""
+msgstr "doc 角色"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:221
 msgid ""
-"The ``doc`` role allows us to link to a page instead of just a section. "
-"The target name can be relative to the page where the role exists, or "
-"relative to your documentation's root folder (in both cases, you should "
-"omit the extension)."
-msgstr ""
+"The ``doc`` role allows us to link to a page instead of just a section. The "
+"target name can be relative to the page where the role exists, or relative "
+"to your documentation's root folder (in both cases, you should omit the "
+"extension)."
+msgstr "``doc`` 角色允许我们链接到页面而非仅章节。目标名称可以相对于该角色所在页面，也可以相对于文档根目录（两种情况下都应省略扩展名）。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:225
-msgid ""
-"For example, to link to a page in the same directory as this one you can "
-"use:"
-msgstr ""
+msgid "For example, to link to a page in the same directory as this one you can use:"
+msgstr "例如，要链接到与本页同目录的页面，可用："
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:247
 msgid ":doc:`intersphinx`"
-msgstr ""
+msgstr ":doc:`intersphinx`"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:248
 msgid ":doc:`/guides/intersphinx`"
-msgstr ""
+msgstr ":doc:`/guides/intersphinx`"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:249
 msgid ":doc:`Custom title </guides/intersphinx>`"
-msgstr ""
+msgstr ":doc:`Custom title </guides/intersphinx>`"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:253
 msgid ""
-"Using paths relative to your documentation root is recommended, so you "
-"avoid changing the target name if the page is moved."
-msgstr ""
+"Using paths relative to your documentation root is recommended, so you avoid"
+" changing the target name if the page is moved."
+msgstr "推荐使用相对于文档根目录的路径，这样页面移动时无需更改目标名称。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:257
 msgid "The numref role"
-msgstr ""
+msgstr "numref 角色"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:259
 msgid ""
 "The ``numref`` role is used to reference **numbered** elements of your "
 "documentation. For example, tables and images."
-msgstr ""
+msgstr "``numref`` 角色用于引用文档中的**带编号** 元素，例如表格和图片。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:262
 msgid "To activate numbered references, add this to your ``conf.py`` file:"
-msgstr ""
+msgstr "要启用编号引用，在 ``conf.py`` 文件中添加："
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:269
 msgid ""
 "Next, ensure that an object you would like to reference has an explicit "
 "target."
-msgstr ""
+msgstr "接下来，确保你想引用的对象具有显式目标。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:271
 msgid "For example, you can create a target for the next image:"
-msgstr ""
+msgstr "例如，你可以为下一张图片创建目标："
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:275
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:280
 msgid "Link me!"
-msgstr ""
+msgstr "Link me!"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:309
 msgid ""
 "Finally, reference it using ``:numref:`target to image```, that will be "
 "rendered as ``Fig. N``. Sphinx will enumerate the image automatically."
-msgstr ""
+msgstr "最后用 ``:numref:`target to image``` 引用它，将渲染为 ``Fig. N`` 。Sphinx 会自动为图片编号。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:314
 msgid "Automatically label sections"
-msgstr ""
+msgstr "自动为章节添加标签"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:316
 msgid ""
-"Manually adding an explicit target to each section and making sure is "
-"unique is a big task! Fortunately, Sphinx includes an extension to help "
-"us with that problem, :doc:`autosectionlabel "
+"Manually adding an explicit target to each section and making sure is unique"
+" is a big task! Fortunately, Sphinx includes an extension to help us with "
+"that problem, :doc:`autosectionlabel "
 "<sphinx:usage/extensions/autosectionlabel>`."
 msgstr ""
+"手动为每个章节添加显式目标并确保唯一是项大工程！幸运的是，Sphinx 包含一个扩展来帮助解决这个问题：:doc:`autosectionlabel "
+"<sphinx:usage/extensions/autosectionlabel>` 。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:320
 msgid ""
-"To activate the ``autosectionlabel`` extension, add this to your "
-"``conf.py`` file:"
-msgstr ""
+"To activate the ``autosectionlabel`` extension, add this to your ``conf.py``"
+" file:"
+msgstr "要启用 ``autosectionlabel`` 扩展，在 ``conf.py`` 文件中添加："
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:334
 #, python-brace-format
 msgid ""
 "Sphinx will create explicit targets for all your sections, the name of "
 "target has the form ``{path/to/page}:{title-of-section}``."
-msgstr ""
+msgstr "Sphinx 会为你的所有章节创建显式目标，目标名称形式为 ``{path/to/page}:{title-of-section}`` 。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:337
 msgid "For example, you can reference the previous section using:"
-msgstr ""
+msgstr "例如，可用以下方式引用上一节："
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:357
 msgid ":ref:`guides/cross-referencing-with-sphinx:explicit targets`."
-msgstr ""
+msgstr ":ref:`guides/cross-referencing-with-sphinx:explicit targets` 。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:358
-msgid ""
-":ref:`Custom title <guides/cross-referencing-with-sphinx:explicit "
-"targets>`."
-msgstr ""
+msgid ":ref:`Custom title <guides/cross-referencing-with-sphinx:explicit targets>`."
+msgstr ":ref:`Custom title <guides/cross-referencing-with-sphinx:explicit targets>` 。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:361
 msgid "Invalid targets"
-msgstr ""
+msgstr "无效目标"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:363
 msgid ""
-"If you reference an invalid or undefined target Sphinx will warn us. You "
-"can use the :option:`-W <sphinx:sphinx-build.-W>` option when building "
-"your docs to fail the build if there are any invalid references. On Read "
-"the Docs you can use the :ref:`config-file/v2:sphinx.fail_on_warning` "
-"option."
+"If you reference an invalid or undefined target Sphinx will warn us. You can"
+" use the :option:`-W <sphinx:sphinx-build.-W>` option when building your "
+"docs to fail the build if there are any invalid references. On Read the Docs"
+" you can use the :ref:`config-file/v2:sphinx.fail_on_warning` option."
 msgstr ""
+"若引用了无效或未定义的目标，Sphinx 会发出警告。构建文档时可使用 :option:`-W <sphinx:sphinx-build.-W>` "
+"选项，在存在无效引用时使构建失败。在 Read the Docs 上可使用 :ref:`config-"
+"file/v2:sphinx.fail_on_warning` 选项。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:369
 msgid "Finding the reference name"
-msgstr ""
+msgstr "查找引用名称"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:371
 msgid ""
-"When you build your documentation, Sphinx will generate an inventory of "
-"all explicit and implicit links called ``objects.inv``. You can list all "
-"of these targets to explore what is available for you to reference."
-msgstr ""
+"When you build your documentation, Sphinx will generate an inventory of all "
+"explicit and implicit links called ``objects.inv``. You can list all of "
+"these targets to explore what is available for you to reference."
+msgstr "构建文档时，Sphinx 会生成包含所有显式和隐式链接的清单文件 ``objects.inv`` 。你可以列出这些目标，了解有哪些可供引用。"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:375
 msgid "List all targets for built documentation with:"
-msgstr ""
+msgstr "用以下命令列出已构建文档的所有目标："
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:381
 msgid ""
 "Where ``<link>`` is either a URL or a local path that points to your "
-"inventory file (usually in ``_build/html/objects.inv``). For example, to "
-"see all targets from the Read the Docs documentation:"
+"inventory file (usually in ``_build/html/objects.inv``). For example, to see"
+" all targets from the Read the Docs documentation:"
 msgstr ""
+"其中 ``<link>`` 可以是 URL，也可以是指向清单文件的本地路径（通常在 ``_build/html/objects.inv`` "
+"）。例如，要查看 Read the Docs 文档的所有目标："
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:390
 msgid "Cross-referencing targets in other documentation sites"
-msgstr ""
+msgstr "交叉引用其他文档站点中的目标"
 
 #: ../../upstream/docs/user/guides/cross-referencing-with-sphinx.rst:392
 msgid ""
 "You can reference to docs outside your project too! See "
 ":doc:`/guides/intersphinx`."
-msgstr ""
+msgstr "你也可以引用项目之外的文档！参见 :doc:`/guides/intersphinx` 。"
 

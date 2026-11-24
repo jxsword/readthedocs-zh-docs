@@ -22,119 +22,130 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/connecting-git-account.rst:2
 msgid "How to connect your Read the Docs account to your Git provider"
-msgstr ""
+msgstr "如何将 Read the Docs 账户连接到 Git 服务商"
 
 #: ../../upstream/docs/user/guides/connecting-git-account.rst:4
 msgid ""
 "In this how to article, we cover how to connect an account on "
-"|git_providers_or| with your Read the Docs account. This is relevant if "
-"you have signed up for Read the Docs with your email or want to connect "
+"|git_providers_or| with your Read the Docs account. This is relevant if you "
+"have signed up for Read the Docs with your email or want to connect "
 "additional providers."
 msgstr ""
+"本操作指南讲解如何将 |git_providers_or| 上的账户与你的 Read the Docs 账户关联。若你用邮箱注册了 Read the "
+"Docs，或希望连接额外服务商，此文适用。"
 
 #: ../../upstream/docs/user/guides/connecting-git-account.rst:9
 msgid ""
-"If you are going to import repositories from |git_providers_or|, you "
-"should connect your Read the Docs account to your Git provider first."
-msgstr ""
+"If you are going to import repositories from |git_providers_or|, you should "
+"connect your Read the Docs account to your Git provider first."
+msgstr "若要从 |git_providers_or| 导入仓库，应先将 Read the Docs 账户连接到你的 Git 服务商。"
 
 #: ../../upstream/docs/user/guides/connecting-git-account.rst:14
 msgid ""
-"If you signed up or logged in to Read the Docs with your "
-"|git_providers_or| credentials, you're all done. Your account is "
-"connected ✅️. You only need this how-to if you want to connect additional"
-" Git providers."
+"If you signed up or logged in to Read the Docs with your |git_providers_or| "
+"credentials, you're all done. Your account is connected ✅️. You only need "
+"this how-to if you want to connect additional Git providers."
 msgstr ""
+"若你已用 |git_providers_or| 凭据注册或登录 Read the Docs，一切就绪，账户已关联 ✅️。只有想连接额外 Git "
+"服务商时才需要本指南。"
 
 #: ../../upstream/docs/user/guides/connecting-git-account.rst:19
 msgid "Adding a connection"
-msgstr ""
+msgstr "添加连接"
 
 #: ../../upstream/docs/user/guides/connecting-git-account.rst:21
 msgid ""
 "To connect your Read the Docs account with a Git provider, go to "
 ":menuselection:`<Username dropdown> --> Settings --> Connected services`."
 msgstr ""
+"要将 Read the Docs 账户与 Git 服务商关联，请前往 :menuselection:`<Username dropdown> --> "
+"Settings --> Connected services` 。"
 
 #: ../../upstream/docs/user/guides/connecting-git-account.rst:24
 msgid ""
 "From here, you'll be able to connect to your |git_providers_or| account. "
 "This process will ask you to authorize an integration with Read the Docs."
-msgstr ""
+msgstr "在那里你可以连接 |git_providers_or| 账户。该过程会要求你授权与 Read the Docs 的集成。"
 
 #: ../../upstream/docs/user/guides/connecting-git-account.rst:27
 msgid "Screenshot of example OAuth dialog on GitHub"
-msgstr ""
+msgstr "GitHub OAuth 对话框示例截图"
 
 #: ../../upstream/docs/user/guides/connecting-git-account.rst:32
 msgid "An example of how your OAuth dialog on GitHub may look."
-msgstr ""
+msgstr "你的 GitHub OAuth 对话框可能的样式示例。"
 
 #: ../../upstream/docs/user/guides/connecting-git-account.rst:34
 msgid ""
-"After approving the request, you will be taken back to Read the Docs. You"
-" will now see the account appear in the list of connected services."
-msgstr ""
+"After approving the request, you will be taken back to Read the Docs. You "
+"will now see the account appear in the list of connected services."
+msgstr "批准请求后你会返回 Read the Docs，此时能在已连接服务列表中看到该账户。"
 
 #: ../../upstream/docs/user/guides/connecting-git-account.rst:38
 msgid ""
 "Screenshot of Read the Docs \"Connected Services\" page with multiple "
 "services connected"
-msgstr ""
+msgstr "Read the Docs\"Connected Services\"页面（已连接多个服务）截图"
 
 #: ../../upstream/docs/user/guides/connecting-git-account.rst:43
 msgid "Connected Services [#f1]_ [#f2]_ shows the list of Git providers that"
-msgstr ""
+msgstr "Connected Services [#f1]_ [#f2]_ 列出 Git 服务商"
 
 #: ../../upstream/docs/user/guides/connecting-git-account.rst:45
 msgid ""
-"Now your connection is ready and you will be able to import and configure"
-" Git repositories with just a few clicks."
-msgstr ""
+"Now your connection is ready and you will be able to import and configure "
+"Git repositories with just a few clicks."
+msgstr "现在连接已就绪，你可以仅用几次点击就导入并配置 Git 仓库。"
 
 #: ../../upstream/docs/user/guides/connecting-git-account.rst:49
 msgid ":doc:`/reference/git-integration`"
-msgstr ""
+msgstr ":doc:`/reference/git-integration`"
 
 #: ../../upstream/docs/user/guides/connecting-git-account.rst:50
 msgid ""
-"Learn how the connected account is used for automatically configuring Git"
-" repositories and Read the Docs projects and which **permissions** that "
-"are required from your Git provider."
-msgstr ""
+"Learn how the connected account is used for automatically configuring Git "
+"repositories and Read the Docs projects and which **permissions** that are "
+"required from your Git provider."
+msgstr "了解关联账户如何用于自动配置 Git 仓库和 Read the Docs 项目，以及需要 Git 服务商提供哪些**权限** 。"
 
 #: ../../upstream/docs/user/guides/connecting-git-account.rst:54
 msgid "Removing a connection"
-msgstr ""
+msgstr "移除连接"
 
 #: ../../upstream/docs/user/guides/connecting-git-account.rst:56
 msgid ""
 "You may at any time delete the connection from Read the Docs. Delete the "
-"connection makes Read the Docs forget the immediate access, but you "
-"should also disable our OAuth Application from your Git provider."
+"connection makes Read the Docs forget the immediate access, but you should "
+"also disable our OAuth Application from your Git provider."
 msgstr ""
+"你可以随时从 Read the Docs 删除该连接。删除连接会让 Read the Docs 失去即时访问权限，但你还应在 Git 服务商处停用我们的"
+" OAuth 应用。"
 
 #: ../../upstream/docs/user/guides/connecting-git-account.rst:60
 msgid "On GitHub, navigate to `Authorized OAuth Apps`_."
-msgstr ""
+msgstr "在 GitHub 上前往 `Authorized OAuth Apps`_ 。"
 
 #: ../../upstream/docs/user/guides/connecting-git-account.rst:61
 msgid "On Bitbucket, navigate to `Application Authorizations`_."
-msgstr ""
+msgstr "在 Bitbucket 上前往 `Application Authorizations`_ 。"
 
 #: ../../upstream/docs/user/guides/connecting-git-account.rst:62
 msgid "On GitLab, navigate to `Applications`_"
-msgstr ""
+msgstr "在 GitLab 上前往 `Applications`_"
 
 #: ../../upstream/docs/user/guides/connecting-git-account.rst:68
 msgid ""
 "`Connected Services on readthedocs.org "
 "<https://app.readthedocs.org/accounts/social/connections/>`_"
 msgstr ""
+"`Connected Services on readthedocs.org "
+"<https://app.readthedocs.org/accounts/social/connections/>`_"
 
 #: ../../upstream/docs/user/guides/connecting-git-account.rst:69
 msgid ""
 "`Connected Services on readthedocs.com "
 "<https://app.readthedocs.com/accounts/social/connections/>`_"
 msgstr ""
+"`Connected Services on readthedocs.com "
+"<https://app.readthedocs.com/accounts/social/connections/>`_"
 

@@ -22,30 +22,29 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:2
 msgid "How to use private Git submodules"
-msgstr ""
+msgstr "如何使用私有 Git 子模块"
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:6
 msgid "This guide is for :doc:`/commercial/index`."
-msgstr ""
+msgstr "本指南适用于 :doc:`/commercial/index` 。"
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:8
 msgid ""
-"If you are using private Git repositories and they also contain private "
-"Git submodules, you need to follow a few special steps."
-msgstr ""
+"If you are using private Git repositories and they also contain private Git "
+"submodules, you need to follow a few special steps."
+msgstr "若你使用私有 Git 仓库且其中还包含私有 Git 子模块，需遵循几个特殊步骤。"
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:11
 msgid ""
-"When a project is created, a SSH key is automatically generated. You can "
-"use this SSH key to give Read the Docs access to clone your private "
-"submodules."
-msgstr ""
+"When a project is created, a SSH key is automatically generated. You can use"
+" this SSH key to give Read the Docs access to clone your private submodules."
+msgstr "项目创建时会自动生成一个 SSH 密钥。你可以用该密钥授予 Read the Docs 克隆私有子模块的权限。"
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:16
 msgid ""
 "You can manage which submodules Read the Docs should clone using a "
 "configuration file. See :ref:`config-file/v2:submodules`."
-msgstr ""
+msgstr "你可以通过配置文件管理 Read the Docs 应克隆哪些子模块。参见 :ref:`config-file/v2:submodules` 。"
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:19
 msgid ""
@@ -53,14 +52,16 @@ msgid ""
 "(``git@github.com:readthedocs/readthedocs.org.git`` for example) in your "
 "``.gitmodules`` file, not ``http`` URLs."
 msgstr ""
+"确保在 ``.gitmodules`` 文件中为子模块使用 ``SSH`` URL（例如 "
+"``git@github.com:readthedocs/readthedocs.org.git`` ），而非 ``http`` URL。"
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:26
 msgid "Table of contents"
-msgstr ""
+msgstr "目录"
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:29
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:31
 msgid ""
@@ -70,48 +71,54 @@ msgid ""
 "users>`__ to give read access to several repositories using only one SSH "
 "key."
 msgstr ""
+"由于 GitHub 不允许在不同仓库间复用部署密钥，你需要使用 `machine users "
+"<https://developer.github.com/v3/guides/managing-deploy-keys/#machine-"
+"users>`__ ，仅用一个 SSH 密钥授予多个仓库的读取权限。"
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:35
 msgid "Remove the SSH deploy key that was added to the main repository on GitHub"
-msgstr ""
+msgstr "移除添加到 GitHub 主仓库上的 SSH 部署密钥"
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:39
 msgid ""
-"If you are using our :ref:`reference/git-integration:GitHub App` to "
-"connect your repository to Read the Docs, you can skip this step, because"
-" access to your repository is controlled through the App instead of a "
-"deploy key."
+"If you are using our :ref:`reference/git-integration:GitHub App` to connect "
+"your repository to Read the Docs, you can skip this step, because access to "
+"your repository is controlled through the App instead of a deploy key."
 msgstr ""
+"若你使用我们的 :ref:`reference/git-integration:GitHub App` 连接仓库到 Read the "
+"Docs，可跳过此步骤，因为仓库访问权限通过 App 而非部署密钥控制。"
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:42
-msgid ""
-"Go to :menuselection:`Settings --> Deploy keys` of your repository on "
-"GitHub"
-msgstr ""
+msgid "Go to :menuselection:`Settings --> Deploy keys` of your repository on GitHub"
+msgstr "前往 GitHub 上你仓库的 :menuselection:`Settings --> Deploy keys`"
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:43
 msgid "Delete the key added by ``Read the Docs Commercial (readthedocs.com)``"
-msgstr ""
+msgstr "删除由 ``Read the Docs Commercial (readthedocs.com)`` 添加的密钥"
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:45
 msgid ""
-"Create a GitHub user and give it read only permissions to all the "
-"necessary repositories. You can do this by adding the account as:"
-msgstr ""
+"Create a GitHub user and give it read only permissions to all the necessary "
+"repositories. You can do this by adding the account as:"
+msgstr "创建一个 GitHub 用户，并授予其所有必要仓库的只读权限。可通过将该账户添加为以下身份实现："
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:48
 msgid ""
-"A `collaborator <https://help.github.com/en/github/setting-up-and-"
-"managing-your-github-user-account/inviting-collaborators-to-a-personal-"
-"repository>`__"
+"A `collaborator <https://help.github.com/en/github/setting-up-and-managing-"
+"your-github-user-account/inviting-collaborators-to-a-personal-repository>`__"
 msgstr ""
+"`协作者 <https://help.github.com/en/github/setting-up-and-managing-your-github-"
+"user-account/inviting-collaborators-to-a-personal-repository>`__"
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:49
 msgid ""
-"An `outside collaborator <https://help.github.com/en/github/setting-up-"
-"and-managing-organizations-and-teams/adding-outside-collaborators-to-"
+"An `outside collaborator <https://help.github.com/en/github/setting-up-and-"
+"managing-organizations-and-teams/adding-outside-collaborators-to-"
 "repositories-in-your-organization>`__"
 msgstr ""
+"`外部协作者 <https://help.github.com/en/github/setting-up-and-managing-"
+"organizations-and-teams/adding-outside-collaborators-to-repositories-in-"
+"your-organization>`__"
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:50
 msgid ""
@@ -119,68 +126,76 @@ msgid ""
 "and-managing-organizations-and-teams/adding-organization-members-"
 "to-a-team>`__"
 msgstr ""
+"`组织中的团队 <https://help.github.com/en/github/setting-up-and-managing-"
+"organizations-and-teams/adding-organization-members-to-a-team>`__"
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:52
 msgid ""
-"Attach the public SSH key from your project on Read the Docs to the "
-"GitHub user you just created"
-msgstr ""
+"Attach the public SSH key from your project on Read the Docs to the GitHub "
+"user you just created"
+msgstr "将 Read the Docs 项目的公钥附加到你刚创建的 GitHub 用户"
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:54
 msgid "Go to the user's settings"
-msgstr ""
+msgstr "前往该用户的设置"
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:55
 msgid "Click on :guilabel:`SSH and GPG keys`"
-msgstr ""
+msgstr "点击 :guilabel:`SSH and GPG keys`"
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:56
 msgid "Click on :guilabel:`New SSH key`"
-msgstr ""
+msgstr "点击 :guilabel:`New SSH key`"
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:57
 msgid ""
-"Put a descriptive title and paste the :ref:`public SSH key from your Read"
-" the Docs project <guides/creating-project-private-repository:Configuring"
-" your repository>`"
+"Put a descriptive title and paste the :ref:`public SSH key from your Read "
+"the Docs project <guides/creating-project-private-repository:Configuring "
+"your repository>`"
 msgstr ""
+"填写描述性标题并粘贴 :ref:`Read the Docs 项目的公钥 <guides/creating-project-private-"
+"repository:Configuring your repository>`"
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:59
 msgid "Click on :guilabel:`Add SSH key`"
-msgstr ""
+msgstr "点击 :guilabel:`Add SSH key`"
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:62
 msgid "Azure DevOps"
-msgstr ""
+msgstr "Azure DevOps"
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:64
 msgid ""
-"Azure DevOps does not have per-repository SSH keys, but keys can be added"
-" to a user instead. As long as this user has access to your main "
-"repository and all its submodules, Read the Docs can clone all the "
-"repositories with the same key."
+"Azure DevOps does not have per-repository SSH keys, but keys can be added to"
+" a user instead. As long as this user has access to your main repository and"
+" all its submodules, Read the Docs can clone all the repositories with the "
+"same key."
 msgstr ""
+"Azure DevOps 没有按仓库划分的 SSH 密钥，但可以改为添加到用户上。只要该用户有权访问你的主仓库及其所有子模块，Read the Docs"
+" 就能用同一密钥克隆所有仓库。"
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:70
 msgid ""
-":ref:`Allow access to your Azure DevOps repository with an SSH key "
-"<guides/creating-project-private-repository:Configuring your "
-"repository>`."
+":ref:`Allow access to your Azure DevOps repository with an SSH key <guides"
+"/creating-project-private-repository:Configuring your repository>`."
 msgstr ""
+":ref:`允许用 SSH 密钥访问你的 Azure DevOps 仓库 <guides/creating-project-private-"
+"repository:Configuring your repository>` 。"
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:73
 msgid "Others"
-msgstr ""
+msgstr "其他"
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:75
 msgid ""
-"GitLab and Bitbucket allow you to reuse the same SSH key across different"
-" repositories. Since Read the Docs already added the public SSH key on "
-"your main repository, you only need to add it to each submodule "
-"repository."
+"GitLab and Bitbucket allow you to reuse the same SSH key across different "
+"repositories. Since Read the Docs already added the public SSH key on your "
+"main repository, you only need to add it to each submodule repository."
 msgstr ""
+"GitLab 和 Bitbucket 允许在不同仓库间复用同一 SSH 密钥。由于 Read the Docs "
+"已在你的主仓库上添加了公钥，你只需把它添加到每个子模块仓库。"
 
 #: ../../upstream/docs/user/guides/private-submodules.rst:81
 msgid ":doc:`/guides/creating-project-private-repository`"
-msgstr ""
+msgstr ":doc:`/guides/creating-project-private-repository`"
 

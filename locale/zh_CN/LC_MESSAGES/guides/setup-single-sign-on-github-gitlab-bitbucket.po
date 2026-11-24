@@ -22,177 +22,187 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-github-gitlab-bitbucket.rst:2
 msgid "How to setup single sign-on (SSO) with GitHub, GitLab, or Bitbucket"
-msgstr ""
+msgstr "如何设置与 GitHub、GitLab 或 Bitbucket 的单点登录（SSO）"
 
 #: ../../upstream/docs/user/shared/admonition-rtd-business.rst:2
 msgid ""
 "This feature is only available on `Read the Docs Business "
 "<https://app.readthedocs.com/>`_."
-msgstr ""
+msgstr "此功能仅在 `Read the Docs Business <https://app.readthedocs.com/>`_ 上提供。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-github-gitlab-bitbucket.rst:6
 msgid ""
 "This how-to guide will provide instructions on how to enable :abbr:`SSO "
 "(single sign-on)` with GitHub, GitLab, or Bitbucket. If you want more "
-"information on this feature, please read :doc:`/commercial/single-sign-"
-"on`"
+"information on this feature, please read :doc:`/commercial/single-sign-on`"
 msgstr ""
+"本操作指南说明如何启用与 GitHub、GitLab 或 Bitbucket 的 :abbr:`SSO (single sign-on)` "
+"。若想了解此功能的更多信息，请阅读 :doc:`/commercial/single-sign-on`"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-github-gitlab-bitbucket.rst:11
 msgid "Prerequisites"
-msgstr ""
+msgstr "前提条件"
 
 #: ../../upstream/docs/user/shared/organization-permissions.rst:2
 msgid "Organization permissions"
-msgstr ""
+msgstr "组织权限"
 
 #: ../../upstream/docs/user/shared/organization-permissions.rst:4
 msgid ""
-"To change your :doc:`Organization's </commercial/organizations>` "
-"settings, you need to be an *owner* of that organization."
-msgstr ""
+"To change your :doc:`Organization's </commercial/organizations>` settings, "
+"you need to be an *owner* of that organization."
+msgstr "要更改 :doc:`组织 </commercial/organizations>` 的设置，你必须是该组织的*所有者* 。"
 
 #: ../../upstream/docs/user/shared/organization-permissions.rst:7
 msgid "You can validate your ownership of the Organization with these steps:"
-msgstr ""
+msgstr "可按以下步骤验证你对该组织的所有权："
 
 #: ../../upstream/docs/user/shared/organization-permissions.rst:9
 msgid ""
 "Navigate to the `organization management page "
 "<https://app.readthedocs.com/organizations/choose/organization_detail/>`__."
 msgstr ""
+"前往 `organization management page "
+"<https://app.readthedocs.com/organizations/choose/organization_detail/>`__ 。"
 
 #: ../../upstream/docs/user/shared/organization-permissions.rst:10
 msgid "Look at the :guilabel:`Owners` section on the right menu."
-msgstr ""
+msgstr "查看右侧菜单中的 :guilabel:`Owners` 区域。"
 
 #: ../../upstream/docs/user/shared/organization-permissions.rst:12
 msgid ""
-"If you'd like to modify this setting and are not an owner, you can ask an"
-" existing organization owner to take the actions listed."
-msgstr ""
+"If you'd like to modify this setting and are not an owner, you can ask an "
+"existing organization owner to take the actions listed."
+msgstr "若你想修改此设置但不是所有者，可请现有组织所有者执行上述操作。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-github-gitlab-bitbucket.rst:16
 msgid "User setup"
-msgstr ""
+msgstr "用户设置"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-github-gitlab-bitbucket.rst:18
 msgid ""
 "Users in your organization must have their GitHub, Bitbucket, or GitLab "
-":doc:`account connected </guides/connecting-git-account>`, otherwise they"
-" won't have access to any project on Read the Docs after performing this "
-"change. You can read more about `granting permissions on GitHub`_ in "
-"their documentation."
+":doc:`account connected </guides/connecting-git-account>`, otherwise they "
+"won't have access to any project on Read the Docs after performing this "
+"change. You can read more about `granting permissions on GitHub`_ in their "
+"documentation."
 msgstr ""
+"你组织中的用户必须已 :doc:`连接 </guides/connecting-git-account>` 其 GitHub、Bitbucket 或 "
+"GitLab 账户，否则完成此更改后他们将无法访问 Read the Docs 上的任何项目。更多内容见其文档中的 `granting "
+"permissions on GitHub`_ 。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-github-gitlab-bitbucket.rst:26
 msgid "Enabling SSO"
-msgstr ""
+msgstr "启用 SSO"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-github-gitlab-bitbucket.rst:28
 msgid "You can enable this feature in your organization by:"
-msgstr ""
+msgstr "可通过以下方式在组织中启用此功能："
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-github-gitlab-bitbucket.rst:30
 msgid ""
 "Navigate to the `authorization setting page "
 "<https://app.readthedocs.com/organizations/choose/organization_sso/>`__."
 msgstr ""
+"前往 `authorization setting page "
+"<https://app.readthedocs.com/organizations/choose/organization_sso/>`__ 。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-github-gitlab-bitbucket.rst:31
 msgid ""
-"Select :guilabel:`GitHub, GitLab or Bitbucket` on the "
-":guilabel:`Provider` dropdown."
-msgstr ""
+"Select :guilabel:`GitHub, GitLab or Bitbucket` on the :guilabel:`Provider` "
+"dropdown."
+msgstr "在 :guilabel:`Provider` 下拉框中选择 :guilabel:`GitHub, GitLab or Bitbucket` 。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-github-gitlab-bitbucket.rst:32
 msgid "Select :guilabel:`Save`"
-msgstr ""
+msgstr "选择 :guilabel:`Save`"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-github-gitlab-bitbucket.rst:35
 msgid ""
 "Once you enable this option, your existing Read the Docs :doc:`teams "
-"</guides/manage-read-the-docs-teams>` will not be used. While testing you"
-" can enable SSO and then disable it without any data loss."
+"</guides/manage-read-the-docs-teams>` will not be used. While testing you "
+"can enable SSO and then disable it without any data loss."
 msgstr ""
+"启用此选项后，现有的 Read the Docs :doc:`团队 </guides/manage-read-the-docs-teams>` "
+"将不再使用。测试期间你可以启用 SSO 后再禁用，不会丢失任何数据。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-github-gitlab-bitbucket.rst:40
 msgid "Grant access to read private documentation"
-msgstr ""
+msgstr "授予读取私有文档的权限"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-github-gitlab-bitbucket.rst:42
 msgid ""
-"By granting **read** permissions to a user in your git repository, you "
-"are giving the user access to read the documentation of the associated "
-"project on Read the Docs. By default, private git repositories are built "
-"as private documentation websites. Having **read** permissions to the git"
-" repository translates to having **view** permissions to a private "
-"documentation website."
+"By granting **read** permissions to a user in your git repository, you are "
+"giving the user access to read the documentation of the associated project "
+"on Read the Docs. By default, private git repositories are built as private "
+"documentation websites. Having **read** permissions to the git repository "
+"translates to having **view** permissions to a private documentation "
+"website."
 msgstr ""
+"在 Git 仓库中授予某用户**读取** 权限，即赋予其读取 Read the Docs 上关联项目文档的权限。默认情况下，私有 Git "
+"仓库会构建为私有文档站点。在 Git 仓库中拥有**读取** 权限，等同于对私有文档站点拥有**查看** 权限。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-github-gitlab-bitbucket.rst:48
 msgid "Grant access to administer a project"
-msgstr ""
+msgstr "授予管理项目的权限"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-github-gitlab-bitbucket.rst:50
 msgid ""
-"By granting **admin** permission to a user in the git repository, you are"
-" giving the user access to read the documentation *and* to be an "
+"By granting **admin** permission to a user in the git repository, you are "
+"giving the user access to read the documentation *and* to be an "
 "administrator of the associated project on Read the Docs."
-msgstr ""
+msgstr "在 Git 仓库中授予某用户**管理员** 权限，即赋予其读取文档*以及* 担任 Read the Docs 上关联项目管理员的权限。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-github-gitlab-bitbucket.rst:54
 msgid "Grant access to import a project"
-msgstr ""
+msgstr "授予导入项目的权限"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-github-gitlab-bitbucket.rst:56
 msgid ""
-"When SSO with a Git provider is enabled, only owners of the Read the Docs"
-" organization can import projects."
-msgstr ""
+"When SSO with a Git provider is enabled, only owners of the Read the Docs "
+"organization can import projects."
+msgstr "启用与 Git 服务商的 SSO 后，只有 Read the Docs 组织的所有者能导入项目。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-github-gitlab-bitbucket.rst:58
 msgid "To be able to import a project, a user must have:"
-msgstr ""
+msgstr "要能导入项目，用户必须具备："
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-github-gitlab-bitbucket.rst:61
 msgid "**admin** permissions in the associated Git repository."
-msgstr ""
+msgstr "关联 Git 仓库中的**管理员** 权限。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-github-gitlab-bitbucket.rst:62
 msgid "Ownership rights to the Read the Docs organization"
-msgstr ""
+msgstr "Read the Docs 组织的所有权"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-github-gitlab-bitbucket.rst:64
 msgid ""
 "Projects must be imported from a repository in a connected Git provider "
-"account, since access to the project is granted from the permissions in "
-"that repository. You can't manually configure a project when SSO with a "
-"Git provider is enabled."
-msgstr ""
+"account, since access to the project is granted from the permissions in that"
+" repository. You can't manually configure a project when SSO with a Git "
+"provider is enabled."
+msgstr "项目必须从已连接 Git 服务商账户下的仓库导入，因为项目访问权限由该仓库中的权限决定。启用与 Git 服务商的 SSO 后，无法手动配置项目。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-github-gitlab-bitbucket.rst:69
 msgid "Revoke access to a project"
-msgstr ""
+msgstr "撤销项目访问权限"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-github-gitlab-bitbucket.rst:71
 msgid ""
-"If a user should not have access to a project, you can revoke access to "
-"the git repository, and this will be automatically reflected in Read the "
-"Docs."
-msgstr ""
+"If a user should not have access to a project, you can revoke access to the "
+"git repository, and this will be automatically reflected in Read the Docs."
+msgstr "若某用户不应访问某项目，可撤销其对 Git 仓库的访问权限，这会自动反映到 Read the Docs。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-github-gitlab-bitbucket.rst:75
 msgid ""
-"The same process is followed in case you need to remove admin access, but"
-" still want that user to have access to read the documentation. Instead "
-"of revoking access completely, downgrade their permissions to *read "
-"only*."
-msgstr ""
+"The same process is followed in case you need to remove admin access, but "
+"still want that user to have access to read the documentation. Instead of "
+"revoking access completely, downgrade their permissions to *read only*."
+msgstr "若需要移除管理员权限但仍希望该用户能读取文档，流程相同。无需完全撤销访问权限，将其权限降级为*只读* 即可。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-github-gitlab-bitbucket.rst:81
 msgid ""
 "To learn more about choosing a single sign-on approach, please read "
 ":doc:`/commercial/single-sign-on`."
-msgstr ""
+msgstr "有关如何选择单点登录方案的更多信息，请阅读 :doc:`/commercial/single-sign-on` 。"
 

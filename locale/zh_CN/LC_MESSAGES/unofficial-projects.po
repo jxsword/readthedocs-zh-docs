@@ -22,228 +22,228 @@ msgstr ""
 
 #: ../../upstream/docs/user/unofficial-projects.rst:2
 msgid "Unofficial and unmaintained projects policy"
-msgstr ""
+msgstr "非官方与无人维护项目政策"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:4
 msgid ""
-"This policy describes a process where we take actions against "
-"unmaintained_ and unofficial_ forks of project documentation."
-msgstr ""
+"This policy describes a process where we take actions against unmaintained_ "
+"and unofficial_ forks of project documentation."
+msgstr "本政策描述我们对项目文档的 unmaintained_ 和 unofficial_ fork 采取措施的流程。"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:6
 msgid ""
 "If you want to free up a project's :term:`slug` and gain access over it, "
 "please see :doc:`/abandoned-projects`."
-msgstr ""
+msgstr "若你想释放某项目的 :term:`slug` 并取得其控制权，请参阅 :doc:`/abandoned-projects`。"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:9
 msgid "Rationale"
-msgstr ""
+msgstr "制定依据"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:11
 msgid ""
-"Documentation projects may be kept online indefinitely, even though a "
-"newer version of the same project exists elsewhere. There are many "
-"reasons this can happen, including forks, old official docs that are "
-"unmaintained, and many other situations."
-msgstr ""
+"Documentation projects may be kept online indefinitely, even though a newer "
+"version of the same project exists elsewhere. There are many reasons this "
+"can happen, including forks, old official docs that are unmaintained, and "
+"many other situations."
+msgstr "文档项目可能长期在线，即便同一项目已有更新版本存在于别处。造成这种情况的原因很多，包括 fork、无人维护的旧官方文档，以及许多其他情形。"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:15
 msgid ""
-"The problem with old, outdated docs is that users will find them in "
-"search results, and get confused to the validity of them. Projects will "
-"then get support requests from people who are using an old and incorrect "
+"The problem with old, outdated docs is that users will find them in search "
+"results, and get confused to the validity of them. Projects will then get "
+"support requests from people who are using an old and incorrect "
 "documentation version."
-msgstr ""
+msgstr "过时文档的问题在于用户会在搜索结果中找到它们，并对其有效性感到困惑。随后项目会收到来自使用旧版错误文档用户的支持请求。"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:19
 msgid ""
-"We have this policy to allow a reporter to request the *delisting* of "
-"forks that are old and outdated."
-msgstr ""
+"We have this policy to allow a reporter to request the *delisting* of forks "
+"that are old and outdated."
+msgstr "我们制定本政策，让报告者可以请求将陈旧过时的 fork *从列表中移除*。"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:23
 msgid "High level overview"
-msgstr ""
+msgstr "高层概览"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:25
 msgid "The process at a high level looks like:"
-msgstr ""
+msgstr "流程的高层结构如下："
 
 #: ../../upstream/docs/user/unofficial-projects.rst:27
-msgid ""
-"A reporter contacts us about a project they think is outdated and "
-"unofficial"
-msgstr ""
+msgid "A reporter contacts us about a project they think is outdated and unofficial"
+msgstr "报告者就他们认为过时且非官方的项目联系我们"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:28
 msgid ""
 "A Read the Docs team member evaluates it to make sure it's outdated and "
 "unofficial, according to this policy"
-msgstr ""
+msgstr "Read the Docs 团队成员依据本政策评估，确认其确实过时且非官方"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:29
 msgid ""
-"We delist this project from search results and send an email to owners of"
-" the Read the Docs project"
-msgstr ""
+"We delist this project from search results and send an email to owners of "
+"the Read the Docs project"
+msgstr "我们将其从搜索结果中移除，并向 Read the Docs 项目所有者发送邮件"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:30
 msgid ""
 "If a project owner objects, we evaluate their evidence and make a final "
 "decision"
-msgstr ""
+msgstr "若项目所有者提出异议，我们评估其证据并作出最终决定"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:34
 msgid "Definitions"
-msgstr ""
+msgstr "定义"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:38
 msgid "Unofficial projects"
-msgstr ""
+msgstr "非官方项目"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:40
 msgid ""
-"A project is considered *unofficial* when it is not linked to or "
-"mentioned in **any** of these places:"
-msgstr ""
+"A project is considered *unofficial* when it is not linked to or mentioned "
+"in **any** of these places:"
+msgstr "当项目未在**以下任何一处**被链接或提及时，视为*非官方*："
 
 #: ../../upstream/docs/user/unofficial-projects.rst:42
 msgid "Websites and domains associated with the project"
-msgstr ""
+msgstr "与项目关联的网站和域名"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:43
 msgid ""
-"The project's primary repository -- README files, repository description,"
-" or source code"
-msgstr ""
+"The project's primary repository -- README files, repository description, or"
+" source code"
+msgstr "项目的主仓库——README 文件、仓库描述或源代码"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:47
 msgid "Unmaintained projects"
-msgstr ""
+msgstr "无人维护的项目"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:49
-msgid ""
-"A project is considered *unmaintained* when **any** of the following are "
-"met:"
-msgstr ""
+msgid "A project is considered *unmaintained* when **any** of the following are met:"
+msgstr "当满足以下**任一**条件时，项目被视为*无人维护*："
 
 #: ../../upstream/docs/user/unofficial-projects.rst:51
 msgid ""
-"The configured version control repository is unreadable. This can happen "
-"if the repository is deleted, credentials are broken or the Git host is "
+"The configured version control repository is unreadable. This can happen if "
+"the repository is deleted, credentials are broken or the Git host is "
 "permanently unresponsive."
-msgstr ""
+msgstr "配置的版本控制仓库不可读。可能因仓库被删除、凭据失效或 Git 主机长期无响应而发生。"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:52
 msgid ""
-"The project is only serving content from releases and commits 6 months or"
-" older."
-msgstr ""
+"The project is only serving content from releases and commits 6 months or "
+"older."
+msgstr "项目只提供 6 个月或更早的发布与提交内容。"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:53
 msgid "All builds have failed for more than 6 months."
-msgstr ""
+msgstr "所有构建已失败超过 6 个月。"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:57
 msgid "Implementation"
-msgstr ""
+msgstr "实施"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:61
 msgid "Requesting a project be delisted"
-msgstr ""
+msgstr "请求将项目从列表移除"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:63
 msgid ""
-"You can request that we delist an outdated, unmaintained documentation by"
-" contacting our :doc:`/support`."
-msgstr ""
+"You can request that we delist an outdated, unmaintained documentation by "
+"contacting our :doc:`/support`."
+msgstr "你可以联系我们的 :doc:`/support`，请求我们移除过时且无人维护的文档。"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:65
 msgid "Please include the following information:"
-msgstr ""
+msgstr "请包含以下信息："
 
 #: ../../upstream/docs/user/unofficial-projects.rst:79
 msgid "Delisting"
-msgstr ""
+msgstr "从列表移除"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:81
 msgid ""
-"Projects that are determined to be unmaintained_ and unofficial_ will "
-"have a ``robots.txt`` file added that removes them from all search "
-"results:"
-msgstr ""
+"Projects that are determined to be unmaintained_ and unofficial_ will have a"
+" ``robots.txt`` file added that removes them from all search results:"
+msgstr "被判定为 unmaintained_ 且 unofficial_ 的项目将被添加 ``robots.txt`` 文件，从所有搜索结果中移除："
 
 #: ../../upstream/docs/user/unofficial-projects.rst:92
 msgid "Projects will be delisted if they meet **all** of the following criteria:"
-msgstr ""
+msgstr "项目满足以下**全部**标准时会被从列表移除："
 
 #: ../../upstream/docs/user/unofficial-projects.rst:94
 msgid ""
 "The person who submits the report of the unmaintained_ and unofficial_ "
 "project also demonstrates failed attempts to contact the existing owners."
-msgstr ""
+msgstr "提交 unmaintained_ 且 unofficial_ 项目报告的人，同时证明曾尝试联系现有所有者但未果。"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:95
 msgid ""
-"The project has been determined unmaintained_ and unofficial_ by the "
-"rules described above."
-msgstr ""
+"The project has been determined unmaintained_ and unofficial_ by the rules "
+"described above."
+msgstr "项目已依据上述规则被判定为 unmaintained_ 且 unofficial_。"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:96
 msgid "The core team does not have any additional reservations."
-msgstr ""
+msgstr "核心团队没有其他顾虑。"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:98
 msgid ""
 "The Read the Docs team will do the following actions when a project is "
 "delisted:"
-msgstr ""
+msgstr "项目被从列表移除时，Read the Docs 团队将执行以下操作："
 
 #: ../../upstream/docs/user/unofficial-projects.rst:100
 msgid "Notify the Read the Docs project owners via email about the delisting."
-msgstr ""
+msgstr "通过邮件通知 Read the Docs 项目所有者该移除决定。"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:101
 msgid "Add the ``robots.txt`` file to be served on the project domain."
-msgstr ""
+msgstr "添加 ``robots.txt`` 文件在项目域名上提供服务。"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:103
 msgid ""
 "If any of the project owners respond, their response will be taken into "
 "account, and the delisting might be reversed."
-msgstr ""
+msgstr "若有任何项目所有者回应，其意见将被纳入考虑，移除决定可能被撤销。"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:107
 msgid "Thinking behind the policy"
-msgstr ""
+msgstr "政策背后的考量"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:109
 msgid ""
-"The main idea behind this policy is that Read the Docs serves the "
-"community. Every user is invited to upload content under `terms of "
-"service <https://about.readthedocs.com/terms-of-service/>`_ understanding"
-" that it is at the sole risk of the user."
+"The main idea behind this policy is that Read the Docs serves the community."
+" Every user is invited to upload content under `terms of service "
+"<https://about.readthedocs.com/terms-of-service/>`_ understanding that it is"
+" at the sole risk of the user."
 msgstr ""
+"本政策背后的核心思想是：Read the Docs 服务于社区。每位用户都受 `terms of service "
+"<https://about.readthedocs.com/terms-of-service/>`_ 邀请上传内容，并理解这完全由用户自行承担风险。"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:113
 msgid ""
-"While Read the Docs is not a backup service, the core team of Read the "
-"Docs does their best to keep content accessible indefinitely in its "
-"published form. However, in certain edge cases, the greater community's "
-"needs might outweigh the individual's expectation of continued "
-"publishing."
+"While Read the Docs is not a backup service, the core team of Read the Docs "
+"does their best to keep content accessible indefinitely in its published "
+"form. However, in certain edge cases, the greater community's needs might "
+"outweigh the individual's expectation of continued publishing."
 msgstr ""
+"虽然 Read the Docs "
+"并非备份服务，但其核心团队会尽力让内容以已发布的形式长期可访问。然而在某些边缘情况下，更广泛的社区需求可能优先于个人对持续发布的期待。"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:118
 msgid "Prior art"
-msgstr ""
+msgstr "先例"
 
 #: ../../upstream/docs/user/unofficial-projects.rst:120
 msgid ""
-"This policy is inspired by our :doc:`abandoned-projects`. The Python "
-"Package Index (PyPI) policy for claiming abandoned packages (`PEP-0541 "
+"This policy is inspired by our :doc:`abandoned-projects`. The Python Package"
+" Index (PyPI) policy for claiming abandoned packages (`PEP-0541 "
 "<https://www.python.org/dev/peps/pep-0541>`_) heavily influenced this "
 "policy."
 msgstr ""
+"本政策受我们的 :doc:`abandoned-projects` 启发。Python 包索引（PyPI）关于认领废弃包的政策（`PEP-0541 "
+"<https://www.python.org/dev/peps/pep-0541>`_）对本政策影响深远。"
 

@@ -22,98 +22,104 @@ msgstr ""
 
 #: ../../upstream/docs/user/open-source-philosophy.rst:2
 msgid "Read the Docs open source philosophy"
-msgstr ""
+msgstr "Read the Docs 的开源理念"
 
 #: ../../upstream/docs/user/open-source-philosophy.rst:4
 msgid ""
 "Read the Docs is open source software. We have `licensed "
 "<https://github.com/readthedocs/readthedocs.org/blob/main/LICENSE>`_ the "
-"code base as MIT, which provides almost no restrictions on the use of the"
-" code."
+"code base as MIT, which provides almost no restrictions on the use of the "
+"code."
 msgstr ""
+"Read the Docs 是开源软件。我们以 MIT 协议 `授权 "
+"<https://github.com/readthedocs/readthedocs.org/blob/main/LICENSE>`_ "
+"了整个代码库，该协议对代码使用几乎没有限制。"
 
 #: ../../upstream/docs/user/open-source-philosophy.rst:8
 msgid ""
-"However, as a project there are things that we care about more than "
-"others. We built Read the Docs to support documentation in the open "
-"source community. The code is open for people to contribute to, so that "
-"they may build features into https://app.readthedocs.org that they want. "
-"We also believe sharing the code openly is a valuable learning tool, "
-"especially for demonstrating how to collaborate and maintain an enormous "
-"website."
+"However, as a project there are things that we care about more than others. "
+"We built Read the Docs to support documentation in the open source "
+"community. The code is open for people to contribute to, so that they may "
+"build features into https://app.readthedocs.org that they want. We also "
+"believe sharing the code openly is a valuable learning tool, especially for "
+"demonstrating how to collaborate and maintain an enormous website."
 msgstr ""
+"然而作为一个项目，我们有些东西比其他更重要。构建 Read the Docs 是为支持开源社区的文档。代码开放供人贡献，让人们可以把自己需要的功能构建进"
+" https://app.readthedocs.org。我们也认为公开共享代码是有价值的学习工具，尤其能示范如何协作并维护一个庞大的网站。"
 
 #: ../../upstream/docs/user/open-source-philosophy.rst:18
 msgid "Official support"
-msgstr ""
+msgstr "官方支持"
 
 #: ../../upstream/docs/user/open-source-philosophy.rst:20
 msgid ""
 "The time of the core developers of Read the Docs is limited. We provide "
 "official support for the following things:"
-msgstr ""
+msgstr "Read the Docs 核心开发者的时间有限。我们对以下事项提供官方支持："
 
 #: ../../upstream/docs/user/open-source-philosophy.rst:23
 msgid "Local development on the Python code base"
-msgstr ""
+msgstr "在 Python 代码库上的本地开发"
 
 #: ../../upstream/docs/user/open-source-philosophy.rst:24
 msgid "Usage of https://app.readthedocs.org for open source projects"
-msgstr ""
+msgstr "开源项目对 https://app.readthedocs.org 的使用"
 
 #: ../../upstream/docs/user/open-source-philosophy.rst:25
 msgid ""
 "Bug fixes in the code base, as it applies to running it on "
 "https://app.readthedocs.org"
-msgstr ""
+msgstr "代码库中与在 https://app.readthedocs.org 上运行相关的缺陷修复"
 
 #: ../../upstream/docs/user/open-source-philosophy.rst:28
 msgid "Unsupported"
-msgstr ""
+msgstr "不支持"
 
 #: ../../upstream/docs/user/open-source-philosophy.rst:30
 msgid ""
-"There are use cases that we don't support, because it doesn't further our"
-" goal of promoting documentation in the open source community."
-msgstr ""
+"There are use cases that we don't support, because it doesn't further our "
+"goal of promoting documentation in the open source community."
+msgstr "有些使用场景我们不支持，因为这无助于推动开源社区文档发展这一目标。"
 
 #: ../../upstream/docs/user/open-source-philosophy.rst:33
 msgid "We do not support:"
-msgstr ""
+msgstr "我们不支持："
 
 #: ../../upstream/docs/user/open-source-philosophy.rst:35
 msgid "Specific usage of Sphinx and Mkdocs, that don't affect our hosting"
-msgstr ""
+msgstr "不影响我们托管的 Sphinx 和 MkDocs 的特定用法"
 
 #: ../../upstream/docs/user/open-source-philosophy.rst:36
 msgid "Custom installations of Read the Docs at your company"
-msgstr ""
+msgstr "在你们公司定制安装 Read the Docs"
 
 #: ../../upstream/docs/user/open-source-philosophy.rst:37
 msgid "Installation of Read the Docs on other platforms"
-msgstr ""
+msgstr "在其他平台上安装 Read the Docs"
 
 #: ../../upstream/docs/user/open-source-philosophy.rst:38
 msgid "Any installation issues outside of the Read the Docs Python Code"
-msgstr ""
+msgstr "Read the Docs Python 代码之外的任何安装问题"
 
 #: ../../upstream/docs/user/open-source-philosophy.rst:41
 msgid "Rationale"
-msgstr ""
+msgstr "理由"
 
 #: ../../upstream/docs/user/open-source-philosophy.rst:43
 msgid ""
 "Read the Docs was founded to improve documentation in the open source "
 "community. We fully recognize and allow the code to be used for internal "
 "installs at companies, but we will not spend our time supporting it. Our "
-"time is limited, and we want to spend it on the mission that we set out "
-"to originally support."
+"time is limited, and we want to spend it on the mission that we set out to "
+"originally support."
 msgstr ""
+"Read the Docs "
+"的创立初衷是改善开源社区的文档。我们完全认可并允许代码在公司内部安装使用，但不会花时间为它提供支持。我们的时间有限，希望投入到最初设定的使命上。"
 
 #: ../../upstream/docs/user/open-source-philosophy.rst:49
 msgid ""
-"If you feel strongly about installing Read the Docs internal to a "
-"company, we will happily link to third party resources on this topic. "
-"Please open an issue with a proposal if you want to take on this task."
-msgstr ""
+"If you feel strongly about installing Read the Docs internal to a company, "
+"we will happily link to third party resources on this topic. Please open an "
+"issue with a proposal if you want to take on this task."
+msgstr "若你坚决要在公司内部安装 Read the Docs，我们乐意提供该主题的第三方资源链接。若你想承担此任务，请提交带方案的 issue。"
 

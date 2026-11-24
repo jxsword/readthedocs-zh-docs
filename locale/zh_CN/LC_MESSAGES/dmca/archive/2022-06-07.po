@@ -22,33 +22,33 @@ msgstr ""
 
 #: ../../upstream/docs/user/dmca/archive/2022-06-07.rst:4
 msgid "2022-06-07"
-msgstr ""
+msgstr "2022-06-07"
 
 #: ../../upstream/docs/user/dmca/archive/2022-06-07.rst:7
 msgid ""
 "The project maintainer was notified about this report and instructed to "
-"submit a counter if they believed this request was invalid. The user "
-"removed the project manually, and no further action was required."
-msgstr ""
+"submit a counter if they believed this request was invalid. The user removed"
+" the project manually, and no further action was required."
+msgstr "项目维护者已收到此报告的通知，并被指示若认为该请求无效可提交反通知。用户已手动移除该项目，无需进一步处理。"
 
 #: ../../upstream/docs/user/dmca/archive/2022-06-07.rst:11
 msgid ""
-"Are you the copyright owner or authorized to act on the copyright owner's"
-" behalf?"
-msgstr ""
+"Are you the copyright owner or authorized to act on the copyright owner's "
+"behalf?"
+msgstr "你是版权所有者，还是获授权代表版权所有者行事？"
 
 #: ../../upstream/docs/user/dmca/archive/2022-06-07.rst:12
 #: ../../upstream/docs/user/dmca/archive/2022-06-07.rst:36
 msgid "Yes"
-msgstr ""
+msgstr "是"
 
 #: ../../upstream/docs/user/dmca/archive/2022-06-07.rst:14
 msgid "What work was allegedly infringed? If possible, please provide a URL:"
-msgstr ""
+msgstr "涉嫌侵权的作品是什么？如可能，请提供 URL："
 
 #: ../../upstream/docs/user/dmca/archive/2022-06-07.rst:15
 msgid "https://www.dicomstandard.org/current"
-msgstr ""
+msgstr "https://www.dicomstandard.org/current"
 
 #: ../../upstream/docs/user/dmca/archive/2022-06-07.rst:17
 msgid ""
@@ -56,85 +56,83 @@ msgid ""
 "piece of infringing content. If you allege that the entire project is "
 "infringing on copyrights you hold, please specify the entire project as "
 "infringing:"
-msgstr ""
+msgstr "应下架哪些文件或项目？你应列出每一处侵权内容的 URL。若你主张整个项目侵犯你持有的版权，请将整个项目指定为侵权："
 
 #: ../../upstream/docs/user/dmca/archive/2022-06-07.rst:18
 msgid "https://dicom-standard.readthedocs.io/en/latest/index.html"
-msgstr ""
+msgstr "https://dicom-standard.readthedocs.io/en/latest/index.html"
 
 #: ../../upstream/docs/user/dmca/archive/2022-06-07.rst:20
 msgid "Is the work licensed under an open source license?"
-msgstr ""
+msgstr "该作品是否以开源许可证授权？"
 
 #: ../../upstream/docs/user/dmca/archive/2022-06-07.rst:21
 msgid "No"
-msgstr ""
+msgstr "否"
 
 #: ../../upstream/docs/user/dmca/archive/2022-06-07.rst:23
 msgid "What would be the best solution for the alleged infringement?"
-msgstr ""
+msgstr "对所涉嫌侵权，什么是最佳解决方案？"
 
 #: ../../upstream/docs/user/dmca/archive/2022-06-07.rst:24
 msgid "Complete Removal."
-msgstr ""
+msgstr "完全移除。"
 
 #: ../../upstream/docs/user/dmca/archive/2022-06-07.rst:26
 msgid ""
-"Do you have the alleged infringer's contact information? Yes. If so, "
-"please provide it:"
-msgstr ""
+"Do you have the alleged infringer's contact information? Yes. If so, please "
+"provide it:"
+msgstr "你是否有被指控侵权方的联系信息？是的话，请提供："
 
 #: ../../upstream/docs/user/dmca/archive/2022-06-07.rst:27
 #: ../../upstream/docs/user/dmca/archive/2022-06-07.rst:39
 #: ../../upstream/docs/user/dmca/archive/2022-06-07.rst:42
 msgid "[private]"
-msgstr ""
+msgstr "[private]"
 
 #: ../../upstream/docs/user/dmca/archive/2022-06-07.rst:29
 msgid ""
 "Type (or copy and paste) the following statement: \"I have a good faith "
 "belief that use of the copyrighted materials described above on the "
-"infringing web pages is not authorized by the copyright owner, or its "
-"agent, or the law. I have taken fair use into consideration.\""
-msgstr ""
+"infringing web pages is not authorized by the copyright owner, or its agent,"
+" or the law. I have taken fair use into consideration.\""
+msgstr "输入（或复制粘贴）以下声明：\"我善意相信，上述侵权网页中对所述受版权保护材料的使用，未经版权所有者或其代理人或法律授权。我已考虑合理使用。\""
 
 #: ../../upstream/docs/user/dmca/archive/2022-06-07.rst:30
 msgid ""
-"I have a good faith belief that use of the copyrighted materials "
-"described above on the infringing web pages is not authorized by the "
-"copyright owner, or its agent, or the law. I have taken fair use into "
-"consideration."
-msgstr ""
+"I have a good faith belief that use of the copyrighted materials described "
+"above on the infringing web pages is not authorized by the copyright owner, "
+"or its agent, or the law. I have taken fair use into consideration."
+msgstr "我善意相信，上述侵权网页中对所述受版权保护材料的使用，未经版权所有者或其代理人或法律授权。我已考虑合理使用。"
 
 #: ../../upstream/docs/user/dmca/archive/2022-06-07.rst:32
 msgid ""
-"Type (or copy and paste) the following statement: \"I swear, under "
-"penalty of perjury, that the information in this notification is accurate"
-" and that I am the copyright owner, or am authorized to act on behalf of "
-"the owner, of an exclusive right that is allegedly infringed.\""
-msgstr ""
+"Type (or copy and paste) the following statement: \"I swear, under penalty "
+"of perjury, that the information in this notification is accurate and that I"
+" am the copyright owner, or am authorized to act on behalf of the owner, of "
+"an exclusive right that is allegedly infringed.\""
+msgstr "输入（或复制粘贴）以下声明：\"我宣誓，在伪证处罚之下，本通知中的信息准确无误，且我是版权所有者，或获授权代表其所有者行事，主张一项涉嫌被侵犯的专有权。\""
 
 #: ../../upstream/docs/user/dmca/archive/2022-06-07.rst:33
 msgid ""
-"I swear, under penalty of perjury, that the information in this "
-"notification is accurate and that I am the copyright owner, or am "
-"authorized to act on behalf of the owner, of an exclusive right that is "
-"allegedly infringed."
-msgstr ""
+"I swear, under penalty of perjury, that the information in this notification"
+" is accurate and that I am the copyright owner, or am authorized to act on "
+"behalf of the owner, of an exclusive right that is allegedly infringed."
+msgstr "我宣誓，在伪证处罚之下，本通知中的信息准确无误，且我是版权所有者，或获授权代表其所有者行事，主张一项涉嫌被侵犯的专有权。"
 
 #: ../../upstream/docs/user/dmca/archive/2022-06-07.rst:35
 msgid ""
 "Please confirm that you have read our Takedown Policy: "
 "https://docs.readthedocs.io/en/latest/dmca/index.html"
-msgstr ""
+msgstr "请确认你已阅读我们的下架政策：https://docs.readthedocs.io/en/latest/dmca/index.html"
 
 #: ../../upstream/docs/user/dmca/archive/2022-06-07.rst:38
 msgid ""
-"So that we can get back to you, please provide either your telephone "
-"number or physical address:"
-msgstr ""
+"So that we can get back to you, please provide either your telephone number "
+"or physical address:"
+msgstr "为便于我们回复你，请提供你的电话号码或实际地址："
 
 #: ../../upstream/docs/user/dmca/archive/2022-06-07.rst:41
 msgid "Please type your full legal name below to sign this request:"
-msgstr ""
+msgstr "请在下方输入你的法定全名以签署本请求："
 

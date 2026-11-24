@@ -22,61 +22,61 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/edit-source-links-sphinx.rst:2
 msgid "Adding \"Edit Source\" links on your Sphinx theme"
-msgstr ""
+msgstr "在 Sphinx 主题中添加\"编辑源文件\"链接"
 
 #: ../../upstream/docs/user/guides/edit-source-links-sphinx.rst:4
 msgid ""
 "You can use define some Sphinx variables in the ``html_context`` to tell "
 "Read the Docs Sphinx theme to display \"Edit Source\" links on each page."
 msgstr ""
+"你可以在 ``html_context`` 中定义一些 Sphinx 变量，告知 Read the Docs Sphinx "
+"主题在每个页面上显示\"编辑源文件\"链接。"
 
 #: ../../upstream/docs/user/guides/edit-source-links-sphinx.rst:7
 msgid "More information can be found on `Sphinx documentation`_."
-msgstr ""
+msgstr "更多信息见 `Sphinx documentation`_ 。"
 
 #: ../../upstream/docs/user/guides/edit-source-links-sphinx.rst:13
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: ../../upstream/docs/user/guides/edit-source-links-sphinx.rst:15
 msgid ""
 "If you want to integrate GitHub, these are the required variables to put "
 "into your ``conf.py``::"
-msgstr ""
+msgstr "若要集成 GitHub，需将以下变量放入 ``conf.py``::"
 
 #: ../../upstream/docs/user/guides/edit-source-links-sphinx.rst:26
 #: ../../upstream/docs/user/guides/edit-source-links-sphinx.rst:48
 #: ../../upstream/docs/user/guides/edit-source-links-sphinx.rst:70
 msgid "They can be used like this::"
-msgstr ""
+msgstr "使用方式如下::"
 
 #: ../../upstream/docs/user/guides/edit-source-links-sphinx.rst:35
 msgid "Bitbucket"
-msgstr ""
+msgstr "Bitbucket"
 
 #: ../../upstream/docs/user/guides/edit-source-links-sphinx.rst:37
 msgid ""
-"If you want to integrate Bitbucket, these are the required variables to "
-"put into your ``conf.py``::"
-msgstr ""
+"If you want to integrate Bitbucket, these are the required variables to put "
+"into your ``conf.py``::"
+msgstr "若要集成 Bitbucket，需将以下变量放入 ``conf.py``::"
 
 #: ../../upstream/docs/user/guides/edit-source-links-sphinx.rst:57
 msgid "Gitlab"
-msgstr ""
+msgstr "GitLab"
 
 #: ../../upstream/docs/user/guides/edit-source-links-sphinx.rst:59
 msgid ""
 "If you want to integrate Gitlab, these are the required variables to put "
 "into your ``conf.py``::"
-msgstr ""
+msgstr "若要集成 GitLab，需将以下变量放入 ``conf.py``::"
 
 #: ../../upstream/docs/user/guides/edit-source-links-sphinx.rst:80
 msgid "Additional variables"
-msgstr ""
+msgstr "其他变量"
 
 #: ../../upstream/docs/user/guides/edit-source-links-sphinx.rst:82
-msgid ""
-"``'pagename'`` - Sphinx variable representing the name of the page you're"
-" on."
-msgstr ""
+msgid "``'pagename'`` - Sphinx variable representing the name of the page you're on."
+msgstr "``'pagename'`` - 表示当前页面名称的 Sphinx 变量。"
 

@@ -22,167 +22,184 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:-1
 msgid ""
-"Looking to optimize your documentation project for search engines? This "
-"SEO guide will help your docs be better understood by both people and "
-"crawlers as well as help you rank higher in search engine results."
-msgstr ""
+"Looking to optimize your documentation project for search engines? This SEO "
+"guide will help your docs be better understood by both people and crawlers "
+"as well as help you rank higher in search engine results."
+msgstr "想让你的文档项目在搜索引擎中获得更好排名吗？本 SEO 指南将帮助人和爬虫更好地理解你的文档，并提升你在搜索结果中的排名。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:2
 msgid "How to do search engine optimization (SEO) for documentation projects"
-msgstr ""
+msgstr "如何为文档项目做搜索引擎优化（SEO）"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:10
 msgid ""
-"This article explains how documentation can be optimized to appear in "
-"search results, ultimately increasing traffic to your docs."
-msgstr ""
+"This article explains how documentation can be optimized to appear in search"
+" results, ultimately increasing traffic to your docs."
+msgstr "本文讲解如何优化文档以出现在搜索结果中，最终为你的文档带来更多流量。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:13
 msgid ""
-"While you optimize your docs to make them more friendly for search engine"
-" spiders/crawlers, it's important to keep in mind that your ultimate goal"
-" is to make your docs more :term:`discoverable <discoverability>` for "
-"your users."
-msgstr ""
+"While you optimize your docs to make them more friendly for search engine "
+"spiders/crawlers, it's important to keep in mind that your ultimate goal is "
+"to make your docs more :term:`discoverable <discoverability>` for your "
+"users."
+msgstr "当你优化文档以使其对搜索引擎爬虫更友好时，请牢记最终目标是让你的文档对用户而言更 :term:`易于发现 <discoverability>` 。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:17
 msgid ""
 "By following :ref:`our best practices for SEO <guides/technical-docs-seo-"
 "guide:Best practices for documentation SEO>`, you can ensure that when a "
-"user types a question into a search engine, they can get the answers from"
-" your documentation in the search results."
+"user types a question into a search engine, they can get the answers from "
+"your documentation in the search results."
 msgstr ""
+"遵循 :ref:`我们的 SEO 最佳实践 <guides/technical-docs-seo-guide:Best practices for "
+"documentation SEO>` ，你可以确保用户在搜索引擎中输入问题时，能在搜索结果中从你的文档得到答案。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:23
 msgid ""
-"This guide isn't meant to be your only resource on SEO, and there's a lot"
-" of SEO topics not covered here. For additional reading, please see the "
+"This guide isn't meant to be your only resource on SEO, and there's a lot of"
+" SEO topics not covered here. For additional reading, please see the "
 ":ref:`external resources <guides/technical-docs-seo-guide:External "
 "resources>` section."
 msgstr ""
+"本指南不应成为你唯一的 SEO 参考，其中许多 SEO 主题未涉及。更多阅读请见 :ref:`外部资源 <guides/technical-docs-"
+"seo-guide:External resources>` 一节。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:30
 msgid "SEO basics"
-msgstr ""
+msgstr "SEO 基础"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:32
 msgid ""
 "Search engines like Google and Bing crawl through the internet following "
-"links in an attempt to understand and build an index of what various "
-"pages and sites are about. This is called \"crawling\" or \"indexing\". "
-"When a person sends a query to a search engine, the search engine "
-"evaluates this index using a number of factors and attempts to return the"
-" results most likely to answer that person's question."
+"links in an attempt to understand and build an index of what various pages "
+"and sites are about. This is called \"crawling\" or \"indexing\". When a "
+"person sends a query to a search engine, the search engine evaluates this "
+"index using a number of factors and attempts to return the results most "
+"likely to answer that person's question."
 msgstr ""
+"Google 和 Bing "
+"等搜索引擎通过跟随链接在互联网上爬取，试图理解并建立各类页面和站点的索引。这称为\"爬取\"或\"索引\"。当有人向搜索引擎发出查询时，搜索引擎会依据若干因素评估该索引，并尝试返回最可能回答该问题的结果。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:40
 msgid ""
-"How search engines \"rank\" sites based on a person's query is part of "
-"their secret sauce. While some search engines publish the basics of their"
-" algorithms (see Google's published details on PageRank), few search "
-"engines give all of the details in an attempt to prevent users from "
-"gaming the rankings with low value content which happens to rank well."
+"How search engines \"rank\" sites based on a person's query is part of their"
+" secret sauce. While some search engines publish the basics of their "
+"algorithms (see Google's published details on PageRank), few search engines "
+"give all of the details in an attempt to prevent users from gaming the "
+"rankings with low value content which happens to rank well."
 msgstr ""
+"搜索引擎如何基于用户查询对站点\"排名\"是它们的秘方所在。虽然有些搜索引擎会公布算法的基本原理（参见 Google 公开的 PageRank "
+"细节），但很少有搜索引擎披露全部细节，以防用户用碰巧排名不错的低价值内容来操纵排名。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:47
 msgid ""
 "Both `Google <https://support.google.com/webmasters/answer/35769>`_ and "
-"`Bing <https://www.bing.com/webmaster/help/webmaster-guidelines-"
-"30fba23a>`_ publish a set of guidelines to help make sites easier to "
-"understand for search engines and rank better. To summarize some of the "
-"most important aspects as they apply to technical documentation, your "
-"site should:"
+"`Bing <https://www.bing.com/webmaster/help/webmaster-guidelines-30fba23a>`_ "
+"publish a set of guidelines to help make sites easier to understand for "
+"search engines and rank better. To summarize some of the most important "
+"aspects as they apply to technical documentation, your site should:"
 msgstr ""
+"`Google <https://support.google.com/webmasters/answer/35769>`_ 和 `Bing "
+"<https://www.bing.com/webmaster/help/webmaster-guidelines-30fba23a>`_ "
+"都发布了一组指南，帮助站点更容易被搜索引擎理解并获得更好排名。总结其中与技术文档最相关的重要方面，你的站点应当："
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:53
 msgid ""
-"Use descriptive and accurate titles in the HTML ``<title>`` tag. For "
-"Sphinx, the ``<title>`` comes from the first heading on the page."
-msgstr ""
+"Use descriptive and accurate titles in the HTML ``<title>`` tag. For Sphinx,"
+" the ``<title>`` comes from the first heading on the page."
+msgstr "在 HTML ``<title>`` 标签中使用描述性且准确的标题。对 Sphinx 而言，``<title>`` 取自页面首个标题。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:55
 msgid ""
 "Ensure your URLs are descriptive. They are displayed in search results. "
 "Sphinx uses the source filename without the file extension as the URL."
-msgstr ""
+msgstr "确保 URL 具有描述性。它们会显示在搜索结果中。Sphinx 使用不带扩展名的源文件名作为 URL。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:57
 msgid ""
 "Make sure the words your readers would search for to find your site are "
 "actually included on your pages."
-msgstr ""
+msgstr "确保读者为找到你站点而会搜索的词语确实出现在你的页面中。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:59
 msgid "Avoid low content pages or pages with minimal original content."
-msgstr ""
+msgstr "避免低内容页面或原创内容极少的页面。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:60
 msgid ""
-"Avoid tactics that attempt to increase your search engine ranking without"
-" actually improving content."
-msgstr ""
+"Avoid tactics that attempt to increase your search engine ranking without "
+"actually improving content."
+msgstr "避免使用未真正改进内容却试图提升搜索排名的手段。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:62
 msgid ""
-"Google specifically `warns about automatically generated content`_ "
-"although this applies primarily to keyword stuffing and low value "
-"content. High quality documentation generated from source code (eg. auto "
-"generated API documentation) seems OK."
+"Google specifically `warns about automatically generated content`_ although "
+"this applies primarily to keyword stuffing and low value content. High "
+"quality documentation generated from source code (eg. auto generated API "
+"documentation) seems OK."
 msgstr ""
+"Google 特别 `warns about automatically generated content`_ "
+"，不过这主要针对关键词堆砌和低价值内容。从源代码生成的高质量文档（如自动生成的 API 文档）似乎没问题。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:69
 msgid ""
-"While both Google and Bing discuss site performance as an important "
-"factor in search result ranking, this guide is not going to discuss it in"
-" detail. Most technical documentation that uses Sphinx or Read the Docs "
-"generates static HTML and the performance is typically decent relative to"
-" most of the internet."
+"While both Google and Bing discuss site performance as an important factor "
+"in search result ranking, this guide is not going to discuss it in detail. "
+"Most technical documentation that uses Sphinx or Read the Docs generates "
+"static HTML and the performance is typically decent relative to most of the "
+"internet."
 msgstr ""
+"虽然 Google 和 Bing 都将站点性能视为搜索排名的的重要因素，本指南不打算详细讨论。使用 Sphinx 或 Read the Docs "
+"的大多数技术文档生成静态 HTML，相对互联网大部分站点而言性能通常不错。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:77
 msgid "Best practices for documentation SEO"
-msgstr ""
+msgstr "文档 SEO 最佳实践"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:79
 msgid ""
-"Once a crawler or spider finds your site, it will follow links and "
-"redirects in an attempt to find any and all pages on your site. While "
-"there are a few ways to guide the search engine in its crawl for example "
-"by using a :ref:`sitemap <seo_sitemap.xml>` or a :ref:`robots.txt file "
-"<seo_robots.txt>` which we'll discuss shortly, the most important thing "
-"is making sure the spider can follow links on your site and get to all "
-"your pages."
+"Once a crawler or spider finds your site, it will follow links and redirects"
+" in an attempt to find any and all pages on your site. While there are a few"
+" ways to guide the search engine in its crawl for example by using a "
+":ref:`sitemap <seo_sitemap.xml>` or a :ref:`robots.txt file "
+"<seo_robots.txt>` which we'll discuss shortly, the most important thing is "
+"making sure the spider can follow links on your site and get to all your "
+"pages."
 msgstr ""
+"一旦爬虫找到你的站点，它会跟随链接和重定向，试图找到你站点上的所有页面。虽然有几种方式可以引导搜索引擎的爬取，例如使用 :ref:`站点地图 "
+"<seo_sitemap.xml>` 或 :ref:`robots.txt 文件 <seo_robots.txt>` "
+"（稍后讨论），但最重要的是确保爬虫能跟随站点上的链接到达所有页面。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:89
 msgid "Avoid unlinked pages ✅️"
-msgstr ""
+msgstr "避免无链接页面 ✅️"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:91
 msgid ""
 "When building your documentation, you should ensure that pages aren't "
-"*unlinked*, meaning that no other pages or navigation have a link to "
-"them."
-msgstr ""
+"*unlinked*, meaning that no other pages or navigation have a link to them."
+msgstr "构建文档时，应确保页面不是*无链接的* ，即没有其他页面或导航链接到它们。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:95
 msgid ""
 "Search engine crawlers will not discover pages that aren't linked from "
 "somewhere else on your site."
-msgstr ""
+msgstr "搜索引擎爬虫不会发现那些站点内其他地方没有链接的页面。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:101
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:149
 msgid "Sphinx"
-msgstr ""
+msgstr "Sphinx"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:103
 msgid ""
-"Sphinx calls pages that don't have links to them \"orphans\" and will "
-"throw a warning while building documentation that contains an orphan "
-"unless the warning is silenced with the :ref:`orphan directive "
-"<sphinx:metadata>`."
+"Sphinx calls pages that don't have links to them \"orphans\" and will throw "
+"a warning while building documentation that contains an orphan unless the "
+"warning is silenced with the :ref:`orphan directive <sphinx:metadata>`."
 msgstr ""
+"Sphinx 把没有链接指向的页面称为\"孤儿\"，构建包含孤儿的文档时会发出警告，除非用 :ref:`orphan 指令 "
+"<sphinx:metadata>` 屏蔽该警告。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:107
 msgid ""
@@ -190,128 +207,148 @@ msgid ""
 "``fail_on_warnings`` option in :ref:`.readthedocs.yaml <config-"
 "file/v2:sphinx>`."
 msgstr ""
+"我们建议每当 Sphinx 发出警告时就让构建失败，可在 :ref:`.readthedocs.yaml <config-"
+"file/v2:sphinx>` 中使用 ``fail_on_warnings`` 选项。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:110
 msgid "Here is an example of a warning of an unreferenced page::"
-msgstr ""
+msgstr "以下是未引用页面的警告示例::"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:121
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:162
 msgid "MkDocs"
-msgstr ""
+msgstr "MkDocs"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:123
 msgid ""
-"MkDocs automatically includes all ``.md`` files in the main navigation "
-"💯️. This makes sure that all files are discoverable by default, however "
-"there are configurations that allow for unlinked files in various ways. "
-"If you want to scan your documentation for unreferenced files and images,"
-" a plugin like `mkdocs-unused-files`_ does the job."
+"MkDocs automatically includes all ``.md`` files in the main navigation 💯️. "
+"This makes sure that all files are discoverable by default, however there "
+"are configurations that allow for unlinked files in various ways. If you "
+"want to scan your documentation for unreferenced files and images, a plugin "
+"like `mkdocs-unused-files`_ does the job."
 msgstr ""
+"MkDocs 自动将所有 ``.md`` 文件纳入主导航 "
+"💯️，确保默认情况下所有文件都可被发现。不过也有多种配置方式允许存在无链接文件。若想扫描文档中未被引用的文件和图片，`mkdocs-unused-"
+"files`_ 之类的插件可以胜任。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:134
 msgid "Avoid uncrawlable content ✅️"
-msgstr ""
+msgstr "避免无法爬取的内容 ✅️"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:136
 msgid ""
-"While typically this isn't a problem with technical documentation, try to"
-" avoid content that is \"hidden\" from search engines. This includes "
-"content hidden in images or videos which the crawler may not understand. "
-"For example, if you do have a video in your docs, make sure the rest of "
-"that page describes the content of the video."
-msgstr ""
+"While typically this isn't a problem with technical documentation, try to "
+"avoid content that is \"hidden\" from search engines. This includes content "
+"hidden in images or videos which the crawler may not understand. For "
+"example, if you do have a video in your docs, make sure the rest of that "
+"page describes the content of the video."
+msgstr "虽然技术文档通常不存在此问题，但仍应尽量避免对搜索引擎\"隐藏\"的内容，包括隐藏在图片或视频中、爬虫可能无法理解的内容。例如，若文档中确有视频，请确保页面其余部分描述了该视频的内容。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:143
 msgid ""
-"When using images, make sure to set the image alt text or set a caption "
-"on figures."
-msgstr ""
+"When using images, make sure to set the image alt text or set a caption on "
+"figures."
+msgstr "使用图片时，请确保设置图片替代文本，或为图表设置标题。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:151
 msgid ""
 "For Sphinx, the image and figure directives support both alt texts and "
 "captions:"
-msgstr ""
+msgstr "在 Sphinx 中，image 和 figure 指令都支持替代文本和标题："
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:164
 msgid "The Markdown syntax defines an alt text for images:"
-msgstr ""
+msgstr "Markdown 语法为图片定义替代文本："
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:170
 msgid ""
-"Though HTML supports figures and captions, Markdown and MkDocs do not "
-"have a built-in feature. Instead, you can use markdown extensions such as"
-" `md-in-html`_ to allow the necessary HTML structures for including "
-"figures:"
+"Though HTML supports figures and captions, Markdown and MkDocs do not have a"
+" built-in feature. Instead, you can use markdown extensions such as `md-in-"
+"html`_ to allow the necessary HTML structures for including figures:"
 msgstr ""
+"虽然 HTML 支持图表和标题，Markdown 和 MkDocs 并无内置功能。你可以改用 `md-in-html`_ 等 Markdown "
+"扩展，以支持嵌入图表所需的 HTML 结构："
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:188
 msgid "Redirects ✅️"
-msgstr ""
+msgstr "重定向 ✅️"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:190
 msgid ""
-"Redirects tell search engines when content has moved. For example, if "
-"this guide moved from ``guides/technical-docs-seo-guide.html`` to "
-"``guides/sphinx-seo-guide.html``, there will be a time period where "
-"search engines will still have the old URL in their index and will still "
-"be showing it to users. This is why it is important to update your own "
-"links within your docs as well as redirecting. If the hostname moved from"
-" docs.readthedocs.io to docs.readthedocs.org, this would be even more "
-"important!"
+"Redirects tell search engines when content has moved. For example, if this "
+"guide moved from ``guides/technical-docs-seo-guide.html`` to ``guides"
+"/sphinx-seo-guide.html``, there will be a time period where search engines "
+"will still have the old URL in their index and will still be showing it to "
+"users. This is why it is important to update your own links within your docs"
+" as well as redirecting. If the hostname moved from docs.readthedocs.io to "
+"docs.readthedocs.org, this would be even more important!"
 msgstr ""
+"重定向告诉搜索引擎内容已迁移。例如，若本指南从 ``guides/technical-docs-seo-guide.html`` 移到 ``guides"
+"/sphinx-seo-guide.html`` ，会有一段时间搜索引擎索引中仍保留旧 URL "
+"并继续向用户展示。这就是为什么除了重定向之外，更新文档内部的链接也很重要。若主机名从 docs.readthedocs.io 变为 "
+"docs.readthedocs.org 就更如此！"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:197
 msgid ""
-"Read the Docs supports a few different kinds of :doc:`user defined "
-"redirects </user-defined-redirects>` that should cover all the different "
-"cases such as redirecting a certain page for all project versions, or "
-"redirecting one version to another."
+"Read the Docs supports a few different kinds of :doc:`user defined redirects"
+" </user-defined-redirects>` that should cover all the different cases such "
+"as redirecting a certain page for all project versions, or redirecting one "
+"version to another."
 msgstr ""
+"Read the Docs 支持多种 :doc:`用户自定义重定向 </user-defined-redirects>` "
+"，可覆盖各种情形，例如为所有项目版本重定向某个页面，或把一个版本重定向到另一个版本。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:207
 msgid "Canonical URLs ✅️"
-msgstr ""
+msgstr "规范 URL ✅️"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:209
 msgid ""
 "Anytime very similar content is hosted at multiple URLs, it is pretty "
 "important to set a canonical URL. The canonical URL tells search engines "
-"where the original version your documentation is even if you have "
-"multiple versions on the internet (for example, incomplete translations "
-"or deprecated versions)."
+"where the original version your documentation is even if you have multiple "
+"versions on the internet (for example, incomplete translations or deprecated"
+" versions)."
 msgstr ""
+"当非常相似的内容托管在多个 URL 上时，设置规范 URL 就相当重要。即使你的文档在互联网上有多个版本（如未完成的翻译或已废弃的版本），规范 URL "
+"也能告诉搜索引擎哪个是原始版本。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:215
 msgid ""
-"Read the Docs supports :doc:`setting the canonical URL </canonical-urls>`"
-" if you are using a :doc:`custom domain </custom-domains>` in your "
-"project's :menuselection:`Settings --> Domains`."
+"Read the Docs supports :doc:`setting the canonical URL </canonical-urls>` if"
+" you are using a :doc:`custom domain </custom-domains>` in your project's "
+":menuselection:`Settings --> Domains`."
 msgstr ""
+"若你在项目 :menuselection:`Settings --> Domains` 中使用 :doc:`自定义域名 </custom-"
+"domains>` ，Read the Docs 支持 :doc:`设置规范 URL </canonical-urls>` 。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:223
 msgid "Use a robots.txt file ✅️"
-msgstr ""
+msgstr "使用 robots.txt 文件 ✅️"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:225
 msgid ""
-"A ``robots.txt`` file is readable by crawlers and lives at the root of "
-"your site (eg. https://docs.readthedocs.com/robots.txt). It tells search "
-"engines which pages to crawl or not to crawl and can allow you to control"
-" how a search engine crawls your site. For example, you may want to "
-"request that search engines :ref:`ignore unsupported versions of your "
-"documentation <faq:How can I avoid search results having a deprecated "
-"version of my docs?>` while keeping those docs online in case people need"
-" them."
+"A ``robots.txt`` file is readable by crawlers and lives at the root of your "
+"site (eg. https://docs.readthedocs.com/robots.txt). It tells search engines "
+"which pages to crawl or not to crawl and can allow you to control how a "
+"search engine crawls your site. For example, you may want to request that "
+"search engines :ref:`ignore unsupported versions of your documentation "
+"<faq:How can I avoid search results having a deprecated version of my "
+"docs?>` while keeping those docs online in case people need them."
 msgstr ""
+"``robots.txt`` 文件可供爬虫读取，位于站点根目录（如 "
+"https://docs.readthedocs.com/robots.txt）。它告诉搜索引擎哪些页面该爬取、哪些不该，并让你控制搜索引擎的爬取方式。例如，你可能希望搜索引擎"
+" :ref:`忽略不受支持的文档版本 <faq:How can I avoid search results having a deprecated "
+"version of my docs?>` ，同时保留这些文档在线以备用户需要。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:233
 msgid ""
-"By default, Read the Docs serves a ``robots.txt`` for you. To customize "
-"this file, you can create a ``robots.txt`` file that is written to your "
+"By default, Read the Docs serves a ``robots.txt`` for you. To customize this"
+" file, you can create a ``robots.txt`` file that is written to your "
 "documentation root on your default branch/version."
 msgstr ""
+"默认情况下，Read the Docs 会为你提供 ``robots.txt`` 。要自定义该文件，可创建一个写入默认分支/版本文档根目录的 "
+"``robots.txt`` 文件。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:237
 msgid ""
@@ -319,182 +356,207 @@ msgid ""
 "<https://support.google.com/webmasters/answer/6062608>`_ for additional "
 "details."
 msgstr ""
+"更多细节见 `Google 关于 robots.txt 的文档 "
+"<https://support.google.com/webmasters/answer/6062608>`_ 。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:243
 msgid "Use a sitemap.xml file ✅️"
-msgstr ""
+msgstr "使用 sitemap.xml 文件 ✅️"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:245
 msgid ""
-"A sitemap is a file readable by crawlers that contains a list of pages "
-"and other files on your site and some metadata or relationships about "
-"them (eg. https://docs.readthedocs.com/sitemap.xml). A good sitemaps "
-"provides information like how frequently a page or file is updated or any"
-" alternate language versions of a page."
+"A sitemap is a file readable by crawlers that contains a list of pages and "
+"other files on your site and some metadata or relationships about them (eg. "
+"https://docs.readthedocs.com/sitemap.xml). A good sitemaps provides "
+"information like how frequently a page or file is updated or any alternate "
+"language versions of a page."
 msgstr ""
+"站点地图是供爬虫读取的文件，包含站点上页面和其他文件的列表及其元数据或关系（如 "
+"https://docs.readthedocs.com/sitemap.xml）。一份好的站点地图会提供诸如页面或文件的更新频率、页面的其他语言版本等信息。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:251
 msgid ""
-"Read the Docs generates a sitemap for you that contains the last time "
-"your documentation was updated as well as links to active versions, "
-"subprojects, and translations your project has. We have a small separate "
-"guide on :doc:`sitemaps </reference/sitemaps>`."
+"Read the Docs generates a sitemap for you that contains the last time your "
+"documentation was updated as well as links to active versions, subprojects, "
+"and translations your project has. We have a small separate guide on "
+":doc:`sitemaps </reference/sitemaps>`."
 msgstr ""
+"Read the Docs 会为你生成站点地图，其中包含文档最后更新时间，以及指向项目活跃版本、子项目和翻译的链接。我们另有一篇简短的 "
+":doc:`站点地图 </reference/sitemaps>` 指南。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:255
 msgid ""
 "See the `Google docs on building a sitemap "
 "<https://support.google.com/webmasters/answer/183668>`_."
 msgstr ""
+"参见 `Google 关于构建站点地图的文档 "
+"<https://support.google.com/webmasters/answer/183668>`_ 。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:259
 msgid "Use meta tags ✅️"
-msgstr ""
+msgstr "使用 meta 标签 ✅️"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:261
 msgid ""
 "Using a meta description allows you to customize how your pages look in "
 "search engine result pages."
-msgstr ""
+msgstr "使用 meta description 可让你自定义页面在搜索结果页中的显示方式。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:264
 msgid ""
-"Typically search engines will use the first few sentences of a page if no"
-" meta description is provided. In Sphinx, you can customize your meta "
+"Typically search engines will use the first few sentences of a page if no "
+"meta description is provided. In Sphinx, you can customize your meta "
 "description using the following RestructuredText:"
 msgstr ""
+"通常未提供 meta description 时，搜索引擎会使用页面开头几句。在 Sphinx 中，可用以下 reStructuredText 自定义 "
+"meta description："
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:279
 msgid "Google search engine results showing a customized meta description"
-msgstr ""
+msgstr "显示自定义 meta description 的 Google 搜索结果"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:281
 msgid ""
 "Moz.com, an authority on search engine optimization, makes the following "
 "suggestions for meta descriptions:"
-msgstr ""
+msgstr "搜索引擎优化权威站点 Moz.com 对 meta description 提出以下建议："
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:284
 msgid ""
-"Your meta description should have the most relevant content of the page. "
-"A searcher should know whether they've found the right page from the "
+"Your meta description should have the most relevant content of the page. A "
+"searcher should know whether they've found the right page from the "
 "description."
-msgstr ""
+msgstr "你的 meta description 应包含页面中最相关的内容。搜索者应能从中判断是否找到了正确的页面。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:286
 msgid ""
 "The meta description should be between 150-300 characters and it may be "
 "truncated down to around 150 characters in some situations."
-msgstr ""
+msgstr "meta description 应在 150–300 字符之间，在某些情况下可能被截断到约 150 字符。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:288
 msgid "Meta descriptions are used for display but not for ranking."
-msgstr ""
+msgstr "meta description 用于展示，不用于排名。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:290
 msgid ""
 "Search engines don't always use your customized meta description if they "
 "think a snippet from the page is a better description."
-msgstr ""
+msgstr "若搜索引擎认为页面中的片段是更好的描述，它们不一定会使用你自定义的 meta description。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:294
 msgid "Measure, iterate, & improve"
-msgstr ""
+msgstr "度量、迭代与改进"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:296
 msgid ""
-"Search engines (and soon, Read the Docs itself) can provide useful data "
-"that you can use to improve your docs' ranking on search engines."
-msgstr ""
+"Search engines (and soon, Read the Docs itself) can provide useful data that"
+" you can use to improve your docs' ranking on search engines."
+msgstr "搜索引擎（以及不久后的 Read the Docs 自身）能提供有用数据，帮助你改善文档在搜索引擎中的排名。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:301
 msgid "Search engine feedback"
-msgstr ""
+msgstr "搜索引擎反馈"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:303
 msgid ""
 "`Google Search Console <https://search.google.com/search-console>`_ and "
 "`Bing Webmaster Tools <https://www.bing.com/webmaster/help/webmaster-"
-"guidelines-30fba23a>`_ are tools for webmasters to get feedback about the"
-" crawling of their sites (or docs in our case). Some of the most valuable"
-" feedback these provide include:"
+"guidelines-30fba23a>`_ are tools for webmasters to get feedback about the "
+"crawling of their sites (or docs in our case). Some of the most valuable "
+"feedback these provide include:"
 msgstr ""
+"`Google Search Console <https://search.google.com/search-console>`_ 和 `Bing "
+"Webmaster Tools <https://www.bing.com/webmaster/help/webmaster-guidelines-"
+"30fba23a>`_ 是供站长了解站点（在我们的场景下即文档）爬取情况的工具。它们提供的最有价值的反馈包括："
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:309
 msgid ""
-"Google and Bing will show pages that were previously indexed that now "
-"give a 404 (or more rarely a 500 or other status code). These will remain"
-" in the index for some time but will eventually be removed. This is a "
-"good opportunity to create a :ref:`redirect <seo_redirects>`."
+"Google and Bing will show pages that were previously indexed that now give a"
+" 404 (or more rarely a 500 or other status code). These will remain in the "
+"index for some time but will eventually be removed. This is a good "
+"opportunity to create a :ref:`redirect <seo_redirects>`."
 msgstr ""
+"Google 和 Bing 会显示此前已被索引、现在返回 404（或更少见地返回 500 "
+"等其他状态码）的页面。这些页面会在索引中保留一段时间，最终被移除。此时正是创建 :ref:`重定向 <seo_redirects>` 的好时机。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:313
 msgid "These tools will show any crawl issues with your documentation."
-msgstr ""
+msgstr "这些工具会显示你的文档中的爬取问题。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:314
 msgid ""
-"Search Console and Webmaster Tools will highlight security issues found "
-"or if Google or Bing took action against your site because they believe "
-"it is spammy."
+"Search Console and Webmaster Tools will highlight security issues found or "
+"if Google or Bing took action against your site because they believe it is "
+"spammy."
 msgstr ""
+"Search Console 和 Webmaster Tools 会突出显示发现的安全问题，或 Google、Bing "
+"因认为你的站点含垃圾内容而对其采取的措施。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:319
 msgid "Analytics tools"
-msgstr ""
+msgstr "分析工具"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:321
 msgid ""
-"A tool like Google Analytics, along with our :doc:`integrated Read the "
-"Docs analytics </traffic-analytics>`, can give you feedback about the "
-"search terms people use to find your docs, your most popular pages, and "
-"lots of other useful data."
+"A tool like Google Analytics, along with our :doc:`integrated Read the Docs "
+"analytics </traffic-analytics>`, can give you feedback about the search "
+"terms people use to find your docs, your most popular pages, and lots of "
+"other useful data."
 msgstr ""
+"Google Analytics 之类的工具，加上我们 :doc:`集成的 Read the Docs 分析 </traffic-analytics>`"
+" ，能给你关于人们用来找到你文档的搜索词、最受欢迎页面以及大量其他有用数据的反馈。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:326
 msgid ""
-"Search term feedback can be used to help you optimize content for certain"
-" keywords or for related keywords. For Sphinx documentation, or other "
-"technical documentation that has its own search features, analytics tools"
-" can also tell you the terms people search for within your site."
-msgstr ""
+"Search term feedback can be used to help you optimize content for certain "
+"keywords or for related keywords. For Sphinx documentation, or other "
+"technical documentation that has its own search features, analytics tools "
+"can also tell you the terms people search for within your site."
+msgstr "搜索词反馈可帮助你针对特定关键词或相关关键词优化内容。对 Sphinx 文档或其他自带搜索功能的技术文档，分析工具还能告诉你用户在站点内搜索的词。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:330
 msgid ""
-"Knowing your popular pages can help you prioritize where to spend your "
-"SEO efforts. Optimizing your already popular pages can have a significant"
-" impact."
-msgstr ""
+"Knowing your popular pages can help you prioritize where to spend your SEO "
+"efforts. Optimizing your already popular pages can have a significant "
+"impact."
+msgstr "了解哪些页面受欢迎，可帮助你确定 SEO 投入的优先顺序。优化已受欢迎的页面能带来显著影响。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:335
 msgid "External resources"
-msgstr ""
+msgstr "外部资源"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:337
 msgid ""
 "Here are a few additional resources to help you learn more about SEO and "
 "rank better with search engines."
-msgstr ""
+msgstr "以下是一些额外资源，帮助你进一步了解 SEO 并在搜索引擎中获得更好排名。"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:340
 msgid "`Moz's beginners guide to SEO <https://moz.com/beginners-guide-to-seo>`_"
-msgstr ""
+msgstr "`Moz's beginners guide to SEO <https://moz.com/beginners-guide-to-seo>`_"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:341
 msgid ""
 "`Google's Webmaster Guidelines "
 "<https://support.google.com/webmasters/answer/35769>`_"
 msgstr ""
+"`Google's Webmaster Guidelines "
+"<https://support.google.com/webmasters/answer/35769>`_"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:342
 msgid ""
-"`Bing's Webmaster Guidelines <https://www.bing.com/webmaster/help"
-"/webmaster-guidelines-30fba23a>`_"
+"`Bing's Webmaster Guidelines <https://www.bing.com/webmaster/help/webmaster-"
+"guidelines-30fba23a>`_"
 msgstr ""
+"`Bing's Webmaster Guidelines <https://www.bing.com/webmaster/help/webmaster-"
+"guidelines-30fba23a>`_"
 
 #: ../../upstream/docs/user/guides/technical-docs-seo-guide.rst:343
 msgid ""
 "`Google's SEO Starter Guide "
 "<https://support.google.com/webmasters/answer/7451184>`_"
 msgstr ""
+"`Google's SEO Starter Guide "
+"<https://support.google.com/webmasters/answer/7451184>`_"
 

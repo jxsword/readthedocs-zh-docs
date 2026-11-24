@@ -22,113 +22,120 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/environment-variables.rst:2
 msgid "How to use custom environment variables"
-msgstr ""
+msgstr "如何使用自定义环境变量"
 
 #: ../../upstream/docs/user/guides/environment-variables.rst:4
 msgid ""
 "If extra environment variables are needed in the build process, you can "
 "define them from the project's :term:`dashboard`."
-msgstr ""
+msgstr "若构建过程中需要额外的环境变量，可从项目的 :term:`dashboard` 定义。"
 
 #: ../../upstream/docs/user/guides/environment-variables.rst:9
 msgid ":doc:`/environment-variables`"
-msgstr ""
+msgstr ":doc:`/environment-variables`"
 
 #: ../../upstream/docs/user/guides/environment-variables.rst:10
 msgid ""
 "Learn more about how Read the Docs applies environment variables in your "
 "builds."
-msgstr ""
+msgstr "进一步了解 Read the Docs 如何在构建中应用环境变量。"
 
 #: ../../upstream/docs/user/guides/environment-variables.rst:12
 msgid ""
-"Go to your project's :menuselection:`Settings --> Environment variables` "
-"and click on :guilabel:`Add variable`. You will then see the form for "
-"adding an environment variable:"
+"Go to your project's :menuselection:`Settings --> Environment variables` and"
+" click on :guilabel:`Add variable`. You will then see the form for adding an"
+" environment variable:"
 msgstr ""
+"前往项目的 :menuselection:`Settings --> Environment variables` 并点击 :guilabel:`Add"
+" variable` 。随后会看到添加环境变量的表单："
 
 #: ../../upstream/docs/user/guides/environment-variables.rst:15
 msgid "Screenshot of the form for adding an environment variable"
-msgstr ""
+msgstr "添加环境变量表单截图"
 
 #: ../../upstream/docs/user/guides/environment-variables.rst:18
 msgid ""
-"Fill in the :guilabel:`Name` field, this is the name of your variable, "
-"for instance ``SECRET_TOKEN`` or ``PIP_EXTRA_INDEX_URL``."
-msgstr ""
+"Fill in the :guilabel:`Name` field, this is the name of your variable, for "
+"instance ``SECRET_TOKEN`` or ``PIP_EXTRA_INDEX_URL``."
+msgstr "填写 :guilabel:`Name` 字段，这是变量名，例如 ``SECRET_TOKEN`` 或 ``PIP_EXTRA_INDEX_URL`` 。"
 
 #: ../../upstream/docs/user/guides/environment-variables.rst:19
 msgid ""
-"Fill in the :guilabel:`Value` field with the environment variable's "
-"value, for instance a secret token or a build configuration."
-msgstr ""
+"Fill in the :guilabel:`Value` field with the environment variable's value, "
+"for instance a secret token or a build configuration."
+msgstr "在 :guilabel:`Value` 字段中填写环境变量的值，例如机密令牌或构建配置。"
 
 #: ../../upstream/docs/user/guides/environment-variables.rst:20
 msgid ""
-"Check the :guilabel:`Public` option if you want to expose this "
-"environment variable to :doc:`builds from pull requests </pull-"
-"requests>`."
+"Check the :guilabel:`Public` option if you want to expose this environment "
+"variable to :doc:`builds from pull requests </pull-requests>`."
 msgstr ""
+"若想向 :doc:`Pull Request 构建 </pull-requests>` 暴露此环境变量，请勾选 :guilabel:`Public` "
+"选项。"
 
 #: ../../upstream/docs/user/guides/environment-variables.rst:25
 msgid ""
-"If you make your environment variable **public**, any user that can "
-"create a pull request on your repository will be able to see the value of"
-" this environment variable. In other words, **do not use this option if "
-"your environment variable is a secret.**"
+"If you make your environment variable **public**, any user that can create a"
+" pull request on your repository will be able to see the value of this "
+"environment variable. In other words, **do not use this option if your "
+"environment variable is a secret.**"
 msgstr ""
+"若将环境变量设为**公开** ，任何能在你的仓库创建 Pull Request "
+"的用户都能看到该变量的值。换句话说，**若环境变量是机密，请勿使用此选项。**"
 
 #: ../../upstream/docs/user/guides/environment-variables.rst:30
 msgid ""
-"Finally, click on :guilabel:`Add variable`. Your custom environment "
-"variable is immediately active for all future builds and you are ready to"
-" start using it."
-msgstr ""
+"Finally, click on :guilabel:`Add variable`. Your custom environment variable"
+" is immediately active for all future builds and you are ready to start "
+"using it."
+msgstr "最后点击 :guilabel:`Add variable` 。你的自定义环境变量立即对所有后续构建生效，可以开始使用了。"
 
 #: ../../upstream/docs/user/guides/environment-variables.rst:34
 msgid ""
-"Note that once you create an environment variable, you won't be able to "
-"edit or view its value. The only way to edit an environment variable is "
-"to delete and create it again."
-msgstr ""
+"Note that once you create an environment variable, you won't be able to edit"
+" or view its value. The only way to edit an environment variable is to "
+"delete and create it again."
+msgstr "请注意，环境变量创建后无法再编辑或查看其值。修改环境变量的唯一方式是删除后重新创建。"
 
 #: ../../upstream/docs/user/guides/environment-variables.rst:38
 msgid "Keep reading for a few examples of using environment variables. ⬇️"
-msgstr ""
+msgstr "继续阅读，了解几个环境变量的使用示例。⬇️"
 
 #: ../../upstream/docs/user/guides/environment-variables.rst:41
 msgid "Accessing environment variables in code"
-msgstr ""
+msgstr "在代码中访问环境变量"
 
 #: ../../upstream/docs/user/guides/environment-variables.rst:43
 msgid ""
 "After adding an environment variable, you can read it from your build "
 "process, for example in your Sphinx's configuration file:"
-msgstr ""
+msgstr "添加环境变量后，可在构建过程中读取它，例如在 Sphinx 配置文件中："
 
 #: ../../upstream/docs/user/guides/environment-variables.rst:47
 msgid "conf.py"
-msgstr ""
+msgstr "conf.py"
 
 #: ../../upstream/docs/user/guides/environment-variables.rst:64
 msgid "Accessing environment variables in build commands"
-msgstr ""
+msgstr "在构建命令中访问环境变量"
 
 #: ../../upstream/docs/user/guides/environment-variables.rst:66
 msgid ""
-"You can also use any of these variables from :term:`user-defined build "
-"jobs` in your project's configuration file:"
-msgstr ""
+"You can also use any of these variables from :term:`user-defined build jobs`"
+" in your project's configuration file:"
+msgstr "你也可以在项目配置文件的 :term:`user-defined build jobs` 中使用这些变量："
 
 #: ../../upstream/docs/user/guides/environment-variables.rst:68
 msgid ".readthedocs.yaml"
-msgstr ""
+msgstr ".readthedocs.yaml"
 
 #: ../../upstream/docs/user/guides/environment-variables.rst:82
 #, python-brace-format
 msgid ""
 "If you use ``${SECRET_ENV}`` in a command in ``.readthedocs.yaml``, the "
-"private value of the environment variable is not substituted in log "
-"entries of the command. It will also be logged as ``${SECRET_ENV}``."
+"private value of the environment variable is not substituted in log entries "
+"of the command. It will also be logged as ``${SECRET_ENV}``."
 msgstr ""
+"若在 ``.readthedocs.yaml`` 的命令中使用 ``${SECRET_ENV}`` "
+"，环境变量的私有值不会在命令日志中被替换，日志中同样记录为 ``${SECRET_ENV}`` 。"
 

@@ -22,101 +22,110 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/build-using-too-many-resources.rst:2
 msgid "Troubleshooting slow builds"
-msgstr ""
+msgstr "排查构建缓慢问题"
 
 #: ../../upstream/docs/user/guides/build-using-too-many-resources.rst:4
 msgid ""
-"This page contains a list of the most common issues that are slowing down"
-" builds."
-msgstr ""
+"This page contains a list of the most common issues that are slowing down "
+"builds."
+msgstr "本页列出拖慢构建的最常见问题。"
 
 #: ../../upstream/docs/user/guides/build-using-too-many-resources.rst:6
 msgid ""
-"In case you are waiting a long time for your builds to finish or your "
-"builds are terminated by exceeding general resource limits, this "
-"troubleshooting guide will help you resolve some of the most common "
-"issues causing slow builds. Even if you are not facing any immediate "
-"performance issues, it's always good to be familiar with the most common "
-"ones."
-msgstr ""
+"In case you are waiting a long time for your builds to finish or your builds"
+" are terminated by exceeding general resource limits, this troubleshooting "
+"guide will help you resolve some of the most common issues causing slow "
+"builds. Even if you are not facing any immediate performance issues, it's "
+"always good to be familiar with the most common ones."
+msgstr "若你等待构建完成耗时过长，或构建因超出通用资源限制而被终止，本排查指南可帮你解决导致构建缓慢的若干常见问题。即使你当前没有性能问题，熟悉这些常见问题也总有好处。"
 
 #: ../../upstream/docs/user/guides/build-using-too-many-resources.rst:12
 msgid ""
-"Build resources on Read the Docs are limited to make sure that users "
-"don't overwhelm our build systems. The current build limits can be found "
-"on our :ref:`Build resources reference <builds:Build resources>`."
+"Build resources on Read the Docs are limited to make sure that users don't "
+"overwhelm our build systems. The current build limits can be found on our "
+":ref:`Build resources reference <builds:Build resources>`."
 msgstr ""
+"Read the Docs 上的构建资源有限制，以确保用户不会压垮我们的构建系统。当前构建限制见我们的 :ref:`构建资源参考 "
+"<builds:Build resources>` 。"
 
 #: ../../upstream/docs/user/shared/contribute-to-troubleshooting.rst:3
 msgid ""
 "Please help us keep this section updated and contribute your own error "
-"resolutions, performance improvements, etc. Send in your helpful comments"
-" or ideas 💡 to support@readthedocs.org or contribute directly by clicking"
-" :guilabel:`Edit on GitHub` in the top right corner of this page."
+"resolutions, performance improvements, etc. Send in your helpful comments or"
+" ideas 💡 to support@readthedocs.org or contribute directly by clicking "
+":guilabel:`Edit on GitHub` in the top right corner of this page."
 msgstr ""
+"请帮助我们保持本节内容更新，贡献你自己的错误解决方案、性能改进等。将你的宝贵建议或想法 💡 发送至 "
+"support@readthedocs.org，或直接点击本页右上角的 :guilabel:`Edit on GitHub` 提交贡献。"
 
 #: ../../upstream/docs/user/guides/build-using-too-many-resources.rst:18
 msgid "Reduce formats you're building"
-msgstr ""
+msgstr "减少构建的格式"
 
 #: ../../upstream/docs/user/guides/build-using-too-many-resources.rst:20
 msgid ""
 "You can change the formats of docs that you're building with our :doc"
 ":`/config-file/index`, see :ref:`config-file/v2:formats`."
-msgstr ""
+msgstr "你可以通过 :doc:`/config-file/index` 更改构建的文档格式，参见 :ref:`config-file/v2:formats` 。"
 
 #: ../../upstream/docs/user/guides/build-using-too-many-resources.rst:23
 msgid ""
-"In particular, the ``htmlzip`` takes up a decent amount of memory and "
-"time, so disabling that format might solve your problem."
-msgstr ""
+"In particular, the ``htmlzip`` takes up a decent amount of memory and time, "
+"so disabling that format might solve your problem."
+msgstr "特别是 ``htmlzip`` 会占用相当多的内存和时间，禁用该格式或许能解决你的问题。"
 
 #: ../../upstream/docs/user/guides/build-using-too-many-resources.rst:27
 msgid "Reduce documentation build dependencies"
-msgstr ""
+msgstr "减少文档构建依赖"
 
 #: ../../upstream/docs/user/guides/build-using-too-many-resources.rst:29
 msgid ""
 "A lot of projects reuse their requirements file for their documentation "
-"builds. If there are extra packages that you don't need for building "
-"docs, you can create a custom requirements file just for documentation. "
-"This should speed up your documentation builds, as well as reduce your "
-"memory footprint."
+"builds. If there are extra packages that you don't need for building docs, "
+"you can create a custom requirements file just for documentation. This "
+"should speed up your documentation builds, as well as reduce your memory "
+"footprint."
 msgstr ""
+"许多项目复用其 requirements 文件进行文档构建。若其中有构建文档并不需要的额外包，可为文档单独创建自定义 requirements "
+"文件。这能加快文档构建并减少内存占用。"
 
 #: ../../upstream/docs/user/guides/build-using-too-many-resources.rst:36
 msgid "Use mamba instead of conda"
-msgstr ""
+msgstr "用 mamba 替代 conda"
 
 #: ../../upstream/docs/user/guides/build-using-too-many-resources.rst:38
 msgid ""
-"If you need conda packages to build your documentation, you can :ref:`use"
-" mamba as a drop-in replacement to conda <guides/conda:Making builds "
-"faster with mamba>`, which requires less memory and is noticeably faster."
+"If you need conda packages to build your documentation, you can :ref:`use "
+"mamba as a drop-in replacement to conda <guides/conda:Making builds faster "
+"with mamba>`, which requires less memory and is noticeably faster."
 msgstr ""
+"若构建文档需要 conda 包，可 :ref:`用 mamba 直接替代 conda <guides/conda:Making builds "
+"faster with mamba>` ，它内存占用更少且明显更快。"
 
 #: ../../upstream/docs/user/guides/build-using-too-many-resources.rst:43
 msgid "Document Python modules API statically"
-msgstr ""
+msgstr "静态生成 Python 模块 API 文档"
 
 #: ../../upstream/docs/user/guides/build-using-too-many-resources.rst:45
 msgid ""
 "If you are installing a lot of Python dependencies just to document your "
 "Python modules API using ``sphinx.ext.autodoc``, you can give a try to "
-"`sphinx-autoapi`_ Sphinx's extension instead which should produce the "
-"exact same output but running statically. This could drastically reduce "
-"the memory and bandwidth required to build your docs."
+"`sphinx-autoapi`_ Sphinx's extension instead which should produce the exact "
+"same output but running statically. This could drastically reduce the memory"
+" and bandwidth required to build your docs."
 msgstr ""
+"若你仅为用 ``sphinx.ext.autodoc`` 生成 Python 模块 API 文档而安装大量 Python 依赖，可改用 Sphinx "
+"扩展 `sphinx-autoapi`_ ，它输出完全相同但以静态方式运行，能大幅减少构建文档所需的内存和带宽。"
 
 #: ../../upstream/docs/user/guides/build-using-too-many-resources.rst:52
 msgid "Requests more resources"
-msgstr ""
+msgstr "申请更多资源"
 
 #: ../../upstream/docs/user/guides/build-using-too-many-resources.rst:54
 msgid ""
 "If you still have problems building your documentation, we can increase "
 "build limits on a per-project basis, sending an email to "
-"support@readthedocs.org providing a good reason why your documentation "
-"needs more resources."
-msgstr ""
+"support@readthedocs.org providing a good reason why your documentation needs"
+" more resources."
+msgstr "若构建文档仍有问题，我们可按项目提高构建限制。请发送邮件至 support@readthedocs.org，并说明文档需要更多资源的充分理由。"
 

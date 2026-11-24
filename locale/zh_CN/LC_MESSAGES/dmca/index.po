@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../upstream/docs/user/dmca/index.rst:2
 msgid "DMCA takedown policy"
-msgstr ""
+msgstr "DMCA 下架政策"
 
 #: ../../upstream/docs/user/dmca/index.rst:4
 msgid ""
@@ -30,228 +30,242 @@ msgid ""
 "takedown requests and takedown counter requests. If you are a copyright "
 "holder wishing to submit a takedown request, or an author that has been "
 "notified of a takedown request, please familiarize yourself with `our "
-"process`__. You will be asked to confirm that you have reviewed "
-"information if you submit a request or counter request."
+"process`__. You will be asked to confirm that you have reviewed information "
+"if you submit a request or counter request."
 msgstr ""
+"以下是 Read the Docs 在处理 DMCA "
+"下架请求和下架反通知请求时遵循的准则。若你是希望提交下架请求的版权所有者，或是收到下架请求通知的作者，请熟悉 `our process`__ "
+"。提交请求或反通知请求时，你会被要求确认已阅读相关信息。"
 
 #: ../../upstream/docs/user/dmca/index.rst:13
 msgid ""
-"We aim to keep this entire process as transparent as possible. Our "
-"process is modeled after `GitHub's DMCA takedown process`__, which we "
-"appreciate for its focus on transparency and fairness. All requests and "
-"counter requests will be posted to this page below, in the `Request "
-"Archive`_. These requests will be redacted to remove all identifying "
-"information, except for Read the Docs user and project names."
+"We aim to keep this entire process as transparent as possible. Our process "
+"is modeled after `GitHub's DMCA takedown process`__, which we appreciate for"
+" its focus on transparency and fairness. All requests and counter requests "
+"will be posted to this page below, in the `Request Archive`_. These requests"
+" will be redacted to remove all identifying information, except for Read the"
+" Docs user and project names."
 msgstr ""
+"我们的目标是让整个流程尽可能透明。本流程参照 `GitHub's DMCA takedown process`__ "
+"制定，我们赞赏其对透明与公正的注重。所有请求和反通知请求都会发布在本页下方的 `Request Archive`_ "
+"中。这些请求会做删节处理以移除所有身份信息，但保留 Read the Docs 用户名和项目名。"
 
 #: ../../upstream/docs/user/dmca/index.rst:23
 msgid "Takedown process"
-msgstr ""
+msgstr "下架流程"
 
 #: ../../upstream/docs/user/dmca/index.rst:25
 msgid ""
 "Here are the steps the Read the Docs will follow in the takedown request "
 "process:"
-msgstr ""
+msgstr "Read the Docs 在下架请求流程中将遵循以下步骤："
 
 #: ../../upstream/docs/user/dmca/index.rst:27
 msgid "Copyright holder submits a request"
-msgstr ""
+msgstr "版权所有者提交请求"
 
 #: ../../upstream/docs/user/dmca/index.rst:28
 msgid ""
 "This request, if valid, will be posted publicly on this page, `down "
-"below`__. The author affected by the takedown request will be notified "
-"with a link to the takedown request."
-msgstr ""
+"below`__. The author affected by the takedown request will be notified with "
+"a link to the takedown request."
+msgstr "该请求若有效，将公开发布在本页 `down below`__ 。受下架请求影响的作者会收到通知，并附上下架请求的链接。"
 
 #: ../../upstream/docs/user/dmca/index.rst:32
 msgid ""
-"For more information on submitting a takedown request, see: `Submitting a"
-" Request`_"
-msgstr ""
+"For more information on submitting a takedown request, see: `Submitting a "
+"Request`_"
+msgstr "有关提交下架请求的更多信息，参见：`Submitting a Request`_"
 
 #: ../../upstream/docs/user/dmca/index.rst:37
 msgid "Author is contacted"
-msgstr ""
+msgstr "联系作者"
 
 #: ../../upstream/docs/user/dmca/index.rst:38
 msgid ""
-"The author of the content in question will be asked to make changes to "
-"the content specified in the takedown request. The author will have 24 "
-"hours to make these changes. The copyright holder will be notified if and"
-" when this process begins"
-msgstr ""
+"The author of the content in question will be asked to make changes to the "
+"content specified in the takedown request. The author will have 24 hours to "
+"make these changes. The copyright holder will be notified if and when this "
+"process begins"
+msgstr "相关内容的作者会被要求对下架请求中指定的内容作出修改。作者有 24 小时完成这些修改。此流程开始时及进行过程中都会通知版权所有者"
 
 #: ../../upstream/docs/user/dmca/index.rst:43
 msgid "Author acknowledges changes have been made"
-msgstr ""
+msgstr "作者确认已完成修改"
 
 #: ../../upstream/docs/user/dmca/index.rst:44
 msgid ""
-"The author must notify Read the Docs that changes have been made within "
-"24 hours of receiving a takedown request. If the author does not respond "
-"to this request, the default action will be to disable the Read the Docs "
+"The author must notify Read the Docs that changes have been made within 24 "
+"hours of receiving a takedown request. If the author does not respond to "
+"this request, the default action will be to disable the Read the Docs "
 "project and remove any hosted versions"
 msgstr ""
+"作者必须在收到下架请求后 24 小时内通知 Read the Docs 已完成修改。若作者未响应此请求，默认处理将是停用该 Read the Docs "
+"项目并移除任何已托管的版本"
 
 #: ../../upstream/docs/user/dmca/index.rst:49
 msgid "Copyright holder review"
-msgstr ""
+msgstr "版权所有者审查"
 
 #: ../../upstream/docs/user/dmca/index.rst:50
 msgid ""
 "If the author has made changes, the copyright holder will be notified of "
-"these changes. If the changes are sufficient, no further action is "
-"required, though copyright holders are welcome to submit a formal "
-"retraction. If the changes are not sufficient, the author's changes can "
-"be rejected. If the takedown request requires alteration, a new request "
-"must be submitted.  If Read the Docs does not receive a review response "
-"from the copyright holder within 2 weeks, the default action at this step"
-" is to assume the takedown request has been retracted."
+"these changes. If the changes are sufficient, no further action is required,"
+" though copyright holders are welcome to submit a formal retraction. If the "
+"changes are not sufficient, the author's changes can be rejected. If the "
+"takedown request requires alteration, a new request must be submitted.  If "
+"Read the Docs does not receive a review response from the copyright holder "
+"within 2 weeks, the default action at this step is to assume the takedown "
+"request has been retracted."
 msgstr ""
+"若作者已作出修改，版权所有者会收到这些修改的通知。若修改充分，则无需进一步操作，不过版权所有者也欢迎提交正式撤回。若修改不充分，作者的修改可被驳回。若下架请求需要变更，必须重新提交请求。若"
+" Read the Docs 在 2 周内未收到版权所有者的审查回应，此步骤的默认处理是视为下架请求已被撤回。"
 
 #: ../../upstream/docs/user/dmca/index.rst:59
 msgid "Content may be disabled"
-msgstr ""
+msgstr "内容可能被停用"
 
 #: ../../upstream/docs/user/dmca/index.rst:60
 msgid ""
-"If the author does not respond to a request for changes, or if the "
-"copyright holder has rejected the author's changes during the review "
-"process, the documentation project in question will be disabled."
-msgstr ""
+"If the author does not respond to a request for changes, or if the copyright"
+" holder has rejected the author's changes during the review process, the "
+"documentation project in question will be disabled."
+msgstr "若作者未响应修改请求，或版权所有者在审查过程中驳回了作者的修改，相关文档项目将被停用。"
 
 #: ../../upstream/docs/user/dmca/index.rst:64
 msgid "Author submits a counter request"
-msgstr ""
+msgstr "作者提交反通知请求"
 
 #: ../../upstream/docs/user/dmca/index.rst:65
 msgid ""
-"If the author believes their content was disabled as a result of a "
-"mistake, a counter request may be submitted. It would be advised that "
-"authors seek legal council before continuing. If the submitted counter "
-"request is sufficiently detailed, this counter will also be added to "
-"`this page`__. The copyright holder will be notified, with a link to this"
-" counter request."
+"If the author believes their content was disabled as a result of a mistake, "
+"a counter request may be submitted. It would be advised that authors seek "
+"legal council before continuing. If the submitted counter request is "
+"sufficiently detailed, this counter will also be added to `this page`__. The"
+" copyright holder will be notified, with a link to this counter request."
 msgstr ""
+"若作者认为其内容因错误而被停用，可提交反通知请求。建议作者在继续前寻求法律顾问意见。若提交的反通知请求足够详尽，也会添加到 `this page`__ "
+"。版权所有者会收到通知，并附上该反通知请求的链接。"
 
 #: ../../upstream/docs/user/dmca/index.rst:72
 msgid ""
 "For more information on submitting a counter request, see: `Submitting a "
 "Counter`_"
-msgstr ""
+msgstr "有关提交反通知请求的更多信息，参见：`Submitting a Counter`_"
 
 #: ../../upstream/docs/user/dmca/index.rst:77
 msgid "Copyright holder may file legal action"
-msgstr ""
+msgstr "版权所有者可提起法律行动"
 
 #: ../../upstream/docs/user/dmca/index.rst:78
 msgid ""
-"At this point, if the copyright holder wishes to keep the offending "
-"content disabled, the copyright holder must file for legal action "
-"ordering the author refrain from infringing activities on Read the Docs. "
-"The copyright holder will have 2 weeks to supply Read the Docs with a "
-"copy of a valid legal complaint against the author. The default action "
-"here, if the copyright holder does not respond to this request, is to re-"
-"enable the author's project."
+"At this point, if the copyright holder wishes to keep the offending content "
+"disabled, the copyright holder must file for legal action ordering the "
+"author refrain from infringing activities on Read the Docs. The copyright "
+"holder will have 2 weeks to supply Read the Docs with a copy of a valid "
+"legal complaint against the author. The default action here, if the "
+"copyright holder does not respond to this request, is to re-enable the "
+"author's project."
 msgstr ""
+"此时，若版权所有者希望维持违规内容被停用，必须提起法律行动，要求作者停止在 Read the Docs 上的侵权活动。版权所有者有 2 周时间向 "
+"Read the Docs 提供一份针对该作者的有效法律 complaint 副本。此处若版权所有者未响应此请求，默认处理是重新启用作者的项目。"
 
 #: ../../upstream/docs/user/dmca/index.rst:87
 msgid "Submitting a request"
-msgstr ""
+msgstr "提交请求"
 
 #: ../../upstream/docs/user/dmca/index.rst:89
 msgid "Your request must:"
-msgstr ""
+msgstr "你的请求必须："
 
 #: ../../upstream/docs/user/dmca/index.rst:91
 #: ../../upstream/docs/user/dmca/index.rst:121
 msgid "Acknowledge this process"
-msgstr ""
+msgstr "确认知悉本流程"
 
 #: ../../upstream/docs/user/dmca/index.rst:92
 #: ../../upstream/docs/user/dmca/index.rst:122
 msgid ""
-"You must first acknowledge you are familiar with our DMCA takedown "
-"request process. If you do not acknowledge that you are familiar with our"
-" process, you will be instructed to review this information."
-msgstr ""
+"You must first acknowledge you are familiar with our DMCA takedown request "
+"process. If you do not acknowledge that you are familiar with our process, "
+"you will be instructed to review this information."
+msgstr "你必须先确认自己熟悉我们的 DMCA 下架请求流程。若未确认熟悉该流程，我们将要求你阅读此信息。"
 
 #: ../../upstream/docs/user/dmca/index.rst:96
 msgid "Identify the infringing content"
-msgstr ""
+msgstr "指明侵权内容"
 
 #: ../../upstream/docs/user/dmca/index.rst:97
 msgid ""
-"You should list URLs to each piece of infringing content. If you allege "
-"that the entire project is infringing on copyrights you hold, please "
-"specify the entire project as infringing."
-msgstr ""
+"You should list URLs to each piece of infringing content. If you allege that"
+" the entire project is infringing on copyrights you hold, please specify the"
+" entire project as infringing."
+msgstr "你应列出每一处侵权内容的 URL。若你主张整个项目侵犯你持有的版权，请将整个项目指定为侵权。"
 
 #: ../../upstream/docs/user/dmca/index.rst:101
 msgid "Identify infringement resolution"
-msgstr ""
+msgstr "指明侵权处理方式"
 
 #: ../../upstream/docs/user/dmca/index.rst:102
 msgid ""
-"You will need to specify what a user must do in order to avoid having the"
-" rest of their content disabled. Be as specific as possible with this. "
-"Specify if this means adding attribution, identify specific files or "
-"content that should be removed, or if you allege the entire project is "
-"infringing, your should be specific as to why it is infringing."
-msgstr ""
+"You will need to specify what a user must do in order to avoid having the "
+"rest of their content disabled. Be as specific as possible with this. "
+"Specify if this means adding attribution, identify specific files or content"
+" that should be removed, or if you allege the entire project is infringing, "
+"your should be specific as to why it is infringing."
+msgstr "你需要说明用户必须做什么才能避免其余内容被停用。请尽可能具体：说明是添加署名、指出应移除的具体文件或内容，或若你主张整个项目侵权，则具体说明其侵权原因。"
 
 #: ../../upstream/docs/user/dmca/index.rst:108
 #: ../../upstream/docs/user/dmca/index.rst:129
 msgid "Include your contact information"
-msgstr ""
+msgstr "附上你的联系信息"
 
 #: ../../upstream/docs/user/dmca/index.rst:109
 #: ../../upstream/docs/user/dmca/index.rst:130
 msgid "Include your name, email, physical address, and phone number."
-msgstr ""
+msgstr "请附上你的姓名、邮箱、实际地址和电话号码。"
 
 #: ../../upstream/docs/user/dmca/index.rst:111
 #: ../../upstream/docs/user/dmca/index.rst:132
 msgid "Include your signature"
-msgstr ""
+msgstr "附上你的签名"
 
 #: ../../upstream/docs/user/dmca/index.rst:112
 #: ../../upstream/docs/user/dmca/index.rst:133
 msgid "This can be a physical or electronic signature."
-msgstr ""
+msgstr "可以是手写签名或电子签名。"
 
 #: ../../upstream/docs/user/dmca/index.rst:114
 msgid ""
-"Please complete this :download:`takedown request template "
-"<../_static/dmca/takedown-template.txt>` and send it to: "
-"support@readthedocs.com"
+"Please complete this :download:`takedown request template <../_static/dmca"
+"/takedown-template.txt>` and send it to: support@readthedocs.com"
 msgstr ""
+"请填写此 :download:`下架请求模板 <../_static/dmca/takedown-template.txt>` "
+"并发送至：support@readthedocs.com"
 
 #: ../../upstream/docs/user/dmca/index.rst:117
 msgid "Submitting a counter"
-msgstr ""
+msgstr "提交反通知"
 
 #: ../../upstream/docs/user/dmca/index.rst:119
 msgid "Your counter request must:"
-msgstr ""
+msgstr "你的反通知请求必须："
 
 #: ../../upstream/docs/user/dmca/index.rst:126
 msgid "Identify the infringing content that was removed"
-msgstr ""
+msgstr "指明被移除的侵权内容"
 
 #: ../../upstream/docs/user/dmca/index.rst:127
 msgid "Specify URLs in the original takedown request that you wish to challenge."
-msgstr ""
+msgstr "指定原下架请求中你希望质疑的 URL。"
 
 #: ../../upstream/docs/user/dmca/index.rst:135
 msgid "Requests can be submitted to: support@readthedocs.com"
-msgstr ""
+msgstr "请求可提交至：support@readthedocs.com"
 
 #: ../../upstream/docs/user/dmca/index.rst:138
 msgid "Request archive"
-msgstr ""
+msgstr "请求归档"
 
 #: ../../upstream/docs/user/dmca/index.rst:140
 msgid ""
@@ -259,8 +273,10 @@ msgid ""
 "process, Read the Docs maintains this archive of previous DMCA takedown "
 "requests. This is modeled after `GitHub's DMCA archive`__."
 msgstr ""
+"为更好地展示版权归属和 DMCA 下架流程的透明度，Read the Docs 维护此过往 DMCA 下架请求归档。它参照 `GitHub's DMCA"
+" archive`__ 制定。"
 
 #: ../../upstream/docs/user/dmca/index.rst:146
 msgid "The following DMCA takedown requests have been submitted:"
-msgstr ""
+msgstr "已提交以下 DMCA 下架请求："
 

@@ -22,54 +22,58 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/pdf-non-ascii-languages.rst:2
 msgid "How to support Unicode in Sphinx PDFs"
-msgstr ""
+msgstr "如何在 Sphinx PDF 中支持 Unicode"
 
 #: ../../upstream/docs/user/guides/pdf-non-ascii-languages.rst:4
 msgid ""
 "Sphinx offers different `LaTeX engines`_ that have better support for "
 "Unicode characters, relevant for instance for Japanese or Chinese."
-msgstr ""
+msgstr "Sphinx 提供不同的 `LaTeX engines`_ ，对 Unicode 字符支持更好，例如对日语或中文。"
 
 #: ../../upstream/docs/user/guides/pdf-non-ascii-languages.rst:9
 msgid ""
-"To build your documentation in PDF, you need to configure Sphinx properly"
-" in your project's ``conf.py``. Read the Docs will execute the proper "
-"commands depending on these settings. There are `several settings that "
-"can be defined`_ (all the ones starting with ``latex_``), to modify "
-"Sphinx and Read the Docs behavior to make your documentation to build "
-"properly."
+"To build your documentation in PDF, you need to configure Sphinx properly in"
+" your project's ``conf.py``. Read the Docs will execute the proper commands "
+"depending on these settings. There are `several settings that can be "
+"defined`_ (all the ones starting with ``latex_``), to modify Sphinx and Read"
+" the Docs behavior to make your documentation to build properly."
 msgstr ""
+"要以 PDF 构建文档，需要在项目的 ``conf.py`` 中正确配置 Sphinx。Read the Docs 会根据这些设置执行相应命令。有 "
+"`several settings that can be defined`_ （所有以 ``latex_`` 开头的设置），可调整 Sphinx 和 "
+"Read the Docs 的行为使文档正确构建。"
 
 #: ../../upstream/docs/user/guides/pdf-non-ascii-languages.rst:16
 msgid ""
 "For docs that are not written in Chinese or Japanese, and if your build "
-"fails from a Unicode error, then try ``xelatex`` as the ``latex_engine`` "
-"in your ``conf.py``:"
+"fails from a Unicode error, then try ``xelatex`` as the ``latex_engine`` in "
+"your ``conf.py``:"
 msgstr ""
+"若文档不是中日文撰写，且构建因 Unicode 错误失败，可在 ``conf.py`` 中将 ``latex_engine`` 设为 "
+"``xelatex`` ："
 
 #: ../../upstream/docs/user/guides/pdf-non-ascii-languages.rst:24
 msgid ""
 "When Read the Docs detects that your documentation is in Chinese or "
 "Japanese, it automatically adds some defaults for you."
-msgstr ""
+msgstr "当 Read the Docs 检测到你的文档是中文或日文时，会自动为你添加一些默认设置。"
 
 #: ../../upstream/docs/user/guides/pdf-non-ascii-languages.rst:27
 msgid "For *Chinese* projects, it appends to your ``conf.py`` these settings:"
-msgstr ""
+msgstr "对*中文* 项目，它会在你的 ``conf.py`` 中追加以下设置："
 
 #: ../../upstream/docs/user/guides/pdf-non-ascii-languages.rst:37
 msgid "And for *Japanese* projects:"
-msgstr ""
+msgstr "对*日文* 项目则追加："
 
 #: ../../upstream/docs/user/guides/pdf-non-ascii-languages.rst:46
 msgid ""
 "You can always override these settings if you define them by yourself in "
 "your ``conf.py`` file."
-msgstr ""
+msgstr "如果你在 ``conf.py`` 文件中自行定义了这些设置，始终可以覆盖它们。"
 
 #: ../../upstream/docs/user/guides/pdf-non-ascii-languages.rst:50
 msgid ""
 "``xindy`` is currently not supported by Read the Docs, but we plan to "
 "support it in the near future."
-msgstr ""
+msgstr "Read the Docs 目前尚不支持 ``xindy`` ，但计划在不久的将来支持。"
 

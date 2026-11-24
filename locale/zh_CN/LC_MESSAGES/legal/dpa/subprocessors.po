@@ -22,134 +22,133 @@ msgstr ""
 
 #: ../../upstream/docs/user/legal/dpa/subprocessors.rst:2
 msgid "Sub-processor list"
-msgstr ""
+msgstr "分处理方列表"
 
 #: ../../upstream/docs/user/legal/dpa/subprocessors.rst
 msgid "Effective"
-msgstr ""
+msgstr "生效日期"
 
 #: ../../upstream/docs/user/legal/dpa/subprocessors.rst:4
 msgid "April 16, 2021"
-msgstr ""
+msgstr "2021 年 4 月 16 日"
 
 #: ../../upstream/docs/user/legal/dpa/subprocessors.rst
 msgid "Last updated"
-msgstr ""
+msgstr "最后更新"
 
 #: ../../upstream/docs/user/legal/dpa/subprocessors.rst:5
 msgid "August 9, 2024"
-msgstr ""
+msgstr "2024 年 8 月 9 日"
 
 #: ../../upstream/docs/user/legal/dpa/subprocessors.rst:7
 msgid ""
-"Read the Docs Business uses services from the following sub-processors to"
-" provide documentation hosting services. This document supplements "
-":doc:`our Data Processing Addendum <index>` and may be separately updated"
-" on a periodic basis. A sub-processor is a third party data processor who"
-" has or potentially will have access to or will process personal data."
+"Read the Docs Business uses services from the following sub-processors to "
+"provide documentation hosting services. This document supplements :doc:`our "
+"Data Processing Addendum <index>` and may be separately updated on a "
+"periodic basis. A sub-processor is a third party data processor who has or "
+"potentially will have access to or will process personal data."
 msgstr ""
+"Read the Docs Business 使用以下分处理方的服务来提供文档托管服务。本文档是 :doc:`我们的数据处理附录 <index>` "
+"的补充，并可能定期单独更新。分处理方是指已获得或可能获得访问权限、或将处理个人数据的第三方数据处理者。"
 
 #: ../../upstream/docs/user/legal/dpa/subprocessors.rst:14
 msgid ""
-"Previous versions of this document, as well as the change history to this"
-" document, are available `on GitHub`_"
-msgstr ""
+"Previous versions of this document, as well as the change history to this "
+"document, are available `on GitHub`_"
+msgstr "本文档的历史版本及变更记录可在 `on GitHub`_ 查看"
 
 #: ../../upstream/docs/user/legal/dpa/subprocessors.rst:20
 msgid "Infrastructure"
-msgstr ""
+msgstr "基础设施"
 
 #: ../../upstream/docs/user/legal/dpa/subprocessors.rst:22
 msgid "Amazon Web Services, Inc."
-msgstr ""
+msgstr "Amazon Web Services, Inc."
 
 #: ../../upstream/docs/user/legal/dpa/subprocessors.rst:23
 msgid "Cloud infrastructure provider."
-msgstr ""
+msgstr "云基础设施提供商。"
 
 #: ../../upstream/docs/user/legal/dpa/subprocessors.rst:26
 msgid "Services"
-msgstr ""
+msgstr "服务"
 
 #: ../../upstream/docs/user/legal/dpa/subprocessors.rst:28
 msgid "Elasticsearch B.V."
-msgstr ""
+msgstr "Elasticsearch B.V."
 
 #: ../../upstream/docs/user/legal/dpa/subprocessors.rst:29
 msgid ""
-"Hosted ElasticSearch services for documentation search. Search indexes do"
-" not include user data."
-msgstr ""
+"Hosted ElasticSearch services for documentation search. Search indexes do "
+"not include user data."
+msgstr "为文档搜索提供托管的 ElasticSearch 服务。搜索索引不包含用户数据。"
 
 #: ../../upstream/docs/user/legal/dpa/subprocessors.rst:32
 msgid "Sendgrid, Inc."
-msgstr ""
+msgstr "Sendgrid, Inc."
 
 #: ../../upstream/docs/user/legal/dpa/subprocessors.rst:33
 msgid ""
-"Provides email delivery to dashboard and admin users for site "
-"notifications and other generated messages. The body of notification "
-"emails can include user information, including email address."
-msgstr ""
+"Provides email delivery to dashboard and admin users for site notifications "
+"and other generated messages. The body of notification emails can include "
+"user information, including email address."
+msgstr "为仪表盘和管理员用户提供站点通知及其他生成消息的邮件投递。通知邮件正文可能包含用户信息，包括邮箱地址。"
 
 #: ../../upstream/docs/user/legal/dpa/subprocessors.rst:37
 msgid "Plausible"
-msgstr ""
+msgstr "Plausible"
 
 #: ../../upstream/docs/user/legal/dpa/subprocessors.rst:38
-msgid ""
-"Website analytics for dashboard and Read the Docs owned documentation "
-"sites."
-msgstr ""
+msgid "Website analytics for dashboard and Read the Docs owned documentation sites."
+msgstr "为仪表盘和 Read the Docs 自有文档站点提供网站分析。"
 
 #: ../../upstream/docs/user/legal/dpa/subprocessors.rst:40
 msgid "Stripe Inc."
-msgstr ""
+msgstr "Stripe Inc."
 
 #: ../../upstream/docs/user/legal/dpa/subprocessors.rst:41
 msgid ""
 "Subscription payment provider. Data collected can include user data "
 "necessary to process payment transactions, however this data is not "
 "processed directly by Read the Docs."
-msgstr ""
+msgstr "订阅支付提供商。收集的数据可能包含处理支付交易所需的用户数据，但这些数据不由 Read the Docs 直接处理。"
 
 #: ../../upstream/docs/user/legal/dpa/subprocessors.rst:46
 msgid "Monitoring"
-msgstr ""
+msgstr "监控"
 
 #: ../../upstream/docs/user/legal/dpa/subprocessors.rst:48
 msgid "New Relic"
-msgstr ""
+msgstr "New Relic"
 
 #: ../../upstream/docs/user/legal/dpa/subprocessors.rst:49
 msgid ""
-"Application performance analytics. Data collected can include user data "
-"and visitor data used within application code."
-msgstr ""
+"Application performance analytics. Data collected can include user data and "
+"visitor data used within application code."
+msgstr "应用性能分析。收集的数据可能包含应用代码中使用的用户数据和访客数据。"
 
 #: ../../upstream/docs/user/legal/dpa/subprocessors.rst:52
 msgid "Sentry"
-msgstr ""
+msgstr "Sentry"
 
 #: ../../upstream/docs/user/legal/dpa/subprocessors.rst:53
 msgid ""
 "Error analytics service used to log and track application errors. Error "
-"reports can include arguments passed to application code, which can "
-"include user and visitor data."
-msgstr ""
+"reports can include arguments passed to application code, which can include "
+"user and visitor data."
+msgstr "用于记录和跟踪应用错误的错误分析服务。错误报告可能包含传递给应用代码的参数，其中可能含有用户和访客数据。"
 
 #: ../../upstream/docs/user/legal/dpa/subprocessors.rst:58
 msgid "Support"
-msgstr ""
+msgstr "支持"
 
 #: ../../upstream/docs/user/legal/dpa/subprocessors.rst:60
 msgid "FrontApp, Inc."
-msgstr ""
+msgstr "FrontApp, Inc."
 
 #: ../../upstream/docs/user/legal/dpa/subprocessors.rst:61
 msgid ""
-"Customer email support service. Can have access to user data, including "
-"user email and IP address, and stores communications related to user "
-"data."
-msgstr ""
+"Customer email support service. Can have access to user data, including user"
+" email and IP address, and stores communications related to user data."
+msgstr "客户邮件支持服务。可访问用户数据（包括用户邮箱和 IP 地址），并存储与用户数据相关的通信记录。"
 

@@ -22,49 +22,56 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:2
 msgid "How to link to other documentation projects with Intersphinx"
-msgstr ""
+msgstr "如何使用 Intersphinx 链接到其他文档项目"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:4
 msgid ""
-"This section shows you how to maintain references to named sections of "
-"other external Sphinx projects."
-msgstr ""
+"This section shows you how to maintain references to named sections of other"
+" external Sphinx projects."
+msgstr "本节讲解如何维护对其他外部 Sphinx 项目中具名章节的引用。"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:6
 msgid ""
-"You may be familiar with using the :ref:`:ref: role <sphinx:ref-role>` to"
-" :doc:`link to any location of your docs </guides/cross-referencing-with-"
+"You may be familiar with using the :ref:`:ref: role <sphinx:ref-role>` to "
+":doc:`link to any location of your docs </guides/cross-referencing-with-"
 "sphinx>`. It helps you to keep all links within your docs up to date and "
-"warns you if a reference target moves or changes so you can ensure that "
-"your docs don't have broken cross-references."
+"warns you if a reference target moves or changes so you can ensure that your"
+" docs don't have broken cross-references."
 msgstr ""
+"你可能熟悉使用 :ref:`:ref: role <sphinx:ref-role>` 来 :doc:`链接到文档的任意位置 </guides"
+"/cross-referencing-with-sphinx>` "
+"。它帮助你保持文档内所有链接最新，并在引用目标移动或变更时发出警告，确保文档没有失效的交叉引用。"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:11
 msgid ""
-"Sometimes you may need to link to a specific section of another project's"
-" documentation. While you could just hyperlink directly, there is a "
-"better way. :doc:`Intersphinx <sphinx:usage/extensions/intersphinx>` "
-"allows you to use all :ref:`cross-reference roles <sphinx:xref-syntax>` "
-"from Sphinx with objects in other projects. That is, you could use the "
-"``:ref:`` role to link to sections of other documentation projects. "
-"Sphinx will ensure that your cross-references to the other project exist "
-"and will raise a warning if they are deleted or changed so you can keep "
-"your docs up to date."
+"Sometimes you may need to link to a specific section of another project's "
+"documentation. While you could just hyperlink directly, there is a better "
+"way. :doc:`Intersphinx <sphinx:usage/extensions/intersphinx>` allows you to "
+"use all :ref:`cross-reference roles <sphinx:xref-syntax>` from Sphinx with "
+"objects in other projects. That is, you could use the ``:ref:`` role to link"
+" to sections of other documentation projects. Sphinx will ensure that your "
+"cross-references to the other project exist and will raise a warning if they"
+" are deleted or changed so you can keep your docs up to date."
 msgstr ""
+"有时你需要链接到另一个项目文档的特定章节。虽然可以直接加超链接，但有更好的方式。:doc:`Intersphinx "
+"<sphinx:usage/extensions/intersphinx>` 让你能用 Sphinx 的所有 :ref:`交叉引用角色 <sphinx"
+":xref-syntax>` 引用其他项目中的对象。也就是说，你可以用 ``:ref:`` 角色链接到其他文档项目的章节。Sphinx "
+"会确保你对其他项目的交叉引用确实存在，并在其被删除或变更时发出警告，让你的文档保持最新。"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:17
 msgid ""
-"If you are publishing several Sphinx projects together using Read the "
-"Docs' *subprojects* (see :doc:`/subprojects`), you should use Intersphinx"
-" to reference your subprojects from other projects."
+"If you are publishing several Sphinx projects together using Read the Docs' "
+"*subprojects* (see :doc:`/subprojects`), you should use Intersphinx to "
+"reference your subprojects from other projects."
 msgstr ""
+"若你使用 Read the Docs 的*子项目* （见 :doc:`/subprojects` ）一起发布多个 Sphinx 项目，应使用 "
+"Intersphinx 从其他项目引用你的子项目。"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:22
 msgid ""
-"You can also use Sphinx's ``linkcheck`` builder to check for broken "
-"links. By default it will also check the validity of ``#anchors`` in "
-"links."
-msgstr ""
+"You can also use Sphinx's ``linkcheck`` builder to check for broken links. "
+"By default it will also check the validity of ``#anchors`` in links."
+msgstr "你还可以使用 Sphinx 的 ``linkcheck`` 构建器检查失效链接。默认情况下它还会检查链接中 ``#anchors`` 的有效性。"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:29
 msgid ""
@@ -72,153 +79,167 @@ msgid ""
 "doc.org/en/master/usage/configuration.html#options-for-the-linkcheck-"
 "builder>`__."
 msgstr ""
+"见 `linkcheck 构建器的所有选项 <https://www.sphinx-"
+"doc.org/en/master/usage/configuration.html#options-for-the-linkcheck-"
+"builder>`__ 。"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:32
 msgid "Using Intersphinx"
-msgstr ""
+msgstr "使用 Intersphinx"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:34
 msgid ""
 "To use Intersphinx you need to add it to the list of extensions in your "
 "``conf.py`` file."
-msgstr ""
+msgstr "要使用 Intersphinx，需将其加入 ``conf.py`` 文件的扩展列表。"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:44
 msgid ""
-"And use the ``intersphinx_mapping`` configuration to indicate the name "
-"and link of the projects you want to use."
-msgstr ""
+"And use the ``intersphinx_mapping`` configuration to indicate the name and "
+"link of the projects you want to use."
+msgstr "并使用 ``intersphinx_mapping`` 配置指明你想使用的项目名称和链接。"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:64
 msgid ""
 "If you are using Read the Docs' subprojects, you also need to enable the "
-"Intersphinx extension on each of the subprojects. For each subproject, "
-"you need to add the main project and all the other subprojects to "
+"Intersphinx extension on each of the subprojects. For each subproject, you "
+"need to add the main project and all the other subprojects to "
 "``intersphinx_mapping``."
 msgstr ""
+"若你使用 Read the Docs 的子项目，还需在每个子项目上启用 Intersphinx 扩展。对每个子项目，都需将主项目和其他所有子项目加入 "
+"``intersphinx_mapping`` 。"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:67
 msgid "Now you can use the ``sphinx`` name with a cross-reference role:"
-msgstr ""
+msgstr "现在你可以在交叉引用角色中使用 ``sphinx`` 名称："
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:71
 msgid "reStructuredText"
-msgstr ""
+msgstr "reStructuredText"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:80
 msgid "MyST (Markdown)"
-msgstr ""
+msgstr "MyST（Markdown）"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:89
 msgid "Result:"
-msgstr ""
+msgstr "结果："
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:91
 msgid ":ref:`sphinx:ref-role`"
-msgstr ""
+msgstr ":ref:`sphinx:ref-role`"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:92
 msgid ":ref:`:ref: role <sphinx:ref-role>`"
-msgstr ""
+msgstr ":ref:`:ref: role <sphinx:ref-role>`"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:93
 msgid ":doc:`sphinx:usage/extensions/intersphinx`"
-msgstr ""
+msgstr ":doc:`sphinx:usage/extensions/intersphinx`"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:94
 msgid ":doc:`Intersphinx <sphinx:usage/extensions/intersphinx>`"
-msgstr ""
+msgstr ":doc:`Intersphinx <sphinx:usage/extensions/intersphinx>`"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:98
 msgid ""
-"You can get the targets used in Intersphinx by inspecting the source file"
-" of the project or using `this utility <https://www.sphinx-"
-"doc.org/en/master/usage/extensions/intersphinx.html#showing-all-links-of-"
-"an-intersphinx-mapping-file>`__ provided by Intersphinx:"
+"You can get the targets used in Intersphinx by inspecting the source file of"
+" the project or using `this utility <https://www.sphinx-"
+"doc.org/en/master/usage/extensions/intersphinx.html#showing-all-links-of-an-"
+"intersphinx-mapping-file>`__ provided by Intersphinx:"
 msgstr ""
+"你可以通过查看项目源文件，或使用 Intersphinx 提供的 `此工具 <https://www.sphinx-"
+"doc.org/en/master/usage/extensions/intersphinx.html#showing-all-links-of-an-"
+"intersphinx-mapping-file>`__ 获取 Intersphinx 中使用的目标："
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:108
 msgid "Intersphinx in Read the Docs"
-msgstr ""
+msgstr "Read the Docs 中的 Intersphinx"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:110
 msgid ""
 "You can use Intersphinx to link to subprojects, translations, another "
 "version or any other project hosted in Read the Docs. For example:"
-msgstr ""
+msgstr "你可以用 Intersphinx 链接到子项目、翻译、其他版本或 Read the Docs 托管的任何其他项目。例如："
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:127
 msgid "Intersphinx with private projects"
-msgstr ""
+msgstr "与私有项目配合使用 Intersphinx"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:129
 msgid ""
-"If you are using :doc:`/commercial/index`, Intersphinx will not be able "
-"to fetch the inventory file from private docs."
-msgstr ""
+"If you are using :doc:`/commercial/index`, Intersphinx will not be able to "
+"fetch the inventory file from private docs."
+msgstr "若使用 :doc:`/commercial/index` ，Intersphinx 将无法从私有文档获取清单文件。"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:132
 msgid ""
 "Intersphinx supports `URLs with Basic Authorization <https://www.sphinx-"
-"doc.org/en/master/usage/extensions/intersphinx.html#using-intersphinx-"
-"with-inventory-file-under-basic-authorization>`__, which Read the Docs "
-"supports :ref:`using a token <commercial/sharing:Basic Authorization>`. "
-"You need to generate a token for each project you want to use with "
-"Intersphinx."
+"doc.org/en/master/usage/extensions/intersphinx.html#using-intersphinx-with-"
+"inventory-file-under-basic-authorization>`__, which Read the Docs supports "
+":ref:`using a token <commercial/sharing:Basic Authorization>`. You need to "
+"generate a token for each project you want to use with Intersphinx."
 msgstr ""
+"Intersphinx 支持 `带 Basic 认证的 URL <https://www.sphinx-"
+"doc.org/en/master/usage/extensions/intersphinx.html#using-intersphinx-with-"
+"inventory-file-under-basic-authorization>`__ ，Read the Docs 支持 :ref:`使用令牌 "
+"<commercial/sharing:Basic Authorization>` 的方式。你需要为每个想与 Intersphinx "
+"配合使用的项目生成令牌。"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:136
 msgid ""
-"Go to :menuselection:`Settings --> Sharing` of the project you want to "
-"use with Intersphinx."
-msgstr ""
+"Go to :menuselection:`Settings --> Sharing` of the project you want to use "
+"with Intersphinx."
+msgstr "前往想与 Intersphinx 配合使用的项目的 :menuselection:`Settings --> Sharing` 。"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:137
 msgid "Click on :guilabel:`Add share`."
-msgstr ""
+msgstr "点击 :guilabel:`Add share` 。"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:138
 msgid "Select :guilabel:`HTTP header token` as the :guilabel:`Access type`."
-msgstr ""
+msgstr "在 :guilabel:`Access type` 中选择 :guilabel:`HTTP header token` 。"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:139
 msgid ""
-"Set an :guilabel:`Expires` date long enough to use the token when "
-"building your project."
-msgstr ""
+"Set an :guilabel:`Expires` date long enough to use the token when building "
+"your project."
+msgstr "将 :guilabel:`Expires` 日期设置得足够长，以便构建项目时能使用该令牌。"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:140
 msgid "Click on :guilabel:`Save`."
-msgstr ""
+msgstr "点击 :guilabel:`Save` 。"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:142
 msgid "Now we can add the link to the private project with the token like:"
-msgstr ""
+msgstr "现在可像这样添加带令牌的私有项目链接："
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:169
 msgid "Sphinx will strip the token from the URLs when generating the links."
-msgstr ""
+msgstr "Sphinx 生成链接时会从 URL 中去除令牌。"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:171
 msgid ""
 "You can use your tokens with environment variables, so you don't have to "
-"hard code them in your ``conf.py`` file. See :doc:`/environment-"
-"variables` to use environment variables inside Read the Docs."
+"hard code them in your ``conf.py`` file. See :doc:`/environment-variables` "
+"to use environment variables inside Read the Docs."
 msgstr ""
+"你可以通过环境变量使用令牌，无需在 ``conf.py`` 文件中硬编码。在 Read the Docs 内使用环境变量请见 :doc"
+":`/environment-variables` 。"
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:175
 msgid ""
-"For example, if you create an environment variable named "
-"``RTD_TOKEN_DOCS`` with the token from the \"docs\" project. You can use "
-"it like this:"
-msgstr ""
+"For example, if you create an environment variable named ``RTD_TOKEN_DOCS`` "
+"with the token from the \"docs\" project. You can use it like this:"
+msgstr "例如，若你创建了名为 ``RTD_TOKEN_DOCS`` 的环境变量并填入 \"docs\" 项目的令牌，可以这样使用："
 
 #: ../../upstream/docs/user/guides/intersphinx.rst:197
 msgid ""
-"Another way of using Intersphinx with private projects is to download the"
-" inventory file and keep it in sync when the project changes. The "
-"inventory file is by default located at ``objects.inv``, for example "
-"``https://readthedocs-docs.readthedocs-"
-"hosted.com/en/latest/objects.inv``."
+"Another way of using Intersphinx with private projects is to download the "
+"inventory file and keep it in sync when the project changes. The inventory "
+"file is by default located at ``objects.inv``, for example ``https"
+"://readthedocs-docs.readthedocs-hosted.com/en/latest/objects.inv``."
 msgstr ""
+"与私有项目配合使用 Intersphinx 的另一种方式是下载清单文件，并在项目变更时保持同步。清单文件默认位于 ``objects.inv`` ，例如"
+" ``https://readthedocs-docs.readthedocs-hosted.com/en/latest/objects.inv`` 。"
 

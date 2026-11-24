@@ -22,131 +22,139 @@ msgstr ""
 
 #: ../../upstream/docs/user/commercial/subscriptions.rst:2
 msgid "How to manage your subscription"
-msgstr ""
+msgstr "如何管理你的订阅"
 
 #: ../../upstream/docs/user/commercial/subscriptions.rst:4
 msgid ""
 "We want to make it easy to manage your billing information. All "
 ":doc:`organization owners </commercial/subscriptions>` can manage the "
-"subscription for that organization. It's easy to achieve a number of "
-"common tasks in this dashboard:"
+"subscription for that organization. It's easy to achieve a number of common "
+"tasks in this dashboard:"
 msgstr ""
+"我们希望让账单信息管理变得简单。所有 :doc:`组织所有者 </commercial/subscriptions>` "
+"都能管理该组织的订阅。在此面板中可轻松完成多项常见任务："
 
 #: ../../upstream/docs/user/commercial/subscriptions.rst:8
 msgid "Update your credit card information."
-msgstr ""
+msgstr "更新你的信用卡信息。"
 
 #: ../../upstream/docs/user/commercial/subscriptions.rst:9
 msgid "Upgrade, downgrade, or cancel your plan."
-msgstr ""
+msgstr "升级、降级或取消套餐。"
 
 #: ../../upstream/docs/user/commercial/subscriptions.rst:10
 msgid "View, download, and pay invoices."
-msgstr ""
+msgstr "查看、下载和支付发票。"
 
 #: ../../upstream/docs/user/commercial/subscriptions.rst:11
 msgid "Add additional tax (VAT/EIN) or contact email addresses on your invoices."
-msgstr ""
+msgstr "在发票上添加额外的税务信息（VAT/EIN）或联系邮箱地址。"
 
 #: ../../upstream/docs/user/commercial/subscriptions.rst:13
 msgid ""
-"You can always find our most up-to-date pricing information on our "
-"`pricing page <https://about.readthedocs.com/pricing/>`_."
-msgstr ""
+"You can always find our most up-to-date pricing information on our `pricing "
+"page <https://about.readthedocs.com/pricing/>`_."
+msgstr "你始终可以在我们的 `pricing page <https://about.readthedocs.com/pricing/>`_ 上查看最新定价信息。"
 
 #: ../../upstream/docs/user/commercial/subscriptions.rst:16
 msgid "Managing your subscription"
-msgstr ""
+msgstr "管理你的订阅"
 
 #: ../../upstream/docs/user/commercial/subscriptions.rst:18
 msgid ""
 "Navigate to the `subscription management page "
 "<https://app.readthedocs.com/organizations/choose/subscription_detail/>`__."
 msgstr ""
+"前往 `subscription management page "
+"<https://app.readthedocs.com/organizations/choose/subscription_detail/>`__ 。"
 
 #: ../../upstream/docs/user/commercial/subscriptions.rst:19
 msgid "Click :guilabel:`Manage Subscription`."
-msgstr ""
+msgstr "点击 :guilabel:`Manage Subscription` 。"
 
 #: ../../upstream/docs/user/commercial/subscriptions.rst:21
 msgid ""
-"This action will take you to the Stripe billing portal where you can "
-"manage your subscription."
-msgstr ""
+"This action will take you to the Stripe billing portal where you can manage "
+"your subscription."
+msgstr "此操作会带你进入 Stripe 账单门户，你可在其中管理订阅。"
 
 #: ../../upstream/docs/user/commercial/subscriptions.rst:24
 msgid ""
-"You will need to be an organization owner to view subscription "
-"information. If you do not have permission, you can ask one of your "
-"existing organization owners to make any required changes."
-msgstr ""
+"You will need to be an organization owner to view subscription information. "
+"If you do not have permission, you can ask one of your existing organization"
+" owners to make any required changes."
+msgstr "查看订阅信息需要组织所有者权限。若你没有该权限，可请现有组织所有者代为完成所需更改。"
 
 #: ../../upstream/docs/user/commercial/subscriptions.rst:29
 msgid "Cancelling your subscription"
-msgstr ""
+msgstr "取消订阅"
 
 #: ../../upstream/docs/user/commercial/subscriptions.rst:31
 msgid ""
 "Cancelling your subscription can be done following the instructions in "
-"`Managing your subscription`_. Your subscription will remain active for "
-"the remainder of the current billing period, and will not renew for the "
-"next billing period."
-msgstr ""
+"`Managing your subscription`_. Your subscription will remain active for the "
+"remainder of the current billing period, and will not renew for the next "
+"billing period."
+msgstr "可按 `Managing your subscription`_ 中的说明取消订阅。你的订阅在当前计费周期剩余时间内保持有效，下一计费周期不再续费。"
 
 #: ../../upstream/docs/user/commercial/subscriptions.rst:35
 msgid ""
-"**We cannot cancel subscriptions through an email request, as email is an"
-" insecure method of verifying a user's identity.** If you email us about "
-"this, we require you to verify your identity by logging into your Read "
-"the Docs account and submitting an official support request there."
+"**We cannot cancel subscriptions through an email request, as email is an "
+"insecure method of verifying a user's identity.** If you email us about "
+"this, we require you to verify your identity by logging into your Read the "
+"Docs account and submitting an official support request there."
 msgstr ""
+"**我们无法通过邮件请求取消订阅，因为邮件不是验证用户身份的安全方式。** 若就此发邮件联系我们，你需要登录 Read the Docs "
+"账户并在其中提交正式支持请求以验证身份。"
 
 #: ../../upstream/docs/user/commercial/subscriptions.rst:41
 msgid "Billing information"
-msgstr ""
+msgstr "账单信息"
 
 #: ../../upstream/docs/user/commercial/subscriptions.rst:43
 msgid ""
-"We provide both monthly and annual subscriptions for all plans. Annual "
-"plans are given a 2 month discount compared to monthly billing. We "
-"support credit card billing for all plans. Pro and Enterprise plans can "
-"use invoice-based and PO billing for annual subscriptions."
+"We provide both monthly and annual subscriptions for all plans. Annual plans"
+" are given a 2 month discount compared to monthly billing. We support credit"
+" card billing for all plans. Pro and Enterprise plans can use invoice-based "
+"and PO billing for annual subscriptions."
 msgstr ""
+"所有套餐都提供按月和按年订阅。年付套餐相比月付享有 2 个月的折扣。所有套餐均支持信用卡账单。Pro 和 Enterprise "
+"套餐的年度订阅可使用发票账单和 PO 账单。"
 
 #: ../../upstream/docs/user/commercial/subscriptions.rst:49
 msgid ""
-"We recommend paying by credit card for all users, as this greatly "
-"simplifies the billing process."
-msgstr ""
+"We recommend paying by credit card for all users, as this greatly simplifies"
+" the billing process."
+msgstr "我们建议所有用户使用信用卡付款，这能极大简化账单流程。"
 
 #: ../../upstream/docs/user/commercial/subscriptions.rst:53
 msgid "Discounts and credits"
-msgstr ""
+msgstr "折扣与抵扣"
 
 #: ../../upstream/docs/user/commercial/subscriptions.rst:55
 msgid ""
 "We do not generally discount our software. We provide an ad-supported "
 "service to the community with |org_brand|, but we do have one standard "
 "discount that we offer."
-msgstr ""
+msgstr "我们通常不提供软件折扣。通过 |org_brand| 我们以广告支持的方式向社区提供服务，但也提供一项标准折扣。"
 
 #: ../../upstream/docs/user/commercial/subscriptions.rst:60
 msgid "Non-profit and academic organizations"
-msgstr ""
+msgstr "非营利与学术组织"
 
 #: ../../upstream/docs/user/commercial/subscriptions.rst:62
 msgid ""
-"Our community hosting, provided for open source projects, is generally "
-"where we recommend most academic projects to host their projects. If you "
-"have constraints on how public your documentation can be, our commercial "
-"hosting is probably a better fit."
-msgstr ""
+"Our community hosting, provided for open source projects, is generally where"
+" we recommend most academic projects to host their projects. If you have "
+"constraints on how public your documentation can be, our commercial hosting "
+"is probably a better fit."
+msgstr "我们面向开源项目提供的社区托管，通常是多数学术项目托管项目的推荐选择。若你的文档公开程度受限，商业托管可能更适合。"
 
 #: ../../upstream/docs/user/commercial/subscriptions.rst:68
 #, python-format
 msgid ""
-"We offer a 50% discount on all of our commercial plans to certified "
-"academic and non-profit organizations. Please contact :doc:`/support` to "
-"request this discount."
-msgstr ""
+"We offer a 50% discount on all of our commercial plans to certified academic"
+" and non-profit organizations. Please contact :doc:`/support` to request "
+"this discount."
+msgstr "我们对经认证的学术和非营利组织提供所有商业套餐 50% 的折扣。请联系 :doc:`/support` 申请该折扣。"
 

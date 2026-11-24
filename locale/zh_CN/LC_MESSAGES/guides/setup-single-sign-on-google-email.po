@@ -22,13 +22,13 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:2
 msgid "How to setup single sign-on (SSO) with Google Workspace"
-msgstr ""
+msgstr "如何设置与 Google Workspace 的单点登录（SSO）"
 
 #: ../../upstream/docs/user/shared/admonition-rtd-business.rst:2
 msgid ""
 "This feature is only available on `Read the Docs Business "
 "<https://app.readthedocs.com/>`_."
-msgstr ""
+msgstr "此功能仅在 `Read the Docs Business <https://app.readthedocs.com/>`_ 上提供。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:6
 msgid ""
@@ -36,112 +36,120 @@ msgid ""
 "(single sign-on)` with Google Workspace. If you want more information on "
 "this feature, please read :doc:`/commercial/single-sign-on`"
 msgstr ""
+"本操作指南说明如何启用与 Google Workspace 的 :abbr:`SSO (single sign-on)` "
+"。若想了解此功能的更多信息，请阅读 :doc:`/commercial/single-sign-on`"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:11
 msgid "Prerequisites"
-msgstr ""
+msgstr "前提条件"
 
 #: ../../upstream/docs/user/shared/organization-permissions.rst:2
 msgid "Organization permissions"
-msgstr ""
+msgstr "组织权限"
 
 #: ../../upstream/docs/user/shared/organization-permissions.rst:4
 msgid ""
-"To change your :doc:`Organization's </commercial/organizations>` "
-"settings, you need to be an *owner* of that organization."
-msgstr ""
+"To change your :doc:`Organization's </commercial/organizations>` settings, "
+"you need to be an *owner* of that organization."
+msgstr "要更改 :doc:`组织 </commercial/organizations>` 的设置，你必须是该组织的*所有者* 。"
 
 #: ../../upstream/docs/user/shared/organization-permissions.rst:7
 msgid "You can validate your ownership of the Organization with these steps:"
-msgstr ""
+msgstr "可按以下步骤验证你对该组织的所有权："
 
 #: ../../upstream/docs/user/shared/organization-permissions.rst:9
 msgid ""
 "Navigate to the `organization management page "
 "<https://app.readthedocs.com/organizations/choose/organization_detail/>`__."
 msgstr ""
+"前往 `organization management page "
+"<https://app.readthedocs.com/organizations/choose/organization_detail/>`__ 。"
 
 #: ../../upstream/docs/user/shared/organization-permissions.rst:10
 msgid "Look at the :guilabel:`Owners` section on the right menu."
-msgstr ""
+msgstr "查看右侧菜单中的 :guilabel:`Owners` 区域。"
 
 #: ../../upstream/docs/user/shared/organization-permissions.rst:12
 msgid ""
-"If you'd like to modify this setting and are not an owner, you can ask an"
-" existing organization owner to take the actions listed."
-msgstr ""
+"If you'd like to modify this setting and are not an owner, you can ask an "
+"existing organization owner to take the actions listed."
+msgstr "若你想修改此设置但不是所有者，可请现有组织所有者执行上述操作。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:16
 msgid "Connect your Google account to Read the Docs"
-msgstr ""
+msgstr "将你的 Google 账户连接到 Read the Docs"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:18
 msgid ""
 "In order to enable the Google Workspace integration, you need to connect "
 "your Google account to Read the Docs."
-msgstr ""
+msgstr "要启用 Google Workspace 集成，你需要将 Google 账户连接到 Read the Docs。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:21
 msgid ""
-"The domain attached to your Google account will be used to match users "
-"that sign up with a Google account to your organization."
-msgstr ""
+"The domain attached to your Google account will be used to match users that "
+"sign up with a Google account to your organization."
+msgstr "与你 Google 账户关联的域名将用于把使用 Google 账户注册的用户匹配到你的组织。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:24
 msgid "User setup"
-msgstr ""
+msgstr "用户设置"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:26
 msgid ""
 "Using this setup, all users who have access to the configured Google "
 "Workspace will automatically join to your organization when they sign up "
-"with their Google account. Existing users will not be automatically "
-"joined to the organization."
+"with their Google account. Existing users will not be automatically joined "
+"to the organization."
 msgstr ""
+"采用此设置后，所有有权访问所配置 Google Workspace 的用户在使用其 Google "
+"账户注册时都会自动加入你的组织。现有用户不会自动加入组织。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:30
 msgid ""
-"You can still add outside collaborators and manage their access. There "
-"are two ways to manage this access:"
-msgstr ""
+"You can still add outside collaborators and manage their access. There are "
+"two ways to manage this access:"
+msgstr "你仍可添加外部协作者并管理其访问权限。有两种管理方式："
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:33
 msgid ""
-"Using :doc:`teams </guides/manage-read-the-docs-teams>` to provide access"
-" for ongoing contribution."
-msgstr ""
+"Using :doc:`teams </guides/manage-read-the-docs-teams>` to provide access "
+"for ongoing contribution."
+msgstr "使用 :doc:`团队 </guides/manage-read-the-docs-teams>` 为持续贡献提供访问权限。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:34
 msgid ""
 "Using :doc:`sharing </commercial/sharing>` to provide short-term access "
 "requiring a login."
-msgstr ""
+msgstr "使用 :doc:`共享 </commercial/sharing>` 提供需要登录的短期访问权限。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:37
 msgid "Enabling SSO"
-msgstr ""
+msgstr "启用 SSO"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:39
 msgid ""
 "By default, users that sign up with a Google account do not have any "
 "permissions over any project. However, you can define which teams users "
-"matching your company's domain email address will auto-join when they "
-"sign up."
-msgstr ""
+"matching your company's domain email address will auto-join when they sign "
+"up."
+msgstr "默认情况下，使用 Google 账户注册的用户对任何项目都没有权限。但你可以指定：使用你公司域名邮箱地址的用户注册时自动加入哪些团队。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:42
 msgid ""
 "Navigate to the `authorization setting page "
 "<https://app.readthedocs.com/organizations/choose/organization_sso/>`__."
 msgstr ""
+"前往 `authorization setting page "
+"<https://app.readthedocs.com/organizations/choose/organization_sso/>`__ 。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:43
 msgid "Select **Google** in the :guilabel:`Provider` drop-down."
-msgstr ""
+msgstr "在 :guilabel:`Provider` 下拉框中选择 **Google** 。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:44
 msgid "Press :guilabel:`Save`."
-msgstr ""
+msgstr "点击 :guilabel:`Save` 。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:46
 msgid ""
@@ -149,47 +157,50 @@ msgid ""
 "from your configured Google Workspace domain will be required to signup "
 "using their Google account."
 msgstr ""
+"启用与 Google Workspace 的 SSO 后，所有使用你配置的 Google Workspace 域邮箱地址的用户都必须使用其 Google"
+" 账户注册。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:51
 msgid ""
-"Existing users with email addresses from your configured Google Workspace"
-" domain will not be required to link their Google account, but they won't"
-" be automatically joined to your organization."
-msgstr ""
+"Existing users with email addresses from your configured Google Workspace "
+"domain will not be required to link their Google account, but they won't be "
+"automatically joined to your organization."
+msgstr "现有使用你配置的 Google Workspace 域邮箱地址的用户无需关联其 Google 账户，但也不会自动加入你的组织。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:55
 msgid "Configure team for all users to join"
-msgstr ""
+msgstr "配置所有用户加入的团队"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:57
 msgid ""
-"You can mark one or many teams that users are automatically joined when "
-"they sign up with a matching email address. Configure this option by:"
-msgstr ""
+"You can mark one or many teams that users are automatically joined when they"
+" sign up with a matching email address. Configure this option by:"
+msgstr "你可以标记一个或多个团队，使用匹配邮箱地址的用户注册时会自动加入。配置方式："
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:60
 msgid ""
 "Navigate to the `teams management page "
 "<https://app.readthedocs.com/organizations/choose/organization_team_list/>`__."
 msgstr ""
+"前往 `teams management page "
+"<https://app.readthedocs.com/organizations/choose/organization_team_list/>`__"
+" 。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:61
 msgid "Click the :guilabel:`<team name>`."
-msgstr ""
+msgstr "点击某个 :guilabel:`<team name>` 。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:62
 msgid "Click :guilabel:`Edit team`"
-msgstr ""
+msgstr "点击 :guilabel:`Edit team`"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:63
-msgid ""
-"Enable *Auto join users with an organization's email address to this "
-"team*."
-msgstr ""
+msgid "Enable *Auto join users with an organization's email address to this team*."
+msgstr "启用 *Auto join users with an organization's email address to this team* 。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:64
 msgid "Click :guilabel:`Save`"
-msgstr ""
+msgstr "点击 :guilabel:`Save`"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:66
 msgid ""
@@ -198,32 +209,38 @@ msgid ""
 "teams can have either *read-only* or *admin* permissions over a set of "
 "projects."
 msgstr ""
+"启用后，所有使用 ``employee@company.com`` 邮箱注册的用户都会自动加入该团队。这些团队对一组项目可以具有*只读* 或*管理员* "
+"权限。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:71
 msgid "Revoke user's access to all the projects"
-msgstr ""
+msgstr "撤销用户对所有项目的访问权限"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:73
 msgid ""
 "By disabling the Google Workspace account with email "
-"``employee@company.com``, you revoke access to all the projects the "
-"linked Read the Docs user had access to, and disable login on Read the "
-"Docs completely for that user."
+"``employee@company.com``, you revoke access to all the projects the linked "
+"Read the Docs user had access to, and disable login on Read the Docs "
+"completely for that user."
 msgstr ""
+"停用邮箱为 ``employee@company.com`` 的 Google Workspace 账户，即撤销关联的 Read the Docs "
+"用户对所有其可访问项目的权限，并完全禁用该用户在 Read the Docs 上的登录。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:79
 msgid ""
 "If the user signed up to Read the Docs previously to enabling SSO with "
-"Google Workspace on your organization, they may still have access to "
-"their account and projects if they were manually added to a team."
+"Google Workspace on your organization, they may still have access to their "
+"account and projects if they were manually added to a team."
 msgstr ""
+"若该用户在你组织启用 Google Workspace SSO 之前就注册了 Read the "
+"Docs，且曾被手动添加到某个团队，他们可能仍能访问自己的账户和项目。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:82
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:90
 msgid ""
-"To completely revoke access to a user, remove them from all the teams "
-"they are part of."
-msgstr ""
+"To completely revoke access to a user, remove them from all the teams they "
+"are part of."
+msgstr "要完全撤销某用户的访问权限，请将其从所有所属团队中移除。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:86
 msgid ""
@@ -231,21 +248,21 @@ msgid ""
 "revoked, they may still have access to documentation pages until their "
 "session expires. This is three days for the dashboard and documentation "
 "pages."
-msgstr ""
+msgstr "若用户在访问权限被撤销时已登录 Read the Docs，他们可能仍能访问文档页面，直至会话过期。仪表盘和文档页面的会话有效期为三天。"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:94
 msgid ":doc:`/guides/manage-read-the-docs-teams`"
-msgstr ""
+msgstr ":doc:`/guides/manage-read-the-docs-teams`"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:95
 msgid "Additional user management options"
-msgstr ""
+msgstr "其他用户管理选项"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:96
 msgid ":doc:`/commercial/single-sign-on`"
-msgstr ""
+msgstr ":doc:`/commercial/single-sign-on`"
 
 #: ../../upstream/docs/user/guides/setup-single-sign-on-google-email.rst:97
 msgid "Information about choosing a single sign-on approach"
-msgstr ""
+msgstr "关于如何选择单点登录方案的信息"
 

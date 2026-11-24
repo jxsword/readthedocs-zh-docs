@@ -22,115 +22,121 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:2
 msgid "How to set up single sign-on (SSO) with SAML"
-msgstr ""
+msgstr "如何设置基于 SAML 的单点登录（SSO）"
 
 #: ../../upstream/docs/user/shared/admonition-rtd-business.rst:2
 msgid ""
 "This feature is only available on `Read the Docs Business "
 "<https://app.readthedocs.com/>`_."
-msgstr ""
+msgstr "此功能仅在 `Read the Docs Business <https://app.readthedocs.com/>`_ 上提供。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:8
 msgid ""
 "This feature is in beta, and will be available for **Enterprise** plans "
 "only. Contact :doc:`support </support>` to enable this feature for your "
 "organization."
-msgstr ""
+msgstr "此功能处于 Beta 阶段，仅对 **Enterprise** 套餐提供。联系 :doc:`支持 </support>` 为你的组织启用此功能。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:11
 msgid "**At the moment only Okta is supported as a SAML identity provider.**"
-msgstr ""
+msgstr "**目前仅支持 Okta 作为 SAML 身份提供商。**"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:13
 msgid ""
 "This how-to guide will provide instructions on how to enable :abbr:`SSO "
-"(single sign-on)` using Okta as a SAML identity provider. If you want "
-"more information on this feature, please read :doc:`/commercial/single-"
-"sign-on`"
+"(single sign-on)` using Okta as a SAML identity provider. If you want more "
+"information on this feature, please read :doc:`/commercial/single-sign-on`"
 msgstr ""
+"本操作指南说明如何以 Okta 为 SAML 身份提供商启用 :abbr:`SSO (single sign-on)` "
+"。若想了解此功能的更多信息，请阅读 :doc:`/commercial/single-sign-on`"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:17
 msgid "Prerequisites"
-msgstr ""
+msgstr "前提条件"
 
 #: ../../upstream/docs/user/shared/organization-permissions.rst:2
 msgid "Organization permissions"
-msgstr ""
+msgstr "组织权限"
 
 #: ../../upstream/docs/user/shared/organization-permissions.rst:4
 msgid ""
-"To change your :doc:`Organization's </commercial/organizations>` "
-"settings, you need to be an *owner* of that organization."
-msgstr ""
+"To change your :doc:`Organization's </commercial/organizations>` settings, "
+"you need to be an *owner* of that organization."
+msgstr "要更改 :doc:`组织 </commercial/organizations>` 的设置，你必须是该组织的*所有者* 。"
 
 #: ../../upstream/docs/user/shared/organization-permissions.rst:7
 msgid "You can validate your ownership of the Organization with these steps:"
-msgstr ""
+msgstr "可按以下步骤验证你对该组织的所有权："
 
 #: ../../upstream/docs/user/shared/organization-permissions.rst:9
 msgid ""
 "Navigate to the `organization management page "
 "<https://app.readthedocs.com/organizations/choose/organization_detail/>`__."
 msgstr ""
+"前往 `organization management page "
+"<https://app.readthedocs.com/organizations/choose/organization_detail/>`__ 。"
 
 #: ../../upstream/docs/user/shared/organization-permissions.rst:10
 msgid "Look at the :guilabel:`Owners` section on the right menu."
-msgstr ""
+msgstr "查看右侧菜单中的 :guilabel:`Owners` 区域。"
 
 #: ../../upstream/docs/user/shared/organization-permissions.rst:12
 msgid ""
-"If you'd like to modify this setting and are not an owner, you can ask an"
-" existing organization owner to take the actions listed."
-msgstr ""
+"If you'd like to modify this setting and are not an owner, you can ask an "
+"existing organization owner to take the actions listed."
+msgstr "若你想修改此设置但不是所有者，可请现有组织所有者执行上述操作。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:22
 msgid "Create a SAML application in Okta"
-msgstr ""
+msgstr "在 Okta 中创建 SAML 应用"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:24
 msgid ""
-"In order to enable SSO with Okta, you need to create a new SAML "
-"application in your Okta account."
-msgstr ""
+"In order to enable SSO with Okta, you need to create a new SAML application "
+"in your Okta account."
+msgstr "要启用与 Okta 的 SSO，需在你的 Okta 账户中新建一个 SAML 应用。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:28
 msgid "Log in to your Okta account."
-msgstr ""
+msgstr "登录你的 Okta 账户。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:29
 msgid "Click on :guilabel:`Applications`."
-msgstr ""
+msgstr "点击 :guilabel:`Applications` 。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:30
 msgid "Click on :guilabel:`Create App Integration`."
-msgstr ""
+msgstr "点击 :guilabel:`Create App Integration` 。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:31
 msgid "Choose :guilabel:`SAML 2.0`, and click :guilabel:`Next`."
-msgstr ""
+msgstr "选择 :guilabel:`SAML 2.0` ，然后点击 :guilabel:`Next` 。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:32
 msgid "Fill the following fields:"
-msgstr ""
+msgstr "填写以下字段："
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:34
 msgid ":guilabel:`App name`: Read the Docs (or any name you want)"
-msgstr ""
+msgstr ":guilabel:`App name` ：Read the Docs（或任意你想要的名称）"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:35
 msgid ""
-":guilabel:`App logo`: Optionally you can use the `Read the Docs logo "
-"<https://brand-guidelines.readthedocs.org/_images/logo-wordmark-vertical-"
-"compact-dark.png>`__."
+":guilabel:`App logo`: Optionally you can use the `Read the Docs logo <https"
+"://brand-guidelines.readthedocs.org/_images/logo-wordmark-vertical-compact-"
+"dark.png>`__."
 msgstr ""
+":guilabel:`App logo` ：你也可以选择使用 `Read the Docs 标志 <https://brand-"
+"guidelines.readthedocs.org/_images/logo-wordmark-vertical-compact-"
+"dark.png>`__ 。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:36
 msgid ":guilabel:`App visibility`: (optional)"
-msgstr ""
+msgstr ":guilabel:`App visibility` ：（可选）"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:38
 msgid "Click :guilabel:`Next`."
-msgstr ""
+msgstr "点击 :guilabel:`Next` 。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:39
 msgid ""
@@ -138,293 +144,315 @@ msgid ""
 "integration "
 "<https://app.readthedocs.com/organizations/choose/organization_saml/>`__:"
 msgstr ""
+"用 `你的 SAML 集成 "
+"<https://app.readthedocs.com/organizations/choose/organization_saml/>`__ "
+"中的信息填写以下字段："
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:41
 msgid ""
-":guilabel:`Single Sign On URL`: "
-"``https://app.readthedocs.com/accounts/saml/<organization-slug>/acs/`` "
-"(replace ``<organization-slug>`` with your organization slug)"
+":guilabel:`Single Sign On URL`: ``https://app.readthedocs.com/accounts/saml"
+"/<organization-slug>/acs/`` (replace ``<organization-slug>`` with your "
+"organization slug)"
 msgstr ""
+":guilabel:`Single Sign On URL` ：``https://app.readthedocs.com/accounts/saml"
+"/<organization-slug>/acs/`` （将 ``<organization-slug>`` 替换为你的组织 slug）"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:42
 msgid ""
 ":guilabel:`Audience URI (SP Entity ID)`: "
-"``https://app.readthedocs.com/accounts/saml/<organization-"
-"slug>/metadata/`` (replace ``<organization-slug>`` with your organization"
-" slug)"
+"``https://app.readthedocs.com/accounts/saml/<organization-slug>/metadata/`` "
+"(replace ``<organization-slug>`` with your organization slug)"
 msgstr ""
+":guilabel:`Audience URI (SP Entity ID)` "
+"：``https://app.readthedocs.com/accounts/saml/<organization-slug>/metadata/``"
+" （将 ``<organization-slug>`` 替换为你的组织 slug）"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:43
 msgid ":guilabel:`Name ID format`: ``EmailAddress``"
-msgstr ""
+msgstr ":guilabel:`Name ID format` ：``EmailAddress``"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:44
 msgid ":guilabel:`Application username`: ``Email``"
-msgstr ""
+msgstr ":guilabel:`Application username` ：``Email``"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:45
 msgid "Leave the rest of the fields as default."
-msgstr ""
+msgstr "其余字段保持默认。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:47
 msgid "Select ``This is an internal app that we have created``."
-msgstr ""
+msgstr "选中 ``This is an internal app that we have created`` 。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:48
 msgid "Click :guilabel:`Finish`."
-msgstr ""
+msgstr "点击 :guilabel:`Finish` 。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:49
 msgid ""
-"After creating the application, go to the \"Attribute statements\" "
-"section, and add the following statements:"
-msgstr ""
+"After creating the application, go to the \"Attribute statements\" section, "
+"and add the following statements:"
+msgstr "创建应用后，进入\"Attribute statements\"区域，添加以下语句："
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:1
 msgid "Name"
-msgstr ""
+msgstr "名称"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:1
 msgid "Expression"
-msgstr ""
+msgstr "表达式"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:1
 msgid "user.id"
-msgstr ""
+msgstr "user.id"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:1
 msgid "user.firstName"
-msgstr ""
+msgstr "user.firstName"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:1
 msgid "user.profile.firstName"
-msgstr ""
+msgstr "user.profile.firstName"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:1
 msgid "user.lastName"
-msgstr ""
+msgstr "user.lastName"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:1
 msgid "user.profile.lastName"
-msgstr ""
+msgstr "user.profile.lastName"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:61
 msgid "Enable SAML on your Read the Docs organization"
-msgstr ""
+msgstr "在 Read the Docs 组织上启用 SAML"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:63
 msgid ""
-"Once you have created the SAML application in Okta, you need to enable "
-"SAML on Read the Docs."
-msgstr ""
+"Once you have created the SAML application in Okta, you need to enable SAML "
+"on Read the Docs."
+msgstr "在 Okta 中创建 SAML 应用后，需在 Read the Docs 上启用 SAML。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:65
 msgid "Copy the Metadata URL from the Okta application you just created."
-msgstr ""
+msgstr "从刚创建的 Okta 应用中复制 Metadata URL。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:67
 msgid "On Okta, click on the :guilabel:`Applications`."
-msgstr ""
+msgstr "在 Okta 上，点击 :guilabel:`Applications` 。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:68
 msgid "Click on the Read the Docs application."
-msgstr ""
+msgstr "点击 Read the Docs 应用。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:69
 msgid "Click on the :guilabel:`Sign On` tab."
-msgstr ""
+msgstr "点击 :guilabel:`Sign On` 标签。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:70
 msgid "Copy the :guilabel:`Metadata URL`."
-msgstr ""
+msgstr "复制 :guilabel:`Metadata URL` 。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:72
 msgid ""
 "Go you your `organization's SAML settings page "
 "<https://app.readthedocs.com/organizations/choose/organization_saml/>`__."
 msgstr ""
+"前往 `组织的 SAML 设置页面 "
+"<https://app.readthedocs.com/organizations/choose/organization_saml/>`__ 。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:73
 msgid "Paste the Metadata URL in the :guilabel:`Metadata URL` field."
-msgstr ""
+msgstr "将 Metadata URL 粘贴到 :guilabel:`Metadata URL` 字段。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:74
 msgid "Leave the domain field empty."
-msgstr ""
+msgstr "域名字段留空。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:75
 msgid "Click :guilabel:`Save`."
-msgstr ""
+msgstr "点击 :guilabel:`Save` 。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:77
 msgid ""
 "Attaching the email domain your organization uses to enforce SAML is "
-"currently done by the Read the Docs team, contact :doc:`support "
-"</support>` using an account that's an owner of the organization."
+"currently done by the Read the Docs team, contact :doc:`support </support>` "
+"using an account that's an owner of the organization."
 msgstr ""
+"将组织使用的邮箱域名关联到 SAML 强制认证目前由 Read the Docs 团队完成，请使用组织所有者账户联系 :doc:`支持 "
+"</support>` 。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:81
 msgid "Configure a team for users to join automatically"
-msgstr ""
+msgstr "配置用户自动加入的团队"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:83
 msgid ""
 "After you have enabled SAML on your organization, a team named \"SAML "
-"Users\" will be created automatically, and all users that sign up with "
-"SAML will be automatically joined to this team. You can delete this team,"
-" or configure a different team or teams for users to join automatically."
+"Users\" will be created automatically, and all users that sign up with SAML "
+"will be automatically joined to this team. You can delete this team, or "
+"configure a different team or teams for users to join automatically."
 msgstr ""
+"在你的组织上启用 SAML 后，会自动创建一个名为 \"SAML Users\" 的团队，所有通过 SAML "
+"注册的用户都会自动加入该团队。你可以删除该团队，或配置其他团队供用户自动加入。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:88
 msgid "To configure a team for users to join automatically:"
-msgstr ""
+msgstr "配置用户自动加入的团队："
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:90
 msgid ""
 "Navigate to the `teams management page "
 "<https://app.readthedocs.com/organizations/choose/organization_team_list/>`__."
 msgstr ""
+"前往 `teams management page "
+"<https://app.readthedocs.com/organizations/choose/organization_team_list/>`__"
+" 。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:91
 msgid "Click the :guilabel:`<team name>`."
-msgstr ""
+msgstr "点击某个 :guilabel:`<team name>` 。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:92
 msgid "Click :guilabel:`Edit team`"
-msgstr ""
+msgstr "点击 :guilabel:`Edit team`"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:93
-msgid ""
-"Enable *Auto join users with an organization's email address to this "
-"team*."
-msgstr ""
+msgid "Enable *Auto join users with an organization's email address to this team*."
+msgstr "启用 *Auto join users with an organization's email address to this team* 。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:94
 msgid "Click :guilabel:`Save`"
-msgstr ""
+msgstr "点击 :guilabel:`Save`"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:97
 msgid "User management"
-msgstr ""
+msgstr "用户管理"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:100
 msgid "Signing in with SAML"
-msgstr ""
+msgstr "使用 SAML 登录"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:102
 msgid ""
-"Once SAML is enabled for your organization, users can sign in using SAML "
-"by following these steps:"
-msgstr ""
+"Once SAML is enabled for your organization, users can sign in using SAML by "
+"following these steps:"
+msgstr "为你的组织启用 SAML 后，用户可按以下步骤使用 SAML 登录："
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:104
 msgid "Go to `https://app.readthedocs.com/ <https://app.readthedocs.com/>`__."
-msgstr ""
+msgstr "前往 `https://app.readthedocs.com/ <https://app.readthedocs.com/>`__ 。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:105
 msgid "Click on the :guilabel:`Single sign-on` tab."
-msgstr ""
+msgstr "点击 :guilabel:`Single sign-on` 标签。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:106
 msgid "Enter your company email address."
-msgstr ""
+msgstr "输入你的公司邮箱地址。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:107
 msgid ""
-"Click :guilabel:`Continue` to be redirected to your organization's "
-"identity provider to complete the sign-in process."
-msgstr ""
+"Click :guilabel:`Continue` to be redirected to your organization's identity "
+"provider to complete the sign-in process."
+msgstr "点击 :guilabel:`Continue` ，你会被重定向到组织的身份提供商完成登录流程。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:110
 msgid "New users"
-msgstr ""
+msgstr "新用户"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:112
 msgid ""
-"After enabling the SAML integration, all users with an email domain "
-"matching the one in your SAML integration will be required to sign up "
-"using SAML. After they sign up, they will be automatically joined to your"
-" organization within the teams you have configured to auto-join users."
-msgstr ""
+"After enabling the SAML integration, all users with an email domain matching"
+" the one in your SAML integration will be required to sign up using SAML. "
+"After they sign up, they will be automatically joined to your organization "
+"within the teams you have configured to auto-join users."
+msgstr "启用 SAML 集成后，所有邮箱域名与 SAML 集成中域名匹配的用户都必须使用 SAML 注册。注册后，他们会自动加入你配置的自动加入团队所属的组织。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:117
 msgid "Existing users"
-msgstr ""
+msgstr "现有用户"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:119
 msgid ""
-"Existing users with email addresses from your configured domain will not "
-"be required to sign in using SAML, but they won't be automatically joined"
-" to your organization."
-msgstr ""
+"Existing users with email addresses from your configured domain will not be "
+"required to sign in using SAML, but they won't be automatically joined to "
+"your organization."
+msgstr "邮箱地址来自所配置域的现有用户无需使用 SAML 登录，但也不会自动加入你的组织。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:122
 msgid ""
 "If you want to enforce SAML for existing users, you have the following "
 "options:"
-msgstr ""
+msgstr "若想对现有用户强制执行 SAML，可选择以下方式："
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:124
 msgid "Users can delete their accounts, and sign up again using SAML."
-msgstr ""
+msgstr "用户可以删除其账户，然后改用 SAML 重新注册。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:125
 msgid ""
-"Users can link their existing accounts to their SAML identity by "
-"following this link while logged in their Read the Docs account: "
+"Users can link their existing accounts to their SAML identity by following "
+"this link while logged in their Read the Docs account: "
 "``https://app.readthedocs.com/accounts/saml/<organization-"
-"slug>/login/?process=connect`` (replace ``<organization-slug>`` with your"
-" organization slug). You can find this link in your `organization's SAML "
+"slug>/login/?process=connect`` (replace ``<organization-slug>`` with your "
+"organization slug). You can find this link in your `organization's SAML "
 "settings page "
 "<https://app.readthedocs.com/organizations/choose/organization_saml/>`__."
 msgstr ""
+"用户登录其 Read the Docs 账户后，访问以下链接即可将现有账户关联到其 SAML "
+"身份：``https://app.readthedocs.com/accounts/saml/<organization-"
+"slug>/login/?process=connect`` （将 ``<organization-slug>`` 替换为你的组织 "
+"slug）。该链接可在 `组织的 SAML 设置页面 "
+"<https://app.readthedocs.com/organizations/choose/organization_saml/>`__ "
+"中找到。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:130
 msgid "Outside collaborators"
-msgstr ""
+msgstr "外部协作者"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:132
 msgid ""
-"You can still add outside collaborators that don't use SAML and manage "
-"their access. There are two ways to manage this access:"
-msgstr ""
+"You can still add outside collaborators that don't use SAML and manage their"
+" access. There are two ways to manage this access:"
+msgstr "你仍可添加不使用 SAML 的外部协作者并管理其访问权限。有两种管理方式："
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:135
 msgid ""
-"Using :doc:`teams </guides/manage-read-the-docs-teams>` to provide access"
-" for ongoing contribution."
-msgstr ""
+"Using :doc:`teams </guides/manage-read-the-docs-teams>` to provide access "
+"for ongoing contribution."
+msgstr "使用 :doc:`团队 </guides/manage-read-the-docs-teams>` 为持续贡献提供访问权限。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:136
 msgid ""
 "Using :doc:`sharing </commercial/sharing>` to provide short-term access "
 "requiring a login."
-msgstr ""
+msgstr "使用 :doc:`共享 </commercial/sharing>` 提供需要登录的短期访问权限。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:139
 msgid "Revoke user's access to all the projects"
-msgstr ""
+msgstr "撤销用户对所有项目的访问权限"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:141
 msgid ""
-"By disabling access to the SAML integration to a user, you revoke access "
-"to all the projects their linked Read the Docs user had access to, and "
-"disable login on Read the Docs completely for that user."
+"By disabling access to the SAML integration to a user, you revoke access to "
+"all the projects their linked Read the Docs user had access to, and disable "
+"login on Read the Docs completely for that user."
 msgstr ""
+"禁用某用户对 SAML 集成的访问权限，即撤销其关联的 Read the Docs 用户对所有可访问项目的权限，并完全禁用该用户在 Read the "
+"Docs 上的登录。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:147
 msgid ""
-"If the user signed up to Read the Docs previously to enabling SAML on "
-"your organization, they may still have access to their account and "
-"projects if they were manually added to a team."
-msgstr ""
+"If the user signed up to Read the Docs previously to enabling SAML on your "
+"organization, they may still have access to their account and projects if "
+"they were manually added to a team."
+msgstr "若该用户在你组织启用 SAML 之前就注册了 Read the Docs，且曾被手动添加到某个团队，他们可能仍能访问自己的账户和项目。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:150
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:158
 msgid ""
-"To completely revoke access to a user, remove them from all the teams "
-"they are part of."
-msgstr ""
+"To completely revoke access to a user, remove them from all the teams they "
+"are part of."
+msgstr "要完全撤销某用户的访问权限，请将其从所有所属团队中移除。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:154
 msgid ""
@@ -432,21 +460,21 @@ msgid ""
 "revoked, they may still have access to documentation pages until their "
 "session expires. This is three days for the dashboard and documentation "
 "pages."
-msgstr ""
+msgstr "若用户在访问权限被撤销时已登录 Read the Docs，他们可能仍能访问文档页面，直至会话过期。仪表盘和文档页面的会话有效期为三天。"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:162
 msgid ":doc:`/guides/manage-read-the-docs-teams`"
-msgstr ""
+msgstr ":doc:`/guides/manage-read-the-docs-teams`"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:163
 msgid "Additional user management options"
-msgstr ""
+msgstr "其他用户管理选项"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:164
 msgid ":doc:`/commercial/single-sign-on`"
-msgstr ""
+msgstr ":doc:`/commercial/single-sign-on`"
 
 #: ../../upstream/docs/user/guides/set-up-single-sign-on-saml.rst:165
 msgid "Information about choosing a single sign-on approach"
-msgstr ""
+msgstr "关于如何选择单点登录方案的信息"
 

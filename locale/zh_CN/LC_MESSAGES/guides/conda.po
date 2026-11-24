@@ -22,47 +22,50 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/conda.rst:2
 msgid "How to use Conda as your Python environment"
-msgstr ""
+msgstr "如何使用 Conda 作为 Python 环境"
 
 #: ../../upstream/docs/user/guides/conda.rst:4
 msgid ""
-"Read the Docs supports Conda as an environment management tool, along "
-"with Virtualenv. Conda support is useful for people who depend on C "
-"libraries, and need them installed when building their documentation."
+"Read the Docs supports Conda as an environment management tool, along with "
+"Virtualenv. Conda support is useful for people who depend on C libraries, "
+"and need them installed when building their documentation."
 msgstr ""
+"Read the Docs 支持将 Conda 作为环境管理工具，与 Virtualenv 并列。Conda 支持对依赖 C "
+"库、需要在构建文档时安装它们的人很有用。"
 
 #: ../../upstream/docs/user/guides/conda.rst:9
 msgid ""
 "This work was funded by `Clinical Graphics`_ -- many thanks for their "
 "support of open source."
-msgstr ""
+msgstr "这项工作由 `Clinical Graphics`_ 资助——非常感谢他们对开源的支持。"
 
 #: ../../upstream/docs/user/guides/conda.rst:14
 msgid "Activating conda"
-msgstr ""
+msgstr "启用 Conda"
 
 #: ../../upstream/docs/user/guides/conda.rst:16
 msgid ""
 "Conda support is available using a :doc:`../config-file/index`, see :ref"
 ":`config-file/v2:conda`."
-msgstr ""
+msgstr "Conda 支持通过 :doc:`../config-file/index` 启用，参见 :ref:`config-file/v2:conda` 。"
 
 #: ../../upstream/docs/user/guides/conda.rst:18
 msgid ""
-"Our Docker images use Miniconda, a minimal conda installer. After "
-"specifying your project requirements using a conda ``environment.yml`` "
-"file, Read the Docs will create the environment (using ``conda env "
-"create``) and add the core dependencies needed to build the "
-"documentation."
+"Our Docker images use Miniconda, a minimal conda installer. After specifying"
+" your project requirements using a conda ``environment.yml`` file, Read the "
+"Docs will create the environment (using ``conda env create``) and add the "
+"core dependencies needed to build the documentation."
 msgstr ""
+"我们的 Docker 镜像使用 Miniconda（精简的 conda 安装器）。用 conda ``environment.yml`` "
+"文件指定项目依赖后，Read the Docs 会创建环境（使用 ``conda env create`` ）并添加构建文档所需的核心依赖。"
 
 #: ../../upstream/docs/user/guides/conda.rst:24
 msgid "Creating the ``environment.yml``"
-msgstr ""
+msgstr "创建 ``environment.yml``"
 
 #: ../../upstream/docs/user/guides/conda.rst:26
 msgid "There are several ways of `exporting a conda environment`_:"
-msgstr ""
+msgstr "有多种 `exporting a conda environment`_ 方式："
 
 #: ../../upstream/docs/user/guides/conda.rst:28
 msgid ""
@@ -72,34 +75,37 @@ msgid ""
 "different operative system than the target machine, in our case Ubuntu "
 "Linux."
 msgstr ""
+"``conda env export`` "
+"会生成环境中所有已安装包及其精确版本的完整列表。这是确保可复现的最佳选择，但若在与目标机器不同的操作系统上执行（本例为 Ubuntu "
+"Linux）则可能出问题。"
 
 #: ../../upstream/docs/user/guides/conda.rst:32
 msgid ""
 "``conda env export --from-history`` will only include packages that were "
 "explicitly requested in the environment, excluding the transitive "
 "dependencies. This is the best option to maximize cross-platform "
-"compatibility, however it may include packages that are not needed to "
-"build your docs."
+"compatibility, however it may include packages that are not needed to build "
+"your docs."
 msgstr ""
+"``conda env export --from-history`` "
+"只包含环境中显式请求的包，不含传递依赖。这是最大化跨平台兼容性的最佳选择，但可能包含构建文档并不需要的包。"
 
 #: ../../upstream/docs/user/guides/conda.rst:35
 msgid ""
-"And finally, you can also write it by hand. This allows you to pick "
-"exactly the packages needed to build your docs (which also results in "
-"faster builds) and overcomes some limitations in the conda exporting "
-"capabilities."
-msgstr ""
+"And finally, you can also write it by hand. This allows you to pick exactly "
+"the packages needed to build your docs (which also results in faster builds)"
+" and overcomes some limitations in the conda exporting capabilities."
+msgstr "最后，你也可以手写该文件。这样能精确挑选构建文档所需的包（同时也能加快构建），并绕过 conda 导出功能的一些限制。"
 
 #: ../../upstream/docs/user/guides/conda.rst:39
 msgid "For example, using the second method for an existing environment:"
-msgstr ""
+msgstr "例如，对现有环境使用第二种方式："
 
 #: ../../upstream/docs/user/guides/conda.rst:55
 msgid ""
-"Read the Docs will override the ``name`` and ``prefix`` of the "
-"environment when creating it, so they can have any value, or not be "
-"present at all."
-msgstr ""
+"Read the Docs will override the ``name`` and ``prefix`` of the environment "
+"when creating it, so they can have any value, or not be present at all."
+msgstr "Read the Docs 在创建环境时会覆盖其 ``name`` 和 ``prefix`` ，因此它们可以是任意值，甚至完全不出现。"
 
 #: ../../upstream/docs/user/guides/conda.rst:58
 msgid ""
@@ -107,191 +113,218 @@ msgid ""
 "``1.2.0``, whereas ``python=3.8`` (single ``=``) will fetch the latest "
 "``3.8.*`` version, which is ``3.8.8`` at the time of writing."
 msgstr ""
+"请注意 ``rasterio==1.2`` （双 ``==`` ）会安装 ``1.2.0`` 版本，而 ``python=3.8`` （单 ``=`` "
+"）会获取最新的 ``3.8.*`` 版本，撰写时为 ``3.8.8`` 。"
 
 #: ../../upstream/docs/user/guides/conda.rst:66
 msgid "Effective use of channels"
-msgstr ""
+msgstr "有效使用 channel"
 
 #: ../../upstream/docs/user/guides/conda.rst:68
 msgid ""
-"Conda packages are usually hosted on https://anaconda.org/, a "
-"registration-free artifact archive maintained by Anaconda Inc. Contrary "
-"to what happens with the Python Package Index, different users can "
-"potentially host the same package in the same repository, each of them "
-"using their own *channel*. Therefore, when installing a conda package, "
-"conda also needs to know which channels to use, and which ones take "
-"precedence."
+"Conda packages are usually hosted on https://anaconda.org/, a registration-"
+"free artifact archive maintained by Anaconda Inc. Contrary to what happens "
+"with the Python Package Index, different users can potentially host the same"
+" package in the same repository, each of them using their own *channel*. "
+"Therefore, when installing a conda package, conda also needs to know which "
+"channels to use, and which ones take precedence."
 msgstr ""
+"Conda 包通常托管在 https://anaconda.org/，这是 Anaconda Inc. 维护的免注册制品仓库。与 Python "
+"包索引不同，不同用户可能在同一仓库中托管同名包，各自使用自己的 *channel* 。因此安装 conda 包时，conda 还需知道使用哪些 "
+"channel 以及优先级顺序。"
 
 #: ../../upstream/docs/user/guides/conda.rst:74
 msgid ""
 "If not specified, conda will use ``defaults``, the channel maintained by "
-"Anaconda Inc. and subject to `Anaconda Terms of Service`_. It contains "
-"well-tested versions of the most widely used packages. However, some "
-"packages are not available on the ``defaults`` channel, and even if they "
-"are, they might not be on their latest versions."
+"Anaconda Inc. and subject to `Anaconda Terms of Service`_. It contains well-"
+"tested versions of the most widely used packages. However, some packages are"
+" not available on the ``defaults`` channel, and even if they are, they might"
+" not be on their latest versions."
 msgstr ""
+"若未指定，conda 会使用 ``defaults``——由 Anaconda Inc. 维护并受 `Anaconda Terms of "
+"Service`_ 约束的 channel。它包含最常用包的充分测试版本。但部分包在 ``defaults`` channel "
+"上不可用，即便可用也未必是最新版本。"
 
 #: ../../upstream/docs/user/guides/conda.rst:79
 msgid ""
-"As an alternative, there are channels maintained by the community that "
-"have a broader selection of packages and more up-to-date versions of "
-"them, the most popular one being ``conda-forge``."
-msgstr ""
+"As an alternative, there are channels maintained by the community that have "
+"a broader selection of packages and more up-to-date versions of them, the "
+"most popular one being ``conda-forge``."
+msgstr "作为替代，社区维护的 channel 提供更丰富的包选择和更新的版本，其中最流行的是 ``conda-forge`` 。"
 
 #: ../../upstream/docs/user/guides/conda.rst:82
 msgid ""
 "To use the ``conda-forge`` channel when specifying your project "
-"dependencies, include it in the list of ``channels`` in "
-"``environment.yml``, and conda will rank them in order of appearance. To "
-"maximize compatibility, we recommend putting ``conda-forge`` above "
-"``defaults``:"
+"dependencies, include it in the list of ``channels`` in ``environment.yml``,"
+" and conda will rank them in order of appearance. To maximize compatibility,"
+" we recommend putting ``conda-forge`` above ``defaults``:"
 msgstr ""
+"要在指定项目依赖时使用 ``conda-forge`` channel，请在 ``environment.yml`` 的 ``channels`` "
+"列表中包含它，conda 会按出现顺序排列优先级。为最大化兼容性，我们建议将 ``conda-forge`` 放在 ``defaults`` 之上："
 
 #: ../../upstream/docs/user/guides/conda.rst:96
 msgid ""
-"If you want to opt out the ``defaults`` channel completely, replace it by"
-" ``nodefaults`` in the list of channels. See `the relevant conda docs`_ "
-"for more information."
+"If you want to opt out the ``defaults`` channel completely, replace it by "
+"``nodefaults`` in the list of channels. See `the relevant conda docs`_ for "
+"more information."
 msgstr ""
+"若想完全退出 ``defaults`` channel，可在 channel 列表中用 ``nodefaults`` 替换它。更多信息见 `the "
+"relevant conda docs`_ 。"
 
 #: ../../upstream/docs/user/guides/conda.rst:103
 msgid "Making builds faster with mamba"
-msgstr ""
+msgstr "用 mamba 加快构建"
 
 #: ../../upstream/docs/user/guides/conda.rst:105
 msgid ""
 "One important thing to note is that, when enabling the ``conda-forge`` "
-"channel, the conda dependency solver requires a large amount of RAM and "
-"long solve times. This is `a known issue`_ due to the sheer amount of "
-"packages available in conda-forge."
+"channel, the conda dependency solver requires a large amount of RAM and long"
+" solve times. This is `a known issue`_ due to the sheer amount of packages "
+"available in conda-forge."
 msgstr ""
+"需要注意的是，启用 ``conda-forge`` channel 后，conda 依赖求解器需要大量内存且求解时间长。这是由于 conda-forge"
+" 中包数量庞大导致的 `a known issue`_ 。"
 
 #: ../../upstream/docs/user/guides/conda.rst:109
 msgid ""
-"As an alternative, you can instruct Read the Docs to use mamba_, a drop-"
-"in replacement for conda that is much faster and reduces the memory "
-"consumption of the dependency solving process."
-msgstr ""
+"As an alternative, you can instruct Read the Docs to use mamba_, a drop-in "
+"replacement for conda that is much faster and reduces the memory consumption"
+" of the dependency solving process."
+msgstr "作为替代，你可以指示 Read the Docs 使用 mamba_——它是 conda 的直接替代品，速度快得多且能减少依赖求解过程的内存消耗。"
 
 #: ../../upstream/docs/user/guides/conda.rst:113
 msgid ""
-"To do that, add a ``.readthedocs.yaml`` :doc:`configuration file "
-"</config-file/v2>` with these contents:"
-msgstr ""
+"To do that, add a ``.readthedocs.yaml`` :doc:`configuration file </config-"
+"file/v2>` with these contents:"
+msgstr "为此，添加内容如下的 ``.readthedocs.yaml`` :doc:`配置文件 </config-file/v2>` ："
 
 #: ../../upstream/docs/user/guides/conda.rst:116
 msgid ".readthedocs.yaml"
-msgstr ""
+msgstr ".readthedocs.yaml"
 
 #: ../../upstream/docs/user/guides/conda.rst:129
 msgid ""
 "You can read more about the :ref:`config-file/v2:build.tools.python` "
 "configuration in our documentation."
-msgstr ""
+msgstr "在我们的文档中可进一步了解 :ref:`config-file/v2:build.tools.python` 配置。"
 
 #: ../../upstream/docs/user/guides/conda.rst:136
 msgid "Mixing conda and pip packages"
-msgstr ""
+msgstr "混用 conda 和 pip 包"
 
 #: ../../upstream/docs/user/guides/conda.rst:138
 msgid ""
 "There are valid reasons to use pip inside a conda environment: some "
-"dependency might not be available yet as a conda package in any channel, "
-"or you might want to avoid precompiled binaries entirely. In either case,"
-" it is possible to specify the subset of packages that will be installed "
-"with pip in the ``environment.yml`` file. For example:"
+"dependency might not be available yet as a conda package in any channel, or "
+"you might want to avoid precompiled binaries entirely. In either case, it is"
+" possible to specify the subset of packages that will be installed with pip "
+"in the ``environment.yml`` file. For example:"
 msgstr ""
+"在 conda 环境中使用 pip 有正当理由：某些依赖在所有 channel 中尚无对应的 conda "
+"包，或你想完全避免预编译二进制包。这两种情况下都可在 ``environment.yml`` 文件中指定用 pip 安装的包子集。例如："
 
 #: ../../upstream/docs/user/guides/conda.rst:158
 msgid ""
-"The `conda developers recommend in their best practices`_ to install as "
-"many requirements as possible with conda, then use pip to minimize "
-"possible conflicts and interoperability issues."
+"The `conda developers recommend in their best practices`_ to install as many"
+" requirements as possible with conda, then use pip to minimize possible "
+"conflicts and interoperability issues."
 msgstr ""
+"`conda developers recommend in their best practices`_ 建议尽量用 conda 安装依赖，再用 "
+"pip 尽可能减少冲突和互操作性问题。"
 
 #: ../../upstream/docs/user/guides/conda.rst:162
 msgid ""
-"Notice that ``conda env export --from-history`` does not include packages"
-" installed with pip, see `this conda issue`_ for discussion."
+"Notice that ``conda env export --from-history`` does not include packages "
+"installed with pip, see `this conda issue`_ for discussion."
 msgstr ""
+"注意 ``conda env export --from-history`` 不包含用 pip 安装的包，详见 `this conda issue`_ "
+"的讨论。"
 
 #: ../../upstream/docs/user/guides/conda.rst:169
 msgid "Compiling your project sources"
-msgstr ""
+msgstr "编译项目源代码"
 
 #: ../../upstream/docs/user/guides/conda.rst:171
 msgid ""
-"If your project contains extension modules written in a compiled language"
-" (C, C++, FORTRAN) or server-side JavaScript, you might need special "
-"tools to build it from source that are not readily available on our "
-"Docker images, such as a suitable compiler, CMake, Node.js, and others."
+"If your project contains extension modules written in a compiled language "
+"(C, C++, FORTRAN) or server-side JavaScript, you might need special tools to"
+" build it from source that are not readily available on our Docker images, "
+"such as a suitable compiler, CMake, Node.js, and others."
 msgstr ""
+"若项目包含用编译型语言（C、C++、FORTRAN）编写的扩展模块或服务端 JavaScript，你可能需要一些从源码构建的专用工具，而我们的 "
+"Docker 镜像中并不 readily 提供，例如合适的编译器、CMake、Node.js 等。"
 
 #: ../../upstream/docs/user/guides/conda.rst:176
 msgid ""
 "Luckily, conda is a language-agnostic package manager, and many of these "
 "development tools are already packaged on ``conda-forge`` or more "
 "specialized channels."
-msgstr ""
+msgstr "幸运的是，conda 是与语言无关的包管理器，许多这类开发工具已在 ``conda-forge`` 或更专业的 channel 上打包提供。"
 
 #: ../../upstream/docs/user/guides/conda.rst:179
 msgid ""
-"For example, this conda environment contains the required dependencies to"
-" compile `Slycot`_ on Read the Docs:"
-msgstr ""
+"For example, this conda environment contains the required dependencies to "
+"compile `Slycot`_ on Read the Docs:"
+msgstr "例如，以下 conda 环境包含在 Read the Docs 上编译 `Slycot`_ 所需的依赖："
 
 #: ../../upstream/docs/user/guides/conda.rst:197
 msgid "Troubleshooting"
-msgstr ""
+msgstr "故障排查"
 
 #: ../../upstream/docs/user/guides/conda.rst:199
 msgid ""
-"If you have problems on the environment creation phase, either because "
-"the build runs out of memory or time or because some conflicts are found,"
-" you can try some of these mitigations:"
-msgstr ""
+"If you have problems on the environment creation phase, either because the "
+"build runs out of memory or time or because some conflicts are found, you "
+"can try some of these mitigations:"
+msgstr "若在环境创建阶段遇到问题（构建内存或时间耗尽，或发现某些冲突），可尝试以下缓解措施："
 
 #: ../../upstream/docs/user/guides/conda.rst:204
 msgid ""
-"Reduce the number of channels in ``environment.yml``, even leaving "
-"``conda-forge`` only and opting out of the defaults adding "
-"``nodefaults``."
+"Reduce the number of channels in ``environment.yml``, even leaving ``conda-"
+"forge`` only and opting out of the defaults adding ``nodefaults``."
 msgstr ""
+"减少 ``environment.yml`` 中的 channel 数量，甚至只保留 ``conda-forge`` 并添加 "
+"``nodefaults`` 退出默认 channel。"
 
 #: ../../upstream/docs/user/guides/conda.rst:206
 msgid ""
-"Constrain the package versions as much as possible to reduce the solution"
-" space."
-msgstr ""
+"Constrain the package versions as much as possible to reduce the solution "
+"space."
+msgstr "尽可能约束包版本以缩小求解空间。"
 
 #: ../../upstream/docs/user/guides/conda.rst:207
 msgid ""
 ":ref:`Use mamba <guides/conda:Making builds faster with mamba>`, an "
 "alternative package manager fully compatible with conda packages."
 msgstr ""
+":ref:`使用 mamba <guides/conda:Making builds faster with mamba>`——与 conda "
+"包完全兼容的替代包管理器。"
 
 #: ../../upstream/docs/user/guides/conda.rst:209
 msgid ""
 "And, if all else fails, :ref:`request more resources <guides/build-using-"
 "too-many-resources:Requests more resources>`."
 msgstr ""
+"若其他方法都无效，:ref:`申请更多资源 <guides/build-using-too-many-resources:Requests more "
+"resources>` 。"
 
 #: ../../upstream/docs/user/guides/conda.rst:213
 msgid "Custom Installs"
-msgstr ""
+msgstr "定制安装"
 
 #: ../../upstream/docs/user/guides/conda.rst:215
 msgid ""
-"If you are running a custom installation of Read the Docs, you will need "
-"the ``conda`` executable installed somewhere on your ``PATH``. Because of"
-" the way ``conda`` works, we can't safely install it as a normal "
-"dependency into the normal Python virtualenv."
+"If you are running a custom installation of Read the Docs, you will need the"
+" ``conda`` executable installed somewhere on your ``PATH``. Because of the "
+"way ``conda`` works, we can't safely install it as a normal dependency into "
+"the normal Python virtualenv."
 msgstr ""
+"若你运行 Read the Docs 的定制安装，需要在 ``PATH`` 的某个位置安装 ``conda`` 可执行文件。由于 ``conda`` "
+"的工作方式，我们无法安全地将其作为普通依赖安装进常规 Python virtualenv。"
 
 #: ../../upstream/docs/user/guides/conda.rst:220
 msgid ""
-"Installing conda into a virtualenv will override the ``activate`` script,"
-" making it so you can't properly activate that virtualenv anymore."
-msgstr ""
+"Installing conda into a virtualenv will override the ``activate`` script, "
+"making it so you can't properly activate that virtualenv anymore."
+msgstr "把 conda 安装进 virtualenv 会覆盖 ``activate`` 脚本，导致你无法再正确激活该 virtualenv。"
 

@@ -22,43 +22,46 @@ msgstr ""
 
 #: ../../upstream/docs/user/story.rst:2
 msgid "The story of Read the Docs"
-msgstr ""
+msgstr "Read the Docs 的故事"
 
 #: ../../upstream/docs/user/story.rst:4
 msgid ""
-"Documenting projects is hard, hosting them shouldn’t be. Read the Docs "
-"was created to make hosting documentation simple."
-msgstr ""
+"Documenting projects is hard, hosting them shouldn’t be. Read the Docs was "
+"created to make hosting documentation simple."
+msgstr "编写项目文档很难，托管文档不该如此。Read the Docs 的创建初衷就是让文档托管变得简单。"
 
 #: ../../upstream/docs/user/story.rst:6
 msgid ""
 "Read the Docs was `started`_ with a couple main goals in mind. The first "
-"goal was to encourage people to write documentation, by removing the "
-"barrier of entry to hosting. The other goal was to create a central "
-"platform for people to find documentation. Having a shared platform for "
-"all documentation allows for innovation at the platform level, allowing "
-"work to be done once and benefit everyone."
+"goal was to encourage people to write documentation, by removing the barrier"
+" of entry to hosting. The other goal was to create a central platform for "
+"people to find documentation. Having a shared platform for all documentation"
+" allows for innovation at the platform level, allowing work to be done once "
+"and benefit everyone."
 msgstr ""
+"Read the Docs `started`_ "
+"时确立了几个主要目标。第一个目标是通过消除托管的入门门槛来鼓励人们编写文档。另一个目标是创建一个供人们查找文档的中心化平台。所有文档共享同一平台，使得平台层面的创新成为可能——工作做一次，人人受益。"
 
 #: ../../upstream/docs/user/story.rst:13
 msgid ""
 "`Documentation matters`_, but its often overlooked. We think that we can "
-"help a documentation culture flourish. Great projects, such as Django_ "
-"and SQLAlchemy_, and projects from companies like Mozilla_, are already "
-"using Read the Docs to serve their documentation to the world."
+"help a documentation culture flourish. Great projects, such as Django_ and "
+"SQLAlchemy_, and projects from companies like Mozilla_, are already using "
+"Read the Docs to serve their documentation to the world."
 msgstr ""
+"`Documentation matters`_ ，但它常被忽视。我们相信能帮助文档文化蓬勃发展。Django_ 和 SQLAlchemy_ "
+"等优秀项目，以及 Mozilla_ 等公司的项目，都已在使用 Read the Docs 向世界提供其文档。"
 
 #: ../../upstream/docs/user/story.rst:19
 msgid ""
-"The site has grown quite a bit over the past year. Our `look back at "
-"2013`_ shows some numbers that show our progress. The job isn't anywhere "
-"near done yet, but it's a great honor to be able to have such an impact "
-"already."
-msgstr ""
+"The site has grown quite a bit over the past year. Our `look back at 2013`_ "
+"shows some numbers that show our progress. The job isn't anywhere near done "
+"yet, but it's a great honor to be able to have such an impact already."
+msgstr "过去一年站点成长颇多。我们的 `look back at 2013`_ 展示了反映进展的一些数字。这项工作远未完成，但能已有这样的影响力，我们深感荣幸。"
 
 #: ../../upstream/docs/user/story.rst:24
 msgid ""
-"We plan to keep building a great experience for people hosting their docs"
-" with us, and for users of the documentation that we host."
-msgstr ""
+"We plan to keep building a great experience for people hosting their docs "
+"with us, and for users of the documentation that we host."
+msgstr "我们计划继续为在我们这里托管文档的人、以及我们托管的文档的使用者打造出色的体验。"
 

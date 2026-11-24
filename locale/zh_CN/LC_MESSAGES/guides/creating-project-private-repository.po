@@ -22,261 +22,274 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:2
 msgid "Creating a project from a private repository"
-msgstr ""
+msgstr "从私有仓库创建项目"
 
 #: ../../upstream/docs/user/shared/admonition-rtd-business.rst:2
 msgid ""
 "This feature is only available on `Read the Docs Business "
 "<https://app.readthedocs.com/>`_."
-msgstr ""
+msgstr "此功能仅在 `Read the Docs Business <https://app.readthedocs.com/>`_ 上提供。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:6
 msgid ""
 "On |com_brand|, projects can be connected to both private and public "
-"repositories. There are two methods you can use to create a project from "
-"a private repository:"
-msgstr ""
+"repositories. There are two methods you can use to create a project from a "
+"private repository:"
+msgstr "在 |com_brand| 上，项目可连接到私有和公开仓库。你可以用两种方法从私有仓库创建项目："
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:9
 msgid "`Automatically create a project from a connected repository`_"
-msgstr ""
+msgstr "`Automatically create a project from a connected repository`_"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:10
 msgid ""
-"If you have a |git_providers_or| service connected to your account, "
-"projects can be created automatically from a connected private "
-"repository. We will handle the configuration of your repository to allow "
-"cloning and pushing status updates to trigger new builds for your "
-"project."
+"If you have a |git_providers_or| service connected to your account, projects"
+" can be created automatically from a connected private repository. We will "
+"handle the configuration of your repository to allow cloning and pushing "
+"status updates to trigger new builds for your project."
 msgstr ""
+"若你的账户已连接 |git_providers_or| "
+"服务，项目可从已连接的私有仓库自动创建。我们会处理仓库配置，使其可被克隆，并推送状态更新以触发项目的新构建。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:15
 msgid "We recommend this method for most projects."
-msgstr ""
+msgstr "我们建议大多数项目采用此方法。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:17
 msgid "`Manually create a project from a repository`_"
-msgstr ""
+msgstr "`Manually create a project from a repository`_"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:18
 msgid ""
-"If your Git provider is unsupported or if your Read the Docs account is "
-"not connected to your provider, you can still manually create a project "
-"against a private repository. You will have to manually configure your "
-"Git provider and repository after project creation."
+"If your Git provider is unsupported or if your Read the Docs account is not "
+"connected to your provider, you can still manually create a project against "
+"a private repository. You will have to manually configure your Git provider "
+"and repository after project creation."
 msgstr ""
+"若你的 Git 服务商不受支持，或 Read the Docs 账户未与之关联，仍可手动基于私有仓库创建项目。但项目创建后需手动配置你的 Git "
+"服务商和仓库。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:23
 msgid "Automatically create a project from a connected repository"
-msgstr ""
+msgstr "从已连接的仓库自动创建项目"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:28
 msgid ""
-"If your Read the Docs account has a connected |git_providers_or| account,"
-" you should be able to automatically create a project from your "
-"repository. Your account will need sufficient permissions to the "
-"repository to automatically configure it."
+"If your Read the Docs account has a connected |git_providers_or| account, "
+"you should be able to automatically create a project from your repository. "
+"Your account will need sufficient permissions to the repository to "
+"automatically configure it."
 msgstr ""
+"若你的 Read the Docs 账户已关联 |git_providers_or| "
+"账户，应能从你的仓库自动创建项目。你的账户需对该仓库有足够权限才能自动完成配置。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:32
 msgid ""
 "We recommend most users follow our :doc:`directions on automatically "
 "creating projects </intro/add-project>` from a connected repository."
-msgstr ""
+msgstr "我们建议大多数用户遵循我们的 :doc:`从已连接仓库自动创建项目的说明 </intro/add-project>` 。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:35
 msgid "Manually create a project from a repository"
-msgstr ""
+msgstr "从仓库手动创建项目"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:37
 msgid ""
-"In the case that automatic project creation isn't supported or doesn't "
-"work for your repository, projects may be able to be manually created and"
-" configured. You can still clone the repository with SSH but you will "
-"have to manually configure the repository SSH keys and webhooks."
-msgstr ""
+"In the case that automatic project creation isn't supported or doesn't work "
+"for your repository, projects may be able to be manually created and "
+"configured. You can still clone the repository with SSH but you will have to"
+" manually configure the repository SSH keys and webhooks."
+msgstr "若自动创建项目不受支持或对你的仓库无效，项目仍可手动创建和配置。你依然可以用 SSH 克隆仓库，但需手动配置仓库的 SSH 密钥和 Webhook。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:44
 msgid ":doc:`/guides/setup/git-repo-manual`"
-msgstr ""
+msgstr ":doc:`/guides/setup/git-repo-manual`"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:45
 msgid ""
 "An overview of all of the steps required to manually add a project. This "
 "guide is useful for both projects using public and private repositories."
-msgstr ""
+msgstr "手动添加项目所需全部步骤的概览。本指南对使用公开和私有仓库的项目都有用。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:49
 msgid "Creating a project manually"
-msgstr ""
+msgstr "手动创建项目"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:51
 msgid "Select an organization team to create the project in."
-msgstr ""
+msgstr "选择要创建项目的组织团队。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:56
 msgid "Select :guilabel:`Add project` from the main dashboard."
-msgstr ""
+msgstr "在主仪表盘中选择 :guilabel:`Add project` 。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:57
 msgid "Select :guilabel:`Configure manually` and then :guilabel:`Continue`."
-msgstr ""
+msgstr "选择 :guilabel:`Configure manually` ，然后选择 :guilabel:`Continue` 。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:58
 msgid ""
-"Select the organization team you'd like to create the project for. You "
-"must be on a team with ``admin`` permission to do this."
-msgstr ""
+"Select the organization team you'd like to create the project for. You must "
+"be on a team with ``admin`` permission to do this."
+msgstr "选择要为其创建项目的组织团队。你必须处于拥有 ``admin`` 权限的团队中才能操作。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:61
 msgid ""
-"In the next form page you will manually configure your project's "
-"repository details."
-msgstr ""
+"In the next form page you will manually configure your project's repository "
+"details."
+msgstr "在接下来的表单页面中手动配置项目的仓库信息。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:63
 msgid "Specify your project and repository configuration."
-msgstr ""
+msgstr "指定项目和仓库配置。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:68
 msgid ""
-"In the :guilabel:`Repository URL` field, provide the repository's SSH or "
-"Git URL. This URL usually starts with ``git@...``, for example "
+"In the :guilabel:`Repository URL` field, provide the repository's SSH or Git"
+" URL. This URL usually starts with ``git@...``, for example "
 "``git@github.com:readthedocs/readthedocs.org.git``."
 msgstr ""
+"在 :guilabel:`Repository URL` 字段中填写仓库的 SSH 或 Git URL。该 URL 通常以 ``git@...`` "
+"开头，例如 ``git@github.com:readthedocs/readthedocs.org.git`` 。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:70
 msgid ""
 "Click :guilabel:`Next`, select :guilabel:`Build on Read the Docs`, and "
 "follow the instructions to add a :doc:`configuration file </config-"
-"file/index>` to your repository. The project uses your repository's "
-"default branch, you can change it later in the :guilabel:`Default branch`"
-" field of your project's :menuselection:`Settings`."
+"file/index>` to your repository. The project uses your repository's default "
+"branch, you can change it later in the :guilabel:`Default branch` field of "
+"your project's :menuselection:`Settings`."
 msgstr ""
+"点击 :guilabel:`Next` ，选择 :guilabel:`Build on Read the Docs` ，并按说明向仓库添加 "
+":doc:`配置文件 </config-file/index>` 。项目默认使用仓库的默认分支，之后可在项目 "
+":menuselection:`Settings` 的 :guilabel:`Default branch` 字段中更改。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:74
 msgid ""
 "The project's first build should fail to clone your repository. This is "
 "expected, your repository is not configured to allow access yet."
-msgstr ""
+msgstr "项目的首次构建应会因无法克隆仓库而失败。这是预期现象——你的仓库尚未配置为允许访问。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:78
 msgid "Configuring your repository"
-msgstr ""
+msgstr "配置你的仓库"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:80
 msgid ""
-"Each project is configured with an SSH key pair consisting of a public "
-"and private key. Your repository will need to be configured with the "
-"public SSH key in order to allow builds to clone your repository."
-msgstr ""
+"Each project is configured with an SSH key pair consisting of a public and "
+"private key. Your repository will need to be configured with the public SSH "
+"key in order to allow builds to clone your repository."
+msgstr "每个项目都配置有一对 SSH 密钥（公钥和私钥）。你需要在仓库中配置该公钥，构建才能克隆你的仓库。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:84
 msgid "Project SSH key details."
-msgstr ""
+msgstr "项目 SSH 密钥详情。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:89
 msgid "Go to your project's :menuselection:`Settings --> SSH keys`."
-msgstr ""
+msgstr "前往项目的 :menuselection:`Settings --> SSH keys` 。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:90
 msgid "Click on the fingerprint of the SSH key."
-msgstr ""
+msgstr "点击 SSH 密钥的指纹。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:91
 msgid "Copy the text from the :guilabel:`Public SSH key` field"
-msgstr ""
+msgstr "复制 :guilabel:`Public SSH key` 字段中的文本"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:92
 msgid ""
-"Next, configure your repository with this key, we've provided "
-"instructions for common Git providers:"
-msgstr ""
+"Next, configure your repository with this key, we've provided instructions "
+"for common Git providers:"
+msgstr "接下来用该密钥配置你的仓库，我们为常见 Git 服务商提供了说明："
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:97
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:99
 msgid ""
 "For GitHub, you can use `deploy keys with read only access "
-"<https://docs.github.com/en/developers/overview/managing-deploy-keys"
-"#deploy-keys>`__."
+"<https://docs.github.com/en/developers/overview/managing-deploy-keys#deploy-"
+"keys>`__."
 msgstr ""
+"对于 GitHub，你可以使用 `只读访问的部署密钥 <https://docs.github.com/en/developers/overview"
+"/managing-deploy-keys#deploy-keys>`__ 。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:102
-msgid ""
-"Go to :menuselection:`Settings --> Deploy keys` of your repository on "
-"GitHub"
-msgstr ""
+msgid "Go to :menuselection:`Settings --> Deploy keys` of your repository on GitHub"
+msgstr "前往 GitHub 上你仓库的 :menuselection:`Settings --> Deploy keys`"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:103
 msgid "Click on :guilabel:`Add deploy key`"
-msgstr ""
+msgstr "点击 :guilabel:`Add deploy key`"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:104
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:113
 msgid "Put a descriptive title and paste the public key you copied above."
-msgstr ""
+msgstr "填写描述性标题并粘贴你上面复制的公钥。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:105
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:114
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:123
 msgid "Click on :guilabel:`Add key`"
-msgstr ""
+msgstr "点击 :guilabel:`Add key`"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:107
 msgid "GitLab"
-msgstr ""
+msgstr "GitLab"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:109
 msgid ""
 "For GitLab, you can use `deploy keys with read only access "
 "<https://docs.gitlab.com/ee/user/project/deploy_keys/index.html>`__."
 msgstr ""
+"对于 GitLab，你可以使用 `只读访问的部署密钥 "
+"<https://docs.gitlab.com/ee/user/project/deploy_keys/index.html>`__ 。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:111
 msgid "Go to :menuselection:`Settings --> Repository` of your project on GitLab"
-msgstr ""
+msgstr "前往 GitLab 上你项目的 :menuselection:`Settings --> Repository`"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:112
 msgid "Expand the :guilabel:`Deploy Keys` section"
-msgstr ""
+msgstr "展开 :guilabel:`Deploy Keys` 区域"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:116
 msgid "Bitbucket"
-msgstr ""
+msgstr "Bitbucket"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:118
 msgid ""
 "For Bitbucket, you can use `access keys with read only access "
-"<https://confluence.atlassian.com/bitbucket/access-"
-"keys-294486051.html>`__."
+"<https://confluence.atlassian.com/bitbucket/access-keys-294486051.html>`__."
 msgstr ""
+"对于 Bitbucket，你可以使用 `只读访问的访问密钥 <https://confluence.atlassian.com/bitbucket"
+"/access-keys-294486051.html>`__ 。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:120
 msgid "Go your project on Bitbucket"
-msgstr ""
+msgstr "前往 Bitbucket 上你的项目"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:121
 msgid "Click on :guilabel:`Repository Settings`"
-msgstr ""
+msgstr "点击 :guilabel:`Repository Settings`"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:122
 msgid "Click on :guilabel:`Access keys`"
-msgstr ""
+msgstr "点击 :guilabel:`Access keys`"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:124
 msgid "Put a descriptive label and paste the public key you copied above."
-msgstr ""
+msgstr "填写描述性标签并粘贴你上面复制的公钥。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:125
 msgid "Click on :guilabel:`Add SSH key`"
-msgstr ""
+msgstr "点击 :guilabel:`Add SSH key`"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:127
 msgid "Azure DevOps"
-msgstr ""
+msgstr "Azure DevOps"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:129
 msgid ""
@@ -284,58 +297,63 @@ msgid ""
 "<https://docs.microsoft.com/en-us/azure/devops/repos/git/use-ssh-keys-to-"
 "authenticate?view=azure-devops>`__."
 msgstr ""
+"对于 Azure DevOps，你可以使用 `SSH 密钥认证 <https://docs.microsoft.com/en-"
+"us/azure/devops/repos/git/use-ssh-keys-to-authenticate?view=azure-devops>`__"
+" 。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:131
 msgid "Go your Azure DevOps page"
-msgstr ""
+msgstr "前往你的 Azure DevOps 页面"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:132
 msgid "Click on :guilabel:`User settings`"
-msgstr ""
+msgstr "点击 :guilabel:`User settings`"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:133
 msgid "Click on :guilabel:`SSH public keys`"
-msgstr ""
+msgstr "点击 :guilabel:`SSH public keys`"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:134
 msgid "Click on :guilabel:`New key`"
-msgstr ""
+msgstr "点击 :guilabel:`New key`"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:135
 msgid "Put a descriptive name and paste the public key you copied above."
-msgstr ""
+msgstr "填写描述性名称并粘贴你上面复制的公钥。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:136
 msgid "Click on :guilabel:`Add`"
-msgstr ""
+msgstr "点击 :guilabel:`Add`"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:138
 msgid "Others"
-msgstr ""
+msgstr "其他"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:140
 msgid ""
 "If you are using a provider not listed here, you should still be able to "
 "configure your repository with your project's SSH key. Refer to your "
 "provider's documentation for managing SSH keys on private repositories."
-msgstr ""
+msgstr "若你使用此处未列出的服务商，仍应能用项目的 SSH 密钥配置你的仓库。请查阅该服务商关于在私有仓库上管理 SSH 密钥的文档。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:145
 msgid "Configuring repository webhooks"
-msgstr ""
+msgstr "配置仓库 Webhook"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:147
 msgid ""
-"Your repository will also need to be configured to push updates via "
-"webhooks to Read the Docs on repository events. Webhook updates are used "
-"to automatically trigger new builds for your project and synchronize your"
-" repository's branches and tags."
+"Your repository will also need to be configured to push updates via webhooks"
+" to Read the Docs on repository events. Webhook updates are used to "
+"automatically trigger new builds for your project and synchronize your "
+"repository's branches and tags."
 msgstr ""
+"你的仓库还需配置为在仓库事件发生时通过 Webhook 向 Read the Docs 推送更新。Webhook "
+"更新用于自动触发项目的新构建，并同步仓库的分支和标签。"
 
 #: ../../upstream/docs/user/guides/creating-project-private-repository.rst:150
 msgid ""
 "This step is the same for public repositories, follow the directions for "
-":doc:`manually configuring a Git repository integration </guides/setup"
-"/git-repo-manual>`."
-msgstr ""
+":doc:`manually configuring a Git repository integration </guides/setup/git-"
+"repo-manual>`."
+msgstr "此步骤与公开仓库相同，请遵循 :doc:`手动配置 Git 仓库集成 </guides/setup/git-repo-manual>` 的说明。"
 

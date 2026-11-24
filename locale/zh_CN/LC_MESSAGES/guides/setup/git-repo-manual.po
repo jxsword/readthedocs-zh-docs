@@ -22,70 +22,80 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:2
 msgid "How to manually configure a Git repository integration"
-msgstr ""
+msgstr "如何手动配置 Git 仓库集成"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:4
 msgid ""
-"In this guide, you will find the steps to manually integrate your Read "
-"the Docs project with any Git provider using :term:`webhooks <webhook>`. "
-"Manual integration is most useful for Git providers that we don't support"
-" with automatic configuration. Automatic configuration is supported for "
+"In this guide, you will find the steps to manually integrate your Read the "
+"Docs project with any Git provider using :term:`webhooks <webhook>`. Manual "
+"integration is most useful for Git providers that we don't support with "
+"automatic configuration. Automatic configuration is supported for "
 "|git_providers_and|."
 msgstr ""
+"本指南讲解如何使用 :term:`webhooks <webhook>` 手动将 Read the Docs 项目与任意 Git "
+"服务商集成。手动集成对我们无法自动配置的 Git 服务商最为有用。|git_providers_and| 支持自动配置。"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:9
 msgid ""
 "Git repositories that are imported manually **do not** have the required "
-"setup to send back a **commit status**. If you need this integration, you"
-" have to :doc:`configure the repository automatically </reference/git-"
+"setup to send back a **commit status**. If you need this integration, you "
+"have to :doc:`configure the repository automatically </reference/git-"
 "integration>`."
 msgstr ""
+"手动导入的 Git 仓库**没有** 回传**提交状态** 所需的配置。若需要此集成，必须 :doc:`自动配置仓库 </reference/git-"
+"integration>` 。"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:30
 msgid "Manual integration setup"
-msgstr ""
+msgstr "手动集成设置"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:32
 msgid ""
-"You need to configure your Git provider integration to call a webhook "
-"that alerts Read the Docs of changes. Read the Docs will sync versions "
-"and build your documentation whenever a Git commit happens."
+"You need to configure your Git provider integration to call a webhook that "
+"alerts Read the Docs of changes. Read the Docs will sync versions and build "
+"your documentation whenever a Git commit happens."
 msgstr ""
+"你需要配置 Git 服务商集成，调用一个 Webhook 通知 Read the Docs 变更。每当发生 Git 提交时，Read the Docs "
+"会同步版本并构建文档。"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:37
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:39
 msgid "Go to :menuselection:`Settings --> Webhooks` of your **GitHub repository**"
-msgstr ""
+msgstr "前往你的 **GitHub 仓库** 的 :menuselection:`Settings --> Webhooks`"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:40
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:69
 msgid "Click :guilabel:`Add webhook`"
-msgstr ""
+msgstr "点击 :guilabel:`Add webhook`"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:41
 msgid ""
-"For **Payload URL**, use the URL of the integration on your **Read the "
-"Docs project**, found on your project's :menuselection:`Settings --> "
+"For **Payload URL**, use the URL of the integration on your **Read the Docs "
+"project**, found on your project's :menuselection:`Settings --> "
 "Integrations` page. You may need to prepend *https://* to the URL."
 msgstr ""
+"**Payload URL** 填写 **Read the Docs 项目** 上集成的 URL，可在项目的 "
+":menuselection:`Settings --> Integrations` 页面找到。你可能需要在 URL 前加上 *https://* 。"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:44
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:99
 msgid ""
-"For **Content type**, both *application/json* and *application/x-www-"
-"form-urlencoded* work"
+"For **Content type**, both *application/json* and *application/x-www-form-"
+"urlencoded* work"
 msgstr ""
+"**Content type** 填写 *application/json* 或 *application/x-www-form-urlencoded*"
+" 均可"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:46
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:73
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:101
 msgid ""
-"Fill the **Secret** field with the value from the integration on Read the"
-" Docs"
-msgstr ""
+"Fill the **Secret** field with the value from the integration on Read the "
+"Docs"
+msgstr "**Secret** 字段填写 Read the Docs 上集成对应的值"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:47
 msgid ""
@@ -93,185 +103,200 @@ msgid ""
 "creation**, **Branch or tag deletion**, **Pull requests** and **Pushes** "
 "events"
 msgstr ""
+"选择 **Let me select individual events** ，并勾选 **Branch or tag creation** "
+"、**Branch or tag deletion** 、**Pull requests** 和 **Pushes** 事件"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:49
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:104
 msgid "Ensure **Active** is enabled; it is by default"
-msgstr ""
+msgstr "确保 **Active** 已启用（默认即为启用）"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:50
 msgid ""
-"Finish by clicking :guilabel:`Add webhook`.  You may be prompted to enter"
-" your GitHub password to confirm your action."
-msgstr ""
+"Finish by clicking :guilabel:`Add webhook`.  You may be prompted to enter "
+"your GitHub password to confirm your action."
+msgstr "最后点击 :guilabel:`Add webhook` 。系统可能提示你输入 GitHub 密码以确认操作。"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:52
 msgid ""
-"You can verify if the webhook is working at the bottom of the GitHub page"
-" under **Recent Deliveries**. If you see a Response 200, then the webhook"
-" is correctly configured. For a 403 error, it's likely that the Payload "
-"URL is incorrect."
+"You can verify if the webhook is working at the bottom of the GitHub page "
+"under **Recent Deliveries**. If you see a Response 200, then the webhook is "
+"correctly configured. For a 403 error, it's likely that the Payload URL is "
+"incorrect."
 msgstr ""
+"你可以在 GitHub 页面底部的 **Recent Deliveries** 中验证 Webhook 是否工作。若看到 Response 200，说明"
+" Webhook 配置正确；若出现 403 错误，很可能是 Payload URL 有误。"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:56
 msgid "GitLab"
-msgstr ""
+msgstr "GitLab"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:58
 msgid "Go to :menuselection:`Settings --> Webhooks` of your **GitLab repository**"
-msgstr ""
+msgstr "前往你的 **GitLab 仓库** 的 :menuselection:`Settings --> Webhooks`"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:59
 msgid ""
-"For **URL**, use the URL of the integration on **Read the Docs project**,"
-" found on your project's :menuselection:`Settings --> Integrations` page"
+"For **URL**, use the URL of the integration on **Read the Docs project**, "
+"found on your project's :menuselection:`Settings --> Integrations` page"
 msgstr ""
+"**URL** 填写 **Read the Docs 项目** 上集成的 URL，可在项目的 :menuselection:`Settings --> "
+"Integrations` 页面找到"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:61
 msgid ""
-"Fill the **Secret token** field with the value from the integration on "
-"Read the Docs"
-msgstr ""
+"Fill the **Secret token** field with the value from the integration on Read "
+"the Docs"
+msgstr "**Secret token** 字段填写 Read the Docs 上集成对应的值"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:62
 msgid ""
 "Leave the default **Push events** selected, additionally mark **Tag push "
 "events** and **Merge request events**."
-msgstr ""
+msgstr "保留默认的 **Push events** ，另外勾选 **Tag push events** 和 **Merge request events** 。"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:64
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:105
 msgid "Finish by clicking :guilabel:`Add Webhook`"
-msgstr ""
+msgstr "最后点击 :guilabel:`Add Webhook`"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:66
 msgid "Bitbucket"
-msgstr ""
+msgstr "Bitbucket"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:68
-msgid ""
-"Go to :menuselection:`Settings --> Webhooks` of your **Bitbucket "
-"repository**"
-msgstr ""
+msgid "Go to :menuselection:`Settings --> Webhooks` of your **Bitbucket repository**"
+msgstr "前往你的 **Bitbucket 仓库** 的 :menuselection:`Settings --> Webhooks`"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:70
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:96
 msgid ""
-"For **URL**, use the URL of the integration on Read the Docs, found on "
-"your project's :menuselection:`Settings --> Integrations` page"
+"For **URL**, use the URL of the integration on Read the Docs, found on your "
+"project's :menuselection:`Settings --> Integrations` page"
 msgstr ""
+"**URL** 填写 Read the Docs 上集成的 URL，可在项目的 :menuselection:`Settings --> "
+"Integrations` 页面找到"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:72
 msgid "Under **Triggers**, **Repository push** should be selected"
-msgstr ""
+msgstr "在 **Triggers** 下应选中 **Repository push**"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:74
 msgid "Finish by clicking :guilabel:`Save`"
-msgstr ""
+msgstr "最后点击 :guilabel:`Save`"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:76
 msgid "Gitea"
-msgstr ""
+msgstr "Gitea"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:78
 msgid "These instructions apply to any Gitea instance."
-msgstr ""
+msgstr "以下说明适用于任何 Gitea 实例。"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:82
 msgid ""
 "This isn't officially supported, but using the \"GitHub webhook\" is an "
 "effective workaround, because Gitea uses the same payload as GitHub. The "
-"generic webhook is not compatible with Gitea. See `issue #8364`_ for more"
-" details. Official support may be implemented in the future."
+"generic webhook is not compatible with Gitea. See `issue #8364`_ for more "
+"details. Official support may be implemented in the future."
 msgstr ""
+"此方式未获官方支持，但使用\"GitHub webhook\"是有效的变通方案，因为 Gitea 使用与 GitHub 相同的载荷格式。通用 "
+"Webhook 与 Gitea 不兼容。更多细节见 `issue #8364`_ 。未来可能实现官方支持。"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:86
 msgid "On Read the Docs:"
-msgstr ""
+msgstr "在 Read the Docs 上："
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:88
 msgid ""
-"Manually create a \"GitHub webhook\" integration (this will show a "
-"warning about the webhook not being correctly set up, that will go away "
-"when the webhook is configured in Gitea)"
+"Manually create a \"GitHub webhook\" integration (this will show a warning "
+"about the webhook not being correctly set up, that will go away when the "
+"webhook is configured in Gitea)"
 msgstr ""
+"手动创建一个\"GitHub webhook\"集成（此时会显示 Webhook 未正确设置的警告，在 Gitea 中配置好 Webhook "
+"后警告会消失）"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:92
 msgid "On your Gitea instance:"
-msgstr ""
+msgstr "在你的 Gitea 实例上："
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:94
 msgid "Go to :menuselection:`Settings --> Webhooks` of your **Gitea repository**"
-msgstr ""
+msgstr "前往你的 **Gitea 仓库** 的 :menuselection:`Settings --> Webhooks`"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:95
 msgid "Create a new webhook of type \"Gitea\""
-msgstr ""
+msgstr "创建类型为\"Gitea\"的新 Webhook"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:98
 msgid "Leave the default **HTTP Method** as POST"
-msgstr ""
+msgstr "保持默认的 **HTTP Method** 为 POST"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:102
 msgid ""
-"Select **Choose events**, and mark **Branch or tag creation**, **Branch "
-"or tag deletion** and **Push** events"
+"Select **Choose events**, and mark **Branch or tag creation**, **Branch or "
+"tag deletion** and **Push** events"
 msgstr ""
+"选择 **Choose events** ，并勾选 **Branch or tag creation** 、**Branch or tag "
+"deletion** 和 **Push** 事件"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:106
 msgid "Test the webhook with :guilabel:`Delivery test`"
-msgstr ""
+msgstr "用 :guilabel:`Delivery test` 测试 Webhook"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:108
 msgid ""
-"Finally, on Read the Docs, check that the warnings have disappeared and "
-"the delivery test triggered a build."
-msgstr ""
+"Finally, on Read the Docs, check that the warnings have disappeared and the "
+"delivery test triggered a build."
+msgstr "最后在 Read the Docs 上检查警告是否已消失，且投递测试触发了构建。"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:113
 msgid "Others"
-msgstr ""
+msgstr "其他"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:115
 msgid ""
-"Other providers are supported through a generic webhook, see :ref"
-":`webhook-integration-generic`."
-msgstr ""
+"Other providers are supported through a generic webhook, see :ref:`webhook-"
+"integration-generic`."
+msgstr "其他服务商通过通用 Webhook 支持，参见 :ref:`webhook-integration-generic` 。"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:118
 msgid "Payload validation"
-msgstr ""
+msgstr "载荷验证"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:120
 msgid ""
 "All integrations are created with a secret token, this offers a way to "
 "verify that a webhook request is legitimate."
-msgstr ""
+msgstr "所有集成都使用密钥令牌创建，这提供了一种验证 Webhook 请求合法性的方式。"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:123
 msgid "This validation is done according to each provider:"
-msgstr ""
+msgstr "各服务商的验证方式如下："
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:125
 msgid "`GitHub <https://developer.github.com/webhooks/securing/>`__"
-msgstr ""
+msgstr "`GitHub <https://developer.github.com/webhooks/securing/>`__"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:126
 msgid ""
-"`GitLab "
-"<https://docs.gitlab.com/ee/user/project/integrations/webhooks.html"
+"`GitLab <https://docs.gitlab.com/ee/user/project/integrations/webhooks.html"
 "#validate-payloads-by-using-a-secret-token>`__"
 msgstr ""
+"`GitLab <https://docs.gitlab.com/ee/user/project/integrations/webhooks.html"
+"#validate-payloads-by-using-a-secret-token>`__"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:127
 msgid ""
 "`Bitbucket <https://support.atlassian.com/bitbucket-cloud/docs/manage-"
 "webhooks/#Secure-webhooks>`__"
 msgstr ""
+"`Bitbucket <https://support.atlassian.com/bitbucket-cloud/docs/manage-"
+"webhooks/#Secure-webhooks>`__"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:131
 msgid "Managing Integrations"
-msgstr ""
+msgstr "管理集成"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:133
 msgid ""
@@ -279,17 +304,21 @@ msgid ""
 ":menuselection:`Settings --> Integrations`, click on :guilabel:`Add "
 "integration`, and select the integration type you'd like to add."
 msgstr ""
+"要手动设置集成，请前往项目的 :menuselection:`Settings --> Integrations` ，点击 :guilabel:`Add"
+" integration` ，并选择要添加的集成类型。"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:136
 msgid ""
 "As an example, the URL pattern looks like this: "
-"``https://app.readthedocs.org/api/v2/webhook/<project-name>/<id>/*``. Use"
-" this URL when setting up a new integration with your provider."
+"``https://app.readthedocs.org/api/v2/webhook/<project-name>/<id>/*``. Use "
+"this URL when setting up a new integration with your provider."
 msgstr ""
+"举例来说，URL 格式形如：``https://app.readthedocs.org/api/v2/webhook/<project-"
+"name>/<id>/*`` 。与服务商设置新集成时使用此 URL。"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:142
 msgid "Using the generic API integration"
-msgstr ""
+msgstr "使用通用 API 集成"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:144
 msgid ""
@@ -299,107 +328,112 @@ msgid ""
 "found on the project's **Integrations** dashboard page "
 "(:menuselection:`Settings --> Integrations`)."
 msgstr ""
+"对于托管在不受支持服务商上的仓库，我们还提供通用 API 端点用于触发项目构建。与 Webhook 集成类似，此集成有专属 URL，可在项目的 "
+"**Integrations** 仪表盘页面（:menuselection:`Settings --> Integrations` ）找到。"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:149
 msgid ""
-"Token authentication is required to use the generic endpoint, you will "
-"find this token on the integration details page. The token should be "
-"passed in as a request parameter, either as form data or as part of JSON "
-"data input."
-msgstr ""
+"Token authentication is required to use the generic endpoint, you will find "
+"this token on the integration details page. The token should be passed in as"
+" a request parameter, either as form data or as part of JSON data input."
+msgstr "使用通用端点需要令牌认证，该令牌可在集成详情页找到。令牌应作为请求参数传入，可以是表单数据或 JSON 数据输入的一部分。"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:154
 msgid "Parameters"
-msgstr ""
+msgstr "参数"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:156
 msgid "This endpoint accepts the following arguments during an HTTP POST:"
-msgstr ""
+msgstr "此端点在 HTTP POST 时接受以下参数："
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:158
 msgid "branches"
-msgstr ""
+msgstr "branches"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:159
 msgid ""
-"The names of the branches to trigger builds for. This can either be an "
-"array of branch name strings, or just a single branch name string."
-msgstr ""
+"The names of the branches to trigger builds for. This can either be an array"
+" of branch name strings, or just a single branch name string."
+msgstr "要触发构建的分支名称。可以是分支名字符串数组，也可以是单个分支名字符串。"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:162
 msgid "Default: **latest**"
-msgstr ""
+msgstr "默认值：**latest**"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:164
 msgid "token"
-msgstr ""
+msgstr "token"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:165
 msgid ""
-"The integration token found on the project's **Integrations** dashboard "
-"page (:menuselection:`Settings --> Integrations`)."
+"The integration token found on the project's **Integrations** dashboard page"
+" (:menuselection:`Settings --> Integrations`)."
 msgstr ""
+"在项目 **Integrations** 仪表盘页面（:menuselection:`Settings --> Integrations` "
+"）找到的集成令牌。"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:169
 msgid "default_branch"
-msgstr ""
+msgstr "default_branch"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:170
 msgid ""
-"This is the default branch of the repository (ie. the one checked out "
-"when cloning the repository without arguments)"
-msgstr ""
+"This is the default branch of the repository (ie. the one checked out when "
+"cloning the repository without arguments)"
+msgstr "仓库的默认分支（即克隆仓库时不带参数检出的分支）"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:173
 msgid "*Optional*"
-msgstr ""
+msgstr "*可选*"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:175
 msgid ""
 "For example, to build the ``dev`` branch of project ``example-project`` "
 "using the integration token ``1234``:"
-msgstr ""
+msgstr "例如，使用集成令牌 ``1234`` 构建项目 ``example-project`` 的 ``dev`` 分支："
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:198
 msgid ""
-"A command like the one above could be called from a cron job or from a "
-"`Git hook`_."
-msgstr ""
+"A command like the one above could be called from a cron job or from a `Git "
+"hook`_."
+msgstr "类似上面的命令可以从 cron 作业或 `Git hook`_ 中调用。"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:203
 msgid "Authentication"
-msgstr ""
+msgstr "认证"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:205
 msgid ""
-"This endpoint requires authentication. If authenticating with an "
-"integration token, a check will determine if the token is valid and "
-"matches the given project. If instead an authenticated user is used to "
-"make this request, a check will be performed to ensure the authenticated "
-"user is an owner of the project."
-msgstr ""
+"This endpoint requires authentication. If authenticating with an integration"
+" token, a check will determine if the token is valid and matches the given "
+"project. If instead an authenticated user is used to make this request, a "
+"check will be performed to ensure the authenticated user is an owner of the "
+"project."
+msgstr "此端点需要认证。若使用集成令牌认证，将检查令牌是否有效并与指定项目匹配；若使用已认证用户发起请求，则检查该用户是否为项目所有者。"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:211
 msgid "Troubleshooting Git provider webhooks"
-msgstr ""
+msgstr "Git 服务商 Webhook 故障排查"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:214
 msgid "Debugging webhooks"
-msgstr ""
+msgstr "调试 Webhook"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:216
 msgid ""
-"If you are experiencing problems with an existing webhook, you may be "
-"able to use the integration detail page to help debug the issue. Each "
-"project integration, such as a webhook or the generic API endpoint, "
-"stores the HTTP exchange that takes place between Read the Docs and the "
-"external source. You'll find a list of these exchanges in any of the "
-"integration detail pages."
+"If you are experiencing problems with an existing webhook, you may be able "
+"to use the integration detail page to help debug the issue. Each project "
+"integration, such as a webhook or the generic API endpoint, stores the HTTP "
+"exchange that takes place between Read the Docs and the external source. "
+"You'll find a list of these exchanges in any of the integration detail "
+"pages."
 msgstr ""
+"若现有 Webhook 出现问题，可尝试用集成详情页辅助调试。每个项目集成（如 Webhook 或通用 API 端点）都会存储 Read the "
+"Docs 与外部源之间发生的 HTTP 交换记录。在任意集成详情页都能找到这些交换的列表。"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:223
 msgid "Webhook activation failed. Make sure you have the necessary permissions"
-msgstr ""
+msgstr "Webhook 激活失败。请确认你具备必要权限"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:225
 msgid ""
@@ -408,19 +442,22 @@ msgid ""
 "Read the Docs `OAuth App`_ to your organization. A similar workflow is "
 "required for other supported providers."
 msgstr ""
+"若遇到此错误，请确认你的用户对该仓库有权限。以 GitHub 为例，检查是否已向你的组织授予 Read the Docs `OAuth App`_ "
+"访问权限。其他受支持服务商需要类似流程。"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:235
 msgid "My project isn't automatically building"
-msgstr ""
+msgstr "我的项目没有自动构建"
 
 #: ../../upstream/docs/user/guides/setup/git-repo-manual.rst:237
 msgid ""
-"If your project isn't automatically building, you can check your "
-"integration on Read the Docs to see the payload sent to our servers. If "
-"there is no recent activity on your Read the Docs project webhook "
-"integration, then it's likely that your Git provider is not configured "
-"correctly. If there is payload information on your Read the Docs project,"
-" you might need to verify that your versions are configured to build "
-"correctly."
+"If your project isn't automatically building, you can check your integration"
+" on Read the Docs to see the payload sent to our servers. If there is no "
+"recent activity on your Read the Docs project webhook integration, then it's"
+" likely that your Git provider is not configured correctly. If there is "
+"payload information on your Read the Docs project, you might need to verify "
+"that your versions are configured to build correctly."
 msgstr ""
+"若项目未自动构建，可查看 Read the Docs 上的集成以了解发送到我们服务器的载荷。若 Read the Docs 项目的 Webhook "
+"集成没有近期活动，很可能是你的 Git 服务商配置有误。若项目上有载荷信息，你可能需要确认各版本已正确配置为可构建。"
 

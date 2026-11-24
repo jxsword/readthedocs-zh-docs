@@ -22,80 +22,80 @@ msgstr ""
 
 #: ../../upstream/docs/user/guides/enable-offline-formats.rst:2
 msgid "How to enable offline formats"
-msgstr ""
+msgstr "如何启用离线格式"
 
 #: ../../upstream/docs/user/guides/enable-offline-formats.rst:4
 msgid ""
 "This guide provides **step-by-step instructions to enabling offline "
 "formats** of your documentation."
-msgstr ""
+msgstr "本指南提供**启用文档离线格式的分步说明** 。"
 
 #: ../../upstream/docs/user/guides/enable-offline-formats.rst:6
 msgid ""
 "They are automatically built by Read the Docs during our default build "
 "process, as long as you have the configuration enabled to turn this on."
-msgstr ""
+msgstr "只要配置中启用了该功能，Read the Docs 会在默认构建过程中自动构建它们。"
 
 #: ../../upstream/docs/user/guides/enable-offline-formats.rst:10
 msgid "Enabling offline formats"
-msgstr ""
+msgstr "启用离线格式"
 
 #: ../../upstream/docs/user/guides/enable-offline-formats.rst:12
 msgid ""
-"Offline formats are enabled by the :ref:`config-file/v2:formats` key in "
-"our config file. A simple example is here:"
-msgstr ""
+"Offline formats are enabled by the :ref:`config-file/v2:formats` key in our "
+"config file. A simple example is here:"
+msgstr "通过配置文件中的 :ref:`config-file/v2:formats` 键启用离线格式。简单示例如下："
 
 #: ../../upstream/docs/user/guides/enable-offline-formats.rst:23
 msgid "Verifying offline formats"
-msgstr ""
+msgstr "验证离线格式"
 
 #: ../../upstream/docs/user/guides/enable-offline-formats.rst:25
 msgid ""
-"You can verify that offline formats are building in your "
-":guilabel:`Project dashboard` > :guilabel:`Downloads`:"
-msgstr ""
+"You can verify that offline formats are building in your :guilabel:`Project "
+"dashboard` > :guilabel:`Downloads`:"
+msgstr "你可以在 :guilabel:`Project dashboard` > :guilabel:`Downloads` 中验证离线格式是否已构建："
 
 #: ../../upstream/docs/user/guides/enable-offline-formats.rst:31
 msgid "Deleting offline formats"
-msgstr ""
+msgstr "删除离线格式"
 
 #: ../../upstream/docs/user/guides/enable-offline-formats.rst:33
 msgid ""
-"The entries in the Downloads section of your project dashboard reflect "
-"the formats specified in your config file for each active version."
-msgstr ""
+"The entries in the Downloads section of your project dashboard reflect the "
+"formats specified in your config file for each active version."
+msgstr "项目仪表板 Downloads 区域中的条目，反映配置文件中为每个活跃版本指定的格式。"
 
 #: ../../upstream/docs/user/guides/enable-offline-formats.rst:36
 msgid ""
 "This means that if you wish to remove downloadable content for a given "
 "version, you can do so by removing the matching :ref:`config-"
 "file/v2:formats` key from your config file."
-msgstr ""
+msgstr "这意味着若要移除某个版本的可下载内容，只需从配置文件中删除对应的 :ref:`config-file/v2:formats` 键。"
 
 #: ../../upstream/docs/user/guides/enable-offline-formats.rst:42
 msgid "Continue learning"
-msgstr ""
+msgstr "继续学习"
 
 #: ../../upstream/docs/user/guides/enable-offline-formats.rst:46
 msgid ""
-"Other pages in our documentation are relevant to this feature, and might "
-"be a useful next step."
-msgstr ""
+"Other pages in our documentation are relevant to this feature, and might be "
+"a useful next step."
+msgstr "我们文档中的其他页面与此功能相关，可作为下一步参考。"
 
 #: ../../upstream/docs/user/guides/enable-offline-formats.rst:50
 msgid ":doc:`/offline-formats` - Overview of this feature."
-msgstr ""
+msgstr ":doc:`/offline-formats` - 此功能概览。"
 
 #: ../../upstream/docs/user/guides/enable-offline-formats.rst:51
 msgid ""
 ":ref:`config-file/v2:formats` - Configuration file options for offline "
 "formats."
-msgstr ""
+msgstr ":ref:`config-file/v2:formats` - 离线格式的配置文件选项。"
 
 #: ../../upstream/docs/user/guides/enable-offline-formats.rst:52
 msgid ""
-":ref:`build-customization:where to put files` - Where to put offline "
-"format output when using custom build commands."
-msgstr ""
+":ref:`build-customization:where to put files` - Where to put offline format "
+"output when using custom build commands."
+msgstr ":ref:`build-customization:where to put files` - 使用自定义构建命令时离线格式输出的放置位置。"
 

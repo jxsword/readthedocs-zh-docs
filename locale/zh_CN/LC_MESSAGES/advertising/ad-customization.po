@@ -22,44 +22,44 @@ msgstr ""
 
 #: ../../upstream/docs/user/advertising/ad-customization.rst:4
 msgid "Customizing advertising"
-msgstr ""
+msgstr "定制广告"
 
 #: ../../upstream/docs/user/advertising/ad-customization.rst:8
 msgid ""
-"This document details features that are a **work in progress**. To "
-"discuss this document, please get in touch in the `issue tracker`_."
-msgstr ""
+"This document details features that are a **work in progress**. To discuss "
+"this document, please get in touch in the `issue tracker`_."
+msgstr "本文详述的功能仍**处于开发中** 。如需讨论本文，请在 `issue tracker`_ 中联系我们。"
 
 #: ../../upstream/docs/user/advertising/ad-customization.rst:13
 msgid ""
 "In addition to allowing users and documentation authors to :ref:`opt out "
-"<advertising/ethical-advertising:Opting out>` of advertising, we allow "
-"some additional controls for documentation authors to control the "
-"positioning and styling of advertising. This can improve the performance "
-"of advertising or make sure the ad is in a place where it fits well with "
-"the documentation."
+"<advertising/ethical-advertising:Opting out>` of advertising, we allow some "
+"additional controls for documentation authors to control the positioning and"
+" styling of advertising. This can improve the performance of advertising or "
+"make sure the ad is in a place where it fits well with the documentation."
 msgstr ""
+"除允许用户和文档作者 :ref:`选择退出 <advertising/ethical-advertising:Opting out>` "
+"广告外，我们还为文档作者提供额外的广告位置和样式控制。这能提升广告效果，或确保广告出现在与文档契合的位置。"
 
 #: ../../upstream/docs/user/advertising/ad-customization.rst:22
 msgid "Controlling the placement of an ad"
-msgstr ""
+msgstr "控制广告位置"
 
 #: ../../upstream/docs/user/advertising/ad-customization.rst:24
 msgid ""
 "It is possible for a documentation author to instruct Read the Docs to "
 "position advertising in a specific location. This is done by adding a "
-"specific element to the generated body. The ad will be inserted into this"
-" container wherever this element is in the document body."
-msgstr ""
+"specific element to the generated body. The ad will be inserted into this "
+"container wherever this element is in the document body."
+msgstr "文档作者可以指示 Read the Docs 将广告放置在特定位置。做法是在生成的 body 中加入特定元素。广告会插入到该元素所在的容器中。"
 
 #: ../../upstream/docs/user/advertising/ad-customization.rst:35
 msgid "In Sphinx"
-msgstr ""
+msgstr "在 Sphinx 中"
 
 #: ../../upstream/docs/user/advertising/ad-customization.rst:37
 msgid ""
 "In Sphinx, this is typically done by adding a new template (under "
-"`templates_path`_) for inclusion in the `HTML sidebar`_ in your "
-"``conf.py``."
-msgstr ""
+"`templates_path`_) for inclusion in the `HTML sidebar`_ in your ``conf.py``."
+msgstr "在 Sphinx 中，通常是在 ``conf.py`` 的 `templates_path`_ 下新增模板，并将其引入 `HTML sidebar`_ 。"
 

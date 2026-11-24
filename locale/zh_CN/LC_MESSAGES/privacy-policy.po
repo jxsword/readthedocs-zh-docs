@@ -22,393 +22,415 @@ msgstr ""
 
 #: ../../upstream/docs/user/privacy-policy.rst:5
 msgid "Privacy Policy"
-msgstr ""
+msgstr "隐私政策"
 
 #: ../../upstream/docs/user/privacy-policy.rst:7
 msgid "Effective date: **February 21, 2023**"
-msgstr ""
+msgstr "生效日期：**2023 年 2 月 21 日**"
 
 #: ../../upstream/docs/user/privacy-policy.rst:9
 msgid ""
 "Welcome to Read the Docs. At Read the Docs, we believe in protecting the "
 "privacy of our users, authors, and readers."
-msgstr ""
+msgstr "欢迎使用 Read the Docs。在 Read the Docs，我们相信应保护用户、作者和读者的隐私。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:15
 msgid "The short version"
-msgstr ""
+msgstr "简要版本"
 
 #: ../../upstream/docs/user/privacy-policy.rst:17
 msgid ""
 "We collect your information only with your consent; we only collect the "
 "minimum amount of personal information that is necessary to fulfill the "
-"purpose of your interaction with us; we don't sell it to third parties; "
-"and we only use it as this Privacy Policy describes."
-msgstr ""
+"purpose of your interaction with us; we don't sell it to third parties; and "
+"we only use it as this Privacy Policy describes."
+msgstr "我们仅在你同意时收集你的信息；只收集实现你与我们交互目的所必需的最少个人信息；不出售给第三方；并且只按本隐私政策所述使用。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:23
 msgid ""
-"Of course, the short version doesn't tell you everything, so please read "
-"on for more details!"
-msgstr ""
+"Of course, the short version doesn't tell you everything, so please read on "
+"for more details!"
+msgstr "当然，简明版本无法涵盖全部内容，请继续阅读以了解详细信息！"
 
 #: ../../upstream/docs/user/privacy-policy.rst:28
 msgid "Our services"
-msgstr ""
+msgstr "我们的服务"
 
 #: ../../upstream/docs/user/privacy-policy.rst:30
 msgid "Read the Docs is made up of:"
-msgstr ""
+msgstr "Read the Docs 由以下部分组成："
 
 #: ../../upstream/docs/user/privacy-policy.rst:32
 msgid "readthedocs.org (\"Read the Docs Community\")"
-msgstr ""
+msgstr "readthedocs.org（\"Read the Docs Community\"）"
 
 #: ../../upstream/docs/user/privacy-policy.rst:33
 msgid ""
 "This is a website aimed at documentation authors and project maintainers "
 "writing and distributing technical documentation. This Privacy Policy "
 "applies to this site in full without reservation."
-msgstr ""
+msgstr "这是面向编写和分发技术文档的文档作者与项目维护者的网站。本隐私政策完全适用于该站点，无任何保留。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:37
 msgid "readthedocs.com (\"Read the Docs Business\")"
-msgstr ""
+msgstr "readthedocs.com（\"Read the Docs Business\"）"
 
 #: ../../upstream/docs/user/privacy-policy.rst:38
 msgid ""
 "This website is a commercial hosted offering for hosting private "
 "documentation for corporate clients. This Privacy Policy applies to this "
 "site in full without reservation."
-msgstr ""
+msgstr "这是面向企业客户托管私有文档的商业托管服务。本隐私政策完全适用于该站点，无任何保留。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:42
 msgid ""
-"readthedocs.io, readthedocs-hosted.com, and other domains "
-"(\"Documentation Sites\")"
-msgstr ""
+"readthedocs.io, readthedocs-hosted.com, and other domains (\"Documentation "
+"Sites\")"
+msgstr "readthedocs.io、readthedocs-hosted.com 及其他域名（\"文档站点\"）"
 
 #: ../../upstream/docs/user/privacy-policy.rst:43
 msgid ""
-"These websites are where Read the Docs hosts documentation (`User-"
-"Generated Content <https://about.readthedocs.com/terms-of-service/#user-"
-"generated-content>`_) on behalf of documentation authors. A best effort "
-"is made to apply this Privacy Policy to these sites but the documentation"
-" may contain content and files created by documentation authors."
+"These websites are where Read the Docs hosts documentation (`User-Generated "
+"Content <https://about.readthedocs.com/terms-of-service/#user-generated-"
+"content>`_) on behalf of documentation authors. A best effort is made to "
+"apply this Privacy Policy to these sites but the documentation may contain "
+"content and files created by documentation authors."
 msgstr ""
+"这些网站是 Read the Docs 代文档作者托管文档（`用户生成内容 <https://about.readthedocs.com/terms-"
+"of-service/#user-generated-content>`_ "
+"）的地方。我们尽力将本隐私政策应用于这些站点，但文档中可能包含由文档作者创建的内容和文件。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:49
 msgid ""
-"All use of Read the Docs is subject to this Privacy Policy, together with"
-" our `Terms of Service <https://about.readthedocs.com/terms-of-"
-"service/>`_."
+"All use of Read the Docs is subject to this Privacy Policy, together with "
+"our `Terms of Service <https://about.readthedocs.com/terms-of-service/>`_."
 msgstr ""
+"对 Read the Docs 的所有使用均受本隐私政策和我们的 `服务条款 <https://about.readthedocs.com/terms-"
+"of-service/>`_ 约束。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:53
 msgid "What information Read the Docs collects and why"
-msgstr ""
+msgstr "Read the Docs 收集哪些信息及原因"
 
 #: ../../upstream/docs/user/privacy-policy.rst:56
 msgid "Information from website browsers"
-msgstr ""
+msgstr "来自网站浏览器的信息"
 
 #: ../../upstream/docs/user/privacy-policy.rst:58
 msgid ""
 "If you're **just browsing the website**, we collect the same basic "
-"information that most websites collect. We use common internet "
-"technologies, such as cookies and web server logs. We collect this basic "
-"information from everybody, whether they have an account or not."
+"information that most websites collect. We use common internet technologies,"
+" such as cookies and web server logs. We collect this basic information from"
+" everybody, whether they have an account or not."
 msgstr ""
+"若你**只是浏览网站** ，我们收集的信息与大多数网站相同。我们使用常见的互联网技术，如 cookie 和 Web "
+"服务器日志。无论访客是否有账户，我们都收集这些基本信息。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:62
 msgid "The information we collect about all visitors to our website includes:"
-msgstr ""
+msgstr "我们收集的所有网站访客信息包括："
 
 #: ../../upstream/docs/user/privacy-policy.rst:64
 msgid "the visitor's browser type"
-msgstr ""
+msgstr "访客的浏览器类型"
 
 #: ../../upstream/docs/user/privacy-policy.rst:65
 msgid "language preference"
-msgstr ""
+msgstr "语言偏好"
 
 #: ../../upstream/docs/user/privacy-policy.rst:66
 msgid "referring site"
-msgstr ""
+msgstr "来源站点"
 
 #: ../../upstream/docs/user/privacy-policy.rst:67
 msgid "the date and time of each visitor request"
-msgstr ""
+msgstr "每次访客请求的日期和时间"
 
 #: ../../upstream/docs/user/privacy-policy.rst:69
 msgid ""
-"We also collect potentially personally-identifying information like "
-"Internet Protocol (IP) addresses."
-msgstr ""
+"We also collect potentially personally-identifying information like Internet"
+" Protocol (IP) addresses."
+msgstr "我们还收集可能具有个人识别性的信息，如互联网协议（IP）地址。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:74
 msgid "Why do we collect this?"
-msgstr ""
+msgstr "我们为何收集这些信息？"
 
 #: ../../upstream/docs/user/privacy-policy.rst:76
 msgid ""
-"We collect this information to better understand how our website visitors"
-" use Read the Docs, and to monitor and protect the security of the "
-"website."
-msgstr ""
+"We collect this information to better understand how our website visitors "
+"use Read the Docs, and to monitor and protect the security of the website."
+msgstr "我们收集这些信息以更好地了解网站访客如何使用 Read the Docs，并监控和保护网站安全。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:81
 msgid "Information from users with accounts"
-msgstr ""
+msgstr "来自有账户用户的信息"
 
 #: ../../upstream/docs/user/privacy-policy.rst:83
 msgid ""
-"If you **create an account**, we require some basic information at the "
-"time of account creation. You will create your own user name and "
-"password, and we will ask you for a valid email account. You also have "
-"the option to give us more information if you want to, and this may "
-"include \"User Personal Information.\""
+"If you **create an account**, we require some basic information at the time "
+"of account creation. You will create your own user name and password, and we"
+" will ask you for a valid email account. You also have the option to give us"
+" more information if you want to, and this may include \"User Personal "
+"Information.\""
 msgstr ""
+"若你**创建账户** "
+"，我们在创建账户时需要一些基本信息。你会自行设置用户名和密码，我们还会要求你提供有效的邮箱账户。你也可以选择向我们提供更多信息，这些信息可能包含\"用户个人信息\"。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:88
 msgid ""
 "\"User Personal Information\" is any information about one of our users "
-"which could, alone or together with other information, personally "
-"identify him or her. Information such as a user name and password, an "
-"email address, a real name, and a photograph are examples of \"User "
-"Personal Information.\""
-msgstr ""
+"which could, alone or together with other information, personally identify "
+"him or her. Information such as a user name and password, an email address, "
+"a real name, and a photograph are examples of \"User Personal Information.\""
+msgstr "\"用户个人信息\"是指关于我们某位用户的、单独或与其他信息结合后可识别其身份的任何信息。用户姓名和密码、邮箱地址、真实姓名和照片等都属于\"用户个人信息\"。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:93
 msgid ""
 "User Personal Information does not include aggregated, non-personally "
-"identifying information. We may use aggregated, non-personally "
-"identifying information to operate, improve, and optimize our website and"
-" service."
-msgstr ""
+"identifying information. We may use aggregated, non-personally identifying "
+"information to operate, improve, and optimize our website and service."
+msgstr "用户个人信息不包括聚合的、不可识别个人身份的信息。我们可能使用聚合的、不可识别个人身份的信息来运营、改进和优化我们的网站与服务。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:98
 msgid "Why do we collect this information?"
-msgstr ""
+msgstr "我们为何收集这些信息？"
 
 #: ../../upstream/docs/user/privacy-policy.rst:100
 msgid ""
 "We need your User Personal Information to create your account, and to "
 "provide the services you request."
-msgstr ""
+msgstr "我们需要你的用户个人信息来创建账户并提供你请求的服务。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:101
 msgid ""
 "We use your User Personal Information, specifically your user name, to "
 "identify you on Read the Docs."
-msgstr ""
+msgstr "我们使用你的用户个人信息（具体而言是你的用户名）在 Read the Docs 上识别你的身份。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:102
-msgid ""
-"We use it to fill out your profile and share that profile with other "
-"users."
-msgstr ""
+msgid "We use it to fill out your profile and share that profile with other users."
+msgstr "我们用它填写你的资料，并将该资料与其他用户分享。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:103
 msgid ""
-"We will use your email address to communicate with you but it is not "
-"shared publicly."
-msgstr ""
+"We will use your email address to communicate with you but it is not shared "
+"publicly."
+msgstr "我们使用你的邮箱与你沟通，但不会公开分享。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:104
 msgid ""
-"We limit our use of your User Personal Information to the purposes listed"
-" in this Privacy Statement. If we need to use your User Personal "
-"Information for other purposes, we will ask your permission first. You "
-"can always see what information we have in your `user account "
+"We limit our use of your User Personal Information to the purposes listed in"
+" this Privacy Statement. If we need to use your User Personal Information "
+"for other purposes, we will ask your permission first. You can always see "
+"what information we have in your `user account "
 "<https://app.readthedocs.org/accounts/edit/>`__."
 msgstr ""
+"我们将用户个人信息的使用限于本隐私声明所列目的。若需用于其他目的，我们会先征得你的许可。你随时可以在 `用户账户 "
+"<https://app.readthedocs.org/accounts/edit/>`__ 中查看我们掌握的信息。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:110
 msgid "What information Read the Docs does not collect"
-msgstr ""
+msgstr "Read the Docs 不收集哪些信息"
 
 #: ../../upstream/docs/user/privacy-policy.rst:112
 msgid ""
-"We do not intentionally collect **sensitive personal information**, such "
-"as social security numbers, genetic data, health information, or "
-"religious information."
-msgstr ""
+"We do not intentionally collect **sensitive personal information**, such as "
+"social security numbers, genetic data, health information, or religious "
+"information."
+msgstr "我们不会有意收集**敏感个人信息** ，如社会保障号码、基因数据、健康信息或宗教信息。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:115
 msgid ""
-"Documentation Sites hosted on Read the Docs are public, anyone (including"
-" us) may view their contents. If you have included private or sensitive "
+"Documentation Sites hosted on Read the Docs are public, anyone (including "
+"us) may view their contents. If you have included private or sensitive "
 "information in your Documentation Site, such as email addresses, that "
 "information may be indexed by search engines or used by third parties."
 msgstr ""
+"托管在 Read the Docs "
+"上的文档站点是公开的，任何人（包括我们）都可能查看其内容。若你在文档站点中放入了私密或敏感信息（如邮箱地址），这些信息可能被搜索引擎索引或被第三方使用。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:120
 msgid ""
 "Read the Docs Business may host `private projects "
-"<https://about.readthedocs.com/terms-of-service/#private-projects>`_ "
-"which we treat as confidential and we only access them for support "
-"reasons, with your consent, or if required to for security reasons"
+"<https://about.readthedocs.com/terms-of-service/#private-projects>`_ which "
+"we treat as confidential and we only access them for support reasons, with "
+"your consent, or if required to for security reasons"
 msgstr ""
+"Read the Docs Business 可能托管 `私有项目 <https://about.readthedocs.com/terms-of-"
+"service/#private-projects>`_ ，我们将其视为机密，仅出于支持目的、经你同意或因安全原因需要时才予访问"
 
 #: ../../upstream/docs/user/privacy-policy.rst:123
 msgid ""
-"If you're a **child under the age of 13**, you may not have an account on"
-" Read the Docs. Read the Docs does not knowingly collect information from"
-" or direct any of our content specifically to children under 13. If we "
-"learn or have reason to suspect that you are a user who is under the age "
-"of 13, we will unfortunately have to close your account. We don't want to"
-" discourage you from writing software documentation, but those are the "
-"rules."
+"If you're a **child under the age of 13**, you may not have an account on "
+"Read the Docs. Read the Docs does not knowingly collect information from or "
+"direct any of our content specifically to children under 13. If we learn or "
+"have reason to suspect that you are a user who is under the age of 13, we "
+"will unfortunately have to close your account. We don't want to discourage "
+"you from writing software documentation, but those are the rules."
 msgstr ""
+"若你是**未满 13 周岁的儿童** ，你可能无法在 Read the Docs 上拥有账户。Read the Docs 不会 knowingly "
+"地收集 13 岁以下儿童的信息，也不会专门向他们投放任何内容。若我们得知或有理由怀疑你是未满 13 "
+"周岁的用户，将不得不关闭你的账户。我们不希望打击你编写软件文档的积极性，但规则就是规则。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:129
 msgid "How we share the information we collect"
-msgstr ""
+msgstr "我们如何分享收集的信息"
 
 #: ../../upstream/docs/user/privacy-policy.rst:131
 msgid ""
 "We **do not** share, sell, rent, or trade User Personal Information with "
 "third parties for their commercial purposes."
-msgstr ""
+msgstr "我们**不会** 出于第三方的商业目的共享、出售、出租或交易用户个人信息。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:134
 msgid ""
-"We do not disclose User Personal Information outside Read the Docs, "
-"except in the situations listed in this section or in the section below "
-"on compelled disclosure."
-msgstr ""
+"We do not disclose User Personal Information outside Read the Docs, except "
+"in the situations listed in this section or in the section below on "
+"compelled disclosure."
+msgstr "除本节所列情形或下文强制披露一节所列情形外，我们不会在 Read the Docs 之外披露用户个人信息。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:138
 msgid ""
-"We **do** share certain aggregated, non-personally identifying "
-"information with others about how our users, collectively, use Read the "
-"Docs. For example, we may compile statistics on the prevalence of "
-"different types of documentation across Read the Docs for a blog post or "
-"popularity of programming languages for advertising partners."
+"We **do** share certain aggregated, non-personally identifying information "
+"with others about how our users, collectively, use Read the Docs. For "
+"example, we may compile statistics on the prevalence of different types of "
+"documentation across Read the Docs for a blog post or popularity of "
+"programming languages for advertising partners."
 msgstr ""
+"我们**确实** 会与他人分享某些聚合的、不可识别个人身份的信息，说明我们的用户整体上如何使用 Read the Docs。例如，我们可能汇总统计 "
+"Read the Docs 上各类文档的普及程度用于博客文章，或统计编程语言的流行度供广告合作方参考。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:144
 msgid ""
 "We **do** host advertising on Documentation Sites. This advertising is "
-"first-party advertising hosted by Read the Docs. We **do not** run any "
-"code from advertisers and all ad images are hosted on Read the Docs' "
-"servers. For more details, see our document on :doc:`advertising"
-"/advertising-details`."
+"first-party advertising hosted by Read the Docs. We **do not** run any code "
+"from advertisers and all ad images are hosted on Read the Docs' servers. For"
+" more details, see our document on :doc:`advertising/advertising-details`."
 msgstr ""
+"我们**确实** 在文档站点上投放广告。这些是由 Read the Docs 托管的第一方广告。我们**不会** "
+"运行广告主的任何代码，所有广告图片都托管在 Read the Docs 的服务器上。更多细节见我们的 :doc:`advertising"
+"/advertising-details` 文档。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:150
 msgid ""
-"We may use User Personal Information with your permission, so we can "
-"perform services you have requested. For example, if you request service "
-"on commercially hosted docs, we will ask your permission to sync your "
-"private repositories."
-msgstr ""
+"We may use User Personal Information with your permission, so we can perform"
+" services you have requested. For example, if you request service on "
+"commercially hosted docs, we will ask your permission to sync your private "
+"repositories."
+msgstr "经你许可，我们可能使用用户个人信息以执行你请求的服务。例如，若你请求商业托管文档的服务，我们会征得你同意以同步你的私有仓库。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:155
 msgid ""
-"We may share User Personal Information with a limited number of third "
-"party vendors who process it on our behalf to provide or improve our "
-"service, and who have agreed to privacy restrictions similar to our own "
-"Privacy Statement. For more details, see our next section on :ref:`third "
-"parties <privacy-policy:Third party vendors>`."
+"We may share User Personal Information with a limited number of third party "
+"vendors who process it on our behalf to provide or improve our service, and "
+"who have agreed to privacy restrictions similar to our own Privacy "
+"Statement. For more details, see our next section on :ref:`third parties "
+"<privacy-policy:Third party vendors>`."
 msgstr ""
+"我们可能与数量有限的第三方供应商共享用户个人信息，由其代表我们处理以提供或改进服务，且它们已同意遵守与我们隐私声明类似的隐私限制。更多细节见下一节 "
+":ref:`第三方供应商 <privacy-policy:Third party vendors>` 。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:162
 msgid "Third party vendors"
-msgstr ""
+msgstr "第三方供应商"
 
 #: ../../upstream/docs/user/privacy-policy.rst:164
 msgid ""
-"As we mentioned, we may share some information with third party vendors "
-"or it may be collected by them on our behalf. The information collected "
-"and stored by third parties is subject to their policies and practices. "
-"This list will be updated from time to time and we encourage you to check"
-" back periodically."
-msgstr ""
+"As we mentioned, we may share some information with third party vendors or "
+"it may be collected by them on our behalf. The information collected and "
+"stored by third parties is subject to their policies and practices. This "
+"list will be updated from time to time and we encourage you to check back "
+"periodically."
+msgstr "如前所述，我们可能与第三方供应商共享部分信息，或由其代我们收集。第三方收集和存储的信息受其自身政策和实践约束。此列表会不时更新，我们建议你定期回看。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:172
 msgid "Payment processing"
-msgstr ""
+msgstr "支付处理"
 
 #: ../../upstream/docs/user/privacy-policy.rst:174
 msgid ""
-"Should you choose to become a `Supporter`_, purchase a `Gold "
-"membership`_, or become a subscriber to Read the Docs' commercial hosting"
-" product, your payment information and details will be processed by "
-"Stripe. Read the Docs does not store your payment information."
+"Should you choose to become a `Supporter`_, purchase a `Gold membership`_, "
+"or become a subscriber to Read the Docs' commercial hosting product, your "
+"payment information and details will be processed by Stripe. Read the Docs "
+"does not store your payment information."
 msgstr ""
+"若你选择成为 `Supporter`_ 、购买 `Gold membership`_ 或订阅 Read the Docs "
+"的商业托管产品，你的支付信息和详情将由 Stripe 处理。Read the Docs 不存储你的支付信息。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:183
 msgid "Site monitoring"
-msgstr ""
+msgstr "站点监控"
 
 #: ../../upstream/docs/user/privacy-policy.rst:185
 msgid ""
-"Read the Docs uses Sentry and New Relic to diagnose errors and improve "
-"the performance of our site. Both companies take part in the EU-US "
-"Privacy Shield framework. We aim to minimize the amount of personal "
-"information shared, but the information may include your IP address."
+"Read the Docs uses Sentry and New Relic to diagnose errors and improve the "
+"performance of our site. Both companies take part in the EU-US Privacy "
+"Shield framework. We aim to minimize the amount of personal information "
+"shared, but the information may include your IP address."
 msgstr ""
+"Read the Docs 使用 Sentry 和 New Relic 诊断错误并改进站点性能。两家公司均参与 EU-US Privacy Shield"
+" 框架。我们力求最小化共享的个人信息量，但这些信息可能包含你的 IP 地址。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:192
 msgid "Analytics"
-msgstr ""
+msgstr "分析"
 
 #: ../../upstream/docs/user/privacy-policy.rst:194
 msgid ""
 "We go into detail on analytics in a :ref:`separate section specific to "
 "analytics <privacy-policy:Plausible>`."
-msgstr ""
+msgstr "我们在 :ref:`专门针对分析的独立章节 <privacy-policy:Plausible>` 中详细介绍分析相关内容。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:198
 msgid "Support desk"
-msgstr ""
+msgstr "支持工单系统"
 
 #: ../../upstream/docs/user/privacy-policy.rst:200
 msgid ""
-"Read the Docs uses Front to manage support requests. If you request "
-"support -- typically via email -- Front may process your contact "
-"information."
-msgstr ""
+"Read the Docs uses Front to manage support requests. If you request support "
+"-- typically via email -- Front may process your contact information."
+msgstr "Read the Docs 使用 Front 管理支持请求。若你请求支持——通常通过邮件——Front 可能处理你的联系信息。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:205
 msgid "Email newsletter"
-msgstr ""
+msgstr "邮件通讯"
 
 #: ../../upstream/docs/user/privacy-policy.rst:207
 msgid ""
-"If you sign up for the Read the Docs email newsletter, your email address"
-" and name will be stored by MailerLite. This newsletter is separate from "
-"creating a Read the Docs account and signing up for Read the Docs does "
-"not opt you in for the newsletter."
+"If you sign up for the Read the Docs email newsletter, your email address "
+"and name will be stored by MailerLite. This newsletter is separate from "
+"creating a Read the Docs account and signing up for Read the Docs does not "
+"opt you in for the newsletter."
 msgstr ""
+"若你订阅 Read the Docs 邮件通讯，你的邮箱地址和姓名将由 MailerLite 存储。该通讯与创建 Read the Docs "
+"账户相互独立，订阅 Read the Docs 不会自动为你订阅该通讯。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:212
 msgid ""
-"You can manage your email subscription including unsubscribing and "
-"deleting your records with MailerLite. There is a link to do so in the "
-"footer of any newsletter you receive from us."
-msgstr ""
+"You can manage your email subscription including unsubscribing and deleting "
+"your records with MailerLite. There is a link to do so in the footer of any "
+"newsletter you receive from us."
+msgstr "你可以通过 MailerLite 管理邮件订阅，包括退订和删除你的记录。我们发送的每封通讯页脚都提供相应链接。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:217
 msgid "Public information on Read the Docs"
-msgstr ""
+msgstr "Read the Docs 上的公开信息"
 
 #: ../../upstream/docs/user/privacy-policy.rst:219
 msgid ""
-"Most of Read the Docs is public-facing including user names, project "
-"names, and Documentation Sites. If your content is public-facing, third "
-"parties may access it. We do not sell that content; it is yours."
-msgstr ""
+"Most of Read the Docs is public-facing including user names, project names, "
+"and Documentation Sites. If your content is public-facing, third parties may"
+" access it. We do not sell that content; it is yours."
+msgstr "Read the Docs 大部分内容面向公众，包括用户名、项目名称和文档站点。若你的内容面向公众，第三方可能访问。我们不出售这些内容；它属于你。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:226
 msgid "Our use of cookies and tracking"
-msgstr ""
+msgstr "我们对 cookie 和追踪的使用"
 
 #: ../../upstream/docs/user/privacy-policy.rst:230
 msgid "Do Not Track"
-msgstr ""
+msgstr "Do Not Track"
 
 #: ../../upstream/docs/user/privacy-policy.rst:232
 msgid ""
@@ -416,269 +438,289 @@ msgid ""
 "preferences. Specifically, we support the `W3C's tracking preference "
 "expression`_ and the `EFF's DNT Policy`_."
 msgstr ""
+"Read the Docs 支持 Do Not Track（DNT）并尊重用户的追踪偏好。具体而言，我们支持 `W3C's tracking "
+"preference expression`_ 和 `EFF's DNT Policy`_ 。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:236
 msgid "For Read the Docs, this means:"
-msgstr ""
+msgstr "对 Read the Docs 而言，这意味着："
 
 #: ../../upstream/docs/user/privacy-policy.rst:238
-msgid ""
-"We **do not** do behavioral ad targeting regardless of your DNT "
-"preference."
-msgstr ""
+msgid "We **do not** do behavioral ad targeting regardless of your DNT preference."
+msgstr "无论你的 DNT 偏好如何，我们**都不会** 进行行为广告定向。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:239
 msgid ""
-"Regardless of DNT preference, our logs that contain IP addresses and user"
-" agent strings are deleted after 10 days unless a DNT exception applies."
-msgstr ""
+"Regardless of DNT preference, our logs that contain IP addresses and user "
+"agent strings are deleted after 10 days unless a DNT exception applies."
+msgstr "无论 DNT 偏好如何，除非适用 DNT 例外情况，含 IP 地址和 user agent 字符串的日志都会在 10 天后删除。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:241
 msgid "Our full DNT policy is `available here`_."
-msgstr ""
+msgstr "我们的完整 DNT 政策 `available here`_ 。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:243
 msgid ""
-"Our DNT policy applies without reservation to Read the Docs Community and"
-" Read the Docs Business. A best effort is made to apply this to "
-"Documentation Sites, but we do not have complete control over the "
-"contents of these sites."
+"Our DNT policy applies without reservation to Read the Docs Community and "
+"Read the Docs Business. A best effort is made to apply this to Documentation"
+" Sites, but we do not have complete control over the contents of these "
+"sites."
 msgstr ""
+"我们的 DNT 政策完全适用于 Read the Docs Community 和 Read the Docs "
+"Business。我们尽力将其应用于文档站点，但对这些站点的内容没有完全控制权。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:248
 msgid "For more details about DNT, visit `All About Do Not Track`_."
-msgstr ""
+msgstr "有关 DNT 的更多细节，请访问 `All About Do Not Track`_ 。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:252
 msgid ""
 "Due to the nature of our environment where documentation is built as "
-"necessary, the DNT analytics opt-out for Documentation Sites only applies"
-" for those sites generated after May 1, 2018."
-msgstr ""
+"necessary, the DNT analytics opt-out for Documentation Sites only applies "
+"for those sites generated after May 1, 2018."
+msgstr "由于我们的环境按需构建文档，文档站点的 DNT 分析退出选项仅适用于 2018 年 5 月 1 日之后生成的站点。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:262
 msgid "Cookies"
-msgstr ""
+msgstr "Cookie"
 
 #: ../../upstream/docs/user/privacy-policy.rst:264
 msgid ""
-"Read the Docs uses cookies to make interactions with our service easy and"
-" meaningful. We use cookies to keep you logged in, remember your "
-"preferences, and provide information for future development of Read the "
-"Docs."
+"Read the Docs uses cookies to make interactions with our service easy and "
+"meaningful. We use cookies to keep you logged in, remember your preferences,"
+" and provide information for future development of Read the Docs."
 msgstr ""
+"Read the Docs 使用 cookie 让与我们的服务交互变得便捷且有意义。我们用 cookie 保持你的登录状态、记住你的偏好，并为 Read"
+" the Docs 的后续发展提供信息。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:268
 msgid ""
 "A cookie is a small piece of text that our web server stores on your "
-"computer or mobile device, which your browser sends to us when you return"
-" to our site. Cookies do not necessarily identify you if you are merely "
-"visiting Read the Docs; however, a cookie may store a unique identifier "
-"for each logged in user. The cookies Read the Docs sets are essential for"
-" the operation of the website, or are used for performance or "
-"functionality. By using our website, you agree that we can place these "
-"types of cookies on your computer or device. If you disable your browser "
-"or device's ability to accept cookies, you will not be able to log in to "
-"Read the Docs."
+"computer or mobile device, which your browser sends to us when you return to"
+" our site. Cookies do not necessarily identify you if you are merely "
+"visiting Read the Docs; however, a cookie may store a unique identifier for "
+"each logged in user. The cookies Read the Docs sets are essential for the "
+"operation of the website, or are used for performance or functionality. By "
+"using our website, you agree that we can place these types of cookies on "
+"your computer or device. If you disable your browser or device's ability to "
+"accept cookies, you will not be able to log in to Read the Docs."
 msgstr ""
+"Cookie 是我们的 Web 服务器存储在你电脑或移动设备上的一小段文本，当你返回本站时浏览器会将其发送给我们。若你只是访问 Read the "
+"Docs，Cookie 未必能识别你的身份；但它可能为每个已登录用户存储唯一标识符。Read the Docs 设置的 Cookie "
+"对网站运行必不可少，或用于性能和功能。使用我们的网站即表示你同意我们在你的电脑或设备上放置这类 Cookie。若禁用浏览器或设备的 Cookie "
+"接收能力，你将无法登录 Read the Docs。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:279
 msgid "Plausible"
-msgstr ""
+msgstr "Plausible"
 
 #: ../../upstream/docs/user/privacy-policy.rst:281
 msgid ""
-"We use Plausible as a third party analytics service, but we don't use it "
-"to track you individually or collect your User Personal Information. We "
-"use Plausible to collect information about how our website performs and "
-"how our users, in general, navigate through and use Read the Docs. This "
-"helps us evaluate our users' use of Read the Docs; compile statistical "
-"reports on activity; and improve our content and website performance."
+"We use Plausible as a third party analytics service, but we don't use it to "
+"track you individually or collect your User Personal Information. We use "
+"Plausible to collect information about how our website performs and how our "
+"users, in general, navigate through and use Read the Docs. This helps us "
+"evaluate our users' use of Read the Docs; compile statistical reports on "
+"activity; and improve our content and website performance."
 msgstr ""
+"我们将 Plausible 用作第三方分析服务，但不用它对你进行个体追踪或收集用户个人信息。我们使用 Plausible "
+"收集网站表现以及用户整体如何浏览和使用 Read the Docs 的信息。这有助于我们评估用户的使用情况、编制活动统计报告，并改进内容和网站性能。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:288
 msgid ""
 "Plausible gathers certain simple, non-personally identifying information "
-"over time, such as browser type, internet service provider, referring and"
-" exit pages, time stamp, and similar data about your use of Read the "
-"Docs. We do not link this information to any of your personal information"
-" such as your user name."
+"over time, such as browser type, internet service provider, referring and "
+"exit pages, time stamp, and similar data about your use of Read the Docs. We"
+" do not link this information to any of your personal information such as "
+"your user name."
 msgstr ""
+"Plausible 会随时间收集某些简单且不可识别个人身份的信息，如浏览器类型、互联网服务提供商、来源页和退出页、时间戳，以及你使用 Read the "
+"Docs 的类似数据。我们不会将这些信息与你的任何个人信息（如用户名）关联。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:293
 msgid ""
 "Read the Docs will not, nor will we allow any third party to, use the "
-"Plausible tool to track our users individually or collect any User "
-"Personal Information."
-msgstr ""
+"Plausible tool to track our users individually or collect any User Personal "
+"Information."
+msgstr "Read the Docs 不会、也不会允许任何第三方使用 Plausible 工具对我们的用户进行个体追踪或收集任何用户个人信息。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:298
 msgid "How Read the Docs secures your information"
-msgstr ""
+msgstr "Read the Docs 如何保护你的信息"
 
 #: ../../upstream/docs/user/privacy-policy.rst:300
 msgid ""
 "Read the Docs takes all measures reasonably necessary to protect User "
-"Personal Information from unauthorized access, alteration, or "
-"destruction; maintain data accuracy; and help ensure the appropriate use "
-"of User Personal Information. We follow generally accepted industry "
-"standards to protect the personal information submitted to us, both "
-"during transmission and once we receive it."
+"Personal Information from unauthorized access, alteration, or destruction; "
+"maintain data accuracy; and help ensure the appropriate use of User Personal"
+" Information. We follow generally accepted industry standards to protect the"
+" personal information submitted to us, both during transmission and once we "
+"receive it."
 msgstr ""
+"Read the Docs "
+"采取一切合理必要的措施，防止用户个人信息被未授权访问、篡改或破坏；维护数据准确性；并帮助确保用户个人信息被恰当使用。我们遵循业界公认的标准保护提交给我们的个人信息，无论传输过程中还是接收之后。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:306
 #, python-format
 msgid ""
-"No method of transmission, or method of electronic storage, is 100% "
-"secure. Therefore, we cannot guarantee its absolute security."
-msgstr ""
+"No method of transmission, or method of electronic storage, is 100% secure. "
+"Therefore, we cannot guarantee its absolute security."
+msgstr "没有任何传输方式或电子存储方式是 100% 安全的。因此我们无法保证其绝对安全。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:311
 msgid "Read the Docs' global privacy practices"
-msgstr ""
+msgstr "Read the Docs 的全球隐私实践"
 
 #: ../../upstream/docs/user/privacy-policy.rst:313
 msgid ""
 "**Information that we collect will be stored and processed in the United "
-"States** in accordance with this Privacy Policy. However, we understand "
-"that we have users from different countries and regions with different "
-"privacy expectations, and we try to meet those needs."
-msgstr ""
+"States** in accordance with this Privacy Policy. However, we understand that"
+" we have users from different countries and regions with different privacy "
+"expectations, and we try to meet those needs."
+msgstr "**我们收集的信息将依照本隐私政策在美国存储和处理** 。但我们理解来自不同国家和地区、隐私期待各异的用户群体，并努力满足这些需求。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:319
 msgid ""
-"We provide the same standard of privacy protection to all our users "
-"around the world, regardless of their country of origin or location, "
-"Additionally, we require that if our vendors or affiliates have access to"
-" User Personal Information, they must comply with our privacy policies "
-"and with applicable data privacy laws."
-msgstr ""
+"We provide the same standard of privacy protection to all our users around "
+"the world, regardless of their country of origin or location, Additionally, "
+"we require that if our vendors or affiliates have access to User Personal "
+"Information, they must comply with our privacy policies and with applicable "
+"data privacy laws."
+msgstr "我们为全球所有用户提供同等标准的隐私保护，无论其来源国家或所在地。此外，我们要求供应商或关联方若能访问用户个人信息，必须遵守我们的隐私政策和适用的数据隐私法律。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:325
 msgid "In particular:"
-msgstr ""
+msgstr "具体而言："
 
 #: ../../upstream/docs/user/privacy-policy.rst:327
 msgid ""
-"Read the Docs provides clear methods of unambiguous, informed consent at "
-"the time of data collection, when we do collect your personal data."
-msgstr ""
+"Read the Docs provides clear methods of unambiguous, informed consent at the"
+" time of data collection, when we do collect your personal data."
+msgstr "Read the Docs 在收集你的个人数据时，提供明确、无歧义且知情同意的方式。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:330
 msgid ""
-"We collect only the minimum amount of personal data necessary, unless you"
-" choose to provide more. We encourage you to only give us the amount of "
-"data you are comfortable sharing."
-msgstr ""
+"We collect only the minimum amount of personal data necessary, unless you "
+"choose to provide more. We encourage you to only give us the amount of data "
+"you are comfortable sharing."
+msgstr "除非你选择提供更多，我们只收集必需的最少个人数据。我们鼓励你只提供自己愿意分享的数据量。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:332
 msgid ""
-"We offer you simple methods of accessing, correcting, or deleting the "
-"data we have collected."
-msgstr ""
+"We offer you simple methods of accessing, correcting, or deleting the data "
+"we have collected."
+msgstr "我们为你提供简单的方法来访问、更正或删除我们收集的数据。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:333
 msgid "We also provide our users a method of recourse and enforcement."
-msgstr ""
+msgstr "我们还为用户提供申诉和执行途径。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:337
 msgid "Resolving complaints"
-msgstr ""
+msgstr "处理投诉"
 
 #: ../../upstream/docs/user/privacy-policy.rst:339
 msgid ""
 "If you have concerns about the way Read the Docs is handling your User "
 "Personal Information, please let us know immediately by emailing us at "
 "privacy@readthedocs.org."
-msgstr ""
+msgstr "若你对 Read the Docs 处理用户个人信息的方式有疑虑，请立即发邮件至 privacy@readthedocs.org 告知我们。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:344
 msgid "How we respond to compelled disclosure"
-msgstr ""
+msgstr "我们如何回应强制披露"
 
 #: ../../upstream/docs/user/privacy-policy.rst:346
 msgid ""
 "Read the Docs may disclose personally-identifying information or other "
-"information we collect about you to law enforcement in response to a "
-"valid subpoena, court order, warrant, or similar government order, or "
-"when we believe in good faith that disclosure is reasonably necessary to "
-"protect our property or rights, or those of third parties or the public "
-"at large."
+"information we collect about you to law enforcement in response to a valid "
+"subpoena, court order, warrant, or similar government order, or when we "
+"believe in good faith that disclosure is reasonably necessary to protect our"
+" property or rights, or those of third parties or the public at large."
 msgstr ""
+"Read the Docs "
+"可能在收到有效的传票、法院命令、搜查令或类似政府命令时，向执法机关披露个人身份识别信息或我们收集的关于你的其他信息；或当我们善意认为披露对保护我们的财产或权利、或第三方或公众的整体利益而言是合理必要时进行披露。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:352
 msgid ""
-"In complying with court orders and similar legal processes, Read the Docs"
-" strives for transparency. When permitted, we will make a reasonable "
-"effort to notify users of any disclosure of their information, unless we "
-"are prohibited by law or court order from doing so, or in rare, exigent "
+"In complying with court orders and similar legal processes, Read the Docs "
+"strives for transparency. When permitted, we will make a reasonable effort "
+"to notify users of any disclosure of their information, unless we are "
+"prohibited by law or court order from doing so, or in rare, exigent "
 "circumstances."
 msgstr ""
+"在遵守法院命令和类似法律程序的过程中，Read the Docs "
+"力求透明。在法律允许的情况下，我们会尽力就任何信息披露通知用户，除非法律或法院命令禁止我们这样做，或在罕见的紧急情形下。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:361
 msgid "How you can access and control the information we collect"
-msgstr ""
+msgstr "你如何访问和控制我们收集的信息"
 
 #: ../../upstream/docs/user/privacy-policy.rst:363
 msgid ""
-"If you're already a Read the Docs user, you may access, update, alter, or"
-" delete your basic user profile information by `editing your user account"
-" <https://app.readthedocs.org/accounts/edit/>`__."
+"If you're already a Read the Docs user, you may access, update, alter, or "
+"delete your basic user profile information by `editing your user account "
+"<https://app.readthedocs.org/accounts/edit/>`__."
 msgstr ""
+"若你已是 Read the Docs 用户，可通过 `编辑用户账户 "
+"<https://app.readthedocs.org/accounts/edit/>`__ 访问、更新、修改或删除你的基本用户资料信息。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:369
 msgid "Data retention and deletion"
-msgstr ""
+msgstr "数据保留与删除"
 
 #: ../../upstream/docs/user/privacy-policy.rst:371
 msgid ""
 "Read the Docs will retain User Personal Information for as long as your "
 "account is active or as needed to provide you services."
-msgstr ""
+msgstr "只要你的账户处于活跃状态或为向你提供服务所必需，Read the Docs 就会保留用户个人信息。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:374
 msgid ""
 "We may retain certain User Personal Information indefinitely, unless you "
 "delete it or request its deletion. For example, we don't automatically "
-"delete inactive user accounts, so unless you choose to delete your "
-"account, we will retain your account information indefinitely."
-msgstr ""
+"delete inactive user accounts, so unless you choose to delete your account, "
+"we will retain your account information indefinitely."
+msgstr "除非你自行删除或要求删除，我们可能无限期保留某些用户个人信息。例如，我们不会自动删除不活跃的账户，因此除非你选择删除账户，我们将无限期保留你的账户信息。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:380
 msgid ""
-"If you would like to delete your User Personal Information, you may do so"
-" in your `user account <https://app.readthedocs.org/accounts/delete/>`__."
-" We will retain and use your information as necessary to comply with our "
-"legal obligations, resolve disputes, and enforce our agreements, but "
-"barring legal requirements, we will delete your full profile."
+"If you would like to delete your User Personal Information, you may do so in"
+" your `user account <https://app.readthedocs.org/accounts/delete/>`__. We "
+"will retain and use your information as necessary to comply with our legal "
+"obligations, resolve disputes, and enforce our agreements, but barring legal"
+" requirements, we will delete your full profile."
 msgstr ""
+"若你想删除用户个人信息，可在 `用户账户 <https://app.readthedocs.org/accounts/delete/>`__ "
+"中操作。我们会在履行法律义务、解决争议和执行协议所需的范围内保留和使用你的信息，但除法律要求外，我们将删除你的完整资料。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:386
 msgid ""
-"Our web server logs for Read the Docs Community, Read the Docs Business, "
-"and Documentation Sites are deleted after 10 days barring legal "
-"obligations."
+"Our web server logs for Read the Docs Community, Read the Docs Business, and"
+" Documentation Sites are deleted after 10 days barring legal obligations."
 msgstr ""
+"除法律义务外，Read the Docs Community、Read the Docs Business 和文档站点的 Web 服务器日志会在 10 "
+"天后删除。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:392
 msgid "Changes to our Privacy Policy"
-msgstr ""
+msgstr "隐私政策的变更"
 
 #: ../../upstream/docs/user/privacy-policy.rst:394
 msgid ""
-"We reserve the right to revise this Privacy Policy at any time. If we "
-"change this Privacy Policy in the future, we will post the revised "
-"Privacy Policy and update the \"Effective Date,\" above, to reflect the "
-"date of the changes."
-msgstr ""
+"We reserve the right to revise this Privacy Policy at any time. If we change"
+" this Privacy Policy in the future, we will post the revised Privacy Policy "
+"and update the \"Effective Date,\" above, to reflect the date of the "
+"changes."
+msgstr "我们保留随时修订本隐私政策的权利。若今后对本隐私政策作出变更，我们会发布修订后的政策并更新上方的\"生效日期\"以反映变更日期。"
 
 #: ../../upstream/docs/user/privacy-policy.rst:401
 msgid "Contacting Read the Docs"
-msgstr ""
+msgstr "联系 Read the Docs"
 
 #: ../../upstream/docs/user/privacy-policy.rst:403
 msgid ""
-"Questions regarding Read the Docs' Privacy Policy or information "
-"practices should be directed to privacy@readthedocs.org."
-msgstr ""
+"Questions regarding Read the Docs' Privacy Policy or information practices "
+"should be directed to privacy@readthedocs.org."
+msgstr "有关 Read the Docs 隐私政策或信息实践的问题，请发送至 privacy@readthedocs.org。"
 

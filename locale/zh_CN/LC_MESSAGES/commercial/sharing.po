@@ -22,117 +22,121 @@ msgstr ""
 
 #: ../../upstream/docs/user/commercial/sharing.rst:2
 msgid "Sharing private documentation"
-msgstr ""
+msgstr "共享私有文档"
 
 #: ../../upstream/docs/user/shared/admonition-rtd-business.rst:2
 msgid ""
 "This feature is only available on `Read the Docs Business "
 "<https://app.readthedocs.com/>`_."
-msgstr ""
+msgstr "此功能仅在 `Read the Docs Business <https://app.readthedocs.com/>`_ 上提供。"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:6
 msgid ""
 "Sharing private documentation is useful for giving quick access to your "
-"documentation to users outside of your organization. It allows you to "
-"share specific projects or versions of a project with users who don't "
-"have access to your organization."
-msgstr ""
+"documentation to users outside of your organization. It allows you to share "
+"specific projects or versions of a project with users who don't have access "
+"to your organization."
+msgstr "共享私有文档便于向组织外的用户提供快捷的文档访问。它让你能把特定项目或项目的特定版本共享给无权访问你组织的用户。"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:9
 msgid "Common sharing use cases include:"
-msgstr ""
+msgstr "常见的共享场景包括："
 
 #: ../../upstream/docs/user/commercial/sharing.rst:11
 msgid "Sharing a project with contractors or partners."
-msgstr ""
+msgstr "与承包商或合作伙伴共享项目。"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:12
 msgid "Sharing documentation for your product only to specific customers."
-msgstr ""
+msgstr "仅向特定客户共享你产品的文档。"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:13
 msgid "Embedding documentation in a SaaS application dashboard."
-msgstr ""
+msgstr "在 SaaS 应用仪表盘中嵌入文档。"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:17
 msgid ":doc:`/api/v3`"
-msgstr ""
+msgstr ":doc:`/api/v3`"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:18
 msgid ""
 "You can automate sharing methods via "
 "``/api/v3/projects/<project_slug>/sharing/``."
-msgstr ""
+msgstr "你可以通过 ``/api/v3/projects/<project_slug>/sharing/`` 自动化管理共享方式。"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:21
 msgid "Creating a shared item"
-msgstr ""
+msgstr "创建共享项"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:23
 msgid "Go to your project's :menuselection:`Settings --> Sharing`."
-msgstr ""
+msgstr "前往项目的 :menuselection:`Settings --> Sharing` 。"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:24
 msgid "Click on :guilabel:`Add share`."
-msgstr ""
+msgstr "点击 :guilabel:`Add share` 。"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:25
 msgid ""
-"Select the :guilabel:`Access type` (secret link, password, or HTTP header"
-" token), set the :guilabel:`Expires` date, and add a "
-":guilabel:`Description` to help with managing access in the future."
+"Select the :guilabel:`Access type` (secret link, password, or HTTP header "
+"token), set the :guilabel:`Expires` date, and add a :guilabel:`Description` "
+"to help with managing access in the future."
 msgstr ""
+"选择 :guilabel:`Access type` （secret link、password 或 HTTP header token），设置 "
+":guilabel:`Expires` 日期，并添加 :guilabel:`Description` 以便日后管理访问。"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:27
 msgid ""
-"Check :guilabel:`Allow access to all versions?` if you want to grant "
-"access to all versions, or uncheck that option and select the specific "
-"versions you want to grant access to."
+"Check :guilabel:`Allow access to all versions?` if you want to grant access "
+"to all versions, or uncheck that option and select the specific versions you"
+" want to grant access to."
 msgstr ""
+"若想授予所有版本的访问权限，请勾选 :guilabel:`Allow access to all versions?` "
+"；否则取消勾选并选择要授权的具体版本。"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:29
 msgid "Click :guilabel:`Save`."
-msgstr ""
+msgstr "点击 :guilabel:`Save` 。"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:30
 msgid "Get the info needed to share your documentation with other users:"
-msgstr ""
+msgstr "获取与其他用户共享文档所需的信息："
 
 #: ../../upstream/docs/user/commercial/sharing.rst:32
 msgid "**Secret link:** copy the link that is generated"
-msgstr ""
+msgstr "**Secret link：** 复制生成的链接"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:33
 msgid "**Password:** copy the link and password"
-msgstr ""
+msgstr "**Password：** 复制链接和密码"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:34
 msgid ""
-"**HTTP header token**: Copy the token, and then pass the "
-"``Authorization`` header in your HTTP request."
-msgstr ""
+"**HTTP header token**: Copy the token, and then pass the ``Authorization`` "
+"header in your HTTP request."
+msgstr "**HTTP header token** ：复制令牌，然后在 HTTP 请求中传递 ``Authorization`` 标头。"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:36
 msgid "Give that information to the person who you want to give access."
-msgstr ""
+msgstr "把这些信息提供给你希望授权的用户。"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:40
 msgid "You can always revoke access by removing the sharing item on this page."
-msgstr ""
+msgstr "你随时可以在此页面删除共享项来撤销访问权限。"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:43
 msgid "Sharing methods"
-msgstr ""
+msgstr "共享方式"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:46
 msgid "Secret link"
-msgstr ""
+msgstr "Secret link"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:48
 msgid ""
-"Once the person you send the link to clicks it, they will have access to "
-"the documentation while their browser window is open."
-msgstr ""
+"Once the person you send the link to clicks it, they will have access to the"
+" documentation while their browser window is open."
+msgstr "当你把链接发给某人后，对方点击链接，即可在其浏览器窗口打开期间访问文档。"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:51
 msgid ""
@@ -140,54 +144,57 @@ msgid ""
 "``next`` query parameter in the URL. For example ``https://mydocs"
 ".readthedocs-hosted.com/_/sharing/xxxxxxxxx?next=/en/latest/page.html``."
 msgstr ""
+"若想链接到特定页面，可在 URL 中传入 ``next`` 查询参数。例如 ``https://mydocs.readthedocs-"
+"hosted.com/_/sharing/xxxxxxxxx?next=/en/latest/page.html`` 。"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:56
 msgid ""
-"This is useful for sharing access to an entire set of documentation for a"
-" user. You can embed these links in an internal wiki, for example, and "
-"all your employees will be able to browse the docs without a login."
-msgstr ""
+"This is useful for sharing access to an entire set of documentation for a "
+"user. You can embed these links in an internal wiki, for example, and all "
+"your employees will be able to browse the docs without a login."
+msgstr "这适用于向用户共享整套文档的访问权限。例如你可以把这类链接嵌入内部 wiki，所有员工无需登录即可浏览文档。"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:61
 msgid "Password"
-msgstr ""
+msgstr "Password"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:63
 msgid ""
-"Once the person you send the link to clicks on the link, they will see an"
-" *Authorization required* page asking them for the password you "
-"generated. When the user enters the password, they will gain access to "
-"view your project."
-msgstr ""
+"Once the person you send the link to clicks on the link, they will see an "
+"*Authorization required* page asking them for the password you generated. "
+"When the user enters the password, they will gain access to view your "
+"project."
+msgstr "当你把链接发给某人后，对方点击链接会看到*需要授权* 页面，要求输入你生成的密码。用户输入密码后即可访问查看你的项目。"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:69
 msgid ""
-"This is useful for when you have documentation you want users to "
-"bookmark. They can enter a URL directly and enter the password when "
-"prompted."
-msgstr ""
+"This is useful for when you have documentation you want users to bookmark. "
+"They can enter a URL directly and enter the password when prompted."
+msgstr "这适用于你希望用户添加书签的文档。用户可直接输入 URL，并在提示时输入密码。"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:73
 msgid "HTTP Authorization Header"
-msgstr ""
+msgstr "HTTP Authorization 标头"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:76
 msgid ""
-"This approach is useful for automated scripts. It only allows access to a"
-" page when the header is present, so it doesn't allow browsing docs "
-"inside of a browser."
-msgstr ""
+"This approach is useful for automated scripts. It only allows access to a "
+"page when the header is present, so it doesn't allow browsing docs inside of"
+" a browser."
+msgstr "此方式适用于自动化脚本。只有在存在该标头时才允许访问页面，因此无法在浏览器内浏览文档。"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:81
 msgid "Token Authorization"
-msgstr ""
+msgstr "令牌授权"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:83
 msgid ""
-"You need to send the ``Authorization`` header with the token on each HTTP"
-" request. The header has the form ``Authorization: Token <TOKEN>``. For "
+"You need to send the ``Authorization`` header with the token on each HTTP "
+"request. The header has the form ``Authorization: Token <TOKEN>``. For "
 "example:"
 msgstr ""
+"你需要在每个 HTTP 请求中发送带令牌的 ``Authorization`` 标头。标头形式为 ``Authorization: Token "
+"<TOKEN>`` 。例如："
 
 #: ../../upstream/docs/user/commercial/sharing.rst:91
 msgid ""
@@ -196,93 +203,95 @@ msgid ""
 "``plugin`` is a subproject served under "
 "``https://docs.example.com/projects/plugin/``, use:"
 msgstr ""
+"若想访问子项目，请在子项目本身上创建 HTTP header 令牌，然后请求子项目 URL。例如，若 ``plugin`` 是在 "
+"``https://docs.example.com/projects/plugin/`` 下提供的子项目，则使用："
 
 #: ../../upstream/docs/user/commercial/sharing.rst:101
 msgid ""
-"An HTTP header token created on the parent project does not grant access "
-"to its subprojects."
-msgstr ""
+"An HTTP header token created on the parent project does not grant access to "
+"its subprojects."
+msgstr "在父项目上创建的 HTTP header 令牌不会授予其子项目的访问权限。"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:104
 msgid "Basic Authorization"
-msgstr ""
+msgstr "Basic 授权"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:106
 msgid ""
-"You can also use basic authorization, with the token as user and an empty"
-" password. For example:"
-msgstr ""
+"You can also use basic authorization, with the token as user and an empty "
+"password. For example:"
+msgstr "你也可以使用 basic 授权，以令牌作为用户名、空字符串作为密码。例如："
 
 #: ../../upstream/docs/user/commercial/sharing.rst:114
 msgid "Typical sharing configurations"
-msgstr ""
+msgstr "典型的共享配置"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:116
 msgid ""
-"There are a few common ways to architect sharing, with trade-offs between"
-" them, and you should choose the one that best fits your use case."
-msgstr ""
+"There are a few common ways to architect sharing, with trade-offs between "
+"them, and you should choose the one that best fits your use case."
+msgstr "共享有几种常见的架构方式，各有取舍，你应选择最符合用例的一种。"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:121
 msgid "Bulk passwords"
-msgstr ""
+msgstr "批量密码"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:123
 msgid ""
-"If you want to limit access to a group of users, you can create a "
-"password for each user, and then share the password with them. This "
-"allows users to access the documentation directly, but requires more "
-"management on your end. Any time a new user needs access or you want to "
-"remove access, you will need to generate a new password for them."
-msgstr ""
+"If you want to limit access to a group of users, you can create a password "
+"for each user, and then share the password with them. This allows users to "
+"access the documentation directly, but requires more management on your end."
+" Any time a new user needs access or you want to remove access, you will "
+"need to generate a new password for them."
+msgstr "若想把访问权限限制给一组用户，可为每位用户创建密码再分发给他们。这允许用户直接访问文档，但需要你这边做更多管理。每当有新用户需要访问或你想撤销权限时，都需为其生成新密码。"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:132
 msgid "Authenticated redirect"
-msgstr ""
+msgstr "认证重定向"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:134
 msgid ""
 "If you want to share documentation with a group of users, you need to "
-"authenticate those users against your own system first. The simplest way "
-"to do this is to create an authenticated redirect on your site, which "
-"then redirects to the Read the Docs :ref:`commercial/sharing:secret "
-"link`."
+"authenticate those users against your own system first. The simplest way to "
+"do this is to create an authenticated redirect on your site, which then "
+"redirects to the Read the Docs :ref:`commercial/sharing:secret link`."
 msgstr ""
+"若想把文档共享给一组用户，需先针对你自己的系统认证这些用户。最简单的做法是在你的站点上创建一个认证重定向，再重定向到 Read the Docs 的 "
+":ref:`commercial/sharing:secret link` 。"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:139
 msgid ""
 "This should require minimal customization, and will ensure that only "
-"authenticated users can access the documentation. The downside is that "
-"users won't be able to access the documentation directly from a bookmark,"
-" and will have to go through your site first."
-msgstr ""
+"authenticated users can access the documentation. The downside is that users"
+" won't be able to access the documentation directly from a bookmark, and "
+"will have to go through your site first."
+msgstr "这只需少量定制，并确保只有已认证用户能访问文档。缺点是用户无法直接从书签访问文档，必须先经过你的站点。"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:145
 msgid "Authenticated proxy"
-msgstr ""
+msgstr "认证代理"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:147
 msgid ""
-"If you want a more transparent experience for your users, you can create "
-"a proxy that authenticates users against your system, and then proxies "
-"the request to Read the Docs. This is more complex to set up, but will "
-"allow users to access the documentation directly from a bookmark."
-msgstr ""
+"If you want a more transparent experience for your users, you can create a "
+"proxy that authenticates users against your system, and then proxies the "
+"request to Read the Docs. This is more complex to set up, but will allow "
+"users to access the documentation directly from a bookmark."
+msgstr "若想为用户提供更顺畅的体验，可创建一个先针对你的系统认证用户、再将请求代理到 Read the Docs 的代理。设置较复杂，但用户可直接从书签访问文档。"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:153
 msgid ""
 "This approach would use a :ref:`commercial/sharing:HTTP Authorization "
-"Header` to authenticate users, and would be configured in your proxy "
-"server."
-msgstr ""
+"Header` to authenticate users, and would be configured in your proxy server."
+msgstr "此方式使用 :ref:`commercial/sharing:HTTP Authorization Header` 认证用户，并在你的代理服务器中配置。"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:157
 msgid "Proxy example"
-msgstr ""
+msgstr "代理示例"
 
 #: ../../upstream/docs/user/commercial/sharing.rst:159
 msgid ""
-"Below is an example of how to configure Nginx to proxy requests to Read "
-"the Docs while adding the token in the `Authorization` header."
-msgstr ""
+"Below is an example of how to configure Nginx to proxy requests to Read the "
+"Docs while adding the token in the `Authorization` header."
+msgstr "以下是配置 Nginx 将请求代理到 Read the Docs 并在 `Authorization` 标头中添加令牌的示例。"
 

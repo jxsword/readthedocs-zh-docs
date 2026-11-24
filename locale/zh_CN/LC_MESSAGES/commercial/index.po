@@ -22,30 +22,30 @@ msgstr ""
 
 #: ../../upstream/docs/user/commercial/index.rst:2
 msgid "Business hosting"
-msgstr ""
+msgstr "Business 托管"
 
 #: ../../upstream/docs/user/commercial/index.rst:7
 msgid ""
 "We offer |com_brand| for building and hosting documentation for private "
 "repositories."
-msgstr ""
+msgstr "我们提供 |com_brand|，用于构建和托管私有仓库的文档。"
 
 #: ../../upstream/docs/user/commercial/index.rst:9
 msgid ""
 "In order to get started quickly, you can start a `free 30-day trial "
 "<https://about.readthedocs.com/pricing/>`__ to test out the platform."
-msgstr ""
+msgstr "为快速上手，你可以先 `免费试用 30 天 <https://about.readthedocs.com/pricing/>`__ 体验平台。"
 
 #: ../../upstream/docs/user/commercial/index.rst:13
 msgid ""
 "During the trial period, your documentation is served with a ``noindex`` "
-"robots directive, so search engines won't index it. Subscribe to a paid "
-"plan to make your documentation indexable."
-msgstr ""
+"robots directive, so search engines won't index it. Subscribe to a paid plan"
+" to make your documentation indexable."
+msgstr "试用期内，你的文档会带上 ``noindex`` robots 指令提供服务，搜索引擎不会索引它。订阅付费套餐后文档才可被索引。"
 
 #: ../../upstream/docs/user/commercial/index.rst:20
 msgid "`Read the Docs features <https://about.readthedocs.com/features/>`__"
-msgstr ""
+msgstr "`Read the Docs features <https://about.readthedocs.com/features/>`__"
 
 #: ../../upstream/docs/user/commercial/index.rst:21
 msgid ""
@@ -53,17 +53,19 @@ msgid ""
 "<https://about.readthedocs.com/pricing/>`__ has a feature breakdown by "
 "subscription level."
 msgstr ""
+"平台功能高层概览，以及按订阅等级列出的 `pricing page "
+"<https://about.readthedocs.com/pricing/>`__ 功能明细。"
 
 #: ../../upstream/docs/user/commercial/index.rst:25
 msgid "Commercial documentation solutions"
-msgstr ""
+msgstr "商业文档解决方案"
 
 #: ../../upstream/docs/user/commercial/index.rst:27
 msgid ""
 "In addition to providing the same features as |org_brand|, commercial "
-"subscriptions to Read the Docs add additional features and run on "
-"separate infrastructure."
-msgstr ""
+"subscriptions to Read the Docs add additional features and run on separate "
+"infrastructure."
+msgstr "除提供与 |org_brand| 相同的功能外，Read the Docs 的商业订阅还增加额外功能，并运行在独立的基础设施上。"
 
 #: ../../upstream/docs/user/commercial/index.rst:30
 msgid ""
@@ -71,56 +73,58 @@ msgid ""
 "|com_brand|. If you want a full feature breakdown, please refer to our "
 "`pricing page <https://about.readthedocs.com/pricing/>`__."
 msgstr ""
+"以下列表高层概述了 |com_brand| 覆盖的领域。若需完整功能明细，请参阅我们的 `pricing page "
+"<https://about.readthedocs.com/pricing/>`__ 。"
 
 #: ../../upstream/docs/user/commercial/index.rst:33
 msgid "Private repositories and private documentation"
-msgstr ""
+msgstr "私有仓库与私有文档"
 
 #: ../../upstream/docs/user/commercial/index.rst:34
 msgid ""
 "The largest difference between the community solution and our commercial "
 "offering is the ability to connect to private repositories, to restrict "
-"documentation access to certain users, or to share private documentation "
-"via private hyperlinks."
-msgstr ""
+"documentation access to certain users, or to share private documentation via"
+" private hyperlinks."
+msgstr "社区方案与商业方案的最大差异在于：可连接私有仓库、可将文档访问权限限制给特定用户，或通过私有超链接分享私有文档。"
 
 #: ../../upstream/docs/user/commercial/index.rst:39
 msgid "Priority support"
-msgstr ""
+msgstr "优先支持"
 
 #: ../../upstream/docs/user/commercial/index.rst:40
 msgid ""
-"We have a dedicated support team that responds to support requests during"
-" business hours."
-msgstr ""
+"We have a dedicated support team that responds to support requests during "
+"business hours."
+msgstr "我们设有专门的支持团队，在工作时间响应支持请求。"
 
 #: ../../upstream/docs/user/commercial/index.rst:42
 msgid "Advertising-free"
-msgstr ""
+msgstr "无广告"
 
 #: ../../upstream/docs/user/commercial/index.rst:43
 msgid "All commercially hosted documentation is always ad-free."
-msgstr ""
+msgstr "所有商业托管的文档始终无广告。"
 
 #: ../../upstream/docs/user/commercial/index.rst:45
 msgid "Business features"
-msgstr ""
+msgstr "Business 功能"
 
 #: ../../upstream/docs/user/commercial/index.rst:46
 msgid ""
-"Enjoy additional functionality specifically for larger organizations such"
-" as team management, single sign-on, and audit logging."
-msgstr ""
+"Enjoy additional functionality specifically for larger organizations such as"
+" team management, single sign-on, and audit logging."
+msgstr "享受专为大型组织打造的额外功能，如团队管理、单点登录和审计日志。"
 
 #: ../../upstream/docs/user/commercial/index.rst:51
 msgid ":doc:`/commercial/organizations`"
-msgstr ""
+msgstr ":doc:`/commercial/organizations`"
 
 #: ../../upstream/docs/user/commercial/index.rst:52
 msgid ":doc:`/commercial/single-sign-on`"
-msgstr ""
+msgstr ":doc:`/commercial/single-sign-on`"
 
 #: ../../upstream/docs/user/commercial/index.rst:53
 msgid ":doc:`/security-log`"
-msgstr ""
+msgstr ":doc:`/security-log`"
 

@@ -22,210 +22,213 @@ msgstr ""
 
 #: ../../upstream/docs/user/abandoned-projects.rst:2
 msgid "Abandoned projects policy"
-msgstr ""
+msgstr "废弃项目政策"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:4
 msgid ""
 "This policy describes the process by which a Read the Docs project "
 ":term:`slug` may be changed."
-msgstr ""
+msgstr "本政策描述 Read the Docs 项目 :term:`slug` 可被变更的流程。"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:6
 msgid ""
-"If you want to de-list a project's fork from search results, please see "
-":doc:`/unofficial-projects`."
-msgstr ""
+"If you want to de-list a project's fork from search results, please see :doc"
+":`/unofficial-projects`."
+msgstr "若你想将某项目的 fork 从搜索结果中移除，请参阅 :doc:`/unofficial-projects` 。"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:9
 msgid "Rationale"
-msgstr ""
+msgstr "制定依据"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:11
 msgid ""
-"Conflict between the current use of the name and a different suggested "
-"use of the same name occasionally arise.  This document aims to provide "
-"general guidelines for solving the most typical cases of such conflicts."
-msgstr ""
+"Conflict between the current use of the name and a different suggested use "
+"of the same name occasionally arise.  This document aims to provide general "
+"guidelines for solving the most typical cases of such conflicts."
+msgstr "名称的现有使用与对同一名称的其他建议用途之间，偶尔会产生冲突。本文档旨在为解决此类冲突最典型的情况提供通用准则。"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:16
 msgid "Specification"
-msgstr ""
+msgstr "具体规定"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:18
 msgid ""
-"The main idea behind this policy is that Read the Docs serves the "
-"community.  Every user is invited to upload content under the Terms of "
-"Use, understanding that it is at the sole risk of the user."
-msgstr ""
+"The main idea behind this policy is that Read the Docs serves the community."
+"  Every user is invited to upload content under the Terms of Use, "
+"understanding that it is at the sole risk of the user."
+msgstr "本政策背后的核心思想是：Read the Docs 服务于社区。每位用户都受使用条款邀请上传内容，并理解这完全由用户自行承担风险。"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:22
 msgid ""
-"While Read the Docs is not a backup service, the core team of Read the "
-"Docs does their best to keep that content accessible indefinitely in its "
-"published form. However, in certain edge cases the greater community's "
-"needs might outweigh the individual's expectation of ownership of a "
-"project name."
+"While Read the Docs is not a backup service, the core team of Read the Docs "
+"does their best to keep that content accessible indefinitely in its "
+"published form. However, in certain edge cases the greater community's needs"
+" might outweigh the individual's expectation of ownership of a project name."
 msgstr ""
+"虽然 Read the Docs "
+"并非备份服务，但其核心团队会尽力让这些内容以已发布的形式长期可访问。然而在某些边缘情况下，更广泛的社区需求可能优先于个人对项目名称所有权的期待。"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:27
 msgid "The use cases covered by this policy are:"
-msgstr ""
+msgstr "本政策涵盖的使用场景有："
 
 #: ../../upstream/docs/user/abandoned-projects.rst:29
 #: ../../upstream/docs/user/abandoned-projects.rst:55
 msgid "Abandoned projects"
-msgstr ""
+msgstr "废弃项目"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:30
 msgid ""
 "Renaming a project so that the original project name can be used by a "
 "different project"
-msgstr ""
+msgstr "重命名项目，使原项目名可被另一个项目使用"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:33
 msgid "Active projects"
-msgstr ""
+msgstr "活跃项目"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:34
 msgid "Resolving disputes over a name"
-msgstr ""
+msgstr "解决名称争议"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:37
 msgid "Implementation"
-msgstr ""
+msgstr "实施"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:40
 msgid "Reachability"
-msgstr ""
+msgstr "可联系性"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:42
 msgid ""
-"The user of Read the Docs is solely responsible for being reachable by "
-"the core team for matters concerning projects that the user owns. In "
-"every case where contacting the user is necessary, the core team will try"
-" to do so, using the following means of contact:"
-msgstr ""
+"The user of Read the Docs is solely responsible for being reachable by the "
+"core team for matters concerning projects that the user owns. In every case "
+"where contacting the user is necessary, the core team will try to do so, "
+"using the following means of contact:"
+msgstr "Read the Docs 用户应自行负责就其拥有的项目相关事宜能被核心团队联系到。凡需联系用户的情形，核心团队都会尝试通过以下方式联系："
 
 #: ../../upstream/docs/user/abandoned-projects.rst:47
 msgid "E-mail address on file in the user's profile"
-msgstr ""
+msgstr "用户资料中登记的邮箱地址"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:48
 msgid "E-mail addresses found in the given project's documentation"
-msgstr ""
+msgstr "该项目文档中找到的邮箱地址"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:49
 msgid "E-mail address on the project's home page"
-msgstr ""
+msgstr "项目主页上的邮箱地址"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:51
 msgid ""
 "The core team will stop trying to reach the user after six weeks and the "
 "user will be considered *unreachable*."
-msgstr ""
+msgstr "核心团队将在六周后停止尝试联系，该用户将被视为*无法联系* 。"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:57
 msgid "A project is considered *abandoned* when ALL of the following are met:"
-msgstr ""
+msgstr "当满足以下**全部** 条件时，项目被视为*废弃* ："
 
 #: ../../upstream/docs/user/abandoned-projects.rst:59
 msgid "Owner is unreachable (see `Reachability`_)"
-msgstr ""
+msgstr "所有者无法联系（见 `Reachability`_ ）"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:60
 msgid ""
-"The project has no proper documentation being served (no successful "
-"builds) or does not have any releases within the past twelve months"
-msgstr ""
+"The project has no proper documentation being served (no successful builds) "
+"or does not have any releases within the past twelve months"
+msgstr "项目没有正常提供的文档（无成功构建），或过去十二个月内没有任何发布"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:62
 msgid ""
 "No activity from the owner on the project's home page (or no home page "
 "found)."
-msgstr ""
+msgstr "所有者未在项目主页上有任何活动（或未找到主页）。"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:65
 msgid "All other projects are considered *active*."
-msgstr ""
+msgstr "其他所有项目均视为*活跃* 。"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:68
 msgid "Renaming of an abandoned project"
-msgstr ""
+msgstr "废弃项目的重命名"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:70
 msgid "Projects are never renamed solely on the basis of abandonment."
-msgstr ""
+msgstr "项目绝不会仅因被废弃而重命名。"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:72
 msgid ""
 "An *abandoned* project can be renamed (by appending ``-abandoned`` and a "
-"uniquifying integer if needed) for purposes of reusing the name when ALL "
-"of the following are met:"
-msgstr ""
+"uniquifying integer if needed) for purposes of reusing the name when ALL of "
+"the following are met:"
+msgstr "当满足以下**全部** 条件时，*废弃* 项目可被重命名（追加 ``-abandoned`` 及必要的唯一化整数），以便复用该名称："
 
 #: ../../upstream/docs/user/abandoned-projects.rst:76
 msgid "The project has been determined *abandoned* by the rules described above"
-msgstr ""
+msgstr "项目已依据上述规则被判定为*废弃*"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:77
 msgid ""
-"The candidate is able to demonstrate their own failed attempts to contact"
-" the existing owner"
-msgstr ""
+"The candidate is able to demonstrate their own failed attempts to contact "
+"the existing owner"
+msgstr "申请者能证明自己曾尝试联系现有所有者但未果"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:79
 msgid ""
-"The candidate is able to demonstrate that the project suggested to reuse "
-"the name already exists and meets notability requirements"
-msgstr ""
+"The candidate is able to demonstrate that the project suggested to reuse the"
+" name already exists and meets notability requirements"
+msgstr "申请者能证明拟复用名称的项目已经存在且满足知名度要求"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:81
 msgid ""
-"The candidate is able to demonstrate why a fork under a different name is"
-" not an acceptable workaround"
-msgstr ""
+"The candidate is able to demonstrate why a fork under a different name is "
+"not an acceptable workaround"
+msgstr "申请者能说明为何以其他名称 fork 不是可接受的变通方案"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:83
 msgid "The project has fewer than 100 monthly pageviews"
-msgstr ""
+msgstr "该项目的月浏览量少于 100 次"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:84
 msgid "The core team does not have any additional reservations."
-msgstr ""
+msgstr "核心团队没有其他顾虑。"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:88
 msgid "Reporting an abandoned project"
-msgstr ""
+msgstr "报告废弃项目"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:90
 msgid ""
-"You can report an abandoned project according to this policy by "
-"contacting our :doc:`/support`."
-msgstr ""
+"You can report an abandoned project according to this policy by contacting "
+"our :doc:`/support`."
+msgstr "你可以依据本政策，通过联系我们的 :doc:`/support` 报告废弃项目。"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:92
 msgid "Please include the following information:"
-msgstr ""
+msgstr "请包含以下信息："
 
 #: ../../upstream/docs/user/abandoned-projects.rst:112
 msgid "Name conflict resolution for active projects"
-msgstr ""
+msgstr "活跃项目的名称冲突解决"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:114
 msgid ""
-"The core team of Read the Docs are not arbiters in disputes around "
-"*active* projects. The core team recommends users to get in touch with "
-"each other and solve the issue by respectful communication."
-msgstr ""
+"The core team of Read the Docs are not arbiters in disputes around *active* "
+"projects. The core team recommends users to get in touch with each other and"
+" solve the issue by respectful communication."
+msgstr "Read the Docs 核心团队不充当*活跃* 项目争议的仲裁者。核心团队建议用户相互联系，以尊重的方式解决争议。"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:119
 msgid "Prior art"
-msgstr ""
+msgstr "先例"
 
 #: ../../upstream/docs/user/abandoned-projects.rst:121
 msgid ""
 "The Python Package Index (PyPI) policy for claiming abandoned packages "
-"(`PEP-0541 <https://www.python.org/dev/peps/pep-0541>`_) heavily "
-"influenced this policy."
+"(`PEP-0541 <https://www.python.org/dev/peps/pep-0541>`_) heavily influenced "
+"this policy."
 msgstr ""
+"Python 包索引（PyPI）关于认领废弃包的政策（`PEP-0541 "
+"<https://www.python.org/dev/peps/pep-0541>`_ ）对本政策影响深远。"
 
